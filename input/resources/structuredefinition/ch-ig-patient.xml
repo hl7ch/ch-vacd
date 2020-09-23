@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+    <id value="ch-ig-patient"/>
+    <url value="http://fhir.ch/ig/ch-ig/StructureDefinition/ch-ig-patient"/>
+    <version value="0.1.0"/>
+    <name value="CHIGPatient"/>
+    <title value="CH IG Patient Profile"/>
+    <status value="draft"/>
+    <date value="2018-10-15T00:00:00+10:00"/>
+    <publisher value="HL7 Switzerland"/>
+    <contact>
+        <name value="HL7 Switzerland"/>
+        <telecom>
+            <system value="url"/>
+            <value value="https://www.hl7.ch/"/>
+        </telecom>
+    </contact>
+    <description value="IG patient definition is just an example!"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CH"/>
+        </coding>
+    </jurisdiction>
+    <fhirVersion value="4.0.1" />
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Patient"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Patient">
+            <path value="Patient"/>
+            <short value="CH IG Patient"/>
+        </element>
+    </differential>
+</StructureDefinition>
