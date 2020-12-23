@@ -1,0 +1,190 @@
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+	<id value="ch.fhir.ig.ch-vacd" />
+	<url
+		value="http://fhir.ch/ig/ch-vacd/ImplementationGuide/ch.fhir.ig.ch-vacd" />
+	<version value="0.1.0" />
+	<name value="CH_VACD" />
+	<title value="CH VACD (R4)" />
+	<status value="draft" />
+	<experimental value="false" />
+	<date value="2020-11-01" />
+	<publisher value="eHealth Suisse" />
+	<contact>
+		<name value="eHealth Suisse" />
+		<telecom>
+			<system value="url" />
+			<value value="https://www.e-health-suisse.ch/startseite.html" />
+		</telecom>
+	</contact>
+	<jurisdiction>
+		<coding>
+			<system value="urn:iso:std:iso:3166" />
+			<code value="CH" />
+		</coding>
+	</jurisdiction>
+	<copyright value="CC-BY-SA-4.0" />
+	<packageId value="ch.fhir.ig.ch-vacd" />
+	<license value="CC-BY-SA-4.0" />
+	<fhirVersion value="4.0.1" />
+	<!-- Publication 2021-01-31 v0.1.0 -->
+	<dependsOn id="chcore">
+		<uri
+			value="http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core" />
+		<packageId value="ch.fhir.ig.ch-core" />
+		<version value="1.0.0" />
+	</dependsOn>
+	<dependsOn id="cheprterm">
+		<uri
+			value="http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.ch-epr-term" />
+		<packageId value="ch.fhir.ig.ch-epr-term" />
+		<version value="2.0.4" />
+	</dependsOn>
+
+	<definition>
+		<grouping>
+			<name value="CH-VACD" />
+		</grouping>
+
+		<!-- References to code systems -->
+		<!-- <resource> <reference> <reference value="CodeSystem/snomed-clinicalterms-swiss-extension-cs" 
+			/> </reference> <exampleBoolean value="false" /> </resource> -->
+		<!-- References to structure definitions -->
+		<!-- <resource> <reference> <reference value="Bundle/1-ImmunizationAdministration" 
+			/> </reference> <name value="1 Immunization Administrationn document" /> 
+			<description value="Example for Bundle" /> <exampleCanonical value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration" 
+			/> </resource> -->
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-document-immunization-administration" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-composition-immunization-administration" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-document-immunization-certificate" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-composition-immunization-certificate" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-immunization" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="ValueSet/immunization-vaccines" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		
+		<resource>
+			<reference>
+				<reference value="ValueSet/immunization-diseases" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+		<!-- pages -->
+		<page>
+			<nameUrl value="toc.html" />
+			<title value="Table of Contents" />
+			<generation value="html" />
+			<page>
+				<nameUrl value="index.html" />
+				<title value="Home" />
+				<generation value="markdown" />
+			</page>
+			<!-- the different immunization document types -->
+			<page>
+				<nameUrl value="vaccination-record.html" />
+				<title value="Vaccination Record" />
+				<generation value="markdown" />
+			</page>
+			<page>
+				<nameUrl value="immunization-certificate.html" />
+				<title value="Immunization Certificate" />
+				<generation value="markdown" />
+			</page>
+			<page>
+				<nameUrl value="immunization-administration.html" />
+				<title value="Immunization Administration" />
+				<generation value="markdown" />
+			</page>
+			<page>
+				<nameUrl value="immunization-recommendation-request.html" />
+				<title value="Immunization Recommendation Request" />
+				<generation value="markdown" />
+			</page>
+			<page>
+				<nameUrl value="immunization-recommendation-response.html" />
+				<title value="Immunization Recommendation Response" />
+				<generation value="markdown" />
+			</page>
+
+			<page>
+				<nameUrl value="profiles.html" />
+				<title value="Profiles" />
+				<generation value="html" />
+			</page>
+			<page>
+				<nameUrl value="extensions.html" />
+				<title value="Extensions" />
+				<generation value="html" />
+			</page>
+			<page>
+				<nameUrl value="terminology.html" />
+				<title value="Terminology" />
+				<generation value="html" />
+			</page>
+		</page>
+
+		<!-- parameters -->
+		<parameter>
+			<code value="generate-json" />
+			<value value="true" />
+		</parameter>
+		<parameter>
+			<code value="generate-xml" />
+			<value value="true" />
+		</parameter>
+		<parameter>
+			<code value="generate-turtle" />
+			<value value="false" />
+		</parameter>
+		<parameter>
+			<code value="releaselabel" />
+			<value value="CI build" />
+		</parameter>
+		<parameter>
+			<code value="path-pages" />
+			<value value="input/pages" />
+		</parameter>
+		<parameter>
+			<code value="copyrightyear" />
+			<value value="2020+" />
+		</parameter>
+		<parameter>
+			<code value="special-url" />
+			<value value="urn:oid:0.4.0.127.0.16.1.1.2.1" /> <!--edqm-standardterms -->
+		</parameter>
+	</definition>
+</ImplementationGuide>

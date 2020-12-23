@@ -1,6 +1,8 @@
 *.jar
-input-cache/**
-output/**
-temp/**
-template/**
-.vscode/**
+input-cache
+output
+temp
+template
+.vscode
+.settings
+.project

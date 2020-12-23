@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<project name="art-decor" basedir="." default="default">
+	<target name="init">
+		<mkdir dir="templates" />
+		<mkdir dir="xslt" />
+		<mkdir dir="output" />
+		<property name="canonicalBase" value="http://fhir.ch/ig/ch-vacd" />
+	</target>
+	<target name="clean">
+		<delete dir="templates" />
+		<delete dir="output" />
+	</target>
+	<target name="xslt">
+		<xslt style="xslt/${xsl}" in="${in}" out="${out}" basedir="${basedir}">
+			<classpath>
+				<pathelement location="${basedir}/saxon9he.jar" />
+			</classpath>
+			<param name="canonicalBase" expression="${canonicalBase}" type="STRING" />
+			<param name="resourceId" expression="${resourceId}" type="STRING" />
+			<param name="templateId" expression="${templateId}" type="STRING" />
+			<param name="codeSystem" expression="${codeSystem}" type="STRING" />
+			<param name="name" expression="${name}" type="STRING" />
+			<param name="title" expression="${title}" type="STRING" />
+		</xslt>
+	</target>
+	<target name="transform" depends="init">
+		<delete file="output/${resourceId}.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="xsl" value="${xsl}" />
+			<param name="in" value="templates/${templateId}.xml" />
+			<param name="out" value="output/${resourceId}.xml" />
+			<param name="resourceId" value="${resourceId}" />
+			<param name="templateId" value="${templateId}" />
+			<param name="codeSystem" value="${codeSystem}" />
+			<param name="canonicalBase" value="${canonicalBase}" />
+			<param name="codeSystem" value="${codeSystem}" />
+			<param name="name" value="${name}" />
+			<param name="title" value="${title}" />
+		</antcall>
+		<!-- stupid  nfhir: prefix due to xslt -->
+		<replace file="output/${resourceId}.xml" token="fhir:" value="" />
+		<!-- xmlns:fhir="http://hl7.org/fhir" -->
+		<replace file="output/${resourceId}.xml" token=" xmlns:fhir=&quot;http://hl7.org/fhir&quot;" value="" />
+	</target>
+	<target name="getEprValueSet" depends="init">
+		<get src="http://art-decor.org/fhir/4.0/ch-epr-/ValueSet/${templateId}" dest="templates/${templateId}.xml" skipexisting="true" />
+	</target>
+
+	<target name="transformEprValueSet" depends="init">
+		<antcall target="getEprValueSet">
+			<param name="templateId" value="${templateId}" />
+		</antcall>
+		<antcall target="transform">
+			<param name="xsl" value="adaptValueSetToIg.xsl" />
+			<param name="templateId" value="${templateId}" />
+			<param name="resourceId" value="${resourceId}" />
+		</antcall>
+		<copy file="output/${resourceId}.xml" tofile="../input/resources/valueset/${resourceId}.xml" />
+	</target>
+
+
+	<target name="transformValueSetsToCodeSystem" depends="init">
+		<antcall target="transform">
+			<param name="xsl" value="convertValueSetToCodeSystem.xsl" />
+			<param name="templateId" value="${templateId}" />
+			<param name="canonicalBase" value="${canonicalBase}" />
+			<param name="resourceId" value="${resourceId}" />
+			<param name="codeSystem" value="${codeSystem}" />
+			<param name="name" value="${name}" />
+			<param name="title" value="${title}" />
+		</antcall>
+		<copy file="output/${resourceId}.xml" tofile="../input/resources/codesystem/${resourceId}.xml" />
+	</target>
+
+	<target name="transformEprValueSetConfidentialityCode" depends="init">
+		<antcall target="transformEprValueSet">
+			<param name="resourceId" value="epr-document-confidentiality-code.xml" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.5" />
+		</antcall>
+	</target>
+	<target name="transformEprValueSetsConfidentialityCodeToCodeSystem" depends="init">
+		<antcall target="transformValueSetsToCodeSystem">
+			<param name="resourceId" value="snomed-clinicalterms-swiss-extension-cs" />
+			<param name="codeSystem" value="2.16.756.5.30.1.127.3.4" />
+			<param name="templateId" value="2.16.756.5.30.1.127.3.10.1.5" />
+			<param name="name" value="SNOMEDClinicalTermsSwissExtension" />
+			<param name="title" value="SNOMED Clinical Terms Swiss Extension" />
+		</antcall>
+	</target>
+
+	<target name="transformVaccines" depends="init">
+		<delete file="output/myvaccines-active-vaccines-GEN.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+			<param name="in" value="templates/myv_vaccines_active_valueset.xml" />
+			<param name="out" value="output/myvaccines-active-vaccines-GEN.xml" />
+		</antcall>
+		<replace file="output/myvaccines-active-vaccines-GEN.xml" token=" xmlns:ihe=&quot;urn:ihe:iti:svs:2008&quot;" value="" />
+		<delete file="output/myvaccines-inactive-vaccines-GEN.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+			<param name="in" value="templates/myv_vaccines_inactive_valueset.xml" />
+			<param name="out" value="output/myvaccines-inactive-vaccines-GEN.xml" />
+		</antcall>
+		<replace file="output/myvaccines-inactive-vaccines-GEN.xml" token=" xmlns:ihe=&quot;urn:ihe:iti:svs:2008&quot;" value="" />
+	</target>
+
+	<target name="transformDisease" depends="init">
+		<delete file="output/immunization-diseases-GEN.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="xsl" value="convertDiseaseValues2FhirValueSet.xsl" />
+			<param name="in" value="templates/myy_disease_values.xml" />
+			<param name="out" value="output/immunization-diseases-GEN.xml" />
+		</antcall>
+
+	</target>
+
+
+	<target name="default">
+		<antcall target="transformVaccines" />
+		<antcall target="transformDisease" />
+		<antcall target="transformEprValueSetConfidentialityCode" />
+		<antcall target="transformEprValueSetsConfidentialityCodeToCodeSystem" />
+	</target>
+
+	<target name="dist" depends="init">
+		<copy todir="../input/resources/valueset">
+			<fileset dir="output">
+				<include name="epr-document-confidentiality-code.xml" />
+			</fileset>
+		</copy>
+		<copy todir="../input/resources/codesystem">
+			<fileset dir="output">
+				<include name="snomed-clinicalterms-swiss-extension-cs.xml" />
+			</fileset>
+		</copy>
+	</target>
+
+</project>

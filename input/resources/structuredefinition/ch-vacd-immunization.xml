@@ -1,0 +1,138 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="ch-vacd-immunization" />
+	<url
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+	<version value="0.1.0" />
+	<name value="CHVACDImmunization" />
+	<title value="CH VACD Immunization Profile" />
+	<status value="draft" />
+	<experimental value="false" />
+	<publisher value="eHealth Suisse" />
+	<description
+		value="Definition of the immunization part for all documents" />
+	<mapping>
+		<identity value="cda" />
+		<uri value="http://hl7.org/v3/cda" />
+		<name value="CDA (R2)" />
+	</mapping>
+	<kind value="resource" />
+	<abstract value="false" />
+	<type value="Immunization" />
+	<baseDefinition
+		value="http://hl7.org/fhir/StructureDefinition/Immunization" />
+	<derivation value="constraint" />
+	<differential>
+		<element id="Immunization">
+			<path value="Immunization" />
+			<short value="CH VACD Immunization" />
+			<mapping>
+				<identity value="cda" />
+				<map value="substanceAdministration" />
+			</mapping>
+		</element>
+		<element id="Immunization.contained">
+			<path value="Immunization.contained" />
+			<short value="Immunization inline resource" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Immunization.extension">
+			<path value="Immunization.extension" />
+			<slicing>
+				<discriminator>
+					<type value="value" />
+					<path value="url" />
+				</discriminator>
+				<rules value="open" />
+			</slicing>
+		</element>
+
+
+		<element id="Immunization.identifier">
+			<path value="Immunization.identifier" />
+			<short value="Immunization item ID" />
+			<mapping>
+				<identity value="cda" />
+				<map value=".id" />
+			</mapping>
+		</element>
+		<element id="Immunization.identifier.system">
+			<path value="Immunization.identifier.system" />
+		</element>
+		<element id="Immunization.identifier.value">
+			<path value="Immunization.identifier.value" />
+		</element>
+		<element id="Immunization.status">
+			<path value="Immunization.status" />
+			<!-- <fixedCode value="completed"/> -->
+			<mapping>
+				<identity value="cda" />
+				<map value=".statusCode" />
+			</mapping>
+		</element>
+		<element id="Immunization.vaccineCode">
+			<path value="Immunization.vaccineCode" />
+			<short value="Immunization Vaccine Code" />
+			<binding>
+				<extension
+					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+					<valueString value="VaccineCode" />
+				</extension>
+				<extension
+					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+					<valueBoolean value="true" />
+				</extension>
+				<strength value="required" />
+				<description
+					value="The code for vaccine product administered." />
+				<valueSet
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/immunization-vaccines" />
+			</binding>
+			<mapping>
+				<identity value="cda" />
+				<map
+					value="ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/consumable/manfacturedProduct/manufacturedMaterial/realmCode/code" />
+			</mapping>
+		</element>
+		<element id="Immunization.patient">
+			<path value="Immunization.patient" />
+			<short value="Patient" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+			</type>
+		</element>
+		<element id="Immunization.performer.actor">
+			<path value="Immunization.performer.actor" />
+			<short value="The performer who applied the vaccine" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
+			</type>
+		</element>
+		<element id="Immunization.protocolApplied">
+			<path value="Immunization.protocolApplied" />
+			<min value="1" />
+		</element>
+		<element id="Immunization.protocolApplied.targetDisease">
+			<path value="Immunization.protocolApplied.targetDisease" />
+			<min value="1" />
+			<binding>
+				<extension
+					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+					<valueString value="Disease" />
+				</extension>
+				<extension
+					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+					<valueBoolean value="true" />
+				</extension>
+				<strength value="required" />
+				<description value="The code for disease." />
+				<valueSet
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/immunization-diseases" />
+			</binding>
+		</element>
+	</differential>
+</StructureDefinition>

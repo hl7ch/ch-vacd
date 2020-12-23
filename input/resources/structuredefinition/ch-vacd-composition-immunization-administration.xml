@@ -1,0 +1,332 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+   <id value="ch-vacd-composition-immunization-administration"/>
+   <url value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-administration"/>
+   <version value="0.1.0"/>
+   <name value="CHVACDCompositionImmunizationAdministration"/>
+   <title value="CH VACD Immunization Administration Composition Profile"/>
+   <status value="draft"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <description value="Definition of the composition for the  immunization administration document"/>
+   <mapping>
+      <identity value="cda"/>
+      <uri value="http://hl7.org/v3/cda"/>
+      <name value="CDA (R2)"/>
+   </mapping>
+   <kind value="resource"/>
+   <abstract value="false"/>
+   <type value="Composition"/>
+   <baseDefinition value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-epr"/>
+   <derivation value="constraint"/>
+   <differential>
+      <element id="Composition">
+         <path value="Composition"/>
+         <short value="CH VACD Immunization Administration Composition"/>
+      </element>
+      <element id="Composition.language">
+         <path value="Composition.language"/>
+         <short value="Language of the document"/>
+      </element>
+      <element id="Composition.extension">
+         <path value="Composition.extension"/>
+         <slicing>
+            <discriminator>
+               <type value="value"/>
+               <path value="url"/>
+            </discriminator>
+            <rules value="open"/>
+         </slicing>
+      </element>
+      <element id="Composition.extension:setId">
+         <path value="Composition.extension"/>
+         <sliceName value="setId"/>
+         <short value="Set ID"/>
+      </element>
+      <element id="Composition.extension:versionNumber">
+         <path value="Composition.extension"/>
+         <sliceName value="versionNumber"/>
+         <short value="Version number"/>
+      </element>
+      <element id="Composition.extension:informationRecipient">
+         <path value="Composition.extension"/>
+         <sliceName value="informationRecipient"/>
+         <short value="A recipient of this document (person or organization)"/>
+      </element>
+      <element id="Composition.extension:dataEnterer">
+         <path value="Composition.extension"/>
+         <sliceName value="dataEnterer"/>
+         <short value="Person who entered information into this document if it is a person other than the author"/>
+      </element>
+      <element id="Composition.identifier">
+         <path value="Composition.identifier"/>
+         <short value="Identification number of the document"/>
+      </element>
+      <element id="Composition.identifier.system">
+         <path value="Composition.identifier.system"/>
+      </element>
+      <element id="Composition.identifier.value">
+         <path value="Composition.identifier.value"/>
+      </element>
+      <element id="Composition.status">
+         <path value="Composition.status"/>
+         <fixedCode value="final"/>
+      </element>
+      <element id="Composition.type">
+         <path value="Composition.type"/>
+         <short value="Document type"/>
+         <patternCodeableConcept>
+            <coding>
+               <system value="http://snomed.info/sct"/>
+               <code value="721912009"/>
+               <display value="Medication summary document (record artifact)"/>
+            </coding>
+         </patternCodeableConcept>
+      </element>
+      <element id="Composition.subject">
+         <path value="Composition.subject"/>
+         <short value="A patient for whom this document instance was created"/>
+      </element>
+      <element id="Composition.subject.reference">
+         <path value="Composition.subject.reference"/>
+      </element>
+      <element id="Composition.date">
+         <path value="Composition.date"/>
+         <short value="The document's creation date and time"/>
+      </element>
+      <element id="Composition.author">
+         <path value="Composition.author"/>
+         <short value="The author of the document (person or device)"/>
+      </element>
+      <element id="Composition.author.extension">
+         <path value="Composition.author.extension"/>
+         <short value="Timestamp of the authorship/data input"/>
+         <min value="0"/>
+         <max value="1"/>
+         <type>
+            <code value="Extension"/>
+            <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time"/>
+         </type>
+      </element>
+      <element id="Composition.author.reference">
+         <path value="Composition.author.reference"/>
+      </element>
+      <element id="Composition.title">
+         <path value="Composition.title"/>
+         <short value="'Verabreichte Impfung' in german or 'Vaccin administré' in french or 'Vaccinazione somministrata' in italian or 'Immunization Administration' in english
+                        or titles in other languages are also allowed"/>
+      </element>
+      <element id="Composition.confidentiality">
+         <path value="Composition.confidentiality"/>
+      </element>
+      <element id="Composition.confidentiality.extension">
+         <path value="Composition.confidentiality.extension"/>
+         <slicing>
+            <discriminator>
+               <type value="value"/>
+               <path value="url"/>
+            </discriminator>
+            <rules value="open"/>
+         </slicing>
+      </element>
+      <element id="Composition.confidentiality.extension:confidentialityCode">
+         <path value="Composition.confidentiality.extension"/>
+         <sliceName value="confidentialityCode"/>
+         <short value="Swiss realm of confidentiality code according to the Swiss EPR regulation"/>
+      </element>
+      <element id="Composition.attester">
+         <path value="Composition.attester"/>
+         <slicing>
+            <discriminator>
+               <type value="value" />
+               <path value="mode" />
+            </discriminator>
+            <rules value="open" />
+         </slicing>
+         <short value="The authenticator of the document (person)"/>
+      </element>
+      <element id="Composition.attester:legalAuthenticator">
+         <path value="Composition.attester"/>
+         <sliceName value="legalAuthenticator"/>
+         <short value="The legal authenticator of the document (person)"/>
+      </element>
+      <element id="Composition.attester.mode:legalAuthenticator">
+         <path value="Composition.attester.mode"/>
+      </element>
+      <element id="Composition.attester.time:legalAuthenticator">
+         <path value="Composition.attester.time"/>
+         <short value="Timestamp of the signature"/>
+      </element>
+      <element id="Composition.attester.party:legalAuthenticator">
+         <path value="Composition.attester.party"/>
+         <short value="Who attested the composition"/>
+      </element>
+      <element id="Composition.custodian">
+         <path value="Composition.custodian"/>
+         <short value="The organization in whose name the document has been created"/>
+      </element>
+      <element id="Composition.custodian.reference">
+         <path value="Composition.custodian.reference"/>
+      </element>
+      <element id="Composition.section">
+         <path value="Composition.section"/>
+         <min value="1"/>
+         <slicing>
+            <discriminator>
+               <type value="pattern"/>
+               <path value="code"/>
+            </discriminator>
+            <ordered value="false"/>
+            <rules value="open"/>
+         </slicing>
+      </element>
+      
+      <!-- Section Card (Immunization) -->
+      <element id="Composition.section:card">
+         <path value="Composition.section"/>
+         <sliceName value="administration"/>
+         <short value="Immunization Administration"/>
+         <min value="1"/>
+         <max value="1"/>
+      </element>
+      <!-- Extension for Section-ID -->
+      <element id="Composition.section.extension">
+         <path value="Composition.section.extension"/>
+         <slicing>
+            <discriminator>
+               <type value="value"/>
+               <path value="url"/>
+            </discriminator>
+            <rules value="open"/>
+         </slicing>
+      </element>
+      <element id="Composition.section.extension:sectionId">
+         <path value="Composition.section.extension"/>
+         <sliceName value="sectionId"/>
+      </element>
+      <element id="Composition.section.title:card">
+         <path value="Composition.section.title"/>
+         <short value="'Liste der verabreichten Impfungen' in german or 'Liste Vaccin administré' in french or 'Lista Vaccinazione somministrata' in italian or 'List Immunization Administration' in english
+                        or titles in other languages are also allowed"/>
+         <min value="1"/>
+         <max value="1"/>
+      </element>
+      <element id="Composition.section.code:card">
+         <path value="Composition.section.code"/>
+         <min value="1"/>
+         <patternCodeableConcept>
+            <coding>
+               <system value="http://loinc.org"/>
+               <code value="10160-0"/>
+               <display value="History of medication use"/>
+            </coding>
+         </patternCodeableConcept>
+      </element>
+      
+      <!-- Author of the section -->
+      <element id="Composition.section.author:card">
+         <path value="Composition.section.author"/>
+         <short value="The author of the section (person or device) if different from the author/timestamp of the document"/>
+         <type>
+            <code value="Reference"/>
+            <targetProfile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr"/>
+            <targetProfile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole"/>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
+            <targetProfile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr"/>
+            <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
+            <targetProfile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr"/>
+         </type>
+      </element>
+      <element id="Composition.section:card.author.extension">
+         <path value="Composition.section.author.extension"/>
+         <short value="Timestamp of the authorship/data input"/>
+         <!-- CDA-spec: author.time 1..1, here 0..1 to allow the representedOrganization to be validly mapped as composition.author -->
+         <min value="0"/>
+         <max value="1"/>
+         <type>
+            <code value="Extension"/>
+            <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time"/>
+         </type>
+         <mapping>
+            <identity value="cda"/>
+            <map value=".author.time"/>
+         </mapping>
+      </element>
+      <element id="Composition.section:card.author.reference">
+         <path value="Composition.section.author.reference"/>
+         <min value="1"/>
+      </element>
+      <element id="Composition.section.text:card">
+         <path value="Composition.section.text"/>
+         <short value="Human readable text of this section"/>
+         <min value="1"/>
+         <max value="1"/>
+      </element>
+      <element id="Composition.section.entry:card">
+         <path value="Composition.section.entry"/>
+         <short value="Immunization"/>
+         <min value="0"/>
+         <max value="*"/>
+         <type>
+            <code value="Reference"/>
+            <targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"/>
+         </type>
+      </element>
+      <element id="Composition.section.entry:card.reference">
+         <path value="Composition.section.entry.reference"/>
+         <min value="1"/>
+      </element>
+      <element id="Composition.section.section:card">
+         <path value="Composition.section.section"/>
+         <min value="0"/>
+         <max value="0"/>
+      </element>
+
+      <!-- Section Annotation -->
+      <element id="Composition.section:annotation">
+         <path value="Composition.section"/>
+         <sliceName value="annotation"/>
+         <short value="Annotation"/>
+         <min value="0"/>
+         <max value="1"/>
+      </element>
+      <element id="Composition.section.title:annotation">
+         <path value="Composition.section.title"/>
+         <short value="'Kommentar' in german or 'Commentaire' in french or 'Osservazione' in italian or 'Comment' in english
+                        or titles in other languages are also allowed"/>
+         <min value="1"/>
+         <max value="1"/>
+      </element>
+      <element id="Composition.section.code:annotation">
+         <path value="Composition.section.code"/>
+         <min value="1"/>
+         <patternCodeableConcept>
+            <coding>
+               <system value="http://loinc.org"/>
+               <code value="48767-8"/>
+               <display value="Annotation comment"/>
+            </coding>
+         </patternCodeableConcept>
+      </element>
+      <element id="Composition.section.text:annotation">
+         <path value="Composition.section.text"/>
+         <short value="Human readable text of this section"/>
+         <min value="1"/>
+         <max value="1"/>
+      </element>
+      <element id="Composition.section.entry:annotation">
+         <path value="Composition.section.entry"/>
+         <short value="General comments"/>
+         <min value="0"/>
+         <max value="*"/>
+      </element>
+      <element id="Composition.section.entry:annotation.reference">
+         <path value="Composition.section.entry.reference"/>
+         <min value="1"/>
+      </element>
+      <element id="Composition.section.section:annotation">
+         <path value="Composition.section.section"/>
+         <min value="0"/>
+         <max value="0"/>
+      </element>
+   </differential>
+</StructureDefinition>

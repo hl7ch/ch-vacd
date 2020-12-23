@@ -1,0 +1,345 @@
+<ValueSet xmlns="urn:ihe:iti:svs:2008"
+	displayName="myvaccines.ch/meineimpfungen.ch-SharedValueSets-Vaccines (Inactive)"
+	id="2.16.756.5.30.1.147.4.1.2">
+	<ConceptList xml:lang="de">
+		<Concept code="J07BC02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Epaxal" />
+		<Concept code="J07BC01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Heprecomb" />
+		<Concept code="J07BC01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Heprecomb Kinder" />
+		<Concept code="J07BB02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Inflexal V" />
+		<Concept code="J07AH07" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Menjugate" />
+		<Concept code="J07BD01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Moraten" />
+		<Concept code="J07BD53" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="MoRu-Viraten" />
+		<Concept code="J07AE02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Orochol" />
+		<Concept code="J07AE02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Orochol E" />
+		<Concept code="J07BF03" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Poliomyelitis Impfstoff Berna" />
+		<Concept code="J07AM51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Td-pur" />
+		<Concept code="J07CA01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Td-Virelon" />
+		<Concept code="J07BD52" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Triviraten" />
+		<Concept code="J07AP01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Vivotif L" />
+		<Concept code="J07AM51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Ditanrix" />
+		<Concept code="J07BB02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Fluarix" />
+		<Concept code="J07AJ52" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Infanrix DTPa" />
+		<Concept code="J07CA06" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Infanrix Penta" />
+		<Concept code="J07AH04" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Mencevax ACWY" />
+		<Concept code="J07BD01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Attenuvax" />
+		<Concept code="J07AN01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="BCG" />
+		<Concept code="J07BC01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Gen H-B-Vax 10" />
+		<Concept code="J07BC01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Gen H-B-Vax 5" />
+		<Concept code="J07BC01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="HBVAXPRO 5" />
+		<Concept code="J07BD52" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="MMR-II" />
+		<Concept code="J07AH03" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Meningokokken-Impfstoff A+C Mérieux" />
+		<Concept code="J07BJ01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Meruvax" />
+		<Concept code="J07BE01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Mumpsvax" />
+		<Concept code="J07BB02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Mutagrip" />
+		<Concept code="J07BB02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Influvac plus" />
+		<Concept code="J07AH07" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Meningitec" />
+		<Concept code="J07AL02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Prevenar-7" />
+		<Concept code="J07CA09" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Hexavac" />
+		<Concept code="J07AG52" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Infanrix DTPa+Hib" />
+		<Concept code="J07BC20" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Twinrix 360/10" />
+		<Concept code="J07BD52" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Pluserix" />
+		<Concept code="J07AJ51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Acel Immune" />
+		<Concept code="J07AJ02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Acel P" />
+		<Concept code="J07AG01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Act-Hib" />
+		<Concept code="J07AJ51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Anatoxal DiTePer" />
+		<Concept code="J07AM51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Anatoxal DiTe Erwachsene" />
+		<Concept code="J07AM51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Anatoxal DiTe N Erwachsene" />
+		<Concept code="J07AF01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Anatoxal Di" />
+		<Concept code="J07AM01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Anatoxal Te" />
+		<Concept code="J07AM01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Anatoxal Te N" />
+		<Concept code="J07BL01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Arilvax" />
+		<Concept code="J07AN01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="BCG Vaccin Mérieux" />
+		<Concept code="J07BD51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Biviraten" />
+		<Concept code="J07BJ01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Ervevax" />
+		<Concept code="J07AG01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="HibTiter" />
+		<Concept code="J07CA05" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Infanrix DTPa-HBV" />
+		<Concept code="J07BG01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Lyssavac Berna" />
+		<Concept code="J07AH03" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Vaccin méningococcique A+C Mérieux" />
+		<Concept code="J07BD51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="MM Vax" />
+		<Concept code="J07BE01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Mumaten" />
+		<Concept code="J07AG01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Pedvax" />
+		<Concept code="J07CA06" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Pentacoq" />
+		<Concept code="J07AL01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Pnu-Immune" />
+		<Concept code="J07BF03" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Polio Salk" />
+		<Concept code="J07BF03" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Polio Sabin" />
+		<Concept code="J07BF03" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Poloral" />
+		<Concept code="J07BD01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Rimevax" />
+		<Concept code="J07CA02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Tetracoq" />
+		<Concept code="J07CA02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Tetramune" />
+		<Concept code="J07AM01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Tetanol pur" />
+		<Concept code="J07BC02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Vaqta" />
+		<Concept code="J07BJ01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Rubeaten" />
+		<Concept code="J07BJ01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Rudivax" />
+		<Concept code="J07BM01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Gardasil" />
+		<Concept code="J07BC02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Havrix 360" />
+		<Concept code="J07BJ01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Almevax" />
+		<Concept code="J07BC01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Hevac B" />
+		<Concept code="J07BD52" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="MMR-I" />
+		<Concept code="J07BD01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Moruman" />
+		<Concept code="J07BD51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Rimparix" />
+		<Concept code="J07BJ01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Rubevac" />
+		<Concept code="J07BD52" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Trimovax" />
+		<Concept code="J07AN01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="BCG SSI" />
+		<Concept code="J07AM51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Ditanrix pediatric" />
+		<Concept code="J07BD53" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Eolarix" />
+		<Concept code="J07BA01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="FSME-Immun Injekt" />
+		<Concept code="J07AG01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="ProHibit" />
+		<Concept code="J07AM51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Anatoxal DiTe Kinder" />
+		<Concept code="J07BB02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Agrippal" />
+		<Concept code="J07BB02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Celtura" />
+		<Concept code="J07BB02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Focetria" />
+		<Concept code="J07BF03" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="K1, K2, K3" />
+		<Concept code="J07BF03" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Koprowski" />
+		<Concept code="J07BB02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Optaflu" />
+		<Concept code="J07BB02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Pandemrix" />
+		<Concept code="J07AG52" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Prohibit DTP" />
+		<Concept code="J07AP01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="TAB oral" />
+		<Concept code="J07BX" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Variola" />
+		<Concept code="J07BF03" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Polio Koprowski (K1-K3)" />
+		<Concept code="J07BF03" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Polio Lilly" />
+		<Concept code="J07AF01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Di Anatoxal" />
+		<Concept code="J07AM51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="DiTe Anatoxal Erwachsene / Adultes" />
+		<Concept code="J07AM51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="DiTe Anatoxal N Erwachsene / Adultes" />
+		<Concept code="J07AM51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="DiTe Anatoxal Kinder / Enfants" />
+		<Concept code="J07AJ51" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="DiTePer Anatoxal" />
+		<Concept code="J07AM01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Te Anatoxal" />
+		<Concept code="J07AM01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Te Anatoxal N" />
+		<Concept code="J07BA01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Encepur" />
+		<Concept code="J07BA01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Encepur Kinder / Enfants" />
+		<Concept code="J07BC01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="HBVAX DNA 5" />
+		<Concept code="J07BC01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="HBVAX DNA 10" />
+		<Concept code="J07BC01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="HBVAX DNA 40" />
+		<Concept code="J07BC02" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Havrix junior" />
+		<Concept code="J07AJ52" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Infanrix" />
+		<Concept code="J07AM01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Tanrix" />
+		<Concept code="J07BX" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Vaccin variole" />
+		<Concept code="J07BC01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Engerix-B 40" />
+		<Concept code="J07BC01" codeSystem="2.16.840.1.113883.6.73"
+			codeSystemName="Anatomical Therapeutic Chemical Classification System"
+			displayName="Hepavax" />
+	</ConceptList>
+</ValueSet>

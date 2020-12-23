@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+	<disease SNOMED_CODE_PROCEDURE="0" NAME_DE="Andere Krankheit"
+		NAME_FR="Autre maladie" NAME_IT="Altra malattia"
+		NAME_EN="Other disease" />
+	<disease SNOMED_CODE_PROCEDURE="76668005" NAME_DE="Diphtherie"
+		NAME_FR="Diphtérie" NAME_IT="Difterite" NAME_EN="Diphtheria" />
+	<disease SNOMED_CODE_PROCEDURE="127786006" NAME_DE="Tetanus"
+		NAME_FR="Tétanos" NAME_IT="Tetano" NAME_EN="Tetanus" />
+	<disease SNOMED_CODE_PROCEDURE="39343008" NAME_DE="Pertussis"
+		NAME_FR="Coqueluche" NAME_IT="Pertosse" NAME_EN="Pertussis" />
+	<disease SNOMED_CODE_PROCEDURE="72093006"
+		NAME_DE="Poliomyelitis" NAME_FR="Poliomyélite" NAME_IT="Poliomielite"
+		NAME_EN="Poliomyelitis" />
+	<disease SNOMED_CODE_PROCEDURE="127787002" NAME_DE="Hib"
+		NAME_FR="Hib" NAME_IT="Hib" NAME_EN="Hib" />
+	<disease SNOMED_CODE_PROCEDURE="243789007"
+		NAME_DE="Hepatitis A" NAME_FR="Hépatite A" NAME_IT="Epatite A"
+		NAME_EN="Hepatitis A" />
+	<disease SNOMED_CODE_PROCEDURE="16584000" NAME_DE="Hepatitis B"
+		NAME_FR="Hépatite B" NAME_IT="Epatite B" NAME_EN="Hepatitis B" />
+	<disease SNOMED_CODE_PROCEDURE="47435007" NAME_DE="Masern"
+		NAME_FR="Rougeole" NAME_IT="Morbillo" NAME_EN="Measles" />
+	<disease SNOMED_CODE_PROCEDURE="50583002" NAME_DE="Mumps"
+		NAME_FR="Oreillons" NAME_IT="Orecchioni" NAME_EN="Mumps" />
+	<disease SNOMED_CODE_PROCEDURE="82314000" NAME_DE="Röteln"
+		NAME_FR="Rubéole" NAME_IT="Rosolia" NAME_EN="Rubella" />
+	<disease SNOMED_CODE_PROCEDURE="281658005" NAME_DE="FSME"
+		NAME_FR="Méningoencéphalite à tiques" NAME_IT="FSME"
+		NAME_EN="Tick-borne encephalitis" />
+	<disease SNOMED_CODE_PROCEDURE="41088001"
+		NAME_DE="Meningokokken C" NAME_FR="Méningocoques C"
+		NAME_IT="Meningococchi C" NAME_EN="Meningococcus C" />
+	<disease SNOMED_CODE_PROCEDURE="86198006" NAME_DE="Grippe"
+		NAME_FR="Grippe" NAME_IT="Influenza" NAME_EN="Influenza" />
+	<disease SNOMED_CODE_PROCEDURE="28877009" NAME_DE="Cholera"
+		NAME_FR="Choléra" NAME_IT="Colera" NAME_EN="Cholera" />
+	<disease SNOMED_CODE_PROCEDURE="34631000" NAME_DE="Tollwut"
+		NAME_FR="Rage" NAME_IT="Rabbia" NAME_EN="Rabies" />
+	<disease SNOMED_CODE_PROCEDURE="30338008" NAME_DE="Typhus"
+		NAME_FR="Fièvre typhoïde" NAME_IT="Tifo" NAME_EN="Typhus" />
+	<disease SNOMED_CODE_PROCEDURE="68525005" NAME_DE="Windpocken"
+		NAME_FR="Varicelle" NAME_IT="Varicella" NAME_EN="Varicella" />
+	<disease SNOMED_CODE_PROCEDURE="42284007" NAME_DE="Tuberkulose"
+		NAME_FR="Tuberculose" NAME_IT="Tubercolosi" NAME_EN="Tuberculosis" />
+	<disease SNOMED_CODE_PROCEDURE="67308009" NAME_DE="Gelbfieber"
+		NAME_FR="Fièvre jaune" NAME_IT="Febbre gialla" NAME_EN="Yellow fever" />
+	<disease SNOMED_CODE_PROCEDURE="448964007"
+		NAME_DE="Pneumokokken (PCV)" NAME_FR="Pneumocoques (PCV)"
+		NAME_IT="Pneumococchi (PCV)" NAME_EN="Pneumococcus (PCV)" />
+	<disease SNOMED_CODE_PROCEDURE="135642004"
+		NAME_DE="Pneumokokken 23" NAME_FR="Pneumocoques 23"
+		NAME_IT="Pneumococchi 23" NAME_EN="Pneumococcus 23" />
+	<disease SNOMED_CODE_PROCEDURE="390892002"
+		NAME_DE="Meningokokken ACWY" NAME_FR="Méningocoques ACWY"
+		NAME_IT="Meningo ACWY" NAME_EN="Meningococcus ACWY" />
+	<disease SNOMED_CODE_PROCEDURE="428570002" NAME_DE="HPV"
+		NAME_FR="HPV" NAME_IT="HPV" NAME_EN="HPV" />
+	<disease SNOMED_CODE_PROCEDURE="116394005" NAME_DE="ETEC"
+		NAME_FR="ETEC" NAME_IT="ETEC" NAME_EN="ETEC" />
+	<disease SNOMED_CODE_PROCEDURE="4740000" NAME_DE="Zoster"
+		NAME_FR="Zona" NAME_IT="Herpes zoster" NAME_EN="Herpes zoster" />
+	<disease SNOMED_CODE_PROCEDURE="18624000" NAME_DE="Rotavirus"
+		NAME_FR="Rotavirus" NAME_IT="Rotavirus" NAME_EN="Rotavirus" />
+	<disease SNOMED_CODE_PROCEDURE="442696006"
+		NAME_DE="Influenza A&#47;H1N1&#47;09"
+		NAME_FR="Grippe A&#47;H1N1&#47;09"
+		NAME_IT="Influenza A&#47;H1N1&#47;099"
+		NAME_EN="Influenza A&#47;H1N1&#47;09" />
+	<disease SNOMED_CODE_PROCEDURE="67924001" NAME_DE="Pocken"
+		NAME_FR="Variole" NAME_IT="Vaiolo" NAME_EN="Smallpox" />
+	<disease SNOMED_CODE_PROCEDURE="314759000"
+		NAME_DE="Japanische Enzephalitis" NAME_FR="Encéphalite japonaise"
+		NAME_IT="Encefalite giapponese" NAME_EN="Japanese encephalitis" />
+</dataset>
