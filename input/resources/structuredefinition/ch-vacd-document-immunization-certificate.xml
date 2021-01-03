@@ -52,7 +52,7 @@
       <element id="Bundle.entry:Composition">
          <path value="Bundle.entry" />
          <sliceName value="Composition" />
-         <short value="Medication card composition" />
+         <short value="Immunization Certificate composition" />
          <min value="1" />
          <max value="1" />
       </element>

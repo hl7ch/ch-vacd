@@ -133,6 +133,7 @@
          <sliceName value="confidentialityCode"/>
          <short value="Swiss realm of confidentiality code according to the Swiss EPR regulation"/>
       </element>
+      <!-- 
       <element id="Composition.attester">
          <path value="Composition.attester"/>
          <slicing>
@@ -160,6 +161,7 @@
          <path value="Composition.attester.party"/>
          <short value="Who attested the composition"/>
       </element>
+       -->
       <element id="Composition.custodian">
          <path value="Composition.custodian"/>
          <short value="The organization in whose name the document has been created"/>

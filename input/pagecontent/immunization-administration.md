@@ -8,4 +8,5 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 {% include img.html img="immunization-administration-document.png" caption="Fig.: Immunization Administration document" width="40%" %}
   
 * Profile: [Immunization Administration document](StructureDefinition-ch-vacd-document-immunization-administration.html)
-* Example Immunization Administration document (xml): [1](Bundle-1-ImmunizationAdministration.xml.html)
+* Example Immunization Administration document (xml): [Bundle-1-ImmunizationAdministration.xml](Bundle-1-ImmunizationAdministration.xml.html)
+* Example Immunization Administration document (json): [Bundle-1-ImmunizationAdministration.json](Bundle-1-ImmunizationAdministration.json.html)

@@ -34,8 +34,9 @@
 	<immutable value="false" />
 	<compose>
 		<include>
-			<system value="2.16.840.1.113883.6.73" />
+			<system value="urn:oid:2.16.840.1.113883.6.73" />
 			<!-- active vaccines -->
+			<!-- 
 			<concept>
 				<code value="" />
 				<display value="Anderer Impfstoff" />
@@ -56,6 +57,7 @@
 					<value value="Anderer Impfstoff" />
 				</designation>
 			</concept>
+			 -->
 			<concept>
 				<code value="J07BA01" />
 				<display value="FSME-Immun 0.25 ml Junior" />

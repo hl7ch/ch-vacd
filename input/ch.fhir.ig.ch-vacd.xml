@@ -46,19 +46,33 @@
 		</grouping>
 
 		<!-- References to code systems -->
-		<!-- <resource> <reference> <reference value="CodeSystem/snomed-clinicalterms-swiss-extension-cs" 
-			/> </reference> <exampleBoolean value="false" /> </resource> -->
+		<resource>
+			<reference>
+				<reference
+					value="CodeSystem/whocc-atc-cs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+		<!-- References to examples -->
+		<resource>
+			<reference>
+				<reference value="Bundle/1-ImmunizationAdministration" />
+			</reference>
+			<name value="1 Immunization Administration document" />
+			<description
+				value="Example for Bundle Immunization Administration" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration" />
+		</resource>
+		
 		<!-- References to structure definitions -->
-		<!-- <resource> <reference> <reference value="Bundle/1-ImmunizationAdministration" 
-			/> </reference> <name value="1 Immunization Administrationn document" /> 
-			<description value="Example for Bundle" /> <exampleCanonical value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration" 
-			/> </resource> -->
 		<resource>
 			<reference>
 				<reference
 					value="StructureDefinition/ch-vacd-document-immunization-administration" />
 			</reference>
-			<exampleBoolean value="false" />
+			<exampleBoolean value="true" />
 		</resource>
 		<resource>
 			<reference>
@@ -95,7 +109,7 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		
+
 		<resource>
 			<reference>
 				<reference value="ValueSet/immunization-diseases" />
