@@ -66,6 +66,17 @@
 				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration" />
 		</resource>
 		
+		<resource>
+			<reference>
+				<reference value="Bundle/2-ImmunizationCertificate" />
+			</reference>
+			<name value="2 Immunization Certificate document" />
+			<description
+				value="Example for Bundle Immunization Certificate" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate" />
+		</resource>
+		
 		<!-- References to structure definitions -->
 		<resource>
 			<reference>
