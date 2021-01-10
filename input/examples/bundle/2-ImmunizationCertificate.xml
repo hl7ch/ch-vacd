@@ -1,375 +1,874 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bundle xmlns="http://hl7.org/fhir">
-   <id value="2-ImmunizationCertificate"></id>
-   <identifier>
-      <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:d6f53bc7-b3d7-4eb9-b349-fedc42c439af"></value>
-   </identifier>
-   <type value="document"></type>
-   <timestamp value="2021-01-03T22:59:35.916+01:00"></timestamp>
-   <entry id="68a33f25-db2b-49fa-89e6-914d8893439a">
-      <resource>
-         <Composition xmlns="http://hl7.org/fhir">
-            <id value="888f1b62-e6b8-4cd0-b581-7832f3d5bb2a"></id>
-            <language value="de-CH"></language>
-            <contained>
-               <Patient xmlns="http://hl7.org/fhir">
-                  <id value="1"></id>
-                  <identifier>
-                     <system value="2.16.756.5.30.1.147.1.1"></system>
-                     <value value="1477284956984000"></value>
-                  </identifier>
-                  <name>
-                     <family value="Wegmueller"></family>
-                     <given value="Monika"></given>
-                  </name>
-                  <gender value="female"></gender>
-                  <birthDate value="1943-06-15"></birthDate>
-                  <address>
-                     <type value="both"></type>
-                     <line value="Wiesenstr. 12"></line>
-                     <city value="Zürich"></city>
-                     <postalCode value="8003"></postalCode>
-                     <country value="CH"></country>
-                  </address>
-               </Patient>
-            </contained>
-            <contained>
-               <Practitioner xmlns="http://hl7.org/fhir">
-                  <id value="2"></id>
-                  <identifier>
-                     <system value="2.51.1.3"></system>
-                     <value value="2000000000030"></value>
-                  </identifier>
-                  <active value="true"></active>
-                  <name>
-                     <family value="Demo"></family>
-                     <given value="Detlef"></given>
-                  </name>
-               </Practitioner>
-            </contained>
-            <contained>
-               <Organization xmlns="http://hl7.org/fhir">
-                  <id value="3"></id>
-                  <name value="Stiftung meineimpfungen.ch"></name>
-                  <address>
-                     <line value="Mattenstrasse 9"></line>
-                     <city value="Gümligen"></city>
-                     <state value="BE"></state>
-                     <postalCode value="3073"></postalCode>
-                     <country value="CH"></country>
-                  </address>
-               </Organization>
-            </contained>
-            <contained>
-               <Immunization xmlns="http://hl7.org/fhir">
-                  <id value="4"></id>
-                  <identifier>
-                     <system value="2.16.756.5.30.1.147.1.3.1"></system>
-                     <value value="1829774"></value>
-                  </identifier>
-                  <status value="completed"></status>
-                  <vaccineCode>
-                     <coding>
-                        <system value="2.16.840.1.113883.6.73"></system>
-                        <code value="J07AJ52"></code>
-                        <display value="Boostrix"></display>
-                     </coding>
-                  </vaccineCode>
-                  <patient>
-                     <reference value="#1"></reference>
-                  </patient>
-                  <occurrenceDateTime value="2017-09-15T22:59:35+02:00"></occurrenceDateTime>
-                  <recorded value="2017-09-15T22:59:35+02:00"></recorded>
-                  <lotNumber value="12345"></lotNumber>
-                  <performer>
-                     <actor>
-                        <reference value="#2"></reference>
-                     </actor>
-                  </performer>
-                  <reasonCode>
-                     <coding>
-                        <system value="2.16.840.1.113883.5.4"></system>
-                        <code value="IMMUNIZ"></code>
-                        <display value="HL7ActCode"></display>
-                     </coding>
-                  </reasonCode>
-                  <protocolApplied>
-                     <targetDisease>
-                        <coding>
-                           <system value="http://snomed.info/sct"></system>
-                           <code value="76668005"></code>
-                           <display value="Diphtherie"></display>
-                        </coding>
-                     </targetDisease>
-                     <targetDisease>
-                        <coding>
-                           <system value="http://snomed.info/sct"></system>
-                           <code value="127786006"></code>
-                           <display value="Tetanus"></display>
-                        </coding>
-                     </targetDisease>
-                     <targetDisease>
-                        <coding>
-                           <system value="http://snomed.info/sct"></system>
-                           <code value="39343008"></code>
-                           <display value="Pertussis"></display>
-                        </coding>
-                     </targetDisease>
-                  </protocolApplied>
-               </Immunization>
-            </contained>
-            <contained>
-               <Immunization xmlns="http://hl7.org/fhir">
-                  <id value="5"></id>
-                  <identifier>
-                     <system value="2.16.756.5.30.1.147.1.3.1"></system>
-                     <value value="1829775"></value>
-                  </identifier>
-                  <reasonCode>
-                     <coding>
-                        <system value="2.16.840.1.113883.5.4"></system>
-                        <code value="IMMUNIZ"></code>
-                        <display value="HL7ActCode"></display>
-                     </coding>
-                  </reasonCode>
-               </Immunization>
-            </contained>
-            <identifier>
-               <system value="2.16.756.5.30.1.1.1.1"></system>
-               <value value="4af23cf8-ed2b-41f2-ae79-f9d7c260124f"></value>
-            </identifier>
-            <status value="final"></status>
-            <subject>
-               <reference value="#1"></reference>
-            </subject>
-            <author>
-               <reference value="#2"></reference>
-            </author>
-            <title value="Verabreichte Impfungen"></title>
-            <custodian>
-               <reference value="#3"></reference>
-            </custodian>
-            <section>
-               <title value="Liste der verabreichten Impfungen"></title>
-               <entry>
-                  <reference value="#4"></reference>
-               </entry>
-               <entry>
-                  <reference value="#5"></reference>
-               </entry>
-            </section>
-            <section>
-               <title value="Kommentar"></title>
-               <text>
-                  <status value="empty"></status>
-               </text>
-            </section>
-         </Composition>
-      </resource>
-   </entry>
-   <entry>
-      <resource>
-         <Patient xmlns="http://hl7.org/fhir">
-            <identifier>
-               <system value="2.16.756.5.30.1.147.1.1"></system>
-               <value value="1477284956984000"></value>
-            </identifier>
-            <name>
-               <family value="Wegmueller"></family>
-               <given value="Monika"></given>
-            </name>
-            <gender value="female"></gender>
-            <birthDate value="1943-06-15"></birthDate>
-            <address>
-               <type value="both"></type>
-               <line value="Wiesenstr. 12"></line>
-               <city value="Zürich"></city>
-               <postalCode value="8003"></postalCode>
-               <country value="CH"></country>
-            </address>
-         </Patient>
-      </resource>
-   </entry>
-   <entry>
-      <resource>
-         <Practitioner xmlns="http://hl7.org/fhir">
-            <identifier>
-               <system value="2.51.1.3"></system>
-               <value value="2000000000030"></value>
-            </identifier>
-            <active value="true"></active>
-            <name>
-               <family value="Demo"></family>
-               <given value="Detlef"></given>
-            </name>
-         </Practitioner>
-      </resource>
-   </entry>
-   <entry>
-      <resource>
-         <Organization xmlns="http://hl7.org/fhir">
-            <name value="Stiftung meineimpfungen.ch"></name>
-            <address>
-               <line value="Mattenstrasse 9"></line>
-               <city value="Gümligen"></city>
-               <state value="BE"></state>
-               <postalCode value="3073"></postalCode>
-               <country value="CH"></country>
-            </address>
-         </Organization>
-      </resource>
-   </entry>
-   <entry>
-      <resource>
-         <PractitionerRole xmlns="http://hl7.org/fhir">
-            <contained>
-               <Practitioner xmlns="http://hl7.org/fhir">
-                  <id value="1"></id>
-                  <identifier>
-                     <system value="2.51.1.3"></system>
-                     <value value="2000000000030"></value>
-                  </identifier>
-                  <active value="true"></active>
-                  <name>
-                     <family value="Demo"></family>
-                     <given value="Detlef"></given>
-                  </name>
-               </Practitioner>
-            </contained>
-            <contained>
-               <Organization xmlns="http://hl7.org/fhir">
-                  <id value="2"></id>
-                  <name value="Stiftung meineimpfungen.ch"></name>
-                  <address>
-                     <line value="Mattenstrasse 9"></line>
-                     <city value="Gümligen"></city>
-                     <state value="BE"></state>
-                     <postalCode value="3073"></postalCode>
-                     <country value="CH"></country>
-                  </address>
-               </Organization>
-            </contained>
-            <active value="true"></active>
-            <practitioner>
-               <reference value="#1"></reference>
-            </practitioner>
-            <organization>
-               <reference value="#2"></reference>
-            </organization>
-         </PractitionerRole>
-      </resource>
-   </entry>
-   <entry>
-      <resource>
-         <Immunization xmlns="http://hl7.org/fhir">
-            <contained>
-               <Patient xmlns="http://hl7.org/fhir">
-                  <id value="1"></id>
-                  <identifier>
-                     <system value="2.16.756.5.30.1.147.1.1"></system>
-                     <value value="1477284956984000"></value>
-                  </identifier>
-                  <name>
-                     <family value="Wegmueller"></family>
-                     <given value="Monika"></given>
-                  </name>
-                  <gender value="female"></gender>
-                  <birthDate value="1943-06-15"></birthDate>
-                  <address>
-                     <type value="both"></type>
-                     <line value="Wiesenstr. 12"></line>
-                     <city value="Zürich"></city>
-                     <postalCode value="8003"></postalCode>
-                     <country value="CH"></country>
-                  </address>
-               </Patient>
-            </contained>
-            <contained>
-               <Practitioner xmlns="http://hl7.org/fhir">
-                  <id value="2"></id>
-                  <identifier>
-                     <system value="2.51.1.3"></system>
-                     <value value="2000000000030"></value>
-                  </identifier>
-                  <active value="true"></active>
-                  <name>
-                     <family value="Demo"></family>
-                     <given value="Detlef"></given>
-                  </name>
-               </Practitioner>
-            </contained>
-            <identifier>
-               <system value="2.16.756.5.30.1.147.1.3.1"></system>
-               <value value="1829774"></value>
-            </identifier>
-            <status value="completed"></status>
-            <vaccineCode>
-               <coding>
-                  <system value="2.16.840.1.113883.6.73"></system>
-                  <code value="J07AJ52"></code>
-                  <display value="Boostrix"></display>
-               </coding>
-            </vaccineCode>
-            <patient>
-               <reference value="#1"></reference>
-            </patient>
-            <occurrenceDateTime value="2017-09-15T22:59:35+02:00"></occurrenceDateTime>
-            <recorded value="2017-09-15T22:59:35+02:00"></recorded>
-            <lotNumber value="12345"></lotNumber>
-            <performer>
-               <actor>
-                  <reference value="#2"></reference>
-               </actor>
-            </performer>
-            <reasonCode>
-               <coding>
-                  <system value="2.16.840.1.113883.5.4"></system>
-                  <code value="IMMUNIZ"></code>
-                  <display value="HL7ActCode"></display>
-               </coding>
-            </reasonCode>
-            <protocolApplied>
-               <targetDisease>
-                  <coding>
-                     <system value="http://snomed.info/sct"></system>
-                     <code value="76668005"></code>
-                     <display value="Diphtherie"></display>
-                  </coding>
-               </targetDisease>
-               <targetDisease>
-                  <coding>
-                     <system value="http://snomed.info/sct"></system>
-                     <code value="127786006"></code>
-                     <display value="Tetanus"></display>
-                  </coding>
-               </targetDisease>
-               <targetDisease>
-                  <coding>
-                     <system value="http://snomed.info/sct"></system>
-                     <code value="39343008"></code>
-                     <display value="Pertussis"></display>
-                  </coding>
-               </targetDisease>
-            </protocolApplied>
-         </Immunization>
-      </resource>
-   </entry>
-   <entry>
-      <resource>
-         <Immunization xmlns="http://hl7.org/fhir">
-            <identifier>
-               <system value="2.16.756.5.30.1.147.1.3.1"></system>
-               <value value="1829775"></value>
-            </identifier>
-            <reasonCode>
-               <coding>
-                  <system value="2.16.840.1.113883.5.4"></system>
-                  <code value="IMMUNIZ"></code>
-                  <display value="HL7ActCode"></display>
-               </coding>
-            </reasonCode>
-         </Immunization>
-      </resource>
-   </entry>
+	<id value="2-ImmunizationCertificate"></id>
+	<identifier>
+		<system value="urn:ietf:rfc:3986"></system>
+		<value value="urn:uuid:dee2c178-fa36-4bd7-b24b-a23dbc79f4da"></value>
+	</identifier>
+	<type value="document"></type>
+	<timestamp value="2021-01-04T21:33:29.355+01:00"></timestamp>
+	<entry id="a412b736-de5a-4aa4-84b5-5706bbb46f25">
+		<resource>
+			<Composition xmlns="http://hl7.org/fhir">
+				<id value="3b961433-c107-4349-b768-e40557446678"></id>
+				<language value="de-CH"></language>
+				<contained>
+					<Patient xmlns="http://hl7.org/fhir">
+						<id value="1"></id>
+						<identifier>
+							<system value="2.16.756.5.30.1.147.1.1"></system>
+							<value value="1477284956984000"></value>
+						</identifier>
+						<name>
+							<family value="Wegmueller"></family>
+							<given value="Monika"></given>
+						</name>
+						<gender value="female"></gender>
+						<birthDate value="1943-06-15"></birthDate>
+						<address>
+							<type value="both"></type>
+							<line value="Wiesenstr. 12"></line>
+							<city value="Zürich"></city>
+							<postalCode value="8003"></postalCode>
+							<country value="CH"></country>
+						</address>
+					</Patient>
+				</contained>
+				<contained>
+					<Practitioner xmlns="http://hl7.org/fhir">
+						<id value="2"></id>
+						<identifier>
+							<system value="2.51.1.3"></system>
+							<value value="2000000000030"></value>
+						</identifier>
+						<active value="true"></active>
+						<name>
+							<family value="Demo"></family>
+							<given value="Detlef"></given>
+						</name>
+					</Practitioner>
+				</contained>
+				<contained>
+					<Organization xmlns="http://hl7.org/fhir">
+						<id value="3"></id>
+						<name value="Stiftung meineimpfungen.ch"></name>
+						<address>
+							<line value="Mattenstrasse 9"></line>
+							<city value="Gümligen"></city>
+							<state value="BE"></state>
+							<postalCode value="3073"></postalCode>
+							<country value="CH"></country>
+						</address>
+					</Organization>
+				</contained>
+				<contained>
+					<Immunization xmlns="http://hl7.org/fhir">
+						<id value="4"></id>
+						<identifier>
+							<system value="2.16.756.5.30.1.147.1.3.1"></system>
+							<value value="12345"></value>
+						</identifier>
+						<status value="completed"></status>
+						<vaccineCode>
+							<coding>
+								<system value="2.16.840.1.113883.6.73"></system>
+								<code value="J07AJ52"></code>
+								<display value="Boostrix"></display>
+							</coding>
+						</vaccineCode>
+						<patient>
+							<reference value="#1"></reference>
+						</patient>
+						<occurrenceDateTime
+							value="2013-09-15T21:33:29+02:00"></occurrenceDateTime>
+						<recorded value="2013-09-15T21:33:29+02:00"></recorded>
+						<lotNumber value="12345"></lotNumber>
+						<performer>
+							<actor>
+								<reference value="#5"></reference>
+							</actor>
+						</performer>
+						<reasonCode>
+							<coding>
+								<system value="2.16.840.1.113883.5.4"></system>
+								<code value="IMMUNIZ"></code>
+								<display value="HL7ActCode"></display>
+							</coding>
+						</reasonCode>
+						<protocolApplied>
+							<targetDisease>
+								<coding>
+									<system value="http://snomed.info/sct"></system>
+									<code value="76668005"></code>
+									<display value="Diphtherie"></display>
+								</coding>
+							</targetDisease>
+							<targetDisease>
+								<coding>
+									<system value="http://snomed.info/sct"></system>
+									<code value="127786006"></code>
+									<display value="Tetanus"></display>
+								</coding>
+							</targetDisease>
+							<targetDisease>
+								<coding>
+									<system value="http://snomed.info/sct"></system>
+									<code value="39343008"></code>
+									<display value="Pertussis"></display>
+								</coding>
+							</targetDisease>
+						</protocolApplied>
+					</Immunization>
+				</contained>
+				<contained>
+					<Practitioner xmlns="http://hl7.org/fhir">
+						<id value="5"></id>
+						<identifier>
+							<system value="2.51.1.3"></system>
+							<value value="2000000000031"></value>
+						</identifier>
+						<active value="true"></active>
+						<name>
+							<family value="Muster"></family>
+							<given value="Max"></given>
+						</name>
+					</Practitioner>
+				</contained>
+				<contained>
+					<Immunization xmlns="http://hl7.org/fhir">
+						<id value="6"></id>
+						<identifier>
+							<system value="2.16.756.5.30.1.147.1.3.1"></system>
+							<value value="12345"></value>
+						</identifier>
+						<status value="completed"></status>
+						<vaccineCode>
+							<coding>
+								<system value="2.16.840.1.113883.6.73"></system>
+								<code value="J07AJ52"></code>
+								<display value="Boostrix"></display>
+							</coding>
+						</vaccineCode>
+						<patient>
+							<reference value="#1"></reference>
+						</patient>
+						<occurrenceDateTime
+							value="2014-08-12T21:33:29+02:00"></occurrenceDateTime>
+						<recorded value="2014-08-12T21:33:29+02:00"></recorded>
+						<lotNumber value="12345"></lotNumber>
+						<performer>
+							<actor>
+								<reference value="#7"></reference>
+							</actor>
+						</performer>
+						<reasonCode>
+							<coding>
+								<system value="2.16.840.1.113883.5.4"></system>
+								<code value="IMMUNIZ"></code>
+								<display value="HL7ActCode"></display>
+							</coding>
+						</reasonCode>
+						<protocolApplied>
+							<targetDisease>
+								<coding>
+									<system value="http://snomed.info/sct"></system>
+									<code value="76668005"></code>
+									<display value="Diphtherie"></display>
+								</coding>
+							</targetDisease>
+							<targetDisease>
+								<coding>
+									<system value="http://snomed.info/sct"></system>
+									<code value="127786006"></code>
+									<display value="Tetanus"></display>
+								</coding>
+							</targetDisease>
+							<targetDisease>
+								<coding>
+									<system value="http://snomed.info/sct"></system>
+									<code value="39343008"></code>
+									<display value="Pertussis"></display>
+								</coding>
+							</targetDisease>
+						</protocolApplied>
+					</Immunization>
+				</contained>
+				<contained>
+					<Practitioner xmlns="http://hl7.org/fhir">
+						<id value="7"></id>
+						<identifier>
+							<system value="2.51.1.3"></system>
+							<value value="2000000000031"></value>
+						</identifier>
+						<active value="true"></active>
+						<name>
+							<family value="Muster"></family>
+							<given value="Max"></given>
+						</name>
+					</Practitioner>
+				</contained>
+				<contained>
+					<Immunization xmlns="http://hl7.org/fhir">
+						<id value="8"></id>
+						<identifier>
+							<system value="2.16.756.5.30.1.147.1.3.1"></system>
+							<value value="12345"></value>
+						</identifier>
+						<status value="completed"></status>
+						<vaccineCode>
+							<coding>
+								<system value="2.16.840.1.113883.6.73"></system>
+								<code value="J07AJ52"></code>
+								<display value="Boostrix"></display>
+							</coding>
+						</vaccineCode>
+						<patient>
+							<reference value="#1"></reference>
+						</patient>
+						<occurrenceDateTime
+							value="2015-11-01T21:33:29+01:00"></occurrenceDateTime>
+						<recorded value="2015-11-01T21:33:29+01:00"></recorded>
+						<lotNumber value="12345"></lotNumber>
+						<performer>
+							<actor>
+								<reference value="#9"></reference>
+							</actor>
+						</performer>
+						<reasonCode>
+							<coding>
+								<system value="2.16.840.1.113883.5.4"></system>
+								<code value="IMMUNIZ"></code>
+								<display value="HL7ActCode"></display>
+							</coding>
+						</reasonCode>
+						<protocolApplied>
+							<targetDisease>
+								<coding>
+									<system value="http://snomed.info/sct"></system>
+									<code value="76668005"></code>
+									<display value="Diphtherie"></display>
+								</coding>
+							</targetDisease>
+							<targetDisease>
+								<coding>
+									<system value="http://snomed.info/sct"></system>
+									<code value="127786006"></code>
+									<display value="Tetanus"></display>
+								</coding>
+							</targetDisease>
+							<targetDisease>
+								<coding>
+									<system value="http://snomed.info/sct"></system>
+									<code value="39343008"></code>
+									<display value="Pertussis"></display>
+								</coding>
+							</targetDisease>
+						</protocolApplied>
+					</Immunization>
+				</contained>
+				<contained>
+					<Practitioner xmlns="http://hl7.org/fhir">
+						<id value="9"></id>
+						<identifier>
+							<system value="2.51.1.3"></system>
+							<value value="2000000000031"></value>
+						</identifier>
+						<active value="true"></active>
+						<name>
+							<family value="Muster"></family>
+							<given value="Max"></given>
+						</name>
+					</Practitioner>
+				</contained>
+				<contained>
+					<Immunization xmlns="http://hl7.org/fhir">
+						<id value="10"></id>
+						<identifier>
+							<system value="2.16.756.5.30.1.147.1.3.1"></system>
+							<value value="12345"></value>
+						</identifier>
+						<status value="completed"></status>
+						<vaccineCode>
+							<coding>
+								<system value="2.16.840.1.113883.6.73"></system>
+								<code value="J07BD52"></code>
+								<display value="MMR-I"></display>
+							</coding>
+						</vaccineCode>
+						<patient>
+							<reference value="#1"></reference>
+						</patient>
+						<occurrenceDateTime
+							value="2016-03-05T21:33:29+01:00"></occurrenceDateTime>
+						<recorded value="2016-03-05T21:33:29+01:00"></recorded>
+						<lotNumber value="12345"></lotNumber>
+						<performer>
+							<actor>
+								<reference value="#11"></reference>
+							</actor>
+						</performer>
+						<reasonCode>
+							<coding>
+								<system value="2.16.840.1.113883.5.4"></system>
+								<code value="IMMUNIZ"></code>
+								<display value="HL7ActCode"></display>
+							</coding>
+						</reasonCode>
+						<protocolApplied>
+							<targetDisease>
+								<coding>
+									<system value="http://snomed.info/sct"></system>
+									<code value="47435007"></code>
+									<display value="Masern"></display>
+								</coding>
+							</targetDisease>
+							<targetDisease>
+								<coding>
+									<system value="http://snomed.info/sct"></system>
+									<code value="50583002"></code>
+									<display value="Mumps"></display>
+								</coding>
+							</targetDisease>
+							<targetDisease>
+								<coding>
+									<system value="http://snomed.info/sct"></system>
+									<code value="82314000"></code>
+									<display value="Röteln"></display>
+								</coding>
+							</targetDisease>
+						</protocolApplied>
+					</Immunization>
+				</contained>
+				<contained>
+					<Practitioner xmlns="http://hl7.org/fhir">
+						<id value="11"></id>
+						<identifier>
+							<system value="2.51.1.3"></system>
+							<value value="2000000000030"></value>
+						</identifier>
+						<active value="true"></active>
+						<name>
+							<family value="Demo"></family>
+							<given value="Detlef"></given>
+						</name>
+					</Practitioner>
+				</contained>
+				<identifier>
+					<system value="2.16.756.5.30.1.1.1.1"></system>
+					<value value="2a0cb571-3d93-45b3-bf0e-1516898b74d4"></value>
+				</identifier>
+				<status value="final"></status>
+				<subject>
+					<reference value="#1"></reference>
+				</subject>
+				<author>
+					<reference value="#2"></reference>
+				</author>
+				<title value="Verabreichte Impfungen"></title>
+				<custodian>
+					<reference value="#3"></reference>
+				</custodian>
+				<section>
+					<title value="Liste der verabreichten Impfungen"></title>
+					<text>
+						<status value="generated"></status>
+					</text>
+					<entry>
+						<reference value="#4"></reference>
+					</entry>
+					<entry>
+						<reference value="#6"></reference>
+					</entry>
+					<entry>
+						<reference value="#8"></reference>
+					</entry>
+					<entry>
+						<reference value="#10"></reference>
+					</entry>
+				</section>
+				<section>
+					<title value="Kommentar"></title>
+					<text>
+						<status value="generated"></status>
+					</text>
+				</section>
+			</Composition>
+		</resource>
+	</entry>
+	<entry>
+		<resource>
+			<Patient xmlns="http://hl7.org/fhir">
+				<identifier>
+					<system value="2.16.756.5.30.1.147.1.1"></system>
+					<value value="1477284956984000"></value>
+				</identifier>
+				<name>
+					<family value="Wegmueller"></family>
+					<given value="Monika"></given>
+				</name>
+				<gender value="female"></gender>
+				<birthDate value="1943-06-15"></birthDate>
+				<address>
+					<type value="both"></type>
+					<line value="Wiesenstr. 12"></line>
+					<city value="Zürich"></city>
+					<postalCode value="8003"></postalCode>
+					<country value="CH"></country>
+				</address>
+			</Patient>
+		</resource>
+	</entry>
+	<entry>
+		<resource>
+			<Practitioner xmlns="http://hl7.org/fhir">
+				<identifier>
+					<system value="2.51.1.3"></system>
+					<value value="2000000000030"></value>
+				</identifier>
+				<active value="true"></active>
+				<name>
+					<family value="Demo"></family>
+					<given value="Detlef"></given>
+				</name>
+			</Practitioner>
+		</resource>
+	</entry>
+	<entry>
+		<resource>
+			<Organization xmlns="http://hl7.org/fhir">
+				<name value="Stiftung meineimpfungen.ch"></name>
+				<address>
+					<line value="Mattenstrasse 9"></line>
+					<city value="Gümligen"></city>
+					<state value="BE"></state>
+					<postalCode value="3073"></postalCode>
+					<country value="CH"></country>
+				</address>
+			</Organization>
+		</resource>
+	</entry>
+	<entry>
+		<resource>
+			<PractitionerRole xmlns="http://hl7.org/fhir">
+				<contained>
+					<Practitioner xmlns="http://hl7.org/fhir">
+						<id value="1"></id>
+						<identifier>
+							<system value="2.51.1.3"></system>
+							<value value="2000000000030"></value>
+						</identifier>
+						<active value="true"></active>
+						<name>
+							<family value="Demo"></family>
+							<given value="Detlef"></given>
+						</name>
+					</Practitioner>
+				</contained>
+				<contained>
+					<Organization xmlns="http://hl7.org/fhir">
+						<id value="2"></id>
+						<name value="Stiftung meineimpfungen.ch"></name>
+						<address>
+							<line value="Mattenstrasse 9"></line>
+							<city value="Gümligen"></city>
+							<state value="BE"></state>
+							<postalCode value="3073"></postalCode>
+							<country value="CH"></country>
+						</address>
+					</Organization>
+				</contained>
+				<active value="true"></active>
+				<practitioner>
+					<reference value="#1"></reference>
+				</practitioner>
+				<organization>
+					<reference value="#2"></reference>
+				</organization>
+			</PractitionerRole>
+		</resource>
+	</entry>
+	<entry>
+		<resource>
+			<Immunization xmlns="http://hl7.org/fhir">
+				<contained>
+					<Patient xmlns="http://hl7.org/fhir">
+						<id value="1"></id>
+						<identifier>
+							<system value="2.16.756.5.30.1.147.1.1"></system>
+							<value value="1477284956984000"></value>
+						</identifier>
+						<name>
+							<family value="Wegmueller"></family>
+							<given value="Monika"></given>
+						</name>
+						<gender value="female"></gender>
+						<birthDate value="1943-06-15"></birthDate>
+						<address>
+							<type value="both"></type>
+							<line value="Wiesenstr. 12"></line>
+							<city value="Zürich"></city>
+							<postalCode value="8003"></postalCode>
+							<country value="CH"></country>
+						</address>
+					</Patient>
+				</contained>
+				<contained>
+					<Practitioner xmlns="http://hl7.org/fhir">
+						<id value="2"></id>
+						<identifier>
+							<system value="2.51.1.3"></system>
+							<value value="2000000000031"></value>
+						</identifier>
+						<active value="true"></active>
+						<name>
+							<family value="Muster"></family>
+							<given value="Max"></given>
+						</name>
+					</Practitioner>
+				</contained>
+				<identifier>
+					<system value="2.16.756.5.30.1.147.1.3.1"></system>
+					<value value="12345"></value>
+				</identifier>
+				<status value="completed"></status>
+				<vaccineCode>
+					<coding>
+						<system value="2.16.840.1.113883.6.73"></system>
+						<code value="J07AJ52"></code>
+						<display value="Boostrix"></display>
+					</coding>
+				</vaccineCode>
+				<patient>
+					<reference value="#1"></reference>
+				</patient>
+				<occurrenceDateTime
+					value="2013-09-15T21:33:29+02:00"></occurrenceDateTime>
+				<recorded value="2013-09-15T21:33:29+02:00"></recorded>
+				<lotNumber value="12345"></lotNumber>
+				<performer>
+					<actor>
+						<reference value="#2"></reference>
+					</actor>
+				</performer>
+				<reasonCode>
+					<coding>
+						<system value="2.16.840.1.113883.5.4"></system>
+						<code value="IMMUNIZ"></code>
+						<display value="HL7ActCode"></display>
+					</coding>
+				</reasonCode>
+				<protocolApplied>
+					<targetDisease>
+						<coding>
+							<system value="http://snomed.info/sct"></system>
+							<code value="76668005"></code>
+							<display value="Diphtherie"></display>
+						</coding>
+					</targetDisease>
+					<targetDisease>
+						<coding>
+							<system value="http://snomed.info/sct"></system>
+							<code value="127786006"></code>
+							<display value="Tetanus"></display>
+						</coding>
+					</targetDisease>
+					<targetDisease>
+						<coding>
+							<system value="http://snomed.info/sct"></system>
+							<code value="39343008"></code>
+							<display value="Pertussis"></display>
+						</coding>
+					</targetDisease>
+				</protocolApplied>
+			</Immunization>
+		</resource>
+	</entry>
+	<entry>
+		<resource>
+			<Immunization xmlns="http://hl7.org/fhir">
+				<contained>
+					<Patient xmlns="http://hl7.org/fhir">
+						<id value="1"></id>
+						<identifier>
+							<system value="2.16.756.5.30.1.147.1.1"></system>
+							<value value="1477284956984000"></value>
+						</identifier>
+						<name>
+							<family value="Wegmueller"></family>
+							<given value="Monika"></given>
+						</name>
+						<gender value="female"></gender>
+						<birthDate value="1943-06-15"></birthDate>
+						<address>
+							<type value="both"></type>
+							<line value="Wiesenstr. 12"></line>
+							<city value="Zürich"></city>
+							<postalCode value="8003"></postalCode>
+							<country value="CH"></country>
+						</address>
+					</Patient>
+				</contained>
+				<contained>
+					<Practitioner xmlns="http://hl7.org/fhir">
+						<id value="2"></id>
+						<identifier>
+							<system value="2.51.1.3"></system>
+							<value value="2000000000031"></value>
+						</identifier>
+						<active value="true"></active>
+						<name>
+							<family value="Muster"></family>
+							<given value="Max"></given>
+						</name>
+					</Practitioner>
+				</contained>
+				<identifier>
+					<system value="2.16.756.5.30.1.147.1.3.1"></system>
+					<value value="12345"></value>
+				</identifier>
+				<status value="completed"></status>
+				<vaccineCode>
+					<coding>
+						<system value="2.16.840.1.113883.6.73"></system>
+						<code value="J07AJ52"></code>
+						<display value="Boostrix"></display>
+					</coding>
+				</vaccineCode>
+				<patient>
+					<reference value="#1"></reference>
+				</patient>
+				<occurrenceDateTime
+					value="2014-08-12T21:33:29+02:00"></occurrenceDateTime>
+				<recorded value="2014-08-12T21:33:29+02:00"></recorded>
+				<lotNumber value="12345"></lotNumber>
+				<performer>
+					<actor>
+						<reference value="#2"></reference>
+					</actor>
+				</performer>
+				<reasonCode>
+					<coding>
+						<system value="2.16.840.1.113883.5.4"></system>
+						<code value="IMMUNIZ"></code>
+						<display value="HL7ActCode"></display>
+					</coding>
+				</reasonCode>
+				<protocolApplied>
+					<targetDisease>
+						<coding>
+							<system value="http://snomed.info/sct"></system>
+							<code value="76668005"></code>
+							<display value="Diphtherie"></display>
+						</coding>
+					</targetDisease>
+					<targetDisease>
+						<coding>
+							<system value="http://snomed.info/sct"></system>
+							<code value="127786006"></code>
+							<display value="Tetanus"></display>
+						</coding>
+					</targetDisease>
+					<targetDisease>
+						<coding>
+							<system value="http://snomed.info/sct"></system>
+							<code value="39343008"></code>
+							<display value="Pertussis"></display>
+						</coding>
+					</targetDisease>
+				</protocolApplied>
+			</Immunization>
+		</resource>
+	</entry>
+	<entry>
+		<resource>
+			<Immunization xmlns="http://hl7.org/fhir">
+				<contained>
+					<Patient xmlns="http://hl7.org/fhir">
+						<id value="1"></id>
+						<identifier>
+							<system value="2.16.756.5.30.1.147.1.1"></system>
+							<value value="1477284956984000"></value>
+						</identifier>
+						<name>
+							<family value="Wegmueller"></family>
+							<given value="Monika"></given>
+						</name>
+						<gender value="female"></gender>
+						<birthDate value="1943-06-15"></birthDate>
+						<address>
+							<type value="both"></type>
+							<line value="Wiesenstr. 12"></line>
+							<city value="Zürich"></city>
+							<postalCode value="8003"></postalCode>
+							<country value="CH"></country>
+						</address>
+					</Patient>
+				</contained>
+				<contained>
+					<Practitioner xmlns="http://hl7.org/fhir">
+						<id value="2"></id>
+						<identifier>
+							<system value="2.51.1.3"></system>
+							<value value="2000000000031"></value>
+						</identifier>
+						<active value="true"></active>
+						<name>
+							<family value="Muster"></family>
+							<given value="Max"></given>
+						</name>
+					</Practitioner>
+				</contained>
+				<identifier>
+					<system value="2.16.756.5.30.1.147.1.3.1"></system>
+					<value value="12345"></value>
+				</identifier>
+				<status value="completed"></status>
+				<vaccineCode>
+					<coding>
+						<system value="2.16.840.1.113883.6.73"></system>
+						<code value="J07AJ52"></code>
+						<display value="Boostrix"></display>
+					</coding>
+				</vaccineCode>
+				<patient>
+					<reference value="#1"></reference>
+				</patient>
+				<occurrenceDateTime
+					value="2015-11-01T21:33:29+01:00"></occurrenceDateTime>
+				<recorded value="2015-11-01T21:33:29+01:00"></recorded>
+				<lotNumber value="12345"></lotNumber>
+				<performer>
+					<actor>
+						<reference value="#2"></reference>
+					</actor>
+				</performer>
+				<reasonCode>
+					<coding>
+						<system value="2.16.840.1.113883.5.4"></system>
+						<code value="IMMUNIZ"></code>
+						<display value="HL7ActCode"></display>
+					</coding>
+				</reasonCode>
+				<protocolApplied>
+					<targetDisease>
+						<coding>
+							<system value="http://snomed.info/sct"></system>
+							<code value="76668005"></code>
+							<display value="Diphtherie"></display>
+						</coding>
+					</targetDisease>
+					<targetDisease>
+						<coding>
+							<system value="http://snomed.info/sct"></system>
+							<code value="127786006"></code>
+							<display value="Tetanus"></display>
+						</coding>
+					</targetDisease>
+					<targetDisease>
+						<coding>
+							<system value="http://snomed.info/sct"></system>
+							<code value="39343008"></code>
+							<display value="Pertussis"></display>
+						</coding>
+					</targetDisease>
+				</protocolApplied>
+			</Immunization>
+		</resource>
+	</entry>
+	<entry>
+		<resource>
+			<Immunization xmlns="http://hl7.org/fhir">
+				<contained>
+					<Patient xmlns="http://hl7.org/fhir">
+						<id value="1"></id>
+						<identifier>
+							<system value="2.16.756.5.30.1.147.1.1"></system>
+							<value value="1477284956984000"></value>
+						</identifier>
+						<name>
+							<family value="Wegmueller"></family>
+							<given value="Monika"></given>
+						</name>
+						<gender value="female"></gender>
+						<birthDate value="1943-06-15"></birthDate>
+						<address>
+							<type value="both"></type>
+							<line value="Wiesenstr. 12"></line>
+							<city value="Zürich"></city>
+							<postalCode value="8003"></postalCode>
+							<country value="CH"></country>
+						</address>
+					</Patient>
+				</contained>
+				<contained>
+					<Practitioner xmlns="http://hl7.org/fhir">
+						<id value="2"></id>
+						<identifier>
+							<system value="2.51.1.3"></system>
+							<value value="2000000000030"></value>
+						</identifier>
+						<active value="true"></active>
+						<name>
+							<family value="Demo"></family>
+							<given value="Detlef"></given>
+						</name>
+					</Practitioner>
+				</contained>
+				<identifier>
+					<system value="2.16.756.5.30.1.147.1.3.1"></system>
+					<value value="12345"></value>
+				</identifier>
+				<status value="completed"></status>
+				<vaccineCode>
+					<coding>
+						<system value="2.16.840.1.113883.6.73"></system>
+						<code value="J07BD52"></code>
+						<display value="MMR-I"></display>
+					</coding>
+				</vaccineCode>
+				<patient>
+					<reference value="#1"></reference>
+				</patient>
+				<occurrenceDateTime
+					value="2016-03-05T21:33:29+01:00"></occurrenceDateTime>
+				<recorded value="2016-03-05T21:33:29+01:00"></recorded>
+				<lotNumber value="12345"></lotNumber>
+				<performer>
+					<actor>
+						<reference value="#2"></reference>
+					</actor>
+				</performer>
+				<reasonCode>
+					<coding>
+						<system value="2.16.840.1.113883.5.4"></system>
+						<code value="IMMUNIZ"></code>
+						<display value="HL7ActCode"></display>
+					</coding>
+				</reasonCode>
+				<protocolApplied>
+					<targetDisease>
+						<coding>
+							<system value="http://snomed.info/sct"></system>
+							<code value="47435007"></code>
+							<display value="Masern"></display>
+						</coding>
+					</targetDisease>
+					<targetDisease>
+						<coding>
+							<system value="http://snomed.info/sct"></system>
+							<code value="50583002"></code>
+							<display value="Mumps"></display>
+						</coding>
+					</targetDisease>
+					<targetDisease>
+						<coding>
+							<system value="http://snomed.info/sct"></system>
+							<code value="82314000"></code>
+							<display value="Röteln"></display>
+						</coding>
+					</targetDisease>
+				</protocolApplied>
+			</Immunization>
+		</resource>
+	</entry>
 </Bundle>

@@ -48,8 +48,22 @@
 		<!-- References to code systems -->
 		<resource>
 			<reference>
+				<reference value="CodeSystem/whocc-atc-cs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+		<resource>
+			<reference>
 				<reference
-					value="CodeSystem/whocc-atc-cs" />
+					value="CodeSystem/ch-vacd-complication-risks-cs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="CodeSystem/ch-vacd-exposure-risks-cs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -65,7 +79,7 @@
 			<exampleCanonical
 				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration" />
 		</resource>
-		
+
 		<resource>
 			<reference>
 				<reference value="Bundle/2-ImmunizationCertificate" />
@@ -76,8 +90,9 @@
 			<exampleCanonical
 				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate" />
 		</resource>
-		
+
 		<!-- References to structure definitions -->
+		<!-- documents -->
 		<resource>
 			<reference>
 				<reference
@@ -88,14 +103,23 @@
 		<resource>
 			<reference>
 				<reference
-					value="StructureDefinition/ch-vacd-composition-immunization-administration" />
+					value="StructureDefinition/ch-vacd-document-immunization-certificate" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
 				<reference
-					value="StructureDefinition/ch-vacd-document-immunization-certificate" />
+					value="StructureDefinition/ch-vacd-document-vaccination-record" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+		<!-- compositions -->
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-composition-immunization-administration" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -109,25 +133,64 @@
 		<resource>
 			<reference>
 				<reference
+					value="StructureDefinition/ch-vacd-composition-vaccination-record" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+		<!-- sections -->
+		<resource>
+			<reference>
+				<reference
 					value="StructureDefinition/ch-vacd-immunization" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-
 		<resource>
 			<reference>
-				<reference value="ValueSet/immunization-vaccines" />
+				<reference
+					value="StructureDefinition/ch-vacd-medical-problems" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+
+
+		<!-- value sets -->
+		<resource>
+			<reference>
+				<reference value="ValueSet/ch-vacd-vaccines-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/ch-vacd-diseases-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference value="ValueSet/immunization-diseases" />
+				<reference value="ValueSet/ch-vacd-complication-risks-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/ch-vacd-exposure-risks-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
+		<resource>
+			<reference>
+				<reference value="ValueSet/ch-vacd-problem-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		
+		
 		<!-- pages -->
 		<page>
 			<nameUrl value="toc.html" />

@@ -25,10 +25,6 @@
 		<element id="Immunization">
 			<path value="Immunization" />
 			<short value="CH VACD Immunization" />
-			<mapping>
-				<identity value="cda" />
-				<map value="substanceAdministration" />
-			</mapping>
 		</element>
 		<element id="Immunization.contained">
 			<path value="Immunization.contained" />
@@ -86,7 +82,7 @@
 				<description
 					value="The code for vaccine product administered." />
 				<valueSet
-					value="http://fhir.ch/ig/ch-vacd/ValueSet/immunization-vaccines" />
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs" />
 			</binding>
 			<mapping>
 				<identity value="cda" />
@@ -131,7 +127,7 @@
 				<strength value="required" />
 				<description value="The code for disease." />
 				<valueSet
-					value="http://fhir.ch/ig/ch-vacd/ValueSet/immunization-diseases" />
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-diseases-vs" />
 			</binding>
 		</element>
 	</differential>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value="immunization-diseases" />
+	<id value="ch-vacd-diseases-vs" />
 	<meta>
 		<profile
 			value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
@@ -11,8 +11,7 @@
 			<start value="2016-11-01T00:00:00+01:00" />
 		</valuePeriod>
 	</extension>
-	<url
-		value="http://fhir.ch/ig/ch-vacd/ValueSet/immunization-diseases" />
+	<url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-diseases-vs" />
 	<identifier>
 		<use value="official" />
 		<system value="http://myvaccines.ch/ns/oids/vs" />
@@ -23,12 +22,12 @@
 	<title value="Immunization Target Disease Codes" />
 	<status value="active" />
 	<experimental value="false" />
-	<publisher value="Viavac" />
+	<publisher value="eHealth Suisse" />
 	<contact>
-		<name value="Viavac" />
+		<name value="eHealth Suisse" />
 		<telecom>
 			<system value="url" />
-			<value value="www.viavac.ch" />
+			<value value="www.e-health-suisse.ch" />
 		</telecom>
 	</contact>
 	<description value="" />

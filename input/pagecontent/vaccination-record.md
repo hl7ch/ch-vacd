@@ -6,3 +6,7 @@ defined chapters including the medical and exposition risks which are very impor
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 
 A Bundle has a list of entries. The first entry is the Composition, in which all contained entries are then referenced.
   
+  
+{% include img.html img="vaccination-record-document.png" caption="Fig.: Vaccination Record document" width="40%" %}
+
+* Profile: [Vaccination Record document](StructureDefinition-ch-vacd-document-vaccination-record.html)

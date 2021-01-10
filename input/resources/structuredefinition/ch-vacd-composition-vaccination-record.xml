@@ -1,16 +1,15 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-composition-immunization-certificate" />
+	<id value="ch-vacd-composition-vaccination-record" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-certificate" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-vaccination-record" />
 	<version value="0.1.0" />
-	<name value="CHVACDCompositionImmunizationCertificate" />
-	<title
-		value="CH VACD Immunization Certificate Composition Profile" />
+	<name value="CHVACDCompositionVaccinationRecord" />
+	<title value="CH VACD VaccinationRecord Composition Profile" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
-		value="Definition of the composition for the  immunization certificate document" />
+		value="Definition of the composition for the vaccination record document" />
 	<mapping>
 		<identity value="cda" />
 		<uri value="http://hl7.org/v3/cda" />
@@ -25,7 +24,7 @@
 	<differential>
 		<element id="Composition">
 			<path value="Composition" />
-			<short value="CH VACD Immunization Certificate Composition" />
+			<short value="CH VACD Vaccination Record Composition" />
 		</element>
 		<element id="Composition.language">
 			<path value="Composition.language" />
@@ -51,7 +50,6 @@
 			<sliceName value="versionNumber" />
 			<short value="Version number" />
 		</element>
-
 		<element id="Composition.identifier.system">
 			<path value="Composition.identifier.system" />
 		</element>
@@ -291,6 +289,123 @@
 			<min value="0" />
 			<max value="0" />
 		</element>
+
+		<!-- Section Card (Medical Problems) -->
+		<element id="Composition.section:medicalproblems">
+			<path value="Composition.section" />
+			<sliceName value="medicalproblems" />
+			<short value="Medical Problems" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<!-- Extension for Section-ID -->
+		<element id="Composition.section.extension">
+			<path value="Composition.section.extension" />
+			<slicing>
+				<discriminator>
+					<type value="value" />
+					<path value="url" />
+				</discriminator>
+				<rules value="open" />
+			</slicing>
+		</element>
+		<element id="Composition.section.extension:sectionId">
+			<path value="Composition.section.extension" />
+			<sliceName value="sectionId" />
+		</element>
+		<element id="Composition.section.title:medicalproblems">
+			<path value="Composition.section.title" />
+			<short
+				value="'Liste der Medizinischen Problemen' in german or 'Liste Vaccin administré' in french or 'Lista Vaccinazione somministrata' in italian or 'List Immunization Administration' in english
+                        or titles in other languages are also allowed" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Composition.section.code:medicalproblems">
+			<path value="Composition.section.code" />
+			<min value="1" />
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org" />
+					<code value="10160-0" />
+					<display value="History of medication use" />
+				</coding>
+			</patternCodeableConcept>
+		</element>
+
+		<!-- Author of the section -->
+		<element id="Composition.section.author:medicalproblems">
+			<path value="Composition.section.author" />
+			<short
+				value="The author of the section (person or device) if different from the author/timestamp of the document" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+				<targetProfile
+					value="http://hl7.org/fhir/StructureDefinition/Device" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+				<targetProfile
+					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
+			</type>
+		</element>
+		<element
+			id="Composition.section:medicalproblems.author.extension">
+			<path value="Composition.section.author.extension" />
+			<short value="Timestamp of the authorship/data input" />
+			<!-- CDA-spec: author.time 1..1, here 0..1 to allow the representedOrganization 
+				to be validly mapped as composition.author -->
+			<min value="0" />
+			<max value="1" />
+			<type>
+				<code value="Extension" />
+				<profile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
+			</type>
+			<mapping>
+				<identity value="cda" />
+				<map value=".author.time" />
+			</mapping>
+		</element>
+		<element
+			id="Composition.section:medicalproblems.author.reference">
+			<path value="Composition.section.author.reference" />
+			<min value="1" />
+		</element>
+		<element id="Composition.section.text:medicalproblems">
+			<path value="Composition.section.text" />
+			<short value="Human readable text of this section" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Composition.section.entry:medicalproblems">
+			<path value="Composition.section.entry" />
+			<short value="MedicalProblems" />
+			<min value="0" />
+			<max value="*" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems" />
+			</type>
+		</element>
+		<element
+			id="Composition.section.entry:medicalproblems.reference">
+			<path value="Composition.section.entry.reference" />
+			<min value="1" />
+		</element>
+		<element id="Composition.section.section:medicalproblems">
+			<path value="Composition.section.section" />
+			<min value="0" />
+			<max value="0" />
+		</element>
+
+
 
 		<!-- Section Annotation -->
 		<element id="Composition.section:annotation">

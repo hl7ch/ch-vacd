@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="ch-vacd-problem-vs" />
+	<meta>
+		<profile
+			value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+	</meta>
+	<extension
+		url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+		<valuePeriod>
+			<start value="2016-11-01T00:00:00+01:00" />
+		</valuePeriod>
+	</extension>
+	<url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-problem-vs" />
+	<identifier>
+		<use value="official" />
+		<system value="http://myvaccines.ch/ns/oids/vs" />
+		<value value="2.16.756.5.30.1.147.4.1.1" />
+	</identifier>
+	<version value="2020-04-23T11:44:04" />
+	<name value="MedicalProblemCodes" />
+	<title value="Medical Problem Codes" />
+	<status value="active" />
+	<experimental value="false" />
+	<publisher value="eHealth Suisse" />
+	<contact>
+		<name value="eHealth Suisse" />
+		<telecom>
+			<system value="url" />
+			<value value="www.e-health-suisse.ch" />
+		</telecom>
+	</contact>
+	<description value="" />
+	<immutable value="false" />
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct" />
+			<concept>
+				<code value="55607006" />
+				<display value="Problem" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Problem" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Problem" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Problema" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Problem" />
+				</designation>
+			</concept>
+		</include>
+	</compose>
+</ValueSet>

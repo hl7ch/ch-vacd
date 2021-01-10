@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value="immunization-vaccines" />
+	<id value="ch-vacd-vaccines-vs" />
 	<meta>
 		<profile
 			value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
@@ -11,7 +11,7 @@
 			<start value="2016-11-01T00:00:00+01:00" />
 		</valuePeriod>
 	</extension>
-	<url value="http://fhir.ch/ig/ch-vacd/ValueSet/immunization-vaccines" />
+	<url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs" />
 	<identifier>
 		<use value="official" />
 		<system value="http://myvaccines.ch/ns/oids/vs" />
@@ -22,12 +22,12 @@
 	<title value="Immunization Vaccine Codes" />
 	<status value="active" />
 	<experimental value="false" />
-	<publisher value="Viavac" />
+	<publisher value="eHealth Suisse" />
 	<contact>
-		<name value="Viavac" />
+		<name value="eHealth Suisse" />
 		<telecom>
 			<system value="url" />
-			<value value="www.viavac.ch" />
+			<value value="www.e-health-suisse.ch" />
 		</telecom>
 	</contact>
 	<description value="" />
@@ -36,28 +36,12 @@
 		<include>
 			<system value="urn:oid:2.16.840.1.113883.6.73" />
 			<!-- active vaccines -->
-			<!-- 
-			<concept>
-				<code value="" />
-				<display value="Anderer Impfstoff" />
-				<designation>
-					<language value="de-CH" />
-					<value value="Anderer Impfstoff" />
-				</designation>
-				<designation>
-					<language value="fr-CH" />
-					<value value="Anderer Impfstoff" />
-				</designation>
-				<designation>
-					<language value="it-CH" />
-					<value value="Anderer Impfstoff" />
-				</designation>
-				<designation>
-					<language value="en-US" />
-					<value value="Anderer Impfstoff" />
-				</designation>
-			</concept>
-			 -->
+			<!-- <concept> <code value="" /> <display value="Anderer Impfstoff" /> 
+				<designation> <language value="de-CH" /> <value value="Anderer Impfstoff" 
+				/> </designation> <designation> <language value="fr-CH" /> <value value="Anderer 
+				Impfstoff" /> </designation> <designation> <language value="it-CH" /> <value 
+				value="Anderer Impfstoff" /> </designation> <designation> <language value="en-US" 
+				/> <value value="Anderer Impfstoff" /> </designation> </concept> -->
 			<concept>
 				<code value="J07BA01" />
 				<display value="FSME-Immun 0.25 ml Junior" />

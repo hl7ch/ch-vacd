@@ -115,12 +115,35 @@
 
 	</target>
 
+	<target name="transformComplicationRisks" depends="init">
+		<delete file="output/complication-risks-GEN.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+			<param name="in" value="templates/VS_SwissVaccinationPlanComplicationRisks_download_2021-01-10T171600.xml" />
+			<param name="out" value="output/complication-risks-GEN.xml" />
+		</antcall>
+	</target>
+
+	<target name="transformExposureRisks" depends="init">
+		<delete file="output/exposure-risks-GEN.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+			<param name="in" value="templates/VS_SwissVaccinationPlanExposureRisks_download_2021-01-10T171645.xml" />
+			<param name="out" value="output/exposure-risks-GEN.xml" />
+		</antcall>
+
+	</target>
+
 
 	<target name="default">
 		<antcall target="transformVaccines" />
 		<antcall target="transformDisease" />
+		<antcall target="transformComplicationRisks" />
+		<antcall target="transformExposureRisks" />
+		<!--
 		<antcall target="transformEprValueSetConfidentialityCode" />
 		<antcall target="transformEprValueSetsConfidentialityCodeToCodeSystem" />
+		-->
 	</target>
 
 	<target name="dist" depends="init">
