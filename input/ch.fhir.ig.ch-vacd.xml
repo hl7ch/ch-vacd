@@ -2,7 +2,7 @@
 	<id value="ch.fhir.ig.ch-vacd" />
 	<url
 		value="http://fhir.ch/ig/ch-vacd/ImplementationGuide/ch.fhir.ig.ch-vacd" />
-	<version value="0.1.0" />
+	<version value="0.1.1" />
 	<name value="CH_VACD" />
 	<title value="CH VACD (R4)" />
 	<status value="draft" />
