@@ -2,12 +2,12 @@
 	<id value="ch.fhir.ig.ch-vacd" />
 	<url
 		value="http://fhir.ch/ig/ch-vacd/ImplementationGuide/ch.fhir.ig.ch-vacd" />
-	<version value="0.1.1" />
+	<version value="0.1.0" />
 	<name value="CH_VACD" />
 	<title value="CH VACD (R4)" />
 	<status value="draft" />
 	<experimental value="false" />
-	<date value="2020-11-01" />
+	<date value="2021-01-22" />
 	<publisher value="eHealth Suisse" />
 	<contact>
 		<name value="eHealth Suisse" />
@@ -26,7 +26,7 @@
 	<packageId value="ch.fhir.ig.ch-vacd" />
 	<license value="CC-BY-SA-4.0" />
 	<fhirVersion value="4.0.1" />
-	<!-- Publication 2021-01-31 v0.1.0 -->
+
 	<dependsOn id="chcore">
 		<uri
 			value="http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core" />
@@ -272,7 +272,7 @@
 		</parameter>
 		<parameter>
 			<code value="special-url" />
-			<value value="urn:oid:0.4.0.127.0.16.1.1.2.1" /> <!--edqm-standardterms -->
+			<value value="urn:oid:0.4.0.127.0.16.1.1.2.1" />
 		</parameter>
 	</definition>
 </ImplementationGuide>

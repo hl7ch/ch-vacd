@@ -1,6 +1,6 @@
 {
   "package-id": "ch.fhir.ig.ch-vacd",
-  "title": "CH IG (R4)",
+  "title": "CH VACD (R4)",
   "canonical": "http://fhir.ch/ig/ch-vacd",
   "introduction": "Implementation guide for VACD",
   "list": [
@@ -13,8 +13,8 @@
       "current" : true
     },
     {
-      "version": "0.1.1",
-      "date": "2020-06-18",
+      "version": "0.1.0",
+      "date": "2021-01-22",
       "desc": "e.g. STU 1 Ballot",
       "path": "http://fhir.ch/ig/ch-vacd/0.1.0",
       "status": "trial-use",
