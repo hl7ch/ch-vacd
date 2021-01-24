@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+  <vaccine 
+	SMNR="683" 
+	NAME_EN="FSME-Immun 0.25 ml Junior"/>
+  <vaccine 
+	SMNR="450" 
+	NAME_EN="FSME-Immun CC"/>
+  <vaccine 
+	SMNR="656" 
+	NAME_EN="NeisVac-C"/>
+  <vaccine 
+	SMNR="627" 
+	NAME_EN="Encepur N"/>
+  <vaccine 
+	SMNR="628" 
+	NAME_EN="Encepur N Kinder &#47; Enfants"/>
+  <vaccine 
+	SMNR="572" 
+	NAME_EN="Epaxal"/>
+  <vaccine 
+	SMNR="544" 
+	NAME_EN="Heprecomb"/>
+  <vaccine 
+	SMNR="642" 
+	NAME_EN="Heprecomb Kinder"/>
+  <vaccine 
+	SMNR="614" 
+	NAME_EN="Inflexal V"/>
+  <vaccine 
+	SMNR="657" 
+	NAME_EN="Menjugate"/>
+  <vaccine 
+	SMNR="533" 
+	NAME_EN="Moraten"/>
+  <vaccine 
+	SMNR="555" 
+	NAME_EN="Orochol"/>
+  <vaccine 
+	SMNR="642" 
+	NAME_EN="Orochol E"/>
+  <vaccine 
+	SMNR="685" 
+	NAME_EN="Rabipur"/>
+  <vaccine 
+	SMNR="702" 
+	NAME_EN="Td-pur"/>
+  <vaccine 
+	SMNR="686" 
+	NAME_EN="Td-Virelon"/>
+  <vaccine 
+	SMNR="467" 
+	NAME_EN="Vivotif"/>
+  <vaccine 
+	SMNR="637" 
+	NAME_EN="Boostrix"/>
+  <vaccine 
+	SMNR="681" 
+	NAME_EN="Boostrix Polio"/>
+  <vaccine 
+	SMNR="567" 
+	NAME_EN="Ditanrix"/>
+  <vaccine 
+	SMNR="551" 
+	NAME_EN="Engerix-B 10"/>
+  <vaccine 
+	SMNR="534" 
+	NAME_EN="Engerix-B 20"/>
+  <vaccine 
+	SMNR="583" 
+	NAME_EN="Fluarix"/>
+  <vaccine 
+	SMNR="558" 
+	NAME_EN="Havrix 1440"/>
+  <vaccine 
+	SMNR="599" 
+	NAME_EN="Havrix 720"/>
+  <vaccine 
+	SMNR="603" 
+	NAME_EN="Hiberix"/>
+  <vaccine 
+	SMNR="638" 
+	NAME_EN="Infanrix DTPa-IPV"/>
+  <vaccine 
+	SMNR="619" 
+	NAME_EN="Infanrix DTPa-IPV+Hib"/>
+  <vaccine 
+	SMNR="640" 
+	NAME_EN="Infanrix hexa"/>
+  <vaccine 
+	SMNR="652" 
+	NAME_EN="Mencevax ACWY"/>
+  <vaccine 
+	SMNR="669" 
+	NAME_EN="Poliorix"/>
+  <vaccine 
+	SMNR="615" 
+	NAME_EN="Priorix"/>
+  <vaccine 
+	SMNR="592" 
+	NAME_EN="Twinrix 720&#47;20"/>
+  <vaccine 
+	SMNR="585" 
+	NAME_EN="Varilrix"/>
+  <vaccine 
+	SMNR="528" 
+	NAME_EN="Gen H-B-Vax 10"/>
+  <vaccine 
+	SMNR="545" 
+	NAME_EN="HBVAXPRO 40"/>
+  <vaccine 
+	SMNR="610" 
+	NAME_EN="Gen H-B-Vax 5"/>
+  <vaccine 
+	SMNR="663" 
+	NAME_EN="HBVAXPRO 10"/>
+  <vaccine 
+	SMNR="268" 
+	NAME_EN="MMR-II"/>
+  <vaccine 
+	SMNR="247" 
+	NAME_EN="Mumpsvax"/>
+  <vaccine 
+	SMNR="373" 
+	NAME_EN="Mutagrip"/>
+  <vaccine 
+	SMNR="613" 
+	NAME_EN="Pentavac"/>
+  <vaccine 
+	SMNR="509" 
+	NAME_EN="Pneumovax-23"/>
+  <vaccine 
+	SMNR="646" 
+	NAME_EN="Revaxis"/>
+  <vaccine 
+	SMNR="520" 
+	NAME_EN="Stamaril"/>
+  <vaccine 
+	SMNR="612" 
+	NAME_EN="Tetravac"/>
+  <vaccine 
+	SMNR="417" 
+	NAME_EN="Tollwut Impfstoff Mérieux"/>
+  <vaccine 
+	SMNR="688" 
+	NAME_EN="Varivax"/>
+  <vaccine 
+	SMNR="485" 
+	NAME_EN="Influvac"/>
+  <vaccine 
+	SMNR="660" 
+	NAME_EN="Influvac plus"/>
+  <vaccine 
+	SMNR="654" 
+	NAME_EN="Meningitec"/>
+  <vaccine 
+	SMNR="643" 
+	NAME_EN="Prevenar-7"/>
+  <vaccine 
+	SMNR="644" 
+	NAME_EN="Hexavac"/>
+  <vaccine 
+	SMNR="711" 
+	NAME_EN="DiTe pediatric adsorbed"/>
+  <vaccine 
+	SMNR="704" 
+	NAME_EN="Dukoral"/>
+  <vaccine 
+	SMNR="417" 
+	NAME_EN="Rabique Mérieux"/>
+  <vaccine 
+	SMNR="483" 
+	NAME_EN="Rimevax"/>
+  <vaccine 
+	SMNR="707" 
+	NAME_EN="Tetanol pur"/>
+  <vaccine 
+	SMNR="57735" 
+	NAME_EN="Gardasil"/>
+  <vaccine 
+	SMNR="709" 
+	NAME_EN="Zostavax"/>
+  <vaccine 
+	SMNR="58158" 
+	NAME_EN="Priorix-Tetra"/>
+  <vaccine 
+	SMNR="696" 
+	NAME_EN="BCG SSI"/>
+  <vaccine 
+	SMNR="58317" 
+	NAME_EN="Fluad"/>
+  <vaccine 
+	SMNR="60150" 
+	NAME_EN="Rotarix"/>
+  <vaccine 
+	SMNR="703" 
+	NAME_EN="MMRVaxPro"/>
+  <vaccine 
+	SMNR="58506" 
+	NAME_EN="Measles vaccine live"/>
+  <vaccine 
+	SMNR="59267" 
+	NAME_EN="Agrippal"/>
+  <vaccine 
+	SMNR="58271" 
+	NAME_EN="Optaflu"/>
+  <vaccine 
+	SMNR="57814" 
+	NAME_EN="Cervarix"/>
+  <vaccine 
+	SMNR="60129" 
+	NAME_EN="Prevenar-13"/>
+  <vaccine 
+	SMNR="59147" 
+	NAME_EN="Ixiaro"/>
+  <vaccine 
+	SMNR="62502" 
+	NAME_EN="Menveo"/>
+  <vaccine 
+	SMNR="600" 
+	NAME_EN="DiTe Anatoxal Erwachsene &#47; Adultes"/>
+  <vaccine 
+	SMNR="690" 
+	NAME_EN="DiTe Anatoxal N Erwachsene &#47; Adultes"/>
+  <vaccine 
+	SMNR="35" 
+	NAME_EN="Te Anatoxal"/>
+  <vaccine 
+	SMNR="689" 
+	NAME_EN="Te Anatoxal N"/>
+  <vaccine 
+	SMNR="627" 
+	NAME_EN="Encepur"/>
+  <vaccine 
+	SMNR="628" 
+	NAME_EN="Encepur Kinder &#47; Enfants"/>
+  <vaccine 
+	SMNR="62961" 
+	NAME_EN="Fluarix Tetra"/>
+  <vaccine 
+	SMNR="66037" 
+	NAME_EN="Menjugate liquid"/>
+  <vaccine 
+	SMNR="699" 
+	NAME_EN="ProQuad"/>
+  <vaccine 
+	SMNR="66427" 
+	NAME_EN="Vaxigrip Tetra"/>
+  <vaccine 
+	SMNR="65387" 
+	NAME_EN="Gardasil 9"/>
+  <vaccine 
+	SMNR="66940" 
+	NAME_EN="Vaxelis"/>
+  <vaccine 
+	SMNR="65730" 
+	NAME_EN="Bexsero"/>
+  <vaccine 
+	SMNR="68087" 
+	NAME_EN="Influvac Tetra"/>
+  <vaccine 
+	SMNR="68267" 
+	NAME_EN="COVID-19 Vaccine (Moderna)"/>
+  <vaccine 
+	SMNR="68225" 
+	NAME_EN="COMIRNATY (Pfizer)"/>
+</dataset>

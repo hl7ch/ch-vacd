@@ -1,0 +1,1745 @@
+<valueSets  xmlns="urn:ihe:iti:svs:2008">
+	<repository url="http://art-decor.org/decor/services/"
+		ident="ch-pcc-" referencedFrom="cdachvacd-">
+		<valueSet id="2.16.756.5.30.1.1.11.79"
+			name="RouteOfAdministrationImmunization"
+			displayName="RouteOfAdministration (Immunization)" statusCode="final"
+			officialReleaseDate="2018-04-19T00:00:00" versionLabel="2018"
+			effectiveDate="2018-04-19T00:00:00">
+			<sourceCodeSystem id="2.16.840.1.113883.5.112"
+				identifierName="Route&#160;Of&#160;Administration"
+				canonicalUri="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+				canonicalUriDSTU2="http://hl7.org/fhir/v3/RouteOfAdministration"
+				canonicalUriSTU3="http://hl7.org/fhir/v3/RouteOfAdministration"
+				canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"></sourceCodeSystem>
+			<!-- 
+			<sourceCodeSystem id="2.16.840.1.113883.5.1008"
+				identifierName="Null&#160;Flavor"
+				canonicalUri="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+				canonicalUriDSTU2="http://hl7.org/fhir/v3/NullFlavor"
+				canonicalUriSTU3="http://hl7.org/fhir/v3/NullFlavor"
+				canonicalUriR4="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"></sourceCodeSystem> -->
+			<publishingAuthority name="eHealth Suisse">
+				<addrLine>Schwarzenburgstrasse 165</addrLine>
+				<addrLine>CH-3003 Bern</addrLine>
+				<addrLine type="uri">www.e-health-suisse.ch</addrLine>
+			</publishingAuthority>
+			<conceptList>
+				<concept code="SOAK" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Immersion (soak)" level="1" type="L"></concept>
+				<concept code="SHAMPOO" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Shampoo" level="1" type="L"></concept>
+				<concept code="TRNSLING"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Translingual"
+					level="1" type="L"></concept>
+				<concept code="PO" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Swallow, oral" level="1" type="L"></concept>
+				<concept code="GARGLE" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Gargle" level="1" type="L"></concept>
+				<concept code="SUCK" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Suck, oromucosal" level="1" type="L"></concept>
+				<concept code="_Chew" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Chew" level="1" type="A"></concept>
+				<concept code="CHEW" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Chew, oral" level="2" type="L"></concept>
+				<concept code="_Diffusion"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Diffusion"
+					level="1" type="A"></concept>
+				<concept code="EXTCORPDIF"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Diffusion, extracorporeal" level="2" type="L"></concept>
+				<concept code="HEMODIFF"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Diffusion, hemodialysis" level="2" type="L"></concept>
+				<concept code="TRNSDERMD"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Diffusion, transdermal" level="2" type="L"></concept>
+				<concept code="_Dissolve"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Dissolve"
+					level="1" type="A"></concept>
+				<concept code="DISSOLVE"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Dissolve, oral"
+					level="2" type="L"></concept>
+				<concept code="SL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Dissolve, sublingual" level="2" type="L"></concept>
+				<concept code="_Douche" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Douche" level="1" type="A"></concept>
+				<concept code="DOUCHE" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Douche, vaginal" level="2" type="L"></concept>
+				<concept code="_ElectroOsmosisRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="ElectroOsmosisRoute" level="1" type="A"></concept>
+				<concept code="ELECTOSMOS"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Electro-osmosis"
+					level="2" type="L"></concept>
+				<concept code="_Enema" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Enema" level="1" type="A"></concept>
+				<concept code="ENEMA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Enema, rectal" level="2" type="L"></concept>
+				<concept code="RETENEMA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Enema, rectal retention" level="2" type="L"></concept>
+				<concept code="_Flush" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Flush" level="1" type="A"></concept>
+				<concept code="IVFLUSH" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Flush, intravenous catheter" level="2" type="L"></concept>
+				<concept code="_Implantation"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Implantation"
+					level="1" type="A"></concept>
+				<concept code="IDIMPLNT"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Implantation, intradermal" level="2" type="L"></concept>
+				<concept code="IVITIMPLNT"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Implantation, intravitreal" level="2" type="L"></concept>
+				<concept code="SQIMPLNT"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Implantation, subcutaneous" level="2" type="L"></concept>
+				<concept code="_Infusion"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Infusion"
+					level="1" type="A"></concept>
+				<concept code="EPI" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, epidural" level="2" type="L"></concept>
+				<concept code="IA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intraarterial catheter" level="2" type="L"></concept>
+				<concept code="IC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intracardiac" level="2" type="L"></concept>
+				<concept code="ICOR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intracoronary" level="2" type="L"></concept>
+				<concept code="IOSSC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intraosseous, continuous" level="2" type="L"></concept>
+				<concept code="IT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intrathecal" level="2" type="L"></concept>
+				<concept code="IV" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intravenous" level="2" type="S"></concept>
+				<concept code="IVC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intravenous catheter" level="3" type="L"></concept>
+				<concept code="IVCC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intravenous catheter, continuous" level="3"
+					type="L"></concept>
+				<concept code="IVCI" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intravenous catheter, intermittent"
+					level="3" type="L"></concept>
+				<concept code="PCA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intravenous catheter, pca pump" level="3"
+					type="L"></concept>
+				<concept code="IVASCINFUS"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intravascular" level="2" type="L"></concept>
+				<concept code="SQINFUS" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, subcutaneous" level="2" type="L"></concept>
+				<concept code="_Inhalation"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Inhalation"
+					level="1" type="A"></concept>
+				<concept code="IPINHL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, respiratory Inhalation, intrapulmonary Inhalation, oral"
+					level="2" type="S"></concept>
+				<concept code="ORIFINHL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral intermittent flow" level="3" type="L"></concept>
+				<concept code="REBREATH"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral rebreather mask" level="3" type="L"></concept>
+				<concept code="ORINHL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, respiratory Inhalation, intrapulmonary Inhalation, oral"
+					level="2" type="S"></concept>
+				<concept code="ORIFINHL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral intermittent flow" level="3" type="L"></concept>
+				<concept code="REBREATH"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral rebreather mask" level="3" type="L"></concept>
+				<concept code="RESPINHL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, respiratory Inhalation, intrapulmonary Inhalation, oral"
+					level="2" type="S"></concept>
+				<concept code="ORIFINHL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral intermittent flow" level="3" type="L"></concept>
+				<concept code="REBREATH"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral rebreather mask" level="3" type="L"></concept>
+				<concept code="IPPB" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, intermittent positive pressure breathing (ippb)"
+					level="2" type="L"></concept>
+				<concept code="NASINHL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, nasal" level="2" type="S"></concept>
+				<concept code="NASINHLC"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, nasal cannula Inhalation, nasal, prongs"
+					level="3" type="L"></concept>
+				<concept code="NP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, nasal cannula Inhalation, nasal, prongs"
+					level="3" type="L"></concept>
+				<concept code="NEB" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, nebulization" level="2" type="S"></concept>
+				<concept code="NASNEB" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, nebulization, nasal" level="3" type="L"></concept>
+				<concept code="ORNEB" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, nebulization, oral" level="3" type="L"></concept>
+				<concept code="TRACH" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, tracheostomy" level="2" type="L"></concept>
+				<concept code="VENT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, ventilator" level="2" type="L"></concept>
+				<concept code="VENTMASK"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, ventimask" level="2" type="L"></concept>
+				<concept code="_Injection"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Injection"
+					level="1" type="A"></concept>
+				<concept code="AMNINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, amniotic fluid" level="2" type="L"></concept>
+				<concept code="BILINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, biliary tract" level="2" type="L"></concept>
+				<concept code="CHOLINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, for cholangiography" level="2" type="L"></concept>
+				<concept code="CERVINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, cervical" level="2" type="L"></concept>
+				<concept code="EPIDURINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, epidural" level="2" type="L"></concept>
+				<concept code="EPIINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, epidural, push" level="2" type="L"></concept>
+				<concept code="EPINJSP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, epidural, slow push" level="2" type="L"></concept>
+				<concept code="EXTRAMNINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, extra-amniotic" level="2" type="L"></concept>
+				<concept code="EXTCORPINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, extracorporeal" level="2" type="L"></concept>
+				<concept code="GBINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, gastric button" level="2" type="L"></concept>
+				<concept code="GINGINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, gingival" level="2" type="L"></concept>
+				<concept code="BLADINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, urinary bladder" level="2" type="L"></concept>
+				<concept code="ENDOSININJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, endosinusial" level="2" type="L"></concept>
+				<concept code="HEMOPORT"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, hemodialysis port" level="2" type="L"></concept>
+				<concept code="IABDINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intra-abdominal" level="2" type="L"></concept>
+				<concept code="IAINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraarterial" level="2" type="S"></concept>
+				<concept code="IAINJP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraarterial, push" level="3" type="L"></concept>
+				<concept code="IAINJSP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraarterial, slow push" level="3"
+					type="L"></concept>
+				<concept code="IARTINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraarticular" level="2" type="L"></concept>
+				<concept code="IBURSINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrabursal" level="2" type="L"></concept>
+				<concept code="ICARDINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracardiac" level="2" type="S"></concept>
+				<concept code="ICARDINJRP"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracardiac, rapid push" level="3"
+					type="L"></concept>
+				<concept code="ICARDINJSP"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracardiac, slow push" level="3" type="L"></concept>
+				<concept code="ICARINJP"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracardiac, push" level="3" type="L"></concept>
+				<concept code="ICARTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracartilaginous" level="2" type="L"></concept>
+				<concept code="ICAUDINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracaudal" level="2" type="L"></concept>
+				<concept code="ICAVINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracavernous" level="2" type="L"></concept>
+				<concept code="ICAVITINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracavitary" level="2" type="L"></concept>
+				<concept code="ICEREBINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracerebral" level="2" type="L"></concept>
+				<concept code="ICISTERNINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracisternal" level="2" type="L"></concept>
+				<concept code="ICORONINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracoronary" level="2" type="S"></concept>
+				<concept code="ICORONINJP"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracoronary, push" level="3" type="L"></concept>
+				<concept code="ICORPCAVINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracorpus cavernosum" level="2" type="L"></concept>
+				<concept code="IDINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intradermal" level="2" type="L"></concept>
+				<concept code="IDISCINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intradiscal" level="2" type="L"></concept>
+				<concept code="IDUCTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraductal" level="2" type="L"></concept>
+				<concept code="IDURINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intradural" level="2" type="L"></concept>
+				<concept code="IEPIDINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraepidermal" level="2" type="L"></concept>
+				<concept code="IEPITHINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraepithelial" level="2" type="L"></concept>
+				<concept code="ILESINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intralesional" level="2" type="L"></concept>
+				<concept code="ILUMINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraluminal" level="2" type="L"></concept>
+				<concept code="ILYMPJINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intralymphatic" level="2" type="L"></concept>
+				<concept code="IM" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intramuscular" level="2" type="S"></concept>
+				<concept code="IMD" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intramuscular, deep" level="3" type="L"></concept>
+				<concept code="IMZ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intramuscular, z track" level="3" type="L"></concept>
+				<concept code="IMEDULINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intramedullary" level="2" type="L"></concept>
+				<concept code="INTERMENINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, interameningeal" level="2" type="L"></concept>
+				<concept code="INTERSTITINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, interstitial" level="2" type="L"></concept>
+				<concept code="IOINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraocular" level="2" type="L"></concept>
+				<concept code="IOSSINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraosseous" level="2" type="L"></concept>
+				<concept code="IOVARINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraovarian" level="2" type="L"></concept>
+				<concept code="IPCARDINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrapericardial" level="2" type="L"></concept>
+				<concept code="IPERINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraperitoneal" level="2" type="L"></concept>
+				<concept code="IPINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrapulmonary" level="2" type="L"></concept>
+				<concept code="IPLRINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrapleural" level="2" type="L"></concept>
+				<concept code="IPROSTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraprostatic" level="2" type="L"></concept>
+				<concept code="IPUMPINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, insulin pump" level="2" type="L"></concept>
+				<concept code="ISINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraspinal" level="2" type="L"></concept>
+				<concept code="ISTERINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrasternal" level="2" type="L"></concept>
+				<concept code="ISYNINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrasynovial" level="2" type="L"></concept>
+				<concept code="ITENDINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intratendinous" level="2" type="L"></concept>
+				<concept code="ITESTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intratesticular" level="2" type="L"></concept>
+				<concept code="ITHORINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrathoracic" level="2" type="L"></concept>
+				<concept code="ITINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrathecal" level="2" type="L"></concept>
+				<concept code="ITUBINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intratubular" level="2" type="L"></concept>
+				<concept code="ITUMINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intratumor" level="2" type="L"></concept>
+				<concept code="ITYMPINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intratympanic" level="2" type="L"></concept>
+				<concept code="IUINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrauterine" level="2" type="L"></concept>
+				<concept code="IUINJC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracervical (uterus)" level="2" type="L"></concept>
+				<concept code="IURETINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraureteral, retrograde" level="2"
+					type="L"></concept>
+				<concept code="IVASCINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravascular" level="2" type="L"></concept>
+				<concept code="IVENTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraventricular (heart)" level="2"
+					type="L"></concept>
+				<concept code="IVESINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravesicle" level="2" type="L"></concept>
+				<concept code="IVINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravenous" level="2" type="S"></concept>
+				<concept code="IVINJBOL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravenous, bolus" level="3" type="L"></concept>
+				<concept code="IVPUSH" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravenous, push" level="3" type="L"></concept>
+				<concept code="IVRPUSH" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravenous, rapid push" level="3" type="L"></concept>
+				<concept code="IVSPUSH" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravenous, slow push" level="3" type="L"></concept>
+				<concept code="IVITINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravitreal" level="2" type="L"></concept>
+				<concept code="PAINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, periarticular" level="2" type="L"></concept>
+				<concept code="PARENTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, parenteral" level="2" type="L"></concept>
+				<concept code="PDONTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, periodontal" level="2" type="L"></concept>
+				<concept code="PDPINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, peritoneal dialysis port" level="2"
+					type="L"></concept>
+				<concept code="PDURINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, peridural" level="2" type="L"></concept>
+				<concept code="PNINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, perineural" level="2" type="L"></concept>
+				<concept code="PNSINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, paranasal sinuses" level="2" type="L"></concept>
+				<concept code="RBINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, retrobulbar" level="2" type="L"></concept>
+				<concept code="SCINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, subconjunctival" level="2" type="L"></concept>
+				<concept code="SLESINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, sublesional" level="2" type="L"></concept>
+				<concept code="SOFTISINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, soft tissue" level="2" type="L"></concept>
+				<concept code="SQ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, subcutaneous" level="2" type="L"></concept>
+				<concept code="SUBARACHINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, subarachnoid" level="2" type="L"></concept>
+				<concept code="SUBMUCINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, submucosal" level="2" type="L"></concept>
+				<concept code="TRPLACINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, transplacental" level="2" type="L"></concept>
+				<concept code="TRTRACHINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, transtracheal" level="2" type="L"></concept>
+				<concept code="URETHINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, urethral" level="2" type="L"></concept>
+				<concept code="URETINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, ureteral" level="2" type="L"></concept>
+				<concept code="_Insertion"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Insertion"
+					level="1" type="A"></concept>
+				<concept code="CERVINS" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, cervical (uterine)" level="2" type="L"></concept>
+				<concept code="IOSURGINS"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, intraocular, surgical" level="2" type="L"></concept>
+				<concept code="IU" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, intrauterine" level="2" type="L"></concept>
+				<concept code="LPINS" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, lacrimal puncta" level="2" type="L"></concept>
+				<concept code="PR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, rectal" level="2" type="L"></concept>
+				<concept code="SQSURGINS"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, subcutaneous, surgical" level="2" type="L"></concept>
+				<concept code="URETHINS"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, urethral" level="2" type="L"></concept>
+				<concept code="VAGINSI" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, vaginal" level="2" type="L"></concept>
+				<concept code="_Instillation"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Instillation"
+					level="1" type="A"></concept>
+				<concept code="CECINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, cecostomy" level="2" type="L"></concept>
+				<concept code="EFT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, enteral feeding tube" level="2" type="L"></concept>
+				<concept code="ENTINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, enteral" level="2" type="L"></concept>
+				<concept code="GT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, gastrostomy tube" level="2" type="L"></concept>
+				<concept code="NGT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, nasogastric tube" level="2" type="L"></concept>
+				<concept code="OGT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, orogastric tube" level="2" type="L"></concept>
+				<concept code="BLADINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, urinary catheter" level="2" type="L"></concept>
+				<concept code="CAPDINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, continuous ambulatory peritoneal dialysis port"
+					level="2" type="L"></concept>
+				<concept code="CTINSTL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, chest tube" level="2" type="L"></concept>
+				<concept code="ETINSTL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, endotracheal tube" level="2" type="L"></concept>
+				<concept code="GJT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, gastro-jejunostomy tube" level="2"
+					type="L"></concept>
+				<concept code="IBRONCHINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intrabronchial" level="2" type="L"></concept>
+				<concept code="IDUODINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intraduodenal" level="2" type="L"></concept>
+				<concept code="IESOPHINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intraesophageal" level="2" type="L"></concept>
+				<concept code="IGASTINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intragastric" level="2" type="L"></concept>
+				<concept code="IILEALINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intraileal" level="2" type="L"></concept>
+				<concept code="IOINSTL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intraocular" level="2" type="L"></concept>
+				<concept code="ISININSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intrasinal" level="2" type="L"></concept>
+				<concept code="ITRACHINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intratracheal" level="2" type="L"></concept>
+				<concept code="IUINSTL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intrauterine" level="2" type="L"></concept>
+				<concept code="JJTINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, jejunostomy tube" level="2" type="L"></concept>
+				<concept code="LARYNGINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, laryngeal" level="2" type="L"></concept>
+				<concept code="NASALINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, nasal" level="2" type="L"></concept>
+				<concept code="NASOGASINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, nasogastric" level="2" type="L"></concept>
+				<concept code="NTT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, nasotracheal tube" level="2" type="L"></concept>
+				<concept code="OJJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, orojejunum tube" level="2" type="L"></concept>
+				<concept code="OT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, otic" level="2" type="L"></concept>
+				<concept code="PDPINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, peritoneal dialysis port" level="2"
+					type="L"></concept>
+				<concept code="PNSINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, paranasal sinuses" level="2" type="L"></concept>
+				<concept code="RECINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, rectal" level="2" type="S"></concept>
+				<concept code="RECTINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, rectal tube" level="3" type="L"></concept>
+				<concept code="SININSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, sinus, unspecified" level="2" type="L"></concept>
+				<concept code="SOFTISINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, soft tissue" level="2" type="L"></concept>
+				<concept code="TRACHINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, tracheostomy" level="2" type="L"></concept>
+				<concept code="TRTYMPINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, transtympanic" level="2" type="L"></concept>
+				<concept code="URETHINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="instillation, urethral" level="2" type="L"></concept>
+				<concept code="_IontophoresisRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IontophoresisRoute" level="1" type="A"></concept>
+				<concept code="IONTO" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, iontophoresis" level="2" type="L"></concept>
+				<concept code="_Irrigation"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Irrigation"
+					level="1" type="A"></concept>
+				<concept code="GUIRR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, genitourinary" level="2" type="L"></concept>
+				<concept code="IGASTIRR"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, intragastric" level="2" type="L"></concept>
+				<concept code="ILESIRR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, intralesional" level="2" type="L"></concept>
+				<concept code="IOIRR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, intraocular" level="2" type="L"></concept>
+				<concept code="BLADIRR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, urinary bladder" level="2" type="S"></concept>
+				<concept code="BLADIRRC"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, urinary bladder, continuous" level="3"
+					type="L"></concept>
+				<concept code="BLADIRRT"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, urinary bladder, tidal" level="3" type="L"></concept>
+				<concept code="RECIRR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, rectal" level="2" type="L"></concept>
+				<concept code="_LavageRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="LavageRoute"
+					level="1" type="A"></concept>
+				<concept code="IGASTLAV"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Lavage, intragastric" level="2" type="L"></concept>
+				<concept code="_MucosalAbsorptionRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="MucosalAbsorptionRoute" level="1" type="A"></concept>
+				<concept code="IDOUDMAB"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Mucosal absorption, intraduodenal" level="2" type="L"></concept>
+				<concept code="ITRACHMAB"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Mucosal absorption, intratracheal" level="2" type="L"></concept>
+				<concept code="SMUCMAB" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Mucosal absorption, submucosal" level="2" type="L"></concept>
+				<concept code="_Nebulization"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Nebulization"
+					level="1" type="A"></concept>
+				<concept code="ETNEB" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Nebulization, endotracheal tube" level="2" type="L"></concept>
+				<concept code="_Rinse" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Rinse" level="1" type="A"></concept>
+				<concept code="DENRINSE"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Rinse, dental"
+					level="2" type="L"></concept>
+				<concept code="ORRINSE" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Rinse, oral" level="2" type="L"></concept>
+				<concept code="_SuppositoryRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="SuppositoryRoute"
+					level="1" type="A"></concept>
+				<concept code="URETHSUP"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Suppository, urethral" level="2" type="L"></concept>
+				<concept code="_Swish" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Swish" level="1" type="A"></concept>
+				<concept code="SWISHSPIT"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Swish and spit out, oromucosal" level="2" type="L"></concept>
+				<concept code="SWISHSWAL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Swish and swallow, oromucosal" level="2" type="L"></concept>
+				<concept code="_TopicalAbsorptionRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="TopicalAbsorptionRoute" level="1" type="A"></concept>
+				<concept code="TTYMPTABSORP"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical absorption, transtympanic" level="2" type="L"></concept>
+				<concept code="_TopicalApplication"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="TopicalApplication" level="1" type="A"></concept>
+				<concept code="DRESS" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, soaked dressing" level="2"
+					type="L"></concept>
+				<concept code="IONTO" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, iontophoresis" level="2" type="L"></concept>
+				<concept code="SWAB" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, swab" level="2" type="L"></concept>
+				<concept code="TOPICAL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical" level="2" type="L"></concept>
+				<concept code="BUC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, buccal" level="2" type="L"></concept>
+				<concept code="CERV" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, cervical" level="2" type="L"></concept>
+				<concept code="DEN" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, dental" level="2" type="L"></concept>
+				<concept code="GIN" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, gingival" level="2" type="L"></concept>
+				<concept code="HAIR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, hair" level="2" type="L"></concept>
+				<concept code="ICORNTA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intracorneal" level="2" type="L"></concept>
+				<concept code="ICORONTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intracoronal (dental)" level="2"
+					type="L"></concept>
+				<concept code="IESOPHTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intraesophageal" level="2"
+					type="L"></concept>
+				<concept code="IILEALTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intraileal" level="2" type="L"></concept>
+				<concept code="ILTOP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intralesional" level="2" type="L"></concept>
+				<concept code="ILUMTA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intraluminal" level="2" type="L"></concept>
+				<concept code="IOTOP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intraocular" level="2" type="L"></concept>
+				<concept code="LARYNGTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, laryngeal" level="2" type="L"></concept>
+				<concept code="MUC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, mucous membrane" level="2"
+					type="L"></concept>
+				<concept code="NAIL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, nail" level="2" type="L"></concept>
+				<concept code="NASAL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, nasal" level="2" type="L"></concept>
+				<concept code="OPTHALTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, ophthalmic" level="2" type="L"></concept>
+				<concept code="ORALTA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, oral" level="2" type="L"></concept>
+				<concept code="ORMUC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, oromucosal" level="2" type="L"></concept>
+				<concept code="OROPHARTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, oropharyngeal" level="2" type="L"></concept>
+				<concept code="PERIANAL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, perianal" level="2" type="L"></concept>
+				<concept code="PERINEAL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, perineal" level="2" type="L"></concept>
+				<concept code="PDONTTA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, periodontal" level="2" type="L"></concept>
+				<concept code="RECTAL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, rectal" level="2" type="L"></concept>
+				<concept code="SCALP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, scalp" level="2" type="L"></concept>
+				<concept code="OCDRESTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Occlusive dressing technique" level="2" type="L"></concept>
+				<concept code="SKIN" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, skin" level="2" type="L"></concept>
+				<concept code="SUBCONJTA"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Subconjunctival"
+					level="2" type="L"></concept>
+				<concept code="TMUCTA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, transmucosal" level="2" type="L"></concept>
+				<concept code="VAGINS" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, vaginal" level="2" type="L"></concept>
+				<concept code="INSUF" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insufflation" level="1" type="L"></concept>
+				<concept code="TRNSDERM"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Transdermal"
+					level="1" type="S"></concept>
+				<concept code="TRNSDERMD"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Diffusion, transdermal" level="2" type="L"></concept>
+				<concept code="TRNSDERM"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Transdermal"
+					level="1" type="S"></concept>
+				<concept code="TRNSDERMD"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Diffusion, transdermal" level="2" type="L"></concept>
+				<concept code="_AmnioticFluidSacRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="AmnioticFluidSacRoute" level="1" type="A"></concept>
+				<concept code="AMNINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, amniotic fluid" level="2" type="L"></concept>
+				<concept code="_BiliaryRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="BiliaryRoute"
+					level="1" type="A"></concept>
+				<concept code="BILINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, biliary tract" level="2" type="L"></concept>
+				<concept code="CHOLINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, for cholangiography" level="2" type="L"></concept>
+				<concept code="_BodySurfaceRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="BodySurfaceRoute"
+					level="1" type="A"></concept>
+				<concept code="DRESS" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, soaked dressing" level="2"
+					type="L"></concept>
+				<concept code="ELECTOSMOS"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Electro-osmosis"
+					level="2" type="L"></concept>
+				<concept code="IONTO" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, iontophoresis" level="2" type="L"></concept>
+				<concept code="SOAK" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Immersion (soak)" level="2" type="L"></concept>
+				<concept code="SWAB" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, swab" level="2" type="L"></concept>
+				<concept code="TOPICAL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical" level="2" type="L"></concept>
+				<concept code="_BuccalMucosaRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="BuccalMucosaRoute" level="1" type="A"></concept>
+				<concept code="BUC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, buccal" level="2" type="L"></concept>
+				<concept code="_CecostomyRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="CecostomyRoute"
+					level="1" type="A"></concept>
+				<concept code="CECINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, cecostomy" level="2" type="L"></concept>
+				<concept code="_CervicalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="CervicalRoute"
+					level="1" type="A"></concept>
+				<concept code="CERV" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, cervical" level="2" type="L"></concept>
+				<concept code="CERVINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, cervical" level="2" type="L"></concept>
+				<concept code="CERVINS" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, cervical (uterine)" level="2" type="L"></concept>
+				<concept code="DEN" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, dental" level="2" type="L"></concept>
+				<concept code="DENRINSE"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Rinse, dental"
+					level="2" type="L"></concept>
+				<concept code="_EndocervicalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="EndocervicalRoute" level="1" type="A"></concept>
+				<concept code="AMNINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, amniotic fluid" level="2" type="L"></concept>
+				<concept code="BILINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, biliary tract" level="2" type="L"></concept>
+				<concept code="_EnteralRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="EnteralRoute"
+					level="1" type="A"></concept>
+				<concept code="EFT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, enteral feeding tube" level="2" type="L"></concept>
+				<concept code="ENTINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, enteral" level="2" type="L"></concept>
+				<concept code="_EpiduralRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="EpiduralRoute"
+					level="1" type="A"></concept>
+				<concept code="EPI" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, epidural" level="2" type="L"></concept>
+				<concept code="EPIDURINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, epidural" level="2" type="L"></concept>
+				<concept code="EPIINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, epidural, push" level="2" type="L"></concept>
+				<concept code="EPINJSP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, epidural, slow push" level="2" type="L"></concept>
+				<concept code="_ExtraAmnioticRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="ExtraAmnioticRoute" level="1" type="A"></concept>
+				<concept code="EXTRAMNINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, extra-amniotic" level="2" type="L"></concept>
+				<concept code="_ExtracorporealCirculationRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="ExtracorporealCirculationRoute" level="1" type="A"></concept>
+				<concept code="EXTCORPDIF"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Diffusion, extracorporeal" level="2" type="L"></concept>
+				<concept code="EXTCORPINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, extracorporeal" level="2" type="L"></concept>
+				<concept code="_GastricRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="GastricRoute"
+					level="1" type="A"></concept>
+				<concept code="GBINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, gastric button" level="2" type="L"></concept>
+				<concept code="GT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, gastrostomy tube" level="2" type="L"></concept>
+				<concept code="NGT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, nasogastric tube" level="2" type="L"></concept>
+				<concept code="OGT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, orogastric tube" level="2" type="L"></concept>
+				<concept code="_GenitourinaryRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="GenitourinaryRoute" level="1" type="A"></concept>
+				<concept code="GUIRR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, genitourinary" level="2" type="L"></concept>
+				<concept code="_GingivalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="GingivalRoute"
+					level="1" type="A"></concept>
+				<concept code="GIN" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, gingival" level="2" type="L"></concept>
+				<concept code="GINGINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, gingival" level="2" type="L"></concept>
+				<concept code="_HairRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="HairRoute"
+					level="1" type="A"></concept>
+				<concept code="HAIR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, hair" level="2" type="L"></concept>
+				<concept code="SHAMPOO" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Shampoo" level="2" type="L"></concept>
+				<concept code="_InterameningealRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="InterameningealRoute" level="1" type="A"></concept>
+				<concept code="INTERMENINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, interameningeal" level="2" type="L"></concept>
+				<concept code="_InterstitialRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="InterstitialRoute" level="1" type="A"></concept>
+				<concept code="INTERSTITINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, interstitial" level="2" type="L"></concept>
+				<concept code="_IntraabdominalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraabdominalRoute" level="1" type="A"></concept>
+				<concept code="IABDINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intra-abdominal" level="2" type="L"></concept>
+				<concept code="_IntraarterialRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraarterialRoute" level="1" type="A"></concept>
+				<concept code="IA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intraarterial catheter" level="2" type="L"></concept>
+				<concept code="IAINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraarterial" level="2" type="S"></concept>
+				<concept code="IAINJP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraarterial, push" level="3" type="L"></concept>
+				<concept code="IAINJSP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraarterial, slow push" level="3"
+					type="L"></concept>
+				<concept code="_IntraarticularRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraarticularRoute" level="1" type="A"></concept>
+				<concept code="IARTINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraarticular" level="2" type="L"></concept>
+				<concept code="_IntrabronchialRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntrabronchialRoute" level="1" type="A"></concept>
+				<concept code="IBRONCHINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intrabronchial" level="2" type="L"></concept>
+				<concept code="_IntrabursalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntrabursalRoute"
+					level="1" type="A"></concept>
+				<concept code="IBURSINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrabursal" level="2" type="L"></concept>
+				<concept code="_IntracardiacRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntracardiacRoute" level="1" type="A"></concept>
+				<concept code="IC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intracardiac" level="2" type="L"></concept>
+				<concept code="ICARDINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracardiac" level="2" type="S"></concept>
+				<concept code="ICARDINJRP"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracardiac, rapid push" level="3"
+					type="L"></concept>
+				<concept code="ICARDINJSP"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracardiac, slow push" level="3" type="L"></concept>
+				<concept code="ICARINJP"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracardiac, push" level="3" type="L"></concept>
+				<concept code="_IntracartilaginousRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntracartilaginousRoute" level="1" type="A"></concept>
+				<concept code="ICARTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracartilaginous" level="2" type="L"></concept>
+				<concept code="_IntracaudalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntracaudalRoute"
+					level="1" type="A"></concept>
+				<concept code="ICAUDINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracaudal" level="2" type="L"></concept>
+				<concept code="_IntracavernosalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntracavernosalRoute" level="1" type="A"></concept>
+				<concept code="ICAVINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracavernous" level="2" type="L"></concept>
+				<concept code="_IntracavitaryRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntracavitaryRoute" level="1" type="A"></concept>
+				<concept code="ICAVITINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracavitary" level="2" type="L"></concept>
+				<concept code="_IntracerebralRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntracerebralRoute" level="1" type="A"></concept>
+				<concept code="ICEREBINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracerebral" level="2" type="L"></concept>
+				<concept code="_IntracervicalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntracervicalRoute" level="1" type="A"></concept>
+				<concept code="IUINJC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracervical (uterus)" level="2" type="L"></concept>
+				<concept code="_IntracisternalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntracisternalRoute" level="1" type="A"></concept>
+				<concept code="ICISTERNINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracisternal" level="2" type="L"></concept>
+				<concept code="_IntracornealRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntracornealRoute" level="1" type="A"></concept>
+				<concept code="ICORNTA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intracorneal" level="2" type="L"></concept>
+				<concept code="_IntracoronalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntracoronalRoute" level="1" type="A"></concept>
+				<concept code="ICORONTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intracoronal (dental)" level="2"
+					type="L"></concept>
+				<concept code="_IntracoronaryRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntracoronaryRoute" level="1" type="A"></concept>
+				<concept code="ICOR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intracoronary" level="2" type="L"></concept>
+				<concept code="ICORONINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracoronary" level="2" type="S"></concept>
+				<concept code="ICORONINJP"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracoronary, push" level="3" type="L"></concept>
+				<concept code="_IntracorpusCavernosumRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntracorpusCavernosumRoute" level="1" type="A"></concept>
+				<concept code="ICORPCAVINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intracorpus cavernosum" level="2" type="L"></concept>
+				<concept code="_IntradermalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntradermalRoute"
+					level="1" type="A"></concept>
+				<concept code="IDIMPLNT"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Implantation, intradermal" level="2" type="L"></concept>
+				<concept code="IDINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intradermal" level="2" type="L"></concept>
+				<concept code="_IntradiscalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntradiscalRoute"
+					level="1" type="A"></concept>
+				<concept code="IDISCINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intradiscal" level="2" type="L"></concept>
+				<concept code="_IntraductalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntraductalRoute"
+					level="1" type="A"></concept>
+				<concept code="IDUCTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraductal" level="2" type="L"></concept>
+				<concept code="_IntraduodenalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraduodenalRoute" level="1" type="A"></concept>
+				<concept code="IDUODINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intraduodenal" level="2" type="L"></concept>
+				<concept code="IDOUDMAB"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Mucosal absorption, intraduodenal" level="2" type="L"></concept>
+				<concept code="_IntraduralRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntraduralRoute"
+					level="1" type="A"></concept>
+				<concept code="IDURINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intradural" level="2" type="L"></concept>
+				<concept code="_IntraepidermalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraepidermalRoute" level="1" type="A"></concept>
+				<concept code="IEPIDINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraepidermal" level="2" type="L"></concept>
+				<concept code="_IntraepithelialRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraepithelialRoute" level="1" type="A"></concept>
+				<concept code="IEPITHINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraepithelial" level="2" type="L"></concept>
+				<concept code="_IntraesophagealRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraesophagealRoute" level="1" type="A"></concept>
+				<concept code="IESOPHINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intraesophageal" level="2" type="L"></concept>
+				<concept code="IESOPHTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intraesophageal" level="2"
+					type="L"></concept>
+				<concept code="_IntragastricRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntragastricRoute" level="1" type="A"></concept>
+				<concept code="IGASTINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intragastric" level="2" type="L"></concept>
+				<concept code="IGASTIRR"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, intragastric" level="2" type="L"></concept>
+				<concept code="IGASTLAV"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Lavage, intragastric" level="2" type="L"></concept>
+				<concept code="_IntrailealRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntrailealRoute"
+					level="1" type="A"></concept>
+				<concept code="IILEALINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intraileal" level="2" type="L"></concept>
+				<concept code="IILEALTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intraileal" level="2" type="L"></concept>
+				<concept code="_IntralesionalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntralesionalRoute" level="1" type="A"></concept>
+				<concept code="ILESINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intralesional" level="2" type="L"></concept>
+				<concept code="ILESIRR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, intralesional" level="2" type="L"></concept>
+				<concept code="ILTOP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intralesional" level="2" type="L"></concept>
+				<concept code="_IntraluminalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraluminalRoute" level="1" type="A"></concept>
+				<concept code="ILUMINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraluminal" level="2" type="L"></concept>
+				<concept code="ILUMTA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intraluminal" level="2" type="L"></concept>
+				<concept code="_IntralymphaticRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntralymphaticRoute" level="1" type="A"></concept>
+				<concept code="ILYMPJINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intralymphatic" level="2" type="L"></concept>
+				<concept code="_IntramedullaryRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntramedullaryRoute" level="1" type="A"></concept>
+				<concept code="IMEDULINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intramedullary" level="2" type="L"></concept>
+				<concept code="_IntramuscularRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntramuscularRoute" level="1" type="A"></concept>
+				<concept code="IM" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intramuscular" level="2" type="S"></concept>
+				<concept code="IMD" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intramuscular, deep" level="3" type="L"></concept>
+				<concept code="IMZ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intramuscular, z track" level="3" type="L"></concept>
+				<concept code="_IntraocularRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntraocularRoute"
+					level="1" type="A"></concept>
+				<concept code="IOINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraocular" level="2" type="L"></concept>
+				<concept code="IOSURGINS"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, intraocular, surgical" level="2" type="L"></concept>
+				<concept code="IOINSTL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intraocular" level="2" type="L"></concept>
+				<concept code="IOIRR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, intraocular" level="2" type="L"></concept>
+				<concept code="IOTOP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, intraocular" level="2" type="L"></concept>
+				<concept code="_IntraosseousRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraosseousRoute" level="1" type="A"></concept>
+				<concept code="IOSSC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intraosseous, continuous" level="2" type="L"></concept>
+				<concept code="IOSSINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraosseous" level="2" type="L"></concept>
+				<concept code="_IntraovarianRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraovarianRoute" level="1" type="A"></concept>
+				<concept code="IOVARINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraovarian" level="2" type="L"></concept>
+				<concept code="_IntrapericardialRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntrapericardialRoute" level="1" type="A"></concept>
+				<concept code="IPCARDINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrapericardial" level="2" type="L"></concept>
+				<concept code="_IntraperitonealRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraperitonealRoute" level="1" type="A"></concept>
+				<concept code="IPERINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraperitoneal" level="2" type="L"></concept>
+				<concept code="PDPINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, peritoneal dialysis port" level="2"
+					type="L"></concept>
+				<concept code="CAPDINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, continuous ambulatory peritoneal dialysis port"
+					level="2" type="L"></concept>
+				<concept code="PDPINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, peritoneal dialysis port" level="2"
+					type="L"></concept>
+				<concept code="_IntrapleuralRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntrapleuralRoute" level="1" type="A"></concept>
+				<concept code="IPLRINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrapleural" level="2" type="L"></concept>
+				<concept code="CTINSTL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, chest tube" level="2" type="L"></concept>
+				<concept code="_IntraprostaticRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraprostaticRoute" level="1" type="A"></concept>
+				<concept code="IPROSTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraprostatic" level="2" type="L"></concept>
+				<concept code="_IntrapulmonaryRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntrapulmonaryRoute" level="1" type="A"></concept>
+				<concept code="EXTCORPINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, extracorporeal" level="2" type="L"></concept>
+				<concept code="IPINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrapulmonary" level="2" type="L"></concept>
+				<concept code="_IntrasinalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntrasinalRoute"
+					level="1" type="A"></concept>
+				<concept code="ISININSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intrasinal" level="2" type="L"></concept>
+				<concept code="_IntraspinalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntraspinalRoute"
+					level="1" type="A"></concept>
+				<concept code="ISINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraspinal" level="2" type="L"></concept>
+				<concept code="_IntrasternalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntrasternalRoute" level="1" type="A"></concept>
+				<concept code="ISTERINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrasternal" level="2" type="L"></concept>
+				<concept code="_IntrasynovialRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntrasynovialRoute" level="1" type="A"></concept>
+				<concept code="ISYNINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrasynovial" level="2" type="L"></concept>
+				<concept code="_IntratendinousRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntratendinousRoute" level="1" type="A"></concept>
+				<concept code="ITENDINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intratendinous" level="2" type="L"></concept>
+				<concept code="_IntratesticularRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntratesticularRoute" level="1" type="A"></concept>
+				<concept code="ITESTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intratesticular" level="2" type="L"></concept>
+				<concept code="_IntrathecalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntrathecalRoute"
+					level="1" type="A"></concept>
+				<concept code="IT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intrathecal" level="2" type="L"></concept>
+				<concept code="ITINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrathecal" level="2" type="L"></concept>
+				<concept code="_IntrathoracicRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntrathoracicRoute" level="1" type="A"></concept>
+				<concept code="ITHORINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrathoracic" level="2" type="L"></concept>
+				<concept code="_IntratrachealRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntratrachealRoute" level="1" type="A"></concept>
+				<concept code="ITRACHINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intratracheal" level="2" type="L"></concept>
+				<concept code="ITRACHMAB"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Mucosal absorption, intratracheal" level="2" type="L"></concept>
+				<concept code="_IntratubularRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntratubularRoute" level="1" type="A"></concept>
+				<concept code="ITUBINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intratubular" level="2" type="L"></concept>
+				<concept code="_IntratumorRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntratumorRoute"
+					level="1" type="A"></concept>
+				<concept code="ITUMINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intratumor" level="2" type="L"></concept>
+				<concept code="_IntratympanicRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntratympanicRoute" level="1" type="A"></concept>
+				<concept code="ITYMPINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intratympanic" level="2" type="L"></concept>
+				<concept code="_IntrauterineRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntrauterineRoute" level="1" type="A"></concept>
+				<concept code="IUINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intrauterine" level="2" type="L"></concept>
+				<concept code="IURETINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraureteral, retrograde" level="2"
+					type="L"></concept>
+				<concept code="IU" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, intrauterine" level="2" type="L"></concept>
+				<concept code="IUINSTL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, intrauterine" level="2" type="L"></concept>
+				<concept code="_IntravascularRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntravascularRoute" level="1" type="A"></concept>
+				<concept code="HEMODIFF"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Diffusion, hemodialysis" level="2" type="L"></concept>
+				<concept code="IVASCINFUS"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, intravascular" level="2" type="L"></concept>
+				<concept code="HEMOPORT"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, hemodialysis port" level="2" type="L"></concept>
+				<concept code="IVASCINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravascular" level="2" type="L"></concept>
+				<concept code="_IntravenousRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="IntravenousRoute"
+					level="1" type="A"></concept>
+				<concept code="IVFLUSH" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Flush, intravenous catheter" level="2" type="L"></concept>
+				<concept code="IVINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravenous" level="2" type="S"></concept>
+				<concept code="IVINJBOL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravenous, bolus" level="3" type="L"></concept>
+				<concept code="IVPUSH" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravenous, push" level="3" type="L"></concept>
+				<concept code="IVRPUSH" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravenous, rapid push" level="3" type="L"></concept>
+				<concept code="IVSPUSH" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravenous, slow push" level="3" type="L"></concept>
+				<concept code="_IntraventricularRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntraventricularRoute" level="1" type="A"></concept>
+				<concept code="IVENTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intraventricular (heart)" level="2"
+					type="L"></concept>
+				<concept code="_IntravesicleRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntravesicleRoute" level="1" type="A"></concept>
+				<concept code="IVESINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravesicle" level="2" type="L"></concept>
+				<concept code="_IntravitrealRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="IntravitrealRoute" level="1" type="A"></concept>
+				<concept code="IVITINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, intravitreal" level="2" type="L"></concept>
+				<concept code="_JejunumRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="JejunumRoute"
+					level="1" type="A"></concept>
+				<concept code="GJT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, gastro-jejunostomy tube" level="2"
+					type="L"></concept>
+				<concept code="JJTINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, jejunostomy tube" level="2" type="L"></concept>
+				<concept code="OJJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, orojejunum tube" level="2" type="L"></concept>
+				<concept code="_LacrimalPunctaRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="LacrimalPunctaRoute" level="1" type="A"></concept>
+				<concept code="LPINS" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, lacrimal puncta" level="2" type="L"></concept>
+				<concept code="_LaryngealRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="LaryngealRoute"
+					level="1" type="A"></concept>
+				<concept code="LARYNGINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, laryngeal" level="2" type="L"></concept>
+				<concept code="LARYNGTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, laryngeal" level="2" type="L"></concept>
+				<concept code="_LingualRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="LingualRoute"
+					level="1" type="A"></concept>
+				<concept code="TRNSLING"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Translingual"
+					level="2" type="L"></concept>
+				<concept code="_MucousMembraneRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="MucousMembraneRoute" level="1" type="A"></concept>
+				<concept code="MUC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, mucous membrane" level="2"
+					type="L"></concept>
+				<concept code="_NailRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="NailRoute"
+					level="1" type="A"></concept>
+				<concept code="NAIL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, nail" level="2" type="L"></concept>
+				<concept code="_NasalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="NasalRoute"
+					level="1" type="A"></concept>
+				<concept code="NASINHL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, nasal" level="2" type="S"></concept>
+				<concept code="NASINHLC"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, nasal cannula Inhalation, nasal, prongs"
+					level="3" type="L"></concept>
+				<concept code="NP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, nasal cannula Inhalation, nasal, prongs"
+					level="3" type="L"></concept>
+				<concept code="NASALINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, nasal" level="2" type="L"></concept>
+				<concept code="NASOGASINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, nasogastric" level="2" type="L"></concept>
+				<concept code="NASAL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, nasal" level="2" type="L"></concept>
+				<concept code="_OphthalmicRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="OphthalmicRoute"
+					level="1" type="A"></concept>
+				<concept code="OPTHALTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, ophthalmic" level="2" type="L"></concept>
+				<concept code="_OralRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="OralRoute"
+					level="1" type="A"></concept>
+				<concept code="CHEW" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Chew, oral" level="2" type="L"></concept>
+				<concept code="DISSOLVE"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Dissolve, oral"
+					level="2" type="L"></concept>
+				<concept code="IPINHL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, respiratory Inhalation, intrapulmonary Inhalation, oral"
+					level="2" type="S"></concept>
+				<concept code="ORIFINHL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral intermittent flow" level="3" type="L"></concept>
+				<concept code="REBREATH"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral rebreather mask" level="3" type="L"></concept>
+				<concept code="ORINHL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, respiratory Inhalation, intrapulmonary Inhalation, oral"
+					level="2" type="S"></concept>
+				<concept code="ORIFINHL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral intermittent flow" level="3" type="L"></concept>
+				<concept code="REBREATH"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral rebreather mask" level="3" type="L"></concept>
+				<concept code="RESPINHL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, respiratory Inhalation, intrapulmonary Inhalation, oral"
+					level="2" type="S"></concept>
+				<concept code="ORIFINHL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral intermittent flow" level="3" type="L"></concept>
+				<concept code="REBREATH"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral rebreather mask" level="3" type="L"></concept>
+				<concept code="ORALTA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, oral" level="2" type="L"></concept>
+				<concept code="ORRINSE" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Rinse, oral" level="2" type="L"></concept>
+				<concept code="PO" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Swallow, oral" level="2" type="L"></concept>
+				<concept code="_OromucosalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="OromucosalRoute"
+					level="1" type="A"></concept>
+				<concept code="GARGLE" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Gargle" level="2" type="L"></concept>
+				<concept code="ORMUC" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, oromucosal" level="2" type="L"></concept>
+				<concept code="SUCK" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Suck, oromucosal" level="2" type="L"></concept>
+				<concept code="SWISHSPIT"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Swish and spit out, oromucosal" level="2" type="L"></concept>
+				<concept code="SWISHSWAL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Swish and swallow, oromucosal" level="2" type="L"></concept>
+				<concept code="_OropharyngealRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="OropharyngealRoute" level="1" type="A"></concept>
+				<concept code="OROPHARTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, oropharyngeal" level="2" type="L"></concept>
+				<concept code="_OticRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="OticRoute"
+					level="1" type="A"></concept>
+				<concept code="OT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, otic" level="2" type="L"></concept>
+				<concept code="_ParanasalSinusesRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="ParanasalSinusesRoute" level="1" type="A"></concept>
+				<concept code="PNSINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, paranasal sinuses" level="2" type="L"></concept>
+				<concept code="PNSINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, paranasal sinuses" level="2" type="L"></concept>
+				<concept code="_ParenteralRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="ParenteralRoute"
+					level="1" type="A"></concept>
+				<concept code="PARENTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, parenteral" level="2" type="L"></concept>
+				<concept code="_PerianalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="PerianalRoute"
+					level="1" type="A"></concept>
+				<concept code="PERIANAL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, perianal" level="2" type="L"></concept>
+				<concept code="_PeriarticularRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="PeriarticularRoute" level="1" type="A"></concept>
+				<concept code="PAINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, periarticular" level="2" type="L"></concept>
+				<concept code="_PeriduralRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="PeriduralRoute"
+					level="1" type="A"></concept>
+				<concept code="PDURINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, peridural" level="2" type="L"></concept>
+				<concept code="_PerinealRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="PerinealRoute"
+					level="1" type="A"></concept>
+				<concept code="PERINEAL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, perineal" level="2" type="L"></concept>
+				<concept code="_PerineuralRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="PerineuralRoute"
+					level="1" type="A"></concept>
+				<concept code="PNINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, perineural" level="2" type="L"></concept>
+				<concept code="_PeriodontalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="PeriodontalRoute"
+					level="1" type="A"></concept>
+				<concept code="PDONTINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, periodontal" level="2" type="L"></concept>
+				<concept code="PDONTTA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, periodontal" level="2" type="L"></concept>
+				<concept code="_PulmonaryRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="PulmonaryRoute"
+					level="1" type="A"></concept>
+				<concept code="IPPB" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, intermittent positive pressure breathing (ippb)"
+					level="2" type="L"></concept>
+				<concept code="VENT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, ventilator" level="2" type="L"></concept>
+				<concept code="VENTMASK"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, ventimask" level="2" type="L"></concept>
+				<concept code="ETINSTL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, endotracheal tube" level="2" type="L"></concept>
+				<concept code="NTT" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, nasotracheal tube" level="2" type="L"></concept>
+				<concept code="ETNEB" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Nebulization, endotracheal tube" level="2" type="L"></concept>
+				<concept code="_RectalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="RectalRoute"
+					level="1" type="A"></concept>
+				<concept code="ENEMA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Enema, rectal" level="2" type="L"></concept>
+				<concept code="RETENEMA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Enema, rectal retention" level="2" type="L"></concept>
+				<concept code="PR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, rectal" level="2" type="L"></concept>
+				<concept code="RECINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, rectal" level="2" type="S"></concept>
+				<concept code="RECTINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, rectal tube" level="3" type="L"></concept>
+				<concept code="RECIRR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, rectal" level="2" type="L"></concept>
+				<concept code="RECTAL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, rectal" level="2" type="L"></concept>
+				<concept code="_RespiratoryTractRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="RespiratoryTractRoute" level="1" type="A"></concept>
+				<concept code="IPINHL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, respiratory Inhalation, intrapulmonary Inhalation, oral"
+					level="2" type="S"></concept>
+				<concept code="ORIFINHL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral intermittent flow" level="3" type="L"></concept>
+				<concept code="REBREATH"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral rebreather mask" level="3" type="L"></concept>
+				<concept code="ORINHL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, respiratory Inhalation, intrapulmonary Inhalation, oral"
+					level="2" type="S"></concept>
+				<concept code="ORIFINHL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral intermittent flow" level="3" type="L"></concept>
+				<concept code="REBREATH"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral rebreather mask" level="3" type="L"></concept>
+				<concept code="RESPINHL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, respiratory Inhalation, intrapulmonary Inhalation, oral"
+					level="2" type="S"></concept>
+				<concept code="ORIFINHL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral intermittent flow" level="3" type="L"></concept>
+				<concept code="REBREATH"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, oral rebreather mask" level="3" type="L"></concept>
+				<concept code="_RetrobulbarRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="RetrobulbarRoute"
+					level="1" type="A"></concept>
+				<concept code="RBINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, retrobulbar" level="2" type="L"></concept>
+				<concept code="_ScalpRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="ScalpRoute"
+					level="1" type="A"></concept>
+				<concept code="SCALP" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, scalp" level="2" type="L"></concept>
+				<concept code="_SinusUnspecifiedRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="SinusUnspecifiedRoute" level="1" type="A"></concept>
+				<concept code="ENDOSININJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, endosinusial" level="2" type="L"></concept>
+				<concept code="SININSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, sinus, unspecified" level="2" type="L"></concept>
+				<concept code="_SkinRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="SkinRoute"
+					level="1" type="A"></concept>
+				<concept code="OCDRESTA"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Occlusive dressing technique" level="2" type="L"></concept>
+				<concept code="SKIN" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, skin" level="2" type="L"></concept>
+				<concept code="_SoftTissueRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="SoftTissueRoute"
+					level="1" type="A"></concept>
+				<concept code="SOFTISINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, soft tissue" level="2" type="L"></concept>
+				<concept code="SOFTISINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, soft tissue" level="2" type="L"></concept>
+				<concept code="_SubarachnoidRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="SubarachnoidRoute" level="1" type="A"></concept>
+				<concept code="SUBARACHINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, subarachnoid" level="2" type="L"></concept>
+				<concept code="_SubconjunctivalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="SubconjunctivalRoute" level="1" type="A"></concept>
+				<concept code="SCINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, subconjunctival" level="2" type="L"></concept>
+				<concept code="SUBCONJTA"
+					codeSystem="2.16.840.1.113883.5.112" displayName="Subconjunctival"
+					level="2" type="L"></concept>
+				<concept code="_SubcutaneousRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="SubcutaneousRoute" level="1" type="A"></concept>
+				<concept code="SQIMPLNT"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Implantation, subcutaneous" level="2" type="L"></concept>
+				<concept code="SQINFUS" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Infusion, subcutaneous" level="2" type="L"></concept>
+				<concept code="IPUMPINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, insulin pump" level="2" type="L"></concept>
+				<concept code="SQ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, subcutaneous" level="2" type="L"></concept>
+				<concept code="SQSURGINS"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, subcutaneous, surgical" level="2" type="L"></concept>
+				<concept code="_SublesionalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="SublesionalRoute"
+					level="1" type="A"></concept>
+				<concept code="SLESINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, sublesional" level="2" type="L"></concept>
+				<concept code="_SublingualRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="SublingualRoute"
+					level="1" type="A"></concept>
+				<concept code="SL" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Dissolve, sublingual" level="2" type="L"></concept>
+				<concept code="_SubmucosalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="SubmucosalRoute"
+					level="1" type="A"></concept>
+				<concept code="SUBMUCINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, submucosal" level="2" type="L"></concept>
+				<concept code="SMUCMAB" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Mucosal absorption, submucosal" level="2" type="L"></concept>
+				<concept code="_TracheostomyRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="TracheostomyRoute" level="1" type="A"></concept>
+				<concept code="TRACH" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Inhalation, tracheostomy" level="2" type="L"></concept>
+				<concept code="TRACHINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, tracheostomy" level="2" type="L"></concept>
+				<concept code="_TransmucosalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="TransmucosalRoute" level="1" type="A"></concept>
+				<concept code="TMUCTA" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, transmucosal" level="2" type="L"></concept>
+				<concept code="_TransplacentalRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="TransplacentalRoute" level="1" type="A"></concept>
+				<concept code="TRPLACINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, transplacental" level="2" type="L"></concept>
+				<concept code="_TranstrachealRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="TranstrachealRoute" level="1" type="A"></concept>
+				<concept code="TRTRACHINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, transtracheal" level="2" type="L"></concept>
+				<concept code="_TranstympanicRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="TranstympanicRoute" level="1" type="A"></concept>
+				<concept code="TRTYMPINSTIL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, transtympanic" level="2" type="L"></concept>
+				<concept code="TTYMPTABSORP"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical absorption, transtympanic" level="2" type="L"></concept>
+				<concept code="_UreteralRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="UreteralRoute"
+					level="1" type="A"></concept>
+				<concept code="URETINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, ureteral" level="2" type="L"></concept>
+				<concept code="_UrethralRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="UrethralRoute"
+					level="1" type="A"></concept>
+				<concept code="URETHINJ"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, urethral" level="2" type="L"></concept>
+				<concept code="URETHINS"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, urethral" level="2" type="L"></concept>
+				<concept code="URETHINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="instillation, urethral" level="2" type="L"></concept>
+				<concept code="URETHSUP"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Suppository, urethral" level="2" type="L"></concept>
+				<concept code="_UrinaryBladderRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="UrinaryBladderRoute" level="1" type="A"></concept>
+				<concept code="BLADINJ" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Injection, urinary bladder" level="2" type="L"></concept>
+				<concept code="BLADIRR" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, urinary bladder" level="2" type="S"></concept>
+				<concept code="BLADIRRC"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, urinary bladder, continuous" level="3"
+					type="L"></concept>
+				<concept code="BLADIRRT"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Irrigation, urinary bladder, tidal" level="3" type="L"></concept>
+				<concept code="_UrinaryTractRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="UrinaryTractRoute" level="1" type="A"></concept>
+				<concept code="BLADINSTL"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Instillation, urinary catheter" level="2" type="L"></concept>
+				<concept code="_VaginalRoute"
+					codeSystem="2.16.840.1.113883.5.112" displayName="VaginalRoute"
+					level="1" type="A"></concept>
+				<concept code="DOUCHE" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Douche, vaginal" level="2" type="L"></concept>
+				<concept code="VAGINSI" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Insertion, vaginal" level="2" type="L"></concept>
+				<concept code="VAGINS" codeSystem="2.16.840.1.113883.5.112"
+					displayName="Topical application, vaginal" level="2" type="L"></concept>
+				<concept code="_VitreousHumourRoute"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="VitreousHumourRoute" level="1" type="A"></concept>
+				<concept code="IVITIMPLNT"
+					codeSystem="2.16.840.1.113883.5.112"
+					displayName="Implantation, intravitreal" level="2" type="L"></concept>
+					<!-- 
+				<exception code="NA" codeSystem="2.16.840.1.113883.5.1008"
+					displayName="not applicable" level="0" type="L"></exception>
+					 -->
+			</conceptList>
+		</valueSet>
+	</repository>
+</valueSets>

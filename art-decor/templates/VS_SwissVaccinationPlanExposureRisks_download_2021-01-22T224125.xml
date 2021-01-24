@@ -1,0 +1,327 @@
+<valueSets  xmlns="urn:ihe:iti:svs:2008">
+	<repository url="http://art-decor.org/decor/services/"
+		ident="ch-pcc-" referencedFrom="cdachvacd-">
+		<valueSet id="2.16.756.5.30.1.1.11.73"
+			name="SwissVaccinationPlanExposureRisks"
+			displayName="Swiss Vaccination Plan Exposure Risks"
+			statusCode="final" officialReleaseDate="2018-04-19T00:00:00"
+			versionLabel="2018" effectiveDate="2018-04-19T00:00:00">
+			<sourceCodeSystem id="2.16.756.5.30.1.127.3.3.2"
+				identifierName="" canonicalUri="urn:oid:2.16.756.5.30.1.127.3.3.2"
+				canonicalUriDSTU2="urn:oid:2.16.756.5.30.1.127.3.3.2"
+				canonicalUriSTU3="urn:oid:2.16.756.5.30.1.127.3.3.2"
+				canonicalUriR4="urn:oid:2.16.756.5.30.1.127.3.3.2"></sourceCodeSystem>
+			<publishingAuthority name="eHealth Suisse">
+				<addrLine>Schwarzenburgstrasse 165</addrLine>
+				<addrLine>CH-3003 Bern</addrLine>
+				<addrLine type="uri">www.e-health-suisse.ch</addrLine>
+			</publishingAuthority>
+			<conceptList>
+				<concept code="213001"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Beschäftigte im Gesundheitswesen"></designation>
+					<designation language="fr-CH"
+						displayName="Personnel médical et soignant"></designation>
+					<designation language="it-CH"
+						displayName="Personale medico e di cura"></designation>
+				</concept>
+				<concept code="213028"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Enge Kontaktpersonen von Meningokokken-Erkrankten"></designation>
+					<designation language="fr-CH"
+						displayName="Méningocoques dans l'entourage"></designation>
+					<designation language="it-CH"
+						displayName="Meningococco nell'entourage "></designation>
+				</concept>
+				<concept code="213003"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Erwachsene und Kinder ab 6 Jahren, die in Endemiegebieten wohnen oder sich teilweise dort aufhalten"></designation>
+					<designation language="fr-CH"
+						displayName="Adultes et enfants dès 6 ans qui résident ou séjournent temporairement dans des territoires endémiques"></designation>
+					<designation language="it-CH"
+						displayName="Adulti e bambini a partire dai 6 anni che risiedono o soggiornano in regioni endemiche"></designation>
+				</concept>
+				<concept code="213005"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Familienangehörige von Personen mit einem erhöhten Risiko"></designation>
+					<designation language="fr-CH"
+						displayName="Entourage familial des personnes à risque accru de complications"></designation>
+					<designation language="it-CH"
+						displayName="Entourage famigliare di persone a maggiore rischio di complicazioni"></designation>
+				</concept>
+				<concept code="213006"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="FLEDERMAUSFORSCHER_UND_SCHUETZER" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Fledermausforscher und -schützer"></designation>
+					<designation language="fr-CH"
+						displayName="Scientifiques effectuant des recherches sur les chiroptères, protecteurs ou amateurs de chauves-souris"></designation>
+					<designation language="it-CH"
+						displayName="Ricercatori che svolgono ricerche sui chirotteri, protettori o appassionati di pipistrelli"></designation>
+				</concept>
+				<concept code="213007"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Geistig behinderte Personen in Heimen und deren BetreuerInnen"></designation>
+					<designation language="fr-CH"
+						displayName="Personnes handicapées mentales et personnel des institutions pour handicapés mentaux "></designation>
+					<designation language="it-CH"
+						displayName="Persone disabili mentali e personale degli istituti per disabili mentali"></designation>
+				</concept>
+				<concept code="213010"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Kanalisationsarbeiter und Angestellte von Kläranlagen"></designation>
+					<designation language="fr-CH"
+						displayName="Travailleurs des canalisationset des stations d’épuration"></designation>
+					<designation language="it-CH"
+						displayName="Personale addetto alla manutenzione delle fognature e delle stazioni di depurazione"></designation>
+				</concept>
+				<concept code="213011"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Kinder aus Ländern mit mittlerer und hoher Endemizität, die in der Schweiz leben und für einen vorübergehenden Aufenthalt in ihr Herkunftsland zurückkehren"></designation>
+					<designation language="fr-CH"
+						displayName="Enfants originaires de pays de moyenne et haute endémicité vivant en Suisse et retournant dans leurs pays pour des séjours temporaires"></designation>
+					<designation language="it-CH"
+						displayName="Bambini originari di paesi di media ed elevata endemicità che vivono in Svizzera e che ritornano nel loro paese per dei soggiorni temporanei"></designation>
+				</concept>
+				<concept code="213031"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="KINDERKRIPPE_HORT_VOR_5_MONATEN" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Kinderkrippe / Hort vor 5 Monaten"></designation>
+					<designation language="fr-CH"
+						displayName="Crèche / garderie avant 5 mois "></designation>
+					<designation language="it-CH"
+						displayName="Asilo nido prima di 5 mesi"></designation>
+				</concept>
+				<concept code="213012"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Konsumenten von injizierbaren Drogen und deren Kontaktpersonen"></designation>
+					<designation language="fr-CH"
+						displayName="Consommateurs de drogues injectables et personnes à leur contact"></designation>
+					<designation language="it-CH"
+						displayName="Consumatori di droghe iniettabili e persone a loro contatto"></designation>
+				</concept>
+				<concept code="213032"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU" level="0"
+					type="L">
+					<designation language="de-CH"
+						displayName="Kontaktpersonen von einer schwangeren Frau"></designation>
+					<designation language="fr-CH"
+						displayName="Entourage d ' une femme enceinte "></designation>
+					<designation language="it-CH"
+						displayName="Entourage di una donna incinta "></designation>
+				</concept>
+				<concept code="213027"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN" level="0"
+					type="L">
+					<designation language="de-CH"
+						displayName="Kontaktpersonen von Hepatitis-A-Erkrankten"></designation>
+					<designation language="fr-CH"
+						displayName="Hépatite A dans l'entourage"></designation>
+					<designation language="it-CH"
+						displayName="Epatite A nell'entourage "></designation>
+				</concept>
+				<concept code="213026"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN" level="0"
+					type="L">
+					<designation language="de-CH"
+						displayName="Kontaktpersonen von Hepatitis-B-Erkrankten"></designation>
+					<designation language="fr-CH"
+						displayName="Hépatite B dans l'entourage"></designation>
+					<designation language="it-CH"
+						displayName="Epatite B nell'entourage "></designation>
+				</concept>
+				<concept code="213030"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Laborpersonal mit Bakterien-Expositionsrisiko"></designation>
+					<designation language="fr-CH"
+						displayName="Personnel de laboratoire exposé aux bactéries"></designation>
+					<designation language="it-CH"
+						displayName="Personale di laboratorio esposto ai batteri"></designation>
+				</concept>
+				<concept code="213029"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO" level="0"
+					type="L">
+					<designation language="de-CH"
+						displayName="Laborpersonal mit Virus-Expositionsrisiko"></designation>
+					<designation language="fr-CH"
+						displayName="Personnel de laboratoire exposé aux virus"></designation>
+					<designation language="it-CH"
+						displayName="Personale di laboratorio esposto ai virus"></designation>
+				</concept>
+				<concept code="213014"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Männer, die mit Männern Geschlechtsverkehr haben"></designation>
+					<designation language="fr-CH"
+						displayName="Hommes ayant des relations sexuelles avec d’autres hommes"></designation>
+					<designation language="it-CH"
+						displayName="Uomini che hanno rapporti sessuali con altri uomini"></designation>
+				</concept>
+				<concept code="213033"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="MITARBEITENDE_VON_KINDERKRIPPEN" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Mitarbeitende von Kinderkrippen"></designation>
+					<designation language="fr-CH"
+						displayName="Professionnels de la petite enfance"></designation>
+					<designation language="it-CH"
+						displayName="Professionisti della prima infanzia"></designation>
+				</concept>
+				<concept code="213024"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Neugeborene und Säuglinge unter 12 Monaten aus Ländern mit hoher Tuberkulose prävalenz, die wahrscheinlich wieder dorthin zurückkehren (in ihrem ersten Lebensjahr ) "></designation>
+					<designation language="fr-CH"
+						displayName="Nouveau - nés ou nourrissons &lt; 12 mois originaire d’un pays à haute endémie et susceptibles d’y retourner dans leur 1ère année de vie "></designation>
+					<designation language="it-CH"
+						displayName="Neonati o lattanti &lt; 12 mesi originari di un paese a elevata endemia e suscettibili di ritornarci nel loro primo anno di vita "></designation>
+				</concept>
+				<concept code="213025"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN" level="0"
+					type="L">
+					<designation language="de-CH"
+						displayName="Neugeborene von HBsAg-positiven Müttern "></designation>
+					<designation language="fr-CH"
+						displayName="Nouveau-nés de mères HBsAg positives"></designation>
+					<designation language="it-CH"
+						displayName="Neonati di madri HBsAg positive "></designation>
+				</concept>
+				<concept code="213015"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Patientinnen und Patienten in Pflegeheimen und in Einrichtungen für Personen mit chronischen Erkrankungen "></designation>
+					<designation language="fr-CH"
+						displayName="Patients résidant dans une maison de soins ou dans un établissement pour malades chroniques"></designation>
+					<designation language="it-CH"
+						displayName="Ospiti di una casa di cura o di un istituto per malati cronici"></designation>
+				</concept>
+				<concept code="213016"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Personen aus Ländern mit hoher oder intermediärer Hepatitis-B-Endemizität"></designation>
+					<designation language="fr-CH"
+						displayName="Personnes provenant de zones d’endémie haute ou intermédiaire pour l’hépatite B"></designation>
+					<designation language="it-CH"
+						displayName="Persone provenienti da zone di endemicità elevata o intermedia per l’ epatite B"></designation>
+				</concept>
+				<concept code="213017"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Personen mit einer sexuell übertragbaren Krankheit"></designation>
+					<designation language="fr-CH"
+						displayName="Personnes consultant pour une maladie sexuellement transmissible"></designation>
+					<designation language="it-CH"
+						displayName="Persone che consultano per una malattia sessualmente trasmissibile"></designation>
+				</concept>
+				<concept code="213018"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Personen mit engem Kontakt zu Personen aus Ländern mit hoher Endemizität"></designation>
+					<designation language="fr-CH"
+						displayName="Personnes en contact étroit avec des personnes en provenance de pays de haute endémicité"></designation>
+					<designation language="it-CH"
+						displayName="Persone a stretto contatto con delle persone provenienti da paesi di endemicità elevata"></designation>
+				</concept>
+				<concept code="213019"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Personen mit häufig wechselnden Sexualpartnern"></designation>
+					<designation language="fr-CH"
+						displayName="Personnes changeant souvent de partenaires sexuels"></designation>
+					<designation language="it-CH"
+						displayName="Persone che cambiano spesso partner sessuale"></designation>
+				</concept>
+				<concept code="213020"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Personen mit regelmässigem Kontakt (beruflich / familiär) zu Säuglingen &lt; 6 Monaten, schwangere Frauen "></designation>
+					<designation language="fr-CH"
+						displayName="Personnes en contact professionnel ou familial régulier avec des nourrissons &lt; 6 mois, femmes enceintes "></designation>
+					<designation language="it-CH"
+						displayName="Personale in contatto professionale o famigliare con dei lattanti di meno di 6 mesi o con donne incinte "></designation>
+				</concept>
+				<concept code="213021"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="REKRUTEN_MILITAER" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Rekruten (Militär)"></designation>
+					<designation language="fr-CH"
+						displayName="Recrues (militaires)"></designation>
+					<designation language="it-CH"
+						displayName="Reclute (militari)"></designation>
+				</concept>
+				<concept code="213022"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Sozialarbeiter, Gefängnispersonal und Polizeiangestellte mit häufigem Kontakt zu Konsumenten von injizierbaren Drogen"></designation>
+					<designation language="fr-CH"
+						displayName="Travailleurs sociaux, personnel des prisons et de la police en contact fréquent avec des consommateurs de drogues injectables"></designation>
+					<designation language="it-CH"
+						displayName="Lavoratori nel campo socio - educativo o della sicurezza (carceri, polizia) a contatto frequente con dei consumatori di droghe iniettabili"></designation>
+				</concept>
+				<concept code="213023"
+					codeSystem="2.16.756.5.30.1.127.3.3.2"
+					displayName="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE" level="0"
+					type="L">
+					<designation language="de-CH"
+						displayName="Tierärzte (inkl. Studenten, Praxisangestellte)"></designation>
+					<designation language="fr-CH"
+						displayName="Vétérinaires (étudiants : assistants vétérinaires)"></designation>
+					<designation language="it-CH"
+						displayName="Veterinari (studenti, assistenti veterinari)"></designation>
+				</concept>
+			</conceptList>
+		</valueSet>
+	</repository>
+</valueSets>
+

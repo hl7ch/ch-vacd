@@ -1,0 +1,89 @@
+<valueSets  xmlns="urn:ihe:iti:svs:2008">
+	<repository url="http://art-decor.org/decor/services/"
+		ident="ch-pcc-" referencedFrom="cdachvacd-">
+		<valueSet id="2.16.756.5.30.1.1.11.71"
+			name="SwissVaccinationPlanImmunizations"
+			displayName="Swiss Vaccination Plan Immunizations" statusCode="final"
+			versionLabel="2020" officialReleaseDate="2018-04-19T00:00:00"
+			effectiveDate="2020-06-26T00:00:00">
+			<sourceCodeSystem id="2.16.840.1.113883.6.96"
+				identifierName="SNOMED&#160;Clinical&#160;Terms"
+				canonicalUri="http://snomed.info/sct"
+				canonicalUriDSTU2="http://snomed.info/sct"
+				canonicalUriSTU3="http://snomed.info/sct"
+				canonicalUriR4="http://snomed.info/sct"></sourceCodeSystem>
+			<publishingAuthority name="eHealth Suisse">
+				<addrLine>Schwarzenburgstrasse 165</addrLine>
+				<addrLine>CH-3003 Bern</addrLine>
+				<addrLine type="uri">www.e-health-suisse.ch</addrLine>
+			</publishingAuthority>
+			<copyright language="en-US">This artefact includes content from
+				SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the
+				International Health Terminology Standards Development Organisation
+				(IHTSDO). Implementers of these artefacts must have the appropriate
+				SNOMED CT Affiliate license - for more information contact
+				http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.
+			</copyright>
+			<conceptList>
+				<concept code="42284007" codeSystem="2.16.840.1.113883.6.96"
+					displayName="BCG vaccination" level="0" type="L"></concept>
+				<concept code="76668005" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Diphtheria vaccination (procedure)" level="0" type="L"></concept>
+				<concept code="127787002"
+					codeSystem="2.16.840.1.113883.6.96"
+					displayName="Haemophilus influenzae type b vaccination (procedure)"
+					level="0" type="L"></concept>
+				<concept code="243789007"
+					codeSystem="2.16.840.1.113883.6.96"
+					displayName="Hepatitis A immunization (procedure)" level="0"
+					type="L"></concept>
+				<concept code="16584000" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Hepatitis B vaccination (procedure)" level="0"
+					type="L"></concept>
+				<concept code="86198006" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Influenza vaccination (procedure)" level="0" type="L"></concept>
+				<concept code="314759000"
+					codeSystem="2.16.840.1.113883.6.96"
+					displayName="Japanese encephalitis vaccination (procedure)"
+					level="0" type="L"></concept>
+				<concept code="47435007" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Measles vaccination (procedure)" level="0" type="L"></concept>
+				<concept code="41088001" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Meningococcus vaccination (procedure)" level="0"
+					type="L"></concept>
+				<concept code="50583002" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Mumps vaccination (procedure)" level="0" type="L"></concept>
+				<concept code="428570002"
+					codeSystem="2.16.840.1.113883.6.96"
+					displayName="Vaccination for human papillomavirus (procedure)"
+					level="0" type="L"></concept>
+				<concept code="39343008" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Pertussis vaccination (procedure)" level="0" type="L"></concept>
+				<concept code="12866006" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Pneumococcal vaccination (procedure)" level="0"
+					type="L"></concept>
+				<concept code="72093006" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Poliomyelitis vaccination (procedure)" level="0"
+					type="L"></concept>
+				<concept code="34631000" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Rabies vaccination (procedure)" level="0" type="L"></concept>
+				<concept code="82314000" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Rubella vaccination (procedure)" level="0" type="L"></concept>
+				<concept code="127786006"
+					codeSystem="2.16.840.1.113883.6.96"
+					displayName="Tetanus vaccination (procedure)" level="0" type="L"></concept>
+				<concept code="281658005"
+					codeSystem="2.16.840.1.113883.6.96"
+					displayName="Tick-borne encephalitis vaccination (procedure)"
+					level="0" type="L"></concept>
+				<concept code="15483003" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Typhoid vaccination (procedure)" level="0" type="L"></concept>
+				<concept code="68525005" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Varicella vaccination (procedure)" level="0" type="L"></concept>
+				<concept code="67308009" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Yellow fever vaccination (procedure)" level="0"
+					type="L"></concept>
+			</conceptList>
+		</valueSet>
+	</repository>
+</valueSets>

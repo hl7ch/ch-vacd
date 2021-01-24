@@ -1,0 +1,59 @@
+<valueSets xmlns="urn:ihe:iti:svs:2008">
+	<repository url="http://art-decor.org/decor/services/"
+		ident="ch-pcc-" referencedFrom="cdachvacd-">
+		<valueSet id="2.16.756.5.30.1.1.11.75"
+			name="IllnessesUndergoneForImmunization"
+			displayName="Illnesses undergone for immunization" statusCode="final"
+			officialReleaseDate="2018-04-19T00:00:00" versionLabel="2018"
+			effectiveDate="2018-04-19T00:00:00">
+			<desc language="de-CH">Es handelt sich hier um durchgemachte
+				Erkrankungen, die einen Immunschutz zur Folge haben.
+			</desc>
+			<desc language="en-US">
+				<span lang="EN-GB"
+					style="font-size:9.0pt;font-family: &#34;Arial&#34;,sans-serif;mso-fareast-font-family:&#34;Times New Roman&#34;;mso-bidi-font-family: &#34;Times New Roman&#34;;color:black;mso-themecolor:text1;mso-ansi-language:EN-GB; mso-fareast-language:EN-US;mso-bidi-language:AR-SA">These are past illnesses which result in a natural
+					immunization.
+				</span>
+			</desc>
+			<sourceCodeSystem id="2.16.840.1.113883.6.96"
+				identifierName="SNOMED&#160;Clinical&#160;Terms"
+				canonicalUri="http://snomed.info/sct"
+				canonicalUriDSTU2="http://snomed.info/sct"
+				canonicalUriSTU3="http://snomed.info/sct"
+				canonicalUriR4="http://snomed.info/sct"></sourceCodeSystem>
+			<publishingAuthority name="eHealth Suisse">
+				<addrLine>Schwarzenburgstrasse 165</addrLine>
+				<addrLine>CH-3003 Bern</addrLine>
+				<addrLine type="uri">www.e-health-suisse.ch</addrLine>
+			</publishingAuthority>
+			<copyright language="en-US">This artefact includes content from
+				SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the
+				International Health Terminology Standards Development Organisation
+				(IHTSDO). Implementers of these artefacts must have the appropriate
+				SNOMED CT Affiliate license - for more information contact
+				http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.
+			</copyright>
+			<conceptList>
+				<concept code="38907003" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Varicella (disorder)" level="0" type="L"></concept>
+				<concept code="14189004" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Measles (disorder)" level="0" type="L"></concept>
+				<concept code="36989005" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Mumps (disorder)" level="0" type="L"></concept>
+				<concept code="36653000" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Rubella (disorder)" level="0" type="L"></concept>
+				<concept code="40468003" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Viral hepatitis, type A (disorder)" level="0" type="L"></concept>
+				<concept code="66071002" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Viral hepatitis type B (disorder)" level="0" type="L"></concept>
+				<concept code="16901001" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Central European encephalitis (disorder)" level="0"
+					type="L"></concept>
+				<concept code="16541001" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Yellow fever (disorder)" level="0" type="L"></concept>
+				<concept code="76902006" codeSystem="2.16.840.1.113883.6.96"
+					displayName="Tetanus (disorder)" level="0" type="L"></concept>
+			</conceptList>
+		</valueSet>
+	</repository>
+</valueSets>

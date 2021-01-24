@@ -1,0 +1,1793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="ch-vacd-swissmedic-cs"/>
+   <meta>
+      <source value="http://myvaccines.ch"/>
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2021-01-24T00:00:00+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="http://swissmedic.ch/ns/authorizationnumber/vs"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://swissmedic.ch/ns/authorizationnumber"/>
+      <value value="authorized-vaccines"/>
+   </identifier>
+   <version value="2021-01-24T00:00:00"/>
+   <name value="SwissMedicAuthorizedVaccinesCodesystem"/>
+   <title value="Swiss Medic Authorized Vaccines Codesystem"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="The vaccines swissmedic has given an autorization number."/>
+   <content value="complete"/>
+   <concept>
+      <code value="683"/>
+      <display value="FSME-Immun 0.25 ml Junior"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="FSME-Immun 0.25 ml Junior"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="FSME-Immun 0.25 ml Junior"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="FSME-Immun 0.25 ml Junior"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="FSME-Immun 0.25 ml Junior"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="450"/>
+      <display value="FSME-Immun CC"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="FSME-Immun CC"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="FSME-Immun CC"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="FSME-Immun CC"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="FSME-Immun CC"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="656"/>
+      <display value="NeisVac-C"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="NeisVac-C"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="NeisVac-C"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="NeisVac-C"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="NeisVac-C"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="627"/>
+      <display value="Encepur N"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Encepur N"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Encepur N"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Encepur N"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Encepur N"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="628"/>
+      <display value="Encepur N Kinder / Enfants"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Encepur N Kinder / Enfants"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Encepur N Kinder / Enfants"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Encepur N Kinder / Enfants"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Encepur N Kinder / Enfants"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="572"/>
+      <display value="Epaxal"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Epaxal"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Epaxal"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Epaxal"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Epaxal"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="544"/>
+      <display value="Heprecomb"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Heprecomb"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Heprecomb"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Heprecomb"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Heprecomb"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="642"/>
+      <display value="Heprecomb Kinder"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Heprecomb Kinder"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Heprecomb Kinder"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Heprecomb Kinder"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Heprecomb Kinder"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="614"/>
+      <display value="Inflexal V"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Inflexal V"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Inflexal V"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Inflexal V"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Inflexal V"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="657"/>
+      <display value="Menjugate"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Menjugate"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Menjugate"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Menjugate"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Menjugate"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="533"/>
+      <display value="Moraten"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Moraten"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Moraten"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Moraten"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Moraten"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="555"/>
+      <display value="Orochol"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Orochol"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Orochol"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Orochol"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Orochol"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="642"/>
+      <display value="Orochol E"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Orochol E"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Orochol E"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Orochol E"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Orochol E"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="685"/>
+      <display value="Rabipur"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Rabipur"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Rabipur"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Rabipur"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Rabipur"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="702"/>
+      <display value="Td-pur"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Td-pur"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Td-pur"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Td-pur"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Td-pur"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="686"/>
+      <display value="Td-Virelon"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Td-Virelon"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Td-Virelon"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Td-Virelon"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Td-Virelon"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="467"/>
+      <display value="Vivotif"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Vivotif"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Vivotif"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Vivotif"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Vivotif"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="637"/>
+      <display value="Boostrix"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Boostrix"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Boostrix"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Boostrix"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Boostrix"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="681"/>
+      <display value="Boostrix Polio"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Boostrix Polio"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Boostrix Polio"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Boostrix Polio"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Boostrix Polio"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="567"/>
+      <display value="Ditanrix"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Ditanrix"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Ditanrix"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Ditanrix"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Ditanrix"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="551"/>
+      <display value="Engerix-B 10"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Engerix-B 10"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Engerix-B 10"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Engerix-B 10"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Engerix-B 10"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="534"/>
+      <display value="Engerix-B 20"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Engerix-B 20"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Engerix-B 20"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Engerix-B 20"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Engerix-B 20"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="583"/>
+      <display value="Fluarix"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Fluarix"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Fluarix"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Fluarix"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Fluarix"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="558"/>
+      <display value="Havrix 1440"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Havrix 1440"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Havrix 1440"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Havrix 1440"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Havrix 1440"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="599"/>
+      <display value="Havrix 720"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Havrix 720"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Havrix 720"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Havrix 720"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Havrix 720"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="603"/>
+      <display value="Hiberix"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Hiberix"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Hiberix"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Hiberix"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Hiberix"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="638"/>
+      <display value="Infanrix DTPa-IPV"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Infanrix DTPa-IPV"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Infanrix DTPa-IPV"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Infanrix DTPa-IPV"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Infanrix DTPa-IPV"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="619"/>
+      <display value="Infanrix DTPa-IPV+Hib"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Infanrix DTPa-IPV+Hib"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Infanrix DTPa-IPV+Hib"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Infanrix DTPa-IPV+Hib"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Infanrix DTPa-IPV+Hib"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="640"/>
+      <display value="Infanrix hexa"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Infanrix hexa"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Infanrix hexa"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Infanrix hexa"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Infanrix hexa"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="652"/>
+      <display value="Mencevax ACWY"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Mencevax ACWY"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Mencevax ACWY"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Mencevax ACWY"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Mencevax ACWY"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="669"/>
+      <display value="Poliorix"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Poliorix"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Poliorix"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Poliorix"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Poliorix"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="615"/>
+      <display value="Priorix"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Priorix"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Priorix"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Priorix"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Priorix"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="592"/>
+      <display value="Twinrix 720/20"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Twinrix 720/20"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Twinrix 720/20"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Twinrix 720/20"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Twinrix 720/20"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="585"/>
+      <display value="Varilrix"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Varilrix"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Varilrix"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Varilrix"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Varilrix"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="528"/>
+      <display value="Gen H-B-Vax 10"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Gen H-B-Vax 10"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Gen H-B-Vax 10"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Gen H-B-Vax 10"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Gen H-B-Vax 10"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="545"/>
+      <display value="HBVAXPRO 40"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="HBVAXPRO 40"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="HBVAXPRO 40"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="HBVAXPRO 40"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="HBVAXPRO 40"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="610"/>
+      <display value="Gen H-B-Vax 5"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Gen H-B-Vax 5"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Gen H-B-Vax 5"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Gen H-B-Vax 5"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Gen H-B-Vax 5"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="663"/>
+      <display value="HBVAXPRO 10"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="HBVAXPRO 10"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="HBVAXPRO 10"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="HBVAXPRO 10"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="HBVAXPRO 10"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="268"/>
+      <display value="MMR-II"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="MMR-II"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="MMR-II"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="MMR-II"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="MMR-II"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="247"/>
+      <display value="Mumpsvax"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Mumpsvax"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Mumpsvax"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Mumpsvax"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Mumpsvax"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="373"/>
+      <display value="Mutagrip"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Mutagrip"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Mutagrip"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Mutagrip"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Mutagrip"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="613"/>
+      <display value="Pentavac"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Pentavac"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Pentavac"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Pentavac"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Pentavac"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="509"/>
+      <display value="Pneumovax-23"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Pneumovax-23"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Pneumovax-23"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Pneumovax-23"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Pneumovax-23"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="646"/>
+      <display value="Revaxis"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Revaxis"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Revaxis"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Revaxis"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Revaxis"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="520"/>
+      <display value="Stamaril"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Stamaril"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Stamaril"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Stamaril"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Stamaril"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="612"/>
+      <display value="Tetravac"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Tetravac"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Tetravac"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Tetravac"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Tetravac"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="417"/>
+      <display value="Tollwut Impfstoff Mérieux"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Tollwut Impfstoff Mérieux"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Tollwut Impfstoff Mérieux"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Tollwut Impfstoff Mérieux"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Tollwut Impfstoff Mérieux"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="688"/>
+      <display value="Varivax"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Varivax"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Varivax"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Varivax"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Varivax"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="485"/>
+      <display value="Influvac"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Influvac"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Influvac"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Influvac"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Influvac"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="660"/>
+      <display value="Influvac plus"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Influvac plus"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Influvac plus"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Influvac plus"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Influvac plus"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="654"/>
+      <display value="Meningitec"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Meningitec"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Meningitec"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Meningitec"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Meningitec"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="643"/>
+      <display value="Prevenar-7"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Prevenar-7"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Prevenar-7"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Prevenar-7"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Prevenar-7"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="644"/>
+      <display value="Hexavac"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Hexavac"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Hexavac"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Hexavac"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Hexavac"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="711"/>
+      <display value="DiTe pediatric adsorbed"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="DiTe pediatric adsorbed"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="DiTe pediatric adsorbed"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="DiTe pediatric adsorbed"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="DiTe pediatric adsorbed"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="704"/>
+      <display value="Dukoral"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Dukoral"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Dukoral"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Dukoral"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Dukoral"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="417"/>
+      <display value="Rabique Mérieux"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Rabique Mérieux"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Rabique Mérieux"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Rabique Mérieux"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Rabique Mérieux"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="483"/>
+      <display value="Rimevax"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Rimevax"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Rimevax"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Rimevax"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Rimevax"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="707"/>
+      <display value="Tetanol pur"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Tetanol pur"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Tetanol pur"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Tetanol pur"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Tetanol pur"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="57735"/>
+      <display value="Gardasil"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Gardasil"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Gardasil"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Gardasil"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Gardasil"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="709"/>
+      <display value="Zostavax"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Zostavax"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Zostavax"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Zostavax"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Zostavax"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="58158"/>
+      <display value="Priorix-Tetra"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Priorix-Tetra"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Priorix-Tetra"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Priorix-Tetra"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Priorix-Tetra"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="696"/>
+      <display value="BCG SSI"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="BCG SSI"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="BCG SSI"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="BCG SSI"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="BCG SSI"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="58317"/>
+      <display value="Fluad"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Fluad"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Fluad"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Fluad"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Fluad"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="60150"/>
+      <display value="Rotarix"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Rotarix"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Rotarix"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Rotarix"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Rotarix"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="703"/>
+      <display value="MMRVaxPro"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="MMRVaxPro"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="MMRVaxPro"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="MMRVaxPro"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="MMRVaxPro"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="58506"/>
+      <display value="Measles vaccine live"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Measles vaccine live"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Measles vaccine live"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Measles vaccine live"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Measles vaccine live"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="59267"/>
+      <display value="Agrippal"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Agrippal"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Agrippal"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Agrippal"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Agrippal"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="58271"/>
+      <display value="Optaflu"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Optaflu"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Optaflu"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Optaflu"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Optaflu"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="57814"/>
+      <display value="Cervarix"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Cervarix"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Cervarix"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Cervarix"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Cervarix"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="60129"/>
+      <display value="Prevenar-13"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Prevenar-13"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Prevenar-13"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Prevenar-13"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Prevenar-13"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="59147"/>
+      <display value="Ixiaro"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Ixiaro"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Ixiaro"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Ixiaro"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Ixiaro"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="62502"/>
+      <display value="Menveo"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Menveo"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Menveo"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Menveo"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Menveo"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="600"/>
+      <display value="DiTe Anatoxal Erwachsene / Adultes"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="DiTe Anatoxal Erwachsene / Adultes"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="DiTe Anatoxal Erwachsene / Adultes"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="DiTe Anatoxal Erwachsene / Adultes"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="DiTe Anatoxal Erwachsene / Adultes"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="690"/>
+      <display value="DiTe Anatoxal N Erwachsene / Adultes"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="DiTe Anatoxal N Erwachsene / Adultes"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="DiTe Anatoxal N Erwachsene / Adultes"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="DiTe Anatoxal N Erwachsene / Adultes"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="DiTe Anatoxal N Erwachsene / Adultes"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="35"/>
+      <display value="Te Anatoxal"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Te Anatoxal"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Te Anatoxal"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Te Anatoxal"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Te Anatoxal"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="689"/>
+      <display value="Te Anatoxal N"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Te Anatoxal N"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Te Anatoxal N"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Te Anatoxal N"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Te Anatoxal N"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="627"/>
+      <display value="Encepur"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Encepur"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Encepur"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Encepur"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Encepur"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="628"/>
+      <display value="Encepur Kinder / Enfants"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Encepur Kinder / Enfants"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Encepur Kinder / Enfants"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Encepur Kinder / Enfants"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Encepur Kinder / Enfants"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="62961"/>
+      <display value="Fluarix Tetra"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Fluarix Tetra"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Fluarix Tetra"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Fluarix Tetra"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Fluarix Tetra"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="66037"/>
+      <display value="Menjugate liquid"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Menjugate liquid"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Menjugate liquid"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Menjugate liquid"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Menjugate liquid"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="699"/>
+      <display value="ProQuad"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="ProQuad"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="ProQuad"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="ProQuad"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="ProQuad"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="66427"/>
+      <display value="Vaxigrip Tetra"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Vaxigrip Tetra"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Vaxigrip Tetra"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Vaxigrip Tetra"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Vaxigrip Tetra"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="65387"/>
+      <display value="Gardasil 9"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Gardasil 9"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Gardasil 9"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Gardasil 9"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Gardasil 9"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="66940"/>
+      <display value="Vaxelis"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Vaxelis"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Vaxelis"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Vaxelis"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Vaxelis"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="65730"/>
+      <display value="Bexsero"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Bexsero"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Bexsero"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Bexsero"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Bexsero"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="68087"/>
+      <display value="Influvac Tetra"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Influvac Tetra"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Influvac Tetra"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Influvac Tetra"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Influvac Tetra"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="68267"/>
+      <display value="COVID-19 Vaccine (Moderna)"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="COVID-19 Vaccine (Moderna)"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="COVID-19 Vaccine (Moderna)"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="COVID-19 Vaccine (Moderna)"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="COVID-19 Vaccine (Moderna)"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="68225"/>
+      <display value="COMIRNATY (Pfizer)"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="COMIRNATY (Pfizer)"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="COMIRNATY (Pfizer)"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="COMIRNATY (Pfizer)"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="COMIRNATY (Pfizer)"/>
+      </designation>
+   </concept>
+</CodeSystem>

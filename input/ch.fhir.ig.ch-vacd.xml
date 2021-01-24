@@ -46,12 +46,6 @@
 		</grouping>
 
 		<!-- References to code systems -->
-		<resource>
-			<reference>
-				<reference value="CodeSystem/whocc-atc-cs" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
 
 		<resource>
 			<reference>
@@ -60,10 +54,27 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-
 		<resource>
 			<reference>
 				<reference value="CodeSystem/ch-vacd-exposure-risks-cs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/ch-vacd-myvaccines-cs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/ch-vacd-swissmedic-cs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="CodeSystem/whocc-atc-cs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -159,20 +170,14 @@
 		<!-- value sets -->
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-vaccines-vs" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		<resource>
-			<reference>
-				<reference value="ValueSet/ch-vacd-diseases-vs" />
+				<reference value="ValueSet/ch-vacd-complication-risks-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-complication-risks-vs" />
+				<reference value="ValueSet/ch-vacd-diseases-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -182,15 +187,47 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-
+		<resource>
+			<reference>
+				<reference
+					value="ValueSet/ch-vacd-illnesses-undergone-for-immunizaion-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="ValueSet/ch-vacd-pregnancy-observation-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
 		<resource>
 			<reference>
 				<reference value="ValueSet/ch-vacd-problem-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		
-		
+		<resource>
+			<reference>
+				<reference
+					value="ValueSet/ch-vacd-route-of-administration-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="ValueSet/ch-vacd-special-case-problems-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/ch-vacd-vaccines-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
 		<!-- pages -->
 		<page>
 			<nameUrl value="toc.html" />

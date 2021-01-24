@@ -73,4 +73,7 @@
 	<disease SNOMED_CODE_PROCEDURE="314759000"
 		NAME_DE="Japanische Enzephalitis" NAME_FR="Encéphalite japonaise"
 		NAME_IT="Encefalite giapponese" NAME_EN="Japanese encephalitis" />
+	<disease SNOMED_CODE_PROCEDURE="840534001"
+		NAME_DE="COVID-19" NAME_FR="COVID-19"
+		NAME_IT="COVID-19" NAME_EN="Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)" />
 </dataset>

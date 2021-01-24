@@ -1,0 +1,456 @@
+<valueSets  xmlns="urn:ihe:iti:svs:2008">
+	<repository url="http://art-decor.org/decor/services/"
+		ident="ch-pcc-" referencedFrom="cdachvacd-">
+		<valueSet id="2.16.756.5.30.1.1.11.72"
+			name="SwissVaccinationPlanComplicationRisks"
+			displayName="Swiss Vaccination Plan Complication Risks"
+			statusCode="final" versionLabel="2020"
+			officialReleaseDate="2018-04-19T00:00:00"
+			effectiveDate="2020-07-02T10:19:29">
+			<sourceCodeSystem id="2.16.756.5.30.1.127.3.3.1"
+				identifierName="" canonicalUri="urn:oid:2.16.756.5.30.1.127.3.3.1"
+				canonicalUriDSTU2="urn:oid:2.16.756.5.30.1.127.3.3.1"
+				canonicalUriSTU3="urn:oid:2.16.756.5.30.1.127.3.3.1"
+				canonicalUriR4="urn:oid:2.16.756.5.30.1.127.3.3.1"></sourceCodeSystem>
+			<publishingAuthority name="eHealth Suisse">
+				<addrLine>Schwarzenburgstrasse 165</addrLine>
+				<addrLine>CH-3003 Bern</addrLine>
+				<addrLine type="uri">www.e-health-suisse.ch</addrLine>
+			</publishingAuthority>
+			<conceptList>
+				<concept code="113001"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE" level="0"
+					type="L">
+					<designation language="de-CH"
+						displayName="Anatomische oder funktionelle Asplenie"></designation>
+					<designation language="fr-CH"
+						displayName="Asplénie anatomique ou fonctionnelle"></designation>
+					<designation language="it-CH"
+						displayName="Asplenia anatomica o funzionale"></designation>
+				</concept>
+				<concept code="114036"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="ANDERE_LEBERERKRANKUNG" level="0" type="L">
+					<designation language="de-CH"
+						displayName="andere Lebererkrankung"></designation>
+					<designation language="fr-CH"
+						displayName="autre maladie hépatique"></designation>
+					<designation language="it-CH"
+						displayName="altra malattia epatica"></designation>
+				</concept>
+				<concept code="114006"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Andere Lungenerkrankungen (z.B. Mukoviszidose, Asthma bronchiale, etc.)"></designation>
+					<designation language="fr-CH"
+						displayName="Autres maladies pulmonaires (ex : mucoviscidose, asthme traité par aérosols, etc)"></designation>
+					<designation language="it-CH"
+						displayName="Altre malattie polmonari (p.es. mucoviscidosi, asmatrattata con aerosol, ecc.)"></designation>
+				</concept>
+				<concept code="114033"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="ANDERE_NIERENERKRANKUNG" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Andere Nierenerkrankung"></designation>
+					<designation language="fr-CH"
+						displayName="autre maladie des reins"></designation>
+					<designation language="it-CH"
+						displayName="altra malattia renale"></designation>
+				</concept>
+				<concept code="114034"
+					codeSystem="2.16.756.5.30.1.127.3.3.1" displayName="ANDERER_KREBS"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Anderer Krebs"></designation>
+					<designation language="fr-CH"
+						displayName="autre cancer"></designation>
+					<designation language="it-CH"
+						displayName="altro cancro"></designation>
+				</concept>
+				<concept code="114025"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Angeborene Immundefizienz, variables Immundefektsyndrom, defizitäre Antwort auf Polysaccharide"></designation>
+					<designation language="fr-CH"
+						displayName="Immunodéficience congénitale, immunodéficience commune variable, déficit réponse aux polysaccharidiques"></designation>
+					<designation language="it-CH"
+						displayName="Immunodeficienza congenita, immunodeficienza comune variabile, deficit di risposta ai polisaccaridi"></designation>
+				</concept>
+				<concept code="114021"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Autoimmunkrankheit, welche eine Immunsuppression erfordert"></designation>
+					<designation language="fr-CH"
+						displayName="Maladie auto-immune exigeant vraisemblablement une immunosuppression"></designation>
+					<designation language="it-CH"
+						displayName="Malattia autoimmune che richiede probabilmente una immunosoppressione"></designation>
+				</concept>
+				<concept code="114005"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL" level="0"
+					type="L">
+					<designation language="de-CH"
+						displayName="Bronchiektasen durch Antikörpermangel"></designation>
+					<designation language="fr-CH"
+						displayName="Bronchiectasies sur carence en anticorps"></designation>
+					<designation language="it-CH"
+						displayName="Bronchiettasie su carenza in anticorpi"></designation>
+				</concept>
+				<concept code="114003"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Chronisch obstruktive Pneumopathie"></designation>
+					<designation language="fr-CH"
+						displayName="Pneumopathie chronique obstructive"></designation>
+					<designation language="it-CH"
+						displayName="Pneumopatia cronica ostruttiva"></designation>
+				</concept>
+				<concept code="114007"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="CHRONISCHE_LEBERERKRANKUNG" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Chronische Lebererkrankung"></designation>
+					<designation language="fr-CH"
+						displayName="Maladie hépatique chronique"></designation>
+					<designation language="it-CH"
+						displayName="Malattia epatica cronica"></designation>
+				</concept>
+				<concept code="113002"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT" level="0"
+					type="L">
+					<designation language="de-CH"
+						displayName="Cochleaimplantat, in situ oder geplant"></designation>
+					<designation language="fr-CH"
+						displayName="Implant cochléaire, in situ ou planifié"></designation>
+					<designation language="it-CH"
+						displayName="Impianto cocleare, in situ o pianificato"></designation>
+				</concept>
+				<concept code="114015"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Diabetes mit Auswirkung auf die Funktion von Herz, Lungen oder Nieren"></designation>
+					<designation language="fr-CH"
+						displayName="Diabète avec répercussion sur la fonction cardiaque, pulmonaire ou rénale"></designation>
+					<designation language="it-CH"
+						displayName="Diabete con ripercussioni sulla funzione cardiopolmonare o renale"></designation>
+				</concept>
+				<concept code="114019"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION" level="0"
+					type="L">
+					<designation language="de-CH"
+						displayName="Empfänger einer Solidorgantransplantation"></designation>
+					<designation language="fr-CH"
+						displayName="Receveurs d'une transplantation d'organe solide"></designation>
+					<designation language="it-CH"
+						displayName="Riceventi di un trapianto d'organo solido"></designation>
+				</concept>
+				<concept code="114020"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION" level="0"
+					type="L">
+					<designation language="de-CH"
+						displayName="Empfänger einer Stammzelltransplantation"></designation>
+					<designation language="fr-CH"
+						displayName="Receveurs de cellules souches hématopoïétiques"></designation>
+					<designation language="it-CH"
+						displayName="Riceventi di cellule staminali ematopoietiche"></designation>
+				</concept>
+				<concept code="113004"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Geburt vor der 33. Schwangerschaftswoche oder Geburtsgewicht &lt; 1500g"></designation>
+					<designation language="fr-CH"
+						displayName="Naissance avant la 33e semaine de grossesse ou poids de naissance &lt;1500g"></designation>
+					<designation language="it-CH"
+						displayName="Nascita prima della 33a settimana di gravidanza o peso alla nascita &lt;1500g"></designation>
+				</concept>
+				<concept code="114037"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="HAEMODIALYSEPATIENT" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Hämodialysepatient"></designation>
+					<designation language="fr-CH"
+						displayName="Personnes dialysées"></designation>
+					<designation language="it-CH"
+						displayName="Persone in dialisi"></designation>
+				</concept>
+				<concept code="114038"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="HAEMOPHILIE_PATIENT" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Hämophilie Patient"></designation>
+					<designation language="fr-CH"
+						displayName="Personnes hémophiles"></designation>
+					<designation language="it-CH"
+						displayName="Persone affette da emofilia"></designation>
+				</concept>
+				<concept code="114001"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="HERZINSUFFIZIENZ" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Herzinsuffizienz"></designation>
+					<designation language="fr-CH"
+						displayName="Insuffisance cardiaque"></designation>
+					<designation language="it-CH"
+						displayName="Insufficienza cardiaca"></designation>
+				</concept>
+				<concept code="113007"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Herzkrankheiten (chronische, kongenitale Missbildungen)"></designation>
+					<designation language="fr-CH"
+						displayName="Cardiopathies chroniques, malformations congénitales"></designation>
+					<designation language="it-CH"
+						displayName="Cardiopatie croniche, malformazioni congenite"></designation>
+				</concept>
+				<concept code="113008"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="HIV Infektion mit CD4-Zellen &gt;= 15 % (Erwachsene: &gt;= 200 / µl)"></designation>
+					<designation language="fr-CH"
+						displayName="Infection à VIH avec CD4 &gt;= 15% (Adultes : &gt;= 200 / µl)"></designation>
+					<designation language="it-CH"
+						displayName="Infezione HIV con CD4 &gt;= 15% (Adulti : &gt;= 200 / µl)"></designation>
+				</concept>
+				<concept code="113009"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="HIV Infektion mit CD4-Zellen &lt; 15 % (Erwachsene: &lt; 200 / µl)"></designation>
+					<designation language="fr-CH"
+						displayName="Infection à VIH avec CD4 &lt; 15% (Adultes : &lt; 200 / µl)"></designation>
+					<designation language="it-CH"
+						displayName="Infezione HIV con CD4 &lt; 15% (Adulti : &lt; 200 / µl)"></designation>
+				</concept>
+				<concept code="114018"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Kandidaten für eine Solidorgantransplantation"></designation>
+					<designation language="fr-CH"
+						displayName="Candidats à une transplantation d'organe solide"></designation>
+					<designation language="it-CH"
+						displayName="Candidati a un trapianto d'organo solido"></designation>
+				</concept>
+				<concept code="114002"
+					codeSystem="2.16.756.5.30.1.127.3.3.1" displayName="KARDIOPATHIE"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Kardiopathie, angeborene Fehlbildung"></designation>
+					<designation language="fr-CH"
+						displayName="Cardiopathie, malformation congénitale"></designation>
+					<designation language="it-CH"
+						displayName="Cardiopatia, malformazione congenita"></designation>
+				</concept>
+				<concept code="114008"
+					codeSystem="2.16.756.5.30.1.127.3.3.1" displayName="LEBERZIRRHOSE"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Leberzirrhose"></designation>
+					<designation language="fr-CH"
+						displayName="Cirrhose hépatique"></designation>
+					<designation language="it-CH"
+						displayName="Cirrosi epatica"></designation>
+				</concept>
+				<concept code="113012"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="LYMPHOM_LEUKAEMIE_MYELOM" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Lymphom, Leukämie, Myelom"></designation>
+					<designation language="fr-CH"
+						displayName="Lymphome, leucémie, myélome"></designation>
+					<designation language="it-CH"
+						displayName="Linfoma, leucemia, mieloma"></designation>
+				</concept>
+				<concept code="118001"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Lymphom, Leukämie, Myelom während klinischer Remission"></designation>
+					<designation language="fr-CH"
+						displayName="Lymphome, leucémie, myélome durant une rémission clinique"></designation>
+					<designation language="it-CH"
+						displayName="Linfoma, leucemia, mieloma durante una remissione clinica"></designation>
+				</concept>
+				<concept code="113014"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Mangel an Mannose-bindendem Lektin"></designation>
+					<designation language="fr-CH"
+						displayName="Déficit en lectine liant le mannose"></designation>
+					<designation language="it-CH"
+						displayName="Deficit di lectina legante il mannosio"></designation>
+				</concept>
+				<concept code="114026"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Mangel im klassischen oder alternativen Weg der Komplementaktivierung"></designation>
+					<designation language="fr-CH"
+						displayName="Déficit en facteurs de la voie alterne ou terminale du complément"></designation>
+					<designation language="it-CH"
+						displayName="Deficit in fattori della via alterna o terminale del complemento"></designation>
+				</concept>
+				<concept code="114022"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Medikamentöse Immunosuppression (inkl. systemische Langzeitkortikoidtherapie und Radiotherapie)"></designation>
+					<designation language="fr-CH"
+						displayName="Immunosuppression médicamenteuse (y c. corticothérapie de longue durée par voie générale et radiothérapie)"></designation>
+					<designation language="it-CH"
+						displayName="Immunosoppressione medicamentosa (compresa una corticoterapia di lunga durata per via generale e una radioterapia)"></designation>
+				</concept>
+				<concept code="114016"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="MORBIDE_ADIPOSITAS_BMI_GROESSER_40" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Morbide Adipositas (BMI &gt;= 40)"></designation>
+					<designation language="fr-CH"
+						displayName="Obésité morbide (IMC &gt;= 40)"></designation>
+					<designation language="it-CH"
+						displayName="Obesità patologica (IMC &gt;= 40)"></designation>
+				</concept>
+				<concept code="113018"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="NEPHROTISCHES_SYNDROM" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Nephrotisches Syndrom"></designation>
+					<designation language="fr-CH"
+						displayName="Syndrome néphrotique"></designation>
+					<designation language="it-CH"
+						displayName="Sindrome nefrosica"></designation>
+				</concept>
+				<concept code="114012"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Neuromuskuläre Krankheit (Falls Auswirkungen auf Herz-, Lungen- oder Nierenfunktion)"></designation>
+					<designation language="fr-CH"
+						displayName="Maladie neuromusculaire (Si répercussion sur la fonction cardiaque, pulmonaire ou rénale)"></designation>
+					<designation language="it-CH"
+						displayName="Malattia neuromuscolare (Se ripercussione sulla funzione cardiaca, polmonare o renale)"></designation>
+				</concept>
+				<concept code="113023"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="NIERENINSUFFIZIENZ" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Niereninsuffizienz"></designation>
+					<designation language="fr-CH"
+						displayName="Insuffisance rénale"></designation>
+					<designation language="it-CH"
+						displayName="Insufficienza renale"></designation>
+				</concept>
+				<concept code="114035"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="PROTEIN_S_ODER_PROTEIN_C_DEFIZIT" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Protein-S oder Protein-C Defizit"></designation>
+					<designation language="fr-CH"
+						displayName="déficit en protéine S et protéine C "></designation>
+					<designation language="it-CH"
+						displayName="deficit di proteina S e proteina C"></designation>
+				</concept>
+				<concept code="113035"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"
+					level="0" type="L">
+					<designation language="de-CH" type="preferred"
+						displayName="Rheumatismus oder Autoimmunkrankheit, welche eine Immunsuppression bedingt"></designation>
+					<designation language="fr-CH" type="preferred"
+						displayName="Maladie rhumatismale ou auto-immune allant nécessiter une immunosuppression"></designation>
+					<designation language="it-CH" type="preferred"
+						displayName="Malattia reumatica o autoimmune che presto richiederà l'immunosoppressione"></designation>
+				</concept>
+				<concept code="114032"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Schädelbasisfraktur /-Missbildung, zerebrospinale Liquorfistel"></designation>
+					<designation language="fr-CH"
+						displayName="Fracture ou malformation de la base du crâne, fistule de liquide céphalo-rachidien"></designation>
+					<designation language="it-CH"
+						displayName="Frattura o malformazione della base del cranio, fistola di liquido cerebrospinale"></designation>
+				</concept>
+				<concept code="114028"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE" level="0"
+					type="L">
+					<designation language="de-CH"
+						displayName="Schwangerschaft und post-partum Periode"></designation>
+					<designation language="fr-CH"
+						displayName="Grossesse et post-partum"></designation>
+					<designation language="it-CH"
+						displayName="Gravidanza e post-parto"></designation>
+				</concept>
+				<concept code="113021"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="SCHWERE_NEURODERMITIS_BEIM_KIND" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Schwere Neurodermitis beim Kind"></designation>
+					<designation language="fr-CH"
+						displayName="Eczema sévère chez l’enfant"></designation>
+					<designation language="it-CH"
+						displayName="Eczema severo nel bambino"></designation>
+				</concept>
+				<concept code="114004"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"
+					level="0" type="L">
+					<designation language="de-CH"
+						displayName="Schweres Asthma: bei verlängerter oder häufiger Behandlung mit oralen Steroiden"></designation>
+					<designation language="fr-CH"
+						displayName="Asthme sévère : si traitement prolongé ou fréquent par des corticoïdes oraux"></designation>
+					<designation language="it-CH"
+						displayName="Asma severa : se trattamento prolungato o frequente con corticoidi orali"></designation>
+				</concept>
+				<concept code="114014"
+					codeSystem="2.16.756.5.30.1.127.3.3.1"
+					displayName="SICHELZELLANAEMIE" level="0" type="L">
+					<designation language="de-CH"
+						displayName="Sichelzellanämie"></designation>
+					<designation language="fr-CH"
+						displayName="Anémie falciforme"></designation>
+					<designation language="it-CH"
+						displayName="Anemia falciforme"></designation>
+				</concept>
+				<concept code="113036"
+					codeSystem="2.16.756.5.30.1.127.3.3.1" displayName="ZOELIAKIE"
+					level="0" type="L">
+					<designation language="de-CH" type="preferred"
+						displayName="Zöliakie"></designation>
+					<designation language="fr-CH" type="preferred"
+						displayName="Coeliaquie"></designation>
+					<designation language="it-CH" type="preferred"
+						displayName="Celiachia"></designation>
+				</concept>
+			</conceptList>
+		</valueSet>
+	</repository>
+</valueSets>

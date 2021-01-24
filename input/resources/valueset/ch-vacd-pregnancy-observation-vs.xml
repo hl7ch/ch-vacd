@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ValueSet xmlns="http://hl7.org/fhir">
-   <id value="ch-vacd-diseases-vs"/>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:ihe="urn:ihe:iti:svs:2008">
+   <id value="ch-vacd-pregnancy-observation-vs"/>
    <meta>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2021-01-24T00:00:00+01:00"/>
+         <start value="2018-04-19T00:00:00+01:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-diseases-vs"/>
+   <url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-pregnancy-observation-vs"/>
    <identifier>
       <use value="official"/>
-      <system value="http://myvaccines.ch/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.147.4.1.4"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.1.11.78"/>
    </identifier>
-   <version value="2021-01-24T00:00:00"/>
-   <name value="Disease"/>
-   <title value="Immunization Target Disease Codes"/>
+   <version value="2018-04-19T00:00:00"/>
+   <name value="PregnancyObservationCodes"/>
+   <title value="Pregnancy Observation Codes"/>
    <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
@@ -28,629 +28,648 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="All diseases immunizations exists for."/>
-   <immutable value="true"/>
+   <description value="To be defined."/>
    <compose>
-      <system value="http://snomed.info/sct"/>
       <include>
+         <system value="2.16.840.1.113883.6.1"/>
          <concept>
-            <code value="0"/>
-            <display value="Other disease"/>
+            <code value="11636-8"/>
+            <display value="BIRTHS LIVE (REPORTED)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Andere Krankheit"/>
+               <value value="BIRTHS LIVE (REPORTED)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Autre maladie"/>
+               <value value="BIRTHS LIVE (REPORTED)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Altra malattia"/>
+               <value value="BIRTHS LIVE (REPORTED)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Other disease"/>
+               <value value="BIRTHS LIVE (REPORTED)"/>
             </designation>
          </concept>
          <concept>
-            <code value="76668005"/>
-            <display value="Diphtheria"/>
+            <code value="11637-6"/>
+            <display value="BIRTHS PRETERM (REPORTED)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Diphtherie"/>
+               <value value="BIRTHS PRETERM (REPORTED)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Diphtérie"/>
+               <value value="BIRTHS PRETERM (REPORTED)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Difterite"/>
+               <value value="BIRTHS PRETERM (REPORTED)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Diphtheria"/>
+               <value value="BIRTHS PRETERM (REPORTED)"/>
             </designation>
          </concept>
          <concept>
-            <code value="127786006"/>
-            <display value="Tetanus"/>
+            <code value="11638-4"/>
+            <display value="BIRTHS STILL LIVING (REPORTED)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Tetanus"/>
+               <value value="BIRTHS STILL LIVING (REPORTED)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Tétanos"/>
+               <value value="BIRTHS STILL LIVING (REPORTED)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Tetano"/>
+               <value value="BIRTHS STILL LIVING (REPORTED)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Tetanus"/>
+               <value value="BIRTHS STILL LIVING (REPORTED)"/>
             </designation>
          </concept>
          <concept>
-            <code value="39343008"/>
-            <display value="Pertussis"/>
+            <code value="11639-2"/>
+            <display value="BIRTHS TERM (REPORTED)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Pertussis"/>
+               <value value="BIRTHS TERM (REPORTED)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Coqueluche"/>
+               <value value="BIRTHS TERM (REPORTED)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Pertosse"/>
+               <value value="BIRTHS TERM (REPORTED)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Pertussis"/>
+               <value value="BIRTHS TERM (REPORTED)"/>
             </designation>
          </concept>
          <concept>
-            <code value="72093006"/>
-            <display value="Poliomyelitis"/>
+            <code value="11640-0"/>
+            <display value="BIRTHS TOTAL (REPORTED)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Poliomyelitis"/>
+               <value value="BIRTHS TOTAL (REPORTED)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Poliomyélite"/>
+               <value value="BIRTHS TOTAL (REPORTED)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Poliomielite"/>
+               <value value="BIRTHS TOTAL (REPORTED)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Poliomyelitis"/>
+               <value value="BIRTHS TOTAL (REPORTED)"/>
             </designation>
          </concept>
          <concept>
-            <code value="127787002"/>
-            <display value="Hib"/>
+            <code value="11612-9"/>
+            <display value="ABORTIONS(REPORTED)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Hib"/>
+               <value value="ABORTIONS(REPORTED)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Hib"/>
+               <value value="ABORTIONS(REPORTED)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Hib"/>
+               <value value="ABORTIONS(REPORTED)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Hib"/>
+               <value value="ABORTIONS(REPORTED)"/>
             </designation>
          </concept>
          <concept>
-            <code value="243789007"/>
-            <display value="Hepatitis A"/>
+            <code value="11613-7"/>
+            <display value="ABORTIONSINDUCED (REPORTED)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Hepatitis A"/>
+               <value value="ABORTIONSINDUCED (REPORTED)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Hépatite A"/>
+               <value value="ABORTIONSINDUCED (REPORTED)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Epatite A"/>
+               <value value="ABORTIONSINDUCED (REPORTED)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Hepatitis A"/>
+               <value value="ABORTIONSINDUCED (REPORTED)"/>
             </designation>
          </concept>
          <concept>
-            <code value="16584000"/>
-            <display value="Hepatitis B"/>
+            <code value="11614-5"/>
+            <display value="ABORTIONSSPONTANEOUS(REPORTED)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Hepatitis B"/>
+               <value value="ABORTIONSSPONTANEOUS(REPORTED)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Hépatite B"/>
+               <value value="ABORTIONSSPONTANEOUS(REPORTED)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Epatite B"/>
+               <value value="ABORTIONSSPONTANEOUS(REPORTED)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Hepatitis B"/>
+               <value value="ABORTIONSSPONTANEOUS(REPORTED)"/>
             </designation>
          </concept>
          <concept>
-            <code value="47435007"/>
-            <display value="Measles"/>
+            <code value="33065-4"/>
+            <display value="ECTOPIC PREGNANCY(REPORTED)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Masern"/>
+               <value value="ECTOPIC PREGNANCY(REPORTED)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rougeole"/>
+               <value value="ECTOPIC PREGNANCY(REPORTED)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Morbillo"/>
+               <value value="ECTOPIC PREGNANCY(REPORTED)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Measles"/>
+               <value value="ECTOPIC PREGNANCY(REPORTED)"/>
             </designation>
          </concept>
          <concept>
-            <code value="50583002"/>
-            <display value="Mumps"/>
+            <code value="57062-2"/>
+            <display value="Births.stillborn"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Mumps"/>
+               <value value="Births.stillborn"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Oreillons"/>
+               <value value="Births.stillborn"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Orecchioni"/>
+               <value value="Births.stillborn"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Mumps"/>
+               <value value="Births.stillborn"/>
             </designation>
          </concept>
          <concept>
-            <code value="82314000"/>
-            <display value="Rubella"/>
+            <code value="11996-6"/>
+            <display value="Pregnancies"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Röteln"/>
+               <value value="Pregnancies"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rubéole"/>
+               <value value="Pregnancies"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Rosolia"/>
+               <value value="Pregnancies"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Rubella"/>
+               <value value="Pregnancies"/>
             </designation>
          </concept>
          <concept>
-            <code value="281658005"/>
-            <display value="Tick-borne encephalitis"/>
+            <code value="11639-2"/>
+            <display value="Births.Term"/>
             <designation>
                <language value="de-CH"/>
-               <value value="FSME"/>
+               <value value="Births.Term"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Méningoencéphalite à tiques"/>
+               <value value="Births.Term"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="FSME"/>
+               <value value="Births.Term"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Tick-borne encephalitis"/>
+               <value value="Births.Term"/>
             </designation>
          </concept>
          <concept>
-            <code value="41088001"/>
-            <display value="Meningococcus C"/>
+            <code value="11637-6"/>
+            <display value="Births.Preterm"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Meningokokken C"/>
+               <value value="Births.Preterm"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Méningocoques C"/>
+               <value value="Births.Preterm"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Meningococchi C"/>
+               <value value="Births.Preterm"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Meningococcus C"/>
+               <value value="Births.Preterm"/>
             </designation>
          </concept>
          <concept>
-            <code value="86198006"/>
-            <display value="Influenza"/>
+            <code value="45371-2"/>
+            <display value="Multiple pregnancy"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Grippe"/>
+               <value value="Multiple pregnancy"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Grippe"/>
+               <value value="Multiple pregnancy"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Influenza"/>
+               <value value="Multiple pregnancy"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Influenza"/>
+               <value value="Multiple pregnancy"/>
             </designation>
          </concept>
          <concept>
-            <code value="28877009"/>
-            <display value="Cholera"/>
+            <code value="49051-6"/>
+            <display value="Gestational age"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Cholera"/>
+               <value value="Gestational age"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Choléra"/>
+               <value value="Gestational age"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Colera"/>
+               <value value="Gestational age"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Cholera"/>
+               <value value="Gestational age"/>
             </designation>
          </concept>
          <concept>
-            <code value="34631000"/>
-            <display value="Rabies"/>
+            <code value="11887-7"/>
+            <display value="FETUS, GESTATIONAL AGE (ESTIMATED FROM SELECTED DELIVERY DATE)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Tollwut"/>
+               <value value="FETUS, GESTATIONAL AGE (ESTIMATED FROM SELECTED DELIVERY DATE)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rage"/>
+               <value value="FETUS, GESTATIONAL AGE (ESTIMATED FROM SELECTED DELIVERY DATE)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Rabbia"/>
+               <value value="FETUS, GESTATIONAL AGE (ESTIMATED FROM SELECTED DELIVERY DATE)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Rabies"/>
+               <value value="FETUS, GESTATIONAL AGE (ESTIMATED FROM SELECTED DELIVERY DATE)"/>
             </designation>
          </concept>
          <concept>
-            <code value="30338008"/>
-            <display value="Typhus"/>
+            <code value="32396-4"/>
+            <display value="Labor duration"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Typhus"/>
+               <value value="Labor duration"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Fièvre typhoïde"/>
+               <value value="Labor duration"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Tifo"/>
+               <value value="Labor duration"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Typhus"/>
+               <value value="Labor duration"/>
             </designation>
          </concept>
          <concept>
-            <code value="68525005"/>
-            <display value="Varicella"/>
+            <code value="8339-4"/>
+            <display value="Body weight at birth"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Windpocken"/>
+               <value value="Body weight at birth"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Varicelle"/>
+               <value value="Body weight at birth"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Varicella"/>
+               <value value="Body weight at birth"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Varicella"/>
+               <value value="Body weight at birth"/>
             </designation>
          </concept>
          <concept>
-            <code value="42284007"/>
-            <display value="Tuberculosis"/>
+            <code value="29300-1"/>
+            <display value="Procedure9"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Tuberkulose"/>
+               <value value="Procedure9"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Tuberculose"/>
+               <value value="Procedure9"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Tubercolosi"/>
+               <value value="Procedure9"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Tuberculosis"/>
+               <value value="Procedure9"/>
             </designation>
          </concept>
          <concept>
-            <code value="67308009"/>
-            <display value="Yellow fever"/>
+            <code value="8722-1"/>
+            <display value="Surgical operation note anesthesia"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Gelbfieber"/>
+               <value value="Surgical operation note anesthesia"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Fièvre jaune"/>
+               <value value="Surgical operation note anesthesia"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Febbre gialla"/>
+               <value value="Surgical operation note anesthesia"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Yellow fever"/>
+               <value value="Surgical operation note anesthesia"/>
             </designation>
          </concept>
          <concept>
-            <code value="448964007"/>
-            <display value="Pneumococcus (PCV)"/>
+            <code value="52829-9"/>
+            <display value="Place of service"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Pneumokokken (PCV)"/>
+               <value value="Place of service"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Pneumocoques (PCV)"/>
+               <value value="Place of service"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Pneumococchi (PCV)"/>
+               <value value="Place of service"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Pneumococcus (PCV)"/>
+               <value value="Place of service"/>
             </designation>
          </concept>
          <concept>
-            <code value="135642004"/>
-            <display value="Pneumococcus 23"/>
+            <code value="42839-1"/>
+            <display value="Labor risk"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Pneumokokken 23"/>
+               <value value="Labor risk"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Pneumocoques 23"/>
+               <value value="Labor risk"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Pneumococchi 23"/>
+               <value value="Labor risk"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Pneumococcus 23"/>
+               <value value="Labor risk"/>
             </designation>
          </concept>
          <concept>
-            <code value="390892002"/>
-            <display value="Meningococcus ACWY"/>
+            <code value="42840-9"/>
+            <display value="Delivery risk"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Meningokokken ACWY"/>
+               <value value="Delivery risk"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Méningocoques ACWY"/>
+               <value value="Delivery risk"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Meningo ACWY"/>
+               <value value="Delivery risk"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Meningococcus ACWY"/>
+               <value value="Delivery risk"/>
             </designation>
          </concept>
          <concept>
-            <code value="428570002"/>
-            <display value="HPV"/>
+            <code value="11449-6"/>
+            <display value="PREGNANCYSTATUS"/>
             <designation>
                <language value="de-CH"/>
-               <value value="HPV"/>
+               <value value="PREGNANCYSTATUS"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="HPV"/>
+               <value value="PREGNANCYSTATUS"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="HPV"/>
+               <value value="PREGNANCYSTATUS"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="HPV"/>
+               <value value="PREGNANCYSTATUS"/>
             </designation>
          </concept>
          <concept>
-            <code value="116394005"/>
-            <display value="ETEC"/>
+            <code value="8678-5"/>
+            <display value="MENSTRUAL STATUS"/>
             <designation>
                <language value="de-CH"/>
-               <value value="ETEC"/>
+               <value value="MENSTRUAL STATUS"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="ETEC"/>
+               <value value="MENSTRUAL STATUS"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="ETEC"/>
+               <value value="MENSTRUAL STATUS"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="ETEC"/>
+               <value value="MENSTRUAL STATUS"/>
             </designation>
          </concept>
          <concept>
-            <code value="4740000"/>
-            <display value="Herpes zoster"/>
+            <code value="8665-2"/>
+            <display value="DATE LAST MENSTRUAL PERIOD"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Zoster"/>
+               <value value="DATE LAST MENSTRUAL PERIOD"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Zona"/>
+               <value value="DATE LAST MENSTRUAL PERIOD"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Herpes zoster"/>
+               <value value="DATE LAST MENSTRUAL PERIOD"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Herpes zoster"/>
+               <value value="DATE LAST MENSTRUAL PERIOD"/>
             </designation>
          </concept>
          <concept>
-            <code value="18624000"/>
-            <display value="Rotavirus"/>
+            <code value="11778-8"/>
+            <display value="DELIVERY DATE (CLINICAL ESTIMATE)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Rotavirus"/>
+               <value value="DELIVERY DATE (CLINICAL ESTIMATE)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Rotavirus"/>
+               <value value="DELIVERY DATE (CLINICAL ESTIMATE)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Rotavirus"/>
+               <value value="DELIVERY DATE (CLINICAL ESTIMATE)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Rotavirus"/>
+               <value value="DELIVERY DATE (CLINICAL ESTIMATE)"/>
             </designation>
          </concept>
          <concept>
-            <code value="442696006"/>
-            <display value="Influenza A/H1N1/09"/>
+            <code value="11779-6"/>
+            <display value="DELIVERY DATE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Influenza A/H1N1/09"/>
+               <value value="DELIVERY DATE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Grippe A/H1N1/09"/>
+               <value value="DELIVERY DATE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Influenza A/H1N1/099"/>
+               <value value="DELIVERY DATE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Influenza A/H1N1/09"/>
+               <value value="DELIVERY DATE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"/>
             </designation>
          </concept>
          <concept>
-            <code value="67924001"/>
-            <display value="Smallpox"/>
+            <code value="11780-4"/>
+            <display value="DELIVERY DATE (ESTIMATED FROM OVULATION DATE)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Pocken"/>
+               <value value="DELIVERY DATE (ESTIMATED FROM OVULATION DATE)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Variole"/>
+               <value value="DELIVERY DATE (ESTIMATED FROM OVULATION DATE)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Vaiolo"/>
+               <value value="DELIVERY DATE (ESTIMATED FROM OVULATION DATE)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Smallpox"/>
+               <value value="DELIVERY DATE (ESTIMATED FROM OVULATION DATE)"/>
             </designation>
          </concept>
          <concept>
-            <code value="314759000"/>
-            <display value="Japanese encephalitis"/>
+            <code value="11884-4"/>
+            <display value="FETUS, GESTATIONAL AGE (CLINICAL ESTIMATE)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Japanische Enzephalitis"/>
+               <value value="FETUS, GESTATIONAL AGE (CLINICAL ESTIMATE)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Encéphalite japonaise"/>
+               <value value="FETUS, GESTATIONAL AGE (CLINICAL ESTIMATE)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Encefalite giapponese"/>
+               <value value="FETUS, GESTATIONAL AGE (CLINICAL ESTIMATE)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Japanese encephalitis"/>
+               <value value="FETUS, GESTATIONAL AGE (CLINICAL ESTIMATE)"/>
             </designation>
          </concept>
          <concept>
-            <code value="840534001"/>
-            <display value="Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)"/>
+            <code value="11885-1"/>
+            <display value="FETUS, GESTATIONAL AGE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"/>
             <designation>
                <language value="de-CH"/>
-               <value value="COVID-19"/>
+               <value value="FETUS, GESTATIONAL AGE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="COVID-19"/>
+               <value value="FETUS, GESTATIONAL AGE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="COVID-19"/>
+               <value value="FETUS, GESTATIONAL AGE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)"/>
+               <value value="FETUS, GESTATIONAL AGE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="11886-9"/>
+            <display value="FETUS, GESTATIONAL AGE (ESTIMATED FROM OVULATION DATE)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="FETUS, GESTATIONAL AGE (ESTIMATED FROM OVULATION DATE)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="FETUS, GESTATIONAL AGE (ESTIMATED FROM OVULATION DATE)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="FETUS, GESTATIONAL AGE (ESTIMATED FROM OVULATION DATE)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="FETUS, GESTATIONAL AGE (ESTIMATED FROM OVULATION DATE)"/>
             </designation>
          </concept>
       </include>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:ihe="urn:ihe:iti:svs:2008">
+   <id value="ch-vacd-illnesses-undergone-for-immunizaion-vs"/>
+   <meta>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2018-04-19T00:00:00+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-illnesses-undergone-for-immunizaion-vs"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.1.11.75"/>
+   </identifier>
+   <version value="2018-04-19T00:00:00"/>
+   <name value="IllnessesUndergoneForImmunization"/>
+   <title value="Illnesses undergone for immunization"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="These are past illnesses which result in a natural immunization."/>
+   <compose>
+      <include>
+         <system value="2.16.840.1.113883.6.96"/>
+         <concept>
+            <code value="38907003"/>
+            <display value="Varicella (disorder)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Varicella (disorder)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Varicella (disorder)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Varicella (disorder)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Varicella (disorder)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="14189004"/>
+            <display value="Measles (disorder)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Measles (disorder)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Measles (disorder)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Measles (disorder)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Measles (disorder)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="36989005"/>
+            <display value="Mumps (disorder)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Mumps (disorder)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Mumps (disorder)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Mumps (disorder)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Mumps (disorder)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="36653000"/>
+            <display value="Rubella (disorder)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Rubella (disorder)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Rubella (disorder)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Rubella (disorder)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Rubella (disorder)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="40468003"/>
+            <display value="Viral hepatitis, type A (disorder)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Viral hepatitis, type A (disorder)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Viral hepatitis, type A (disorder)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Viral hepatitis, type A (disorder)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Viral hepatitis, type A (disorder)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="66071002"/>
+            <display value="Viral hepatitis type B (disorder)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Viral hepatitis type B (disorder)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Viral hepatitis type B (disorder)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Viral hepatitis type B (disorder)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Viral hepatitis type B (disorder)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="16901001"/>
+            <display value="Central European encephalitis (disorder)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Central European encephalitis (disorder)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Central European encephalitis (disorder)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Central European encephalitis (disorder)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Central European encephalitis (disorder)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="16541001"/>
+            <display value="Yellow fever (disorder)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Yellow fever (disorder)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Yellow fever (disorder)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Yellow fever (disorder)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Yellow fever (disorder)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="76902006"/>
+            <display value="Tetanus (disorder)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Tetanus (disorder)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tetanus (disorder)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tetanus (disorder)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Tetanus (disorder)"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

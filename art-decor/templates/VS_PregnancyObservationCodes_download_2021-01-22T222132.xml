@@ -1,0 +1,93 @@
+<valueSets  xmlns="urn:ihe:iti:svs:2008">
+	<repository url="http://art-decor.org/decor/services/"
+		ident="ch-pcc-" referencedFrom="cdachvacd-">
+		<valueSet id="2.16.756.5.30.1.1.11.78"
+			name="PregnancyObservationCodes"
+			displayName="Pregnancy Observation Codes" statusCode="final"
+			officialReleaseDate="2018-04-19T00:00:00" versionLabel="2018"
+			effectiveDate="2018-04-19T00:00:00">
+			<sourceCodeSystem id="2.16.840.1.113883.6.1"
+				identifierName="Logical&#160;Observation&#160;Identifier&#160;Names&#160;and&#160;Codes"
+				canonicalUri="http://loinc.org" canonicalUriDSTU2="http://loinc.org"
+				canonicalUriSTU3="http://loinc.org"
+				canonicalUriR4="http://loinc.org"></sourceCodeSystem>
+			<publishingAuthority name="eHealth Suisse">
+				<addrLine>Schwarzenburgstrasse 165</addrLine>
+				<addrLine>CH-3003 Bern</addrLine>
+				<addrLine type="uri">www.e-health-suisse.ch</addrLine>
+			</publishingAuthority>
+			<conceptList>
+				<concept code="11636-8" codeSystem="2.16.840.1.113883.6.1"
+					displayName="BIRTHS LIVE (REPORTED)" level="0" type="L"></concept>
+				<concept code="11637-6" codeSystem="2.16.840.1.113883.6.1"
+					displayName="BIRTHS PRETERM (REPORTED)" level="0" type="L"></concept>
+				<concept code="11638-4" codeSystem="2.16.840.1.113883.6.1"
+					displayName="BIRTHS STILL LIVING (REPORTED)" level="0" type="L"></concept>
+				<concept code="11639-2" codeSystem="2.16.840.1.113883.6.1"
+					displayName="BIRTHS TERM (REPORTED)" level="0" type="L"></concept>
+				<concept code="11640-0" codeSystem="2.16.840.1.113883.6.1"
+					displayName="BIRTHS TOTAL (REPORTED)" level="0" type="L"></concept>
+				<concept code="11612-9" codeSystem="2.16.840.1.113883.6.1"
+					displayName="ABORTIONS(REPORTED)" level="0" type="L"></concept>
+				<concept code="11613-7" codeSystem="2.16.840.1.113883.6.1"
+					displayName="ABORTIONSINDUCED (REPORTED)" level="0" type="L"></concept>
+				<concept code="11614-5" codeSystem="2.16.840.1.113883.6.1"
+					displayName="ABORTIONSSPONTANEOUS(REPORTED)" level="0" type="L"></concept>
+				<concept code="33065-4" codeSystem="2.16.840.1.113883.6.1"
+					displayName="ECTOPIC PREGNANCY(REPORTED)" level="0" type="L"></concept>
+				<concept code="57062-2" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Births.stillborn" level="0" type="L"></concept>
+				<concept code="11996-6" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Pregnancies" level="0" type="L"></concept>
+				<concept code="11639-2" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Births.Term" level="0" type="L"></concept>
+				<concept code="11637-6" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Births.Preterm" level="0" type="L"></concept>
+				<concept code="45371-2" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Multiple pregnancy" level="0" type="L"></concept>
+				<concept code="49051-6" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Gestational age" level="0" type="L"></concept>
+				<concept code="11887-7" codeSystem="2.16.840.1.113883.6.1"
+					displayName="FETUS, GESTATIONAL AGE (ESTIMATED FROM SELECTED DELIVERY DATE)"
+					level="0" type="L"></concept>
+				<concept code="32396-4" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Labor duration" level="0" type="L"></concept>
+				<concept code="8339-4" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Body weight at birth" level="0" type="L"></concept>
+				<concept code="29300-1" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Procedure9" level="0" type="L"></concept>
+				<concept code="8722-1" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Surgical operation note anesthesia" level="0" type="L"></concept>
+				<concept code="52829-9" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Place of service" level="0" type="L"></concept>
+				<concept code="42839-1" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Labor risk" level="0" type="L"></concept>
+				<concept code="42840-9" codeSystem="2.16.840.1.113883.6.1"
+					displayName="Delivery risk" level="0" type="L"></concept>
+				<concept code="11449-6" codeSystem="2.16.840.1.113883.6.1"
+					displayName="PREGNANCYSTATUS" level="0" type="L"></concept>
+				<concept code="8678-5" codeSystem="2.16.840.1.113883.6.1"
+					displayName="MENSTRUAL STATUS" level="0" type="L"></concept>
+				<concept code="8665-2" codeSystem="2.16.840.1.113883.6.1"
+					displayName="DATE LAST MENSTRUAL PERIOD" level="0" type="L"></concept>
+				<concept code="11778-8" codeSystem="2.16.840.1.113883.6.1"
+					displayName="DELIVERY DATE (CLINICAL ESTIMATE)" level="0" type="L"></concept>
+				<concept code="11779-6" codeSystem="2.16.840.1.113883.6.1"
+					displayName="DELIVERY DATE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"
+					level="0" type="L"></concept>
+				<concept code="11780-4" codeSystem="2.16.840.1.113883.6.1"
+					displayName="DELIVERY DATE (ESTIMATED FROM OVULATION DATE)"
+					level="0" type="L"></concept>
+				<concept code="11884-4" codeSystem="2.16.840.1.113883.6.1"
+					displayName="FETUS, GESTATIONAL AGE (CLINICAL ESTIMATE)" level="0"
+					type="L"></concept>
+				<concept code="11885-1" codeSystem="2.16.840.1.113883.6.1"
+					displayName="FETUS, GESTATIONAL AGE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"
+					level="0" type="L"></concept>
+				<concept code="11886-9" codeSystem="2.16.840.1.113883.6.1"
+					displayName="FETUS, GESTATIONAL AGE (ESTIMATED FROM OVULATION DATE)"
+					level="0" type="L"></concept>
+			</conceptList>
+		</valueSet>
+	</repository>
+</valueSets>

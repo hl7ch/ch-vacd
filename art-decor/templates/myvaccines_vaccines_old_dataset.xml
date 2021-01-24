@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+  <vaccine 
+	VACCINE_ID="14" 
+	NAME_EN="MoRu-Viraten"/>
+  <vaccine 
+	VACCINE_ID="17" 
+	NAME_EN="Poliomyelitis Impfstoff Berna"/>
+  <vaccine 
+	VACCINE_ID="23" 
+	NAME_EN="Triviraten"/>
+  <vaccine 
+	VACCINE_ID="25" 
+	NAME_EN="Vivotif L"/>
+  <vaccine 
+	VACCINE_ID="35" 
+	NAME_EN="Infanrix DTPa"/>
+  <vaccine 
+	VACCINE_ID="39" 
+	NAME_EN="Infanrix Penta"/>
+  <vaccine 
+	VACCINE_ID="47" 
+	NAME_EN="Attenuvax"/>
+  <vaccine 
+	VACCINE_ID="48" 
+	NAME_EN="BCG"/>
+  <vaccine 
+	VACCINE_ID="53" 
+	NAME_EN="HBVAXPRO 5"/>
+  <vaccine 
+	VACCINE_ID="55" 
+	NAME_EN="Meningokokken-Impfstoff A+C Mérieux"/>
+  <vaccine 
+	VACCINE_ID="56" 
+	NAME_EN="Meruvax"/>
+  <vaccine 
+	VACCINE_ID="73" 
+	NAME_EN="Infanrix DTPa+Hib"/>
+  <vaccine 
+	VACCINE_ID="74" 
+	NAME_EN="Twinrix 360&#47;10"/>
+  <vaccine 
+	VACCINE_ID="75" 
+	NAME_EN="Pluserix"/>
+  <vaccine 
+	VACCINE_ID="76" 
+	NAME_EN="Acel Immune"/>
+  <vaccine 
+	VACCINE_ID="77" 
+	NAME_EN="Acel P"/>
+  <vaccine 
+	VACCINE_ID="78" 
+	NAME_EN="Act-Hib"/>
+  <vaccine 
+	VACCINE_ID="79" 
+	NAME_EN="Anatoxal DiTePer"/>
+  <vaccine 
+	VACCINE_ID="80" 
+	NAME_EN="Anatoxal DiTe Erwachsene"/>
+  <vaccine 
+	VACCINE_ID="81" 
+	NAME_EN="Anatoxal DiTe N Erwachsene"/>
+  <vaccine 
+	VACCINE_ID="82" 
+	NAME_EN="Anatoxal Di"/>
+  <vaccine 
+	VACCINE_ID="83" 
+	NAME_EN="Anatoxal Te"/>
+  <vaccine 
+	VACCINE_ID="84" 
+	NAME_EN="Anatoxal Te N"/>
+  <vaccine 
+	VACCINE_ID="86" 
+	NAME_EN="Arilvax"/>
+  <vaccine 
+	VACCINE_ID="87" 
+	NAME_EN="BCG Vaccin Mérieux"/>
+  <vaccine 
+	VACCINE_ID="88" 
+	NAME_EN="Biviraten"/>
+  <vaccine 
+	VACCINE_ID="91" 
+	NAME_EN="Ervevax"/>
+  <vaccine 
+	VACCINE_ID="92" 
+	NAME_EN="HibTiter"/>
+  <vaccine 
+	VACCINE_ID="93" 
+	NAME_EN="Infanrix DTPa-HBV"/>
+  <vaccine 
+	VACCINE_ID="94" 
+	NAME_EN="Lyssavac Berna"/>
+  <vaccine 
+	VACCINE_ID="95" 
+	NAME_EN="Vaccin méningococcique A+C Mérieux"/>
+  <vaccine 
+	VACCINE_ID="96" 
+	NAME_EN="MM Vax"/>
+  <vaccine 
+	VACCINE_ID="97" 
+	NAME_EN="Mumaten"/>
+  <vaccine 
+	VACCINE_ID="98" 
+	NAME_EN="Pedvax"/>
+  <vaccine 
+	VACCINE_ID="99" 
+	NAME_EN="Pentacoq"/>
+  <vaccine 
+	VACCINE_ID="100" 
+	NAME_EN="Pnu-Immune"/>
+  <vaccine 
+	VACCINE_ID="101" 
+	NAME_EN="Polio Salk"/>
+  <vaccine 
+	VACCINE_ID="102" 
+	NAME_EN="Polio Sabin"/>
+  <vaccine 
+	VACCINE_ID="103" 
+	NAME_EN="Poloral"/>
+  <vaccine 
+	VACCINE_ID="106" 
+	NAME_EN="Tetracoq"/>
+  <vaccine 
+	VACCINE_ID="107" 
+	NAME_EN="Tetramune"/>
+  <vaccine 
+	VACCINE_ID="110" 
+	NAME_EN="Vaqta"/>
+  <vaccine 
+	VACCINE_ID="111" 
+	NAME_EN="Rubeaten"/>
+  <vaccine 
+	VACCINE_ID="112" 
+	NAME_EN="Rudivax"/>
+  <vaccine 
+	VACCINE_ID="115" 
+	NAME_EN="Havrix 360"/>
+  <vaccine 
+	VACCINE_ID="117" 
+	NAME_EN="Almevax"/>
+  <vaccine 
+	VACCINE_ID="118" 
+	NAME_EN="Hevac B"/>
+  <vaccine 
+	VACCINE_ID="119" 
+	NAME_EN="MMR-I"/>
+  <vaccine 
+	VACCINE_ID="120" 
+	NAME_EN="Moruman"/>
+  <vaccine 
+	VACCINE_ID="121" 
+	NAME_EN="Rimparix"/>
+  <vaccine 
+	VACCINE_ID="122" 
+	NAME_EN="Rubevac"/>
+  <vaccine 
+	VACCINE_ID="123" 
+	NAME_EN="Trimovax"/>
+  <vaccine 
+	VACCINE_ID="126" 
+	NAME_EN="Ditanrix pediatric"/>
+  <vaccine 
+	VACCINE_ID="127" 
+	NAME_EN="Eolarix"/>
+  <vaccine 
+	VACCINE_ID="128" 
+	NAME_EN="FSME-Immun Injekt"/>
+  <vaccine 
+	VACCINE_ID="133" 
+	NAME_EN="ProHibit"/>
+  <vaccine 
+	VACCINE_ID="134" 
+	NAME_EN="Anatoxal DiTe Kinder"/>
+  <vaccine 
+	VACCINE_ID="136" 
+	NAME_EN="Celtura"/>
+  <vaccine 
+	VACCINE_ID="137" 
+	NAME_EN="Focetria"/>
+  <vaccine 
+	VACCINE_ID="138" 
+	NAME_EN="K1, K2, K3"/>
+  <vaccine 
+	VACCINE_ID="139" 
+	NAME_EN="Koprowski"/>
+  <vaccine 
+	VACCINE_ID="141" 
+	NAME_EN="Pandemrix"/>
+  <vaccine 
+	VACCINE_ID="142" 
+	NAME_EN="Prohibit DTP"/>
+  <vaccine 
+	VACCINE_ID="143" 
+	NAME_EN="TAB oral"/>
+  <vaccine 
+	VACCINE_ID="144" 
+	NAME_EN="Variola"/>
+  <vaccine 
+	VACCINE_ID="147" 
+	NAME_EN="Polio Koprowski (K1-K3)"/>
+  <vaccine 
+	VACCINE_ID="148" 
+	NAME_EN="Polio Lilly"/>
+  <vaccine 
+	VACCINE_ID="151" 
+	NAME_EN="Di Anatoxal"/>
+  <vaccine 
+	VACCINE_ID="154" 
+	NAME_EN="DiTe Anatoxal Kinder &#47; Enfants"/>
+  <vaccine 
+	VACCINE_ID="155" 
+	NAME_EN="DiTePer Anatoxal"/>
+  <vaccine 
+	VACCINE_ID="162" 
+	NAME_EN="HBVAX DNA 5"/>
+  <vaccine 
+	VACCINE_ID="163" 
+	NAME_EN="HBVAX DNA 10"/>
+  <vaccine 
+	VACCINE_ID="164" 
+	NAME_EN="HBVAX DNA 40"/>
+  <vaccine 
+	VACCINE_ID="165" 
+	NAME_EN="Havrix junior"/>
+  <vaccine 
+	VACCINE_ID="166" 
+	NAME_EN="Infanrix"/>
+  <vaccine 
+	VACCINE_ID="168" 
+	NAME_EN="Tanrix"/>
+  <vaccine 
+	VACCINE_ID="169" 
+	NAME_EN="Vaccin variole"/>
+  <vaccine 
+	VACCINE_ID="170" 
+	NAME_EN="Engerix-B 40"/>
+  <vaccine 
+	VACCINE_ID="172" 
+	NAME_EN="Hepavax"/>
+</dataset>

@@ -78,7 +78,7 @@
 					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
 					<valueBoolean value="true" />
 				</extension>
-				<strength value="required" />
+				<strength value="extensible" />
 				<description
 					value="The code for vaccine product administered." />
 				<valueSet
@@ -90,6 +90,7 @@
 					value="ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/consumable/manfacturedProduct/manufacturedMaterial/realmCode/code" />
 			</mapping>
 		</element>
+
 		<element id="Immunization.patient">
 			<path value="Immunization.patient" />
 			<short value="Patient" />

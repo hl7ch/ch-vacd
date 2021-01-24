@@ -16,13 +16,19 @@
 				<pathelement location="${basedir}/saxon9he.jar" />
 			</classpath>
 			<param name="canonicalBase" expression="${canonicalBase}" type="STRING" />
+			<param name="systemUrl" expression="${systemUrl}" type="STRING" />
 			<param name="resourceId" expression="${resourceId}" type="STRING" />
 			<param name="templateId" expression="${templateId}" type="STRING" />
 			<param name="codeSystem" expression="${codeSystem}" type="STRING" />
+			<param name="identifierSystem" expression="${identifierSystem}" type="STRING" />
+			<param name="identifierValue" expression="${identifierValue}" type="STRING" />
 			<param name="name" expression="${name}" type="STRING" />
 			<param name="title" expression="${title}" type="STRING" />
+			<param name="description" expression="${description}" type="STRING" />
 		</xslt>
 	</target>
+
+
 	<target name="transform" depends="init">
 		<delete file="output/${resourceId}.xml" failonerror="false" />
 		<antcall target="xslt">
@@ -88,73 +94,179 @@
 		</antcall>
 	</target>
 
+
 	<target name="transformVaccines" depends="init">
-		<delete file="output/myvaccines-active-vaccines-GEN.xml" failonerror="false" />
+		<!-- create codesystem for swissmedic -->
+		<delete file="output/ch-vacd-swissmedic-cs.xml" failonerror="false" />
 		<antcall target="xslt">
-			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
-			<param name="in" value="templates/myv_vaccines_active_valueset.xml" />
-			<param name="out" value="output/myvaccines-active-vaccines-GEN.xml" />
+			<param name="templateId" value="ch-vacd-swissmedic-cs" />
+			<param name="systemUrl" value="http://swissmedic.ch/ns/authorizationnumber/vs" />
+			<param name="identifierSystem" value="http://swissmedic.ch/ns/authorizationnumber" />
+			<param name="identifierValue" value="authorized-vaccines" />
+			<param name="name" value="SwissMedicAuthorizedVaccinesCodesystem" />
+			<param name="title" value="Swiss Medic Authorized Vaccines Codesystem" />
+			<param name="description" value="The vaccines swissmedic has given an autorization number." />
+			<param name="xsl" value="convertDatasetToCodesystem.xsl" />
+			<param name="in" value="templates/swissmedic_vaccines_dataset.xml" />
+			<param name="out" value="output/ch-vacd-swissmedic-cs.xml" />
 		</antcall>
-		<replace file="output/myvaccines-active-vaccines-GEN.xml" token=" xmlns:ihe=&quot;urn:ihe:iti:svs:2008&quot;" value="" />
-		<delete file="output/myvaccines-inactive-vaccines-GEN.xml" failonerror="false" />
+
+		<!-- create codesystem for myvaccines -->
+		<delete file="output/ch-vacd-myvaccines-cs.xml" failonerror="false" />
 		<antcall target="xslt">
-			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
-			<param name="in" value="templates/myv_vaccines_inactive_valueset.xml" />
-			<param name="out" value="output/myvaccines-inactive-vaccines-GEN.xml" />
+			<param name="templateId" value="ch-vacd-myvaccines-cs" />
+			<param name="systemUrl" value="http://myvaccines.ch/ns/vaccines/old" />
+			<param name="identifierSystem" value="http://myvaccines.ch/ns/vaccines" />
+			<param name="identifierValue" value="old-vaccines" />
+			<param name="name" value="OldSwissVaccinesCodesystem" />
+			<param name="title" value="Old Swiss Vaccines Codesystem" />
+			<param name="description" value="Old vaccines earlier available in Switzerland." />
+			<param name="xsl" value="convertDatasetToCodesystem.xsl" />
+			<param name="in" value="templates/myvaccines_vaccines_old_dataset.xml" />
+			<param name="out" value="output/ch-vacd-myvaccines-cs.xml" />
 		</antcall>
-		<replace file="output/myvaccines-inactive-vaccines-GEN.xml" token=" xmlns:ihe=&quot;urn:ihe:iti:svs:2008&quot;" value="" />
+
+		<!-- prepare intermediat 1 file for valueset -->
+		<delete file="output/vaccines_intermediat1.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="systemUrl" value="http://swissmedic.ch/ns/authorizationnumber/vs" />
+			<param name="xsl" value="convertDatasetToIntermediatVs.xsl" />
+			<param name="in" value="templates/swissmedic_vaccines_dataset.xml" />
+			<param name="out" value="output/vaccines_intermediat1.xml" />
+		</antcall>
+
+		<!-- prepare intermediat 2 file for valueset -->
+		<delete file="output/vaccines_intermediat2.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="systemUrl" value="http://myvaccines.ch/ns/vaccines/old" />
+			<param name="xsl" value="convertDatasetToIntermediatVs.xsl" />
+			<param name="in" value="templates/myvaccines_vaccines_old_dataset.xml" />
+			<param name="out" value="output/vaccines_intermediat2.xml" />
+		</antcall>
+
+		<!-- concatenate and create valueset -->
+		<delete file="output/ch-vacd-vaccines-vs.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="xsl" value="concatVaccinesIntermediat.xsl" />
+			<param name="in" value="templates/vaccines_concat_in.xml" />
+			<param name="out" value="output/ch-vacd-vaccines-vs.xml" />
+		</antcall>
+		<delete file="output/vaccines_intermediat1.xml" failonerror="false" />
+		<delete file="output/vaccines_intermediat2.xml" failonerror="false" />
+
 	</target>
 
 	<target name="transformDisease" depends="init">
-		<delete file="output/immunization-diseases-GEN.xml" failonerror="false" />
+		<delete file="output/ch-vacd-diseases-vs.xml" failonerror="false" />
 		<antcall target="xslt">
 			<param name="xsl" value="convertDiseaseValues2FhirValueSet.xsl" />
-			<param name="in" value="templates/myy_disease_values.xml" />
-			<param name="out" value="output/immunization-diseases-GEN.xml" />
+			<param name="in" value="templates/myy_disease_dataset.xml" />
+			<param name="out" value="output/ch-vacd-diseases-vs.xml" />
 		</antcall>
 
 	</target>
 
-	<target name="transformComplicationRisks" depends="init">
-		<delete file="output/complication-risks-GEN.xml" failonerror="false" />
+	<target name="transformIllnessesUndergone" depends="init">
+		<delete file="output/ch-vacd-illnesses-undergone-for-immunizaion-vs.xml" failonerror="false" />
 		<antcall target="xslt">
+			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
+			<param name="templateId" value="ch-vacd-illnesses-undergone-for-immunizaion-vs" />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
-			<param name="in" value="templates/VS_SwissVaccinationPlanComplicationRisks_download_2021-01-10T171600.xml" />
-			<param name="out" value="output/complication-risks-GEN.xml" />
+			<param name="in" value="templates/VS_IllnessesUndergoneForImmunization_download_2021-01-22T222316.xml" />
+			<param name="out" value="output/ch-vacd-illnesses-undergone-for-immunizaion-vs.xml" />
+		</antcall>
+	</target>
+
+	<target name="transformPregnancyObservation" depends="init">
+		<delete file="output/ch-vacd-pregnancy-observation-vs.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
+			<param name="templateId" value="ch-vacd-pregnancy-observation-vs" />
+			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+			<param name="in" value="templates/VS_PregnancyObservationCodes_download_2021-01-22T222132.xml" />
+			<param name="out" value="output/ch-vacd-pregnancy-observation-vs.xml" />
+		</antcall>
+	</target>
+
+	<target name="transformRouteOfAdministration" depends="init">
+		<delete file="output/ch-vacd-route-of-administration-vs.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
+			<param name="templateId" value="ch-vacd-route-of-administration-vs" />
+			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+			<param name="in" value="templates/VS_RouteOfAdministrationImmunization_download_2021-01-22T222221.xml" />
+			<param name="out" value="output/ch-vacd-route-of-administration-vs.xml" />
+		</antcall>
+	</target>
+
+	<target name="transformSpecialCaseProblems" depends="init">
+		<delete file="output/ch-vacd-special-case-problems-vs.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
+			<param name="templateId" value="ch-vacd-special-case-problems-vs" />
+			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+			<param name="in" value="templates/VS_SpecialCaseProblems_download_2021-01-22T222247.xml" />
+			<param name="out" value="output/ch-vacd-special-case-problems-vs.xml" />
+		</antcall>
+	</target>
+
+	<target name="transformComplicationRisks" depends="init">
+		<delete file="output/ch-vacd-complication-risks-vs.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
+			<param name="templateId" value="ch-vacd-complication-risks-vs" />
+			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+			<param name="in" value="templates/VS_SwissVaccinationPlanComplicationRisks_download_2021-01-22T223958.xml" />
+			<param name="out" value="output/ch-vacd-complication-risks-vs.xml" />
 		</antcall>
 	</target>
 
 	<target name="transformExposureRisks" depends="init">
-		<delete file="output/exposure-risks-GEN.xml" failonerror="false" />
+		<delete file="output/ch-vacd-exposure-risks-vs.xml" failonerror="false" />
 		<antcall target="xslt">
+			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
+			<param name="templateId" value="ch-vacd-exposure-risks-vs" />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
-			<param name="in" value="templates/VS_SwissVaccinationPlanExposureRisks_download_2021-01-10T171645.xml" />
-			<param name="out" value="output/exposure-risks-GEN.xml" />
+			<param name="in" value="templates/VS_SwissVaccinationPlanExposureRisks_download_2021-01-22T224125.xml" />
+			<param name="out" value="output/ch-vacd-exposure-risks-vs.xml" />
 		</antcall>
+	</target>
 
+	<target name="transformSwissVaccinationPlanImmunizations" depends="init">
+		<delete file="output/ch-vacd-ch-vaccination-plan-immunizations-vs.xml" failonerror="false" />
+		<antcall target="xslt">
+			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
+			<param name="templateId" value="ch-vacd-ch-vaccination-plan-immunizations-vs" />
+			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+			<param name="in" value="templates/VS_SwissVaccinationPlanImmunizations_download_2021-01-23T163723.xml" />
+			<param name="out" value="output/ch-vacd-ch-vaccination-plan-immunizations-vs.xml" />
+		</antcall>
 	</target>
 
 
 	<target name="default">
 		<antcall target="transformVaccines" />
 		<antcall target="transformDisease" />
+
+		<antcall target="transformIllnessesUndergone" />
+		<antcall target="transformPregnancyObservation" />
+		<antcall target="transformRouteOfAdministration" />
+		<antcall target="transformSpecialCaseProblems" />
 		<antcall target="transformComplicationRisks" />
 		<antcall target="transformExposureRisks" />
-		<!--
-		<antcall target="transformEprValueSetConfidentialityCode" />
-		<antcall target="transformEprValueSetsConfidentialityCodeToCodeSystem" />
-		-->
+		<!--<antcall target="transformSwissVaccinationPlanImmunizations" />-->
+
 	</target>
 
 	<target name="dist" depends="init">
 		<copy todir="../input/resources/valueset">
 			<fileset dir="output">
-				<include name="epr-document-confidentiality-code.xml" />
+				<include name="*-vs.xml" />
 			</fileset>
 		</copy>
 		<copy todir="../input/resources/codesystem">
 			<fileset dir="output">
-				<include name="snomed-clinicalterms-swiss-extension-cs.xml" />
+				<include name="*-cs.xml" />
 			</fileset>
 		</copy>
 	</target>

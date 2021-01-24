@@ -30,7 +30,7 @@
 			<value value="www.e-health-suisse.ch" />
 		</telecom>
 	</contact>
-	<description value="" />
+	<description value="To be defined." />
 	<immutable value="false" />
 	<compose>
 		<include>
