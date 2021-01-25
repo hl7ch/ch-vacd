@@ -275,26 +275,6 @@
             </designation>
          </concept>
          <concept>
-            <code value="642"/>
-            <display value="Orochol E"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Orochol E"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Orochol E"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Orochol E"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Orochol E"/>
-            </designation>
-         </concept>
-         <concept>
             <code value="685"/>
             <display value="Rabipur"/>
             <designation>
@@ -1135,26 +1115,6 @@
             </designation>
          </concept>
          <concept>
-            <code value="417"/>
-            <display value="Rabique Mérieux"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Rabique Mérieux"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Rabique Mérieux"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Rabique Mérieux"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Rabique Mérieux"/>
-            </designation>
-         </concept>
-         <concept>
             <code value="483"/>
             <display value="Rimevax"/>
             <designation>
@@ -1552,46 +1512,6 @@
             <designation>
                <language value="en-US"/>
                <value value="Te Anatoxal N"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="627"/>
-            <display value="Encepur"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Encepur"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Encepur"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Encepur"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Encepur"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="628"/>
-            <display value="Encepur Kinder / Enfants"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Encepur Kinder / Enfants"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Encepur Kinder / Enfants"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Encepur Kinder / Enfants"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Encepur Kinder / Enfants"/>
             </designation>
          </concept>
          <concept>
@@ -3379,6 +3299,26 @@
             <designation>
                <language value="en-US"/>
                <value value="Hepavax"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="16"/>
+            <display value="Orochol E"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Orochol E"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Orochol E"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Orochol E"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Orochol E"/>
             </designation>
          </concept>
       </include>

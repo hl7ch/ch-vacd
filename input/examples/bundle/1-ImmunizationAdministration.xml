@@ -1,160 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bundle xmlns="http://hl7.org/fhir">
 	<id value="1-ImmunizationAdministration"></id>
+	<meta>
+		<lastUpdated value="2021-01-25T23:52:03.117+01:00"></lastUpdated>
+		<profile
+			value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"></profile>
+	</meta>
 	<identifier>
-		<system value="2.16.756.5.30.1.1.1.1"></system>
-		<value value="3eceaa6c-69ee-44ad-9d3f-7fd73099eec8"></value>
+		<system value="urn:ietf:rfc:3986"></system>
+		<value value="urn:uuid:5f700b41-aba4-4ba7-b1dc-6bcbfea3090c"></value>
 	</identifier>
 	<type value="document"></type>
-	<timestamp value="2021-01-03T21:55:03.029+01:00"></timestamp>
-	<entry id="f4226e82-4ee9-424e-a5cb-891f1060e64a">
+	<timestamp value="2021-01-25T23:52:03.076+01:00"></timestamp>
+	<entry>
+		<fullUrl
+			value="http://test.fhir.ch/r4/Composition/6eeccd4c-1fa3-45b4-95d8-e4e24181bcb5"></fullUrl>
 		<resource>
 			<Composition xmlns="http://hl7.org/fhir">
-				<id value="4fb43068-6941-45d4-bbb1-3c0067e0256e"></id>
+				<id value="6eeccd4c-1fa3-45b4-95d8-e4e24181bcb5"></id>
 				<language value="de-CH"></language>
-				<contained>
-					<Patient xmlns="http://hl7.org/fhir">
-						<id value="1"></id>
-						<identifier>
-							<system value="2.16.756.5.30.1.147.1.1"></system>
-							<value value="1477284956984000"></value>
-						</identifier>
-						<name>
-							<family value="Wegmueller"></family>
-							<given value="Monika"></given>
-						</name>
-						<gender value="female"></gender>
-						<birthDate value="1943-06-15"></birthDate>
-						<address>
-							<type value="both"></type>
-							<line value="Wiesenstr. 12"></line>
-							<city value="Zürich"></city>
-							<postalCode value="8003"></postalCode>
-							<country value="CH"></country>
-						</address>
-					</Patient>
-				</contained>
-				<contained>
-					<Practitioner xmlns="http://hl7.org/fhir">
-						<id value="2"></id>
-						<identifier>
-							<system value="2.51.1.3"></system>
-							<value value="2000000000030"></value>
-						</identifier>
-						<active value="true"></active>
-						<name>
-							<family value="Demo"></family>
-							<given value="Detlef"></given>
-						</name>
-					</Practitioner>
-				</contained>
-				<contained>
-					<Organization xmlns="http://hl7.org/fhir">
-						<id value="3"></id>
-						<name value="Praxis Dr. Detlef Demo"></name>
-						<address>
-							<line value="Tobelweg 4"></line>
-							<city value="Küsnacht ZH"></city>
-							<state value="ZH"></state>
-							<postalCode value="8700"></postalCode>
-							<country value="CH"></country>
-						</address>
-					</Organization>
-				</contained>
-				<contained>
-					<Immunization xmlns="http://hl7.org/fhir">
-						<id value="4"></id>
-						<identifier>
-							<system value="2.16.756.5.30.1.147.1.3.1"></system>
-							<value value="1829774"></value>
-						</identifier>
-						<status value="completed"></status>
-						<vaccineCode>
-							<coding>
-								<system value="2.16.840.1.113883.6.73"></system>
-								<code value="J07AJ52"></code>
-								<display value="Boostrix"></display>
-							</coding>
-						</vaccineCode>
-						<patient>
-							<reference value="#1"></reference>
-						</patient>
-						<occurrenceDateTime
-							value="2017-09-15T21:55:03+02:00"></occurrenceDateTime>
-						<recorded value="2017-09-15T21:55:03+02:00"></recorded>
-						<lotNumber value="12345"></lotNumber>
-						<performer>
-							<actor>
-								<reference value="#2"></reference>
-							</actor>
-						</performer>
-						<reasonCode>
-							<coding>
-								<system value="2.16.840.1.113883.5.4"></system>
-								<code value="IMMUNIZ"></code>
-								<display value="HL7ActCode"></display>
-							</coding>
-						</reasonCode>
-						<protocolApplied>
-							<targetDisease>
-								<coding>
-									<system value="http://snomed.info/sct"></system>
-									<code value="76668005"></code>
-									<display value="Diphtherie"></display>
-								</coding>
-							</targetDisease>
-							<targetDisease>
-								<coding>
-									<system value="http://snomed.info/sct"></system>
-									<code value="127786006"></code>
-									<display value="Tetanus"></display>
-								</coding>
-							</targetDisease>
-							<targetDisease>
-								<coding>
-									<system value="http://snomed.info/sct"></system>
-									<code value="39343008"></code>
-									<display value="Pertussis"></display>
-								</coding>
-							</targetDisease>
-						</protocolApplied>
-					</Immunization>
-				</contained>
+				<text>
+					<status value="generated"></status>
+					<div xmlns="http://www.w3.org/1999/xhtml">This is the composition for all immunizations.</div>
+				</text>
 				<identifier>
-					<system value="2.16.756.5.30.1.1.1.1"></system>
-					<value value="9059ecb4-2a8c-4887-accf-a07e37293443"></value>
+					<system value="urn:oid:2.16.756.5.30.1.1.1.1"></system>
+					<value value="14b094c6-cad7-4063-a88e-18a6eb7d4dbb"></value>
 				</identifier>
 				<status value="final"></status>
+				<type>
+					<coding>
+						<system value="http://snomed.info/sct"></system>
+						<code value="41000179103"></code>
+						<display value="Immunization record"></display>
+					</coding>
+				</type>
 				<subject>
-					<reference value="#1"></reference>
+					<reference value="Patient/patient1"></reference>
 				</subject>
+				<date value="2021-01-25T23:52:03+01:00"></date>
 				<author>
-					<reference value="#2"></reference>
+					<reference value="Practitioner/practitioner1"></reference>
 				</author>
 				<title value="Verabreichte Impfungen"></title>
 				<custodian>
-					<reference value="#3"></reference>
+					<reference value="Organization/organization1"></reference>
 				</custodian>
-				<section>
+				<section id="sectionImmunizazions1">
 					<title value="Liste der verabreichten Impfungen"></title>
+					<text>
+						<status value="generated"></status>
+						<div xmlns="http://www.w3.org/1999/xhtml">This is the section containing all immunization
+							entries.</div>
+					</text>
 					<entry>
-						<reference value="#4"></reference>
+						<reference value="Immunization/immunization1"></reference>
 					</entry>
 				</section>
-				<section>
+				<section id="sectionComment1">
 					<title value="Kommentar"></title>
 					<text>
-						<status value="empty"></status>
+						<status value="generated"></status>
+						<div xmlns="http://www.w3.org/1999/xhtml">This is the section containing all immunization
+							entries.</div>
 					</text>
 				</section>
 			</Composition>
 		</resource>
 	</entry>
 	<entry>
+		<fullUrl value="http://test.fhir.ch/r4/Patient/patient1"></fullUrl>
 		<resource>
 			<Patient xmlns="http://hl7.org/fhir">
+				<id value="patient1"></id>
+				<text>
+					<status value="generated"></status>
+					<div xmlns="http://www.w3.org/1999/xhtml">
+						<div class="hapiHeaderText">
+							Monika
+							<b>WEGMUELLER </b>
+						</div>
+						<table class="hapiPropertyTable">
+							<tbody>
+								<tr>
+									<td>Identifier</td>
+									<td>1477284956984000</td>
+								</tr>
+								<tr>
+									<td>Address</td>
+									<td>
+										<span>Wiesenstr. 12 </span>
+										<br></br>
+										<span>Zürich </span>
+										<span>CH </span>
+									</td>
+								</tr>
+								<tr>
+									<td>Date of birth</td>
+									<td>
+										<span>15 June 1943</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</text>
 				<identifier>
-					<system value="2.16.756.5.30.1.147.1.1"></system>
+					<system value="urn:oid:2.16.756.5.30.1.147.1.1"></system>
 					<value value="1477284956984000"></value>
 				</identifier>
 				<name>
@@ -174,10 +126,13 @@
 		</resource>
 	</entry>
 	<entry>
+		<fullUrl
+			value="http://test.fhir.ch/r4/Practitioner/practitioner1"></fullUrl>
 		<resource>
 			<Practitioner xmlns="http://hl7.org/fhir">
+				<id value="practitioner1"></id>
 				<identifier>
-					<system value="2.51.1.3"></system>
+					<system value="urn:oid:2.51.1.3"></system>
 					<value value="2000000000030"></value>
 				</identifier>
 				<active value="true"></active>
@@ -189,8 +144,11 @@
 		</resource>
 	</entry>
 	<entry>
+		<fullUrl
+			value="http://test.fhir.ch/r4/Organization/organization1"></fullUrl>
 		<resource>
 			<Organization xmlns="http://hl7.org/fhir">
+				<id value="organization1"></id>
 				<name value="Praxis Dr. Detlef Demo"></name>
 				<address>
 					<line value="Tobelweg 4"></line>
@@ -203,111 +161,54 @@
 		</resource>
 	</entry>
 	<entry>
+		<fullUrl
+			value="http://test.fhir.ch/r4/PractitionerRole/practitionerRole1"></fullUrl>
 		<resource>
 			<PractitionerRole xmlns="http://hl7.org/fhir">
-				<contained>
-					<Practitioner xmlns="http://hl7.org/fhir">
-						<id value="1"></id>
-						<identifier>
-							<system value="2.51.1.3"></system>
-							<value value="2000000000030"></value>
-						</identifier>
-						<active value="true"></active>
-						<name>
-							<family value="Demo"></family>
-							<given value="Detlef"></given>
-						</name>
-					</Practitioner>
-				</contained>
-				<contained>
-					<Organization xmlns="http://hl7.org/fhir">
-						<id value="2"></id>
-						<name value="Praxis Dr. Detlef Demo"></name>
-						<address>
-							<line value="Tobelweg 4"></line>
-							<city value="Küsnacht ZH"></city>
-							<state value="ZH"></state>
-							<postalCode value="8700"></postalCode>
-							<country value="CH"></country>
-						</address>
-					</Organization>
-				</contained>
+				<id value="practitionerRole1"></id>
 				<active value="true"></active>
 				<practitioner>
-					<reference value="#1"></reference>
+					<reference value="Practitioner/practitioner1"></reference>
 				</practitioner>
 				<organization>
-					<reference value="#2"></reference>
+					<reference value="Organization/organization1"></reference>
 				</organization>
 			</PractitionerRole>
 		</resource>
 	</entry>
 	<entry>
+		<fullUrl
+			value="http://test.fhir.ch/r4/Immunization/immunization1"></fullUrl>
 		<resource>
 			<Immunization xmlns="http://hl7.org/fhir">
-				<contained>
-					<Patient xmlns="http://hl7.org/fhir">
-						<id value="1"></id>
-						<identifier>
-							<system value="2.16.756.5.30.1.147.1.1"></system>
-							<value value="1477284956984000"></value>
-						</identifier>
-						<name>
-							<family value="Wegmueller"></family>
-							<given value="Monika"></given>
-						</name>
-						<gender value="female"></gender>
-						<birthDate value="1943-06-15"></birthDate>
-						<address>
-							<type value="both"></type>
-							<line value="Wiesenstr. 12"></line>
-							<city value="Zürich"></city>
-							<postalCode value="8003"></postalCode>
-							<country value="CH"></country>
-						</address>
-					</Patient>
-				</contained>
-				<contained>
-					<Practitioner xmlns="http://hl7.org/fhir">
-						<id value="2"></id>
-						<identifier>
-							<system value="2.51.1.3"></system>
-							<value value="2000000000030"></value>
-						</identifier>
-						<active value="true"></active>
-						<name>
-							<family value="Demo"></family>
-							<given value="Detlef"></given>
-						</name>
-					</Practitioner>
-				</contained>
+				<id value="immunization1"></id>
 				<identifier>
-					<system value="2.16.756.5.30.1.147.1.3.1"></system>
+					<system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
 					<value value="1829774"></value>
 				</identifier>
 				<status value="completed"></status>
 				<vaccineCode>
 					<coding>
-						<system value="2.16.840.1.113883.6.73"></system>
+						<system value="urn:oid:2.16.840.1.113883.6.73"></system>
 						<code value="J07AJ52"></code>
 						<display value="Boostrix"></display>
 					</coding>
 				</vaccineCode>
 				<patient>
-					<reference value="#1"></reference>
+					<reference value="Patient/patient1"></reference>
 				</patient>
 				<occurrenceDateTime
-					value="2017-09-15T21:55:03+02:00"></occurrenceDateTime>
-				<recorded value="2017-09-15T21:55:03+02:00"></recorded>
+					value="2017-09-15T23:52:03+02:00"></occurrenceDateTime>
+				<recorded value="2017-09-15T23:52:03+02:00"></recorded>
 				<lotNumber value="12345"></lotNumber>
 				<performer>
 					<actor>
-						<reference value="#2"></reference>
+						<reference value="Practitioner/practitioner1"></reference>
 					</actor>
 				</performer>
 				<reasonCode>
 					<coding>
-						<system value="2.16.840.1.113883.5.4"></system>
+						<system value="urn:oid:2.16.840.1.113883.5.4"></system>
 						<code value="IMMUNIZ"></code>
 						<display value="HL7ActCode"></display>
 					</coding>
@@ -317,21 +218,21 @@
 						<coding>
 							<system value="http://snomed.info/sct"></system>
 							<code value="76668005"></code>
-							<display value="Diphtherie"></display>
+							<display value="Diphtheria immunization"></display>
 						</coding>
 					</targetDisease>
 					<targetDisease>
 						<coding>
 							<system value="http://snomed.info/sct"></system>
 							<code value="127786006"></code>
-							<display value="Tetanus"></display>
+							<display value="Tetanus vaccination"></display>
 						</coding>
 					</targetDisease>
 					<targetDisease>
 						<coding>
 							<system value="http://snomed.info/sct"></system>
 							<code value="39343008"></code>
-							<display value="Pertussis"></display>
+							<display value="Pertussis vaccination"></display>
 						</coding>
 					</targetDisease>
 				</protocolApplied>

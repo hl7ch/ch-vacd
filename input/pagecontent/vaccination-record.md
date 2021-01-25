@@ -10,3 +10,5 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 {% include img.html img="vaccination-record-document.png" caption="Fig.: Vaccination Record document" width="40%" %}
 
 * Profile: [Vaccination Record document](StructureDefinition-ch-vacd-document-vaccination-record.html)
+* Example Vaccination Record document (xml): [Bundle-3-VaccinationRecord.xml](Bundle-3-VaccinationRecord.xml.html)
+* Example Vaccination Record document (json): [Bundle-3-VaccinationRecord.json](Bundle-3-VaccinationRecord.json.html)

@@ -238,4 +238,7 @@
   <vaccine 
 	VACCINE_ID="172" 
 	NAME_EN="Hepavax"/>
+  <vaccine 
+	SMNR="16" 
+	NAME_EN="Orochol E"/>
 </dataset>

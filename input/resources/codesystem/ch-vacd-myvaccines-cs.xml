@@ -1610,4 +1610,24 @@
          <value value="Hepavax"/>
       </designation>
    </concept>
+   <concept>
+      <code value="16"/>
+      <display value="Orochol E"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Orochol E"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Orochol E"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Orochol E"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Orochol E"/>
+      </designation>
+   </concept>
 </CodeSystem>

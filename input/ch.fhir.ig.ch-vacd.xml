@@ -72,19 +72,14 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		<resource>
-			<reference>
-				<reference value="CodeSystem/whocc-atc-cs" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-
+		<!-- <resource> <reference> <reference value="CodeSystem/whocc-atc-cs" 
+			/> </reference> <exampleBoolean value="false" /> </resource> -->
 		<!-- References to examples -->
 		<resource>
 			<reference>
 				<reference value="Bundle/1-ImmunizationAdministration" />
 			</reference>
-			<name value="1 Immunization Administration document" />
+			<name value="1 Immunization Administration" />
 			<description
 				value="Example for Bundle Immunization Administration" />
 			<exampleCanonical
@@ -95,11 +90,23 @@
 			<reference>
 				<reference value="Bundle/2-ImmunizationCertificate" />
 			</reference>
-			<name value="2 Immunization Certificate document" />
+			<name value="2 Immunization Certificate" />
 			<description
 				value="Example for Bundle Immunization Certificate" />
 			<exampleCanonical
 				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate" />
+		</resource>
+
+
+		<resource>
+			<reference>
+				<reference value="Bundle/3-VaccinationRecord" />
+			</reference>
+			<name value="3 Vaccination Record" />
+			<description
+				value="Example for Bundle Vaccination Record" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record" />
 		</resource>
 
 		<!-- References to structure definitions -->

@@ -38,9 +38,6 @@
 	SMNR="555" 
 	NAME_EN="Orochol"/>
   <vaccine 
-	SMNR="642" 
-	NAME_EN="Orochol E"/>
-  <vaccine 
 	SMNR="685" 
 	NAME_EN="Rabipur"/>
   <vaccine 
@@ -167,9 +164,6 @@
 	SMNR="704" 
 	NAME_EN="Dukoral"/>
   <vaccine 
-	SMNR="417" 
-	NAME_EN="Rabique Mérieux"/>
-  <vaccine 
 	SMNR="483" 
 	NAME_EN="Rimevax"/>
   <vaccine 
@@ -229,12 +223,6 @@
   <vaccine 
 	SMNR="689" 
 	NAME_EN="Te Anatoxal N"/>
-  <vaccine 
-	SMNR="627" 
-	NAME_EN="Encepur"/>
-  <vaccine 
-	SMNR="628" 
-	NAME_EN="Encepur Kinder &#47; Enfants"/>
   <vaccine 
 	SMNR="62961" 
 	NAME_EN="Fluarix Tetra"/>
