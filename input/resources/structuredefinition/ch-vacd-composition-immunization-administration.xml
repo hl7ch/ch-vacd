@@ -203,7 +203,7 @@
 				<coding>
 					<system value="http://loinc.org" />
 					<code value="11369-6" />
-					<display value="History of immunzations" />
+					<display value="History of Immunization Narrative" />
 				</coding>
 			</patternCodeableConcept>
 		</element>

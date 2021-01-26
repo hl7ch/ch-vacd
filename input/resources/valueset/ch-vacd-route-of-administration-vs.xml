@@ -31,7 +31,7 @@
    <description value="To be defined."/>
    <compose>
       <include>
-         <system value="2.16.840.1.113883.5.112"/>
+         <system value="urn:oid:2.16.840.1.113883.5.112"/>
          <concept>
             <code value="SOAK"/>
             <display value="Immersion (soak)"/>

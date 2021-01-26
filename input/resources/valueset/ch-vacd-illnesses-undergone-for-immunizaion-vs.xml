@@ -31,7 +31,7 @@
    <description value="These are past illnesses which result in a natural immunization."/>
    <compose>
       <include>
-         <system value="2.16.840.1.113883.6.96"/>
+         <system value="urn:oid:2.16.840.1.113883.6.96"/>
          <concept>
             <code value="38907003"/>
             <display value="Varicella (disorder)"/>

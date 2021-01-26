@@ -98,7 +98,7 @@
 		<compose>
 			<include>
 				<system>
-					<xsl:attribute name="value"><xsl:value-of
+					<xsl:attribute name="value">urn:oid:<xsl:value-of
 						select="../ihe:sourceCodeSystem/@id" /></xsl:attribute>
 				</system>
 				<xsl:apply-templates select="ihe:concept" />

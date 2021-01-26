@@ -2,30 +2,31 @@
 <Bundle xmlns="http://hl7.org/fhir">
 	<id value="3-VaccinationRecord"></id>
 	<meta>
-		<lastUpdated value="2021-01-25T23:57:20.635+01:00"></lastUpdated>
+		<lastUpdated value="2021-01-26T23:15:37.357+01:00"></lastUpdated>
 		<profile
 			value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"></profile>
 	</meta>
 	<identifier>
 		<system value="urn:ietf:rfc:3986"></system>
-		<value value="urn:uuid:e165e64c-0cdb-4ffa-9b97-80dcd01ed874"></value>
+		<value value="urn:uuid:5fb33bca-bfbe-4094-82c2-b5b9cf958241"></value>
 	</identifier>
 	<type value="document"></type>
-	<timestamp value="2021-01-25T23:57:20.617+01:00"></timestamp>
+	<timestamp value="2021-01-26T23:15:37.336+01:00"></timestamp>
 	<entry>
 		<fullUrl
-			value="http://test.fhir.ch/r4/Composition/3f8f7da9-6a87-4ee3-867a-d1f7ec6791da"></fullUrl>
+			value="http://test.fhir.ch/r4/Composition/cee8f2a1-65da-4a9b-93ea-e19b683c4b8d"></fullUrl>
 		<resource>
 			<Composition xmlns="http://hl7.org/fhir">
-				<id value="3f8f7da9-6a87-4ee3-867a-d1f7ec6791da"></id>
-				<language value="de-CH"></language>
+				<id value="cee8f2a1-65da-4a9b-93ea-e19b683c4b8d"></id>
+				<language value="en-US"></language>
 				<text>
 					<status value="generated"></status>
-					<div xmlns="http://www.w3.org/1999/xhtml">This is the composition vaccination record.</div>
+					<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the
+						composition vaccination record.</div>
 				</text>
 				<identifier>
 					<system value="urn:oid:2.16.756.5.30.1.1.1.1"></system>
-					<value value="f017527c-6d68-4c1b-b0b2-8c806e18a343"></value>
+					<value value="d6f2131b-7179-4185-a52f-94f8079570ac"></value>
 				</identifier>
 				<status value="final"></status>
 				<type>
@@ -38,7 +39,7 @@
 				<subject>
 					<reference value="Patient/patient1"></reference>
 				</subject>
-				<date value="2021-01-25T23:57:20+01:00"></date>
+				<date value="2021-01-26T23:15:37+01:00"></date>
 				<author>
 					<reference value="Practitioner/practitioner1"></reference>
 				</author>
@@ -50,8 +51,8 @@
 					<title value="Liste der verabreichten Impfungen"></title>
 					<text>
 						<status value="generated"></status>
-						<div xmlns="http://www.w3.org/1999/xhtml">This is the section containing all immunization
-							entries.</div>
+						<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the
+							section containing all immunization entries.</div>
 					</text>
 					<entry>
 						<reference value="Immunization/immunization1"></reference>
@@ -70,44 +71,57 @@
 					<title value="MedicalProblems"></title>
 					<text>
 						<status value="generated"></status>
+						<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the
+							section containing the medical problem entries.</div>
 					</text>
 				</section>
 				<section id="sectionIlnessesUndergondeForImmunization1">
-					<title value="Durchgemachte Krankheiten"></title>
+					<title value="Undergone illnesses for immunization"></title>
 					<text>
 						<status value="generated"></status>
+						<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the
+							section containing the undergone illnesses for immunization
+							entries.</div>
 					</text>
 				</section>
 				<section id="sectionAllergies1">
-					<title value="Allergien"></title>
+					<title value="Allergies"></title>
 					<text>
 						<status value="generated"></status>
+						<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the
+							section containing the allergy entries.</div>
 					</text>
 				</section>
 				<section id="sectionLab1">
-					<title value="Labor"></title>
+					<title value="Lab"></title>
 					<text>
 						<status value="generated"></status>
+						<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the
+							section containing the lab entries.</div>
 					</text>
 				</section>
 				<section id="sectionPregnancy1">
-					<title value="Schwangerschaft"></title>
+					<title value="Pregnancy"></title>
 					<text>
 						<status value="generated"></status>
+						<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the
+							section containing the pregnancy status entry.</div>
 					</text>
 				</section>
 				<section id="sectionImmunizationRecomendations1">
 					<title value="Impf Empfehlungen"></title>
 					<text>
 						<status value="generated"></status>
+						<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the
+							section containing all immunization recommendations entries.</div>
 					</text>
 				</section>
 				<section id="sectionComment1">
 					<title value="Kommentar"></title>
 					<text>
 						<status value="generated"></status>
-						<div xmlns="http://www.w3.org/1999/xhtml">This is the section containing all immunization
-							entries.</div>
+						<div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the
+							section containing all immunization entries.</div>
 					</text>
 				</section>
 			</Composition>
@@ -223,6 +237,24 @@
 	</entry>
 	<entry>
 		<fullUrl
+			value="http://test.fhir.ch/r4/Practitioner/practitioner2"></fullUrl>
+		<resource>
+			<Practitioner xmlns="http://hl7.org/fhir">
+				<id value="practitioner2"></id>
+				<identifier>
+					<system value="urn:oid:2.51.1.3"></system>
+					<value value="2000000000031"></value>
+				</identifier>
+				<active value="true"></active>
+				<name>
+					<family value="Muster"></family>
+					<given value="Max"></given>
+				</name>
+			</Practitioner>
+		</resource>
+	</entry>
+	<entry>
+		<fullUrl
 			value="http://test.fhir.ch/r4/Immunization/immunization1"></fullUrl>
 		<resource>
 			<Immunization xmlns="http://hl7.org/fhir">
@@ -234,8 +266,9 @@
 				<status value="completed"></status>
 				<vaccineCode>
 					<coding>
-						<system value="urn:oid:2.16.840.1.113883.6.73"></system>
-						<code value="J07AJ52"></code>
+						<system
+							value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+						<code value="637"></code>
 						<display value="Boostrix"></display>
 					</coding>
 				</vaccineCode>
@@ -243,8 +276,8 @@
 					<reference value="Patient/patient1"></reference>
 				</patient>
 				<occurrenceDateTime
-					value="2013-09-15T23:57:20+02:00"></occurrenceDateTime>
-				<recorded value="2013-09-15T23:57:20+02:00"></recorded>
+					value="2013-09-15T23:15:37+02:00"></occurrenceDateTime>
+				<recorded value="2013-09-15T23:15:37+02:00"></recorded>
 				<lotNumber value="12345"></lotNumber>
 				<performer>
 					<actor>
@@ -253,9 +286,10 @@
 				</performer>
 				<reasonCode>
 					<coding>
-						<system value="urn:oid:2.16.840.1.113883.5.4"></system>
+						<system
+							value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
 						<code value="IMMUNIZ"></code>
-						<display value="HL7ActCode"></display>
+						<display value="Immunization"></display>
 					</coding>
 				</reasonCode>
 				<protocolApplied>
@@ -280,6 +314,7 @@
 							<display value="Pertussis vaccination"></display>
 						</coding>
 					</targetDisease>
+					<doseNumberPositiveInt value="1"></doseNumberPositiveInt>
 				</protocolApplied>
 			</Immunization>
 		</resource>
@@ -297,8 +332,9 @@
 				<status value="completed"></status>
 				<vaccineCode>
 					<coding>
-						<system value="urn:oid:2.16.840.1.113883.6.73"></system>
-						<code value="J07AJ52"></code>
+						<system
+							value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+						<code value="637"></code>
 						<display value="Boostrix"></display>
 					</coding>
 				</vaccineCode>
@@ -306,8 +342,8 @@
 					<reference value="Patient/patient1"></reference>
 				</patient>
 				<occurrenceDateTime
-					value="2014-08-12T23:57:20+02:00"></occurrenceDateTime>
-				<recorded value="2014-08-12T23:57:20+02:00"></recorded>
+					value="2014-08-12T23:15:37+02:00"></occurrenceDateTime>
+				<recorded value="2014-08-12T23:15:37+02:00"></recorded>
 				<lotNumber value="12345"></lotNumber>
 				<performer>
 					<actor>
@@ -316,9 +352,10 @@
 				</performer>
 				<reasonCode>
 					<coding>
-						<system value="urn:oid:2.16.840.1.113883.5.4"></system>
+						<system
+							value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
 						<code value="IMMUNIZ"></code>
-						<display value="HL7ActCode"></display>
+						<display value="Immunization"></display>
 					</coding>
 				</reasonCode>
 				<protocolApplied>
@@ -343,6 +380,7 @@
 							<display value="Pertussis vaccination"></display>
 						</coding>
 					</targetDisease>
+					<doseNumberPositiveInt value="1"></doseNumberPositiveInt>
 				</protocolApplied>
 			</Immunization>
 		</resource>
@@ -360,8 +398,9 @@
 				<status value="completed"></status>
 				<vaccineCode>
 					<coding>
-						<system value="urn:oid:2.16.840.1.113883.6.73"></system>
-						<code value="J07AJ52"></code>
+						<system
+							value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+						<code value="637"></code>
 						<display value="Boostrix"></display>
 					</coding>
 				</vaccineCode>
@@ -369,8 +408,8 @@
 					<reference value="Patient/patient1"></reference>
 				</patient>
 				<occurrenceDateTime
-					value="2015-11-01T23:57:20+01:00"></occurrenceDateTime>
-				<recorded value="2015-11-01T23:57:20+01:00"></recorded>
+					value="2015-11-01T23:15:37+01:00"></occurrenceDateTime>
+				<recorded value="2015-11-01T23:15:37+01:00"></recorded>
 				<lotNumber value="12345"></lotNumber>
 				<performer>
 					<actor>
@@ -379,9 +418,10 @@
 				</performer>
 				<reasonCode>
 					<coding>
-						<system value="urn:oid:2.16.840.1.113883.5.4"></system>
+						<system
+							value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
 						<code value="IMMUNIZ"></code>
-						<display value="HL7ActCode"></display>
+						<display value="Immunization"></display>
 					</coding>
 				</reasonCode>
 				<protocolApplied>
@@ -406,6 +446,7 @@
 							<display value="Pertussis vaccination"></display>
 						</coding>
 					</targetDisease>
+					<doseNumberPositiveInt value="1"></doseNumberPositiveInt>
 				</protocolApplied>
 			</Immunization>
 		</resource>
@@ -423,17 +464,18 @@
 				<status value="completed"></status>
 				<vaccineCode>
 					<coding>
-						<system value="urn:oid:2.16.840.1.113883.6.73"></system>
-						<code value="J07BD52"></code>
-						<display value="MMR-I"></display>
+						<system
+							value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+						<code value="268"></code>
+						<display value="MMR-II"></display>
 					</coding>
 				</vaccineCode>
 				<patient>
 					<reference value="Patient/patient1"></reference>
 				</patient>
 				<occurrenceDateTime
-					value="2016-03-05T23:57:20+01:00"></occurrenceDateTime>
-				<recorded value="2016-03-05T23:57:20+01:00"></recorded>
+					value="2016-03-05T23:15:37+01:00"></occurrenceDateTime>
+				<recorded value="2016-03-05T23:15:37+01:00"></recorded>
 				<lotNumber value="12345"></lotNumber>
 				<performer>
 					<actor>
@@ -442,9 +484,10 @@
 				</performer>
 				<reasonCode>
 					<coding>
-						<system value="urn:oid:2.16.840.1.113883.5.4"></system>
+						<system
+							value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
 						<code value="IMMUNIZ"></code>
-						<display value="HL7ActCode"></display>
+						<display value="Immunization"></display>
 					</coding>
 				</reasonCode>
 				<protocolApplied>
@@ -469,6 +512,7 @@
 							<display value="Rubella vaccination"></display>
 						</coding>
 					</targetDisease>
+					<doseNumberPositiveInt value="1"></doseNumberPositiveInt>
 				</protocolApplied>
 			</Immunization>
 		</resource>
