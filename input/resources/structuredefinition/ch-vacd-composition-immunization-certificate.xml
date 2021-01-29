@@ -215,7 +215,7 @@
 				<coding>
 					<system value="http://loinc.org" />
 					<code value="11369-6" />
-					<display value="History of immunzations" />
+					<display value="Hx of Immunization" />
 				</coding>
 			</patternCodeableConcept>
 		</element>
@@ -278,7 +278,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-immunization" />
 			</type>
 		</element>
 		<element
@@ -315,7 +315,7 @@
 				<coding>
 					<system value="http://loinc.org" />
 					<code value="48767-8" />
-					<display value="Annotation comment" />
+					<display value="Annotation comment Imp" />
 				</coding>
 			</patternCodeableConcept>
 		</element>

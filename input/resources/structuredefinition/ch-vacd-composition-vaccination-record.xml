@@ -50,6 +50,21 @@
 			<sliceName value="versionNumber" />
 			<short value="Version number" />
 		</element>
+		<element id="Composition.extension:informationRecipient">
+			<path value="Composition.extension" />
+			<sliceName value="informationRecipient" />
+			<short
+				value="A recipient of this document (person or organization)" />
+			<min value="0" />
+		</element>
+		<element id="Composition.extension:dataEnterer">
+			<path value="Composition.extension" />
+			<sliceName value="dataEnterer" />
+			<short
+				value="Person who entered information into this document if it is a person other than the author" />
+			<min value="0" />
+		</element>
+
 		<element id="Composition.identifier.system">
 			<path value="Composition.identifier.system" />
 		</element>
@@ -276,7 +291,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-immunization" />
 			</type>
 		</element>
 		<element
@@ -295,7 +310,7 @@
 			<path value="Composition.section" />
 			<sliceName value="medicalproblems" />
 			<short value="Medical Problems" />
-			<min value="1" />
+			<min value="0" />
 			<max value="1" />
 		</element>
 		<!-- Extension for Section-ID -->
@@ -391,7 +406,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-medical-problems" />
 			</type>
 		</element>
 		<element
@@ -400,6 +415,231 @@
 			<min value="1" />
 		</element>
 		<element id="Composition.section.section:medicalproblems">
+			<path value="Composition.section.section" />
+			<min value="0" />
+			<max value="0" />
+		</element>
+
+		<!-- Section Card (pregnancy) -->
+		<element id="Composition.section:pregnancy">
+			<path value="Composition.section" />
+			<sliceName value="pregnancy" />
+			<short value="Pregnancy" />
+			<min value="0" />
+			<max value="1" />
+		</element>
+		<!-- Extension for Section-ID -->
+		<element id="Composition.section.extension">
+			<path value="Composition.section.extension" />
+			<slicing>
+				<discriminator>
+					<type value="value" />
+					<path value="url" />
+				</discriminator>
+				<rules value="open" />
+			</slicing>
+		</element>
+		<element id="Composition.section.extension:sectionId">
+			<path value="Composition.section.extension" />
+			<sliceName value="sectionId" />
+		</element>
+		<element id="Composition.section.title:pregnancy">
+			<path value="Composition.section.title" />
+			<short
+				value="'Schwangerschaft' in german or 'Grossesse' in french or 'Gravidanza' in italian or 'Pregnancy' in english
+                        or titles in other languages are also allowed" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Composition.section.code:pregnancy">
+			<path value="Composition.section.code" />
+			<min value="1" />
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org" />
+					<code value="10162-6" />
+					<display value="HISTORY OF PREGNANCIES" />
+				</coding>
+			</patternCodeableConcept>
+		</element>
+
+		<!-- Author of the section -->
+		<element id="Composition.section.author:pregnancy">
+			<path value="Composition.section.author" />
+			<short
+				value="The author of the section (person or device) if different from the author/timestamp of the document" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+				<targetProfile
+					value="http://hl7.org/fhir/StructureDefinition/Device" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+				<targetProfile
+					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
+			</type>
+		</element>
+		<element id="Composition.section:pregnancy.author.extension">
+			<path value="Composition.section.author.extension" />
+			<short value="Timestamp of the authorship/data input" />
+			<!-- CDA-spec: author.time 1..1, here 0..1 to allow the representedOrganization 
+				to be validly mapped as composition.author -->
+			<min value="0" />
+			<max value="1" />
+			<type>
+				<code value="Extension" />
+				<profile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
+			</type>
+			<mapping>
+				<identity value="cda" />
+				<map value=".author.time" />
+			</mapping>
+		</element>
+		<element id="Composition.section:pregnancy.author.reference">
+			<path value="Composition.section.author.reference" />
+			<min value="1" />
+		</element>
+		<element id="Composition.section.text:pregnancy">
+			<path value="Composition.section.text" />
+			<short value="Human readable text of this section" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Composition.section.entry:pregnancy">
+			<path value="Composition.section.entry" />
+			<short value="Pregnancy" />
+			<min value="1" />
+			<max value="1" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pregnancy" />
+			</type>
+		</element>
+		<element id="Composition.section.entry:pregnancy.reference">
+			<path value="Composition.section.entry.reference" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Composition.section.section:pregnancy">
+			<path value="Composition.section.section" />
+			<min value="0" />
+			<max value="0" />
+		</element>
+
+		<!-- Section Card (allergies) -->
+		<element id="Composition.section:allergies">
+			<path value="Composition.section" />
+			<sliceName value="allergies" />
+			<short value="Allergies" />
+			<min value="0" />
+			<max value="1" />
+		</element>
+		<!-- Extension for Section-ID -->
+		<element id="Composition.section.extension">
+			<path value="Composition.section.extension" />
+			<slicing>
+				<discriminator>
+					<type value="value" />
+					<path value="url" />
+				</discriminator>
+				<rules value="open" />
+			</slicing>
+		</element>
+		<element id="Composition.section.extension:sectionId">
+			<path value="Composition.section.extension" />
+			<sliceName value="sectionId" />
+		</element>
+		<element id="Composition.section.title:allergies">
+			<path value="Composition.section.title" />
+			<short
+				value="'Allergien' in german or 'Les allergies' in french or 'Allergie' in italian or 'Allergies' in english
+                        or titles in other languages are also allowed" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Composition.section.code:allergies">
+			<path value="Composition.section.code" />
+			<min value="1" />
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org" />
+					<code value="48765-2" />
+					<display value="Allergies, adverse reactions, alerts" />
+				</coding>
+			</patternCodeableConcept>
+		</element>
+		<!-- Author of the section -->
+		<element id="Composition.section.author:allergies">
+			<path value="Composition.section.author" />
+			<short
+				value="The author of the section (person or device) if different from the author/timestamp of the document" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+				<targetProfile
+					value="http://hl7.org/fhir/StructureDefinition/Device" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+				<targetProfile
+					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
+			</type>
+		</element>
+		<element id="Composition.section:allergies.author.extension">
+			<path value="Composition.section.author.extension" />
+			<short value="Timestamp of the authorship/data input" />
+			<!-- CDA-spec: author.time 1..1, here 0..1 to allow the representedOrganization 
+				to be validly mapped as composition.author -->
+			<min value="0" />
+			<max value="1" />
+			<type>
+				<code value="Extension" />
+				<profile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
+			</type>
+			<mapping>
+				<identity value="cda" />
+				<map value=".author.time" />
+			</mapping>
+		</element>
+		<element id="Composition.section:allergies.author.reference">
+			<path value="Composition.section.author.reference" />
+			<min value="1" />
+		</element>
+		<element id="Composition.section.text:allergies">
+			<path value="Composition.section.text" />
+			<short value="Human readable text of this section" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Composition.section.entry:allergies">
+			<path value="Composition.section.entry" />
+			<short value="Pregnancy" />
+			<min value="1" />
+			<max value="1" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-allergies" />
+			</type>
+		</element>
+		<element id="Composition.section.entry:allergies.reference">
+			<path value="Composition.section.entry.reference" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Composition.section.section:allergies">
 			<path value="Composition.section.section" />
 			<min value="0" />
 			<max value="0" />

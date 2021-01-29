@@ -242,6 +242,17 @@
 			<param name="out" value="output/ch-vacd-ch-vaccination-plan-immunizations-vs.xml" />
 		</antcall>
 	</target>
+	
+	<target name="transformAllergiesForImmunization" depends="init">
+			<delete file="output/ch-vacd-allergies-immunizations-vs.xml" failonerror="false" />
+			<antcall target="xslt">
+				<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
+				<param name="templateId" value="ch-vacd-allergies-immunizations-vs" />
+				<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+				<param name="in" value="templates/VS_AllergiesForEvacdoc_download_2021-01-29T211546.xml" />
+				<param name="out" value="output/ch-vacd-allergies-immunizations-vs.xml" />
+			</antcall>
+		</target>
 
 
 	<target name="default">
@@ -254,6 +265,7 @@
 		<antcall target="transformSpecialCaseProblems" />
 		<antcall target="transformComplicationRisks" />
 		<antcall target="transformExposureRisks" />
+		<antcall target="transformAllergiesForImmunization"/>
 		<!--<antcall target="transformSwissVaccinationPlanImmunizations" />-->
 
 	</target>

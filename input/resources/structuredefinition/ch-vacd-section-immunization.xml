@@ -1,7 +1,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-immunization" />
+	<id value="ch-vacd-section-immunization" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-immunization" />
 	<version value="0.1.0" />
 	<name value="CHVACDImmunization" />
 	<title value="CH VACD Immunization Profile" />
@@ -90,6 +90,28 @@
 					value="ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/consumable/manfacturedProduct/manufacturedMaterial/realmCode/code" />
 			</mapping>
 		</element>
+		<element id="Immunization.reasonCode">
+			<path value="Immunization.reasonCode" />
+			<short value="Immunization Reason Code" />
+			<binding>
+				<extension
+					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+					<valueString value="ReasonCode" />
+				</extension>
+				<extension
+					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+					<valueBoolean value="true" />
+				</extension>
+				<strength value="extensible" />
+				<description
+					value="The code for reason." />
+				<valueSet>
+				
+				</valueSet>
+			</binding>
+		</element>
+		
+		
 
 		<element id="Immunization.patient">
 			<path value="Immunization.patient" />

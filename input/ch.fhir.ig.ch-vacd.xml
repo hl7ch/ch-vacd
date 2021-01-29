@@ -160,14 +160,28 @@
 		<resource>
 			<reference>
 				<reference
-					value="StructureDefinition/ch-vacd-immunization" />
+					value="StructureDefinition/ch-vacd-section-allergies" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-section-immunization" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
 				<reference
-					value="StructureDefinition/ch-vacd-medical-problems" />
+					value="StructureDefinition/ch-vacd-section-medical-problems" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ch-vacd-section-pregnancy" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -175,6 +189,13 @@
 
 
 		<!-- value sets -->
+		<resource>
+			<reference>
+				<reference value="ValueSet/ch-vacd-allergies-immunizations-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		
 		<resource>
 			<reference>
 				<reference value="ValueSet/ch-vacd-complication-risks-vs" />
@@ -211,6 +232,12 @@
 		<resource>
 			<reference>
 				<reference value="ValueSet/ch-vacd-problem-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/ch-vacd-reason-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
