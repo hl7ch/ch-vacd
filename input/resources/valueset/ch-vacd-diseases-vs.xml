@@ -31,28 +31,8 @@
    <description value="All diseases immunizations exists for."/>
    <immutable value="true"/>
    <compose>
-      <system value="http://snomed.info/sct"/>
       <include>
-         <concept>
-            <code value="0"/>
-            <display value="Other disease"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Andere Krankheit"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Autre maladie"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Altra malattia"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Other disease"/>
-            </designation>
-         </concept>
+         <system value="http://snomed.info/sct"/>
          <concept>
             <code value="76668005"/>
             <display value="Diphtheria"/>

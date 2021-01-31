@@ -1,0 +1,6 @@
+<codeSystems>
+	<project ident="cdachvacd-">
+		<codeSystem ref="2.16.756.5.30.1.127.3.3.4"
+			name="Empfehlungskategorien" displayName="Empfehlungskategorien"></codeSystem>
+	</project>
+</codeSystems>

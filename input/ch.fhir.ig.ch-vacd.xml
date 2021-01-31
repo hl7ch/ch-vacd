@@ -68,6 +68,13 @@
 		</resource>
 		<resource>
 			<reference>
+				<reference
+					value="CodeSystem/ch-vacd-recommendation-categories-cs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
 				<reference value="CodeSystem/ch-vacd-swissmedic-cs" />
 			</reference>
 			<exampleBoolean value="false" />
@@ -128,6 +135,20 @@
 		<resource>
 			<reference>
 				<reference
+					value="StructureDefinition/ch-vacd-document-immunization-recommendation-request" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-document-immunization-recommendation-response" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
 					value="StructureDefinition/ch-vacd-document-vaccination-record" />
 			</reference>
 			<exampleBoolean value="false" />
@@ -151,6 +172,20 @@
 		<resource>
 			<reference>
 				<reference
+					value="StructureDefinition/ch-vacd-composition-immunization-recommendation-request" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-composition-immunization-recommendation-response" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
 					value="StructureDefinition/ch-vacd-composition-vaccination-record" />
 			</reference>
 			<exampleBoolean value="false" />
@@ -164,11 +199,25 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		
+
 		<resource>
 			<reference>
 				<reference
 					value="StructureDefinition/ch-vacd-section-immunization" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-section-immunization-recommendations" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-section-laboratory-serology" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -181,37 +230,31 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-section-pregnancy" />
+				<reference
+					value="StructureDefinition/ch-vacd-section-pastillnesses" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-section-pregnancy" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
 
 
 		<!-- value sets -->
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-allergies-immunizations-vs" />
+				<reference
+					value="ValueSet/ch-vacd-allergies-immunizations-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		
-		<resource>
-			<reference>
-				<reference value="ValueSet/ch-vacd-complication-risks-vs" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-
 		<resource>
 			<reference>
 				<reference value="ValueSet/ch-vacd-diseases-vs" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		<resource>
-			<reference>
-				<reference value="ValueSet/ch-vacd-exposure-risks-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -231,13 +274,20 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-problem-vs" />
+				<reference value="ValueSet/ch-vacd-reason-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-reason-vs" />
+				<reference
+					value="ValueSet/ch-vacd-recommendation-categories-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="ValueSet/ch-vacd-risks-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>

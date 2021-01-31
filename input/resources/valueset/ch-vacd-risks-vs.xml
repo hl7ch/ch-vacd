@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir" xmlns:fhir="http://hl7.org/fhir">
+   <id value="ch-vacd-risks-vs"/>
+   <meta>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2021-01-24T00:00:00+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-vs"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://e-health-suisse.ch/ns/vs"/>
+      <value value="ch-vacd-risks-vs"/>
+   </identifier>
+   <version value="2021-01-24T00:00:00"/>
+   <name value="SwissRisksForImmunizations"/>
+   <title value="SwissRisksForImmunizations"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="The risks used in switzerland."/>
+   <compose><!--
+					complication risks
+				-->
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.127.3.3.1"/>
+         <concept>
+            <code value="113001"/>
+            <display value="ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114036"/>
+            <display value="ANDERE_LEBERERKRANKUNG"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="ANDERE_LEBERERKRANKUNG"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="ANDERE_LEBERERKRANKUNG"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="ANDERE_LEBERERKRANKUNG"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="ANDERE_LEBERERKRANKUNG"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114006"/>
+            <display value="ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114033"/>
+            <display value="ANDERE_NIERENERKRANKUNG"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="ANDERE_NIERENERKRANKUNG"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="ANDERE_NIERENERKRANKUNG"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="ANDERE_NIERENERKRANKUNG"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="ANDERE_NIERENERKRANKUNG"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114034"/>
+            <display value="ANDERER_KREBS"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="ANDERER_KREBS"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="ANDERER_KREBS"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="ANDERER_KREBS"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="ANDERER_KREBS"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114025"/>
+            <display value="ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114021"/>
+            <display value="AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114005"/>
+            <display value="BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114003"/>
+            <display value="CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114007"/>
+            <display value="CHRONISCHE_LEBERERKRANKUNG"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="CHRONISCHE_LEBERERKRANKUNG"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="CHRONISCHE_LEBERERKRANKUNG"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="CHRONISCHE_LEBERERKRANKUNG"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="CHRONISCHE_LEBERERKRANKUNG"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="113002"/>
+            <display value="COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114015"/>
+            <display value="DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114019"/>
+            <display value="EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114020"/>
+            <display value="EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="113004"/>
+            <display value="GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114037"/>
+            <display value="HAEMODIALYSEPATIENT"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="HAEMODIALYSEPATIENT"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="HAEMODIALYSEPATIENT"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="HAEMODIALYSEPATIENT"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="HAEMODIALYSEPATIENT"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114038"/>
+            <display value="HAEMOPHILIE_PATIENT"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="HAEMOPHILIE_PATIENT"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="HAEMOPHILIE_PATIENT"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="HAEMOPHILIE_PATIENT"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="HAEMOPHILIE_PATIENT"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114001"/>
+            <display value="HERZINSUFFIZIENZ"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="HERZINSUFFIZIENZ"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="HERZINSUFFIZIENZ"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="HERZINSUFFIZIENZ"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="HERZINSUFFIZIENZ"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="113007"/>
+            <display value="HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="113008"/>
+            <display value="HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="113009"/>
+            <display value="HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114018"/>
+            <display value="KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114002"/>
+            <display value="KARDIOPATHIE"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="KARDIOPATHIE"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="KARDIOPATHIE"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="KARDIOPATHIE"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="KARDIOPATHIE"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114008"/>
+            <display value="LEBERZIRRHOSE"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="LEBERZIRRHOSE"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="LEBERZIRRHOSE"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="LEBERZIRRHOSE"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="LEBERZIRRHOSE"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="113012"/>
+            <display value="LYMPHOM_LEUKAEMIE_MYELOM"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="LYMPHOM_LEUKAEMIE_MYELOM"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="LYMPHOM_LEUKAEMIE_MYELOM"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="LYMPHOM_LEUKAEMIE_MYELOM"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="LYMPHOM_LEUKAEMIE_MYELOM"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="118001"/>
+            <display value="LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="113014"/>
+            <display value="MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114026"/>
+            <display value="MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114022"/>
+            <display value="MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114016"/>
+            <display value="MORBIDE_ADIPOSITAS_BMI_GROESSER_40"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="MORBIDE_ADIPOSITAS_BMI_GROESSER_40"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="MORBIDE_ADIPOSITAS_BMI_GROESSER_40"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="MORBIDE_ADIPOSITAS_BMI_GROESSER_40"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="MORBIDE_ADIPOSITAS_BMI_GROESSER_40"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="113018"/>
+            <display value="NEPHROTISCHES_SYNDROM"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="NEPHROTISCHES_SYNDROM"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="NEPHROTISCHES_SYNDROM"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="NEPHROTISCHES_SYNDROM"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="NEPHROTISCHES_SYNDROM"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114012"/>
+            <display value="NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="113023"/>
+            <display value="NIERENINSUFFIZIENZ"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="NIERENINSUFFIZIENZ"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="NIERENINSUFFIZIENZ"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="NIERENINSUFFIZIENZ"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="NIERENINSUFFIZIENZ"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114035"/>
+            <display value="PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="113035"/>
+            <display value="RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114032"/>
+            <display value="SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114028"/>
+            <display value="SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="113021"/>
+            <display value="SCHWERE_NEURODERMITIS_BEIM_KIND"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="SCHWERE_NEURODERMITIS_BEIM_KIND"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="SCHWERE_NEURODERMITIS_BEIM_KIND"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="SCHWERE_NEURODERMITIS_BEIM_KIND"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="SCHWERE_NEURODERMITIS_BEIM_KIND"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114004"/>
+            <display value="SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="114014"/>
+            <display value="SICHELZELLANAEMIE"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="SICHELZELLANAEMIE"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="SICHELZELLANAEMIE"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="SICHELZELLANAEMIE"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="SICHELZELLANAEMIE"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="113036"/>
+            <display value="ZOELIAKIE"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="ZOELIAKIE"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="ZOELIAKIE"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="ZOELIAKIE"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="ZOELIAKIE"/>
+            </designation>
+         </concept>
+      </include>
+      <!--
+					exposition risks
+				-->
+      <include>
+         <system value="urn:oid:2.16.756.5.30.1.127.3.3.2"/>
+         <concept>
+            <code value="213001"/>
+            <display value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213028"/>
+            <display value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213003"/>
+            <display value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213005"/>
+            <display value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213006"/>
+            <display value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213007"/>
+            <display value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213010"/>
+            <display value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213011"/>
+            <display value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213031"/>
+            <display value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213012"/>
+            <display value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213032"/>
+            <display value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213027"/>
+            <display value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213026"/>
+            <display value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213030"/>
+            <display value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213029"/>
+            <display value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213014"/>
+            <display value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213033"/>
+            <display value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213024"/>
+            <display value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213025"/>
+            <display value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213015"/>
+            <display value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213016"/>
+            <display value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213017"/>
+            <display value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213018"/>
+            <display value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213019"/>
+            <display value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213020"/>
+            <display value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213021"/>
+            <display value="REKRUTEN_MILITAER"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="REKRUTEN_MILITAER"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="REKRUTEN_MILITAER"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="REKRUTEN_MILITAER"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="REKRUTEN_MILITAER"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213022"/>
+            <display value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="213023"/>
+            <display value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ValueSet xmlns="http://hl7.org/fhir" xmlns:ihe="urn:ihe:iti:svs:2008">
+<ValueSet xmlns="http://hl7.org/fhir">
    <id value="ch-vacd-route-of-administration-vs"/>
    <meta>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -31,7 +31,7 @@
    <description value="To be defined."/>
    <compose>
       <include>
-         <system value="urn:oid:2.16.840.1.113883.5.112"/>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"/>
          <concept>
             <code value="SOAK"/>
             <display value="Immersion (soak)"/>

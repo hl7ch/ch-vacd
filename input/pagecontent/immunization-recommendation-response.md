@@ -4,3 +4,7 @@ containing all immunization recommendations which can be made based on the data 
 ### FHIR document (Bundle)
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 
 A Bundle has a list of entries. The first entry is the Composition, in which all contained entries are then referenced.
+
+{% include img.html img="vaccination-record-document.png" caption="Fig.: Immunization Recommendation Response document" width="40%" %}
+
+* Profile: [Immunization Recommendation Response document](StructureDefinition-ch-vacd-document-immunization-recommendation-response.html)

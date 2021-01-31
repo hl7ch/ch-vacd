@@ -1,15 +1,15 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-section-medical-problems" />
+	<id value="ch-vacd-section-pastillnesses" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-medical-problems" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pastillnesses" />
 	<version value="0.1.0" />
-	<name value="CHVACDMedicalProblemsSection" />
-	<title value="CH VACD Medical Problems Section Profile" />
+	<name value="CHVACDLaboratorySerologySection" />
+	<title value="CH VACD Laboratory And Serology Section Profile" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
-		value="Definition of the medical problems part for vaccination record and recommendation request and response documents" />
+		value="Definition of the Allergies part for vaccination record and immunization recommendation request and response documents" />
 	<mapping>
 		<identity value="cda" />
 		<uri value="http://hl7.org/v3/cda" />
@@ -24,7 +24,7 @@
 	<differential>
 		<element id="Observation">
 			<path value="Observation" />
-			<short value="CH VACD Observation" />
+			<short value="CH VACD Allergie Observations" />
 		</element>
 		<element id="Observation.extension">
 			<path value="Observation.extension" />
@@ -53,28 +53,31 @@
 		<element id="Observation.code">
 			<path value="Observation.code" />
 			<short value="Observation code" />
-			<patternCodeableConcept>
-				<coding>
-					<system value="http://snomed.info/sct" />
-					<code value="55607006" />
-					<display value="Problem" />
-				</coding>
-			</patternCodeableConcept>
+			<binding>
+				<extension
+					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+					<valueString value="PastIllnessesCode" />
+				</extension>
+				<extension
+					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+					<valueBoolean value="true" />
+				</extension>
+				<strength value="extensible" />
+				<description
+					value="The code for past illnesses for immunization." />
+				<valueSet
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-illnesses-undergone-for-immunizaion-vs" />
+			</binding>
 			<mapping>
 				<identity value="cda" />
 				<map value=".code" />
 			</mapping>
 		</element>
-		<element id="Observation.valueCodeableConcept">
-			<path value="Observation.valueCodeableConcept" />
-			<short value="Observation value CodeableConcept" />
+		<element id="Observation.valueDateTime">
+			<path value="Observation.valueDateTime" />
+			<short value="Observation.valueDateTime" />
 			<min value="1" />
 			<max value="1" />
-			<binding>
-				<strength value="required" />
-				<valueSet
-					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-vs" />
-			</binding>
 		</element>
 
 	</differential>

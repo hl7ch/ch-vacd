@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ValueSet xmlns="http://hl7.org/fhir" xmlns:ihe="urn:ihe:iti:svs:2008">
+<ValueSet xmlns="http://hl7.org/fhir">
    <id value="ch-vacd-pregnancy-observation-vs"/>
    <meta>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -31,7 +31,7 @@
    <description value="To be defined."/>
    <compose>
       <include>
-         <system value="urn:oid:2.16.840.1.113883.6.1"/>
+         <system value="http://loinc.org"/>
          <concept>
             <code value="11779-6"/>
             <display value="DELIVERY DATE (ESTIMATED FROM LAST MENSTRUAL PERIOD)"/>

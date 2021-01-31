@@ -1,675 +1,593 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-exposure-risks-cs" />
-	<meta>
-		<source
-			value="http://art-decor.org/decor/services/RetrieveCodeSystem?id=2.16.756.5.30.1.127.3.3.2&amp;prefix=cdachvacd-&amp;format=xml" />
-	</meta>
-	<extension
-		url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
-		<valuePeriod>
-			<start value="2018-04-19T00:00:00+01:00" />
-		</valuePeriod>
-	</extension>
-	<url value="urn:oid:2.16.756.5.30.1.127.3.3.2" />
-	<identifier>
-		<use value="official" />
-		<system value="http://art-decor.org/ns/oids/vs" />
-		<value value="2.16.756.5.30.1.1.11.73" />
-	</identifier>
-	<version value="2018-04-19T00:00:00" />
-	<name value="SwissVaccinationRecordExpositionRisksCodeSystem" />
-	<title
-		value="Swiss Vaccination Record Exposition Risks Code System" />
-	<status value="active" />
-	<experimental value="false" />
-	<publisher value="eHealth Suisse" />
-	<contact>
-		<name value="eHealth Suisse" />
-		<telecom>
-			<system value="url" />
-			<value value="www.e-health-suisse.ch" />
-		</telecom>
-	</contact>
-	<description
-		value="Swiss Vaccination Record Exposition Risks Code System according to the EKIF recommendations" />
-	<content value="complete" />
-	<concept>
-		<code value="213001" />
-		<display value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN" />
-		<designation>
-			<language value="de-CH" />
-			<value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213028" />
-		<display
-			value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213003" />
-		<display
-			value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213005" />
-		<display
-			value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213006" />
-		<display value="FLEDERMAUSFORSCHER_UND_SCHUETZER" />
-		<designation>
-			<language value="de-CH" />
-			<value value="FLEDERMAUSFORSCHER_UND_SCHUETZER" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="FLEDERMAUSFORSCHER_UND_SCHUETZER" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="FLEDERMAUSFORSCHER_UND_SCHUETZER" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="FLEDERMAUSFORSCHER_UND_SCHUETZER" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213007" />
-		<display
-			value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213010" />
-		<display
-			value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213011" />
-		<display
-			value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213031" />
-		<display value="KINDERKRIPPE_HORT_VOR_5_MONATEN" />
-		<designation>
-			<language value="de-CH" />
-			<value value="KINDERKRIPPE_HORT_VOR_5_MONATEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="KINDERKRIPPE_HORT_VOR_5_MONATEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="KINDERKRIPPE_HORT_VOR_5_MONATEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="KINDERKRIPPE_HORT_VOR_5_MONATEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213012" />
-		<display
-			value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213032" />
-		<display value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU" />
-		<designation>
-			<language value="de-CH" />
-			<value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213027" />
-		<display value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN" />
-		<designation>
-			<language value="de-CH" />
-			<value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213026" />
-		<display value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN" />
-		<designation>
-			<language value="de-CH" />
-			<value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213030" />
-		<display value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO" />
-		<designation>
-			<language value="de-CH" />
-			<value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213029" />
-		<display value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO" />
-		<designation>
-			<language value="de-CH" />
-			<value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213014" />
-		<display
-			value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213033" />
-		<display value="MITARBEITENDE_VON_KINDERKRIPPEN" />
-		<designation>
-			<language value="de-CH" />
-			<value value="MITARBEITENDE_VON_KINDERKRIPPEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="MITARBEITENDE_VON_KINDERKRIPPEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="MITARBEITENDE_VON_KINDERKRIPPEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="MITARBEITENDE_VON_KINDERKRIPPEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213024" />
-		<display
-			value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213025" />
-		<display value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN" />
-		<designation>
-			<language value="de-CH" />
-			<value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213015" />
-		<display
-			value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213016" />
-		<display
-			value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213017" />
-		<display
-			value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213018" />
-		<display
-			value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213019" />
-		<display
-			value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN" />
-		<designation>
-			<language value="de-CH" />
-			<value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213020" />
-		<display
-			value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213021" />
-		<display value="REKRUTEN_MILITAER" />
-		<designation>
-			<language value="de-CH" />
-			<value value="REKRUTEN_MILITAER" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="REKRUTEN_MILITAER" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="REKRUTEN_MILITAER" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="REKRUTEN_MILITAER" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213022" />
-		<display
-			value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN" />
-		<designation>
-			<language value="de-CH" />
-			<value
-				value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value
-				value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value
-				value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value
-				value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN" />
-		</designation>
-	</concept>
-	<concept>
-		<code value="213023" />
-		<display value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE" />
-		<designation>
-			<language value="de-CH" />
-			<value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE" />
-		</designation>
-		<designation>
-			<language value="fr-CH" />
-			<value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE" />
-		</designation>
-		<designation>
-			<language value="it-CH" />
-			<value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE" />
-		</designation>
-		<designation>
-			<language value="en-US" />
-			<value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE" />
-		</designation>
-	</concept>
+   <id value="ch-vacd-exposure-risks-cs"/>
+   <meta>
+      <source value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-exposure-risks-vs"/>
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2021-01-24T00:00:00+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="urn:oid:2.16.756.5.30.1.127.3.3.2"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value=""/>
+   </identifier>
+   <version value="2021-01-24T00:00:00"/>
+   <name value="SwissComplicationRisksCodesystem"/>
+   <title value="Swiss Exposure Risks Codesystem"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="Old vaccines earlier available in Switzerland."/>
+   <content value="complete"/>
+   <concept>
+      <code value="213001"/>
+      <display value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213028"/>
+      <display value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213003"/>
+      <display value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213005"/>
+      <display value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213006"/>
+      <display value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213007"/>
+      <display value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213010"/>
+      <display value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213011"/>
+      <display value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213031"/>
+      <display value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213012"/>
+      <display value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213032"/>
+      <display value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213027"/>
+      <display value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213026"/>
+      <display value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213030"/>
+      <display value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213029"/>
+      <display value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213014"/>
+      <display value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213033"/>
+      <display value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213024"/>
+      <display value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213025"/>
+      <display value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213015"/>
+      <display value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213016"/>
+      <display value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213017"/>
+      <display value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213018"/>
+      <display value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213019"/>
+      <display value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213020"/>
+      <display value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213021"/>
+      <display value="REKRUTEN_MILITAER"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="REKRUTEN_MILITAER"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="REKRUTEN_MILITAER"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="REKRUTEN_MILITAER"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="REKRUTEN_MILITAER"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213022"/>
+      <display value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="213023"/>
+      <display value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
+      </designation>
+   </concept>
 </CodeSystem>
-
-	

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="ch-vacd-special-case-problems-vs"/>
+   <id value="ch-vacd-recommendation-categories-vs"/>
    <meta>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
    </meta>
    <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
       <valuePeriod>
-         <start value="2018-04-19T00:00:00+01:00"/>
+         <start value="2017-06-12T14:21:51+01:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-special-case-problems-vs"/>
+   <url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-recommendation-categories-vs"/>
    <identifier>
       <use value="official"/>
       <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.1.11.74"/>
+      <value value="2.16.756.5.30.1.127.11.4"/>
    </identifier>
-   <version value="2018-04-19T00:00:00"/>
-   <name value="SpecialCaseProblems"/>
-   <title value="Special Case Problems"/>
+   <version value="2017-06-12T14:21:51"/>
+   <name value="Empfehlungskategorien"/>
+   <title value="Recommendation-Categories for Immunizations"/>
    <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
@@ -31,85 +31,85 @@
    <description value="To be defined."/>
    <compose>
       <include>
-         <system value="http://snomed.info/sct"/>
+         <system value="urn:oid:2.16.756.5.30.1.127.3.3.4"/>
          <concept>
-            <code value="160243008"/>
-            <display value="No Significant Medical History"/>
+            <code value="41501"/>
+            <display value="Empfohlene Basisimpfungen"/>
             <designation>
                <language value="de-CH"/>
-               <value value="No Significant Medical History"/>
+               <value value="Empfohlene Basisimpfungen"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="No Significant Medical History"/>
+               <value value="Empfohlene Basisimpfungen"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="No Significant Medical History"/>
+               <value value="Empfohlene Basisimpfungen"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="No Significant Medical History"/>
+               <value value="Empfohlene Basisimpfungen"/>
             </designation>
          </concept>
          <concept>
-            <code value="160245001"/>
-            <display value="No current problems or disability"/>
+            <code value="41502"/>
+            <display value="Empfohlene ergänzende Impfungen"/>
             <designation>
                <language value="de-CH"/>
-               <value value="No current problems or disability"/>
+               <value value="Empfohlene ergänzende Impfungen"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="No current problems or disability"/>
+               <value value="Empfohlene ergänzende Impfungen"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="No current problems or disability"/>
+               <value value="Empfohlene ergänzende Impfungen"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="No current problems or disability"/>
+               <value value="Empfohlene ergänzende Impfungen"/>
             </designation>
          </concept>
          <concept>
-            <code value="396782006"/>
-            <display value="History of Past Illness unknown"/>
+            <code value="41503"/>
+            <display value="Empfohlene Impfungen für Risikogruppen"/>
             <designation>
                <language value="de-CH"/>
-               <value value="History of Past Illness unknown"/>
+               <value value="Empfohlene Impfungen für Risikogruppen"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="History of Past Illness unknown"/>
+               <value value="Empfohlene Impfungen für Risikogruppen"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="History of Past Illness unknown"/>
+               <value value="Empfohlene Impfungen für Risikogruppen"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="History of Past Illness unknown"/>
+               <value value="Empfohlene Impfungen für Risikogruppen"/>
             </designation>
          </concept>
          <concept>
-            <code value="407559004"/>
-            <display value="Family History Unknown"/>
+            <code value="41504"/>
+            <display value="Impfungen ohne Empfehlungen"/>
             <designation>
                <language value="de-CH"/>
-               <value value="Family History Unknown"/>
+               <value value="Impfungen ohne Empfehlungen"/>
             </designation>
             <designation>
                <language value="fr-CH"/>
-               <value value="Family History Unknown"/>
+               <value value="Impfungen ohne Empfehlungen"/>
             </designation>
             <designation>
                <language value="it-CH"/>
-               <value value="Family History Unknown"/>
+               <value value="Impfungen ohne Empfehlungen"/>
             </designation>
             <designation>
                <language value="en-US"/>
-               <value value="Family History Unknown"/>
+               <value value="Impfungen ohne Empfehlungen"/>
             </designation>
          </concept>
       </include>

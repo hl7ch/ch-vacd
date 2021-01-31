@@ -41,8 +41,8 @@
 				value="All diseases immunizations exists for." />
 			<immutable value="true" />
 			<compose>
-				<system value="http://snomed.info/sct" />
 				<include>
+					<system value="http://snomed.info/sct" />
 					<xsl:apply-templates />
 				</include>
 			</compose>

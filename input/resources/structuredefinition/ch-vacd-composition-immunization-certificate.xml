@@ -51,7 +51,13 @@
 			<sliceName value="versionNumber" />
 			<short value="Version number" />
 		</element>
-
+		<element id="Composition.extension:informationRecipient">
+			<path value="Composition.extension" />
+			<sliceName value="informationRecipient" />
+			<short
+				value="A recipient of this document (person or organization)" />
+			<min value="0" />
+		</element>
 		<element id="Composition.identifier.system">
 			<path value="Composition.identifier.system" />
 		</element>
@@ -285,6 +291,7 @@
 			id="Composition.section.entry:administration.reference">
 			<path value="Composition.section.entry.reference" />
 			<min value="1" />
+			<max value="1" />
 		</element>
 		<element id="Composition.section.section:administration">
 			<path value="Composition.section.section" />
@@ -334,6 +341,7 @@
 		<element id="Composition.section.entry:annotation.reference">
 			<path value="Composition.section.entry.reference" />
 			<min value="1" />
+			<max value="1" />
 		</element>
 		<element id="Composition.section.section:annotation">
 			<path value="Composition.section.section" />

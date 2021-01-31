@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+   <id value="ch-vacd-recommendation-categories-cs"/>
+   <meta>
+      <source value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-recommendation-categories-vs"/>
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2021-01-24T00:00:00+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="urn:oid:2.16.756.5.30.1.127.3.3.4"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value=""/>
+   </identifier>
+   <version value="2021-01-24T00:00:00"/>
+   <name value="SwissImmunizationRecommendationCategoriesCodesystem"/>
+   <title value="Swiss Immunization Recommendation Categories Codesystem"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="Old vaccines earlier available in Switzerland."/>
+   <content value="complete"/>
+   <concept>
+      <code value="41501"/>
+      <display value="Empfohlene Basisimpfungen"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Empfohlene Basisimpfungen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Empfohlene Basisimpfungen"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Empfohlene Basisimpfungen"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Empfohlene Basisimpfungen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="41502"/>
+      <display value="Empfohlene ergänzende Impfungen"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Empfohlene ergänzende Impfungen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Empfohlene ergänzende Impfungen"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Empfohlene ergänzende Impfungen"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Empfohlene ergänzende Impfungen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="41503"/>
+      <display value="Empfohlene Impfungen für Risikogruppen"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Empfohlene Impfungen für Risikogruppen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Empfohlene Impfungen für Risikogruppen"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Empfohlene Impfungen für Risikogruppen"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Empfohlene Impfungen für Risikogruppen"/>
+      </designation>
+   </concept>
+   <concept>
+      <code value="41504"/>
+      <display value="Impfungen ohne Empfehlungen"/>
+      <designation>
+         <language value="de-CH"/>
+         <value value="Impfungen ohne Empfehlungen"/>
+      </designation>
+      <designation>
+         <language value="fr-CH"/>
+         <value value="Impfungen ohne Empfehlungen"/>
+      </designation>
+      <designation>
+         <language value="it-CH"/>
+         <value value="Impfungen ohne Empfehlungen"/>
+      </designation>
+      <designation>
+         <language value="en-US"/>
+         <value value="Impfungen ohne Empfehlungen"/>
+      </designation>
+   </concept>
+</CodeSystem>

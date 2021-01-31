@@ -1,10 +1,10 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-composition-vaccination-record" />
+	<id value="ch-vacd-composition-immunization-recommendation-request" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-vaccination-record" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-recommendation-request" />
 	<version value="0.1.0" />
-	<name value="CHVACDCompositionVaccinationRecord" />
-	<title value="CH VACD VaccinationRecord Composition Profile" />
+	<name value="CHVACDCompositionImmunizationRecommendationRequest" />
+	<title value="CH VACD Immunization Recommendation Request Composition Profile" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
@@ -24,7 +24,7 @@
 	<differential>
 		<element id="Composition">
 			<path value="Composition" />
-			<short value="CH VACD Vaccination Record Composition" />
+			<short value="CH VACD Immunization Recommendation Request Composition" />
 		</element>
 		<element id="Composition.language">
 			<path value="Composition.language" />
@@ -890,175 +890,5 @@
 			<max value="0" />
 		</element>
 
-		<!-- ************************************************************************** -->
-		<!-- Section Card (Recommendations) -->
-		<!-- ************************************************************************** -->
-		<element id="Composition.section.author:recommendations">
-			<path value="Composition.section" />
-			<sliceName value="recommendations" />
-			<short value="Recommendations" />
-			<min value="0" />
-			<max value="1" />
-		</element>
-		<!-- Extension for Section-ID -->
-		<element id="Composition.section.extension">
-			<path value="Composition.section.extension" />
-			<slicing>
-				<discriminator>
-					<type value="value" />
-					<path value="url" />
-				</discriminator>
-				<rules value="open" />
-			</slicing>
-		</element>
-		<element id="Composition.section.extension:sectionId">
-			<path value="Composition.section.extension" />
-			<sliceName value="sectionId" />
-		</element>
-		<element id="Composition.section.title:recommendations">
-			<path value="Composition.section.title" />
-			<short
-				value="'Impfempfehlungen' in german or 'Recommandations de vaccination' in french or 'Raccomandazioni per la vaccinazione' in italian or 'Immunization recommendations' in english
-                        or titles in other languages are also allowed" />
-			<min value="1" />
-			<max value="1" />
-		</element>
-		<element id="Composition.section.code:recommendations">
-			<path value="Composition.section.code" />
-			<min value="1" />
-			<patternCodeableConcept>
-				<coding>
-					<system value="http://loinc.org" />
-					<code value="18776-5" />
-					<display value="Plan of care note" />
-				</coding>
-			</patternCodeableConcept>
-		</element>
-		<!-- Author of the section -->
-		<element id="Composition.section.author:recommendations">
-			<path value="Composition.section.author" />
-			<short
-				value="The author of the section (person or device) if different from the author/timestamp of the document" />
-			<type>
-				<code value="Reference" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
-				<targetProfile
-					value="http://hl7.org/fhir/StructureDefinition/Device" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
-				<targetProfile
-					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
-			</type>
-		</element>
-		<element
-			id="Composition.section:recommendations.author.extension">
-			<path value="Composition.section.author.extension" />
-			<short value="Timestamp of the authorship/data input" />
-			<!-- CDA-spec: author.time 1..1, here 0..1 to allow the representedOrganization 
-				to be validly mapped as composition.author -->
-			<min value="0" />
-			<max value="1" />
-			<type>
-				<code value="Extension" />
-				<profile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
-			</type>
-			<mapping>
-				<identity value="cda" />
-				<map value=".author.time" />
-			</mapping>
-		</element>
-		<element
-			id="Composition.section:recommendations.author.reference">
-			<path value="Composition.section.author.reference" />
-			<min value="1" />
-		</element>
-		<element id="Composition.section.text:recommendations">
-			<path value="Composition.section.text" />
-			<short value="Human readable text of this section" />
-			<min value="1" />
-			<max value="1" />
-		</element>
-		<element id="Composition.section.entry:recommendations">
-			<path value="Composition.section.entry" />
-			<short value="Recomendation" />
-			<min value="0" />
-			<max value="*" />
-			<type>
-				<code value="Reference" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-immunization-recommendations" />
-			</type>
-		</element>
-		<element
-			id="Composition.section.entry:recommendations.reference">
-			<path value="Composition.section.entry.reference" />
-			<min value="1" />
-			<max value="1" />
-		</element>
-		<element id="Composition.section.section:recommendations">
-			<path value="Composition.section.section" />
-			<min value="0" />
-			<max value="0" />
-		</element>
-
-
-		<!-- ************************************************************************** -->
-		<!-- Section Card (Annotation) -->
-		<!-- ************************************************************************** -->
-		<!-- Section Annotation -->
-		<element id="Composition.section:annotation">
-			<path value="Composition.section" />
-			<sliceName value="annotation" />
-			<short value="Annotation" />
-			<min value="0" />
-			<max value="1" />
-		</element>
-		<element id="Composition.section.title:annotation">
-			<path value="Composition.section.title" />
-			<short
-				value="'Kommentar' in german or 'Commentaire' in french or 'Osservazione' in italian or 'Comment' in english
-                        or titles in other languages are also allowed" />
-			<min value="1" />
-			<max value="1" />
-		</element>
-		<element id="Composition.section.code:annotation">
-			<path value="Composition.section.code" />
-			<min value="1" />
-			<patternCodeableConcept>
-				<coding>
-					<system value="http://loinc.org" />
-					<code value="48767-8" />
-					<display value="Annotation comment Imp" />
-				</coding>
-			</patternCodeableConcept>
-		</element>
-		<element id="Composition.section.text:annotation">
-			<path value="Composition.section.text" />
-			<short value="Human readable text of this section" />
-			<min value="1" />
-			<max value="1" />
-		</element>
-		<element id="Composition.section.entry:annotation">
-			<path value="Composition.section.entry" />
-			<short value="General comments" />
-			<min value="0" />
-			<max value="0" />
-		</element>
-		<element id="Composition.section.entry:annotation.reference">
-			<path value="Composition.section.entry.reference" />
-			<min value="1" />
-			<max value="1" />
-		</element>
-		<element id="Composition.section.section:annotation">
-			<path value="Composition.section.section" />
-			<min value="0" />
-			<max value="0" />
-		</element>
 	</differential>
 </StructureDefinition>

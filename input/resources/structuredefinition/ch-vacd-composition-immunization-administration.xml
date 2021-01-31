@@ -56,6 +56,7 @@
 			<sliceName value="informationRecipient" />
 			<short
 				value="A recipient of this document (person or organization)" />
+			<min value="0" />
 		</element>
 		<element id="Composition.extension:dataEnterer">
 			<path value="Composition.extension" />
@@ -203,7 +204,7 @@
 				<coding>
 					<system value="http://loinc.org" />
 					<code value="11369-6" />
-					<display value="History of Immunization Narrative" />
+					<display value="Hx of Immunization" />
 				</coding>
 			</patternCodeableConcept>
 		</element>
@@ -273,6 +274,7 @@
 			id="Composition.section.entry:administration.reference">
 			<path value="Composition.section.entry.reference" />
 			<min value="1" />
+			<max value="1" />
 		</element>
 		<element id="Composition.section.section:administration">
 			<path value="Composition.section.section" />
@@ -322,6 +324,7 @@
 		<element id="Composition.section.entry:annotation.reference">
 			<path value="Composition.section.entry.reference" />
 			<min value="1" />
+			<max value="1" />
 		</element>
 		<element id="Composition.section.section:annotation">
 			<path value="Composition.section.section" />

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <dataset>
-	<disease SNOMED_CODE_PROCEDURE="0" NAME_DE="Andere Krankheit"
-		NAME_FR="Autre maladie" NAME_IT="Altra malattia"
-		NAME_EN="Other disease" />
+	<!-- <disease SNOMED_CODE_PROCEDURE="0" NAME_DE="Andere Krankheit" NAME_FR="Autre 
+		maladie" NAME_IT="Altra malattia" NAME_EN="Other disease" /> -->
 	<disease SNOMED_CODE_PROCEDURE="76668005" NAME_DE="Diphtherie"
 		NAME_FR="Diphtérie" NAME_IT="Difterite" NAME_EN="Diphtheria" />
 	<disease SNOMED_CODE_PROCEDURE="127786006" NAME_DE="Tetanus"
@@ -73,7 +72,7 @@
 	<disease SNOMED_CODE_PROCEDURE="314759000"
 		NAME_DE="Japanische Enzephalitis" NAME_FR="Encéphalite japonaise"
 		NAME_IT="Encefalite giapponese" NAME_EN="Japanese encephalitis" />
-	<disease SNOMED_CODE_PROCEDURE="840534001"
-		NAME_DE="COVID-19" NAME_FR="COVID-19"
-		NAME_IT="COVID-19" NAME_EN="Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)" />
+	<disease SNOMED_CODE_PROCEDURE="840534001" NAME_DE="COVID-19"
+		NAME_FR="COVID-19" NAME_IT="COVID-19"
+		NAME_EN="Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)" />
 </dataset>

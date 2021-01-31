@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ValueSet xmlns="http://hl7.org/fhir" xmlns:ihe="urn:ihe:iti:svs:2008">
+<ValueSet xmlns="http://hl7.org/fhir">
    <id value="ch-vacd-illnesses-undergone-for-immunizaion-vs"/>
    <meta>
       <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
@@ -31,7 +31,7 @@
    <description value="These are past illnesses which result in a natural immunization."/>
    <compose>
       <include>
-         <system value="urn:oid:2.16.840.1.113883.6.96"/>
+         <system value="http://snomed.info/sct"/>
          <concept>
             <code value="38907003"/>
             <display value="Varicella (disorder)"/>

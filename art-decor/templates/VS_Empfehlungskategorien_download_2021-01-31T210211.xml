@@ -1,0 +1,32 @@
+<valueSets xmlns="urn:ihe:iti:svs:2008">
+	<repository url="http://art-decor.org/decor/services/"
+		ident="ch-pcc-" referencedFrom="cdachvacd-">
+		<valueSet name="Empfehlungskategorien"
+			displayName="Recommendation-Categories for Immunizations"
+			id="2.16.756.5.30.1.127.11.4" effectiveDate="2017-06-12T14:21:51"
+			statusCode="draft">
+			<sourceCodeSystem id="2.16.756.5.30.1.127.3.3.4"
+				identifierName="Empfehlungskategorien"
+				canonicalUri="urn:oid:2.16.756.5.30.1.127.3.3.4"
+				canonicalUriDSTU2="urn:oid:2.16.756.5.30.1.127.3.3.4"
+				canonicalUriSTU3="urn:oid:2.16.756.5.30.1.127.3.3.4"
+				canonicalUriR4="urn:oid:2.16.756.5.30.1.127.3.3.4"></sourceCodeSystem>
+			<publishingAuthority name="eHealth Suisse">
+				<addrLine>Schwarzenburgstrasse 165</addrLine>
+				<addrLine>CH-3003 Bern</addrLine>
+				<addrLine type="uri">www.e-health-suisse.ch</addrLine>
+			</publishingAuthority>
+			<conceptList>
+				<concept code="41501" codeSystem="2.16.756.5.30.1.127.3.3.4"
+					displayName="Empfohlene Basisimpfungen" level="0" type="L"></concept>
+				<concept code="41502" codeSystem="2.16.756.5.30.1.127.3.3.4"
+					displayName="Empfohlene ergänzende Impfungen" level="0" type="L"></concept>
+				<concept code="41503" codeSystem="2.16.756.5.30.1.127.3.3.4"
+					displayName="Empfohlene Impfungen für Risikogruppen" level="0"
+					type="L"></concept>
+				<concept code="41504" codeSystem="2.16.756.5.30.1.127.3.3.4"
+					displayName="Impfungen ohne Empfehlungen" level="0" type="L"></concept>
+			</conceptList>
+		</valueSet>
+	</repository>
+</valueSets>
