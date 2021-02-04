@@ -4,7 +4,8 @@
 		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-response" />
 	<version value="0.1.0" />
 	<name value="CHVACDDocumentImmunizationRecommendationResponse" />
-	<title value="CH VACD Immunization Recommendation Response Document Profile" />
+	<title
+		value="CH VACD Immunization Recommendation Response Document Profile" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
@@ -19,7 +20,8 @@
 	<differential>
 		<element id="Bundle">
 			<path value="Bundle" />
-			<short value="CH VACD Immunization Recommendation Response Document" />
+			<short
+				value="CH VACD Immunization Recommendation Response Document" />
 		</element>
 		<element id="Bundle.identifier">
 			<path value="Bundle.identifier" />
@@ -66,6 +68,22 @@
 				<code value="Resource" />
 				<profile
 					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-recommendation-response" />
+			</type>
+		</element>
+		<element id="Bundle.entry:Patient">
+			<path value="Bundle.entry" />
+			<sliceName value="Patient" />
+			<short value="Immunization Recommendation Request Patient" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Bundle.entry:Composition.resource">
+			<path value="Bundle.entry.resource" />
+			<min value="1" />
+			<type>
+				<code value="Resource" />
+				<profile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient" />
 			</type>
 		</element>
 	</differential>

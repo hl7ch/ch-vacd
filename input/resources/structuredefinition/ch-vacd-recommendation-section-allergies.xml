@@ -1,15 +1,15 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-section-pastillnesses" />
+	<id value="ch-vacd-recommendation-section-allergies" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pastillnesses" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-allergies" />
 	<version value="0.1.0" />
-	<name value="CHVACDPastIllnessSection" />
-	<title value="CH VACD Past Illness Section Profile" />
+	<name value="CHVACDRecommendationsAllergiesSection" />
+	<title value="CH VACD Recommendations Allergies Section Profile" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
-		value="Definition of the past illness part for vaccination record documents" />
+		value="Definition of the Allergies part for immunization recommendation request and response documents" />
 	<mapping>
 		<identity value="cda" />
 		<uri value="http://hl7.org/v3/cda" />
@@ -19,40 +19,40 @@
 	<abstract value="false" />
 	<type value="Observation" />
 	<baseDefinition
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-observation" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-observation" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Observation">
 			<path value="Observation" />
-			<short value="CH VACD Past Illness Observations" />
+			<short value="CH VACD Allergie Observations" />
 		</element>
-		
+
 		<element id="Observation.code">
 			<path value="Observation.code" />
 			<short value="Observation code" />
 			<binding>
 				<extension
 					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-					<valueString value="PastIllnessesCode" />
+					<valueString value="AllergyCode" />
 				</extension>
 				<extension
 					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
 					<valueBoolean value="true" />
 				</extension>
 				<strength value="extensible" />
-				<description
-					value="The code for past illnesses for immunization." />
+				<description value="The code for allergy." />
 				<valueSet
-					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-illnesses-undergone-for-immunizaion-vs" />
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-allergies-immunizations-vs" />
 			</binding>
 			<mapping>
 				<identity value="cda" />
 				<map value=".code" />
 			</mapping>
 		</element>
-		<element id="Observation.valueDateTime">
-			<path value="Observation.valueDateTime" />
-			<short value="Observation.valueDateTime" />
+
+		<element id="Observation.valueBoolean">
+			<path value="Observation.valueBoolean" />
+			<short value="Observation.valueBoolean" />
 			<min value="1" />
 			<max value="1" />
 		</element>

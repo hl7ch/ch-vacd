@@ -1,20 +1,20 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-ImmunizationAdministration"></id>
    <meta>
-      <lastUpdated value="2021-01-31T23:09:53.763+01:00"></lastUpdated>
+      <lastUpdated value="2021-02-04T22:47:40.727+01:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:d84cc957-924d-4bad-987f-67909115b310"></value>
+      <value value="urn:uuid:09f851d7-c730-4322-8c2c-8a73374a0a19"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-01-31T23:09:53.726+01:00"></timestamp>
+   <timestamp value="2021-02-04T22:47:40.691+01:00"></timestamp>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Composition/b00c927a-f406-4c36-a957-21a20056e9c9"></fullUrl>
+      <fullUrl value="http://test.fhir.ch/r4/Composition/7eb7d477-b14e-4651-89d2-9547e8bace4b"></fullUrl>
       <resource>
          <Composition xmlns="http://hl7.org/fhir">
-            <id value="b00c927a-f406-4c36-a957-21a20056e9c9"></id>
+            <id value="7eb7d477-b14e-4651-89d2-9547e8bace4b"></id>
             <meta>
                <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-administration"></profile>
             </meta>
@@ -26,7 +26,7 @@
             <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
                <valueIdentifier>
                   <system value="urn:ietf:rfc:3986"></system>
-                  <value value="urn:uuid:d84cc957-924d-4bad-987f-67909115b310"></value>
+                  <value value="urn:uuid:09f851d7-c730-4322-8c2c-8a73374a0a19"></value>
                </valueIdentifier>
             </extension>
             <extension id="versionNumber" url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
@@ -34,7 +34,7 @@
             </extension>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.1.1.1"></system>
-               <value value="ab14b72e-6fd2-4d22-b62e-aa00b1a31e0a"></value>
+               <value value="cac57224-c09d-4b0d-9706-f4781e2ea381"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -47,7 +47,7 @@
             <subject>
                <reference value="Patient/patient1"></reference>
             </subject>
-            <date value="2021-01-31T23:09:53+01:00"></date>
+            <date value="2021-02-04T22:47:40+01:00"></date>
             <author>
                <reference value="Practitioner/practitioner1"></reference>
             </author>
@@ -98,6 +98,9 @@
       <resource>
          <Patient xmlns="http://hl7.org/fhir">
             <id value="patient1"></id>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"></profile>
+            </meta>
             <text>
                <status value="generated"></status>
                <div xmlns="http://www.w3.org/1999/xhtml">
@@ -230,8 +233,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2017-09-15T23:09:53+02:00"></occurrenceDateTime>
-            <recorded value="2017-09-15T23:09:53+02:00"></recorded>
+            <occurrenceDateTime value="2017-09-15T22:47:40+02:00"></occurrenceDateTime>
+            <recorded value="2017-09-15T22:47:40+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>

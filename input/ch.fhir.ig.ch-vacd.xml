@@ -116,6 +116,30 @@
 				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record" />
 		</resource>
 
+
+		<resource>
+			<reference>
+				<reference
+					value="Bundle/4-ImmunizationRecommendationRequest" />
+			</reference>
+			<name value="4 Immunization Recommendation Request" />
+			<description
+				value="Example for Bundle Immunization Recommendation Request" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-request" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="Bundle/5-ImmunizationRecommendationResponse" />
+			</reference>
+			<name value="5 Immunization Recommendation Response" />
+			<description
+				value="Example for Bundle Immunization Recommendation Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-response" />
+		</resource>
+
 		<!-- References to structure definitions -->
 		<!-- documents -->
 		<resource>
@@ -191,6 +215,87 @@
 			<exampleBoolean value="false" />
 		</resource>
 
+		<!-- sections recommendations -->
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-address" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-observation" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-patient" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-practitioner" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-section-allergies" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-section-immunization" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-section-immunization-recommendations" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-section-laboratory-serology" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-section-medical-problems" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-section-pastillnesses" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-section-pregnancy" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+
 		<!-- sections -->
 		<resource>
 			<reference>
@@ -231,6 +336,13 @@
 		<resource>
 			<reference>
 				<reference
+					value="StructureDefinition/ch-vacd-section-observation" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
 					value="StructureDefinition/ch-vacd-section-pastillnesses" />
 			</reference>
 			<exampleBoolean value="false" />
@@ -242,6 +354,7 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
+
 
 
 		<!-- value sets -->

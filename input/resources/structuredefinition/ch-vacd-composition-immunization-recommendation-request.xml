@@ -4,7 +4,8 @@
 		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-recommendation-request" />
 	<version value="0.1.0" />
 	<name value="CHVACDCompositionImmunizationRecommendationRequest" />
-	<title value="CH VACD Immunization Recommendation Request Composition Profile" />
+	<title
+		value="CH VACD Immunization Recommendation Request Composition Profile" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
@@ -19,52 +20,14 @@
 	<abstract value="false" />
 	<type value="Composition" />
 	<baseDefinition
-		value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-epr" />
+		value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Composition">
 			<path value="Composition" />
-			<short value="CH VACD Immunization Recommendation Request Composition" />
-		</element>
-		<element id="Composition.language">
-			<path value="Composition.language" />
-			<short value="Language of the document" />
-		</element>
-		<element id="Composition.extension">
-			<path value="Composition.extension" />
-			<slicing>
-				<discriminator>
-					<type value="value" />
-					<path value="url" />
-				</discriminator>
-				<rules value="open" />
-			</slicing>
-		</element>
-		<element id="Composition.extension:setId">
-			<path value="Composition.extension" />
-			<sliceName value="setId" />
-			<short value="Set ID" />
-		</element>
-		<element id="Composition.extension:versionNumber">
-			<path value="Composition.extension" />
-			<sliceName value="versionNumber" />
-			<short value="Version number" />
-		</element>
-		<element id="Composition.extension:informationRecipient">
-			<path value="Composition.extension" />
-			<sliceName value="informationRecipient" />
 			<short
-				value="A recipient of this document (person or organization)" />
-			<min value="0" />
+				value="CH VACD Immunization Recommendation Request Composition" />
 		</element>
-		<element id="Composition.extension:dataEnterer">
-			<path value="Composition.extension" />
-			<sliceName value="dataEnterer" />
-			<short
-				value="Person who entered information into this document if it is a person other than the author" />
-			<min value="0" />
-		</element>
-
 		<element id="Composition.identifier.system">
 			<path value="Composition.identifier.system" />
 		</element>
@@ -90,6 +53,11 @@
 			<path value="Composition.subject" />
 			<short
 				value="A patient for whom this document instance was created" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient" />
+			</type>
 		</element>
 		<element id="Composition.subject.reference">
 			<path value="Composition.subject.reference" />
@@ -100,17 +68,10 @@
 		</element>
 		<element id="Composition.author">
 			<path value="Composition.author" />
-			<short value="The author of the document (person or device)" />
-		</element>
-		<element id="Composition.author.extension">
-			<path value="Composition.author.extension" />
-			<short value="Timestamp of the authorship/data input" />
-			<min value="0" />
-			<max value="1" />
 			<type>
-				<code value="Extension" />
-				<profile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
 			</type>
 		</element>
 		<element id="Composition.author.reference">
@@ -119,28 +80,13 @@
 		<element id="Composition.title">
 			<path value="Composition.title" />
 			<short
-				value="'Impfausweis' in german or 'Carnet de vaccination' in french or 'Certificato di vaccinazione' in italian or 'Immunization Certificate' in english
+				value="'Anfrage Impfempfehlung' in german or 'Demander une recommandation de vaccination' in french or 'Richiedi una raccomandazione per la vaccinazione' in italian or 'Request vaccination recommendation' in english
                         or titles in other languages are also allowed" />
 		</element>
 		<element id="Composition.confidentiality">
 			<path value="Composition.confidentiality" />
-		</element>
-		<element id="Composition.confidentiality.extension">
-			<path value="Composition.confidentiality.extension" />
-			<slicing>
-				<discriminator>
-					<type value="value" />
-					<path value="url" />
-				</discriminator>
-				<rules value="open" />
-			</slicing>
-		</element>
-		<element
-			id="Composition.confidentiality.extension:confidentialityCode">
-			<path value="Composition.confidentiality.extension" />
-			<sliceName value="confidentialityCode" />
-			<short
-				value="Swiss realm of confidentiality code according to the Swiss EPR regulation" />
+			<min value="0" />
+			<max value="0" />
 		</element>
 		<element id="Composition.attester">
 			<path value="Composition.attester" />
@@ -243,17 +189,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
-				<targetProfile
-					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
 			</type>
 		</element>
 		<element
@@ -293,7 +233,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-immunization" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-immunization" />
 			</type>
 		</element>
 		<element
@@ -361,17 +301,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
-				<targetProfile
-					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
 			</type>
 		</element>
 		<element
@@ -411,7 +345,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-medical-problems" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-medical-problems" />
 			</type>
 		</element>
 		<element
@@ -478,17 +412,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
-				<targetProfile
-					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
 			</type>
 		</element>
 		<element
@@ -512,7 +440,8 @@
 		<element
 			id="Composition.section:pastillnesses.author.reference">
 			<path value="Composition.section.author.reference" />
-			<min value="1" />
+			<min value="0" />
+			<max value="0" />
 		</element>
 		<element id="Composition.section.text:pastillnesses">
 			<path value="Composition.section.text" />
@@ -528,7 +457,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pastillnesses" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-pastillnesses" />
 			</type>
 		</element>
 		<element
@@ -597,17 +526,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
-				<targetProfile
-					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
 			</type>
 		</element>
 		<element id="Composition.section:allergies.author.extension">
@@ -645,7 +568,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-allergies" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-allergies" />
 			</type>
 		</element>
 		<element id="Composition.section.entry:allergies.reference">
@@ -711,17 +634,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
-				<targetProfile
-					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
 			</type>
 		</element>
 		<element
@@ -828,17 +745,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
-				<targetProfile
-					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
 			</type>
 		</element>
 		<element id="Composition.section:pregnancy.author.extension">

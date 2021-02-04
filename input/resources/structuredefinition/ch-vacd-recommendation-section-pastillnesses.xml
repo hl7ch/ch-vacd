@@ -1,7 +1,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-section-pastillnesses" />
+	<id value="ch-vacd-recommendation-section-pastillnesses" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pastillnesses" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-pastillnesses" />
 	<version value="0.1.0" />
 	<name value="CHVACDPastIllnessSection" />
 	<title value="CH VACD Past Illness Section Profile" />
@@ -9,7 +9,7 @@
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
-		value="Definition of the past illness part for vaccination record documents" />
+		value="Definition of the past illness part for immunization recommendation request and response documents" />
 	<mapping>
 		<identity value="cda" />
 		<uri value="http://hl7.org/v3/cda" />
@@ -19,7 +19,7 @@
 	<abstract value="false" />
 	<type value="Observation" />
 	<baseDefinition
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-observation" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-observation" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Observation">

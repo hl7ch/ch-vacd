@@ -68,5 +68,21 @@
 					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-recommendation-request" />
 			</type>
 		</element>
+		<element id="Bundle.entry:Patient">
+			<path value="Bundle.entry" />
+			<sliceName value="Patient" />
+			<short value="Immunization Recommendation Request Patient" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Bundle.entry:Composition.resource">
+			<path value="Bundle.entry.resource" />
+			<min value="1" />
+			<type>
+				<code value="Resource" />
+				<profile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient" />
+			</type>
+		</element>
 	</differential>
 </StructureDefinition>

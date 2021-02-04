@@ -9,7 +9,7 @@
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
-		value="Definition of the labor and serology part for vaccination record documents" />
+		value="Definition of the labor and serology part for vaccination record and immunization recommendation request and response documents" />
 	<mapping>
 		<identity value="cda" />
 		<uri value="http://hl7.org/v3/cda" />
@@ -19,14 +19,37 @@
 	<abstract value="false" />
 	<type value="Observation" />
 	<baseDefinition
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-observation" />
+		value="http://hl7.org/fhir/StructureDefinition/Observation" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Observation">
 			<path value="Observation" />
 			<short value="CH VACD Allergie Observations" />
 		</element>
-		
+		<element id="Observation.extension">
+			<path value="Observation.extension" />
+			<slicing>
+				<discriminator>
+					<type value="value" />
+					<path value="url" />
+				</discriminator>
+				<rules value="open" />
+			</slicing>
+		</element>
+		<element id="Observation.identifier">
+			<path value="Observation.identifier" />
+			<short value="Observation item ID" />
+			<mapping>
+				<identity value="cda" />
+				<map value=".id" />
+			</mapping>
+		</element>
+		<element id="Observation.identifier.system">
+			<path value="Observation.identifier.system" />
+		</element>
+		<element id="Observation.identifier.value">
+			<path value="Observation.identifier.value" />
+		</element>
 		<element id="Observation.code">
 			<path value="Observation.code" />
 			<short value="Observation code" />

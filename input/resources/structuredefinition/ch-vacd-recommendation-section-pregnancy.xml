@@ -1,7 +1,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-section-pregnancy" />
+	<id value="ch-vacd-recommendation-section-pregnancy" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pregnancy" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-pregnancy" />
 	<version value="0.1.0" />
 	<name value="CHVACDPregnancySection" />
 	<title value="CH VACD Pregnancy Section Profile" />
@@ -19,7 +19,7 @@
 	<abstract value="false" />
 	<type value="Observation" />
 	<baseDefinition
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-observation" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-observation" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Observation">
@@ -30,6 +30,7 @@
 		<element id="Observation.code">
 			<path value="Observation.code" />
 			<short value="Observation code" />
+
 			<patternCodeableConcept>
 				<coding>
 					<system value="http://loinc.org" />
