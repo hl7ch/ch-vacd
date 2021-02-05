@@ -1,15 +1,15 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="4-ImmunizationRecommendationRequest"></id>
    <meta>
-      <lastUpdated value="2021-02-04T22:47:18.025+01:00"></lastUpdated>
+      <lastUpdated value="2021-02-05T07:42:05.170+01:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-request"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:a25181dd-1b01-484c-b579-bf75c6bba3e9"></value>
+      <value value="urn:uuid:f649892e-a903-4d37-bff6-5cb0a22bc290"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-02-04T22:47:18.002+01:00"></timestamp>
+   <timestamp value="2021-02-05T07:42:05.152+01:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/ch-vacd-document-vaccination-record"></fullUrl>
       <resource>
@@ -23,18 +23,9 @@
                <status value="generated"></status>
                <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">This is the composition vaccination record.</div>
             </text>
-            <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
-               <valueIdentifier>
-                  <system value="urn:ietf:rfc:3986"></system>
-                  <value value="urn:uuid:a25181dd-1b01-484c-b579-bf75c6bba3e9"></value>
-               </valueIdentifier>
-            </extension>
-            <extension id="versionNumber" url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
-               <valueUnsignedInt value="1"></valueUnsignedInt>
-            </extension>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.1.1.1"></system>
-               <value value="058a56b6-91f3-4566-babe-f7f4b756d792"></value>
+               <value value="ad3c8abc-d6f3-47fa-bca3-9142b382a646"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -47,22 +38,11 @@
             <subject>
                <reference value="Patient/patient1"></reference>
             </subject>
-            <date value="2021-02-04T22:47:18+01:00"></date>
+            <date value="2021-02-05T07:42:05+01:00"></date>
             <author>
                <reference value="Practitioner/practitioner1"></reference>
             </author>
             <title value="Vaccination Record"></title>
-            <confidentiality value="N">
-               <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode">
-                  <valueCodeableConcept>
-                     <coding>
-                        <system value="http://snomed.info/sct"></system>
-                        <code value="17621005"></code>
-                        <display value="Normal (qualifier value)"></display>
-                     </coding>
-                  </valueCodeableConcept>
-               </extension>
-            </confidentiality>
             <custodian>
                <reference value="Organization/organization1"></reference>
             </custodian>
@@ -201,7 +181,7 @@
                      <tbody>
                         <tr>
                            <td>Identifier</td>
-                           <td>322f02bd-6a54-425b-a677-1a459d3db20b</td>
+                           <td>effd39f1-e9a8-4f1a-a1bc-19bf6f158c29</td>
                         </tr>
                         <tr>
                            <td>Address</td>
@@ -219,7 +199,7 @@
             </text>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.1"></system>
-               <value value="322f02bd-6a54-425b-a677-1a459d3db20b"></value>
+               <value value="effd39f1-e9a8-4f1a-a1bc-19bf6f158c29"></value>
             </identifier>
             <gender value="female"></gender>
             <birthDate value="1943-06-15"></birthDate>
@@ -319,8 +299,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T22:47:17+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T22:47:17+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T07:42:05+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T07:42:05+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -384,8 +364,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T22:47:17+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T22:47:17+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T07:42:05+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T07:42:05+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -449,8 +429,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T22:47:17+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T22:47:17+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T07:42:05+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T07:42:05+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -514,8 +494,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T22:47:17+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T22:47:17+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T07:42:05+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T07:42:05+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -562,7 +542,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="medicalRiskObservation1"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-medical-problems"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-medical-problems"></profile>
             </meta>
             <status value="final"></status>
             <code>
@@ -594,7 +574,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="medicalRiskObservation2"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-medical-problems"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-medical-problems"></profile>
             </meta>
             <status value="final"></status>
             <code>
@@ -626,7 +606,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="pastIllnessObservation1"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pastillnesses"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-pastillnesses"></profile>
             </meta>
             <status value="final"></status>
             <code>
@@ -652,7 +632,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="allergyObservation1"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-allergies"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-allergies"></profile>
             </meta>
             <status value="final"></status>
             <code>
@@ -678,7 +658,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="allergyObservation2"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-allergies"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-allergies"></profile>
             </meta>
             <status value="final"></status>
             <code>
@@ -704,7 +684,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="labObservation1"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-laboratory-serology"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-laboratory-serology"></profile>
             </meta>
             <text>
                <status value="generated"></status>
@@ -747,7 +727,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="pregnancyObservation1"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pregnancy"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-pregnancy"></profile>
             </meta>
             <status value="final"></status>
             <code>

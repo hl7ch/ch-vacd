@@ -1,15 +1,15 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="3-VaccinationRecord"></id>
    <meta>
-      <lastUpdated value="2021-02-04T22:47:33.017+01:00"></lastUpdated>
+      <lastUpdated value="2021-02-05T07:42:15.807+01:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:8b2b2a21-252f-4b10-9d30-e432492e640f"></value>
+      <value value="urn:uuid:ca20ca9e-c4d2-4fbc-af1f-09179166132b"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-02-04T22:47:32.997+01:00"></timestamp>
+   <timestamp value="2021-02-05T07:42:15.788+01:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/ch-vacd-document-vaccination-record"></fullUrl>
       <resource>
@@ -26,7 +26,7 @@
             <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
                <valueIdentifier>
                   <system value="urn:ietf:rfc:3986"></system>
-                  <value value="urn:uuid:8b2b2a21-252f-4b10-9d30-e432492e640f"></value>
+                  <value value="urn:uuid:ca20ca9e-c4d2-4fbc-af1f-09179166132b"></value>
                </valueIdentifier>
             </extension>
             <extension id="versionNumber" url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
@@ -34,7 +34,7 @@
             </extension>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.1.1.1"></system>
-               <value value="cea0c0ec-c96e-464c-9bfe-966cc58edf32"></value>
+               <value value="c6c79499-de42-42c3-a971-ace3467673dd"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -47,7 +47,7 @@
             <subject>
                <reference value="Patient/patient1"></reference>
             </subject>
-            <date value="2021-02-04T22:47:33+01:00"></date>
+            <date value="2021-02-05T07:42:15+01:00"></date>
             <author>
                <reference value="Practitioner/practitioner1"></reference>
             </author>
@@ -373,8 +373,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T22:47:32+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T22:47:32+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T07:42:15+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T07:42:15+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -438,8 +438,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T22:47:32+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T22:47:32+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T07:42:15+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T07:42:15+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -503,8 +503,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T22:47:32+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T22:47:32+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T07:42:15+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T07:42:15+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -568,8 +568,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T22:47:32+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T22:47:32+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T07:42:15+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T07:42:15+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -836,7 +836,7 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <date value="2021-02-04T22:47:33+01:00"></date>
+            <date value="2021-02-05T07:42:15+01:00"></date>
             <recommendation>
                <vaccineCode>
                   <coding>
@@ -885,7 +885,7 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <date value="2021-02-04T22:47:33+01:00"></date>
+            <date value="2021-02-05T07:42:15+01:00"></date>
             <recommendation>
                <vaccineCode>
                   <coding>
