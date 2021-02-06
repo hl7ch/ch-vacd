@@ -3,8 +3,8 @@
 	<url
 		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-pastillnesses" />
 	<version value="0.1.0" />
-	<name value="CHVACDPastIllnessSection" />
-	<title value="CH VACD Past Illness Section Profile" />
+	<name value="CHVACDRecommendationPastIllnessSection" />
+	<title value="CH VACD Recommendation Past Illness Section Profile" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />

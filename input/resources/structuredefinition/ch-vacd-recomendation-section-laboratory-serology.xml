@@ -3,8 +3,8 @@
 	<url
 		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-laboratory-serology" />
 	<version value="0.1.0" />
-	<name value="CHVACDLaboratorySerologySection" />
-	<title value="CH VACD Laboratory And Serology Section Profile" />
+	<name value="CHVACDRecommendationLaboratorySerologySection" />
+	<title value="CH VACD Recommendation Laboratory And Serology Section Profile" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
