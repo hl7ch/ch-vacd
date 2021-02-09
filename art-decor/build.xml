@@ -42,6 +42,7 @@
 			<param name="codeSystem" value="${codeSystem}" />
 			<param name="name" value="${name}" />
 			<param name="title" value="${title}" />
+			<param name="description" value="${description}" />
 		</antcall>
 		<!-- stupid  nfhir: prefix due to xslt -->
 		<replace file="output/${resourceId}.xml" token="fhir:" value="" />
@@ -123,7 +124,7 @@
 			<param name="identifierValue" value="old-vaccines" />
 			<param name="name" value="OldSwissVaccinesCodesystem" />
 			<param name="title" value="Old Swiss Vaccines Codesystem" />
-			<param name="description" value="Old vaccines earlier available in Switzerland." />
+			<param name="description" value="Old vaccines codes earlier available in Switzerland." />
 			<param name="xsl" value="convertDatasetToCodesystem.xsl" />
 			<param name="in" value="templates/myvaccines_vaccines_old_dataset.xml" />
 			<param name="out" value="output/ch-vacd-myvaccines-cs.xml" />
@@ -185,6 +186,7 @@
 		<antcall target="xslt">
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-illnesses-undergone-for-immunizaion-vs" />
+			<param name="description" value="Possible illnesses undergone for immunization codes." />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
 			<param name="in" value="templates/VS_IllnessesUndergoneForImmunization_download_2021-01-22T222316.xml" />
 			<param name="out" value="output/ch-vacd-illnesses-undergone-for-immunizaion-vs.xml" />
@@ -197,6 +199,7 @@
 		<antcall target="xslt">
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-pregnancy-observation-vs" />
+			<param name="description" value="The observation code for pregnancy delivery date." />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
 			<param name="in" value="templates/VS_PregnancyObservationCodes_download_2021-01-22T222132.xml" />
 			<param name="out" value="output/ch-vacd-pregnancy-observation-vs.xml" />
@@ -209,6 +212,7 @@
 		<antcall target="xslt">
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-route-of-administration-vs" />
+			<param name="description" value="The route of administration codes." />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
 			<param name="in" value="templates/VS_RouteOfAdministrationImmunization_download_2021-01-22T222221.xml" />
 			<param name="out" value="output/ch-vacd-route-of-administration-vs.xml" />
@@ -221,6 +225,7 @@
 		<antcall target="xslt">
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-special-case-problems-vs" />
+			<param name="description" value="Special case problem codes." />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
 			<param name="in" value="templates/VS_SpecialCaseProblems_download_2021-01-22T222247.xml" />
 			<param name="out" value="output/ch-vacd-special-case-problems-vs.xml" />
@@ -234,6 +239,7 @@
 		<antcall target="xslt">
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-complication-risks-vs" />
+			<param name="description" value="The medical risks." />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
 			<param name="in" value="templates/VS_SwissVaccinationPlanComplicationRisks_download_2021-01-22T223958.xml" />
 			<param name="out" value="output/risks_intermediat1.xml" />
@@ -248,6 +254,7 @@
 		<antcall target="xslt">
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-exposure-risks-vs" />
+			<param name="description" value="The exposition risks." />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
 			<param name="in" value="templates/VS_SwissVaccinationPlanExposureRisks_download_2021-01-22T224125.xml" />
 			<param name="out" value="output/risks_intermediat2.xml" />
@@ -287,7 +294,7 @@
 			<param name="codeSystem" value="urn:oid:2.16.756.5.30.1.127.3.3.2" />
 			<param name="name" value="SwissComplicationRisksCodesystem" />
 			<param name="title" value="Swiss Exposure Risks Codesystem" />
-			<param name="description" value="Exposure risks available in Switzerland." />
+			<param name="description" value="Exposure risks codes available in Switzerland." />
 			<param name="xsl" value="convertValueSetToCodeSystem.xsl" />
 			<param name="in" value="output/risks_intermediat2.xml" />
 			<param name="out" value="output/ch-vacd-exposure-risks-cs.xml" />
@@ -317,6 +324,7 @@
 		<antcall target="xslt">
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-recommendation-categories-vs" />
+			<param name="description" value="Recommendation categories." />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
 			<param name="in" value="templates/VS_Empfehlungskategorien_download_2021-01-31T210211.xml" />
 			<param name="out" value="output/ch-vacd-recommendation-categories-vs.xml" />
@@ -352,6 +360,7 @@
 		<antcall target="xslt">
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-ch-vaccination-plan-immunizations-vs" />
+			<param name="description" value="Immunization Recommendation Categories available in Switzerland." />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
 			<param name="in" value="templates/VS_SwissVaccinationPlanImmunizations_download_2021-01-23T163723.xml" />
 			<param name="out" value="output/ch-vacd-ch-vaccination-plan-immunizations-vs.xml" />
@@ -364,6 +373,7 @@
 		<antcall target="xslt">
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-allergies-immunizations-vs" />
+			<param name="description" value="The allergies which have an influence on the immunization recommendations." />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
 			<param name="in" value="templates/VS_AllergiesForEvacdoc_download_2021-01-29T211546.xml" />
 			<param name="out" value="output/ch-vacd-allergies-immunizations-vs.xml" />

@@ -10,7 +10,7 @@
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
-		value="Definition of the composition for the vaccination record document" />
+		value="Definition of the composition for the immunization recommendation response document." />
 	<mapping>
 		<identity value="cda" />
 		<uri value="http://hl7.org/v3/cda" />

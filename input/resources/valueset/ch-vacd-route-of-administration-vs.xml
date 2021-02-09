@@ -28,7 +28,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="To be defined."/>
+   <description value="The route of administration codes."/>
    <compose>
       <include>
          <system value="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"/>

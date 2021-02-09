@@ -28,7 +28,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="To be defined."/>
+   <description value="Special case problem codes."/>
    <compose>
       <include>
          <system value="http://snomed.info/sct"/>

@@ -6,6 +6,7 @@
 
 	<xsl:param name="templateId" required="yes" />
 	<xsl:param name="systemUrl" required="yes" />
+	<xsl:param name="description" required="no" />
 
 	<xsl:template match="ihe:valueSets">
 		<xsl:apply-templates select="ihe:repository" />
@@ -86,7 +87,7 @@
 							select="normalize-space(ihe:desc[@language = 'en-US']/ihe:span[@lang = 'EN-GB']/.)" /></xsl:attribute>
 					</xsl:when>
 					<xsl:otherwise>
-						<xsl:attribute name="value">To be defined.</xsl:attribute>
+						<xsl:attribute name="value"><xsl:value-of select="$description" /></xsl:attribute>
 					</xsl:otherwise>
 				</xsl:choose>
 			</description>

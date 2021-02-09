@@ -28,7 +28,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Old vaccines earlier available in Switzerland."/>
+   <description value="Old vaccines codes earlier available in Switzerland."/>
    <content value="complete"/>
    <concept>
       <code value="14"/>
