@@ -1,0 +1,56 @@
+<Patient xmlns="http://hl7.org/fhir">
+	<id value="patient1"></id>
+	<meta>
+		<profile
+			value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"></profile>
+	</meta>
+	<text>
+		<status value="generated"></status>
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<div class="hapiHeaderText">
+				Monika
+				<b>WEGMUELLER </b>
+			</div>
+			<table class="hapiPropertyTable">
+				<tbody>
+					<tr>
+						<td>Identifier</td>
+						<td>1477284956984000</td>
+					</tr>
+					<tr>
+						<td>Address</td>
+						<td>
+							<span>Wiesenstr. 12 </span>
+							<br></br>
+							<span>Zürich </span>
+							<span>CH </span>
+						</td>
+					</tr>
+					<tr>
+						<td>Date of birth</td>
+						<td>
+							<span>15 June 1943</span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</text>
+	<identifier>
+		<system value="urn:oid:2.16.756.5.30.1.147.1.1"></system>
+		<value value="1477284956984000"></value>
+	</identifier>
+	<name>
+		<family value="Wegmueller"></family>
+		<given value="Monika"></given>
+	</name>
+	<gender value="female"></gender>
+	<birthDate value="1943-06-15"></birthDate>
+	<address>
+		<type value="both"></type>
+		<line value="Wiesenstr. 12"></line>
+		<city value="Zürich"></city>
+		<postalCode value="8003"></postalCode>
+		<country value="CH"></country>
+	</address>
+</Patient>
