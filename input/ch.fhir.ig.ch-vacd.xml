@@ -378,6 +378,7 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
+				<!-- 
 		<resource>
 			<reference>
 				<reference
@@ -385,12 +386,14 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
+
 		<resource>
 			<reference>
 				<reference value="ValueSet/ch-vacd-reason-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
+		 -->
 		<resource>
 			<reference>
 				<reference
