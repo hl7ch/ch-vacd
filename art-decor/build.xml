@@ -194,6 +194,7 @@
 		<replace file="output/ch-vacd-illnesses-undergone-for-immunizaion-vs.xml" token=" xmlns:ihe=&quot;urn:ihe:iti:svs:2008&quot;" value="" />
 	</target>
 
+	<!--
 	<target name="transformPregnancyObservation" depends="init">
 		<delete file="output/ch-vacd-pregnancy-observation-vs.xml" failonerror="false" />
 		<antcall target="xslt">
@@ -206,7 +207,8 @@
 		</antcall>
 		<replace file="output/ch-vacd-pregnancy-observation-vs.xml" token=" xmlns:ihe=&quot;urn:ihe:iti:svs:2008&quot;" value="" />
 	</target>
-
+	-->
+	
 	<target name="transformRouteOfAdministration" depends="init">
 		<delete file="output/ch-vacd-route-of-administration-vs.xml" failonerror="false" />
 		<antcall target="xslt">
@@ -387,7 +389,7 @@
 		<antcall target="transformVaccines" />
 		<antcall target="transformDisease" />
 		<antcall target="transformIllnessesUndergone" />
-		<antcall target="transformPregnancyObservation" />
+		<!-- <antcall target="transformPregnancyObservation" /> -->
 		<antcall target="transformRouteOfAdministration" />
 		<antcall target="transformSpecialCaseProblems" />
 		<antcall target="transformRisks" />

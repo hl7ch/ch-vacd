@@ -378,22 +378,7 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-				<!-- 
-		<resource>
-			<reference>
-				<reference
-					value="ValueSet/ch-vacd-pregnancy-observation-vs" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
 
-		<resource>
-			<reference>
-				<reference value="ValueSet/ch-vacd-reason-vs" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		 -->
 		<resource>
 			<reference>
 				<reference
