@@ -283,6 +283,13 @@
 		<resource>
 			<reference>
 				<reference
+					value="StructureDefinition/ch-vacd-recommendation-section-other-observations" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
 					value="StructureDefinition/ch-vacd-recommendation-section-pastillnesses" />
 			</reference>
 			<exampleBoolean value="false" />
@@ -340,6 +347,15 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
+		
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-section-other-observations" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		
 		<resource>
 			<reference>
 				<reference

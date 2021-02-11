@@ -9,6 +9,7 @@
 	<xsl:param name="codeSystem" required="yes" />
 	<xsl:param name="name" required="yes" />
 	<xsl:param name="title" required="yes" />
+	<xsl:param name="description" required="yes" />
 
 	<xsl:variable name="system"
 		select="concat('urn:oid:',$codeSystem)" />
@@ -68,8 +69,7 @@
 					<value value="www.e-health-suisse.ch" />
 				</telecom>
 			</contact>
-			<description
-				value="Old vaccines earlier available in Switzerland." />
+			<description><xsl:attribute name="value"><xsl:value-of select="$description" /></xsl:attribute></description>
 			<content value="complete" />
 			<xsl:apply-templates select="fhir:compose" />
 		</CodeSystem>

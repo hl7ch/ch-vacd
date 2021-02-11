@@ -1,15 +1,15 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="5-ImmunizationRecommendationResponse"></id>
    <meta>
-      <lastUpdated value="2021-02-05T07:41:58.513+01:00"></lastUpdated>
+      <lastUpdated value="2021-02-11T23:48:09.593+01:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-response"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:32f6db3a-a482-4c5d-b6b6-a705c4c71cf2"></value>
+      <value value="urn:uuid:1824c4c9-f9fc-4175-8d87-2ba797a91533"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-02-05T07:41:58.493+01:00"></timestamp>
+   <timestamp value="2021-02-11T23:48:09.576+01:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/ch-vacd-document-vaccination-record"></fullUrl>
       <resource>
@@ -25,7 +25,7 @@
             </text>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.1.1.1"></system>
-               <value value="a2d87405-64c1-486e-9de8-99364e685299"></value>
+               <value value="36f100de-9662-432a-b380-604bf7e69134"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -38,7 +38,7 @@
             <subject>
                <reference value="Patient/patient1"></reference>
             </subject>
-            <date value="2021-02-05T07:41:58+01:00"></date>
+            <date value="2021-02-11T23:48:09+01:00"></date>
             <author>
                <reference value="Practitioner/practitioner1"></reference>
             </author>
@@ -201,7 +201,7 @@
                      <tbody>
                         <tr>
                            <td>Identifier</td>
-                           <td>5c50667b-3aaa-4fc6-a6f2-64dd71042bc6</td>
+                           <td>b3c7fc35-dd9c-4198-b63c-91af7218a65d</td>
                         </tr>
                         <tr>
                            <td>Address</td>
@@ -210,7 +210,7 @@
                         <tr>
                            <td>Date of birth</td>
                            <td>
-                              <span>15 June 1943</span>
+                              <span>10 March 1967</span>
                            </td>
                         </tr>
                      </tbody>
@@ -219,12 +219,12 @@
             </text>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.1"></system>
-               <value value="5c50667b-3aaa-4fc6-a6f2-64dd71042bc6"></value>
+               <value value="b3c7fc35-dd9c-4198-b63c-91af7218a65d"></value>
             </identifier>
             <gender value="female"></gender>
-            <birthDate value="1943-06-15"></birthDate>
+            <birthDate value="1967-03-10"></birthDate>
             <address>
-               <postalCode value="8003"></postalCode>
+               <postalCode value="9876"></postalCode>
             </address>
          </Patient>
       </resource>
@@ -319,8 +319,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T07:41:58+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T07:41:58+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T23:48:09+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T23:48:09+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -384,8 +384,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T07:41:58+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T07:41:58+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T23:48:09+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T23:48:09+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -449,8 +449,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T07:41:58+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T07:41:58+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T23:48:09+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T23:48:09+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -514,8 +514,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T07:41:58+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T07:41:58+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T23:48:09+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T23:48:09+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -782,7 +782,7 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <date value="2021-02-05T07:41:58+01:00"></date>
+            <date value="2021-02-11T23:48:09+01:00"></date>
             <recommendation>
                <vaccineCode>
                   <coding>
@@ -831,7 +831,7 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <date value="2021-02-05T07:41:58+01:00"></date>
+            <date value="2021-02-11T23:48:09+01:00"></date>
             <recommendation>
                <vaccineCode>
                   <coding>

@@ -9,7 +9,7 @@
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
-		value="Definition of the pregnancy part for vaccination record documents" />
+		value="Definition of the pregnancy part for immunization recommendation request and response documents." />
 	<mapping>
 		<identity value="cda" />
 		<uri value="http://hl7.org/v3/cda" />

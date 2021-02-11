@@ -42,7 +42,7 @@
 					<value value="www.e-health-suisse.ch" />
 				</telecom>
 			</contact>
-			<description value="The risks used in switzerland." />
+			<description value="The medical and exposision risks used in Switzerland." />
 			<compose>
 
 				<xsl:comment>

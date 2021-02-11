@@ -581,6 +581,115 @@
 			<min value="0" />
 			<max value="0" />
 		</element>
+		
+		
+		<!-- ************************************************************************** -->
+		<!-- Section Card (Other Relevant Observatons) -->
+		<!-- ************************************************************************** -->
+		<element id="Composition.section:otherrelevantobservations">
+			<path value="Composition.section" />
+			<sliceName value="otherrelevantobservations" />
+			<short value="OtherRelevantObservatons" />
+			<min value="0" />
+			<max value="1" />
+		</element>
+		<!-- Extension for Section-ID -->
+		<element id="Composition.section.extension">
+			<path value="Composition.section.extension" />
+			<slicing>
+				<discriminator>
+					<type value="value" />
+					<path value="url" />
+				</discriminator>
+				<rules value="open" />
+			</slicing>
+		</element>
+		<element id="Composition.section.extension:sectionId">
+			<path value="Composition.section.extension" />
+			<sliceName value="sectionId" />
+		</element>
+		<element id="Composition.section.title:otherrelevantobservations">
+			<path value="Composition.section.title" />
+			<short
+				value="'Weiter relevante Beobachtungen' in german or 'Autres observations pertinentes' in french or 'Altre osservazioni rilevanti' in italian or 'Other Relevant Observations' in english
+                        or titles in other languages are also allowed" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Composition.section.code:otherrelevantobservations">
+			<path value="Composition.section.code" />
+			<min value="1" />
+			<patternCodeableConcept>
+				<coding>
+					<system value="http://loinc.org" />
+					<code value="30954-2" />
+					<display value="Relevant diagnostic tests/laboratory data Narrative" />
+				</coding>
+			</patternCodeableConcept>
+		</element>
+		<!-- Author of the section -->
+		<element id="Composition.section.author:otherrelevantobservations">
+			<path value="Composition.section.author" />
+			<short
+				value="The author of the section (person or device) if different from the author/timestamp of the document" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+				<targetProfile
+					value="http://hl7.org/fhir/StructureDefinition/Device" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
+			</type>
+		</element>
+		<element id="Composition.section:otherrelevantobservations.author.extension">
+			<path value="Composition.section.author.extension" />
+			<short value="Timestamp of the authorship/data input" />
+			<!-- CDA-spec: author.time 1..1, here 0..1 to allow the representedOrganization 
+				to be validly mapped as composition.author -->
+			<min value="0" />
+			<max value="1" />
+			<type>
+				<code value="Extension" />
+				<profile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
+			</type>
+			<mapping>
+				<identity value="cda" />
+				<map value=".author.time" />
+			</mapping>
+		</element>
+		<element id="Composition.section:otherrelevantobservations.author.reference">
+			<path value="Composition.section.author.reference" />
+			<min value="1" />
+		</element>
+		<element id="Composition.section.text:otherrelevantobservations">
+			<path value="Composition.section.text" />
+			<short value="Human readable text of this section" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Composition.section.entry:otherrelevantobservations">
+			<path value="Composition.section.entry" />
+			<short value="Allergies" />
+			<min value="0" />
+			<max value="*" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-other-observations" />
+			</type>
+		</element>
+		<element id="Composition.section.entry:otherrelevantobservations.reference">
+			<path value="Composition.section.entry.reference" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		<element id="Composition.section.section:otherrelevantobservations">
+			<path value="Composition.section.section" />
+			<min value="0" />
+			<max value="0" />
+		</element>
 
 		<!-- ************************************************************************** -->
 		<!-- Section Card (Laboratory-Serology) -->

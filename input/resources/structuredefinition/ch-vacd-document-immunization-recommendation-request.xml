@@ -9,7 +9,7 @@
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
-		value="Definition of the bundle for the immunization recommendation request" />
+		value="Definition of the bundle for the immunization recommendation request." />
 	<kind value="resource" />
 	<abstract value="false" />
 	<type value="Bundle" />

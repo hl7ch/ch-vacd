@@ -1,15 +1,15 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-section-pregnancy" />
+	<id value="ch-vacd-recommendation-section-other-observations" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pregnancy" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-other-observations" />
 	<version value="0.1.0" />
-	<name value="CHVACDPregnancySection" />
-	<title value="CH VACD Pregnancy Section Profile" />
+	<name value="CHVACDRecommendationOtherRelevantObservationsSection" />
+	<title value="CH VACD Recommendation Other Relevant Observations Section" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
-		value="Definition of the pregnancy part for all documents, except recommendation request and response documents." />
+		value="Definition of the other relevant observations part for all documents, except recommendation request and response documents." />
 	<mapping>
 		<identity value="cda" />
 		<uri value="http://hl7.org/v3/cda" />
@@ -24,7 +24,7 @@
 	<differential>
 		<element id="Observation">
 			<path value="Observation" />
-			<short value="CH VACD Pregnancy Observation" />
+			<short value="CH VACD Observation" />
 		</element>
 		
 		<element id="Observation.code">
@@ -32,9 +32,9 @@
 			<short value="Observation code" />
 			<patternCodeableConcept>
 				<coding>
-					<system value="http://loinc.org" />
-					<code value="11779-6" />
-					<display value="Delivery date Estimated from last menstrual period" />
+					<system value="http://snomed.info/sct" />
+					<code value="55607006" />
+					<display value="Problem" />
 				</coding>
 			</patternCodeableConcept>
 			<mapping>
@@ -42,11 +42,16 @@
 				<map value=".code" />
 			</mapping>
 		</element>
-		<element id="Observation.valueDateTime">
-			<path value="Observation.valueDateTime" />
-			<short value="Observation.valueDateTime" />
+		<element id="Observation.valueCodeableConcept">
+			<path value="Observation.valueCodeableConcept" />
+			<short value="Observation value CodeableConcept" />
 			<min value="1" />
 			<max value="1" />
+			<binding>
+				<strength value="extensible" />
+				<valueSet
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-special-case-problems-vs" />
+			</binding>
 		</element>
 
 	</differential>

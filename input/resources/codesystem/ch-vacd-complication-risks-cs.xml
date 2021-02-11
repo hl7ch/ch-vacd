@@ -28,7 +28,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Complication risk codes."/>
+   <description value="Complication/medical risks available in Switzerland."/>
    <content value="complete"/>
    <concept>
       <code value="113001"/>

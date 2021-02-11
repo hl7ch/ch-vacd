@@ -28,7 +28,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Exposure risk codes."/>
+   <description value="Exposure risks codes available in Switzerland."/>
    <content value="complete"/>
    <concept>
       <code value="213001"/>

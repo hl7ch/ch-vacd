@@ -65,7 +65,7 @@
 		<copy file="output/${resourceId}.xml" tofile="../input/resources/valueset/${resourceId}.xml" />
 	</target>
 
-
+	
 	<target name="transformValueSetsToCodeSystem" depends="init">
 		<antcall target="transform">
 			<param name="xsl" value="convertValueSetToCodeSystem.xsl" />
@@ -75,6 +75,7 @@
 			<param name="codeSystem" value="${codeSystem}" />
 			<param name="name" value="${name}" />
 			<param name="title" value="${title}" />
+			<param name="description" value="${description}" />
 		</antcall>
 		<copy file="output/${resourceId}.xml" tofile="../input/resources/codesystem/${resourceId}.xml" />
 	</target>
@@ -194,27 +195,12 @@
 		<replace file="output/ch-vacd-illnesses-undergone-for-immunizaion-vs.xml" token=" xmlns:ihe=&quot;urn:ihe:iti:svs:2008&quot;" value="" />
 	</target>
 
-	<!--
-	<target name="transformPregnancyObservation" depends="init">
-		<delete file="output/ch-vacd-pregnancy-observation-vs.xml" failonerror="false" />
-		<antcall target="xslt">
-			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
-			<param name="templateId" value="ch-vacd-pregnancy-observation-vs" />
-			<param name="description" value="The observation code for pregnancy delivery date." />
-			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
-			<param name="in" value="templates/VS_PregnancyObservationCodes_download_2021-01-22T222132.xml" />
-			<param name="out" value="output/ch-vacd-pregnancy-observation-vs.xml" />
-		</antcall>
-		<replace file="output/ch-vacd-pregnancy-observation-vs.xml" token=" xmlns:ihe=&quot;urn:ihe:iti:svs:2008&quot;" value="" />
-	</target>
-	-->
-	
 	<target name="transformRouteOfAdministration" depends="init">
 		<delete file="output/ch-vacd-route-of-administration-vs.xml" failonerror="false" />
 		<antcall target="xslt">
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-route-of-administration-vs" />
-			<param name="description" value="The route of administration codes." />
+			<param name="description" value="The route of immunization administration codes." />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
 			<param name="in" value="templates/VS_RouteOfAdministrationImmunization_download_2021-01-22T222221.xml" />
 			<param name="out" value="output/ch-vacd-route-of-administration-vs.xml" />
@@ -326,7 +312,7 @@
 		<antcall target="xslt">
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-recommendation-categories-vs" />
-			<param name="description" value="Recommendation categories." />
+			<param name="description" value="Immunization recommendation categories." />
 			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
 			<param name="in" value="templates/VS_Empfehlungskategorien_download_2021-01-31T210211.xml" />
 			<param name="out" value="output/ch-vacd-recommendation-categories-vs.xml" />
@@ -344,7 +330,7 @@
 			<param name="codeSystem" value="urn:oid:2.16.756.5.30.1.127.3.3.4" />
 			<param name="name" value="SwissImmunizationRecommendationCategoriesCodesystem" />
 			<param name="title" value="Swiss Immunization Recommendation Categories Codesystem" />
-			<param name="description" value="Immunization Recommendation Categories available in Switzerland." />
+			<param name="description" value="Immunization recommendation categories available in Switzerland." />
 			<param name="xsl" value="convertValueSetToCodeSystem.xsl" />
 			<param name="in" value="output/ch-vacd-recommendation-categories-vs.xml" />
 			<param name="out" value="output/ch-vacd-recommendation-categories-cs.xml" />
@@ -383,13 +369,10 @@
 		<replace file="output/ch-vacd-allergies-immunizations-vs.xml" token=" xmlns:ihe=&quot;urn:ihe:iti:svs:2008&quot;" value="" />
 	</target>
 
-
-
 	<target name="default">
 		<antcall target="transformVaccines" />
 		<antcall target="transformDisease" />
 		<antcall target="transformIllnessesUndergone" />
-		<!-- <antcall target="transformPregnancyObservation" /> -->
 		<antcall target="transformRouteOfAdministration" />
 		<antcall target="transformSpecialCaseProblems" />
 		<antcall target="transformRisks" />

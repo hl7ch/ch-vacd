@@ -1,20 +1,20 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="2-ImmunizationCertificate"></id>
    <meta>
-      <lastUpdated value="2021-02-05T07:42:10.054+01:00"></lastUpdated>
+      <lastUpdated value="2021-02-11T23:47:50.626+01:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:0b8eb9d1-ab18-4280-a13d-d9f7c5909ea0"></value>
+      <value value="urn:uuid:ee4a07fc-dfe1-4c84-adcd-e66ea1c3ecf4"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-02-05T07:42:10.036+01:00"></timestamp>
+   <timestamp value="2021-02-11T23:47:50.608+01:00"></timestamp>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Composition/579168a1-05cd-4d5b-8ba8-b41280e61651"></fullUrl>
+      <fullUrl value="http://test.fhir.ch/r4/Composition/4d8ff91f-327c-4673-87ea-f0512d02015e"></fullUrl>
       <resource>
          <Composition xmlns="http://hl7.org/fhir">
-            <id value="579168a1-05cd-4d5b-8ba8-b41280e61651"></id>
+            <id value="4d8ff91f-327c-4673-87ea-f0512d02015e"></id>
             <meta>
                <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-certificate"></profile>
             </meta>
@@ -26,7 +26,7 @@
             <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
                <valueIdentifier>
                   <system value="urn:ietf:rfc:3986"></system>
-                  <value value="urn:uuid:0b8eb9d1-ab18-4280-a13d-d9f7c5909ea0"></value>
+                  <value value="urn:uuid:ee4a07fc-dfe1-4c84-adcd-e66ea1c3ecf4"></value>
                </valueIdentifier>
             </extension>
             <extension id="versionNumber" url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
@@ -34,7 +34,7 @@
             </extension>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.1.1.1"></system>
-               <value value="6faa4200-8d08-466b-a612-875ee4bb423a"></value>
+               <value value="1b5777e4-11a0-46de-87f1-0bd860a0ff75"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -47,7 +47,7 @@
             <subject>
                <reference value="Patient/patient1"></reference>
             </subject>
-            <date value="2021-02-05T07:42:10+01:00"></date>
+            <date value="2021-02-11T23:47:50+01:00"></date>
             <author>
                <reference value="Practitioner/practitioner1"></reference>
             </author>
@@ -120,21 +120,21 @@
                      <tbody>
                         <tr>
                            <td>Identifier</td>
-                           <td>1477284956984000</td>
+                           <td>123.71.332.115</td>
                         </tr>
                         <tr>
                            <td>Address</td>
                            <td>
-                              <span>Wiesenstr. 12 </span>
+                              <span>Leidensweg 10 </span>
                               <br></br>
-                              <span>Zürich </span>
+                              <span>Specimendorf </span>
                               <span>CH </span>
                            </td>
                         </tr>
                         <tr>
                            <td>Date of birth</td>
                            <td>
-                              <span>15 June 1943</span>
+                              <span>10 March 1967</span>
                            </td>
                         </tr>
                      </tbody>
@@ -142,20 +142,29 @@
                </div>
             </text>
             <identifier>
-               <system value="urn:oid:2.16.756.5.30.1.147.1.1"></system>
-               <value value="1477284956984000"></value>
+               <system value="urn:oid:2.16.756.5.31"></system>
+               <value value="123.71.332.115"></value>
+            </identifier>
+            <identifier>
+               <system value="urn:oid:2.16.756.5.30.1.123.100.1.1.1"></system>
+               <value value="8077560000000000000000"></value>
             </identifier>
             <name>
                <family value="Wegmueller"></family>
                <given value="Monika"></given>
             </name>
+            <telecom>
+               <system value="phone"></system>
+               <value value="tel:+41.32.685.12.34"></value>
+               <use value="home"></use>
+            </telecom>
             <gender value="female"></gender>
-            <birthDate value="1943-06-15"></birthDate>
+            <birthDate value="1967-03-10"></birthDate>
             <address>
                <type value="both"></type>
-               <line value="Wiesenstr. 12"></line>
-               <city value="Zürich"></city>
-               <postalCode value="8003"></postalCode>
+               <line value="Leidensweg 10"></line>
+               <city value="Specimendorf"></city>
+               <postalCode value="9876"></postalCode>
                <country value="CH"></country>
             </address>
          </Patient>
@@ -175,9 +184,37 @@
             </identifier>
             <active value="true"></active>
             <name>
-               <family value="Demo"></family>
-               <given value="Detlef"></given>
+               <family value="Bereit"></family>
+               <given value="Allzeit"></given>
+               <prefix value="Dr. med."></prefix>
             </name>
+            <telecom>
+               <system value="phone"></system>
+               <value value="tel:+41.32.234.55.66"></value>
+               <use value="work"></use>
+            </telecom>
+            <telecom>
+               <system value="fax"></system>
+               <value value="fax:+41.32.234.55.67"></value>
+               <use value="work"></use>
+            </telecom>
+            <telecom>
+               <system value="email"></system>
+               <value value="mailto:bereit@gruppenpraxis.ch"></value>
+               <use value="work"></use>
+            </telecom>
+            <telecom>
+               <system value="url"></system>
+               <value value="http://www.gruppenpraxis.ch"></value>
+               <use value="work"></use>
+            </telecom>
+            <address>
+               <type value="physical"></type>
+               <line value="Doktorgasse 2"></line>
+               <city value="Musterhausen"></city>
+               <postalCode value="8888"></postalCode>
+               <country value="CH"></country>
+            </address>
          </Practitioner>
       </resource>
    </entry>
@@ -259,8 +296,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T07:42:09+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T07:42:09+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T23:47:50+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T23:47:50+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -324,8 +361,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T07:42:10+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T07:42:10+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T23:47:50+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T23:47:50+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -389,8 +426,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T07:42:10+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T07:42:10+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T23:47:50+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T23:47:50+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -454,8 +491,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T07:42:10+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T07:42:10+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T23:47:50+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T23:47:50+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>

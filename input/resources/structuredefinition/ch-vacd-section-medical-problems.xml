@@ -9,7 +9,7 @@
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
-		value="Definition of the medical problems part for vaccination record documents" />
+		value="Definition of the medical problems part for all documents, except recommendation request and response documents." />
 	<mapping>
 		<identity value="cda" />
 		<uri value="http://hl7.org/v3/cda" />
@@ -48,7 +48,7 @@
 			<min value="1" />
 			<max value="1" />
 			<binding>
-				<strength value="required" />
+				<strength value="extensible" />
 				<valueSet
 					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-vs" />
 			</binding>

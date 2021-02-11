@@ -42,7 +42,7 @@
 					<value value="www.e-health-suisse.ch" />
 				</telecom>
 			</contact>
-			<description value="The vaccines used in switzerland." />
+			<description value="The list of vaccines available or earlier available in Switzerland." />
 			<compose>
 
 				<xsl:comment>

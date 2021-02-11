@@ -28,7 +28,7 @@
          <value value="www.e-health-suisse.ch"/>
       </telecom>
    </contact>
-   <description value="Immunization recommendation categories."/>
+   <description value="Immunization recommendation categories available in Switzerland."/>
    <content value="complete"/>
    <concept>
       <code value="41501"/>

@@ -1,20 +1,20 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-ImmunizationAdministration"></id>
    <meta>
-      <lastUpdated value="2021-02-05T07:42:21.019+01:00"></lastUpdated>
+      <lastUpdated value="2021-02-11T23:47:39.943+01:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:d92474b4-eb54-4119-8a75-82748c2837e7"></value>
+      <value value="urn:uuid:7a75393e-73db-4379-afe9-9e24f1759273"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-02-05T07:42:20.982+01:00"></timestamp>
+   <timestamp value="2021-02-11T23:47:39.907+01:00"></timestamp>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Composition/4eacb5b3-6f37-44c6-8be3-da1d72ae2770"></fullUrl>
+      <fullUrl value="http://test.fhir.ch/r4/Composition/e99fcfc0-7b1d-4792-8fa8-6f7d40b9bdba"></fullUrl>
       <resource>
          <Composition xmlns="http://hl7.org/fhir">
-            <id value="4eacb5b3-6f37-44c6-8be3-da1d72ae2770"></id>
+            <id value="e99fcfc0-7b1d-4792-8fa8-6f7d40b9bdba"></id>
             <meta>
                <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-administration"></profile>
             </meta>
@@ -26,7 +26,7 @@
             <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
                <valueIdentifier>
                   <system value="urn:ietf:rfc:3986"></system>
-                  <value value="urn:uuid:d92474b4-eb54-4119-8a75-82748c2837e7"></value>
+                  <value value="urn:uuid:7a75393e-73db-4379-afe9-9e24f1759273"></value>
                </valueIdentifier>
             </extension>
             <extension id="versionNumber" url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
@@ -34,7 +34,7 @@
             </extension>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.1.1.1"></system>
-               <value value="9cc2c44e-750c-403d-82c1-045fe602e988"></value>
+               <value value="8dda0807-5359-4fa0-a72d-f8007c8b4d83"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -47,7 +47,7 @@
             <subject>
                <reference value="Patient/patient1"></reference>
             </subject>
-            <date value="2021-02-05T07:42:21+01:00"></date>
+            <date value="2021-02-11T23:47:39+01:00"></date>
             <author>
                <reference value="Practitioner/practitioner1"></reference>
             </author>
@@ -111,21 +111,21 @@
                      <tbody>
                         <tr>
                            <td>Identifier</td>
-                           <td>1477284956984000</td>
+                           <td>123.71.332.115</td>
                         </tr>
                         <tr>
                            <td>Address</td>
                            <td>
-                              <span>Wiesenstr. 12 </span>
+                              <span>Leidensweg 10 </span>
                               <br></br>
-                              <span>Zürich </span>
+                              <span>Specimendorf </span>
                               <span>CH </span>
                            </td>
                         </tr>
                         <tr>
                            <td>Date of birth</td>
                            <td>
-                              <span>15 June 1943</span>
+                              <span>10 March 1967</span>
                            </td>
                         </tr>
                      </tbody>
@@ -133,20 +133,29 @@
                </div>
             </text>
             <identifier>
-               <system value="urn:oid:2.16.756.5.30.1.147.1.1"></system>
-               <value value="1477284956984000"></value>
+               <system value="urn:oid:2.16.756.5.31"></system>
+               <value value="123.71.332.115"></value>
+            </identifier>
+            <identifier>
+               <system value="urn:oid:2.16.756.5.30.1.123.100.1.1.1"></system>
+               <value value="8077560000000000000000"></value>
             </identifier>
             <name>
                <family value="Wegmueller"></family>
                <given value="Monika"></given>
             </name>
+            <telecom>
+               <system value="phone"></system>
+               <value value="tel:+41.32.685.12.34"></value>
+               <use value="home"></use>
+            </telecom>
             <gender value="female"></gender>
-            <birthDate value="1943-06-15"></birthDate>
+            <birthDate value="1967-03-10"></birthDate>
             <address>
                <type value="both"></type>
-               <line value="Wiesenstr. 12"></line>
-               <city value="Zürich"></city>
-               <postalCode value="8003"></postalCode>
+               <line value="Leidensweg 10"></line>
+               <city value="Specimendorf"></city>
+               <postalCode value="9876"></postalCode>
                <country value="CH"></country>
             </address>
          </Patient>
@@ -166,9 +175,37 @@
             </identifier>
             <active value="true"></active>
             <name>
-               <family value="Demo"></family>
-               <given value="Detlef"></given>
+               <family value="Bereit"></family>
+               <given value="Allzeit"></given>
+               <prefix value="Dr. med."></prefix>
             </name>
+            <telecom>
+               <system value="phone"></system>
+               <value value="tel:+41.32.234.55.66"></value>
+               <use value="work"></use>
+            </telecom>
+            <telecom>
+               <system value="fax"></system>
+               <value value="fax:+41.32.234.55.67"></value>
+               <use value="work"></use>
+            </telecom>
+            <telecom>
+               <system value="email"></system>
+               <value value="mailto:bereit@gruppenpraxis.ch"></value>
+               <use value="work"></use>
+            </telecom>
+            <telecom>
+               <system value="url"></system>
+               <value value="http://www.gruppenpraxis.ch"></value>
+               <use value="work"></use>
+            </telecom>
+            <address>
+               <type value="physical"></type>
+               <line value="Doktorgasse 2"></line>
+               <city value="Musterhausen"></city>
+               <postalCode value="8888"></postalCode>
+               <country value="CH"></country>
+            </address>
          </Practitioner>
       </resource>
    </entry>
@@ -182,14 +219,34 @@
             </meta>
             <identifier>
                <system value="urn:oid:2.51.1.3"></system>
-               <value value="2010000000030"></value>
+               <value value="7608888888888"></value>
             </identifier>
-            <name value="Praxis Dr. Detlef Demo"></name>
+            <name value="Gruppenpraxis CH"></name>
+            <telecom>
+               <system value="phone"></system>
+               <value value="tel:+41.32.234.55.66"></value>
+               <use value="work"></use>
+            </telecom>
+            <telecom>
+               <system value="fax"></system>
+               <value value="fax:+41.32.234.55.67"></value>
+               <use value="work"></use>
+            </telecom>
+            <telecom>
+               <system value="email"></system>
+               <value value="mailto:bereit@gruppenpraxis.ch"></value>
+               <use value="work"></use>
+            </telecom>
+            <telecom>
+               <system value="url"></system>
+               <value value="http://www.gruppenpraxis.ch"></value>
+               <use value="work"></use>
+            </telecom>
             <address>
-               <line value="Tobelweg 4"></line>
-               <city value="Küsnacht ZH"></city>
+               <line value="Doktorgasse 2"></line>
+               <city value="Musterhausen"></city>
                <state value="ZH"></state>
-               <postalCode value="8700"></postalCode>
+               <postalCode value="8888"></postalCode>
                <country value="CH"></country>
             </address>
          </Organization>
@@ -233,8 +290,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2017-09-15T07:42:21+02:00"></occurrenceDateTime>
-            <recorded value="2017-09-15T07:42:21+02:00"></recorded>
+            <occurrenceDateTime value="2017-09-15T23:47:39+02:00"></occurrenceDateTime>
+            <recorded value="2017-09-15T23:47:39+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
