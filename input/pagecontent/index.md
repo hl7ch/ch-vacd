@@ -1,3 +1,7 @@
+<div markdown="1" class="stu-note">
+This implementation guide is under informative ballot by [eHealth Suisse](https://www.e-health-suisse.ch) until March 15th, 2021 midnight. Please add your feedback via the 'Propose a change'-link in the footer on the page where you have comments.
+</div>
+
 ### Introduction
 This implemenation guide is based on the [CDA-CH-VACD - Immunization Content (eVACDOC)](https://art-decor.org/art-decor/decor-project--cdachvacd)
 [ART-DECOR®](https://www.art-decor.org/mediawiki/index.php/Main_Page) specification which has been [published by eHealth Suisse](http://ehealthsuisse.art-decor.org/). 
