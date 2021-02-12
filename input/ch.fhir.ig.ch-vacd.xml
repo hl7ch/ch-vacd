@@ -1,13 +1,12 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
 	<id value="ch.fhir.ig.ch-vacd" />
-	<url
-		value="http://fhir.ch/ig/ch-vacd/ImplementationGuide/ch.fhir.ig.ch-vacd" />
+	<url value="http://fhir.ch/ig/ch-vacd/ImplementationGuide/ch.fhir.ig.ch-vacd" />
 	<version value="0.1.0" />
 	<name value="CH_VACD" />
 	<title value="CH VACD (R4)" />
 	<status value="draft" />
 	<experimental value="false" />
-	<date value="2021-01-22" />
+	<date value="2021-02-12" />
 	<publisher value="eHealth Suisse" />
 	<contact>
 		<name value="eHealth Suisse" />
@@ -16,6 +15,7 @@
 			<value value="https://www.e-health-suisse.ch/startseite.html" />
 		</telecom>
 	</contact>
+	<description value="Implementation guide CH VACD"/>
 	<jurisdiction>
 		<coding>
 			<system value="urn:iso:std:iso:3166" />
@@ -28,16 +28,9 @@
 	<fhirVersion value="4.0.1" />
 
 	<dependsOn id="chcore">
-		<uri
-			value="http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core" />
+		<uri value="http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core" />
 		<packageId value="ch.fhir.ig.ch-core" />
-		<version value="1.0.0" />
-	</dependsOn>
-	<dependsOn id="cheprterm">
-		<uri
-			value="http://fhir.ch/ig/ch-epr-term/ImplementationGuide/ch.fhir.ig.ch-epr-term" />
-		<packageId value="ch.fhir.ig.ch-epr-term" />
-		<version value="2.0.4" />
+		<version value="1.2.0" />
 	</dependsOn>
 
 	<definition>
@@ -49,8 +42,7 @@
 
 		<resource>
 			<reference>
-				<reference
-					value="CodeSystem/ch-vacd-complication-risks-cs" />
+				<reference value="CodeSystem/ch-vacd-complication-risks-cs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -68,8 +60,7 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="CodeSystem/ch-vacd-recommendation-categories-cs" />
+				<reference value="CodeSystem/ch-vacd-recommendation-categories-cs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -79,18 +70,15 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		<!-- <resource> <reference> <reference value="CodeSystem/whocc-atc-cs" 
-			/> </reference> <exampleBoolean value="false" /> </resource> -->
+		<!-- <resource> <reference> <reference value="CodeSystem/whocc-atc-cs" /> </reference> <exampleBoolean value="false" /> </resource> -->
 		<!-- References to examples -->
 		<resource>
 			<reference>
 				<reference value="Bundle/1-ImmunizationAdministration" />
 			</reference>
 			<name value="1 Immunization Administration" />
-			<description
-				value="Example for Bundle Immunization Administration" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration" />
+			<description value="Example for Bundle Immunization Administration" />
+			<exampleCanonical value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration" />
 		</resource>
 
 		<resource>
@@ -98,10 +86,8 @@
 				<reference value="Bundle/2-ImmunizationCertificate" />
 			</reference>
 			<name value="2 Immunization Certificate" />
-			<description
-				value="Example for Bundle Immunization Certificate" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate" />
+			<description value="Example for Bundle Immunization Certificate" />
+			<exampleCanonical value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate" />
 		</resource>
 
 
@@ -110,70 +96,57 @@
 				<reference value="Bundle/3-VaccinationRecord" />
 			</reference>
 			<name value="3 Vaccination Record" />
-			<description
-				value="Example for Bundle Vaccination Record" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record" />
+			<description value="Example for Bundle Vaccination Record" />
+			<exampleCanonical value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record" />
 		</resource>
 
 
 		<resource>
 			<reference>
-				<reference
-					value="Bundle/4-ImmunizationRecommendationRequest" />
+				<reference value="Bundle/4-ImmunizationRecommendationRequest" />
 			</reference>
 			<name value="4 Immunization Recommendation Request" />
-			<description
-				value="Example for Bundle Immunization Recommendation Request" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-request" />
+			<description value="Example for Bundle Immunization Recommendation Request" />
+			<exampleCanonical value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-request" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="Bundle/5-ImmunizationRecommendationResponse" />
+				<reference value="Bundle/5-ImmunizationRecommendationResponse" />
 			</reference>
 			<name value="5 Immunization Recommendation Response" />
-			<description
-				value="Example for Bundle Immunization Recommendation Response" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-response" />
+			<description value="Example for Bundle Immunization Recommendation Response" />
+			<exampleCanonical value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-response" />
 		</resource>
 
 		<!-- References to structure definitions -->
 		<!-- documents -->
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-document-immunization-administration" />
+				<reference value="StructureDefinition/ch-vacd-document-immunization-administration" />
 			</reference>
 			<exampleBoolean value="true" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-document-immunization-certificate" />
+				<reference value="StructureDefinition/ch-vacd-document-immunization-certificate" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-document-immunization-recommendation-request" />
+				<reference value="StructureDefinition/ch-vacd-document-immunization-recommendation-request" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-document-immunization-recommendation-response" />
+				<reference value="StructureDefinition/ch-vacd-document-immunization-recommendation-response" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-document-vaccination-record" />
+				<reference value="StructureDefinition/ch-vacd-document-vaccination-record" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -181,36 +154,31 @@
 		<!-- compositions -->
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-composition-immunization-administration" />
+				<reference value="StructureDefinition/ch-vacd-composition-immunization-administration" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-composition-immunization-certificate" />
+				<reference value="StructureDefinition/ch-vacd-composition-immunization-certificate" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-composition-immunization-recommendation-request" />
+				<reference value="StructureDefinition/ch-vacd-composition-immunization-recommendation-request" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-composition-immunization-recommendation-response" />
+				<reference value="StructureDefinition/ch-vacd-composition-immunization-recommendation-response" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-composition-vaccination-record" />
+				<reference value="StructureDefinition/ch-vacd-composition-vaccination-record" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -218,86 +186,74 @@
 		<!-- sections recommendations -->
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-address" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-address" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-observation" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-observation" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-patient" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-patient" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-practitioner" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-practitioner" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-section-allergies" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-section-allergies" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-section-immunization" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-section-immunization" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-section-immunization-recommendations" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-section-immunization-recommendations" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-section-laboratory-serology" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-section-laboratory-serology" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-section-medical-problems" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-section-medical-problems" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-section-other-observations" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-section-other-observations" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-section-pastillnesses" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-section-pastillnesses" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-section-pregnancy" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-section-pregnancy" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -306,67 +262,58 @@
 		<!-- sections -->
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-section-allergies" />
+				<reference value="StructureDefinition/ch-vacd-section-allergies" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-section-immunization" />
+				<reference value="StructureDefinition/ch-vacd-section-immunization" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-section-immunization-recommendations" />
+				<reference value="StructureDefinition/ch-vacd-section-immunization-recommendations" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-section-laboratory-serology" />
+				<reference value="StructureDefinition/ch-vacd-section-laboratory-serology" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-section-medical-problems" />
+				<reference value="StructureDefinition/ch-vacd-section-medical-problems" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-section-observation" />
+				<reference value="StructureDefinition/ch-vacd-section-observation" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		
+
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-section-other-observations" />
+				<reference value="StructureDefinition/ch-vacd-section-other-observations" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		
+
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-section-pastillnesses" />
+				<reference value="StructureDefinition/ch-vacd-section-pastillnesses" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-section-pregnancy" />
+				<reference value="StructureDefinition/ch-vacd-section-pregnancy" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -376,8 +323,7 @@
 		<!-- value sets -->
 		<resource>
 			<reference>
-				<reference
-					value="ValueSet/ch-vacd-allergies-immunizations-vs" />
+				<reference value="ValueSet/ch-vacd-allergies-immunizations-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -389,16 +335,14 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="ValueSet/ch-vacd-illnesses-undergone-for-immunizaion-vs" />
+				<reference value="ValueSet/ch-vacd-illnesses-undergone-for-immunizaion-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference
-					value="ValueSet/ch-vacd-recommendation-categories-vs" />
+				<reference value="ValueSet/ch-vacd-recommendation-categories-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -410,15 +354,13 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="ValueSet/ch-vacd-route-of-administration-vs" />
+				<reference value="ValueSet/ch-vacd-route-of-administration-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference
-					value="ValueSet/ch-vacd-special-case-problems-vs" />
+				<reference value="ValueSet/ch-vacd-special-case-problems-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -485,20 +427,9 @@
 
 		<!-- parameters -->
 		<parameter>
-			<code value="generate-json" />
-			<value value="true" />
-		</parameter>
-		<parameter>
-			<code value="generate-xml" />
-			<value value="true" />
-		</parameter>
-		<parameter>
-			<code value="generate-turtle" />
-			<value value="false" />
-		</parameter>
-		<parameter>
 			<code value="releaselabel" />
-			<value value="CI build" />
+			<!-- <value value="CI build"/> -->
+			<value value="STU 1 Informative Ballot"/>
 		</parameter>
 		<parameter>
 			<code value="path-pages" />
@@ -506,7 +437,7 @@
 		</parameter>
 		<parameter>
 			<code value="copyrightyear" />
-			<value value="2020+" />
+			<value value="2021+" />
 		</parameter>
 		<parameter>
 			<code value="special-url" />
