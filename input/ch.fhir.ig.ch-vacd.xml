@@ -1,7 +1,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
 	<id value="ch.fhir.ig.ch-vacd" />
 	<url value="http://fhir.ch/ig/ch-vacd/ImplementationGuide/ch.fhir.ig.ch-vacd" />
-	<version value="0.1.0" />
+	<version value="0.2.0" />
 	<name value="CH_VACD" />
 	<title value="CH VACD (R4)" />
 	<status value="draft" />
@@ -428,8 +428,8 @@
 		<!-- parameters -->
 		<parameter>
 			<code value="releaselabel" />
-			<!-- <value value="CI build"/> -->
-			<value value="STU 1 Informative Ballot"/>
+			<value value="CI build"/>
+			<!--<value value="STU 1 Informative Ballot"/>-->
 		</parameter>
 		<parameter>
 			<code value="path-pages" />
