@@ -25,7 +25,7 @@ The following documents have been defined:
 [GitHub Repository](https://github.com/ehealthsuisse/ch-vacd)
 
 ### Collaboration
-This guide is created by [Arpage AG](https://www.arpage.ch) as a mandate of [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html)
+This guide is created by [RALY Gmbh](https://www.raly.ch) and [Arpage AG](https://www.arpage.ch) as a mandate of [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html)
 
 
 **Download**: You can download this implementation guide in npm format from [here](package.tgz).
