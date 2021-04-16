@@ -119,7 +119,7 @@
 		<element id="Composition.title">
 			<path value="Composition.title" />
 			<short
-				value="'Impfausweis' in german or 'Carnet de vaccination' in french or 'Certificato di vaccinazione' in italian or 'Immunization Certificate' in english
+				value="'Impfdossier' in german or 'Dossier de vaccination' in french or 'Cartella di vaccinazione' in italian or 'Vaccination Record' in english
                         or titles in other languages are also allowed" />
 		</element>
 		<element id="Composition.confidentiality">
