@@ -207,6 +207,19 @@
 		</antcall>
 		<replace file="output/ch-vacd-route-of-administration-vs.xml" token=" xmlns:ihe=&quot;urn:ihe:iti:svs:2008&quot;" value="" />
 	</target>
+	
+	<target name="transformSpecialCaseMedikation" depends="init">
+			<delete file="output/ch-vacd-special-case-medication-vs.xml" failonerror="false" />
+			<antcall target="xslt">
+				<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
+				<param name="templateId" value="ch-vacd-special-case-medication-vs" />
+				<param name="description" value="Special case medication codes." />
+				<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+				<param name="in" value="templates/VS_SpecialCaseMedication_download_2021-04-16T111143.xml" />
+				<param name="out" value="output/ch-vacd-special-case-medication-vs.xml" />
+			</antcall>
+			<replace file="output/ch-vacd-special-case-medication-vs.xml" token=" xmlns:ihe=&quot;urn:ihe:iti:svs:2008&quot;" value="" />
+		</target>
 
 	<target name="transformSpecialCaseProblems" depends="init">
 		<delete file="output/ch-vacd-special-case-problems-vs.xml" failonerror="false" />
@@ -370,6 +383,7 @@
 	</target>
 
 	<target name="default">
+		<antcall target="transformSpecialCaseMedikation" />
 		<antcall target="transformVaccines" />
 		<antcall target="transformDisease" />
 		<antcall target="transformIllnessesUndergone" />

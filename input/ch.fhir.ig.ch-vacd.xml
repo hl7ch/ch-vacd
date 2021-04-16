@@ -364,6 +364,14 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
+		
+		<resource>
+			<reference>
+				<reference value="ValueSet/ch-vacd-special-case-medication-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		
 		<resource>
 			<reference>
 				<reference value="ValueSet/ch-vacd-vaccines-vs" />
