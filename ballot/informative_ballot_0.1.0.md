@@ -77,7 +77,7 @@ No discussion is neede on most of the following topic. It are
 [Issue 10](https://github.com/ehealthsuisse/ch-vacd/issues/10) * CH VACD VaccinationRecord Composition Profile - Title translation wrong (oe ahdis))<br>
 [Issue 11](https://github.com/ehealthsuisse/ch-vacd/issues/11) Examples Annotation Section Coding (RALY rl))<br>
 [Issue 12](https://github.com/ehealthsuisse/ch-vacd/issues/12) Immunization Recommendation Response (François von Kaenel, BFH))<br>
-[Issue 13](https://github.com/ehealthsuisse/ch-vacd/issues/13) CH VACD Recommendation Immunization Recommendations Section Profile (François von Kaenel, BFH))<br>
+[Issue 13](https://github.com/ehealthsuisse/ch-vacd/issues/13) * CH VACD Recommendation Immunization Recommendations Section Profile (François von Kaenel, BFH))<br>
 [Issue 14](https://github.com/ehealthsuisse/ch-vacd/issues/14) Recommendation-Categories for Immunizations (François von Kaenel, BFH))<br>
 [Issue 16](https://github.com/ehealthsuisse/ch-vacd/issues/16) Incomplete Valueset Illnesses undergone for immunization (Daniel Ratschiller, CISTEC AG))<br>
 [Issue 18](https://github.com/ehealthsuisse/ch-vacd/issues/18) Illnesses undergone for immunization (François von Kaenel, BFH))<br>
