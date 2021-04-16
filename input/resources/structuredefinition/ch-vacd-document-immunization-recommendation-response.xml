@@ -15,7 +15,7 @@
 	<abstract value="false" />
 	<type value="Bundle" />
 	<baseDefinition
-		value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-document-epr" />
+		value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-document" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Bundle">
