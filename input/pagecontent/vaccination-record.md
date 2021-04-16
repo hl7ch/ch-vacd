@@ -1,4 +1,4 @@
-The **Immunization Administration document** describes the content and format of a vaccination record document 
+The **Vaccination Record document** describes the content and format of a vaccination record document 
 containing in minimum the chapter with the known and applied immunizations and may contain all other 
 defined chapters including the medical and exposition risks which are very important for the immunization decisions.
 
