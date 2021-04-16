@@ -47,6 +47,7 @@
 		<element id="Immunization.identifier">
 			<path value="Immunization.identifier" />
 			<short value="Immunization item ID" />
+			<min value="1" />
 			<mapping>
 				<identity value="cda" />
 				<map value=".id" />
@@ -113,7 +114,17 @@
 		<element id="Immunization.reasonCode">
 			<path value="Immunization.reasonCode" />
 			<short value="Immunization Reason Code" />
-			
+			<slicing>
+				<discriminator>
+					<type value="type" />
+					<path value="resolve()" />
+				</discriminator>
+				<rules value="open" />
+			</slicing>
+		</element>
+		<element id="Immunization.reasonCode:ActCode">
+			<path value="Immunization.reasonCode" />
+			<sliceName value="ActCode" />
 			<patternCodeableConcept>
 				<coding>
 					<system
@@ -122,6 +133,25 @@
 					<display value="Immunization" />
 				</coding>
 			</patternCodeableConcept>
+		</element>
+		<element id="Immunization.reasonCode:SpecialCaseMedication">
+			<path value="Immunization.reasonCode" />
+			<sliceName value="SpecialCaseMedication" />
+			<binding>
+				<extension
+					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+					<valueString value="VaccineCode" />
+				</extension>
+				<extension
+					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+					<valueBoolean value="true" />
+				</extension>
+				<strength value="extensible" />
+				<description
+					value="The code for vaccine product administered." />
+				<valueSet
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-special-case-medication-vs" />
+			</binding>
 		</element>
 
 		<element id="Immunization.protocolApplied">
@@ -140,7 +170,7 @@
 					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
 					<valueBoolean value="true" />
 				</extension>
-				<strength value="required" />
+				<strength value="extensible" />
 				<description value="The code for disease." />
 				<valueSet
 					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-diseases-vs" />

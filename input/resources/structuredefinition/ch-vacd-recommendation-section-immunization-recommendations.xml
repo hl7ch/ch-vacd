@@ -48,6 +48,7 @@
 		<element id="ImmunizationRecommendation.identifier">
 			<path value="ImmunizationRecommendation.identifier" />
 			<short value="Immunization Recommendation item ID" />
+			<min value="1" />
 			<mapping>
 				<identity value="cda" />
 				<map value=".id" />
@@ -87,7 +88,7 @@
 				<description
 					value="The code for vaccine product administered." />
 				<valueSet
-					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-diseases-vs" />
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs" />
 			</binding>
 			<mapping>
 				<identity value="cda" />

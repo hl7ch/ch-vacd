@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="ch-vacd-ch-vaccination-plan-immunizations-vs"/>
+   <meta>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2020-06-26T00:00:00+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.1.11.71"/>
+   </identifier>
+   <version value="2020-06-26T00:00:00"/>
+   <name value="SwissVaccinationPlanImmunizations"/>
+   <title value="Swiss Vaccination Plan Immunizations"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="Immunization Recommendation Categories available in Switzerland."/>
+   <compose>
+      <include>
+         <system value="http://snomed.info/sct"/>
+         <concept>
+            <code value="42284007"/>
+            <display value="BCG vaccination"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="BCG vaccination"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="BCG vaccination"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="BCG vaccination"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="BCG vaccination"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="76668005"/>
+            <display value="Diphtheria vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Diphtheria vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Diphtheria vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Diphtheria vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Diphtheria vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="127787002"/>
+            <display value="Haemophilus influenzae type b vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Haemophilus influenzae type b vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Haemophilus influenzae type b vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Haemophilus influenzae type b vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Haemophilus influenzae type b vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="243789007"/>
+            <display value="Hepatitis A immunization (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Hepatitis A immunization (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Hepatitis A immunization (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Hepatitis A immunization (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Hepatitis A immunization (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="16584000"/>
+            <display value="Hepatitis B vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Hepatitis B vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Hepatitis B vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Hepatitis B vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Hepatitis B vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="86198006"/>
+            <display value="Influenza vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Influenza vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Influenza vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Influenza vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Influenza vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="314759000"/>
+            <display value="Japanese encephalitis vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Japanese encephalitis vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Japanese encephalitis vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Japanese encephalitis vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Japanese encephalitis vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="47435007"/>
+            <display value="Measles vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Measles vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Measles vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Measles vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Measles vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="41088001"/>
+            <display value="Meningococcus vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Meningococcus vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Meningococcus vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Meningococcus vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Meningococcus vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="50583002"/>
+            <display value="Mumps vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Mumps vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Mumps vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Mumps vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Mumps vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="428570002"/>
+            <display value="Vaccination for human papillomavirus (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Vaccination for human papillomavirus (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Vaccination for human papillomavirus (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Vaccination for human papillomavirus (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Vaccination for human papillomavirus (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="39343008"/>
+            <display value="Pertussis vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Pertussis vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Pertussis vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Pertussis vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Pertussis vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="12866006"/>
+            <display value="Pneumococcal vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Pneumococcal vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Pneumococcal vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Pneumococcal vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Pneumococcal vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="72093006"/>
+            <display value="Poliomyelitis vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Poliomyelitis vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Poliomyelitis vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Poliomyelitis vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Poliomyelitis vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="34631000"/>
+            <display value="Rabies vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Rabies vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Rabies vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Rabies vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Rabies vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="82314000"/>
+            <display value="Rubella vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Rubella vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Rubella vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Rubella vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Rubella vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="127786006"/>
+            <display value="Tetanus vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Tetanus vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tetanus vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tetanus vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Tetanus vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="281658005"/>
+            <display value="Tick-borne encephalitis vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Tick-borne encephalitis vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Tick-borne encephalitis vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Tick-borne encephalitis vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Tick-borne encephalitis vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="15483003"/>
+            <display value="Typhoid vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Typhoid vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Typhoid vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Typhoid vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Typhoid vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="68525005"/>
+            <display value="Varicella vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Varicella vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Varicella vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Varicella vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Varicella vaccination (procedure)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="67308009"/>
+            <display value="Yellow fever vaccination (procedure)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Yellow fever vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Yellow fever vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Yellow fever vaccination (procedure)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Yellow fever vaccination (procedure)"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

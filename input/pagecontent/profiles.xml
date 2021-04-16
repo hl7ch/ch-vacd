@@ -2,7 +2,6 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
 
-	<!-- <div> {% include list-profiles.xhtml %} </div> -->
 	<h3>Immunization Administration</h3>
 	<div>
 		<li><a href="StructureDefinition-ch-vacd-document-immunization-administration.html">CH VACD Immunization Administration Document Profile</a> Definition of the bundle for the immunization administration document.</li>

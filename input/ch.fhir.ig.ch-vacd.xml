@@ -378,6 +378,13 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
+		
+		<resource>
+			<reference>
+				<reference value="ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
 
 		<!-- pages -->
 		<page>
