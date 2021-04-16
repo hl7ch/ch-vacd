@@ -69,12 +69,12 @@ No discussion is neede on most of the following topic. It are
 - chage of resource type ([AllergyIntolerance](https://www.hl7.org/fhir/allergyintolerance.html) or [Condition](https://www.hl7.org/fhir/condition.html) in place of [Observation](https://www.hl7.org/fhir/observation.html))
 
 #### Issues
-[Issue 3](https://github.com/ehealthsuisse/ch-vacd/issues/3) Immunization Recommendation Response - Typo in Document Graphic (Oliver Egger (ahdis)))<br>
+[Issue 3](https://github.com/ehealthsuisse/ch-vacd/issues/3) * Immunization Recommendation Response - Typo in Document Graphic (Oliver Egger (ahdis)))<br>
 [Issue 5](https://github.com/ehealthsuisse/ch-vacd/issues/5) Artifacts Summary - Additional Examples (Oliver Egger, ahdis ag))<br>
 [Issue 6](https://github.com/ehealthsuisse/ch-vacd/issues/6) Immunization Target Disease Codes different between CDA and FHIR (Oliver Egger, ahdis ag))<br>
 [Issue 7](https://github.com/ehealthsuisse/ch-vacd/issues/7) Swiss Medic Authorized Vaccines Codesystem - Cannonical Url and Translations (Oliver Egger, ahdis ag))<br>
-[Issue 8](https://github.com/ehealthsuisse/ch-vacd/issues/8)  Immunization Profile (Oliver Egger, ahdis))<br>
-[Issue 10](https://github.com/ehealthsuisse/ch-vacd/issues/10) CH VACD VaccinationRecord Composition Profile - Title translation wrong (oe ahdis))<br>
+[Issue 8](https://github.com/ehealthsuisse/ch-vacd/issues/8) * Immunization Profile (Oliver Egger, ahdis))<br>
+[Issue 10](https://github.com/ehealthsuisse/ch-vacd/issues/10) * CH VACD VaccinationRecord Composition Profile - Title translation wrong (oe ahdis))<br>
 [Issue 11](https://github.com/ehealthsuisse/ch-vacd/issues/11) Examples Annotation Section Coding (RALY rl))<br>
 [Issue 12](https://github.com/ehealthsuisse/ch-vacd/issues/12) Immunization Recommendation Response (François von Kaenel, BFH))<br>
 [Issue 13](https://github.com/ehealthsuisse/ch-vacd/issues/13) CH VACD Recommendation Immunization Recommendations Section Profile (François von Kaenel, BFH))<br>
@@ -89,9 +89,9 @@ No discussion is neede on most of the following topic. It are
 [Issue 24](https://github.com/ehealthsuisse/ch-vacd/issues/24) CH VACD Immunization Certificate Composition Profile (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 25](https://github.com/ehealthsuisse/ch-vacd/issues/25) Immunization Certificate (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 29](https://github.com/ehealthsuisse/ch-vacd/issues/29) 1 Immunization Administration - JSON Representation (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 30](https://github.com/ehealthsuisse/ch-vacd/issues/30) Vaccination Record (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 31](https://github.com/ehealthsuisse/ch-vacd/issues/31) CH VACD Immunization Recommendation Request Document Profile (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 32](https://github.com/ehealthsuisse/ch-vacd/issues/32) CH VACD Immunization Recommendation Request Document Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 30](https://github.com/ehealthsuisse/ch-vacd/issues/30) * Vaccination Record (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 31](https://github.com/ehealthsuisse/ch-vacd/issues/31) * CH VACD Immunization Recommendation Request Document Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 32](https://github.com/ehealthsuisse/ch-vacd/issues/32) * CH VACD Immunization Recommendation Request Document Profile (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 33](https://github.com/ehealthsuisse/ch-vacd/issues/33) Overloaded Valueset RouteOfAdministration (Immunization) (Daniel Ratschiller, CISTEC AG))<br>
 [Issue 38](https://github.com/ehealthsuisse/ch-vacd/issues/38) CH VACD Allergies Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 39](https://github.com/ehealthsuisse/ch-vacd/issues/39) CH VACD Medical Problems Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
@@ -110,6 +110,7 @@ No discussion is neede on most of the following topic. It are
 [Issue 55](https://github.com/ehealthsuisse/ch-vacd/issues/55) SwissRisksForImmunizations (annatina, eHealth Suisse))<br>
 [Issue 56](https://github.com/ehealthsuisse/ch-vacd/issues/56) SwissRisksForImmunizations (annatina foppa, eHealth Suisse))<br>
 [Issue 57](https://github.com/ehealthsuisse/ch-vacd/issues/57) Allergies for eVACDOC (Annatina, eHS (Besprechung mit roeland-juerg-pero)))<br>
+[Issue 58](https://github.com/ehealthsuisse/ch-vacd/issues/58) * Sort the rofiles to the document categories (Annatina, eHS (Roeland Luykx, RALY GmbH)))<br>
 
 
 
