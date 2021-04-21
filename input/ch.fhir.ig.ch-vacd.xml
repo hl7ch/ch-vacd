@@ -190,12 +190,7 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-observation" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
+		
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/ch-vacd-recommendation-patient" />
@@ -208,6 +203,26 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ch-vacd-recommendation-practitionerrole" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ch-vacd-recommendation-observation" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ch-vacd-recommendation-condition" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/ch-vacd-recommendation-section-allergies" />
@@ -294,6 +309,12 @@
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/ch-vacd-section-observation" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ch-vacd-section-condition" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>

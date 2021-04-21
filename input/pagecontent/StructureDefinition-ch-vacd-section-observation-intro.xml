@@ -1,0 +1,6 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<blockquote class="stu-note">
+		<p>This is an abstract defined profile derived from <a href="http://hl7.org/fhir/condition.html">Observation</a> resource and will be extended by the specific profiles accoding to the sections in the documents.</p>
+		<p>Please do not use it directly.</p>
+	</blockquote>
+</div>

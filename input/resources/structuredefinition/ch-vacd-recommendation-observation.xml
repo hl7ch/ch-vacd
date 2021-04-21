@@ -9,7 +9,7 @@
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
-		value="Definition of the Observateion for immunization recommendation request and response documents." />
+		value="Definition of the Observation for immunization recommendation request and response documents." />
 	<mapping>
 		<identity value="cda" />
 		<uri value="http://hl7.org/v3/cda" />
@@ -50,7 +50,7 @@
 		<element id="Observation.identifier.value">
 			<path value="Observation.identifier.value" />
 		</element>
-		
+
 		<element id="Observation.subject">
 			<path value="Observation.subject" />
 			<short value="Patient" />
