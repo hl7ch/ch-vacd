@@ -568,7 +568,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-allergies" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-allergyintolerances" />
 			</type>
 		</element>
 		<element id="Composition.section.entry:allergies.reference">

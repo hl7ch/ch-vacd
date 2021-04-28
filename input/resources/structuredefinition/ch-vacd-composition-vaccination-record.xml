@@ -40,11 +40,6 @@
 				<rules value="open" />
 			</slicing>
 		</element>
-		<element id="Composition.extension:setId">
-			<path value="Composition.extension" />
-			<sliceName value="setId" />
-			<short value="Set ID" />
-		</element>
 		<element id="Composition.extension:versionNumber">
 			<path value="Composition.extension" />
 			<sliceName value="versionNumber" />
@@ -243,8 +238,6 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
@@ -252,8 +245,6 @@
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
 			</type>
 		</element>
 		<element
@@ -361,8 +352,6 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
@@ -370,8 +359,6 @@
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
 			</type>
 		</element>
 		<element
@@ -478,8 +465,6 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
@@ -487,8 +472,6 @@
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
 			</type>
 		</element>
 		<element
@@ -546,12 +529,12 @@
 
 
 		<!-- ************************************************************************** -->
-		<!-- Section Card (Allergies) -->
+		<!-- Section Card (Allergies and Intolerances) -->
 		<!-- ************************************************************************** -->
-		<element id="Composition.section:allergies">
+		<element id="Composition.section:allergyintolerences">
 			<path value="Composition.section" />
-			<sliceName value="allergies" />
-			<short value="Allergies" />
+			<sliceName value="allergyintolerences" />
+			<short value="Allergies and Intolerences" />
 			<min value="0" />
 			<max value="1" />
 		</element>
@@ -570,7 +553,7 @@
 			<path value="Composition.section.extension" />
 			<sliceName value="sectionId" />
 		</element>
-		<element id="Composition.section.title:allergies">
+		<element id="Composition.section.title:allergyintolerences">
 			<path value="Composition.section.title" />
 			<short
 				value="'Allergien' in german or 'Les allergies' in french or 'Allergie' in italian or 'Allergies' in english
@@ -578,7 +561,7 @@
 			<min value="1" />
 			<max value="1" />
 		</element>
-		<element id="Composition.section.code:allergies">
+		<element id="Composition.section.code:allergyintolerences">
 			<path value="Composition.section.code" />
 			<min value="1" />
 			<patternCodeableConcept>
@@ -590,14 +573,12 @@
 			</patternCodeableConcept>
 		</element>
 		<!-- Author of the section -->
-		<element id="Composition.section.author:allergies">
+		<element id="Composition.section.author:allergyintolerences">
 			<path value="Composition.section.author" />
 			<short
 				value="The author of the section (person or device) if different from the author/timestamp of the document" />
 			<type>
 				<code value="Reference" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
 				<targetProfile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 				<targetProfile
@@ -606,8 +587,6 @@
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
 			</type>
 		</element>
 		<element id="Composition.section:allergies.author.extension">
@@ -631,13 +610,13 @@
 			<path value="Composition.section.author.reference" />
 			<min value="1" />
 		</element>
-		<element id="Composition.section.text:allergies">
+		<element id="Composition.section.text:allergyintolerences">
 			<path value="Composition.section.text" />
 			<short value="Human readable text of this section" />
 			<min value="1" />
 			<max value="1" />
 		</element>
-		<element id="Composition.section.entry:allergies">
+		<element id="Composition.section.entry:allergyintolerences">
 			<path value="Composition.section.entry" />
 			<short value="Allergies" />
 			<min value="0" />
@@ -645,15 +624,15 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-allergies" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-allergyintolerances" />
 			</type>
 		</element>
-		<element id="Composition.section.entry:allergies.reference">
+		<element id="Composition.section.entry:allergyintolerences.reference">
 			<path value="Composition.section.entry.reference" />
 			<min value="1" />
 			<max value="1" />
 		</element>
-		<element id="Composition.section.section:allergies">
+		<element id="Composition.section.section:allergyintolerences">
 			<path value="Composition.section.section" />
 			<min value="0" />
 			<max value="0" />
@@ -711,11 +690,13 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+				<targetProfile
+					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
 			</type>
 		</element>
 		<element id="Composition.section:otherrelevantobservations.author.extension">
@@ -819,8 +800,6 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
@@ -828,8 +807,6 @@
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
 			</type>
 		</element>
 		<element
@@ -936,8 +913,6 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
@@ -945,8 +920,6 @@
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
 			</type>
 		</element>
 		<element id="Composition.section:pregnancy.author.extension">
@@ -1001,7 +974,7 @@
 		<!-- ************************************************************************** -->
 		<!-- Section Card (Recommendations) -->
 		<!-- ************************************************************************** -->
-		<element id="Composition.section.author:recommendations">
+		<element id="Composition.section.:recommendations">
 			<path value="Composition.section" />
 			<sliceName value="recommendations" />
 			<short value="Recommendations" />
@@ -1050,8 +1023,6 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
@@ -1059,8 +1030,6 @@
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
 			</type>
 		</element>
 		<element

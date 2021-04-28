@@ -41,11 +41,6 @@
 				<rules value="open" />
 			</slicing>
 		</element>
-		<element id="Composition.extension:setId">
-			<path value="Composition.extension" />
-			<sliceName value="setId" />
-			<short value="Set ID" />
-		</element>
 		<element id="Composition.extension:versionNumber">
 			<path value="Composition.extension" />
 			<sliceName value="versionNumber" />
@@ -217,8 +212,6 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
-				<targetProfile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
@@ -226,8 +219,6 @@
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
 			</type>
 		</element>
 		<element
