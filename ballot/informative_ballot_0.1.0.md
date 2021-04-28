@@ -21,10 +21,10 @@ Medical and exposition risks, allergies and other observations/conditions which 
 
 
 #### Issues
-[Issue 4](https://github.com/ehealthsuisse/ch-vacd/issues/4) CH VACD Allergies Section Profile (Oliver Egger (ahdis ag))<br>
-[Issue 15](https://github.com/ehealthsuisse/ch-vacd/issues/15) Incomplete ValueSet Allergies for eVACDOC (Daniel Ratschiller, CISTEC AG)<br>
-[Issue 17](https://github.com/ehealthsuisse/ch-vacd/issues/17) Allergies for eVACDOC (François von Kaenel, BFH)<br>
-[Issue 50](https://github.com/ehealthsuisse/ch-vacd/issues/50) Allergies for eVACDOC (Emmanuel Eschmann, CISTEC AG)<br>
+[Issue 4](https://github.com/ehealthsuisse/ch-vacd/issues/4) * CH VACD Allergies Section Profile (Oliver Egger (ahdis ag))<br>
+[Issue 15](https://github.com/ehealthsuisse/ch-vacd/issues/15) * Incomplete ValueSet Allergies for eVACDOC (Daniel Ratschiller, CISTEC AG)<br>
+[Issue 17](https://github.com/ehealthsuisse/ch-vacd/issues/17) * Allergies for eVACDOC (François von Kaenel, BFH)<br>
+[Issue 50](https://github.com/ehealthsuisse/ch-vacd/issues/50) * Allergies for eVACDOC (Emmanuel Eschmann, CISTEC AG)<br>
 
 
 ### EPR/nonEPR Profiles
@@ -33,17 +33,17 @@ What may be used when uploading to EPR. Are there restrictions?
 
 #### Issues
 [Issue 26](https://github.com/ehealthsuisse/ch-vacd/issues/26) Profiles (Emmanuel Eschmann, CISTEC AG)<br>
-[Issue 27](https://github.com/ehealthsuisse/ch-vacd/issues/27) CH VACD Immunization Certificate Document Profile (Emmanuel Eschmann, CISTEC AG)<br>
-[Issue 28](https://github.com/ehealthsuisse/ch-vacd/issues/28) CH VACD Immunization Administration Composition Profile (Emmanuel Eschmann, CISTEC AG)<br>
+[Issue 27](https://github.com/ehealthsuisse/ch-vacd/issues/27) * CH VACD Immunization Certificate Document Profile (Emmanuel Eschmann, CISTEC AG)<br>
+[Issue 28](https://github.com/ehealthsuisse/ch-vacd/issues/28) * CH VACD Immunization Administration Composition Profile (Emmanuel Eschmann, CISTEC AG)<br>
 
 ### FHIR vs FHIR CH-Core Resources
 The discussion point is the fact that on some profiles not all elements are redefined to use CH-Core profiles. This because only the relevant parts are defined according to the CDA.
 
 #### Issues
-[Issue 34](https://github.com/ehealthsuisse/ch-vacd/issues/34) CH VACD Allergies Section Profile (Emmanuel Eschmann, CISTEC AG)<br>
-[Issue 35](https://github.com/ehealthsuisse/ch-vacd/issues/35) CH VACD Immunization Section Profile (Emmanuel Eschmann, CISTEC AG)<br>
-[Issue 36](https://github.com/ehealthsuisse/ch-vacd/issues/36) CH VACD Laboratory And Serology Section Profile (Emmanuel Eschmann, CISTEC AG)<br>
-[Issue 37](https://github.com/ehealthsuisse/ch-vacd/issues/37) CH VACD Medical Problems Section Profile (Emmanuel Eschmann, CISTEC AG)<br>
+[Issue 34](https://github.com/ehealthsuisse/ch-vacd/issues/34) * CH VACD Allergies Section Profile (Emmanuel Eschmann, CISTEC AG)<br>
+[Issue 35](https://github.com/ehealthsuisse/ch-vacd/issues/35) * CH VACD Immunization Section Profile (Emmanuel Eschmann, CISTEC AG)<br>
+[Issue 36](https://github.com/ehealthsuisse/ch-vacd/issues/36) * CH VACD Laboratory And Serology Section Profile (Emmanuel Eschmann, CISTEC AG)<br>
+[Issue 37](https://github.com/ehealthsuisse/ch-vacd/issues/37) * CH VACD Medical Problems Section Profile (Emmanuel Eschmann, CISTEC AG)<br>
 
 
 ### Decision eHealth-Suisse
@@ -82,27 +82,27 @@ No discussion is neede on most of the following topic. It are
 [Issue 16](https://github.com/ehealthsuisse/ch-vacd/issues/16) Incomplete Valueset Illnesses undergone for immunization (Daniel Ratschiller, CISTEC AG))<br>
 [Issue 18](https://github.com/ehealthsuisse/ch-vacd/issues/18) Illnesses undergone for immunization (François von Kaenel, BFH))<br>
 [Issue 19](https://github.com/ehealthsuisse/ch-vacd/issues/19) SwissRisksForImmunizations (François von Kaenel, BFH))<br>
-[Issue 20](https://github.com/ehealthsuisse/ch-vacd/issues/20) Immunization Administration (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 21](https://github.com/ehealthsuisse/ch-vacd/issues/21) Immunization Certificate (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 20](https://github.com/ehealthsuisse/ch-vacd/issues/20) * Immunization Administration (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 21](https://github.com/ehealthsuisse/ch-vacd/issues/21) * Immunization Certificate (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 22](https://github.com/ehealthsuisse/ch-vacd/issues/22) 5 Immunization Recommendation Response - JSON Representation (François von Kaenel, BFH))<br>
-[Issue 23](https://github.com/ehealthsuisse/ch-vacd/issues/23) CH VACD Immunization Administration Composition Profile (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 24](https://github.com/ehealthsuisse/ch-vacd/issues/24) CH VACD Immunization Certificate Composition Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 23](https://github.com/ehealthsuisse/ch-vacd/issues/23) * CH VACD Immunization Administration Composition Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 24](https://github.com/ehealthsuisse/ch-vacd/issues/24) * CH VACD Immunization Certificate Composition Profile (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 25](https://github.com/ehealthsuisse/ch-vacd/issues/25) Immunization Certificate (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 29](https://github.com/ehealthsuisse/ch-vacd/issues/29) 1 Immunization Administration - JSON Representation (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 30](https://github.com/ehealthsuisse/ch-vacd/issues/30) * Vaccination Record (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 31](https://github.com/ehealthsuisse/ch-vacd/issues/31) * CH VACD Immunization Recommendation Request Document Profile (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 32](https://github.com/ehealthsuisse/ch-vacd/issues/32) * CH VACD Immunization Recommendation Request Document Profile (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 33](https://github.com/ehealthsuisse/ch-vacd/issues/33) Overloaded Valueset RouteOfAdministration (Immunization) (Daniel Ratschiller, CISTEC AG))<br>
-[Issue 38](https://github.com/ehealthsuisse/ch-vacd/issues/38) CH VACD Allergies Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 39](https://github.com/ehealthsuisse/ch-vacd/issues/39) CH VACD Medical Problems Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 40](https://github.com/ehealthsuisse/ch-vacd/issues/40) CH VACD Past Illness Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 41](https://github.com/ehealthsuisse/ch-vacd/issues/41) CH VACD Pregnancy Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 42](https://github.com/ehealthsuisse/ch-vacd/issues/42) CH VACD Recommendation Medical Problems Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 43](https://github.com/ehealthsuisse/ch-vacd/issues/43) CH VACD Recommendation Past Illness Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 44](https://github.com/ehealthsuisse/ch-vacd/issues/44) CH VACD Recommendation Pregnancy Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 45](https://github.com/ehealthsuisse/ch-vacd/issues/45) CH VACD Recommendations Allergies Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 46](https://github.com/ehealthsuisse/ch-vacd/issues/46) CH VACD Observation Profile (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 47](https://github.com/ehealthsuisse/ch-vacd/issues/47) CH VACD Other Relevant Observations Section (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 38](https://github.com/ehealthsuisse/ch-vacd/issues/38) * CH VACD Allergies Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 39](https://github.com/ehealthsuisse/ch-vacd/issues/39) * CH VACD Medical Problems Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 40](https://github.com/ehealthsuisse/ch-vacd/issues/40) * CH VACD Past Illness Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 41](https://github.com/ehealthsuisse/ch-vacd/issues/41) * CH VACD Pregnancy Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 42](https://github.com/ehealthsuisse/ch-vacd/issues/42) * CH VACD Recommendation Medical Problems Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 43](https://github.com/ehealthsuisse/ch-vacd/issues/43) * CH VACD Recommendation Past Illness Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 44](https://github.com/ehealthsuisse/ch-vacd/issues/44) * CH VACD Recommendation Pregnancy Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 45](https://github.com/ehealthsuisse/ch-vacd/issues/45) * CH VACD Recommendations Allergies Section Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 46](https://github.com/ehealthsuisse/ch-vacd/issues/46) * CH VACD Observation Profile (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 47](https://github.com/ehealthsuisse/ch-vacd/issues/47) * CH VACD Other Relevant Observations Section (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 48](https://github.com/ehealthsuisse/ch-vacd/issues/48) Immunization Recommendation Response (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 52](https://github.com/ehealthsuisse/ch-vacd/issues/52) Revision of the code systems (Daniel Ratschiller, CISTEC AG))<br>
 [Issue 53](https://github.com/ehealthsuisse/ch-vacd/issues/53) align with international works on immunization certificates (annatina foppa, eHealth Suisse))<br>
