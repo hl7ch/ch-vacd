@@ -26,7 +26,7 @@
 			<path value="Condition" />
 			<short value="CH VACD Past Illness Conditions" />
 		</element>
-		
+
 		<element id="Condition.code">
 			<path value="Condition.code" />
 			<short value="Condition code" />
@@ -45,10 +45,6 @@
 				<valueSet
 					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-illnesses-undergone-for-immunizaion-vs" />
 			</binding>
-			<mapping>
-				<identity value="cda" />
-				<map value=".code" />
-			</mapping>
 		</element>
 	</differential>
 </StructureDefinition>

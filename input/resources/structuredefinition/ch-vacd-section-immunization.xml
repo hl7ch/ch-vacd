@@ -95,7 +95,16 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+			</type>
+		</element>
+		<element id="Immunization.encounter">
+			<path value="Immunization.encounter" />
+			<short value="Encounter" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-encounter" />
 			</type>
 		</element>
 		<element id="Immunization.performer.actor">

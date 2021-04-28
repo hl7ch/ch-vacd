@@ -16,21 +16,16 @@
 		<name value="CDA (R2)" />
 	</mapping>
 	<kind value="resource" />
-	<abstract value="false" />
 	<type value="Condition" />
 	<baseDefinition
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-condition" />
+		value="http://hl7.org/fhir/StructureDefinition/Condition" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Condition">
 			<path value="Condition" />
-			<short value="CH VACD Condition" />
+			<short value="CH VACD Medical Problems Conditions" />
 		</element>
-		
-		<element id="Condition">
-			<path value="Condition" />
-			<short value="CH VACD Medical Problem Condition" />
-		</element>
+
 		<element id="Condition.code">
 			<path value="Condition.code" />
 			<short value="Condition code" />
@@ -40,6 +35,5 @@
 					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-vs" />
 			</binding>
 		</element>
-
 	</differential>
 </StructureDefinition>

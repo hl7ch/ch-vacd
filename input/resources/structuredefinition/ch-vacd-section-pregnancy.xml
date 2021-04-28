@@ -26,7 +26,6 @@
 			<path value="Condition" />
 			<short value="CH VACD Pregnancy Condition" />
 		</element>
-		
 		<element id="Condition.code">
 			<path value="Condition.code" />
 			<short value="Condition code" />
@@ -34,7 +33,8 @@
 				<coding>
 					<system value="http://loinc.org" />
 					<code value="11779-6" />
-					<display value="Delivery date Estimated from last menstrual period" />
+					<display
+						value="Delivery date Estimated from last menstrual period" />
 				</coding>
 			</patternCodeableConcept>
 			<mapping>

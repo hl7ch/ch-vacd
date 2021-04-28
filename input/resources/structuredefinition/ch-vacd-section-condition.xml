@@ -49,23 +49,48 @@
 		<element id="Condition.identifier.value">
 			<path value="Condition.identifier.value" />
 		</element>
-		
+		<element id="Condition.identifier.assigner">
+			<path value="Condition.identifier.assigner" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="	http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
+			</type>
+		</element>
 		<element id="Condition.subject">
 			<path value="Condition.subject" />
 			<short value="Patient" />
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
 			</type>
 		</element>
-		<element id="Condition.recorder">
-			<path value="Condition.recorder" />
-			<short value="Recorder" />
+		<element id="Condition.encounter">
+			<path value="Condition.encounter" />
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-encounter" />
+			</type>
+		</element>
+		
+		<element id="Condition.recorder">
+			<path value="Condition.recorder" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+			</type>
+		</element>
+		<element id="Condition.asserter">
+			<path value="Condition.asserter" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 			</type>
 		</element>
 		

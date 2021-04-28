@@ -101,6 +101,11 @@
 					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient" />
 			</type>
 		</element>
+		<element id="Immunization.encounter">
+			<path value="Immunization.encounter" />
+			<short value="Encounter" />
+			<max value="0" />
+		</element>
 		<element id="Immunization.performer.actor">
 			<path value="Immunization.performer.actor" />
 			<short value="The performer who applied the vaccine" />

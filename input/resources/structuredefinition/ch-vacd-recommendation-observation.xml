@@ -60,9 +60,13 @@
 					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient" />
 			</type>
 		</element>
+		<element id="Condition.encounter">
+			<path value="Condition.encounter" />
+			<max value="0" />
+		</element>
 		<element id="Observation.performer">
 			<path value="Observation.performer" />
-			<short value="Patient" />
+			<short value="Performer" />
 			<type>
 				<code value="Reference" />
 				<targetProfile

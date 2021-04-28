@@ -66,7 +66,14 @@
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
 			</type>
 		</element>
-		
+		<element id="ImmunizationRecommendation.authority">
+			<path value="ImmunizationRecommendation.authority" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
+			</type>
+		</element>
 		
 		<element id="ImmunizationRecommendation.recommendation.vaccineCode">
 			<path value="ImmunizationRecommendation.recommendation.vaccineCode" />

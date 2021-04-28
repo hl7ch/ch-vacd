@@ -49,6 +49,14 @@
 		<element id="Condition.identifier.value">
 			<path value="Condition.identifier.value" />
 		</element>
+				<element id="Condition.identifier.assigner">
+			<path value="Condition.identifier.assigner" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="	http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
+			</type>
+		</element>
 		
 		<element id="Condition.subject">
 			<path value="Condition.subject" />
@@ -59,13 +67,59 @@
 					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient" />
 			</type>
 		</element>
+		<element id="Condition.encounter">
+			<path value="Condition.encounter" />
+			<max value="0" />
+		</element>
+		
 		<element id="Condition.recorder">
 			<path value="Condition.recorder" />
-			<short value="Recorder" />
+			<max value="0" />
+		</element>
+		<element id="Condition.asserter">
+			<path value="Condition.asserter" />
+			<max value="0" />
+		</element>
+		
+		<element id="Condition.code">
+			<path value="Condition.code" />
+			<short value="Condition code" />
+			<min value="1" />
+		</element>
+		<element id="Condition.recordedDate">
+			<path value="Condition.recordedDate" />
+			<short value="Condition recordedDate" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+	</differential>
+	<differential>
+
+		<element id="Condition.encounter">
+			<path value="Condition.encounter" />
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-encounter" />
+			</type>
+		</element>
+		
+		<element id="Condition.recorder">
+			<path value="Condition.recorder" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+			</type>
+		</element>
+		<element id="Condition.asserter">
+			<path value="Condition.asserter" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 			</type>
 		</element>
 		
