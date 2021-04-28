@@ -50,37 +50,37 @@
 		<element id="AllergyIntolerance.identifier.value">
 			<path value="AllergyIntolerance.identifier.value" />
 		</element>
-		
-		<element id="AllergyIntolerance.code">
+
+				<element id="AllergyIntolerance.code">
 			<path value="AllergyIntolerance.code" />
-			<short value="AllergyIntolerance code" />
+			<short value="Allergy Intolerance code" />
 			<binding>
 				<extension
 					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-					<valueString value="AllergyIntoleranceCode" />
+					<valueString value="AllergyCode" />
 				</extension>
 				<extension
 					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
 					<valueBoolean value="true" />
 				</extension>
 				<strength value="extensible" />
-				<description value="The code for AllergyIntolerance." />
+				<description value="The code for allergy." />
 				<valueSet
-					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-allergies-immunizations-vs" />
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-immunization-allergyintolerances-vs" />
 			</binding>
 			<mapping>
 				<identity value="cda" />
 				<map value=".code" />
 			</mapping>
 		</element>
-		
+
 		<element id="AllergyIntolerance.patient">
 			<path value="AllergyIntolerance.patient" />
 			<short value="Patient" />
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient" />
 			</type>
 		</element>
 		<element id="AllergyIntolerance.recorder">
@@ -91,11 +91,9 @@
 				<targetProfile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient" />
 			</type>
 		</element>
-		
-		
 
 	</differential>
 </StructureDefinition>

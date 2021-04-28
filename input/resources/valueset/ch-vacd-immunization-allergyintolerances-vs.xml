@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="ch-vacd-immunization-allergyintolerances-vs"/>
+   <meta>
+      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+   </meta>
+   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+      <valuePeriod>
+         <start value="2018-04-19T00:00:00+01:00"/>
+      </valuePeriod>
+   </extension>
+   <url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-immunization-allergyintolerances-vs"/>
+   <identifier>
+      <use value="official"/>
+      <system value="http://art-decor.org/ns/oids/vs"/>
+      <value value="2.16.756.5.30.1.1.11.76"/>
+   </identifier>
+   <version value="2018-04-19T00:00:00"/>
+   <name value="AllergiesForEvacdoc"/>
+   <title value="Allergies for eVACDOC"/>
+   <status value="active"/>
+   <experimental value="false"/>
+   <publisher value="eHealth Suisse"/>
+   <contact>
+      <name value="eHealth Suisse"/>
+      <telecom>
+         <system value="url"/>
+         <value value="www.e-health-suisse.ch"/>
+      </telecom>
+   </contact>
+   <description value="The allergies which have an influence on the immunization recommendations. This list has to be completed with the vaccine allergie codes."/>
+   <compose>
+      <include>
+         <system value="http://snomed.info/sct"/>
+         <concept>
+            <code value="303300008"/>
+            <display value="Egg protein (substance)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Egg protein (substance)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Egg protein (substance)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Egg protein (substance)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Egg protein (substance)"/>
+            </designation>
+         </concept>
+         <concept>
+            <code value="24079001"/>
+            <display value="Atopic dermatitis (disorder)"/>
+            <designation>
+               <language value="de-CH"/>
+               <value value="Atopic dermatitis (disorder)"/>
+            </designation>
+            <designation>
+               <language value="fr-CH"/>
+               <value value="Atopic dermatitis (disorder)"/>
+            </designation>
+            <designation>
+               <language value="it-CH"/>
+               <value value="Atopic dermatitis (disorder)"/>
+            </designation>
+            <designation>
+               <language value="en-US"/>
+               <value value="Atopic dermatitis (disorder)"/>
+            </designation>
+         </concept>
+      </include>
+   </compose>
+</ValueSet>

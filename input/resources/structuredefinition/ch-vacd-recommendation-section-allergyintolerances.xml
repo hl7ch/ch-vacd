@@ -26,7 +26,7 @@
 			<path value="AllergyIntolerance" />
 			<short value="CH VACD Recommendation Allergy Intolerance" />
 		</element>
-<!-- 
+
 		<element id="AllergyIntolerance.code">
 			<path value="AllergyIntolerance.code" />
 			<short value="Allergy Intolerance code" />
@@ -42,7 +42,7 @@
 				<strength value="extensible" />
 				<description value="The code for allergy." />
 				<valueSet
-					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-allergies-immunizations-vs" />
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-immunization-allergyintolerances-vs" />
 			</binding>
 			<mapping>
 				<identity value="cda" />
@@ -50,12 +50,5 @@
 			</mapping>
 		</element>
 
-		<element id="Observation.valueBoolean">
-			<path value="Observation.valueBoolean" />
-			<short value="Observation.valueBoolean" />
-			<min value="1" />
-			<max value="1" />
-		</element>
- -->
 	</differential>
 </StructureDefinition>
