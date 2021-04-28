@@ -1,77 +1,540 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="ch-vacd-immunization-allergyintolerances-vs"/>
-   <meta>
-      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-   </meta>
-   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
-      <valuePeriod>
-         <start value="2018-04-19T00:00:00+01:00"/>
-      </valuePeriod>
-   </extension>
-   <url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-immunization-allergyintolerances-vs"/>
-   <identifier>
-      <use value="official"/>
-      <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.1.11.76"/>
-   </identifier>
-   <version value="2018-04-19T00:00:00"/>
-   <name value="AllergiesForEvacdoc"/>
-   <title value="Allergies for eVACDOC"/>
-   <status value="active"/>
-   <experimental value="false"/>
-   <publisher value="eHealth Suisse"/>
-   <contact>
-      <name value="eHealth Suisse"/>
-      <telecom>
-         <system value="url"/>
-         <value value="www.e-health-suisse.ch"/>
-      </telecom>
-   </contact>
-   <description value="The allergies which have an influence on the immunization recommendations. This list has to be completed with the vaccine allergie codes."/>
-   <compose>
-      <include>
-         <system value="http://snomed.info/sct"/>
-         <concept>
-            <code value="303300008"/>
-            <display value="Egg protein (substance)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Egg protein (substance)"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Egg protein (substance)"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Egg protein (substance)"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Egg protein (substance)"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="24079001"/>
-            <display value="Atopic dermatitis (disorder)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Atopic dermatitis (disorder)"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Atopic dermatitis (disorder)"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Atopic dermatitis (disorder)"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Atopic dermatitis (disorder)"/>
-            </designation>
-         </concept>
-      </include>
-   </compose>
+	<id value="ch-vacd-immunization-allergyintolerances-vs" />
+	<meta>
+		<profile
+			value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+	</meta>
+	<extension
+		url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+		<valuePeriod>
+			<start value="2018-04-19T00:00:00+01:00" />
+		</valuePeriod>
+	</extension>
+	<url
+		value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-immunization-allergyintolerances-vs" />
+	<identifier>
+		<use value="official" />
+		<system value="http://art-decor.org/ns/oids/vs" />
+		<value value="2.16.756.5.30.1.1.11.76" />
+	</identifier>
+	<version value="2018-04-19T00:00:00" />
+	<name value="AllergiesForEvacdoc" />
+	<title value="Allergies for eVACDOC" />
+	<status value="active" />
+	<experimental value="false" />
+	<publisher value="eHealth Suisse" />
+	<contact>
+		<name value="eHealth Suisse" />
+		<telecom>
+			<system value="url" />
+			<value value="www.e-health-suisse.ch" />
+		</telecom>
+	</contact>
+	<description
+		value="The allergies which have an influence on the immunization recommendations." />
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct" />
+			<concept>
+				<code value="303300008" />
+				<display value="Egg protein (substance)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Egg protein (substance)" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Egg protein (substance)" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Egg protein (substance)" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Egg protein (substance)" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="24079001" />
+				<display value="Atopic dermatitis (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Atopic dermatitis (disorder)" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Atopic dermatitis (disorder)" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Atopic dermatitis (disorder)" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Atopic dermatitis (disorder)" />
+				</designation>
+			</concept>
+		</include>
+		<include>
+			<system value="http://snomed.info/sct" />
+			<concept>
+				<code value="294641002" />
+				<display value="Allergy to anthrax vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to anthrax vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to anthrax vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to anthrax vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to anthrax vaccine" />
+				</designation>
+			</concept>
+
+			<concept>
+				<code value="294651001" />
+				<display value="Allergy to pertussis vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to pertussis vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to pertussis vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to pertussis vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to pertussis vaccine" />
+				</designation>
+			</concept>
+
+			<concept>
+				<code value="294658007" />
+				<display value="Allergy to tetanus vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to tetanus vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to tetanus vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to tetanus vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to tetanus vaccine" />
+				</designation>
+			</concept>
+
+
+
+
+			<concept>
+				<code value="294642009" />
+				<display value="Allergy to diphtheria vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to diphtheria vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to diphtheria vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to diphtheria vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to diphtheria vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="294664000" />
+				<display
+					value="Allergy to Haemophilus influenzae type b vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value
+						value="Allergy to Haemophilus influenzae type b vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value
+						value="Allergy to Haemophilus influenzae type b vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value
+						value="Allergy to Haemophilus influenzae type b vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value
+						value="Allergy to Haemophilus influenzae type b vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="294663006" />
+				<display value="Allergy to hepatitis A vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to hepatitis A vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to hepatitis A vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to hepatitis A vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to hepatitis A vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="294646007" />
+				<display value="Allergy to hepatitis B vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to hepatitis B vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to hepatitis B vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to hepatitis B vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to hepatitis B vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="294654009" />
+				<display value="Allergy to polio vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to polio vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to polio vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to polio vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to polio vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="294647003" />
+				<display value="Allergy to influenza vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to influenza vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to influenza vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to influenza vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to influenza vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="294650000" />
+				<display value="Allergy to mumps vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to mumps vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to mumps vaccine" />
+				</designation>
+				<designation>
+					1324711000000102
+					<language value="it-CH" />
+					<value value="Allergy to mumps vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to mumps vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="860695004" />
+				<display value="Allergy to meningococcus vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to meningococcus vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to meningococcus vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to meningococcus vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to meningococcus vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="294655005" />
+				<display value="Allergy to rabies vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to rabies vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to rabies vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to rabies vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to rabies vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="700468006" />
+				<display value="Allergy to Rotavirus vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to Rotavirus vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to Rotavirus vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to Rotavirus vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to Rotavirus vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="294656006" />
+				<display value="Allergy to rubella vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to rubella vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to rubella vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to rubella vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to rubella vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="294659004" />
+				<display value="Allergy to typhoid vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to typhoid vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to typhoid vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to typhoid vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to typhoid vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="294652008" />
+				<display value="Allergy to pneumococcal vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to pneumococcal vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to pneumococcal vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to pneumococcal vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to pneumococcal vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="294657002" />
+				<display value="Allergy to smallpox vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to smallpox vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to smallpox vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to smallpox vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to smallpox vaccine" />
+				</designation>
+			</concept>
+
+
+			<concept>
+				<code value="294644005" />
+				<display value="Allergy to diphtheria and tetanus vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Allergy to diphtheria and tetanus vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Allergy to diphtheria and tetanus vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Allergy to diphtheria and tetanus vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Allergy to diphtheria and tetanus vaccine" />
+				</designation>
+			</concept>
+
+			<concept>
+				<code value="294662001" />
+				<display
+					value="Allergy to measles and mumps and rubella vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value
+						value="Allergy to measles and mumps and rubella vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value
+						value="Allergy to measles and mumps and rubella vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value
+						value="Allergy to measles and mumps and rubella vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value
+						value="Allergy to measles and mumps and rubella vaccine" />
+				</designation>
+			</concept>
+		</include>
+
+		<include>
+			<system value="http://snomed.info/sct" />
+			<concept>
+				<code value="1324711000000102" />
+				<display
+					value="Allergy to SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine" />
+				<designation>
+					<language value="de-CH" />
+					<value
+						value="Allergy to SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value
+						value="Allergy to SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value
+						value="Allergy to SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value
+						value="Allergy to SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine" />
+				</designation>
+			</concept>
+
+		</include>
+	</compose>
 </ValueSet>
