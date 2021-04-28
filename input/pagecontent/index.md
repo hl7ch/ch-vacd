@@ -15,20 +15,21 @@ This implementation guide is dependent on [CH Core](http://fhir.ch/ig/ch-core/in
 which describe the Swiss specific context.
 
 The following documents have been defined:
-- [Immunization Administration](immunization-administration.html)
-- [Immunization Certificate](immunization-certificate.html)
-- [Vaccination Record](vaccination-record.html)
-- [Immunization Recommendation Request](immunization-recommendation-request.html)
-- [Immunization Recommendation Response](immunization-recommendation-response.html)
+- [Immunization Administration](immunization-administration-document.html)
+- [Immunization Certificate](immunization-certificate-document.html)
+- [Vaccination Record](vaccination-record-document.html)
+- [Immunization Recommendation Request](immunization-recommendation-request-document.html)
+- [Immunization Recommendation Response](immunization-recommendation-response-document.html)
+ 
+ **Download**: You can download this implementation guide in npm format from [here](package.tgz).
  
 ### Source
 [GitHub Repository](https://github.com/ehealthsuisse/ch-vacd)
 
 ### Collaboration
-This guide is created by [RALY Gmbh](https://www.raly.ch) and [Arpage AG](https://www.arpage.ch) as a mandate of [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html)
+This guide is created by [RALY GmbH](https://www.raly.ch) and [Arpage AG](https://www.arpage.ch) as a mandate of [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html).
 
 
-**Download**: You can download this implementation guide in npm format from [here](package.tgz).
 
 ### Copyright
 This artefact includes content from SNOMED Clinical Terms&reg; (SNOMED CT&reg;) which is copyright of the 

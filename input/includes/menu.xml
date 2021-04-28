@@ -1,6 +1,28 @@
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <!--<li><a href="toc.html">Table of Contents</a></li>-->
   <li><a href="index.html">Home</a></li>
+    <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Documents<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="immunization-administration-document.html">Immunization Administration document</a>
+      </li>
+      <li>
+        <a href="immunization-certificate-document.html">Immunization Certificat document</a>
+      </li>
+      <li>
+        <a href="immunization-recommendation-request-document.html">Immunization Recommendation Request document</a>
+      </li>
+      <li>
+        <a href="immunization-recommendation-response-document.html">Immunization Recommendation Response document</a>
+      </li>
+      <li>
+        <a href="vaccination-record-document.html">Vaccination Record document</a>
+      </li>
+    </ul>
+  </li>
   <li><a href="profiles.html">Profiles</a></li>
   <li><a href="extensions.html">Extensions</a></li>
   <li><a href="terminology.html">Terminology</a></li>
