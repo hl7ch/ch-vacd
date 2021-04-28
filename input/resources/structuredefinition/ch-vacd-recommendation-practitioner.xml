@@ -5,7 +5,7 @@
 	<version value="0.1.0" />
 	<name value="CHVACDRecommendationPractitioner" />
 	<title value="CH VACD Recommendation Practitioner Profile" />
-	<status value="draft" />
+	<status value="active" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description

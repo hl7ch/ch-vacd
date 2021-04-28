@@ -2,7 +2,7 @@
 	<id value="ch-vacd-section-pastillnesses" />
 	<url
 		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pastillnesses" />
-	<version value="0.1.0" />
+	<version value="0.2.0" />
 	<name value="CHVACDPastIllnessSection" />
 	<title value="CH VACD Past Illness Section Profile" />
 	<status value="draft" />

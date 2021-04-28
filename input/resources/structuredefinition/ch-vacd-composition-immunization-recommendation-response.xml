@@ -2,11 +2,11 @@
 	<id value="ch-vacd-composition-immunization-recommendation-response" />
 	<url
 		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-recommendation-response" />
-	<version value="0.1.0" />
+	<version value="0.2.0" />
 	<name value="CHVACDCompositionImmunizationRecommendationResponse" />
 	<title
 		value="CH VACD Immunization Recommendation Response Composition Profile" />
-	<status value="draft" />
+	<status value="active" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description

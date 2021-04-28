@@ -2,7 +2,7 @@
 	<id value="ch-vacd-recommendation-section-medical-problems" />
 	<url
 		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-medical-problems" />
-	<version value="0.1.0" />
+	<version value="0.2.0" />
 	<name value="CHVACDRecommendationMedicalProblemsSection" />
 	<title
 		value="CH VACD Recommendation Medical Problems Section Profile" />

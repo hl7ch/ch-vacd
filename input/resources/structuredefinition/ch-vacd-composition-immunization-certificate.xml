@@ -2,11 +2,11 @@
 	<id value="ch-vacd-composition-immunization-certificate" />
 	<url
 		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-certificate" />
-	<version value="0.1.0" />
+	<version value="0.2.0" />
 	<name value="CHVACDCompositionImmunizationCertificate" />
 	<title
 		value="CH VACD Immunization Certificate Composition Profile" />
-	<status value="draft" />
+	<status value="active" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description

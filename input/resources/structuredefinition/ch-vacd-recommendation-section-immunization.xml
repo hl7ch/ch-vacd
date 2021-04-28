@@ -2,10 +2,10 @@
 	<id value="ch-vacd-recommendation-section-immunization" />
 	<url
 		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-immunization" />
-	<version value="0.1.0" />
+	<version value="0.2.0" />
 	<name value="CHVACDRecommendationImmunizationSection" />
 	<title value="CH VACD Recommendation Immunization Section Profile" />
-	<status value="draft" />
+	<status value="active" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description

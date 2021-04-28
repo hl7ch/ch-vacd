@@ -2,7 +2,7 @@
 	<id value="ch-vacd-section-pregnancy" />
 	<url
 		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pregnancy" />
-	<version value="0.1.0" />
+	<version value="0.2.0" />
 	<name value="CHVACDPregnancySection" />
 	<title value="CH VACD Pregnancy Section Profile" />
 	<status value="draft" />

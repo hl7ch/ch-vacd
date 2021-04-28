@@ -6,7 +6,7 @@
 	<name value="CHVACDDocumentImmunizationRecommendationResponse" />
 	<title
 		value="CH VACD Immunization Recommendation Response Document Profile" />
-	<status value="draft" />
+	<status value="active" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
