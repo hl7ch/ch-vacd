@@ -15,11 +15,11 @@ This implementation guide is dependent on [CH Core](http://fhir.ch/ig/ch-core/in
 which describe the Swiss specific context.
 
 The following documents have been defined:
-- [Immunization Administration](immunization-administration-document.html)
-- [Immunization Certificate](immunization-certificate-document.html)
-- [Vaccination Record](vaccination-record-document.html)
-- [Immunization Recommendation Request](immunization-recommendation-request-document.html)
-- [Immunization Recommendation Response](immunization-recommendation-response-document.html)
+- [Immunization Administration document](immunization-administration-document.html)
+- [Immunization Certificate document](immunization-certificate-document.html)
+- [Vaccination Record document](vaccination-record-document.html)
+- [Immunization Recommendation Request document](immunization-recommendation-request-document.html)
+- [Immunization Recommendation Response document](immunization-recommendation-response-document.html)
  
  **Download**: You can download this implementation guide in npm format from [here](package.tgz).
  

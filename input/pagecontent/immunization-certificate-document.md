@@ -1,5 +1,8 @@
 The **Immunization Certificat document** describes the content and format of a Immunization Certificate document 
-containing exclusively the chapter with all know and applied immunizations and no further chapters.
+containing exclusively the chapter with all know and applied immunizations.
+
+The usage of this type of document is to represent the paper document in electronical form to declare all known and applied vaccines to a patient and other relevant informations.
+For documentation and exchange purposes of a new applied vaccine to a patient please refer to the [Immunization Administration document](immunization-administration-document.html)
 
 ### FHIR document (Bundle)
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 
