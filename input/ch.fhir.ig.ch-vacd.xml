@@ -343,11 +343,20 @@
 
 		<!-- value sets -->
 		<resource>
+		<!--  obsolete -->
 			<reference>
 				<reference value="ValueSet/ch-vacd-allergies-immunizations-vs" />
 			</reference>
 			<exampleBoolean value="false" />
+		</resource>	
+		<resource>
+		<!--  replacement for  ValueSet/ch-vacd-allergies-immunizations-vs -->
+			<reference>
+				<reference value="ValueSet/ch-vacd-immunization-allergyintolerances-vs" />
+			</reference>
+			<exampleBoolean value="false" />
 		</resource>
+	
 		<resource>
 			<reference>
 				<reference value="ValueSet/ch-vacd-diseases-vs" />
@@ -399,7 +408,7 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		
+
 		<resource>
 			<reference>
 				<reference value="ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs" />
