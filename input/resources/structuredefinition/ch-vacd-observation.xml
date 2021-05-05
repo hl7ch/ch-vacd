@@ -57,7 +57,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient" />
 			</type>
 		</element>
 		<element id="Observation.encounter">
@@ -75,7 +75,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner" />
 			</type>
 		</element>
 

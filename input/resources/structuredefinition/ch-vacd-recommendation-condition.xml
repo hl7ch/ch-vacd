@@ -4,7 +4,8 @@
 		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-condition" />
 	<version value="0.1.0" />
 	<name value="CHVACDRecommendationCondition" />
-	<title value="CH VACD Recommendation Condition Profile (Abstract)" />
+	<title
+		value="CH VACD Recommendation Condition Profile (Abstract)" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
@@ -25,39 +26,12 @@
 		<element id="Condition">
 			<path value="Condition" />
 		</element>
-		<element id="Condition.extension">
-			<path value="Condition.extension" />
-			<slicing>
-				<discriminator>
-					<type value="value" />
-					<path value="url" />
-				</discriminator>
-				<rules value="open" />
-			</slicing>
+		<element id="Condition.code">
+			<path value="Condition.code" />
+			<short value="Condition code" />
+			<min value="1" />
 		</element>
-		<element id="Condition.identifier">
-			<path value="Condition.identifier" />
-			<short value="Condition item ID" />
-			<mapping>
-				<identity value="cda" />
-				<map value=".id" />
-			</mapping>
-		</element>
-		<element id="Condition.identifier.system">
-			<path value="Condition.identifier.system" />
-		</element>
-		<element id="Condition.identifier.value">
-			<path value="Condition.identifier.value" />
-		</element>
-				<element id="Condition.identifier.assigner">
-			<path value="Condition.identifier.assigner" />
-			<type>
-				<code value="Reference" />
-				<targetProfile
-					value="	http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
-			</type>
-		</element>
-		
+
 		<element id="Condition.subject">
 			<path value="Condition.subject" />
 			<short value="Patient" />
@@ -67,72 +41,26 @@
 					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient" />
 			</type>
 		</element>
-		<element id="Condition.encounter">
-			<path value="Condition.encounter" />
-			<max value="0" />
-		</element>
-		
-		<element id="Condition.recorder">
-			<path value="Condition.recorder" />
-			<max value="0" />
-		</element>
-		<element id="Condition.asserter">
-			<path value="Condition.asserter" />
-			<max value="0" />
-		</element>
-		
-		<element id="Condition.code">
-			<path value="Condition.code" />
-			<short value="Condition code" />
-			<min value="1" />
-		</element>
-		<element id="Condition.recordedDate">
-			<path value="Condition.recordedDate" />
-			<short value="Condition recordedDate" />
-			<min value="1" />
-			<max value="1" />
-		</element>
-	</differential>
-	<differential>
 
 		<element id="Condition.encounter">
 			<path value="Condition.encounter" />
-			<type>
-				<code value="Reference" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-encounter" />
-			</type>
+			<max value="0" />
 		</element>
-		
-		<element id="Condition.recorder">
-			<path value="Condition.recorder" />
-			<type>
-				<code value="Reference" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
-			</type>
-		</element>
-		<element id="Condition.asserter">
-			<path value="Condition.asserter" />
-			<type>
-				<code value="Reference" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
-			</type>
-		</element>
-		
-		<element id="Condition.code">
-			<path value="Condition.code" />
-			<short value="Condition code" />
-			<min value="1" />
-		</element>
+
 		<element id="Condition.recordedDate">
 			<path value="Condition.recordedDate" />
 			<short value="Condition recordedDate" />
 			<min value="1" />
 			<max value="1" />
+		</element>
+
+		<element id="Condition.recorder">
+			<path value="Condition.recorder" />
+			<max value="0" />
+		</element>
+		<element id="Condition.asserter">
+			<path value="Condition.asserter" />
+			<max value="0" />
 		</element>
 	</differential>
 </StructureDefinition>

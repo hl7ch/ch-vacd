@@ -26,30 +26,6 @@
 			<path value="Observation" />
 			<short value="CH VACD Allergie Observations" />
 		</element>
-		<element id="Observation.extension">
-			<path value="Observation.extension" />
-			<slicing>
-				<discriminator>
-					<type value="value" />
-					<path value="url" />
-				</discriminator>
-				<rules value="open" />
-			</slicing>
-		</element>
-		<element id="Observation.identifier">
-			<path value="Observation.identifier" />
-			<short value="Observation item ID" />
-			<mapping>
-				<identity value="cda" />
-				<map value=".id" />
-			</mapping>
-		</element>
-		<element id="Observation.identifier.system">
-			<path value="Observation.identifier.system" />
-		</element>
-		<element id="Observation.identifier.value">
-			<path value="Observation.identifier.value" />
-		</element>
 
 		<element id="Observation.subject">
 			<path value="Observation.subject" />
@@ -60,8 +36,8 @@
 					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient" />
 			</type>
 		</element>
-		<element id="Condition.encounter">
-			<path value="Condition.encounter" />
+		<element id="Observation.encounter">
+			<path value="Observation.encounter" />
 			<max value="0" />
 		</element>
 		<element id="Observation.performer">
