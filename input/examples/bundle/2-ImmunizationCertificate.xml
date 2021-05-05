@@ -1,20 +1,20 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="2-ImmunizationCertificate"></id>
    <meta>
-      <lastUpdated value="2021-02-11T23:47:50.626+01:00"></lastUpdated>
+      <lastUpdated value="2021-05-05T08:19:01.078+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:ee4a07fc-dfe1-4c84-adcd-e66ea1c3ecf4"></value>
+      <value value="urn:uuid:ebb7e74f-eb4f-40b9-9010-7bd2b209a053"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-02-11T23:47:50.608+01:00"></timestamp>
+   <timestamp value="2021-05-05T08:19:01.060+02:00"></timestamp>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Composition/4d8ff91f-327c-4673-87ea-f0512d02015e"></fullUrl>
+      <fullUrl value="http://test.fhir.ch/r4/Composition/c595fa85-1148-4ce9-94a1-22b444a19e0d"></fullUrl>
       <resource>
          <Composition xmlns="http://hl7.org/fhir">
-            <id value="4d8ff91f-327c-4673-87ea-f0512d02015e"></id>
+            <id value="c595fa85-1148-4ce9-94a1-22b444a19e0d"></id>
             <meta>
                <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-certificate"></profile>
             </meta>
@@ -23,18 +23,12 @@
                <status value="generated"></status>
                <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">This is the composition for all immunizations.</div>
             </text>
-            <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-setid">
-               <valueIdentifier>
-                  <system value="urn:ietf:rfc:3986"></system>
-                  <value value="urn:uuid:ee4a07fc-dfe1-4c84-adcd-e66ea1c3ecf4"></value>
-               </valueIdentifier>
-            </extension>
             <extension id="versionNumber" url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
                <valueUnsignedInt value="1"></valueUnsignedInt>
             </extension>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.1.1.1"></system>
-               <value value="1b5777e4-11a0-46de-87f1-0bd860a0ff75"></value>
+               <value value="34b7f91b-3e8c-4df7-9345-35862f09a486"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -47,7 +41,7 @@
             <subject>
                <reference value="Patient/patient1"></reference>
             </subject>
-            <date value="2021-02-11T23:47:50+01:00"></date>
+            <date value="2021-05-05T08:19:01+02:00"></date>
             <author>
                <reference value="Practitioner/practitioner1"></reference>
             </author>
@@ -94,6 +88,13 @@
             </section>
             <section id="annotation">
                <title value="Kommentar"></title>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"></system>
+                     <code value="48767-8"></code>
+                     <display value="Annotation comment"></display>
+                  </coding>
+               </code>
                <text>
                   <status value="generated"></status>
                   <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the section containing all immunization entries.</div>
@@ -134,7 +135,7 @@
                         <tr>
                            <td>Date of birth</td>
                            <td>
-                              <span>10 March 1967</span>
+                              <span>10 February 1967</span>
                            </td>
                         </tr>
                      </tbody>
@@ -159,7 +160,7 @@
                <use value="home"></use>
             </telecom>
             <gender value="female"></gender>
-            <birthDate value="1967-03-10"></birthDate>
+            <birthDate value="1967-02-10"></birthDate>
             <address>
                <type value="both"></type>
                <line value="Leidensweg 10"></line>
@@ -180,7 +181,7 @@
             </meta>
             <identifier>
                <system value="urn:oid:2.51.1.3"></system>
-               <value value="2000000000030"></value>
+               <value value="7608888888888"></value>
             </identifier>
             <active value="true"></active>
             <name>
@@ -279,7 +280,7 @@
          <Immunization xmlns="http://hl7.org/fhir">
             <id value="immunization1"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-immunization"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"></profile>
             </meta>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
@@ -296,8 +297,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T23:47:50+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T23:47:50+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T08:19:01+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T08:19:01+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -344,7 +345,7 @@
          <Immunization xmlns="http://hl7.org/fhir">
             <id value="immunization2"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-immunization"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"></profile>
             </meta>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
@@ -361,8 +362,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T23:47:50+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T23:47:50+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T08:19:01+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T08:19:01+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -409,7 +410,7 @@
          <Immunization xmlns="http://hl7.org/fhir">
             <id value="immunization3"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-immunization"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"></profile>
             </meta>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
@@ -426,8 +427,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T23:47:50+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T23:47:50+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T08:19:01+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T08:19:01+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -474,7 +475,7 @@
          <Immunization xmlns="http://hl7.org/fhir">
             <id value="immunization4"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-immunization"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"></profile>
             </meta>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
@@ -491,8 +492,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T23:47:50+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T23:47:50+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T08:19:01+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T08:19:01+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>

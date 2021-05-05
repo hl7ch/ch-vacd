@@ -1,15 +1,15 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-recommendation-section-pastillnesses" />
+	<id value="ch-vacd-pastillnesses" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-pastillnesses" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-pastillnesses" />
 	<version value="0.2.0" />
-	<name value="CHVACDRecommendationPastIllnessSection" />
-	<title value="CH VACD Recommendation Past Illness Section Profile" />
+	<name value="CHVACDPastIllness" />
+	<title value="CH VACD Past Illness Profile" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<description
-		value="Definition of the past illness part for immunization recommendation request and response documents." />
+		value="Definition of the past illness part for all documents, except recommendation request and response documents." />
 	<mapping>
 		<identity value="cda" />
 		<uri value="http://hl7.org/v3/cda" />
@@ -19,14 +19,14 @@
 	<abstract value="false" />
 	<type value="Condition" />
 	<baseDefinition
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-condition" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-condition" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Condition">
 			<path value="Condition" />
 			<short value="CH VACD Past Illness Conditions" />
 		</element>
-		
+
 		<element id="Condition.code">
 			<path value="Condition.code" />
 			<short value="Condition code" />
@@ -45,10 +45,6 @@
 				<valueSet
 					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-illnesses-undergone-for-immunizaion-vs" />
 			</binding>
-			<mapping>
-				<identity value="cda" />
-				<map value=".code" />
-			</mapping>
 		</element>
 	</differential>
 </StructureDefinition>

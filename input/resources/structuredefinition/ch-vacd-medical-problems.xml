@@ -1,10 +1,10 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-section-medical-problems" />
+	<id value="ch-vacd-medical-problems" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-medical-problems" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems" />
 	<version value="0.2.0" />
-	<name value="CHVACDMedicalProblemsSection" />
-	<title value="CH VACD Medical Problems Section Profile" />
+	<name value="CHVACDMedicalProblems" />
+	<title value="CH VACD Medical Problems Profile" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
@@ -18,7 +18,7 @@
 	<kind value="resource" />
 	<type value="Condition" />
 	<baseDefinition
-		value="http://hl7.org/fhir/StructureDefinition/Condition" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-condition" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Condition">

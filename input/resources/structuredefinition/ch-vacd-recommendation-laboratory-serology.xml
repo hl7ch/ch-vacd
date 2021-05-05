@@ -1,10 +1,10 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-section-laboratory-serology" />
+	<id value="ch-vacd-recommendation-laboratory-serology" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-laboratory-serology" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-laboratory-serology" />
 	<version value="0.1.0" />
-	<name value="CHVACDRecommendationLaboratorySerologySection" />
-	<title value="CH VACD Recommendation Laboratory And Serology Section Profile" />
+	<name value="CHVACDRecommendationLaboratorySerology" />
+	<title value="CH VACD Recommendation Laboratory And Serology Profile" />
 	<status value="active" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
@@ -19,37 +19,14 @@
 	<abstract value="false" />
 	<type value="Observation" />
 	<baseDefinition
-		value="http://hl7.org/fhir/StructureDefinition/Observation" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-observation" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Observation">
 			<path value="Observation" />
-			<short value="CH VACD Allergie Observations" />
+			<short value="CH VACD Recommendation Laboratory Serology Observations" />
 		</element>
-		<element id="Observation.extension">
-			<path value="Observation.extension" />
-			<slicing>
-				<discriminator>
-					<type value="value" />
-					<path value="url" />
-				</discriminator>
-				<rules value="open" />
-			</slicing>
-		</element>
-		<element id="Observation.identifier">
-			<path value="Observation.identifier" />
-			<short value="Observation item ID" />
-			<mapping>
-				<identity value="cda" />
-				<map value=".id" />
-			</mapping>
-		</element>
-		<element id="Observation.identifier.system">
-			<path value="Observation.identifier.system" />
-		</element>
-		<element id="Observation.identifier.value">
-			<path value="Observation.identifier.value" />
-		</element>
+		
 		<element id="Observation.code">
 			<path value="Observation.code" />
 			<short value="Observation code" />

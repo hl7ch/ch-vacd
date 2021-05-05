@@ -1,10 +1,10 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-section-other-observations" />
+	<id value="ch-vacd-other-observations" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-other-observations" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-other-observations" />
 	<version value="0.1.0" />
-	<name value="CHVACDOtherRelevantObservationsSection" />
-	<title value="CH VACD Other Relevant Observations Section" />
+	<name value="CHVACDOtherRelevantObservations" />
+	<title value="CH VACD Other Relevant Observations" />
 	<status value="active" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
@@ -19,7 +19,7 @@
 	<abstract value="false" />
 	<type value="Observation" />
 	<baseDefinition
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-observation" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-observation" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Observation">

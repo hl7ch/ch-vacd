@@ -1,7 +1,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-section-observation" />
+	<id value="ch-vacd-observation" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-observation" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-observation" />
 	<version value="0.1.0" />
 	<name value="CHVACDObservation" />
 	<title value="CH VACD Observation Profile" />

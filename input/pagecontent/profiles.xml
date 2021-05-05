@@ -2,19 +2,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
 	
-	
-	<!-- 
-	<div class="tab">
-		<button class="tablinks" onclick="openCity(event, 'Categorie')">By Category</button>
-		<button class="tablinks" onclick="openCity(event, 'All')">All</button>
-	</div>
-	 -->
-	 
 	<div id="Categorie" class="tabcontent">
 	<h3>Document profiles</h3>
 	<div>
 	<li><a href="StructureDefinition-ch-vacd-document-immunization-administration.html">CH VACD Immunization Administration Document Profile</a> Definition of the bundle for the immunization administration document.</li>
-	<li><a href="StructureDefinition-ch-vacd-document-immunization-certificate.html">CH VACD Immunization Administration Document Profile</a> Definition of the bundle for the immunization certificate document.</li>
+	<li><a href="StructureDefinition-ch-vacd-document-immunization-certificate.html">CH VACD Immunization Certificate Document Profile</a> Definition of the bundle for the immunization certificate document.</li>
 	<li><a href="StructureDefinition-ch-vacd-document-vaccination-record.html">CH VACD Vaccination Record Document Profile</a> Definition of the bundle for the vaccination record document.</li>
 	<li><a href="StructureDefinition-ch-vacd-document-immunization-recommendation-request.html">CH VACD Immunization Recommendation Request Document Profile</a> Definition of the bundle for the immunization recommendation request.</li>
 	<li><a href="StructureDefinition-ch-vacd-document-immunization-recommendation-response.html">CH VACD Immunization Recommendation Response Document Profile</a> Definition of the bundle for the immunization recommendation response.</li>
@@ -23,7 +15,7 @@
 	<h3>Composition profiles</h3>
 	<div>
 	<li><a href="StructureDefinition-ch-vacd-composition-immunization-administration.html">CH VACD Immunization Administration Composition Profile</a>Definition of the composition for the immunization administration document.</li>
-	<li><a href="StructureDefinition-ch-vacd-composition-immunization-certificate.html">CH VACD Immunization Administration Composition Profile</a> Definition of the composition for the immunization certificate document.</li>
+	<li><a href="StructureDefinition-ch-vacd-composition-immunization-certificate.html">CH VACD Immunization Certificate Composition Profile</a> Definition of the composition for the immunization certificate document.</li>
 	<li><a href="StructureDefinition-ch-vacd-composition-vaccination-record.html">CH VACD VaccinationRecord Composition Profile</a> Definition of the composition for the vaccination record document.</li>
 	<li><a href="StructureDefinition-ch-vacd-composition-immunization-recommendation-request.html">CH VACD Immunization Recommendation Request Composition Profile</a> Definition of the composition for the immunization recommendation response document.</li>
 	<li><a href="StructureDefinition-ch-vacd-composition-immunization-recommendation-response.html">CH VACD Immunization Recommendation Response Composition Profile</a> Definition of the composition for the immunization recommendation response document.</li>
@@ -56,9 +48,9 @@
 		<li><a href="StructureDefinition-ch-vacd-recommendation-immunization-recommendations.html">CH VACD Recommendation Immunization Recommendations Profile</a> Definition of the immunization recommendation part for immunization recommendation request and response documents.</li>
 	</div>
 	</div>
-	<!-- 
-	<div id="All" class="tabcontent">
+	
+	<div id="All" class="tabcontent" style="visibility: hidden">
 		{% include list-profiles.xhtml %}
 	</div>
-	 -->
+	
 </div>

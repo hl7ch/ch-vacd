@@ -225,50 +225,50 @@
 		
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-section-allergyintolerances" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-allergyintolerances" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-section-immunization" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-immunization" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-section-immunization-recommendations" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-immunization-recommendations" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-section-laboratory-serology" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-laboratory-serology" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-section-medical-problems" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-medical-problems" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-section-other-observations" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-other-observations" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-section-pastillnesses" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-pastillnesses" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-section-pregnancy" />
+				<reference value="StructureDefinition/ch-vacd-recommendation-pregnancy" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -277,64 +277,64 @@
 		<!-- sections -->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-section-allergyintolerances" />
+				<reference value="StructureDefinition/ch-vacd-allergyintolerances" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-section-immunization" />
+				<reference value="StructureDefinition/ch-vacd-immunization" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-section-immunization-recommendations" />
+				<reference value="StructureDefinition/ch-vacd-immunization-recommendations" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-section-laboratory-serology" />
+				<reference value="StructureDefinition/ch-vacd-laboratory-serology" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-section-medical-problems" />
+				<reference value="StructureDefinition/ch-vacd-medical-problems" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-section-observation" />
+				<reference value="StructureDefinition/ch-vacd-observation" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-section-condition" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-section-other-observations" />
+				<reference value="StructureDefinition/ch-vacd-condition" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-section-pastillnesses" />
+				<reference value="StructureDefinition/ch-vacd-other-observations" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ch-vacd-pastillnesses" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-section-pregnancy" />
+				<reference value="StructureDefinition/ch-vacd-pregnancy" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>

@@ -1,10 +1,10 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-section-allergyintolerances" />
+	<id value="ch-vacd-allergyintolerances" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-allergyintolerances" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances" />
 	<version value="0.1.0" />
-	<name value="CHVACDAllergyIntoleranceSection" />
-	<title value="CH VACD AllergyIntolerance Section Profile" />
+	<name value="CHVACDAllergyIntolerance" />
+	<title value="CH VACD AllergyIntolerance Profile" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />

@@ -124,7 +124,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-immunization-recommendations" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization-recommendations" />
 			</type>
 		</element>
 		<element

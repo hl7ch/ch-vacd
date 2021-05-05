@@ -189,11 +189,9 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
-				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
 			</type>
 		</element>
 		<element
@@ -233,7 +231,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-immunization" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization" />
 			</type>
 		</element>
 		<element
@@ -345,7 +343,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-medical-problems" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-medical-problems" />
 			</type>
 		</element>
 		<element
@@ -457,7 +455,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-pastillnesses" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-pastillnesses" />
 			</type>
 		</element>
 		<element
@@ -568,7 +566,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-allergyintolerances" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-allergyintolerances" />
 			</type>
 		</element>
 		<element id="Composition.section.entry:allergies.reference">
@@ -677,7 +675,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-other-observations" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-other-observations" />
 			</type>
 		</element>
 		<element id="Composition.section.entry:otherrelevantobservations.reference">
@@ -787,7 +785,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-laboratory-serology" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-laboratory-serology" />
 			</type>
 		</element>
 		<element
@@ -896,7 +894,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-pregnancy" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-pregnancy" />
 			</type>
 		</element>
 		<element id="Composition.section.entry:pregnancy.reference">

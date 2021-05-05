@@ -238,11 +238,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
 			</type>
@@ -284,7 +284,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-immunization" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
 			</type>
 		</element>
 		<element
@@ -352,11 +352,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
 			</type>
@@ -398,7 +398,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-medical-problems" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems" />
 			</type>
 		</element>
 		<element
@@ -465,11 +465,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
 			</type>
@@ -511,7 +511,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pastillnesses" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-pastillnesses" />
 			</type>
 		</element>
 		<element
@@ -580,11 +580,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
 			</type>
@@ -624,7 +624,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-allergyintolerances" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances" />
 			</type>
 		</element>
 		<element id="Composition.section.entry:allergyintolerences.reference">
@@ -690,11 +690,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
 			</type>
@@ -734,7 +734,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-other-observations" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-other-observations" />
 			</type>
 		</element>
 		<element id="Composition.section.entry:otherrelevantobservations.reference">
@@ -800,11 +800,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
 			</type>
@@ -846,7 +846,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-laboratory-serology" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology" />
 			</type>
 		</element>
 		<element
@@ -913,11 +913,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
 			</type>
@@ -957,7 +957,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-pregnancy" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-pregnancy" />
 			</type>
 		</element>
 		<element id="Composition.section.entry:pregnancy.reference">
@@ -1023,11 +1023,11 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/RelatedPerson" />
 			</type>
@@ -1069,7 +1069,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-immunization-recommendations" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization-recommendations" />
 			</type>
 		</element>
 		<element

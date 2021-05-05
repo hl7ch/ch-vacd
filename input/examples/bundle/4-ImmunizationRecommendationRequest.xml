@@ -1,15 +1,15 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="4-ImmunizationRecommendationRequest"></id>
    <meta>
-      <lastUpdated value="2021-02-11T23:48:02.511+01:00"></lastUpdated>
+      <lastUpdated value="2021-05-05T08:19:10.186+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-request"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:e6ba8acd-9643-49c8-921b-e4a09d60a94b"></value>
+      <value value="urn:uuid:25b6739e-94aa-4795-ac93-ac27d40babdd"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-02-11T23:48:02.494+01:00"></timestamp>
+   <timestamp value="2021-05-05T08:19:10.169+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/ch-vacd-document-vaccination-record"></fullUrl>
       <resource>
@@ -25,7 +25,7 @@
             </text>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.1.1.1"></system>
-               <value value="acfe7f00-1170-46d7-8bd3-2bada50b6438"></value>
+               <value value="76b2c5b6-06cb-4689-bb67-f169b36063f4"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -38,7 +38,7 @@
             <subject>
                <reference value="Patient/patient1"></reference>
             </subject>
-            <date value="2021-02-11T23:48:02+01:00"></date>
+            <date value="2021-05-05T08:19:10+02:00"></date>
             <author>
                <reference value="Practitioner/practitioner1"></reference>
             </author>
@@ -181,7 +181,7 @@
                      <tbody>
                         <tr>
                            <td>Identifier</td>
-                           <td>31954b93-9a34-4276-8b3a-88920b2cb858</td>
+                           <td>cf9e5900-72f4-4ed2-a3e2-fc280d3e595c</td>
                         </tr>
                         <tr>
                            <td>Address</td>
@@ -199,7 +199,7 @@
             </text>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.1"></system>
-               <value value="31954b93-9a34-4276-8b3a-88920b2cb858"></value>
+               <value value="cf9e5900-72f4-4ed2-a3e2-fc280d3e595c"></value>
             </identifier>
             <gender value="female"></gender>
             <birthDate value="1967-03-10"></birthDate>
@@ -282,7 +282,7 @@
          <Immunization xmlns="http://hl7.org/fhir">
             <id value="immunization1"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-immunization"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization"></profile>
             </meta>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
@@ -299,8 +299,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T23:48:02+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T23:48:02+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T08:19:10+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T08:19:10+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -347,7 +347,7 @@
          <Immunization xmlns="http://hl7.org/fhir">
             <id value="immunization2"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-immunization"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization"></profile>
             </meta>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
@@ -364,8 +364,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T23:48:02+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T23:48:02+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T08:19:10+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T08:19:10+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -412,7 +412,7 @@
          <Immunization xmlns="http://hl7.org/fhir">
             <id value="immunization3"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-immunization"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization"></profile>
             </meta>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
@@ -429,8 +429,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T23:48:02+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T23:48:02+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T08:19:10+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T08:19:10+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -477,7 +477,7 @@
          <Immunization xmlns="http://hl7.org/fhir">
             <id value="immunization4"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-immunization"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization"></profile>
             </meta>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
@@ -494,8 +494,8 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T23:48:02+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T23:48:02+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T08:19:10+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T08:19:10+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -542,7 +542,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="medicalRiskObservation1"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-medical-problems"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-medical-problems"></profile>
             </meta>
             <status value="final"></status>
             <code>
@@ -574,7 +574,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="medicalRiskObservation2"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-medical-problems"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-medical-problems"></profile>
             </meta>
             <status value="final"></status>
             <code>
@@ -606,7 +606,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="pastIllnessObservation1"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-pastillnesses"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-pastillnesses"></profile>
             </meta>
             <status value="final"></status>
             <code>
@@ -632,7 +632,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="allergyObservation1"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-allergies"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-allergies"></profile>
             </meta>
             <status value="final"></status>
             <code>
@@ -658,7 +658,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="allergyObservation2"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-allergies"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-allergies"></profile>
             </meta>
             <status value="final"></status>
             <code>
@@ -684,7 +684,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="labObservation1"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-laboratory-serology"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-laboratory-serology"></profile>
             </meta>
             <text>
                <status value="generated"></status>
@@ -727,7 +727,7 @@
          <Observation xmlns="http://hl7.org/fhir">
             <id value="pregnancyObservation1"></id>
             <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-pregnancy"></profile>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-pregnancy"></profile>
             </meta>
             <status value="final"></status>
             <code>

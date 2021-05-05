@@ -14,6 +14,9 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 * 2 Immunization Administration document: [XML](Bundle-2-ImmunizationCertificate.xml.html), [JSON](Bundle-2-ImmunizationCertificate.json.html)
  
 ### Resource profiles
-* [CH VACD Immunization Administration Document Profile](StructureDefinition-ch-vacd-document-immunization-certificate.html): Definition of the bundle for the immunization certificate document.
-* [CH VACD Immunization Administration Composition Profile](StructureDefinition-ch-vacd-composition-immunization-certificate.html): Definition of the composition for the immunization certificate document.
+* [CH VACD Immunization Certificate Document Profile](StructureDefinition-ch-vacd-document-immunization-certificate.html): Definition of the bundle for the immunization certificate document.
+* [CH VACD Immunization Certificate Composition Profile](StructureDefinition-ch-vacd-composition-immunization-certificate.html): Definition of the composition for the immunization certificate document.
 * [CH VACD Immunization Section Profile](StructureDefinition-ch-vacd-section-immunization.html): Definition of the immunization part for all documents, except recommendation request and response documents.
+* [CH VACD Past Illness Profile](StructureDefinition-ch-vacd-pastillnesses.html): Definition of the past illness part for all documents, except recommendation request and response documents.
+* [CH VACD AllergyIntolerance Profile](StructureDefinition-ch-vacd-allergyintolerances.html): Definition of the AllergyIntolerance part for vaccination record documents.</li>
+		

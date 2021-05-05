@@ -1,11 +1,11 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-recommendation-section-medical-problems" />
+	<id value="ch-vacd-recommendation-medical-problems" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-section-medical-problems" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-medical-problems" />
 	<version value="0.2.0" />
-	<name value="CHVACDRecommendationMedicalProblemsSection" />
+	<name value="CHVACDRecommendationMedicalProblems" />
 	<title
-		value="CH VACD Recommendation Medical Problems Section Profile" />
+		value="CH VACD Recommendation Medical Problems Profile" />
 	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />

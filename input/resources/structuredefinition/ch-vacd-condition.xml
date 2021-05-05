@@ -1,7 +1,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-section-condition" />
+	<id value="ch-vacd-condition" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-section-condition" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-condition" />
 	<version value="0.1.0" />
 	<name value="CHVACDCondition" />
 	<title value="CH VACD Condition Profile (Abstract)" />
