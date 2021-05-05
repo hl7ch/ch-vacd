@@ -1,15 +1,15 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="4-ImmunizationRecommendationRequest"></id>
    <meta>
-      <lastUpdated value="2021-05-05T08:19:10.186+02:00"></lastUpdated>
+      <lastUpdated value="2021-05-05T15:37:39.631+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-request"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:25b6739e-94aa-4795-ac93-ac27d40babdd"></value>
+      <value value="urn:uuid:69393325-8bac-4fa2-a61d-16979811c388"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-05-05T08:19:10.169+02:00"></timestamp>
+   <timestamp value="2021-05-05T15:37:39.631+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/ch-vacd-document-vaccination-record"></fullUrl>
       <resource>
@@ -24,8 +24,8 @@
                <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">This is the composition vaccination record.</div>
             </text>
             <identifier>
-               <system value="urn:oid:2.16.756.5.30.1.1.1.1"></system>
-               <value value="76b2c5b6-06cb-4689-bb67-f169b36063f4"></value>
+               <system value="urn:ietf:rfc:3986"></system>
+               <value value="urn:uuid:ecb3084f-1980-4f69-b77b-a4a8261546be"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -38,9 +38,9 @@
             <subject>
                <reference value="Patient/patient1"></reference>
             </subject>
-            <date value="2021-05-05T08:19:10+02:00"></date>
+            <date value="2021-05-05T15:37:39+02:00"></date>
             <author>
-               <reference value="Practitioner/practitioner1"></reference>
+               <reference value="PractitionerRole/practitionerRole1"></reference>
             </author>
             <title value="Vaccination Record"></title>
             <custodian>
@@ -86,10 +86,10 @@
                   <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">This is the section containing the medical problem entries.</div>
                </text>
                <entry>
-                  <reference value="Observation/medicalRiskObservation1"></reference>
+                  <reference value="Condition/medicalRiskCondition1"></reference>
                </entry>
                <entry>
-                  <reference value="Observation/medicalRiskObservation2"></reference>
+                  <reference value="Condition/medicalRiskCondition2"></reference>
                </entry>
             </section>
             <section id="sectionIlnessesUndergondeForImmunization1">
@@ -106,7 +106,7 @@
                   <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">This is the section containing the undergone illnesses for immunization entries.</div>
                </text>
                <entry>
-                  <reference value="Observation/pastIllnessObservation1"></reference>
+                  <reference value="Condition/pastIllnessCondition1"></reference>
                </entry>
             </section>
             <section id="allergies">
@@ -123,10 +123,10 @@
                   <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the section containing the allergy entries.</div>
                </text>
                <entry>
-                  <reference value="Observation/allergyObservation1"></reference>
+                  <reference value="AllergyIntolerance/allergyIntolerance1"></reference>
                </entry>
                <entry>
-                  <reference value="Observation/allergyObservation2"></reference>
+                  <reference value="AllergyIntolerance/allergyIntolerance2"></reference>
                </entry>
             </section>
             <section id="sectionLab1">
@@ -160,7 +160,7 @@
                   <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">This is the section containing the pregnancy status entry.</div>
                </text>
                <entry>
-                  <reference value="Observation/pregnancyObservation1"></reference>
+                  <reference value="Condition/pregnancyCondition1"></reference>
                </entry>
             </section>
          </Composition>
@@ -181,7 +181,7 @@
                      <tbody>
                         <tr>
                            <td>Identifier</td>
-                           <td>cf9e5900-72f4-4ed2-a3e2-fc280d3e595c</td>
+                           <td>52388093-440b-478f-adaa-6be134ff7602</td>
                         </tr>
                         <tr>
                            <td>Address</td>
@@ -199,7 +199,7 @@
             </text>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.1"></system>
-               <value value="cf9e5900-72f4-4ed2-a3e2-fc280d3e595c"></value>
+               <value value="52388093-440b-478f-adaa-6be134ff7602"></value>
             </identifier>
             <gender value="female"></gender>
             <birthDate value="1967-03-10"></birthDate>
@@ -257,23 +257,75 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Practitioner/practitioner2"></fullUrl>
+      <fullUrl value="http://test.fhir.ch/r4/Practitioner/practitionerRole4"></fullUrl>
       <resource>
-         <Practitioner xmlns="http://hl7.org/fhir">
-            <id value="practitioner2"></id>
+         <PractitionerRole xmlns="http://hl7.org/fhir">
+            <id value="practitionerRole4"></id>
             <meta>
                <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner"></profile>
             </meta>
-            <identifier>
-               <system value="urn:oid:2.51.1.3"></system>
-               <value value="2000000000031"></value>
-            </identifier>
             <active value="true"></active>
-            <name>
-               <family value="Muster"></family>
-               <given value="Max"></given>
-            </name>
-         </Practitioner>
+            <practitioner>
+               <reference value="Practitioner/practitioner4"></reference>
+            </practitioner>
+            <organization>
+               <reference value="Organization/organization4"></reference>
+            </organization>
+         </PractitionerRole>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Practitioner/practitionerRole4"></fullUrl>
+      <resource>
+         <PractitionerRole xmlns="http://hl7.org/fhir">
+            <id value="practitionerRole4"></id>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner"></profile>
+            </meta>
+            <active value="true"></active>
+            <practitioner>
+               <reference value="Practitioner/practitioner4"></reference>
+            </practitioner>
+            <organization>
+               <reference value="Organization/organization4"></reference>
+            </organization>
+         </PractitionerRole>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Practitioner/practitionerRole4"></fullUrl>
+      <resource>
+         <PractitionerRole xmlns="http://hl7.org/fhir">
+            <id value="practitionerRole4"></id>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner"></profile>
+            </meta>
+            <active value="true"></active>
+            <practitioner>
+               <reference value="Practitioner/practitioner4"></reference>
+            </practitioner>
+            <organization>
+               <reference value="Organization/organization4"></reference>
+            </organization>
+         </PractitionerRole>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Practitioner/practitionerRole5"></fullUrl>
+      <resource>
+         <PractitionerRole xmlns="http://hl7.org/fhir">
+            <id value="practitionerRole5"></id>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner"></profile>
+            </meta>
+            <active value="true"></active>
+            <practitioner>
+               <reference value="Practitioner/practitioner5"></reference>
+            </practitioner>
+            <organization>
+               <reference value="Organization/organization5"></reference>
+            </organization>
+         </PractitionerRole>
       </resource>
    </entry>
    <entry>
@@ -299,12 +351,12 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T08:19:10+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T08:19:10+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T15:37:39+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T15:37:39+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
-                  <reference value="Practitioner/practitioner2"></reference>
+                  <reference value="PractitionerRole/practitionerRole4"></reference>
                </actor>
             </performer>
             <reasonCode>
@@ -364,12 +416,12 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T08:19:10+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T08:19:10+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T15:37:39+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T15:37:39+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
-                  <reference value="Practitioner/practitioner2"></reference>
+                  <reference value="PractitionerRole/practitionerRole4"></reference>
                </actor>
             </performer>
             <reasonCode>
@@ -429,12 +481,12 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T08:19:10+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T08:19:10+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T15:37:39+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T15:37:39+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
-                  <reference value="Practitioner/practitioner2"></reference>
+                  <reference value="PractitionerRole/practitionerRole4"></reference>
                </actor>
             </performer>
             <reasonCode>
@@ -494,12 +546,12 @@
             <patient>
                <reference value="Patient/patient1"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T08:19:10+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T08:19:10+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T15:37:39+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T15:37:39+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
-                  <reference value="Practitioner/practitioner1"></reference>
+                  <reference value="PractitionerRole/practitionerRole5"></reference>
                </actor>
             </performer>
             <reasonCode>
@@ -537,78 +589,61 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/medicalRiskObservation1"></fullUrl>
+      <fullUrl value="http://test.fhir.ch/r4/Condition/medicalRiskCondition1"></fullUrl>
       <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="medicalRiskObservation1"></id>
+         <Condition xmlns="http://hl7.org/fhir">
+            <id value="medicalRiskCondition1"></id>
             <meta>
                <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-medical-problems"></profile>
             </meta>
-            <status value="final"></status>
             <code>
-               <coding>
-                  <system value="http://snomed.info/sct"></system>
-                  <code value="55607006"></code>
-                  <display value="Problem"></display>
-               </coding>
-            </code>
-            <subject>
-               <reference value="Patient/patient1"></reference>
-            </subject>
-            <performer>
-               <reference value="Practitioner/practitioner1"></reference>
-            </performer>
-            <valueCodeableConcept>
                <coding>
                   <system value="urn:oid:2.16.756.5.30.1.127.3.3.1"></system>
                   <code value="114036"></code>
                   <display value="ANDERE_LEBERERKRANKUNG"></display>
                </coding>
-            </valueCodeableConcept>
-         </Observation>
-      </resource>
-   </entry>
-   <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/medicalRiskObservation2"></fullUrl>
-      <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="medicalRiskObservation2"></id>
-            <meta>
-               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-medical-problems"></profile>
-            </meta>
-            <status value="final"></status>
-            <code>
-               <coding>
-                  <system value="http://snomed.info/sct"></system>
-                  <code value="55607006"></code>
-                  <display value="Problem"></display>
-               </coding>
             </code>
             <subject>
                <reference value="Patient/patient1"></reference>
             </subject>
-            <performer>
-               <reference value="Practitioner/practitioner1"></reference>
-            </performer>
-            <valueCodeableConcept>
+            <recorder>
+               <reference value="PractitionerRole/practitionerRole1"></reference>
+            </recorder>
+         </Condition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Condition/medicalRiskCondition2"></fullUrl>
+      <resource>
+         <Condition xmlns="http://hl7.org/fhir">
+            <id value="medicalRiskCondition2"></id>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-medical-problems"></profile>
+            </meta>
+            <code>
                <coding>
                   <system value="urn:oid:2.16.756.5.30.1.127.3.3.2"></system>
                   <code value="213006"></code>
                   <display value="FLEDERMAUSFORSCHER_UND_SCHUETZER"></display>
                </coding>
-            </valueCodeableConcept>
-         </Observation>
+            </code>
+            <subject>
+               <reference value="Patient/patient1"></reference>
+            </subject>
+            <recorder>
+               <reference value="PractitionerRole/practitionerRole1"></reference>
+            </recorder>
+         </Condition>
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/pastIllnessObservation1"></fullUrl>
+      <fullUrl value="http://test.fhir.ch/r4/Observation/pastIllnessCondition1"></fullUrl>
       <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="pastIllnessObservation1"></id>
+         <Condition xmlns="http://hl7.org/fhir">
+            <id value="pastIllnessCondition1"></id>
             <meta>
                <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-pastillnesses"></profile>
             </meta>
-            <status value="final"></status>
             <code>
                <coding>
                   <system value="http://snomed.info/sct"></system>
@@ -619,22 +654,21 @@
             <subject>
                <reference value="Patient/patient1"></reference>
             </subject>
-            <performer>
-               <reference value="Practitioner/practitioner1"></reference>
-            </performer>
-            <valueDateTime value="1965-12"></valueDateTime>
-         </Observation>
+            <recordedDate value="1966-12-05T15:37:39+01:00"></recordedDate>
+            <recorder>
+               <reference value="PractitionerRole/practitionerRole1"></reference>
+            </recorder>
+         </Condition>
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/allergyObservation1"></fullUrl>
+      <fullUrl value="http://test.fhir.ch/r4/AllergyIntolerance/allergyIntolerance1"></fullUrl>
       <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="allergyObservation1"></id>
+         <AllergyIntolerance xmlns="http://hl7.org/fhir">
+            <id value="allergyIntolerance1"></id>
             <meta>
                <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-allergies"></profile>
             </meta>
-            <status value="final"></status>
             <code>
                <coding>
                   <system value="http://snomed.info/sct"></system>
@@ -642,25 +676,24 @@
                   <display value="Egg protein (substance)"></display>
                </coding>
             </code>
-            <subject>
+            <patient>
                <reference value="Patient/patient1"></reference>
-            </subject>
-            <performer>
-               <reference value="Practitioner/practitioner1"></reference>
-            </performer>
-            <valueBoolean value="true"></valueBoolean>
-         </Observation>
+            </patient>
+            <recordedDate value="2004-07-11T15:37:39+02:00"></recordedDate>
+            <recorder>
+               <reference value="PractitionerRole/practitionerRole1"></reference>
+            </recorder>
+         </AllergyIntolerance>
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/allergyObservation2"></fullUrl>
+      <fullUrl value="http://test.fhir.ch/r4/AllergyIntolerance/allergyIntolerance2"></fullUrl>
       <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="allergyObservation2"></id>
+         <AllergyIntolerance xmlns="http://hl7.org/fhir">
+            <id value="allergyIntolerance2"></id>
             <meta>
                <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-allergies"></profile>
             </meta>
-            <status value="final"></status>
             <code>
                <coding>
                   <system value="http://snomed.info/sct"></system>
@@ -668,14 +701,14 @@
                   <display value="Atopic dermatitis (disorder)"></display>
                </coding>
             </code>
-            <subject>
+            <patient>
                <reference value="Patient/patient1"></reference>
-            </subject>
-            <performer>
-               <reference value="Practitioner/practitioner1"></reference>
-            </performer>
-            <valueBoolean value="true"></valueBoolean>
-         </Observation>
+            </patient>
+            <recordedDate value="1996-07-11T15:37:39+02:00"></recordedDate>
+            <recorder>
+               <reference value="PractitionerRole/practitionerRole1"></reference>
+            </recorder>
+         </AllergyIntolerance>
       </resource>
    </entry>
    <entry>
@@ -703,7 +736,7 @@
             </subject>
             <effectiveDateTime value="1971-10"></effectiveDateTime>
             <performer>
-               <reference value="Practitioner/practitioner1"></reference>
+               <reference value="PractitionerRole/practitionerRole1"></reference>
             </performer>
             <valueQuantity>
                <value value="99.0"></value>
@@ -722,14 +755,13 @@
       </resource>
    </entry>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Observation/pregnancyObservation1"></fullUrl>
+      <fullUrl value="http://test.fhir.ch/r4/Condition/pregnancyCondition1"></fullUrl>
       <resource>
-         <Observation xmlns="http://hl7.org/fhir">
-            <id value="pregnancyObservation1"></id>
+         <Condition xmlns="http://hl7.org/fhir">
+            <id value="pregnancyCondition1"></id>
             <meta>
                <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-pregnancy"></profile>
             </meta>
-            <status value="final"></status>
             <code>
                <coding>
                   <system value="http://loinc.org"></system>
@@ -740,11 +772,11 @@
             <subject>
                <reference value="Patient/patient1"></reference>
             </subject>
-            <performer>
-               <reference value="Practitioner/practitioner1"></reference>
-            </performer>
-            <valueDateTime value="2020-12"></valueDateTime>
-         </Observation>
+            <recordedDate value="2021-11-05T15:37:39+01:00"></recordedDate>
+            <recorder>
+               <reference value="PractitionerRole/practitionerRole1"></reference>
+            </recorder>
+         </Condition>
       </resource>
    </entry>
 </Bundle>

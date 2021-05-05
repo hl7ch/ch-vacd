@@ -56,8 +56,8 @@ The discussion point is to decide:
 
 #### Issues
 [Issue 9](https://github.com/ehealthsuisse/ch-vacd/issues/9)  Immunization Recommendation Request/Response as documents? (Oliver Egger, ahdis))<br>
-[Issue 49](https://github.com/ehealthsuisse/ch-vacd/issues/49) CH VACD Recommendation Patient Profile (Emmanuel Eschmann, CISTEC AG)<br>
-[Issue 51](https://github.com/ehealthsuisse/ch-vacd/issues/51) Immunization Certificate (Emmanuel Eschmann, CISTEC AG)<br>
+[Issue 49](https://github.com/ehealthsuisse/ch-vacd/issues/49) * CH VACD Recommendation Patient Profile (Emmanuel Eschmann, CISTEC AG)<br>
+[Issue 51](https://github.com/ehealthsuisse/ch-vacd/issues/51) * Immunization Certificate (Emmanuel Eschmann, CISTEC AG)<br>
 
 
 ### Others
@@ -84,11 +84,11 @@ No discussion is neede on most of the following topic. It are
 [Issue 19](https://github.com/ehealthsuisse/ch-vacd/issues/19) SwissRisksForImmunizations (François von Kaenel, BFH))<br>
 [Issue 20](https://github.com/ehealthsuisse/ch-vacd/issues/20) * Immunization Administration (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 21](https://github.com/ehealthsuisse/ch-vacd/issues/21) * Immunization Certificate (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 22](https://github.com/ehealthsuisse/ch-vacd/issues/22) 5 Immunization Recommendation Response - JSON Representation (François von Kaenel, BFH))<br>
+[Issue 22](https://github.com/ehealthsuisse/ch-vacd/issues/22) Immunization Recommendation Response - JSON Representation (François von Kaenel, BFH))<br>
 [Issue 23](https://github.com/ehealthsuisse/ch-vacd/issues/23) * CH VACD Immunization Administration Composition Profile (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 24](https://github.com/ehealthsuisse/ch-vacd/issues/24) * CH VACD Immunization Certificate Composition Profile (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 25](https://github.com/ehealthsuisse/ch-vacd/issues/25) Immunization Certificate (Emmanuel Eschmann, CISTEC AG))<br>
-[Issue 29](https://github.com/ehealthsuisse/ch-vacd/issues/29) 1 Immunization Administration - JSON Representation (Emmanuel Eschmann, CISTEC AG))<br>
+[Issue 29](https://github.com/ehealthsuisse/ch-vacd/issues/29) Immunization Administration - JSON Representation (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 30](https://github.com/ehealthsuisse/ch-vacd/issues/30) * Vaccination Record (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 31](https://github.com/ehealthsuisse/ch-vacd/issues/31) * CH VACD Immunization Recommendation Request Document Profile (Emmanuel Eschmann, CISTEC AG))<br>
 [Issue 32](https://github.com/ehealthsuisse/ch-vacd/issues/32) * CH VACD Immunization Recommendation Request Document Profile (Emmanuel Eschmann, CISTEC AG))<br>
@@ -109,8 +109,12 @@ No discussion is neede on most of the following topic. It are
 [Issue 54](https://github.com/ehealthsuisse/ch-vacd/issues/54) Immunization Target Disease Codes (annatina foppa, ehealth suisse))<br>
 [Issue 55](https://github.com/ehealthsuisse/ch-vacd/issues/55) SwissRisksForImmunizations (annatina, eHealth Suisse))<br>
 [Issue 56](https://github.com/ehealthsuisse/ch-vacd/issues/56) SwissRisksForImmunizations (annatina foppa, eHealth Suisse))<br>
-[Issue 57](https://github.com/ehealthsuisse/ch-vacd/issues/57) Allergies for eVACDOC (Annatina, eHS (Besprechung mit roeland-juerg-pero)))<br>
+[Issue 57](https://github.com/ehealthsuisse/ch-vacd/issues/57) * Allergies for eVACDOC (Annatina, eHS (Besprechung mit roeland-juerg-pero)))<br>
 [Issue 58](https://github.com/ehealthsuisse/ch-vacd/issues/58) * Sort the rofiles to the document categories (Annatina, eHS (Roeland Luykx, RALY GmbH)))<br>
+[Issue 60](https://github.com/ehealthsuisse/ch-vacd/issues/60) * Remove "Section" in profilenames<br>
+[Issue 61](https://github.com/ehealthsuisse/ch-vacd/issues/61) * Profiles in IG<br>
+
+
 
 
 

@@ -95,7 +95,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-patient-epr" />
+					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient" />
 			</type>
 		</element>
 		<element id="Immunization.encounter">
@@ -121,12 +121,29 @@
 			<short value="Immunization Reason Code" />
 			<slicing>
 				<discriminator>
-					<type value="type" />
-					<path value="resolve()" />
+					<type value="pattern" />
+					<path value="$this" />
 				</discriminator>
+				<description
+					value="Discriminated by the bound value set" />
 				<rules value="open" />
 			</slicing>
+			<min value="1" />
+			<max value="1" />
+			<type>
+				<code value="CodeableConcept" />
+			</type>
+			<mustSupport value="true" />
+			<patternCodeableConcept>
+				<coding>
+					<system
+						value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
+					<code value="IMMUNIZ" />
+					<display value="Immunization" />
+				</coding>
+			</patternCodeableConcept>
 		</element>
+		<!-- 
 		<element id="Immunization.reasonCode:ActCode">
 			<path value="Immunization.reasonCode" />
 			<sliceName value="ActCode" />
@@ -139,6 +156,7 @@
 				</coding>
 			</patternCodeableConcept>
 		</element>
+		 -->
 		<element id="Immunization.reasonCode:SpecialCaseMedication">
 			<path value="Immunization.reasonCode" />
 			<sliceName value="SpecialCaseMedication" />
