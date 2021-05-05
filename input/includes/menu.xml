@@ -12,14 +12,14 @@
       <li>
         <a href="immunization-certificate-document.html">Immunization Certificat document</a>
       </li>
+       <li>
+        <a href="vaccination-record-document.html">Vaccination Record document</a>
+      </li>
       <li>
         <a href="immunization-recommendation-request-document.html">Immunization Recommendation Request document</a>
       </li>
       <li>
         <a href="immunization-recommendation-response-document.html">Immunization Recommendation Response document</a>
-      </li>
-      <li>
-        <a href="vaccination-record-document.html">Vaccination Record document</a>
       </li>
     </ul>
   </li>

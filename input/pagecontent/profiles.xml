@@ -1,72 +1,64 @@
 <div xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
+	
+	
+	<!-- 
+	<div class="tab">
+		<button class="tablinks" onclick="openCity(event, 'Categorie')">By Category</button>
+		<button class="tablinks" onclick="openCity(event, 'All')">All</button>
+	</div>
+	 -->
+	 
+	<div id="Categorie" class="tabcontent">
+	<h3>Document profiles</h3>
+	<div>
+	<li><a href="StructureDefinition-ch-vacd-document-immunization-administration.html">CH VACD Immunization Administration Document Profile</a> Definition of the bundle for the immunization administration document.</li>
+	<li><a href="StructureDefinition-ch-vacd-document-immunization-certificate.html">CH VACD Immunization Administration Document Profile</a> Definition of the bundle for the immunization certificate document.</li>
+	<li><a href="StructureDefinition-ch-vacd-document-vaccination-record.html">CH VACD Vaccination Record Document Profile</a> Definition of the bundle for the vaccination record document.</li>
+	<li><a href="StructureDefinition-ch-vacd-document-immunization-recommendation-request.html">CH VACD Immunization Recommendation Request Document Profile</a> Definition of the bundle for the immunization recommendation request.</li>
+	<li><a href="StructureDefinition-ch-vacd-document-immunization-recommendation-response.html">CH VACD Immunization Recommendation Response Document Profile</a> Definition of the bundle for the immunization recommendation response.</li>
+	</div>
 
-	<h3>Immunization Administration</h3>
+	<h3>Composition profiles</h3>
 	<div>
-		<li><a href="StructureDefinition-ch-vacd-document-immunization-administration.html">CH VACD Immunization Administration Document Profile</a> Definition of the bundle for the immunization administration document.</li>
-		<li><a href="StructureDefinition-ch-vacd-composition-immunization-administration.html">CH VACD Immunization Administration Composition Profile</a>Definition of the composition for the immunization administration document.</li>
-		<li><a href="StructureDefinition-ch-vacd-section-immunization.html">CH VACD Immunization Section Profile</a>Definition of the immunization part for all documents, except recommendation request and response documents.</li>
+	<li><a href="StructureDefinition-ch-vacd-composition-immunization-administration.html">CH VACD Immunization Administration Composition Profile</a>Definition of the composition for the immunization administration document.</li>
+	<li><a href="StructureDefinition-ch-vacd-composition-immunization-certificate.html">CH VACD Immunization Administration Composition Profile</a> Definition of the composition for the immunization certificate document.</li>
+	<li><a href="StructureDefinition-ch-vacd-composition-vaccination-record.html">CH VACD VaccinationRecord Composition Profile</a> Definition of the composition for the vaccination record document.</li>
+	<li><a href="StructureDefinition-ch-vacd-composition-immunization-recommendation-request.html">CH VACD Immunization Recommendation Request Composition Profile</a> Definition of the composition for the immunization recommendation response document.</li>
+	<li><a href="StructureDefinition-ch-vacd-composition-immunization-recommendation-response.html">CH VACD Immunization Recommendation Response Composition Profile</a> Definition of the composition for the immunization recommendation response document.</li>
 	</div>
-	
-	<h3>Immunization Certificate</h3>
-	<div>
-		<li><a href="StructureDefinition-ch-vacd-document-immunization-certificate.html">CH VACD Immunization Administration Document Profile</a> Definition of the bundle for the immunization certificate document.</li>
-		<li><a href="StructureDefinition-ch-vacd-composition-immunization-certificate.html">CH VACD Immunization Administration Composition Profile</a> Definition of the composition for the immunization certificate document.</li>
-		<li><a href="StructureDefinition-ch-vacd-section-immunization.html">CH VACD Immunization Section Profile</a> Definition of the immunization part for all documents, except recommendation request and response documents.</li>
-	</div>
-	
-	<h3>Vaccination Record</h3>
-	<div>
-		<li><a href="StructureDefinition-ch-vacd-document-vaccination-record.html">CH VACD Vaccination Record Document Profile</a> Definition of the bundle for the vaccination record document.</li>
-		<li><a href="StructureDefinition-ch-vacd-composition-vaccination-record.html">CH VACD VaccinationRecord Composition Profile</a> Definition of the composition for the vaccination record document.</li>
-		<li><a href="StructureDefinition-ch-vacd-section-immunization.html">CH VACD Immunization Section Profile</a> Definition of the immunization part for all documents, except recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-section-medical-problems.html">CH VACD Medical Problems Section Profile</a> Definition of the medical problems part for all documents, except recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-section-pastillnesses.html">CH VACD Past Illness Section Profile</a> Definition of the past illness part for all documents, except recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-section-allergyintolerances.html">CH VACD AllergyIntolerance Section Profile</a> Definition of the AllergyIntolerance part for vaccination record documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-section-other-observations.html">CH VACD Other Relevant Observations Section</a> Definition of the other relevant observations part for all documents, except recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-section-laboratory-serology.html">CH VACD Laboratory And Serology Section Profile</a> Definition of the labor and serology part for all documents, except recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-section-pregnancy.html">CH VACD Pregnancy Section Profile</a> Definition of the pregnancy part for all documents, except recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-section-immunization-recommendations.html">CH VACD Immunization Recommendations Section Profile</a> Definition of the immunization recommendation part for all documents, except recommendation request and response documents.</li>
-	</div>
-	
-	<h3>Immunization Recommendation Request</h3>
-	<div>
-		<li><a href="StructureDefinition-ch-vacd-document-immunization-recommendation-request.html">CH VACD Immunization Recommendation Request Document Profile</a> Definition of the bundle for the immunization recommendation request.</li>
-		<li><a href="StructureDefinition-ch-vacd-composition-immunization-recommendation-request.html">CH VACD Immunization Recommendation Request Composition Profile</a> Definition of the composition for the immunization recommendation response document.</li>
 		
+	<h3>Common profiles</h3>
+	<div>
+		<li><a href="StructureDefinition-ch-vacd-immunization.html">CH VACD Immunization Profile</a>Definition of the immunization part for all documents, except recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-medical-problems.html">CH VACD Medical Problems Profile</a> Definition of the medical problems part for all documents, except recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-pastillnesses.html">CH VACD Past Illness Profile</a> Definition of the past illness part for all documents, except recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-allergyintolerances.html">CH VACD AllergyIntolerance Profile</a> Definition of the AllergyIntolerance part for vaccination record documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-other-observations.html">CH VACD Other Relevant Observations Profile</a> Definition of the other relevant observations part for all documents, except recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-laboratory-serology.html">CH VACD Laboratory And Serology Profile</a> Definition of the labor and serology part for all documents, except recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-pregnancy.html">CH VACD Pregnancy Profile</a> Definition of the pregnancy part for all documents, except recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-immunization-recommendations.html">CH VACD Immunization Recommendations Profile</a> Definition of the immunization recommendation part for all documents, except recommendation request and response documents.</li>
+	</div>
+
+	<h3>Recommendation profiles</h3>
+	<div>
 		<li><a href="StructureDefinition-ch-vacd-recommendation-patient.html">CH VACD Recommendation Patient Profile</a> Definition of the patient for immunization recommendation request and response documents.</li>
 		<li><a href="StructureDefinition-ch-vacd-recommendation-address.html">CH VACD Recommendation Address Profile</a> Definition of the address of a patient for immunization recommendation request and response documents.</li>
 		<li><a href="StructureDefinition-ch-vacd-recommendation-practitioner.html">CH VACD Recommendation Practitioner Profile</a> Definition of the practitioner for immunization recommendation request and response documents.</li>
-		
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-immunization.html">CH VACD Recommendation Immunization Section Profile</a> Definition of the immunization part for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-medical-problems.html">CH VACD Recommendation Medical Problems Section Profile</a> Definition of the medical problems part for recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-pastillnesses.html">CH VACD Recommendation Past Illness Section Profile</a> Definition of the past illness part for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-allergyintolerances.html">CH VACD Recommendation AllergyIntolerances Section Profile</a> Definition of the AllergyIntolerance part for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-other-observations.html">CH VACD Recommendation Other Relevant Observations Section</a> Definition of the other relevant observations part for all recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-laboratory-serology.html">CH VACD Recommendation Laboratory And Serology Section Profile</a> Definition of the labor and serology part for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-pregnancy.html">CH VACD Recommendation Pregnancy Section Profile</a> Definition of the pregnancy part for immunization recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-recommendation-immunization.html">CH VACD Recommendation Immunization Profile</a> Definition of the immunization part for immunization recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-recommendation-medical-problems.html">CH VACD Recommendation Medical Problems Profile</a> Definition of the medical problems part for recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-recommendation-pastillnesses.html">CH VACD Recommendation Past Illness Profile</a> Definition of the past illness part for immunization recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-recommendation-allergyintolerances.html">CH VACD Recommendation AllergyIntolerances Profile</a> Definition of the AllergyIntolerance part for immunization recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-recommendation-other-observations.html">CH VACD Recommendation Other Relevant Observations Profile</a> Definition of the other relevant observations part for all recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-recommendation-laboratory-serology.html">CH VACD Recommendation Laboratory And Serology Profile</a> Definition of the labor and serology part for immunization recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-recommendation-pregnancy.html">CH VACD Recommendation Pregnancy Profile</a> Definition of the pregnancy part for immunization recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-recommendation-immunization-recommendations.html">CH VACD Recommendation Immunization Recommendations Profile</a> Definition of the immunization recommendation part for immunization recommendation request and response documents.</li>
 	</div>
-	
-	<h3>Immunization Recommendation Response</h3>
-	<div>
-		<li><a href="StructureDefinition-ch-vacd-document-immunization-recommendation-response.html">CH VACD Immunization Recommendation Response Document Profile</a> Definition of the bundle for the immunization recommendation response.</li>
-		<li><a href="StructureDefinition-ch-vacd-composition-immunization-recommendation-response.html">CH VACD Immunization Recommendation Response Composition Profile</a> Definition of the composition for the immunization recommendation response document.</li>
-		
-		<li><a href="StructureDefinition-ch-vacd-recommendation-patient.html">CH VACD Recommendation Patient Profile</a> Definition of the patient for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-address.html">CH VACD Recommendation Address Profile</a> Definition of the address of a patient for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-practitioner.html">CH VACD Recommendation Practitioner Profile</a> Definition of the practitioner for immunization recommendation request and response documents.</li>
-		
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-immunization.html">CH VACD Recommendation Immunization Section Profile</a> Definition of the immunization part for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-medical-problems.html">CH VACD Recommendation Medical Problems Section Profile</a> Definition of the medical problems part for recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-pastillnesses.html">CH VACD Recommendation Past Illness Section Profile</a> Definition of the past illness part for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-allergyintolerances.html">CH VACD Recommendation AllergyIntolerances Section Profile</a> Definition of the AllergyIntolerance part for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-other-observations.html">CH VACD Recommendation Other Relevant Observations Section</a> Definition of the other relevant observations part for all recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-laboratory-serology.html">CH VACD Recommendation Laboratory And Serology Section Profile</a> Definition of the labor and serology part for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-pregnancy.html">CH VACD Recommendation Pregnancy Section Profile</a> Definition of the pregnancy part for immunization recommendation request and response documents.</li>
-		
-		<li><a href="StructureDefinition-ch-vacd-recommendation-section-immunization-recommendations.html">CH VACD Recommendation Immunization Recommendations Section Profile</a> Definition of the immunization recommendation part for immunization recommendation request and response documents.</li>
 	</div>
-
-	<div style="visibility: hidden"> {% include list-profiles.xhtml %} </div>
+	<!-- 
+	<div id="All" class="tabcontent">
+		{% include list-profiles.xhtml %}
+	</div>
+	 -->
 </div>

@@ -10,6 +10,10 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 
 {% include img.html img="immunization-administration-document.png" caption="Fig.: Immunization Administration document" width="40%" %}
   
-* Profile: [Immunization Administration document](StructureDefinition-ch-vacd-document-immunization-administration.html)
-* Example Immunization Administration document (xml): [Bundle-1-ImmunizationAdministration.xml](Bundle-1-ImmunizationAdministration.xml.html)
-* Example Immunization Administration document (json): [Bundle-1-ImmunizationAdministration.json](Bundle-1-ImmunizationAdministration.json.html)
+#### Examples
+* 1 Immunization Administration document: [XML](Bundle-1-ImmunizationAdministration.xml.html), [JSON](Bundle-1-ImmunizationAdministration.json.html)
+
+### Resource profiles
+* [CH VACD Immunization Administration Document Profile](StructureDefinition-ch-vacd-document-immunization-administration.html): Definition of the bundle for the immunization administration document.
+* [CH VACD Immunization Administration Composition Profile](StructureDefinition-ch-vacd-composition-immunization-administration.html): Definition of the composition for the immunization administration document.
+* [CH VACD Immunization Section Profile](StructureDefinition-ch-vacd-section-immunization.html): Definition of the immunization part for all documents, except recommendation request and response documents.

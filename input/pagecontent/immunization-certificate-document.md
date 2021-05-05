@@ -9,7 +9,11 @@ This exchange format is defined as a document type that corresponds to a Bundle 
 A Bundle has a list of entries. The first entry is the Composition, in which all contained entries are then referenced.
   
 {% include img.html img="immunization-certificate-document.png" caption="Fig.: Immunization Certificate document" width="40%" %}
-  
-* Profile: [Immunization Certificate document](StructureDefinition-ch-vacd-document-immunization-certificate.html)
-* Example Immunization Administration document (xml): [Bundle-2-ImmunizationCertificate.xml](Bundle-2-ImmunizationCertificate.xml.html)
-* Example Immunization Administration document (json): [Bundle-2-ImmunizationCertificate.json](Bundle-2-ImmunizationCertificate.json.html)
+ 
+#### Examples
+* 2 Immunization Administration document: [XML](Bundle-2-ImmunizationCertificate.xml.html), [JSON](Bundle-2-ImmunizationCertificate.json.html)
+ 
+### Resource profiles
+* [CH VACD Immunization Administration Document Profile](StructureDefinition-ch-vacd-document-immunization-certificate.html): Definition of the bundle for the immunization certificate document.
+* [CH VACD Immunization Administration Composition Profile](StructureDefinition-ch-vacd-composition-immunization-certificate.html): Definition of the composition for the immunization certificate document.
+* [CH VACD Immunization Section Profile](StructureDefinition-ch-vacd-section-immunization.html): Definition of the immunization part for all documents, except recommendation request and response documents.

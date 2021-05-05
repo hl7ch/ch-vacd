@@ -141,10 +141,6 @@
 					<value value="Allergy to tetanus vaccine" />
 				</designation>
 			</concept>
-
-
-
-
 			<concept>
 				<code value="294642009" />
 				<display value="Allergy to diphtheria vaccine" />
@@ -165,8 +161,6 @@
 					<value value="Allergy to diphtheria vaccine" />
 				</designation>
 			</concept>
-
-
 			<concept>
 				<code value="294664000" />
 				<display
@@ -192,8 +186,6 @@
 						value="Allergy to Haemophilus influenzae type b vaccine" />
 				</designation>
 			</concept>
-
-
 			<concept>
 				<code value="294663006" />
 				<display value="Allergy to hepatitis A vaccine" />
@@ -214,8 +206,6 @@
 					<value value="Allergy to hepatitis A vaccine" />
 				</designation>
 			</concept>
-
-
 			<concept>
 				<code value="294646007" />
 				<display value="Allergy to hepatitis B vaccine" />
@@ -294,7 +284,6 @@
 					<value value="Allergy to mumps vaccine" />
 				</designation>
 				<designation>
-					1324711000000102
 					<language value="it-CH" />
 					<value value="Allergy to mumps vaccine" />
 				</designation>
