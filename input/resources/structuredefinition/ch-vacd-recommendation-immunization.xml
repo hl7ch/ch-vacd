@@ -112,10 +112,10 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
 			</type>
 		</element>
-
+<!-- 
 		<element id="Immunization.reasonCode">
 			<path value="Immunization.reasonCode" />
 			<short value="Immunization Reason Code" />
@@ -158,7 +158,7 @@
 					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-special-case-medication-vs" />
 			</binding>
 		</element>
-
+ -->
 		<element id="Immunization.protocolApplied">
 			<path value="Immunization.protocolApplied" />
 			<min value="1" />

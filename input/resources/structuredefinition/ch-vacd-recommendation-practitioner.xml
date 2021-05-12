@@ -26,5 +26,13 @@
 			<path value="Practitioner" />
 			<short value="CH VACD Recommendation Practitioner" />
 		</element>
+		<element id="Practitioner.address">
+			<path value="Practitioner.address" />
+			<type>
+				<code value="Address" />
+				<profile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-address" />
+			</type>
+		</element>
 	</differential>
 </StructureDefinition>

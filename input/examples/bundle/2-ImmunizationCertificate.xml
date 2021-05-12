@@ -1,20 +1,20 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="2-ImmunizationCertificate"></id>
    <meta>
-      <lastUpdated value="2021-05-05T15:37:37.786+02:00"></lastUpdated>
+      <lastUpdated value="2021-05-12T15:10:42.088+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:ff4d2157-87f5-40b1-a95c-f3b7c642f1d0"></value>
+      <value value="urn:uuid:0d23dcd2-6033-4b3d-a828-ba79b960cb02"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-05-05T15:37:37.786+02:00"></timestamp>
+   <timestamp value="2021-05-12T15:10:42.088+02:00"></timestamp>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Composition/1e23731f-cd4e-45ad-b0a2-84949c178aaa"></fullUrl>
+      <fullUrl value="http://test.fhir.ch/r4/Composition/cb4817c9-c6ce-4393-be6e-467f783ab7eb"></fullUrl>
       <resource>
          <Composition xmlns="http://hl7.org/fhir">
-            <id value="1e23731f-cd4e-45ad-b0a2-84949c178aaa"></id>
+            <id value="cb4817c9-c6ce-4393-be6e-467f783ab7eb"></id>
             <meta>
                <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-certificate"></profile>
             </meta>
@@ -28,7 +28,7 @@
             </extension>
             <identifier>
                <system value="urn:ietf:rfc:3986"></system>
-               <value value="urn:uuid:553e50c5-7a2a-4d86-99f5-a49b3f7bc9ac"></value>
+               <value value="urn:uuid:87ee9ca8-e814-4155-b453-a7072dd6b3c2"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -41,7 +41,7 @@
             <subject>
                <reference value="Patient/patientEpr"></reference>
             </subject>
-            <date value="2021-05-05T15:37:37+02:00"></date>
+            <date value="2021-05-12T15:10:42+02:00"></date>
             <author>
                <reference value="PractitionerRole/practitionerRoleEpr1"></reference>
             </author>
@@ -84,6 +84,9 @@
                </entry>
                <entry>
                   <reference value="Immunization/immunization4"></reference>
+               </entry>
+               <entry>
+                  <reference value="Immunization/immunization5"></reference>
                </entry>
             </section>
             <section id="annotation">
@@ -292,6 +295,13 @@
                <family value="Demo"></family>
                <given value="Detlef"></given>
             </name>
+            <address>
+               <line value="Hilfgasse 7"></line>
+               <city value="Hilferswil"></city>
+               <state value="BE"></state>
+               <postalCode value="3456"></postalCode>
+               <country value="CH"></country>
+            </address>
          </Practitioner>
       </resource>
    </entry>
@@ -301,7 +311,7 @@
          <Organization xmlns="http://hl7.org/fhir">
             <id value="organization4"></id>
             <meta>
-               <profile value="&quot;http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"></profile>
+               <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"></profile>
             </meta>
             <identifier>
                <system value="urn:oid:2.51.1.3"></system>
@@ -353,6 +363,13 @@
                <family value="Muster"></family>
                <given value="Max"></given>
             </name>
+            <address>
+               <line value="Mustergasse 99"></line>
+               <city value="Beispielen"></city>
+               <state value="SG"></state>
+               <postalCode value="9876"></postalCode>
+               <country value="CH"></country>
+            </address>
          </Practitioner>
       </resource>
    </entry>
@@ -362,7 +379,7 @@
          <Organization xmlns="http://hl7.org/fhir">
             <id value="organization5"></id>
             <meta>
-               <profile value="&quot;http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"></profile>
+               <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"></profile>
             </meta>
             <identifier>
                <system value="urn:oid:2.51.1.3"></system>
@@ -402,21 +419,14 @@
             <patient>
                <reference value="Patient/patientEpr"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T15:37:37+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T15:37:37+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T15:10:42+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T15:10:42+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
                   <reference value="PractitionerRole/practitionerRole4"></reference>
                </actor>
             </performer>
-            <reasonCode>
-               <coding>
-                  <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
-                  <code value="IMMUNIZ"></code>
-                  <display value="Immunization"></display>
-               </coding>
-            </reasonCode>
             <protocolApplied>
                <targetDisease>
                   <coding>
@@ -467,21 +477,14 @@
             <patient>
                <reference value="Patient/patientEpr"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T15:37:37+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T15:37:37+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T15:10:42+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T15:10:42+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
                   <reference value="PractitionerRole/practitionerRole4"></reference>
                </actor>
             </performer>
-            <reasonCode>
-               <coding>
-                  <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
-                  <code value="IMMUNIZ"></code>
-                  <display value="Immunization"></display>
-               </coding>
-            </reasonCode>
             <protocolApplied>
                <targetDisease>
                   <coding>
@@ -532,21 +535,14 @@
             <patient>
                <reference value="Patient/patientEpr"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T15:37:37+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T15:37:37+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T15:10:42+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T15:10:42+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
                   <reference value="PractitionerRole/practitionerRole4"></reference>
                </actor>
             </performer>
-            <reasonCode>
-               <coding>
-                  <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
-                  <code value="IMMUNIZ"></code>
-                  <display value="Immunization"></display>
-               </coding>
-            </reasonCode>
             <protocolApplied>
                <targetDisease>
                   <coding>
@@ -597,21 +593,14 @@
             <patient>
                <reference value="Patient/patientEpr"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T15:37:37+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T15:37:37+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T15:10:42+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T15:10:42+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
                   <reference value="PractitionerRole/practitionerRole5"></reference>
                </actor>
             </performer>
-            <reasonCode>
-               <coding>
-                  <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
-                  <code value="IMMUNIZ"></code>
-                  <display value="Immunization"></display>
-               </coding>
-            </reasonCode>
             <protocolApplied>
                <targetDisease>
                   <coding>
@@ -632,6 +621,57 @@
                      <system value="http://snomed.info/sct"></system>
                      <code value="82314000"></code>
                      <display value="Rubella vaccination"></display>
+                  </coding>
+               </targetDisease>
+               <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
+            </protocolApplied>
+         </Immunization>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Immunization/immunization5"></fullUrl>
+      <resource>
+         <Immunization xmlns="http://hl7.org/fhir">
+            <id value="immunization5"></id>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"></profile>
+            </meta>
+            <identifier>
+               <system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
+               <value value="12312"></value>
+            </identifier>
+            <status value="completed"></status>
+            <statusReason>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason"></system>
+                  <code value="PATOBJ"></code>
+                  <display value="Patient objection"></display>
+               </coding>
+            </statusReason>
+            <vaccineCode>
+               <coding>
+                  <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                  <code value="545"></code>
+                  <display value="HBVAXPRO 40"></display>
+               </coding>
+            </vaccineCode>
+            <patient>
+               <reference value="Patient/patientEpr"></reference>
+            </patient>
+            <occurrenceDateTime value="2012-02-26T15:10:42+01:00"></occurrenceDateTime>
+            <recorded value="2012-02-26T15:10:42+01:00"></recorded>
+            <lotNumber value="12345"></lotNumber>
+            <performer>
+               <actor>
+                  <reference value="PractitionerRole/practitionerRole5"></reference>
+               </actor>
+            </performer>
+            <protocolApplied>
+               <targetDisease>
+                  <coding>
+                     <system value="http://snomed.info/sct"></system>
+                     <code value="16584000"></code>
+                     <display value="Hepatitis B vaccination"></display>
                   </coding>
                </targetDisease>
                <doseNumberPositiveInt value="1"></doseNumberPositiveInt>

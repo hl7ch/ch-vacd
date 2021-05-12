@@ -71,7 +71,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
 			</type>
 		</element>
 		<element id="Composition.author.reference">
@@ -299,7 +299,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
@@ -410,7 +410,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
@@ -524,7 +524,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
@@ -633,7 +633,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
@@ -741,7 +741,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile
@@ -852,7 +852,7 @@
 			<type>
 				<code value="Reference" />
 				<targetProfile
-					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
 				<targetProfile
 					value="http://hl7.org/fhir/StructureDefinition/Device" />
 				<targetProfile

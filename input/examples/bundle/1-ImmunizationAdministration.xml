@@ -1,20 +1,20 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-ImmunizationAdministration"></id>
    <meta>
-      <lastUpdated value="2021-05-05T15:37:34.123+02:00"></lastUpdated>
+      <lastUpdated value="2021-05-12T15:10:40.045+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:3ee135aa-e357-49e4-86b1-ec0569acb9c8"></value>
+      <value value="urn:uuid:545049cc-706a-4115-b7d7-0727b73421bf"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-05-05T15:37:34.078+02:00"></timestamp>
+   <timestamp value="2021-05-12T15:10:40.007+02:00"></timestamp>
    <entry>
-      <fullUrl value="http://test.fhir.ch/r4/Composition/87a325d1-c08d-4d87-83f5-87f6477a4416"></fullUrl>
+      <fullUrl value="http://test.fhir.ch/r4/Composition/0277476e-0765-497e-9ee0-d099b890e967"></fullUrl>
       <resource>
          <Composition xmlns="http://hl7.org/fhir">
-            <id value="87a325d1-c08d-4d87-83f5-87f6477a4416"></id>
+            <id value="0277476e-0765-497e-9ee0-d099b890e967"></id>
             <meta>
                <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-administration"></profile>
             </meta>
@@ -28,7 +28,7 @@
             </extension>
             <identifier>
                <system value="urn:ietf:rfc:3986"></system>
-               <value value="urn:uuid:d6a60333-3947-4063-b131-6aeefaf4783e"></value>
+               <value value="urn:uuid:43350f2d-050a-4f4a-8a1c-e085c7f310da"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -41,7 +41,7 @@
             <subject>
                <reference value="Patient/patientEpr"></reference>
             </subject>
-            <date value="2021-05-05T15:37:34+02:00"></date>
+            <date value="2021-05-12T15:10:40+02:00"></date>
             <author>
                <reference value="PractitionerRole/practitionerRoleEpr1"></reference>
             </author>
@@ -294,21 +294,14 @@
             <patient>
                <reference value="Patient/patientEpr"></reference>
             </patient>
-            <occurrenceDateTime value="2017-09-15T15:37:34+02:00"></occurrenceDateTime>
-            <recorded value="2017-09-15T15:37:34+02:00"></recorded>
+            <occurrenceDateTime value="2017-09-15T15:10:40+02:00"></occurrenceDateTime>
+            <recorded value="2017-09-15T15:10:40+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
                   <reference value="PractitionerRole/practitionerRoleEpr1"></reference>
                </actor>
             </performer>
-            <reasonCode>
-               <coding>
-                  <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
-                  <code value="IMMUNIZ"></code>
-                  <display value="Immunization"></display>
-               </coding>
-            </reasonCode>
             <protocolApplied>
                <targetDisease>
                   <coding>

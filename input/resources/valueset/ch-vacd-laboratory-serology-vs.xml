@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="ch-vacd-laboratory-serology-vs" />
+	<meta>
+		<profile
+			value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+	</meta>
+	<extension
+		url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+		<valuePeriod>
+			<start value="2021-01-24T00:00:00+01:00" />
+		</valuePeriod>
+	</extension>
+	<url
+		value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-laboratory-serology-vs" />
+	<identifier>
+		<use value="official" />
+		<system value="http://art-decor.org/ns/oids/vs" />
+		<value value="2.16.756.5.30.1.1.11.xyz" />
+	</identifier>
+	<version value="2021-01-24T00:00:00" />
+	<name value="LaboratorySerologyImmunization" />
+	<title value="Laboratory Serology for Immunization" />
+	<status value="active" />
+	<experimental value="false" />
+	<publisher value="eHealth Suisse" />
+	<contact>
+		<name value="eHealth Suisse" />
+		<telecom>
+			<system value="url" />
+			<value value="www.e-health-suisse.ch" />
+		</telecom>
+	</contact>
+	<description value="Laboratory Serology for immunization" />
+	<immutable value="true" />
+	<compose>
+		<include>
+			<system value="http://loinc.org" />
+			<concept>
+				<code value="22602-7" />
+				<display value="Varicella zoster virus Ab.IgG" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Windpocken" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Varicelle" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Varicella zoster virus Ab.IgG" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="22502-9" />
+				<display value="Measles virus Ab.IgG" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Masern" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Rougeole" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Measles virus Ab.IgG" />
+				</designation>
+			</concept>
+
+			<concept>
+				<code value="22417-0" />
+				<display value="Mumps virus Ab.IgG" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Mumps" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Oreillons" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Mumps virus Ab.IgG" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="41763-4" />
+				<display value="Rubella virus Ab.IgG" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Röteln" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Rubéole" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Rubella virus Ab.IgG" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="22313-1" />
+				<display value="Hepatitis A virus Ab.IgG" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Hepatitis A" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Hépatite A" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Hepatitis A virus Ab.IgG" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="16935-9" />
+				<display value="Hepatitis B virus surface Ab.IgG" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Hepatitis B" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Hépatite B" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Hepatitis B virus surface Ab.IgG" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="26061-2" />
+				<display value="European tick borne encephalitis virus Ab" />
+				<designation>
+					<language value="de-CH" />
+					<value value="FSME" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Encéphalite à tiques" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="European tick borne encephalitis virus Ab" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="6589-6" />
+				<display value="Yellow fever virus Ab" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Gelbfieber" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Fièvre jaune" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Yellow fever virus Ab" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="58770-9" />
+				<display value="Clostridium tetani toxin Ab.IgG" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Tetanus" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Tétanos" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Clostridium tetani toxin Ab.IgG" />
+				</designation>
+			</concept>
+		</include>
+	</compose>
+</ValueSet>

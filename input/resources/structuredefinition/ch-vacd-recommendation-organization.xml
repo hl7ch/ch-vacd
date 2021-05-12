@@ -1,0 +1,33 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="ch-vacd-recommendation-organization" />
+	<url
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-organization" />
+	<version value="0.1.0" />
+	<name value="CHVACDRecommendationOrganization" />
+	<title value="CH VACD Recommendation Organization Profile" />
+	<status value="active" />
+	<experimental value="false" />
+	<publisher value="eHealth Suisse" />
+	<description
+		value="Definition of the Organization for immunization recommendation request and response documents." />
+	<kind value="resource" />
+	<abstract value="false" />
+	<type value="Organization" />
+	<baseDefinition
+		value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
+	<derivation value="constraint" />
+	<differential>
+		<element id="Organization">
+			<path value="Organization" />
+			<short value="CH VACD Recommendation Organization" />
+		</element>
+		<element id="Organization.address">
+			<path value="Organization.address" />
+			<type>
+				<code value="Address" />
+				<profile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-address" />
+			</type>
+		</element>
+	</differential>
+</StructureDefinition>

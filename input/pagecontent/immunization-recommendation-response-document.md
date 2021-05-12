@@ -1,5 +1,5 @@
-The **Immunization Recommendation Response document** describes the content and format of a Immunization Recommendation Response 
-containing all immunization recommendations which can be made based on the data delivered by the immunization recooendation request. The response includes all data of the request. The patient data MUST be pseudonymized.
+The **Immunization Recommendation Response document** describes the content and format of an Immunization Recommendation Response 
+containing all immunization recommendations which can be made based on the data delivered by the immunization recommendation request. The response includes all data of the request. The patient data MUST be pseudonymized.
 
 ### FHIR document (Bundle)
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 
@@ -16,11 +16,11 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 * [CH VACD Recommendation Patient Profile](StructureDefinition-ch-vacd-recommendation-patient.html): Definition of the patient for immunization recommendation request and response documents.
 * [CH VACD Recommendation Address Profile](StructureDefinition-ch-vacd-recommendation-address.html): Definition of the address of a patient for immunization recommendation request and response documents.
 * [CH VACD Recommendation Practitioner Profile](StructureDefinition-ch-vacd-recommendation-practitioner.html): Definition of the practitioner for immunization recommendation request and response documents.
-* [CH VACD Recommendation Immunization Section Profile](StructureDefinition-ch-vacd-recommendation-section-immunization.html): Definition of the immunization part for immunization recommendation request and response documents.
-* [CH VACD Recommendation Medical Problems Section Profile](StructureDefinition-ch-vacd-recommendation-section-medical-problems.html): Definition of the medical problems part for recommendation request and response documents.
-* [CH VACD Recommendation Past Illness Section Profile](StructureDefinition-ch-vacd-recommendation-section-pastillnesses.html): Definition of the past illness part for immunization recommendation request and response documents.
-* [CH VACD Recommendation AllergyIntolerances Section Profile](StructureDefinition-ch-vacd-recommendation-section-allergyintolerances.html): Definition of the AllergyIntolerance part for immunization recommendation request and response documents.
-* [CH VACD Recommendation Other Relevant Observations Section](StructureDefinition-ch-vacd-recommendation-section-other-observations.html): Definition of the other relevant observations part for all recommendation request and response documents.
-* [CH VACD Recommendation Laboratory And Serology Section Profile](StructureDefinition-ch-vacd-recommendation-section-laboratory-serology.html): Definition of the labor and serology part for immunization recommendation request and response documents.
-* [CH VACD Recommendation Pregnancy Section Profile](StructureDefinition-ch-vacd-recommendation-section-pregnancy.html): Definition of the pregnancy part for immunization recommendation request and response documents.
-* [CH VACD Recommendation Immunization Recommendations Section Profile](StructureDefinition-ch-vacd-recommendation-section-immunization-recommendations.html): Definition of the immunization recommendation part for immunization recommendation request and response documents.
+* [CH VACD Recommendation Immunization Profile](StructureDefinition-ch-vacd-recommendation-immunization.html): Definition of the immunization part for immunization recommendation request and response documents.
+* [CH VACD Recommendation Medical Problems Profile](StructureDefinition-ch-vacd-recommendation-medical-problems.html): Definition of the medical problems part for recommendation request and response documents.
+* [CH VACD Recommendation Past Illness Profile](StructureDefinition-ch-vacd-recommendation-pastillnesses.html): Definition of the past illness part for immunization recommendation request and response documents.
+* [CH VACD Recommendation AllergyIntolerances Profile](StructureDefinition-ch-vacd-recommendation-allergyintolerances.html): Definition of the AllergyIntolerance part for immunization recommendation request and response documents.
+* [CH VACD Recommendation Other Relevant Observations Section](StructureDefinition-ch-vacd-recommendation-other-observations.html): Definition of the other relevant observations part for all recommendation request and response documents.
+* [CH VACD Recommendation Laboratory And Serology Profile](StructureDefinition-ch-vacd-recommendation-laboratory-serology.html): Definition of the labor and serology part for immunization recommendation request and response documents.
+* [CH VACD Recommendation Pregnancy Profile](StructureDefinition-ch-vacd-recommendation-pregnancy.html): Definition of the pregnancy part for immunization recommendation request and response documents.
+* [CH VACD Recommendation Immunization Recommendations Profile](StructureDefinition-ch-vacd-recommendation-immunization-recommendations.html): Definition of the immunization recommendation part for immunization recommendation request and response documents.

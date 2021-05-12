@@ -47,20 +47,23 @@
 			<max value="0" />
 		</element>
 
-		<element id="Condition.recordedDate">
-			<path value="Condition.recordedDate" />
-			<short value="Condition recordedDate" />
-			<min value="1" />
-			<max value="1" />
-		</element>
-
 		<element id="Condition.recorder">
 			<path value="Condition.recorder" />
-			<max value="0" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient" />
+			</type>
 		</element>
 		<element id="Condition.asserter">
 			<path value="Condition.asserter" />
-			<max value="0" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
+			</type>
 		</element>
 	</differential>
 </StructureDefinition>

@@ -3,6 +3,6 @@ This is an abstract defined profile derived from [Observation](http://hl7.org/fh
 <blockquote class="stu-note">
 Please do not use this profile directly.<br>
 Look into the profiles
-* [CH VACD Recommendation Other Relevant Observations profile](StructureDefinition-ch-vacd-recommendation-section-other-observations.html)
-* [CH VACD Recommendation Laboratory And Serology profile](StructureDefinition-ch-vacd-recommendation-section-laboratory-serology.html)
+* [CH VACD Recommendation Other Relevant Observations profile](StructureDefinition-ch-vacd-recommendation-other-observations.html)
+* [CH VACD Recommendation Laboratory And Serology profile](StructureDefinition-ch-vacd-recommendation-laboratory-serology.html)
 </blockquote>

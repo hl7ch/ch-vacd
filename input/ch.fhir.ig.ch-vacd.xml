@@ -212,6 +212,13 @@
 		
 		<resource>
 			<reference>
+				<reference value="StructureDefinition/ch-vacd-recommendation-organization" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		
+		<resource>
+			<reference>
 				<reference value="StructureDefinition/ch-vacd-recommendation-observation" />
 			</reference>
 			<exampleBoolean value="false" />
@@ -342,15 +349,23 @@
 
 
 		<!-- value sets -->
+		<!-- 
 		<resource>
-		<!--  obsolete -->
 			<reference>
 				<reference value="ValueSet/ch-vacd-allergies-immunizations-vs" />
 			</reference>
 			<exampleBoolean value="false" />
-		</resource>	
+		</resource>
+		 -->
 		<resource>
-		<!--  replacement for  ValueSet/ch-vacd-allergies-immunizations-vs -->
+			<reference>
+				<reference value="ValueSet/ch-vacd-laboratory-serology-vs" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		
+		
+		<resource>
 			<reference>
 				<reference value="ValueSet/ch-vacd-immunization-allergyintolerances-vs" />
 			</reference>

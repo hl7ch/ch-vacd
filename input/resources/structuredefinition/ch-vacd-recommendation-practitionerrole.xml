@@ -26,5 +26,25 @@
 			<path value="PractitionerRole" />
 			<short value="CH VACD Recommendation Practitioner Role" />
 		</element>
+
+		<element id="PractitionerRole.practitioner">
+			<path value="PractitionerRole.practitioner" />
+			<short value="CH VACD Recommendation Practitioner" />
+			<min value="1" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+			</type>
+		</element>
+		<element id="PractitionerRole.organization">
+			<path value="PractitionerRole.organization" />
+			<type>
+				<code value="Reference" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-organization" />
+			</type>
+		</element>
 	</differential>
+
 </StructureDefinition>

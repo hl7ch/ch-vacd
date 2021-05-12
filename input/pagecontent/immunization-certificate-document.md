@@ -1,5 +1,5 @@
-The **Immunization Certificat document** describes the content and format of a Immunization Certificate document 
-containing exclusively the chapter with all know and applied immunizations.
+The **Immunization Certificat document** describes the content and format of an Immunization Certificate document 
+containing exclusively the chapter with all known and applied immunizations.
 
 The usage of this type of document is to represent the paper document in electronical form to declare all known and applied vaccines to a patient and other relevant informations.
 For documentation and exchange purposes of a new applied vaccine to a patient please refer to the [Immunization Administration document](immunization-administration-document.html)
@@ -16,7 +16,7 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 ### Resource profiles
 * [CH VACD Immunization Certificate Document Profile](StructureDefinition-ch-vacd-document-immunization-certificate.html): Definition of the bundle for the immunization certificate document.
 * [CH VACD Immunization Certificate Composition Profile](StructureDefinition-ch-vacd-composition-immunization-certificate.html): Definition of the composition for the immunization certificate document.
-* [CH VACD Immunization Section Profile](StructureDefinition-ch-vacd-section-immunization.html): Definition of the immunization part for all documents, except recommendation request and response documents.
+* [CH VACD Immunization Profile](StructureDefinition-ch-vacd-immunization.html): Definition of the immunization part for all documents, except recommendation request and response documents.
 * [CH VACD Past Illness Profile](StructureDefinition-ch-vacd-pastillnesses.html): Definition of the past illness part for all documents, except recommendation request and response documents.
 * [CH VACD AllergyIntolerance Profile](StructureDefinition-ch-vacd-allergyintolerances.html): Definition of the AllergyIntolerance part for vaccination record documents.</li>
 		

@@ -65,7 +65,7 @@
 				<strength value="extensible" />
 				<description value="The code for Laboratory and Serology." />
 				<valueSet
-					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-allergies-immunizations-vs" />
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-laboratory-serology-vs" />
 			</binding>
 			<mapping>
 				<identity value="cda" />
