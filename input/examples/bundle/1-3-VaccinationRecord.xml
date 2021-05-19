@@ -1,15 +1,15 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-3-VaccinationRecord"></id>
    <meta>
-      <lastUpdated value="2021-05-19T11:12:33.476+02:00"></lastUpdated>
+      <lastUpdated value="2021-05-19T11:45:52.449+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:b195a0d8-59f5-4896-b287-60ab70530397"></value>
+      <value value="urn:uuid:d7aa073a-7c8f-4f68-b353-db4f8f14d611"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-05-19T11:12:33.476+02:00"></timestamp>
+   <timestamp value="2021-05-19T11:45:52.449+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/2-3-VaccinationRecordComposition"></fullUrl>
       <resource>
@@ -28,7 +28,7 @@
             </extension>
             <identifier>
                <system value="urn:ietf:rfc:3986"></system>
-               <value value="urn:uuid:65f56ec0-0adb-46e2-ad01-ad13c0120ec5"></value>
+               <value value="urn:uuid:59de8fe2-7681-4e5f-b81f-03b3cd11faa0"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -41,7 +41,7 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <date value="2021-05-19T11:12:33+02:00"></date>
+            <date value="2021-05-19T11:45:52+02:00"></date>
             <author>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </author>
@@ -553,8 +553,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T11:12:33+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T11:12:33+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T11:45:52+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T11:45:52+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -611,8 +611,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T11:12:33+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T11:12:33+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T11:45:52+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T11:45:52+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -669,8 +669,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T11:12:33+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T11:12:33+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T11:45:52+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T11:45:52+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -727,8 +727,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T11:12:33+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T11:12:33+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T11:45:52+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T11:45:52+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -792,8 +792,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2012-02-26T11:12:33+01:00"></occurrenceDateTime>
-            <recorded value="2012-02-26T11:12:33+01:00"></recorded>
+            <occurrenceDateTime value="2012-02-26T11:45:52+01:00"></occurrenceDateTime>
+            <recorded value="2012-02-26T11:45:52+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -831,7 +831,7 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <recordedDate value="2009-04-19T11:12:33+02:00"></recordedDate>
+            <recordedDate value="2009-04-19T11:45:52+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -856,7 +856,7 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <recordedDate value="2009-04-19T11:12:33+02:00"></recordedDate>
+            <recordedDate value="2009-04-19T11:45:52+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -881,7 +881,7 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <recordedDate value="1966-12-19T11:12:33+01:00"></recordedDate>
+            <recordedDate value="1966-12-19T11:45:52+01:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -905,14 +905,14 @@
             <code>
                <coding>
                   <system value="http://snomed.info/sct"></system>
-                  <code value="303300008"></code>
-                  <display value="Egg protein (substance)"></display>
+                  <code value="213020009"></code>
+                  <display value="Allergy to egg protein (finding)"></display>
                </coding>
             </code>
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <recordedDate value="2004-07-11T11:12:33+02:00"></recordedDate>
+            <recordedDate value="2004-07-11T11:45:52+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -943,7 +943,7 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <recordedDate value="1996-07-11T11:12:33+02:00"></recordedDate>
+            <recordedDate value="1996-07-11T11:45:52+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -1011,8 +1011,8 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <onsetDateTime value="2021-11-19T11:12:33+01:00"></onsetDateTime>
-            <recordedDate value="2021-05-19T11:12:33+02:00"></recordedDate>
+            <onsetDateTime value="2021-11-19T11:45:52+01:00"></onsetDateTime>
+            <recordedDate value="2021-05-19T11:45:52+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -1034,7 +1034,7 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <date value="2021-05-19T11:12:33+02:00"></date>
+            <date value="2021-05-19T11:45:52+02:00"></date>
             <recommendation>
                <vaccineCode>
                   <coding>
@@ -1083,7 +1083,7 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <date value="2021-05-19T11:12:33+02:00"></date>
+            <date value="2021-05-19T11:45:52+02:00"></date>
             <recommendation>
                <vaccineCode>
                   <coding>

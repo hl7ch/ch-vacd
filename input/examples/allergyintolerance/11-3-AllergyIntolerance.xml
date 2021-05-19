@@ -12,14 +12,14 @@
    <code>
       <coding>
          <system value="http://snomed.info/sct"></system>
-         <code value="303300008"></code>
-         <display value="Egg protein (substance)"></display>
+         <code value="213020009"></code>
+         <display value="Allergy to egg protein (finding)"></display>
       </coding>
    </code>
    <patient>
       <reference value="Patient/3-2-Patient"></reference>
    </patient>
-   <recordedDate value="2004-07-11T11:12:41+02:00"></recordedDate>
+   <recordedDate value="2004-07-11T11:46:00+02:00"></recordedDate>
    <recorder>
       <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
    </recorder>

@@ -1,15 +1,15 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-1-ImmunizationAdministration"></id>
    <meta>
-      <lastUpdated value="2021-05-19T11:12:16.207+02:00"></lastUpdated>
+      <lastUpdated value="2021-05-19T11:45:37.681+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:0e48046c-8c80-4d4d-9ed4-3d9016fd7ad5"></value>
+      <value value="urn:uuid:3255f036-9dbe-4496-81c0-4ebf31da78ba"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-05-19T11:12:16.040+02:00"></timestamp>
+   <timestamp value="2021-05-19T11:45:37.483+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/2-1-ImmunizationAdministrationComposition"></fullUrl>
       <resource>
@@ -28,7 +28,7 @@
             </extension>
             <identifier>
                <system value="urn:ietf:rfc:3986"></system>
-               <value value="urn:uuid:74d632b4-7038-49da-a4e0-8e0fb20eb4d8"></value>
+               <value value="urn:uuid:dcc49d98-83c3-4d63-a60f-2662fa1dbce8"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -41,11 +41,11 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <date value="2021-05-19T11:12:16+02:00"></date>
+            <date value="2021-05-19T11:45:37+02:00"></date>
             <author>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </author>
-            <title value="Verabreichte Impfungen"></title>
+            <title value="Immunization Administration"></title>
             <confidentiality value="N">
                <extension url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode">
                   <valueCodeableConcept>
@@ -294,8 +294,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2017-09-15T11:12:16+02:00"></occurrenceDateTime>
-            <recorded value="2017-09-15T11:12:16+02:00"></recorded>
+            <occurrenceDateTime value="2017-09-15T11:45:37+02:00"></occurrenceDateTime>
+            <recorded value="2017-09-15T11:45:37+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>

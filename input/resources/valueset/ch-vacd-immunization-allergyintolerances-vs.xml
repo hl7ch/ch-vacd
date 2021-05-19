@@ -37,23 +37,23 @@
 		<include>
 			<system value="http://snomed.info/sct" />
 			<concept>
-				<code value="303300008" />
-				<display value="Egg protein (substance)" />
+				<code value="213020009" />
+				<display value="Allergy to egg protein (finding)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Egg protein (substance)" />
+					<value value="Allergy to egg protein (finding)" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Egg protein (substance)" />
+					<value value="Allergy to egg protein (finding)" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Egg protein (substance)" />
+					<value value="Allergy to egg protein (finding)" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Egg protein (substance)" />
+					<value value="Allergy to egg protein (finding)" />
 				</designation>
 			</concept>
 			<concept>
