@@ -10,7 +10,7 @@
    <patient>
       <reference value="Patient/3-2-Patient"></reference>
    </patient>
-   <date value="2021-05-19T10:51:58+02:00"></date>
+   <date value="2021-05-19T11:12:41+02:00"></date>
    <recommendation>
       <vaccineCode>
          <coding>

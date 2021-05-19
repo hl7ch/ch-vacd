@@ -13,8 +13,8 @@
    <subject>
       <reference value="Patient/3-1-Patient"></reference>
    </subject>
-   <onsetDateTime value="2021-11-19T10:51:50+01:00"></onsetDateTime>
-   <recordedDate value="2021-05-19T10:51:50+02:00"></recordedDate>
+   <onsetDateTime value="2021-11-19T11:12:33+01:00"></onsetDateTime>
+   <recordedDate value="2021-05-19T11:12:33+02:00"></recordedDate>
    <recorder>
       <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
    </recorder>

@@ -1,15 +1,15 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-1-ImmunizationAdministration"></id>
    <meta>
-      <lastUpdated value="2021-05-19T10:51:34.909+02:00"></lastUpdated>
+      <lastUpdated value="2021-05-19T11:12:16.207+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:be02e137-9017-4449-8d4e-c2c05bc5c614"></value>
+      <value value="urn:uuid:0e48046c-8c80-4d4d-9ed4-3d9016fd7ad5"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-05-19T10:51:34.700+02:00"></timestamp>
+   <timestamp value="2021-05-19T11:12:16.040+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/2-1-ImmunizationAdministrationComposition"></fullUrl>
       <resource>
@@ -28,7 +28,7 @@
             </extension>
             <identifier>
                <system value="urn:ietf:rfc:3986"></system>
-               <value value="urn:uuid:7806d065-99eb-4ae0-9916-744941b0806b"></value>
+               <value value="urn:uuid:74d632b4-7038-49da-a4e0-8e0fb20eb4d8"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -41,7 +41,7 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <date value="2021-05-19T10:51:34+02:00"></date>
+            <date value="2021-05-19T11:12:16+02:00"></date>
             <author>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </author>
@@ -294,8 +294,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2017-09-15T10:51:35+02:00"></occurrenceDateTime>
-            <recorded value="2017-09-15T10:51:35+02:00"></recorded>
+            <occurrenceDateTime value="2017-09-15T11:12:16+02:00"></occurrenceDateTime>
+            <recorded value="2017-09-15T11:12:16+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>

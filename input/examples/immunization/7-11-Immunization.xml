@@ -18,8 +18,8 @@
    <patient>
       <reference value="Patient/3-2-Patient"></reference>
    </patient>
-   <occurrenceDateTime value="2012-02-26T10:51:58+01:00"></occurrenceDateTime>
-   <recorded value="2012-02-26T10:51:58+01:00"></recorded>
+   <occurrenceDateTime value="2012-02-26T11:12:41+01:00"></occurrenceDateTime>
+   <recorded value="2012-02-26T11:12:41+01:00"></recorded>
    <lotNumber value="12345"></lotNumber>
    <performer>
       <actor>
