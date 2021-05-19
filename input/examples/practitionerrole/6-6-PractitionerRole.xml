@@ -1,0 +1,13 @@
+<PractitionerRole xmlns="http://hl7.org/fhir">
+   <id value="6-6-PractitionerRole"></id>
+   <meta>
+      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole"></profile>
+   </meta>
+   <active value="true"></active>
+   <practitioner>
+      <reference value="Practitioner/4-6-Practitioner"></reference>
+   </practitioner>
+   <organization>
+      <reference value="Organization/5-6-Organization"></reference>
+   </organization>
+</PractitionerRole>

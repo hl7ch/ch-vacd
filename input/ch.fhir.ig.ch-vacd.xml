@@ -1,6 +1,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
 	<id value="ch.fhir.ig.ch-vacd" />
-	<url value="http://fhir.ch/ig/ch-vacd/ImplementationGuide/ch.fhir.ig.ch-vacd" />
+	<url
+		value="http://fhir.ch/ig/ch-vacd/ImplementationGuide/ch.fhir.ig.ch-vacd" />
 	<version value="0.2.0" />
 	<name value="CH_VACD" />
 	<title value="CH VACD (R4)" />
@@ -15,7 +16,7 @@
 			<value value="https://www.e-health-suisse.ch/startseite.html" />
 		</telecom>
 	</contact>
-	<description value="Implementation guide CH VACD"/>
+	<description value="Implementation guide CH VACD" />
 	<jurisdiction>
 		<coding>
 			<system value="urn:iso:std:iso:3166" />
@@ -28,7 +29,8 @@
 	<fhirVersion value="4.0.1" />
 
 	<dependsOn id="chcore">
-		<uri value="http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core" />
+		<uri
+			value="http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core" />
 		<packageId value="ch.fhir.ig.ch-core" />
 		<version value="2.0.0" />
 	</dependsOn>
@@ -38,11 +40,13 @@
 			<name value="CH-VACD" />
 		</grouping>
 
+		<!-- **************************************************** -->
 		<!-- References to code systems -->
-
+		<!-- **************************************************** -->
 		<resource>
 			<reference>
-				<reference value="CodeSystem/ch-vacd-complication-risks-cs" />
+				<reference
+					value="CodeSystem/ch-vacd-complication-risks-cs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -60,7 +64,8 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="CodeSystem/ch-vacd-recommendation-categories-cs" />
+				<reference
+					value="CodeSystem/ch-vacd-recommendation-categories-cs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -70,83 +75,717 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		<!-- <resource> <reference> <reference value="CodeSystem/whocc-atc-cs" /> </reference> <exampleBoolean value="false" /> </resource> -->
+
+
+		<!-- **************************************************** -->
 		<!-- References to examples -->
+		<!-- **************************************************** -->
+		<!-- 1 Documents (Bundle) -->
 		<resource>
 			<reference>
-				<reference value="Bundle/1-ImmunizationAdministration" />
+				<reference value="Bundle/1-1-ImmunizationAdministration" />
 			</reference>
-			<name value="1 Immunization Administration" />
-			<description value="Example for Bundle Immunization Administration" />
-			<exampleCanonical value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration" />
+			<name value="1.1 Immunization Administration" />
+			<description
+				value="Example for Bundle Immunization Administration" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Bundle/1-2-ImmunizationCertificate" />
+			</reference>
+			<name value="1.2 Immunization Certificate" />
+			<description
+				value="Example for Bundle Immunization Certificate" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Bundle/1-3-VaccinationRecord" />
+			</reference>
+			<name value="1.3 Vaccination Record" />
+			<description
+				value="Example for Bundle Vaccination Record" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="Bundle/1-4-ImmunizationRecommendationRequest" />
+			</reference>
+			<name value="1.4 Immunization Recommendation Request" />
+			<description
+				value="Example for Bundle Immunization Recommendation Request" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-request" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="Bundle/1-5-ImmunizationRecommendationResponse" />
+			</reference>
+			<name value="1.5 Immunization Recommendation Response" />
+			<description
+				value="Example for Bundle Immunization Recommendation Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-response" />
+		</resource>
+
+		<!-- ///////////////////////////////// -->
+		<!-- 2 Compositions (Composition) -->
+		<resource>
+			<reference>
+				<reference
+					value="Composition/2-1-ImmunizationAdministrationComposition" />
+			</reference>
+			<name value="2.1 Composition Immunization Administration" />
+			<description
+				value="Example for Composition Immunization Administration" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-administration" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="Composition/2-2-ImmunizationCertificateComposition" />
+			</reference>
+			<name value="2.2 Composition Immunization Certificate" />
+			<description
+				value="Example for Composition Immunization Certificate" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-certificate" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="Composition/2-3-VaccinationRecordComposition" />
+			</reference>
+			<name value="2.3 Composition Vaccination Record" />
+			<description
+				value="Example for Composition Vaccination Record" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-vaccination-record" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="Composition/2-4-ImmunizationRecommendationRequestComposition" />
+			</reference>
+			<name
+				value="2.4 Composition Immunization Recommendation Request" />
+			<description
+				value="Example for Composition Immunization Recommendation Request" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-recommendation-request" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="Composition/2-5-ImmunizationRecommendationResponseComposition" />
+			</reference>
+			<name
+				value="2.5 Composition Immunization Recommendation Response" />
+			<description
+				value="Example for Composition Immunization Recommendation Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-recommendation-response" />
+		</resource>
+
+
+		<!-- ///////////////////////////////// -->
+		<!-- 3 Patients -->
+		<resource>
+			<reference>
+				<reference value="Patient/3-1-Patient" />
+			</reference>
+			<name value="3.1 Patient" />
+			<description
+				value="Example for Patient for all document except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Patient/3-2-Patient" />
+			</reference>
+			<name value="3.2 Patient" />
+			<description
+				value="Example for Patient in Immunization Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient" />
+		</resource>
+
+		<!-- ///////////////////////////////// -->
+		<!-- 4 Practitioner -->
+		<resource>
+			<reference>
+				<reference value="Practitioner/4-1-Practitioner" />
+			</reference>
+			<name value="4.1 Practitioner" />
+			<description
+				value="Example for Practitioner for all documents except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Practitioner/4-2-Practitioner" />
+			</reference>
+			<name value="4.2 Practitioner" />
+			<description
+				value="Example for Practitioner for all documents except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Practitioner/4-3-Practitioner" />
+			</reference>
+			<name value="4.3 Practitioner" />
+			<description
+				value="Example for Practitioner for all documents except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Practitioner/4-4-Practitioner" />
+			</reference>
+			<name value="4.4 Practitioner (Recommendation Request/Response)" />
+			<description
+				value="Example for Practitioner in Immunization Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Practitioner/4-5-Practitioner" />
+			</reference>
+			<name value="4.5 Practitioner (Recommendation Request/Response)" />
+			<description
+				value="Example for Practitioner in Immunization Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Practitioner/4-6-Practitioner" />
+			</reference>
+			<name value="4.6 Practitioner (Recommendation Request/Response)" />
+			<description
+				value="Example for Practitioner in Immunization Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner" />
+		</resource>
+
+		<!-- ///////////////////////////////// -->
+		<!-- 5 Organizations -->
+		<resource>
+			<reference>
+				<reference value="Organization/5-1-Organization" />
+			</reference>
+			<name value="5.1 Organization" />
+			<description
+				value="Example for Organization for all documents except  Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Organization/5-2-Organization" />
+			</reference>
+			<name value="5.2 Organization" />
+			<description
+				value="Example for Organization for all documents except  Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Organization/5-3-Organization" />
+			</reference>
+			<name value="5.3 Organization" />
+			<description
+				value="Example for Organization for all documents except  Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Organization/5-4-Organization" />
+			</reference>
+			<name value="5.4 Organization (Recommendation Request/Response)" />
+			<description
+				value="Example for Organization in Immunization Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-organization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Organization/5-5-Organization" />
+			</reference>
+			<name value="5.5 Organization (Recommendation Request/Response)" />
+			<description
+				value="Example for Organization in Immunization Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-organization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Organization/5-6-Organization" />
+			</reference>
+			<name value="5.6 Organization (Recommendation Request/Response)" />
+			<description
+				value="Example for Organization in Immunization Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-organization" />
+		</resource>
+
+		<!-- ///////////////////////////////// -->
+		<!-- 6 PractitionerRoles -->
+		<resource>
+			<reference>
+				<reference value="PractitionerRole/6-1-PractitionerRole" />
+			</reference>
+			<name value="6.1 Practitioner Role)" />
+			<description
+				value="Example for Practitioner Role for all documents except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="PractitionerRole/6-2-PractitionerRole" />
+			</reference>
+			<name value="6.2 Practitioner Role)" />
+			<description
+				value="Example for Practitioner Role for all documents except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="PractitionerRole/6-3-PractitionerRole" />
+			</reference>
+			<name value="6.3 Practitioner Role)" />
+			<description
+				value="Example for Practitioner Role for all documents except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference value="Bundle/2-ImmunizationCertificate" />
+				<reference value="PractitionerRole/6-4-PractitionerRole" />
 			</reference>
-			<name value="2 Immunization Certificate" />
-			<description value="Example for Bundle Immunization Certificate" />
-			<exampleCanonical value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate" />
-		</resource>
-
-
-		<resource>
-			<reference>
-				<reference value="Bundle/3-VaccinationRecord" />
-			</reference>
-			<name value="3 Vaccination Record" />
-			<description value="Example for Bundle Vaccination Record" />
-			<exampleCanonical value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record" />
-		</resource>
-
-
-		<resource>
-			<reference>
-				<reference value="Bundle/4-ImmunizationRecommendationRequest" />
-			</reference>
-			<name value="4 Immunization Recommendation Request" />
-			<description value="Example for Bundle Immunization Recommendation Request" />
-			<exampleCanonical value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-request" />
+			<name
+				value="6.4 Practitioner Role (Recommendation Request/Response)" />
+			<description
+				value="Example for Practitioner Role in Immunization Recommendation Request" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="Bundle/5-ImmunizationRecommendationResponse" />
+				<reference value="PractitionerRole/6-5-PractitionerRole" />
 			</reference>
-			<name value="5 Immunization Recommendation Response" />
-			<description value="Example for Bundle Immunization Recommendation Response" />
-			<exampleCanonical value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-response" />
+			<name
+				value="6.5 Practitioner Role (Recommendation Request/Response)" />
+			<description
+				value="Example for Practitioner Role in Immunization Recommendation Request" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="PractitionerRole/6-6-PractitionerRole" />
+			</reference>
+			<name
+				value="6.6 Practitioner Role (Recommendation Request/Response)" />
+			<description
+				value="Example for Practitioner Role in Immunization Recommendation Request" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitionerrole" />
 		</resource>
 
+		<!-- ///////////////////////////////// -->
+		<!-- 7 immunization -->
+		<resource>
+			<reference>
+				<reference value="Immunization/7-1-Immunization" />
+			</reference>
+			<name value="7.1 Immunization" />
+			<description
+				value="Example forImmunization for all documents except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Immunization/7-2-Immunization" />
+			</reference>
+			<name value="7.2 Immunization" />
+			<description
+				value="Example forImmunization for all documents except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Immunization/7-3-Immunization" />
+			</reference>
+			<name value="7.3 Immunization" />
+			<description
+				value="Example forImmunization for all documents except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Immunization/7-4-Immunization" />
+			</reference>
+			<name value="7.4 Immunization" />
+			<description
+				value="Example forImmunization for all documents except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Immunization/7-5-Immunization" />
+			</reference>
+			<name value="7.5 Immunization" />
+			<description
+				value="Example forImmunization for all documents except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Immunization/7-6-Immunization" />
+			</reference>
+			<name value="7.6 Immunization" />
+			<description
+				value="Example forImmunization for all documents except Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="Immunization/7-7-Immunization" />
+			</reference>
+			<name value="7.7 Immunization (Recommendation Request/Response)" />
+			<description
+				value="Example forImmunization for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Immunization/7-8-Immunization" />
+			</reference>
+			<name value="7.8 Immunization (Recommendation Request/Response)" />
+			<description
+				value="Example forImmunization for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Immunization/7-9-Immunization" />
+			</reference>
+			<name value="7.9 Immunization (Recommendation Request/Response)" />
+			<description
+				value="Example forImmunization for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Immunization/7-10-Immunization" />
+			</reference>
+			<name
+				value="7.10 Immunization (Recommendation Request/Response)" />
+			<description
+				value="Example forImmunization for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Immunization/7-11-Immunization" />
+			</reference>
+			<name
+				value="7.11 Immunization (Recommendation Request/Response)" />
+			<description
+				value="Example forImmunization for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization" />
+		</resource>
+
+
+		<!-- ///////////////////////////////// -->
+		<!-- 8 condition -->
+		<resource>
+			<reference>
+				<reference value="Condition/8-1-Condition" />
+			</reference>
+			<name value="8.1 Condition (Pregnancy)" />
+			<description value="Example Condition for pregnancy" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-pregnancy" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Condition/8-2-Condition" />
+			</reference>
+			<name value="8.2 Condition (Medical Problems)" />
+			<description
+				value="Example Condition for medical problems" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Condition/8-3-Condition" />
+			</reference>
+			<name value="8.3 Condition (Medical Problems)" />
+			<description
+				value="Example Condition for medical problems" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Condition/8-4-Condition" />
+			</reference>
+			<name value="8.4 Condition (Past Illnesses)" />
+			<description value="Example Condition for past illnesses" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-pastillnesses" />
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="Condition/8-5-Condition" />
+			</reference>
+			<name
+				value="8.5 Condition (Pregnancy for Recommendation Request/Response)" />
+			<description
+				value="Example Condition for pregnancy for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-pregnancy" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Condition/8-6-Condition" />
+			</reference>
+			<name
+				value="8.6 Condition (Medical Problems for Recommendation Request/Response)" />
+			<description
+				value="Example Condition for medical problems for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-medical-problems" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Condition/8-7-Condition" />
+			</reference>
+			<name
+				value="8.7 Condition (Medical Problems for Recommendation Request/Response)" />
+			<description
+				value="Example Condition for medical problems for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-medical-problems" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Condition/8-8-Condition" />
+			</reference>
+			<name
+				value="8.8 Condition (Past Illnesses for Recommendation Request/Response)" />
+			<description
+				value="Example Condition for past illnesses for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-pastillnesses" />
+		</resource>
+
+		<!-- ///////////////////////////////// -->
+		<!-- 9 observation -->
+		<resource>
+			<reference>
+				<reference value="Observation/9-1-Observation" />
+			</reference>
+			<name value="9.1 Observation (Labor and Serology)" />
+			<description
+				value="Example Observation for labor and serology" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology" />
+		</resource>
+
+		<resource>
+			<reference>
+				<reference value="Observation/9-2-Observation" />
+			</reference>
+			<name
+				value="9.2 Observation (Labor and Serology for Recommendation Request/Response)" />
+			<description
+				value="Example Observation for labor and serology for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-laboratory-serology" />
+		</resource>
+
+
+		<!-- ///////////////////////////////// -->
+		<!-- 10 immunizationrecommendation -->
+		<resource>
+			<reference>
+				<reference
+					value="ImmunizationRecommendation/10-1-ImmunizationRecommendation" />
+			</reference>
+			<name value="10.1 ImmunizationRecommendation" />
+			<description value="Example ImmunizationRecommendation" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization-recommendations" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="ImmunizationRecommendation/10-2-ImmunizationRecommendation" />
+			</reference>
+			<name value="10.2 ImmunizationRecommendation" />
+			<description value="Example ImmunizationRecommendation" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization-recommendations" />
+		</resource>
+
+		<resource>
+			<reference>
+				<reference
+					value="ImmunizationRecommendation/10-3-ImmunizationRecommendation" />
+			</reference>
+			<name
+				value="10.3 ImmunizationRecommendation (Recommendation Request/Response)" />
+			<description
+				value="Example ImmunizationRecommendation for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization-recommendations" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="ImmunizationRecommendation/10-4-ImmunizationRecommendation" />
+			</reference>
+			<name
+				value="10.4 ImmunizationRecommendation (Recommendation Request/Response)" />
+			<description
+				value="Example ImmunizationRecommendation for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization-recommendations" />
+		</resource>
+
+		<!-- ///////////////////////////////// -->
+		<!-- 11 Allergyintolerance -->
+		<resource>
+			<reference>
+				<reference
+					value="AllergyIntolerance/11-1-AllergyIntolerance" />
+			</reference>
+			<name value="11.1 AllergyIntolerance" />
+			<description value="Example AllergyIntolerance" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="AllergyIntolerance/11-2-AllergyIntolerance" />
+			</reference>
+			<name value="11.2 AllergyIntolerance" />
+			<description value="Example AllergyIntolerance" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances" />
+		</resource>
+
+		<resource>
+			<reference>
+				<reference
+					value="AllergyIntolerance/11-3-AllergyIntolerance" />
+			</reference>
+			<name
+				value="11.3 AllergyIntolerance (Recommendation Request/Response)" />
+			<description
+				value="Example AllergyIntolerance for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-allergyintolerances" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="AllergyIntolerance/11-4-AllergyIntolerance" />
+			</reference>
+			<name
+				value="11.4 AllergyIntolerance (Recommendation Request/Response)" />
+			<description
+				value="Example AllergyIntolerance for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-allergyintolerances" />
+		</resource>
+
+		<!-- ///////////////////////////////// -->
+		<!-- 12 Address -->
+		<resource>
+			<reference>
+				<reference value="Address/12-2-Address" />
+			</reference>
+			<name value="12.2 Address (Recommendation Request/Response)" />
+			<description
+				value="Example Address for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-address" />
+		</resource>
+
+
+		<!-- **************************************************** -->
 		<!-- References to structure definitions -->
+		<!-- **************************************************** -->
 		<!-- documents -->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-document-immunization-administration" />
-			</reference>
-			<exampleBoolean value="true" />
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-document-immunization-certificate" />
+				<reference
+					value="StructureDefinition/ch-vacd-document-immunization-administration" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-document-immunization-recommendation-request" />
+				<reference
+					value="StructureDefinition/ch-vacd-document-immunization-certificate" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-document-immunization-recommendation-response" />
+				<reference
+					value="StructureDefinition/ch-vacd-document-immunization-recommendation-request" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-document-vaccination-record" />
+				<reference
+					value="StructureDefinition/ch-vacd-document-immunization-recommendation-response" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-document-vaccination-record" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -154,31 +793,36 @@
 		<!-- compositions -->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-composition-immunization-administration" />
+				<reference
+					value="StructureDefinition/ch-vacd-composition-immunization-administration" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-composition-immunization-certificate" />
+				<reference
+					value="StructureDefinition/ch-vacd-composition-immunization-certificate" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-composition-immunization-recommendation-request" />
+				<reference
+					value="StructureDefinition/ch-vacd-composition-immunization-recommendation-request" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-composition-immunization-recommendation-response" />
+				<reference
+					value="StructureDefinition/ch-vacd-composition-immunization-recommendation-response" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-composition-vaccination-record" />
+				<reference
+					value="StructureDefinition/ch-vacd-composition-vaccination-record" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -186,130 +830,150 @@
 		<!-- sections recommendations -->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-address" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-patient" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-practitioner" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-practitionerrole" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-organization" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-observation" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-condition" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-allergyintolerances" />
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-address" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-immunization" />
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-patient" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-immunization-recommendations" />
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-practitioner" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-laboratory-serology" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-medical-problems" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-other-observations" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-pastillnesses" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-recommendation-pregnancy" />
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-practitionerrole" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-organization" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
 
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-observation" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-condition" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-allergyintolerances" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-immunization" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-immunization-recommendations" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-laboratory-serology" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-medical-problems" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-other-observations" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-pastillnesses" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-recommendation-pregnancy" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+
+		<!-- ///////////////// -->
 		<!-- sections -->
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-allergyintolerances" />
+				<reference
+					value="StructureDefinition/ch-vacd-allergyintolerances" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-immunization" />
+				<reference
+					value="StructureDefinition/ch-vacd-immunization" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-immunization-recommendations" />
+				<reference
+					value="StructureDefinition/ch-vacd-immunization-recommendations" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-laboratory-serology" />
+				<reference
+					value="StructureDefinition/ch-vacd-laboratory-serology" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-medical-problems" />
+				<reference
+					value="StructureDefinition/ch-vacd-medical-problems" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -328,14 +992,16 @@
 
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-other-observations" />
+				<reference
+					value="StructureDefinition/ch-vacd-other-observations" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference value="StructureDefinition/ch-vacd-pastillnesses" />
+				<reference
+					value="StructureDefinition/ch-vacd-pastillnesses" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -347,31 +1013,25 @@
 		</resource>
 
 
-
-		<!-- value sets -->
-		<!-- 
-		<resource>
-			<reference>
-				<reference value="ValueSet/ch-vacd-allergies-immunizations-vs" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		 -->
+		<!-- **************************************************** -->
+		<!-- References value sets -->
+		<!-- **************************************************** -->
 		<resource>
 			<reference>
 				<reference value="ValueSet/ch-vacd-laboratory-serology-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		
-		
+
+
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-immunization-allergyintolerances-vs" />
+				<reference
+					value="ValueSet/ch-vacd-immunization-allergyintolerances-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-	
+
 		<resource>
 			<reference>
 				<reference value="ValueSet/ch-vacd-diseases-vs" />
@@ -380,14 +1040,16 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-illnesses-undergone-for-immunizaion-vs" />
+				<reference
+					value="ValueSet/ch-vacd-illnesses-undergone-for-immunizaion-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-recommendation-categories-vs" />
+				<reference
+					value="ValueSet/ch-vacd-recommendation-categories-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -399,24 +1061,27 @@
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-route-of-administration-vs" />
+				<reference
+					value="ValueSet/ch-vacd-route-of-administration-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-special-case-problems-vs" />
+				<reference
+					value="ValueSet/ch-vacd-special-case-problems-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		
+
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-special-case-medication-vs" />
+				<reference
+					value="ValueSet/ch-vacd-special-case-medication-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-		
+
 		<resource>
 			<reference>
 				<reference value="ValueSet/ch-vacd-vaccines-vs" />
@@ -426,11 +1091,15 @@
 
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs" />
+				<reference
+					value="ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
 
+		<!-- **************************************************** -->
+		<!-- Pages -->
+		<!-- **************************************************** -->
 		<!-- pages -->
 		<page>
 			<nameUrl value="toc.html" />
@@ -458,12 +1127,14 @@
 				<generation value="markdown" />
 			</page>
 			<page>
-				<nameUrl value="immunization-recommendation-request-document.html" />
+				<nameUrl
+					value="immunization-recommendation-request-document.html" />
 				<title value="Immunization Recommendation Request" />
 				<generation value="markdown" />
 			</page>
 			<page>
-				<nameUrl value="immunization-recommendation-response-document.html" />
+				<nameUrl
+					value="immunization-recommendation-response-document.html" />
 				<title value="Immunization Recommendation Response" />
 				<generation value="markdown" />
 			</page>
@@ -488,8 +1159,8 @@
 		<!-- parameters -->
 		<parameter>
 			<code value="releaselabel" />
-			<value value="CI build"/>
-			<!--<value value="STU 1 Informative Ballot"/>-->
+			<value value="CI build" />
+			<!--<value value="STU 1 Informative Ballot"/> -->
 		</parameter>
 		<parameter>
 			<code value="path-pages" />

@@ -1,0 +1,53 @@
+<Immunization xmlns="http://hl7.org/fhir">
+   <id value="7-4-Immunization"></id>
+   <meta>
+      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"></profile>
+   </meta>
+   <identifier>
+      <system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
+      <value value="34567"></value>
+   </identifier>
+   <status value="completed"></status>
+   <vaccineCode>
+      <coding>
+         <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+         <code value="637"></code>
+         <display value="Boostrix"></display>
+      </coding>
+   </vaccineCode>
+   <patient>
+      <reference value="Patient/3-1-Patient"></reference>
+   </patient>
+   <occurrenceDateTime value="2015-11-01T10:51:50+01:00"></occurrenceDateTime>
+   <recorded value="2015-11-01T10:51:50+01:00"></recorded>
+   <lotNumber value="12345"></lotNumber>
+   <performer>
+      <actor>
+         <reference value="PractitionerRole/6-2-PractitionerRole"></reference>
+      </actor>
+   </performer>
+   <protocolApplied>
+      <targetDisease>
+         <coding>
+            <system value="http://snomed.info/sct"></system>
+            <code value="76668005"></code>
+            <display value="Diphtheria immunization"></display>
+         </coding>
+      </targetDisease>
+      <targetDisease>
+         <coding>
+            <system value="http://snomed.info/sct"></system>
+            <code value="127786006"></code>
+            <display value="Tetanus vaccination"></display>
+         </coding>
+      </targetDisease>
+      <targetDisease>
+         <coding>
+            <system value="http://snomed.info/sct"></system>
+            <code value="39343008"></code>
+            <display value="Pertussis vaccination"></display>
+         </coding>
+      </targetDisease>
+      <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
+   </protocolApplied>
+</Immunization>

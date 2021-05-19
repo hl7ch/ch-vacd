@@ -1,0 +1,21 @@
+<Condition xmlns="http://hl7.org/fhir">
+   <id value="8-5-Condition"></id>
+   <meta>
+      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-pregnancy"></profile>
+   </meta>
+   <code>
+      <coding>
+         <system value="http://loinc.org"></system>
+         <code value="11779-6"></code>
+         <display value="Delivery date Estimated from last menstrual period"></display>
+      </coding>
+   </code>
+   <subject>
+      <reference value="Patient/3-2-Patient"></reference>
+   </subject>
+   <onsetDateTime value="2021-11-19T10:51:58+01:00"></onsetDateTime>
+   <recordedDate value="2021-05-19T10:51:58+02:00"></recordedDate>
+   <recorder>
+      <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
+   </recorder>
+</Condition>

@@ -1,0 +1,20 @@
+<Condition xmlns="http://hl7.org/fhir">
+   <id value="8-8-Condition"></id>
+   <meta>
+      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-pastillnesses"></profile>
+   </meta>
+   <code>
+      <coding>
+         <system value="http://snomed.info/sct"></system>
+         <code value="14189004"></code>
+         <display value="Measles (disorder)"></display>
+      </coding>
+   </code>
+   <subject>
+      <reference value="Patient/3-2-Patient"></reference>
+   </subject>
+   <recordedDate value="1966-12-19T10:51:58+01:00"></recordedDate>
+   <recorder>
+      <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
+   </recorder>
+</Condition>

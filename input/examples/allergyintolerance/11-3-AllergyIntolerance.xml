@@ -1,0 +1,26 @@
+<AllergyIntolerance xmlns="http://hl7.org/fhir">
+   <id value="11-3-AllergyIntolerance"></id>
+   <meta>
+      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-allergyintolerances"></profile>
+   </meta>
+   <clinicalStatus>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"></system>
+         <code value="active"></code>
+      </coding>
+   </clinicalStatus>
+   <code>
+      <coding>
+         <system value="http://snomed.info/sct"></system>
+         <code value="303300008"></code>
+         <display value="Egg protein (substance)"></display>
+      </coding>
+   </code>
+   <patient>
+      <reference value="Patient/3-2-Patient"></reference>
+   </patient>
+   <recordedDate value="2004-07-11T10:51:58+02:00"></recordedDate>
+   <recorder>
+      <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
+   </recorder>
+</AllergyIntolerance>

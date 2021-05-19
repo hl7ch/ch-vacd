@@ -1,0 +1,38 @@
+<Observation xmlns="http://hl7.org/fhir">
+   <id value="9-2-Observation"></id>
+   <meta>
+      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-laboratory-serology"></profile>
+   </meta>
+   <text>
+      <status value="generated"></status>
+      <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">There is an immunitzation protection against Hepatitis B.</div>
+   </text>
+   <status value="final"></status>
+   <code>
+      <coding>
+         <system value="http://loinc.org"></system>
+         <code value="16935-9"></code>
+         <display value="Hepatitis B virus surface Ab [Units/volume] in Serum"></display>
+      </coding>
+   </code>
+   <subject>
+      <reference value="Patient/3-2-Patient"></reference>
+   </subject>
+   <effectiveDateTime value="1971-10"></effectiveDateTime>
+   <performer>
+      <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
+   </performer>
+   <valueQuantity>
+      <value value="99.0"></value>
+      <unit value="[iU]/L"></unit>
+      <system value="http://unitsofmeasure.org"></system>
+      <code value="[iU]/L"></code>
+   </valueQuantity>
+   <interpretation>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"></system>
+         <code value="POS"></code>
+         <display value="Positive"></display>
+      </coding>
+   </interpretation>
+</Observation>

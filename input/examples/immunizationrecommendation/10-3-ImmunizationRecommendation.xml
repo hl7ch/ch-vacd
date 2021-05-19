@@ -1,0 +1,44 @@
+<ImmunizationRecommendation xmlns="http://hl7.org/fhir">
+   <id value="10-3-ImmunizationRecommendation"></id>
+   <meta>
+      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization-recommendations"></profile>
+   </meta>
+   <identifier>
+      <system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
+      <value value="2"></value>
+   </identifier>
+   <patient>
+      <reference value="Patient/3-2-Patient"></reference>
+   </patient>
+   <date value="2021-05-19T10:51:58+02:00"></date>
+   <recommendation>
+      <vaccineCode>
+         <coding>
+            <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+            <code value="58317"></code>
+            <display value="Fluad"></display>
+         </coding>
+      </vaccineCode>
+      <targetDisease>
+         <coding>
+            <system value="http://snomed.info/sct"></system>
+            <code value="28877009"></code>
+            <display value="Cholera vaccination"></display>
+         </coding>
+      </targetDisease>
+      <forecastStatus>
+         <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/immunization-recommendation-status"></system>
+            <code value="due"></code>
+            <display value="Due"></display>
+         </coding>
+      </forecastStatus>
+      <forecastReason>
+         <coding>
+            <system value="urn:oid:2.16.756.5.30.1.127.3.3.4"></system>
+            <code value="41503"></code>
+            <display value="Empfohlene Impfungen für Risikogruppen"></display>
+         </coding>
+      </forecastReason>
+   </recommendation>
+</ImmunizationRecommendation>

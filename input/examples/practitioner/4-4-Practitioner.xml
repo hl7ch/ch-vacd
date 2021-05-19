@@ -1,0 +1,11 @@
+<Practitioner xmlns="http://hl7.org/fhir">
+   <id value="4-4-Practitioner"></id>
+   <meta>
+      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-practitioner"></profile>
+   </meta>
+   <identifier>
+      <system value="urn:oid:2.51.1.3"></system>
+      <value value="0000000000000"></value>
+   </identifier>
+   <active value="true"></active>
+</Practitioner>

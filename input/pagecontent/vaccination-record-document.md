@@ -10,7 +10,9 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 {% include img.html img="vaccination-record-document.png" caption="Fig.: Vaccination Record document" width="40%" %}
 
 #### Examples
-* 3 Example Vaccination Record document: [XML](Bundle-3-VaccinationRecord.xml.html), [JSON](Bundle-3-VaccinationRecord.json.html)
+* 3.1 Example Vaccination Record document: [XML](Bundle-1-3-VaccinationRecord.xml.html), [JSON](Bundle-1-3-VaccinationRecord.json.html)
+* 3.2 Example Vaccination Record composition: [XML](Composition-2-3-VaccinationRecordComposition.xml.html), [JSON](Composition-2-3-VaccinationRecordComposition.json.html)
+* 3.3 Example Patient: [XML](Patient-3-1-Patient.xml.html), [JSON](Patient-3-1-Patient.json.html)
 
 ### Resource profiles
 * [CH VACD Vaccination Record Document Profile](StructureDefinition-ch-vacd-document-vaccination-record.html): Definition of the bundle for the vaccination record document.

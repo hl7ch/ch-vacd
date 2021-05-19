@@ -1,0 +1,63 @@
+<Patient xmlns="http://hl7.org/fhir">
+   <id value="3-1-Patient"></id>
+   <meta>
+      <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr"></profile>
+   </meta>
+   <text>
+      <status value="generated"></status>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+         <div class="hapiHeaderText">Monika 
+            <b>WEGMUELLER </b>
+         </div>
+         <table class="hapiPropertyTable">
+            <tbody>
+               <tr>
+                  <td>Identifier</td>
+                  <td>123.71.332.115</td>
+               </tr>
+               <tr>
+                  <td>Address</td>
+                  <td>
+                     <span>Leidensweg 10 </span>
+                     <br></br>
+                     <span>Specimendorf </span>
+                     <span>CH </span>
+                  </td>
+               </tr>
+               <tr>
+                  <td>Date of birth</td>
+                  <td>
+                     <span>10 February 1967</span>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </text>
+   <identifier>
+      <system value="urn:oid:2.16.756.5.31"></system>
+      <value value="123.71.332.115"></value>
+   </identifier>
+   <identifier>
+      <system value="urn:oid:2.16.756.5.30.1.123.100.1.1.1"></system>
+      <value value="8077560000000000000000"></value>
+   </identifier>
+   <name>
+      <family value="Wegmueller"></family>
+      <given value="Monika"></given>
+   </name>
+   <telecom>
+      <system value="phone"></system>
+      <value value="tel:+41.32.685.12.34"></value>
+      <use value="home"></use>
+   </telecom>
+   <gender value="female"></gender>
+   <birthDate value="1967-02-10"></birthDate>
+   <address>
+      <type value="both"></type>
+      <line value="Leidensweg 10"></line>
+      <city value="Specimendorf"></city>
+      <postalCode value="9876"></postalCode>
+      <country value="CH"></country>
+   </address>
+</Patient>

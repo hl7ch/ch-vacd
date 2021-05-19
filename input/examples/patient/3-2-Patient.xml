@@ -1,0 +1,38 @@
+<Patient xmlns="http://hl7.org/fhir">
+   <id value="3-2-Patient"></id>
+   <meta>
+      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient"></profile>
+   </meta>
+   <text>
+      <status value="generated"></status>
+      <div xmlns="http://www.w3.org/1999/xhtml">
+         <table class="hapiPropertyTable">
+            <tbody>
+               <tr>
+                  <td>Identifier</td>
+                  <td>48c7eaae-4c80-4c38-b4b9-03e88db6f559</td>
+               </tr>
+               <tr>
+                  <td>Address</td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>Date of birth</td>
+                  <td>
+                     <span>10 March 1967</span>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </text>
+   <identifier>
+      <system value="urn:oid:2.16.756.5.30.1.147.1.1"></system>
+      <value value="48c7eaae-4c80-4c38-b4b9-03e88db6f559"></value>
+   </identifier>
+   <gender value="female"></gender>
+   <birthDate value="1967-03-10"></birthDate>
+   <address>
+      <postalCode value="9876"></postalCode>
+   </address>
+</Patient>

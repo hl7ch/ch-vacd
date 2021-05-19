@@ -1,0 +1,60 @@
+<Immunization xmlns="http://hl7.org/fhir">
+   <id value="7-10-Immunization"></id>
+   <meta>
+      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-immunization"></profile>
+   </meta>
+   <identifier>
+      <system value="urn:oid:2.16.756.5.30.1.147.1.3.1"></system>
+      <value value="45678"></value>
+   </identifier>
+   <status value="completed"></status>
+   <vaccineCode>
+      <coding>
+         <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+         <code value="268"></code>
+         <display value="MMR-II"></display>
+      </coding>
+   </vaccineCode>
+   <patient>
+      <reference value="Patient/3-2-Patient"></reference>
+   </patient>
+   <occurrenceDateTime value="2016-03-05T10:51:58+01:00"></occurrenceDateTime>
+   <recorded value="2016-03-05T10:51:58+01:00"></recorded>
+   <lotNumber value="12345"></lotNumber>
+   <performer>
+      <actor>
+         <reference value="PractitionerRole/6-6-PractitionerRole"></reference>
+      </actor>
+   </performer>
+   <reasonCode>
+      <coding>
+         <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"></system>
+         <code value="IMMUNIZ"></code>
+         <display value="Immunization"></display>
+      </coding>
+   </reasonCode>
+   <protocolApplied>
+      <targetDisease>
+         <coding>
+            <system value="http://snomed.info/sct"></system>
+            <code value="47435007"></code>
+            <display value="Measles vaccination"></display>
+         </coding>
+      </targetDisease>
+      <targetDisease>
+         <coding>
+            <system value="http://snomed.info/sct"></system>
+            <code value="50583002"></code>
+            <display value="Mumps vaccination"></display>
+         </coding>
+      </targetDisease>
+      <targetDisease>
+         <coding>
+            <system value="http://snomed.info/sct"></system>
+            <code value="82314000"></code>
+            <display value="Rubella vaccination"></display>
+         </coding>
+      </targetDisease>
+      <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
+   </protocolApplied>
+</Immunization>
