@@ -69,27 +69,62 @@
 		</element>
 		<element id="Immunization.vaccineCode">
 			<path value="Immunization.vaccineCode" />
-			<short value="Immunization Vaccine Code" />
+			<slicing>
+				<discriminator>
+					<type value="pattern" />
+					<path value="$this" />
+				</discriminator>
+				<description value="Discriminated by bound value set" />
+				<rules value="open" />
+			</slicing>
+			<min value="1" />
+			<max value="1" />
 			<binding>
-				<extension
-					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-					<valueString value="VaccineCode" />
-				</extension>
-				<extension
-					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-					<valueBoolean value="true" />
-				</extension>
-				<strength value="extensible" />
+				<strength value="preferred" />
 				<description
-					value="The code for vaccine product administered." />
+					value="The type of vaccine for particular disease or diseases against which the patient has been immunised." />
 				<valueSet
 					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs" />
 			</binding>
-			<mapping>
-				<identity value="cda" />
-				<map
-					value="ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/consumable/manfacturedProduct/manufacturedMaterial/realmCode/code" />
-			</mapping>
+		</element>
+		
+		<element id="Immunization.vaccineCode:atcClass">
+			<path value="Immunization.vaccineCode" />
+			<sliceName value="atcClass" />
+			<short value="WHO ATC classification" />
+			<definition value="WHO ATC classification" />
+			<min value="0" />
+			<max value="1" />
+
+			<binding>
+				<extension
+					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+					<valueString value="WHO ATC" />
+				</extension>
+				<strength value="required" />
+				<valueSet
+					value="http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips" />
+			</binding>
+		</element>
+		<element
+			id="Immunization.vaccineCode:absentOrUnknownImmunization">
+			<path value="Immunization.vaccineCode" />
+			<sliceName value="absentOrUnknownImmunization" />
+			<short value="Absent Unknown Immunization" />
+			<definition
+				value="A reference to a code indicating that there there are no known immunizations or that this information is unknown." />
+			<min value="0" />
+			<max value="1" />
+
+			<binding>
+				<extension
+					url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+					<valueString value="Absent Unknown Immunization" />
+				</extension>
+				<strength value="required" />
+				<valueSet
+					value="http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-immunizations-uv-ips" />
+			</binding>
 		</element>
 
 		<element id="Immunization.patient">

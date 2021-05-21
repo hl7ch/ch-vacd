@@ -76,7 +76,7 @@
 				<description
 					value="The type of vaccine for particular disease or diseases against which the patient has been immunised." />
 				<valueSet
-					value="http://hl7.org/fhir/uv/ips/ValueSet/ch-vacd-vaccines-vs" />
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs" />
 			</binding>
 		</element>
 		
