@@ -74,6 +74,43 @@
          <reference value="Immunization/7-6-Immunization"></reference>
       </entry>
    </section>
+   <section id="sectionIlnessesUndergondeForImmunization1">
+      <title value="Undergone illnesses for immunization"></title>
+      <code>
+         <coding>
+            <system value="http://loinc.org"></system>
+            <code value="11348-0"></code>
+            <display value="Hx of Past illness"></display>
+         </coding>
+      </code>
+      <text>
+         <status value="generated"></status>
+         <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">This is the section containing the undergone illnesses for immunization entries.</div>
+      </text>
+      <entry>
+         <reference value="Condition/8-4-Condition"></reference>
+      </entry>
+   </section>
+   <section id="allergies">
+      <title value="Allergies"></title>
+      <code>
+         <coding>
+            <system value="http://loinc.org"></system>
+            <code value="48765-2"></code>
+            <display value="Allergies and adverse reactions Document"></display>
+         </coding>
+      </code>
+      <text>
+         <status value="generated"></status>
+         <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the section containing the allergy entries.</div>
+      </text>
+      <entry>
+         <reference value="AllergyIntolerance/11-1-AllergyIntolerance"></reference>
+      </entry>
+      <entry>
+         <reference value="AllergyIntolerance/11-2-AllergyIntolerance"></reference>
+      </entry>
+   </section>
    <section id="annotation">
       <title value="Kommentar"></title>
       <code>

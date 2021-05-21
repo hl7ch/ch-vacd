@@ -613,6 +613,30 @@
 			<exampleCanonical
 				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-pastillnesses" />
 		</resource>
+		
+		<resource>
+			<reference>
+				<reference value="Condition/8-9-Condition" />
+			</reference>
+			<name
+				value="8.9 Condition (Other Relevant Observations)" />
+			<description
+				value="Example Condition for other relevant observations" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-other-observations" />
+		</resource>
+		
+		<resource>
+			<reference>
+				<reference value="Condition/8-10-Condition" />
+			</reference>
+			<name
+				value="8.10 Condition (Other Relevant Observations for Recommendation Request/Response)" />
+			<description
+				value="Example Condition for other relevant observations for Recommendation Request/Response" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-other-observations" />
+		</resource>
 
 		<!-- ///////////////////////////////// -->
 		<!-- 9 observation -->
@@ -1020,14 +1044,7 @@
 
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-diseases-vs" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		<resource>
-			<reference>
-				<reference
-					value="ValueSet/ch-vacd-illnesses-undergone-for-immunizaion-vs" />
+				<reference value="ValueSet/ch-vacd-targetdeseasesandillnessesundergoneforimmunization-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
@@ -1052,6 +1069,8 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
+		
+		<!-- 
 		<resource>
 			<reference>
 				<reference
@@ -1059,7 +1078,8 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-
+ -->
+ 
 		<resource>
 			<reference>
 				<reference

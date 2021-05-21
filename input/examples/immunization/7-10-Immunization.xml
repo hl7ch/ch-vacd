@@ -18,8 +18,8 @@
    <patient>
       <reference value="Patient/3-2-Patient"></reference>
    </patient>
-   <occurrenceDateTime value="2016-03-05T10:42:49+01:00"></occurrenceDateTime>
-   <recorded value="2016-03-05T10:42:49+01:00"></recorded>
+   <occurrenceDateTime value="2016-03-05T15:58:19+01:00"></occurrenceDateTime>
+   <recorded value="2016-03-05T15:58:19+01:00"></recorded>
    <lotNumber value="12345"></lotNumber>
    <performer>
       <actor>
@@ -37,22 +37,22 @@
       <targetDisease>
          <coding>
             <system value="http://snomed.info/sct"></system>
-            <code value="47435007"></code>
-            <display value="Measles vaccination"></display>
+            <code value="14189004"></code>
+            <display value="Measles (disorder)"></display>
          </coding>
       </targetDisease>
       <targetDisease>
          <coding>
             <system value="http://snomed.info/sct"></system>
-            <code value="50583002"></code>
-            <display value="Mumps vaccination"></display>
+            <code value="36989005"></code>
+            <display value="Mumps (disorder)"></display>
          </coding>
       </targetDisease>
       <targetDisease>
          <coding>
             <system value="http://snomed.info/sct"></system>
-            <code value="82314000"></code>
-            <display value="Rubella vaccination"></display>
+            <code value="36653000"></code>
+            <display value="Rubella (disorder)"></display>
          </coding>
       </targetDisease>
       <doseNumberPositiveInt value="1"></doseNumberPositiveInt>

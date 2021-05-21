@@ -33,7 +33,7 @@
 					vaccines by swissmedic authorization number
 				-->
       <include>
-         <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"/>
+         <system value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"/>
          <concept>
             <code value="683"/>
             <display value="FSME-Immun 0.25 ml Junior"/>
@@ -2056,7 +2056,7 @@
 					authorization number)
 				-->
       <include>
-         <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-old"/>
+         <system value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"/>
          <concept>
             <code value="14"/>
             <display value="MoRu-Viraten"/>

@@ -18,8 +18,8 @@
    <patient>
       <reference value="Patient/3-2-Patient"></reference>
    </patient>
-   <occurrenceDateTime value="2012-02-26T10:42:49+01:00"></occurrenceDateTime>
-   <recorded value="2012-02-26T10:42:49+01:00"></recorded>
+   <occurrenceDateTime value="2012-02-26T15:58:19+01:00"></occurrenceDateTime>
+   <recorded value="2012-02-26T15:58:19+01:00"></recorded>
    <lotNumber value="12345"></lotNumber>
    <performer>
       <actor>
@@ -37,8 +37,8 @@
       <targetDisease>
          <coding>
             <system value="http://snomed.info/sct"></system>
-            <code value="16584000"></code>
-            <display value="Hepatitis B vaccination"></display>
+            <code value="66071002"></code>
+            <display value="Viral hepatitis type B (disorder)"></display>
          </coding>
       </targetDisease>
       <doseNumberPositiveInt value="1"></doseNumberPositiveInt>

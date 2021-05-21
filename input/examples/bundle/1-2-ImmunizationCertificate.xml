@@ -1,7 +1,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-2-ImmunizationCertificate"></id>
    <meta>
-      <lastUpdated value="2021-06-01T00:00:00.314+02:00"></lastUpdated>
+      <lastUpdated value="2021-06-01T00:00:00.109+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate"></profile>
    </meta>
    <identifier>
@@ -9,7 +9,7 @@
       <value value="urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-06-01T00:00:00.314+02:00"></timestamp>
+   <timestamp value="2021-06-01T00:00:00.109+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/2-2-ImmunizationCertificateComposition"></fullUrl>
       <resource>
@@ -87,6 +87,43 @@
                </entry>
                <entry>
                   <reference value="Immunization/7-6-Immunization"></reference>
+               </entry>
+            </section>
+            <section id="sectionIlnessesUndergondeForImmunization1">
+               <title value="Undergone illnesses for immunization"></title>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"></system>
+                     <code value="11348-0"></code>
+                     <display value="Hx of Past illness"></display>
+                  </coding>
+               </code>
+               <text>
+                  <status value="generated"></status>
+                  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">This is the section containing the undergone illnesses for immunization entries.</div>
+               </text>
+               <entry>
+                  <reference value="Condition/8-4-Condition"></reference>
+               </entry>
+            </section>
+            <section id="allergies">
+               <title value="Allergies"></title>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"></system>
+                     <code value="48765-2"></code>
+                     <display value="Allergies and adverse reactions Document"></display>
+                  </coding>
+               </code>
+               <text>
+                  <status value="generated"></status>
+                  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">This is the section containing the allergy entries.</div>
+               </text>
+               <entry>
+                  <reference value="AllergyIntolerance/11-1-AllergyIntolerance"></reference>
+               </entry>
+               <entry>
+                  <reference value="AllergyIntolerance/11-2-AllergyIntolerance"></reference>
                </entry>
             </section>
             <section id="annotation">
@@ -442,8 +479,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T10:42:37+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T10:42:37+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T15:58:07+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T15:58:07+02:00"></recorded>
             <lotNumber value="12-34244"></lotNumber>
             <route>
                <coding>
@@ -461,22 +498,22 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="76668005"></code>
-                     <display value="Diphtheria immunization"></display>
+                     <code value="397430003"></code>
+                     <display value="Diphtheria caused by Corynebacterium diphtheriae (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="127786006"></code>
-                     <display value="Tetanus vaccination"></display>
+                     <code value="76902006"></code>
+                     <display value="Tetanus (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="39343008"></code>
-                     <display value="Pertussis vaccination"></display>
+                     <code value="27836007"></code>
+                     <display value="Pertussis (disorder)"></display>
                   </coding>
                </targetDisease>
                <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
@@ -507,8 +544,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T10:42:37+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T10:42:37+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T15:58:07+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T15:58:07+02:00"></recorded>
             <lotNumber value="12-34244"></lotNumber>
             <route>
                <coding>
@@ -526,22 +563,22 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="76668005"></code>
-                     <display value="Diphtheria immunization"></display>
+                     <code value="397430003"></code>
+                     <display value="Diphtheria caused by Corynebacterium diphtheriae (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="127786006"></code>
-                     <display value="Tetanus vaccination"></display>
+                     <code value="76902006"></code>
+                     <display value="Tetanus (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="39343008"></code>
-                     <display value="Pertussis vaccination"></display>
+                     <code value="27836007"></code>
+                     <display value="Pertussis (disorder)"></display>
                   </coding>
                </targetDisease>
                <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
@@ -572,8 +609,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T10:42:37+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T10:42:37+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T15:58:07+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T15:58:07+01:00"></recorded>
             <lotNumber value="12-34244"></lotNumber>
             <route>
                <coding>
@@ -591,22 +628,22 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="76668005"></code>
-                     <display value="Diphtheria immunization"></display>
+                     <code value="397430003"></code>
+                     <display value="Diphtheria caused by Corynebacterium diphtheriae (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="127786006"></code>
-                     <display value="Tetanus vaccination"></display>
+                     <code value="76902006"></code>
+                     <display value="Tetanus (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="39343008"></code>
-                     <display value="Pertussis vaccination"></display>
+                     <code value="27836007"></code>
+                     <display value="Pertussis (disorder)"></display>
                   </coding>
                </targetDisease>
                <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
@@ -637,8 +674,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T10:42:37+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T10:42:37+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T15:58:07+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T15:58:07+01:00"></recorded>
             <lotNumber value="12-34244"></lotNumber>
             <route>
                <coding>
@@ -656,22 +693,22 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="47435007"></code>
-                     <display value="Measles vaccination"></display>
+                     <code value="14189004"></code>
+                     <display value="Measles (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="50583002"></code>
-                     <display value="Mumps vaccination"></display>
+                     <code value="36989005"></code>
+                     <display value="Mumps (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="82314000"></code>
-                     <display value="Rubella vaccination"></display>
+                     <code value="36653000"></code>
+                     <display value="Rubella (disorder)"></display>
                   </coding>
                </targetDisease>
                <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
@@ -709,8 +746,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2012-02-26T10:42:37+01:00"></occurrenceDateTime>
-            <recorded value="2012-02-26T10:42:37+01:00"></recorded>
+            <occurrenceDateTime value="2012-02-26T15:58:07+01:00"></occurrenceDateTime>
+            <recorded value="2012-02-26T15:58:07+01:00"></recorded>
             <lotNumber value="12-34244"></lotNumber>
             <route>
                <coding>
@@ -728,13 +765,100 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="16584000"></code>
-                     <display value="Hepatitis B vaccination"></display>
+                     <code value="66071002"></code>
+                     <display value="Viral hepatitis type B (disorder)"></display>
                   </coding>
                </targetDisease>
                <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
             </protocolApplied>
          </Immunization>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Condition/8-4-Condition"></fullUrl>
+      <resource>
+         <Condition xmlns="http://hl7.org/fhir">
+            <id value="8-4-Condition"></id>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-pastillnesses"></profile>
+            </meta>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"></system>
+                  <code value="14189004"></code>
+                  <display value="Measles (disorder)"></display>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/3-1-Patient"></reference>
+            </subject>
+            <recordedDate value="1966-12-21T15:58:07+01:00"></recordedDate>
+            <recorder>
+               <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
+            </recorder>
+         </Condition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/AllergyIntolerance/11-1-AllergyIntolerance"></fullUrl>
+      <resource>
+         <AllergyIntolerance xmlns="http://hl7.org/fhir">
+            <id value="11-1-AllergyIntolerance"></id>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances"></profile>
+            </meta>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"></system>
+                  <code value="active"></code>
+               </coding>
+            </clinicalStatus>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"></system>
+                  <code value="213020009"></code>
+                  <display value="Allergy to egg protein (finding)"></display>
+               </coding>
+            </code>
+            <patient>
+               <reference value="Patient/3-1-Patient"></reference>
+            </patient>
+            <recordedDate value="2004-07-11T15:58:07+02:00"></recordedDate>
+            <recorder>
+               <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
+            </recorder>
+         </AllergyIntolerance>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/AllergyIntolerance/11-2-AllergyIntolerance"></fullUrl>
+      <resource>
+         <AllergyIntolerance xmlns="http://hl7.org/fhir">
+            <id value="11-2-AllergyIntolerance"></id>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances"></profile>
+            </meta>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"></system>
+                  <code value="active"></code>
+               </coding>
+            </clinicalStatus>
+            <code>
+               <coding>
+                  <system value="http://snomed.info/sct"></system>
+                  <code value="24079001"></code>
+                  <display value="Atopic dermatitis (disorder)"></display>
+               </coding>
+            </code>
+            <patient>
+               <reference value="Patient/3-1-Patient"></reference>
+            </patient>
+            <recordedDate value="1996-07-11T15:58:07+02:00"></recordedDate>
+            <recorder>
+               <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
+            </recorder>
+         </AllergyIntolerance>
       </resource>
    </entry>
 </Bundle>

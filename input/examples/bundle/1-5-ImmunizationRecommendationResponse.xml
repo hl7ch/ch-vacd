@@ -1,7 +1,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-5-ImmunizationRecommendationResponse"></id>
    <meta>
-      <lastUpdated value="2021-06-01T00:00:00.946+02:00"></lastUpdated>
+      <lastUpdated value="2021-06-01T00:00:00.403+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-response"></profile>
    </meta>
    <identifier>
@@ -9,7 +9,7 @@
       <value value="urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-06-01T00:00:00.946+02:00"></timestamp>
+   <timestamp value="2021-06-01T00:00:00.403+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/2-5-ImmunizationRecommendationResponseComposition"></fullUrl>
       <resource>
@@ -80,8 +80,8 @@
                <code>
                   <coding>
                      <system value="http://loinc.org"></system>
-                     <code value="30954-2"></code>
-                     <display value="Relevant diagnostic tests/laboratory data"></display>
+                     <code value="11450-4"></code>
+                     <display value="Problem list Reported"></display>
                   </coding>
                </code>
                <text>
@@ -138,7 +138,7 @@
                   <coding>
                      <system value="http://loinc.org"></system>
                      <code value="30954-2"></code>
-                     <display value="Problem list Reported"></display>
+                     <display value="Relevant diagnostic tests/laboratory data Narrative"></display>
                   </coding>
                </code>
                <text>
@@ -449,8 +449,8 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T10:42:49+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T10:42:49+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T15:58:19+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T15:58:19+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -468,22 +468,22 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="76668005"></code>
-                     <display value="Diphtheria immunization"></display>
+                     <code value="397430003"></code>
+                     <display value="Diphtheria caused by Corynebacterium diphtheriae (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="127786006"></code>
-                     <display value="Tetanus vaccination"></display>
+                     <code value="76902006"></code>
+                     <display value="Tetanus (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="39343008"></code>
-                     <display value="Pertussis vaccination"></display>
+                     <code value="27836007"></code>
+                     <display value="Pertussis (disorder)"></display>
                   </coding>
                </targetDisease>
                <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
@@ -514,8 +514,8 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T10:42:49+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T10:42:49+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T15:58:19+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T15:58:19+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -533,22 +533,22 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="76668005"></code>
-                     <display value="Diphtheria immunization"></display>
+                     <code value="397430003"></code>
+                     <display value="Diphtheria caused by Corynebacterium diphtheriae (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="127786006"></code>
-                     <display value="Tetanus vaccination"></display>
+                     <code value="76902006"></code>
+                     <display value="Tetanus (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="39343008"></code>
-                     <display value="Pertussis vaccination"></display>
+                     <code value="27836007"></code>
+                     <display value="Pertussis (disorder)"></display>
                   </coding>
                </targetDisease>
                <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
@@ -579,8 +579,8 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T10:42:49+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T10:42:49+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T15:58:19+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T15:58:19+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -598,22 +598,22 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="76668005"></code>
-                     <display value="Diphtheria immunization"></display>
+                     <code value="397430003"></code>
+                     <display value="Diphtheria caused by Corynebacterium diphtheriae (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="127786006"></code>
-                     <display value="Tetanus vaccination"></display>
+                     <code value="76902006"></code>
+                     <display value="Tetanus (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="39343008"></code>
-                     <display value="Pertussis vaccination"></display>
+                     <code value="27836007"></code>
+                     <display value="Pertussis (disorder)"></display>
                   </coding>
                </targetDisease>
                <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
@@ -644,8 +644,8 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T10:42:49+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T10:42:49+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T15:58:19+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T15:58:19+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -663,22 +663,22 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="47435007"></code>
-                     <display value="Measles vaccination"></display>
+                     <code value="14189004"></code>
+                     <display value="Measles (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="50583002"></code>
-                     <display value="Mumps vaccination"></display>
+                     <code value="36989005"></code>
+                     <display value="Mumps (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="82314000"></code>
-                     <display value="Rubella vaccination"></display>
+                     <code value="36653000"></code>
+                     <display value="Rubella (disorder)"></display>
                   </coding>
                </targetDisease>
                <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
@@ -709,8 +709,8 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2012-02-26T10:42:49+01:00"></occurrenceDateTime>
-            <recorded value="2012-02-26T10:42:49+01:00"></recorded>
+            <occurrenceDateTime value="2012-02-26T15:58:19+01:00"></occurrenceDateTime>
+            <recorded value="2012-02-26T15:58:19+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -728,8 +728,8 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="16584000"></code>
-                     <display value="Hepatitis B vaccination"></display>
+                     <code value="66071002"></code>
+                     <display value="Viral hepatitis type B (disorder)"></display>
                   </coding>
                </targetDisease>
                <doseNumberPositiveInt value="1"></doseNumberPositiveInt>
@@ -755,7 +755,7 @@
             <subject>
                <reference value="Patient/3-2-Patient"></reference>
             </subject>
-            <recordedDate value="2009-04-21T10:42:49+02:00"></recordedDate>
+            <recordedDate value="2009-04-21T15:58:19+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </recorder>
@@ -780,7 +780,7 @@
             <subject>
                <reference value="Patient/3-2-Patient"></reference>
             </subject>
-            <recordedDate value="2009-04-21T10:42:49+02:00"></recordedDate>
+            <recordedDate value="2009-04-21T15:58:19+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </recorder>
@@ -805,7 +805,7 @@
             <subject>
                <reference value="Patient/3-2-Patient"></reference>
             </subject>
-            <recordedDate value="1966-12-21T10:42:49+01:00"></recordedDate>
+            <recordedDate value="1966-12-21T15:58:19+01:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </recorder>
@@ -836,7 +836,7 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <recordedDate value="2004-07-11T10:42:49+02:00"></recordedDate>
+            <recordedDate value="2004-07-11T15:58:19+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </recorder>
@@ -867,7 +867,7 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <recordedDate value="1996-07-11T10:42:49+02:00"></recordedDate>
+            <recordedDate value="1996-07-11T15:58:19+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </recorder>
@@ -894,9 +894,10 @@
             </subject>
             <onsetAge>
                <value value="266"></value>
-               <unit value="d"></unit>
+               <system value="UCUM"></system>
+               <code value="d"></code>
             </onsetAge>
-            <recordedDate value="2009-04-21T10:42:49+02:00"></recordedDate>
+            <recordedDate value="2009-04-21T15:58:19+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </recorder>
@@ -964,7 +965,7 @@
             <subject>
                <reference value="Patient/3-2-Patient"></reference>
             </subject>
-            <onsetDateTime value="2021-11-21T10:42:49+01:00"></onsetDateTime>
+            <onsetDateTime value="2021-11-21T15:58:19+01:00"></onsetDateTime>
             <recordedDate value="2021-06-01T00:00:00+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
@@ -999,8 +1000,8 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="72093006"></code>
-                     <display value="Poliomyelitis vaccination"></display>
+                     <code value="398102009"></code>
+                     <display value="Acute poliomyelitis (disorder)"></display>
                   </coding>
                </targetDisease>
                <forecastStatus>
@@ -1048,8 +1049,8 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="28877009"></code>
-                     <display value="Cholera vaccination"></display>
+                     <code value="63650001"></code>
+                     <display value="Cholera (disorder)"></display>
                   </coding>
                </targetDisease>
                <forecastStatus>

@@ -1,7 +1,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-1-ImmunizationAdministration"></id>
    <meta>
-      <lastUpdated value="2021-06-01T00:00:00.989+02:00"></lastUpdated>
+      <lastUpdated value="2021-06-01T00:00:00.678+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"></profile>
    </meta>
    <identifier>
@@ -9,7 +9,7 @@
       <value value="urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-06-01T00:00:00.042+02:00"></timestamp>
+   <timestamp value="2021-06-01T00:00:00.729+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/2-1-ImmunizationAdministrationComposition"></fullUrl>
       <resource>
@@ -294,8 +294,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2017-09-15T10:42:27+02:00"></occurrenceDateTime>
-            <recorded value="2017-09-15T10:42:27+02:00"></recorded>
+            <occurrenceDateTime value="2017-09-15T15:57:52+02:00"></occurrenceDateTime>
+            <recorded value="2017-09-15T15:57:52+02:00"></recorded>
             <lotNumber value="12-34244"></lotNumber>
             <route>
                <coding>
@@ -313,22 +313,22 @@
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="76668005"></code>
-                     <display value="Diphtheria immunization"></display>
+                     <code value="397430003"></code>
+                     <display value="Diphtheria caused by Corynebacterium diphtheriae (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="127786006"></code>
-                     <display value="Tetanus vaccination"></display>
+                     <code value="76902006"></code>
+                     <display value="Tetanus (disorder)"></display>
                   </coding>
                </targetDisease>
                <targetDisease>
                   <coding>
                      <system value="http://snomed.info/sct"></system>
-                     <code value="39343008"></code>
-                     <display value="Pertussis vaccination"></display>
+                     <code value="27836007"></code>
+                     <display value="Pertussis (disorder)"></display>
                   </coding>
                </targetDisease>
                <doseNumberPositiveInt value="1"></doseNumberPositiveInt>

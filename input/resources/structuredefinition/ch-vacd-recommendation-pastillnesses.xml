@@ -43,7 +43,7 @@
 				<description
 					value="The code for past illnesses for immunization." />
 				<valueSet
-					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-illnesses-undergone-for-immunizaion-vs" />
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdeseasesandillnessesundergoneforimmunization-vs" />
 			</binding>
 			<mapping>
 				<identity value="cda" />

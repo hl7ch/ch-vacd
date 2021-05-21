@@ -16,7 +16,7 @@
    <type>
       <coding>
          <system value="http://snomed.info/sct"></system>
-         <code value="410	00179103"></code>
+         <code value="41000179103"></code>
          <display value="Immunization record"></display>
       </coding>
    </type>
@@ -65,8 +65,8 @@
       <code>
          <coding>
             <system value="http://loinc.org"></system>
-            <code value="30954-2"></code>
-            <display value="Relevant diagnostic tests/laboratory data"></display>
+            <code value="11450-4"></code>
+            <display value="Problem list Reported"></display>
          </coding>
       </code>
       <text>
@@ -123,7 +123,7 @@
          <coding>
             <system value="http://loinc.org"></system>
             <code value="30954-2"></code>
-            <display value="Problem list Reported"></display>
+            <display value="Relevant diagnostic tests/laboratory data Narrative"></display>
          </coding>
       </code>
       <text>

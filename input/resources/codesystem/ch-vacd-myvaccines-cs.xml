@@ -9,10 +9,10 @@
          <start value="2021-01-24T00:00:00+01:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-vacd/cs/vaccines-old"/>
+   <url value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"/>
    <identifier>
       <use value="official"/>
-      <system value="http://myvaccines.ch/ns/vaccines"/>
+      <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-old"/>
       <value value="old-vaccines"/>
    </identifier>
    <version value="2021-01-24T00:00:00"/>

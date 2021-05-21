@@ -67,7 +67,7 @@
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="Meningococco nell'entourage "/>
+         <value value="Meningococco nell'entourage"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
@@ -159,7 +159,7 @@
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="Personnes handicapées mentales et personnel des institutions pour handicapés mentaux "/>
+         <value value="Personnes handicapées mentales et personnel des institutions pour handicapés mentaux"/>
       </designation>
       <designation>
          <language value="it-CH"/>
@@ -231,7 +231,7 @@
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="Crèche / garderie avant 5 mois "/>
+         <value value="Crèche / garderie avant 5 mois"/>
       </designation>
       <designation>
          <language value="it-CH"/>
@@ -279,11 +279,11 @@
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="Entourage d ' une femme enceinte "/>
+         <value value="Entourage d ' une femme enceinte"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="Entourage di una donna incinta "/>
+         <value value="Entourage di una donna incinta"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
@@ -307,7 +307,7 @@
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="Epatite A nell'entourage "/>
+         <value value="Epatite A nell'entourage"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
@@ -331,7 +331,7 @@
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="Epatite B nell'entourage "/>
+         <value value="Epatite B nell'entourage"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
@@ -443,15 +443,15 @@
       <display value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Neugeborene und Säuglinge unter 12 Monaten aus Ländern mit hoher Tuberkulose prävalenz, die wahrscheinlich wieder dorthin zurückkehren (in ihrem ersten Lebensjahr ) "/>
+         <value value="Neugeborene und Säuglinge unter 12 Monaten aus Ländern mit hoher Tuberkulose prävalenz, die wahrscheinlich wieder dorthin zurückkehren (in ihrem ersten Lebensjahr )"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="Nouveau - nés ou nourrissons &lt; 12 mois originaire d’un pays à haute endémie et susceptibles d’y retourner dans leur 1ère année de vie "/>
+         <value value="Nouveau - nés ou nourrissons &lt; 12 mois originaire d’un pays à haute endémie et susceptibles d’y retourner dans leur 1ère année de vie"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="Neonati o lattanti &lt; 12 mesi originari di un paese a elevata endemia e suscettibili di ritornarci nel loro primo anno di vita "/>
+         <value value="Neonati o lattanti &lt; 12 mesi originari di un paese a elevata endemia e suscettibili di ritornarci nel loro primo anno di vita"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
@@ -467,7 +467,7 @@
       <display value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Neugeborene von HBsAg-positiven Müttern "/>
+         <value value="Neugeborene von HBsAg-positiven Müttern"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
@@ -475,7 +475,7 @@
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="Neonati di madri HBsAg positive "/>
+         <value value="Neonati di madri HBsAg positive"/>
       </designation>
       <designation>
          <language value="rm-CH"/>
@@ -491,7 +491,7 @@
       <display value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Patientinnen und Patienten in Pflegeheimen und in Einrichtungen für Personen mit chronischen Erkrankungen "/>
+         <value value="Patientinnen und Patienten in Pflegeheimen und in Einrichtungen für Personen mit chronischen Erkrankungen"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
@@ -611,15 +611,15 @@
       <display value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="Personen mit regelmässigem Kontakt (beruflich / familiär) zu Säuglingen &lt; 6 Monaten, schwangere Frauen "/>
+         <value value="Personen mit regelmässigem Kontakt (beruflich / familiär) zu Säuglingen &lt; 6 Monaten, schwangere Frauen"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="Personnes en contact professionnel ou familial régulier avec des nourrissons &lt; 6 mois, femmes enceintes "/>
+         <value value="Personnes en contact professionnel ou familial régulier avec des nourrissons &lt; 6 mois, femmes enceintes"/>
       </designation>
       <designation>
          <language value="it-CH"/>
-         <value value="Personale in contatto professionale o famigliare con dei lattanti di meno di 6 mesi o con donne incinte "/>
+         <value value="Personale in contatto professionale o famigliare con dei lattanti di meno di 6 mesi o con donne incinte"/>
       </designation>
       <designation>
          <language value="rm-CH"/>

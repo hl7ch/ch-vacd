@@ -19,7 +19,7 @@
    <patient>
       <reference value="Patient/3-2-Patient"></reference>
    </patient>
-   <recordedDate value="2004-07-11T10:42:49+02:00"></recordedDate>
+   <recordedDate value="2004-07-11T15:58:19+02:00"></recordedDate>
    <recorder>
       <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
    </recorder>

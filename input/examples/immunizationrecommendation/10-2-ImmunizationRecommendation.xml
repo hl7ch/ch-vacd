@@ -22,8 +22,8 @@
       <targetDisease>
          <coding>
             <system value="http://snomed.info/sct"></system>
-            <code value="72093006"></code>
-            <display value="Poliomyelitis vaccination"></display>
+            <code value="398102009"></code>
+            <display value="Acute poliomyelitis (disorder)"></display>
          </coding>
       </targetDisease>
       <forecastStatus>

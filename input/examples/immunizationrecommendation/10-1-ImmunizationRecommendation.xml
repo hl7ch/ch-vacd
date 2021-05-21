@@ -22,8 +22,8 @@
       <targetDisease>
          <coding>
             <system value="http://snomed.info/sct"></system>
-            <code value="28877009"></code>
-            <display value="Cholera vaccination"></display>
+            <code value="63650001"></code>
+            <display value="Cholera (disorder)"></display>
          </coding>
       </targetDisease>
       <forecastStatus>

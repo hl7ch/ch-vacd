@@ -1,7 +1,7 @@
 <Condition xmlns="http://hl7.org/fhir">
    <id value="8-9-Condition"></id>
    <meta>
-      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems"></profile>
+      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-other-observations"></profile>
    </meta>
    <code>
       <coding>
@@ -15,9 +15,10 @@
    </subject>
    <onsetAge>
       <value value="266"></value>
-      <unit value="d"></unit>
+      <system value="UCUM"></system>
+      <code value="d"></code>
    </onsetAge>
-   <recordedDate value="2009-04-21T10:42:42+02:00"></recordedDate>
+   <recordedDate value="2009-04-21T15:58:11+02:00"></recordedDate>
    <recorder>
       <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
    </recorder>

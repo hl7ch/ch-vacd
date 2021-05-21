@@ -9,10 +9,10 @@
          <start value="2021-01-24T00:00:00+01:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"/>
+   <url value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"/>
    <identifier>
       <use value="official"/>
-      <system value="http://swissmedic.ch/ns/authorizationnumber"/>
+      <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"/>
       <value value="authorized-vaccines"/>
    </identifier>
    <version value="2021-01-24T00:00:00"/>

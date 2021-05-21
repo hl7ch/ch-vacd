@@ -115,7 +115,7 @@
 				<strength value="required" />
 				<description value="The code for disease." />
 				<valueSet
-					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-diseases-vs" />
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdeseasesandillnessesundergoneforimmunization-vs" />
 			</binding>
 		</element>
 		
