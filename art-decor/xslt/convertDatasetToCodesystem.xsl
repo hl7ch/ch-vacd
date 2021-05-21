@@ -110,6 +110,13 @@
 				</value>
 			</designation>
 			<designation>
+				<language value="rm-CH" />
+				<value>
+					<xsl:attribute name="value"><xsl:value-of
+						select="@NAME_EN" /></xsl:attribute>
+				</value>
+			</designation>
+			<designation>
 				<language value="en-US" />
 				<value>
 					<xsl:attribute name="value"><xsl:value-of

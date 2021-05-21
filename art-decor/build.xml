@@ -7,7 +7,7 @@
 		<property name="canonicalBase" value="http://fhir.ch/ig/ch-vacd" />
 	</target>
 	<target name="clean">
-		<delete dir="templates" />
+		<!--<delete dir="templates" />-->
 		<delete dir="output" />
 	</target>
 	<target name="xslt">
@@ -102,7 +102,7 @@
 		<delete file="output/ch-vacd-swissmedic-cs.xml" failonerror="false" />
 		<antcall target="xslt">
 			<param name="templateId" value="ch-vacd-swissmedic-cs" />
-			<param name="systemUrl" value="http://swissmedic.ch/ns/authorizationnumber/vs" />
+			<param name="systemUrl" value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic" />
 			<param name="identifierSystem" value="http://swissmedic.ch/ns/authorizationnumber" />
 			<param name="identifierValue" value="authorized-vaccines" />
 			<param name="name" value="SwissMedicAuthorizedVaccinesCodesystem" />
@@ -120,7 +120,7 @@
 		<delete file="output/ch-vacd-myvaccines-cs.xml" failonerror="false" />
 		<antcall target="xslt">
 			<param name="templateId" value="ch-vacd-myvaccines-cs" />
-			<param name="systemUrl" value="http://myvaccines.ch/ns/vaccines/old" />
+			<param name="systemUrl" value="http://fhir.ch/ig/ch-vacd/cs/vaccines-old" />
 			<param name="identifierSystem" value="http://myvaccines.ch/ns/vaccines" />
 			<param name="identifierValue" value="old-vaccines" />
 			<param name="name" value="OldSwissVaccinesCodesystem" />
@@ -137,7 +137,7 @@
 		<!-- prepare intermediat 1 file for valueset -->
 		<delete file="output/vaccines_intermediat1.xml" failonerror="false" />
 		<antcall target="xslt">
-			<param name="systemUrl" value="http://swissmedic.ch/ns/authorizationnumber/vs" />
+			<param name="systemUrl" value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic" />
 			<param name="xsl" value="convertDatasetToIntermediatVs.xsl" />
 			<param name="in" value="templates/swissmedic_vaccines_dataset.xml" />
 			<param name="out" value="output/vaccines_intermediat1.xml" />
@@ -149,7 +149,7 @@
 		<!-- prepare intermediat 2 file for valueset -->
 		<delete file="output/vaccines_intermediat2.xml" failonerror="false" />
 		<antcall target="xslt">
-			<param name="systemUrl" value="http://myvaccines.ch/ns/vaccines/old" />
+			<param name="systemUrl" value="http://fhir.ch/ig/ch-vacd/cs/vaccines-old" />
 			<param name="xsl" value="convertDatasetToIntermediatVs.xsl" />
 			<param name="in" value="templates/myvaccines_vaccines_old_dataset.xml" />
 			<param name="out" value="output/vaccines_intermediat2.xml" />
@@ -241,7 +241,7 @@
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-complication-risks-vs" />
 			<param name="description" value="The medical risks." />
-			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+			<param name="xsl" value="convertIheValueSetFhirValueSet-lang.xsl" />
 			<param name="in" value="templates/VS_SwissVaccinationPlanComplicationRisks_download_2021-01-22T223958.xml" />
 			<param name="out" value="output/risks_intermediat1.xml" />
 		</antcall>
@@ -256,7 +256,7 @@
 			<param name="systemUrl" value="http://art-decor.org/ns/oids/vs" />
 			<param name="templateId" value="ch-vacd-exposure-risks-vs" />
 			<param name="description" value="The exposition risks." />
-			<param name="xsl" value="convertIheValueSetFhirValueSet.xsl" />
+			<param name="xsl" value="convertIheValueSetFhirValueSet-lang.xsl" />
 			<param name="in" value="templates/VS_SwissVaccinationPlanExposureRisks_download_2021-01-22T224125.xml" />
 			<param name="out" value="output/risks_intermediat2.xml" />
 		</antcall>

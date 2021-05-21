@@ -87,7 +87,8 @@
 							select="normalize-space(ihe:desc[@language = 'en-US']/ihe:span[@lang = 'EN-GB']/.)" /></xsl:attribute>
 					</xsl:when>
 					<xsl:otherwise>
-						<xsl:attribute name="value"><xsl:value-of select="$description" /></xsl:attribute>
+						<xsl:attribute name="value"><xsl:value-of
+							select="$description" /></xsl:attribute>
 					</xsl:otherwise>
 				</xsl:choose>
 			</description>
@@ -117,27 +118,8 @@
 				<xsl:attribute name="value"><xsl:value-of
 					select="@displayName" /></xsl:attribute>
 			</display>
-			<designation>
-				<language value="de-CH" />
-				<value>
-					<xsl:attribute name="value"><xsl:value-of
-						select="@displayName" /></xsl:attribute>
-				</value>
-			</designation>
-			<designation>
-				<language value="fr-CH" />
-				<value>
-					<xsl:attribute name="value"><xsl:value-of
-						select="@displayName" /></xsl:attribute>
-				</value>
-			</designation>
-			<designation>
-				<language value="it-CH" />
-				<value>
-					<xsl:attribute name="value"><xsl:value-of
-						select="@displayName" /></xsl:attribute>
-				</value>
-			</designation>
+			<xsl:apply-templates select="ihe:designation" />
+
 			<designation>
 				<language value="rm-CH" />
 				<value>
@@ -154,5 +136,19 @@
 			</designation>
 		</concept>
 	</xsl:template>
+
+	<xsl:template match="ihe:designation">
+		<designation>
+			<language>
+			<xsl:attribute name="value"><xsl:value-of
+					select="@language" /></xsl:attribute>
+			</language>
+			<value>
+				<xsl:attribute name="value"><xsl:value-of
+					select="@displayName" /></xsl:attribute>
+			</value>
+		</designation>
+	</xsl:template>
+
 
 </xsl:stylesheet>
