@@ -9,7 +9,7 @@
          <start value="2021-01-24T00:00:00+01:00"/>
       </valuePeriod>
    </extension>
-   <url value="http://swissmedic.ch/ns/authorizationnumber/vs"/>
+   <url value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"/>
    <identifier>
       <use value="official"/>
       <system value="http://swissmedic.ch/ns/authorizationnumber"/>
@@ -46,6 +46,10 @@
          <value value="FSME-Immun 0.25 ml Junior"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="FSME-Immun 0.25 ml Junior"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="FSME-Immun 0.25 ml Junior"/>
       </designation>
@@ -63,6 +67,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="FSME-Immun CC"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="FSME-Immun CC"/>
       </designation>
       <designation>
@@ -86,6 +94,10 @@
          <value value="NeisVac-C"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="NeisVac-C"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="NeisVac-C"/>
       </designation>
@@ -103,6 +115,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Encepur N"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Encepur N"/>
       </designation>
       <designation>
@@ -126,6 +142,10 @@
          <value value="Encepur N Kinder / Enfants"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Encepur N Kinder / Enfants"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Encepur N Kinder / Enfants"/>
       </designation>
@@ -143,6 +163,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Epaxal"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Epaxal"/>
       </designation>
       <designation>
@@ -166,6 +190,10 @@
          <value value="Heprecomb"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Heprecomb"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Heprecomb"/>
       </designation>
@@ -183,6 +211,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Heprecomb Kinder"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Heprecomb Kinder"/>
       </designation>
       <designation>
@@ -206,6 +238,10 @@
          <value value="Inflexal V"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Inflexal V"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Inflexal V"/>
       </designation>
@@ -223,6 +259,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Menjugate"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Menjugate"/>
       </designation>
       <designation>
@@ -246,6 +286,10 @@
          <value value="Moraten"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Moraten"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Moraten"/>
       </designation>
@@ -263,6 +307,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Orochol"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Orochol"/>
       </designation>
       <designation>
@@ -286,6 +334,10 @@
          <value value="Rabipur"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Rabipur"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Rabipur"/>
       </designation>
@@ -303,6 +355,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Td-pur"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Td-pur"/>
       </designation>
       <designation>
@@ -326,6 +382,10 @@
          <value value="Td-Virelon"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Td-Virelon"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Td-Virelon"/>
       </designation>
@@ -343,6 +403,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Vivotif"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Vivotif"/>
       </designation>
       <designation>
@@ -366,6 +430,10 @@
          <value value="Boostrix"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Boostrix"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Boostrix"/>
       </designation>
@@ -383,6 +451,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Boostrix Polio"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Boostrix Polio"/>
       </designation>
       <designation>
@@ -406,6 +478,10 @@
          <value value="Ditanrix"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Ditanrix"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Ditanrix"/>
       </designation>
@@ -423,6 +499,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Engerix-B 10"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Engerix-B 10"/>
       </designation>
       <designation>
@@ -446,6 +526,10 @@
          <value value="Engerix-B 20"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Engerix-B 20"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Engerix-B 20"/>
       </designation>
@@ -463,6 +547,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Fluarix"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Fluarix"/>
       </designation>
       <designation>
@@ -486,6 +574,10 @@
          <value value="Havrix 1440"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Havrix 1440"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Havrix 1440"/>
       </designation>
@@ -503,6 +595,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Havrix 720"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Havrix 720"/>
       </designation>
       <designation>
@@ -526,6 +622,10 @@
          <value value="Hiberix"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Hiberix"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Hiberix"/>
       </designation>
@@ -543,6 +643,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Infanrix DTPa-IPV"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Infanrix DTPa-IPV"/>
       </designation>
       <designation>
@@ -566,6 +670,10 @@
          <value value="Infanrix DTPa-IPV+Hib"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Infanrix DTPa-IPV+Hib"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Infanrix DTPa-IPV+Hib"/>
       </designation>
@@ -583,6 +691,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Infanrix hexa"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Infanrix hexa"/>
       </designation>
       <designation>
@@ -606,6 +718,10 @@
          <value value="Mencevax ACWY"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Mencevax ACWY"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Mencevax ACWY"/>
       </designation>
@@ -623,6 +739,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Poliorix"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Poliorix"/>
       </designation>
       <designation>
@@ -646,6 +766,10 @@
          <value value="Priorix"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Priorix"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Priorix"/>
       </designation>
@@ -663,6 +787,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Twinrix 720/20"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Twinrix 720/20"/>
       </designation>
       <designation>
@@ -686,6 +814,10 @@
          <value value="Varilrix"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Varilrix"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Varilrix"/>
       </designation>
@@ -703,6 +835,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Gen H-B-Vax 10"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Gen H-B-Vax 10"/>
       </designation>
       <designation>
@@ -726,6 +862,10 @@
          <value value="HBVAXPRO 40"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="HBVAXPRO 40"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="HBVAXPRO 40"/>
       </designation>
@@ -743,6 +883,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Gen H-B-Vax 5"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Gen H-B-Vax 5"/>
       </designation>
       <designation>
@@ -766,6 +910,10 @@
          <value value="HBVAXPRO 10"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="HBVAXPRO 10"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="HBVAXPRO 10"/>
       </designation>
@@ -783,6 +931,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="MMR-II"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="MMR-II"/>
       </designation>
       <designation>
@@ -806,6 +958,10 @@
          <value value="Mumpsvax"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Mumpsvax"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Mumpsvax"/>
       </designation>
@@ -823,6 +979,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Mutagrip"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Mutagrip"/>
       </designation>
       <designation>
@@ -846,6 +1006,10 @@
          <value value="Pentavac"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Pentavac"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Pentavac"/>
       </designation>
@@ -863,6 +1027,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Pneumovax-23"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Pneumovax-23"/>
       </designation>
       <designation>
@@ -886,6 +1054,10 @@
          <value value="Revaxis"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Revaxis"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Revaxis"/>
       </designation>
@@ -903,6 +1075,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Stamaril"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Stamaril"/>
       </designation>
       <designation>
@@ -926,6 +1102,10 @@
          <value value="Tetravac"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Tetravac"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Tetravac"/>
       </designation>
@@ -943,6 +1123,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Tollwut Impfstoff Mérieux"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Tollwut Impfstoff Mérieux"/>
       </designation>
       <designation>
@@ -966,6 +1150,10 @@
          <value value="Varivax"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Varivax"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Varivax"/>
       </designation>
@@ -983,6 +1171,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Influvac"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Influvac"/>
       </designation>
       <designation>
@@ -1006,6 +1198,10 @@
          <value value="Influvac plus"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Influvac plus"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Influvac plus"/>
       </designation>
@@ -1023,6 +1219,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Meningitec"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Meningitec"/>
       </designation>
       <designation>
@@ -1046,6 +1246,10 @@
          <value value="Prevenar-7"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Prevenar-7"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Prevenar-7"/>
       </designation>
@@ -1063,6 +1267,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Hexavac"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Hexavac"/>
       </designation>
       <designation>
@@ -1086,6 +1294,10 @@
          <value value="DiTe pediatric adsorbed"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="DiTe pediatric adsorbed"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="DiTe pediatric adsorbed"/>
       </designation>
@@ -1103,6 +1315,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Dukoral"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Dukoral"/>
       </designation>
       <designation>
@@ -1126,6 +1342,10 @@
          <value value="Rimevax"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Rimevax"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Rimevax"/>
       </designation>
@@ -1143,6 +1363,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Tetanol pur"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Tetanol pur"/>
       </designation>
       <designation>
@@ -1166,6 +1390,10 @@
          <value value="Gardasil"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Gardasil"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Gardasil"/>
       </designation>
@@ -1183,6 +1411,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Zostavax"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Zostavax"/>
       </designation>
       <designation>
@@ -1206,6 +1438,10 @@
          <value value="Priorix-Tetra"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Priorix-Tetra"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Priorix-Tetra"/>
       </designation>
@@ -1223,6 +1459,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="BCG SSI"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="BCG SSI"/>
       </designation>
       <designation>
@@ -1246,6 +1486,10 @@
          <value value="Fluad"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Fluad"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Fluad"/>
       </designation>
@@ -1263,6 +1507,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Rotarix"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Rotarix"/>
       </designation>
       <designation>
@@ -1286,6 +1534,10 @@
          <value value="MMRVaxPro"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="MMRVaxPro"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="MMRVaxPro"/>
       </designation>
@@ -1303,6 +1555,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Measles vaccine live"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Measles vaccine live"/>
       </designation>
       <designation>
@@ -1326,6 +1582,10 @@
          <value value="Agrippal"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Agrippal"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Agrippal"/>
       </designation>
@@ -1343,6 +1603,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Optaflu"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Optaflu"/>
       </designation>
       <designation>
@@ -1366,6 +1630,10 @@
          <value value="Cervarix"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Cervarix"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Cervarix"/>
       </designation>
@@ -1383,6 +1651,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Prevenar-13"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Prevenar-13"/>
       </designation>
       <designation>
@@ -1406,6 +1678,10 @@
          <value value="Ixiaro"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Ixiaro"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Ixiaro"/>
       </designation>
@@ -1423,6 +1699,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Menveo"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Menveo"/>
       </designation>
       <designation>
@@ -1446,6 +1726,10 @@
          <value value="DiTe Anatoxal Erwachsene / Adultes"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="DiTe Anatoxal Erwachsene / Adultes"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="DiTe Anatoxal Erwachsene / Adultes"/>
       </designation>
@@ -1463,6 +1747,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="DiTe Anatoxal N Erwachsene / Adultes"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="DiTe Anatoxal N Erwachsene / Adultes"/>
       </designation>
       <designation>
@@ -1486,6 +1774,10 @@
          <value value="Te Anatoxal"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Te Anatoxal"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Te Anatoxal"/>
       </designation>
@@ -1503,6 +1795,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Te Anatoxal N"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Te Anatoxal N"/>
       </designation>
       <designation>
@@ -1526,6 +1822,10 @@
          <value value="Fluarix Tetra"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Fluarix Tetra"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Fluarix Tetra"/>
       </designation>
@@ -1543,6 +1843,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Menjugate liquid"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Menjugate liquid"/>
       </designation>
       <designation>
@@ -1566,6 +1870,10 @@
          <value value="ProQuad"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="ProQuad"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="ProQuad"/>
       </designation>
@@ -1583,6 +1891,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Vaxigrip Tetra"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Vaxigrip Tetra"/>
       </designation>
       <designation>
@@ -1606,6 +1918,10 @@
          <value value="Gardasil 9"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Gardasil 9"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Gardasil 9"/>
       </designation>
@@ -1623,6 +1939,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Vaxelis"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Vaxelis"/>
       </designation>
       <designation>
@@ -1646,6 +1966,10 @@
          <value value="Bexsero"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="Bexsero"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="Bexsero"/>
       </designation>
@@ -1663,6 +1987,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Influvac Tetra"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="Influvac Tetra"/>
       </designation>
       <designation>
@@ -1686,6 +2014,10 @@
          <value value="COVID-19 Vaccine (Moderna)"/>
       </designation>
       <designation>
+         <language value="rm-CH"/>
+         <value value="COVID-19 Vaccine (Moderna)"/>
+      </designation>
+      <designation>
          <language value="en-US"/>
          <value value="COVID-19 Vaccine (Moderna)"/>
       </designation>
@@ -1703,6 +2035,10 @@
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="COMIRNATY (Pfizer)"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="COMIRNATY (Pfizer)"/>
       </designation>
       <designation>
