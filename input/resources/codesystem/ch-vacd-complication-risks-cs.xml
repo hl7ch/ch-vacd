@@ -35,14 +35,18 @@
       <display value="ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"/>
       <designation>
          <language value="de-CH"/>
-         <value value="ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"/>
+         <value value="Anatomische oder funktionelle Asplenie"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"/>
+         <value value="Asplénie anatomique ou fonctionnelle"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Asplenia anatomica o funzionale"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"/>
       </designation>
       <designation>
@@ -55,14 +59,18 @@
       <display value="ANDERE_LEBERERKRANKUNG"/>
       <designation>
          <language value="de-CH"/>
-         <value value="ANDERE_LEBERERKRANKUNG"/>
+         <value value="andere Lebererkrankung"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="ANDERE_LEBERERKRANKUNG"/>
+         <value value="autre maladie hépatique"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="altra malattia epatica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="ANDERE_LEBERERKRANKUNG"/>
       </designation>
       <designation>
@@ -75,14 +83,18 @@
       <display value="ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"/>
       <designation>
          <language value="de-CH"/>
-         <value value="ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"/>
+         <value value="Andere Lungenerkrankungen (z.B. Mukoviszidose, Asthma bronchiale, etc.)"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"/>
+         <value value="Autres maladies pulmonaires (ex : mucoviscidose, asthme traité par aérosols, etc)"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Altre malattie polmonari (p.es. mucoviscidosi, asmatrattata con aerosol, ecc.)"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"/>
       </designation>
       <designation>
@@ -95,14 +107,18 @@
       <display value="ANDERE_NIERENERKRANKUNG"/>
       <designation>
          <language value="de-CH"/>
-         <value value="ANDERE_NIERENERKRANKUNG"/>
+         <value value="Andere Nierenerkrankung"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="ANDERE_NIERENERKRANKUNG"/>
+         <value value="autre maladie des reins"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="altra malattia renale"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="ANDERE_NIERENERKRANKUNG"/>
       </designation>
       <designation>
@@ -115,14 +131,18 @@
       <display value="ANDERER_KREBS"/>
       <designation>
          <language value="de-CH"/>
-         <value value="ANDERER_KREBS"/>
+         <value value="Anderer Krebs"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="ANDERER_KREBS"/>
+         <value value="autre cancer"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="altro cancro"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="ANDERER_KREBS"/>
       </designation>
       <designation>
@@ -135,14 +155,18 @@
       <display value="ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"/>
       <designation>
          <language value="de-CH"/>
-         <value value="ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"/>
+         <value value="Angeborene Immundefizienz, variables Immundefektsyndrom, defizitäre Antwort auf Polysaccharide"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"/>
+         <value value="Immunodéficience congénitale, immunodéficience commune variable, déficit réponse aux polysaccharidiques"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Immunodeficienza congenita, immunodeficienza comune variabile, deficit di risposta ai polisaccaridi"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"/>
       </designation>
       <designation>
@@ -155,14 +179,18 @@
       <display value="AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"/>
       <designation>
          <language value="de-CH"/>
-         <value value="AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"/>
+         <value value="Autoimmunkrankheit, welche eine Immunsuppression erfordert"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"/>
+         <value value="Maladie auto-immune exigeant vraisemblablement une immunosuppression"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Malattia autoimmune che richiede probabilmente una immunosoppressione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"/>
       </designation>
       <designation>
@@ -175,14 +203,18 @@
       <display value="BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"/>
       <designation>
          <language value="de-CH"/>
-         <value value="BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"/>
+         <value value="Bronchiektasen durch Antikörpermangel"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"/>
+         <value value="Bronchiectasies sur carence en anticorps"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Bronchiettasie su carenza in anticorpi"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"/>
       </designation>
       <designation>
@@ -195,14 +227,18 @@
       <display value="CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"/>
       <designation>
          <language value="de-CH"/>
-         <value value="CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"/>
+         <value value="Chronisch obstruktive Pneumopathie"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"/>
+         <value value="Pneumopathie chronique obstructive"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Pneumopatia cronica ostruttiva"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"/>
       </designation>
       <designation>
@@ -215,14 +251,18 @@
       <display value="CHRONISCHE_LEBERERKRANKUNG"/>
       <designation>
          <language value="de-CH"/>
-         <value value="CHRONISCHE_LEBERERKRANKUNG"/>
+         <value value="Chronische Lebererkrankung"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="CHRONISCHE_LEBERERKRANKUNG"/>
+         <value value="Maladie hépatique chronique"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Malattia epatica cronica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="CHRONISCHE_LEBERERKRANKUNG"/>
       </designation>
       <designation>
@@ -235,14 +275,18 @@
       <display value="COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"/>
       <designation>
          <language value="de-CH"/>
-         <value value="COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"/>
+         <value value="Cochleaimplantat, in situ oder geplant"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"/>
+         <value value="Implant cochléaire, in situ ou planifié"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Impianto cocleare, in situ o pianificato"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"/>
       </designation>
       <designation>
@@ -255,14 +299,18 @@
       <display value="DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"/>
+         <value value="Diabetes mit Auswirkung auf die Funktion von Herz, Lungen oder Nieren"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"/>
+         <value value="Diabète avec répercussion sur la fonction cardiaque, pulmonaire ou rénale"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Diabete con ripercussioni sulla funzione cardiopolmonare o renale"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"/>
       </designation>
       <designation>
@@ -275,14 +323,18 @@
       <display value="EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"/>
       <designation>
          <language value="de-CH"/>
-         <value value="EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"/>
+         <value value="Empfänger einer Solidorgantransplantation"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"/>
+         <value value="Receveurs d'une transplantation d'organe solide"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Riceventi di un trapianto d'organo solido"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"/>
       </designation>
       <designation>
@@ -295,14 +347,18 @@
       <display value="EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"/>
       <designation>
          <language value="de-CH"/>
-         <value value="EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"/>
+         <value value="Empfänger einer Stammzelltransplantation"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"/>
+         <value value="Receveurs de cellules souches hématopoïétiques"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Riceventi di cellule staminali ematopoietiche"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"/>
       </designation>
       <designation>
@@ -315,14 +371,18 @@
       <display value="GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"/>
       <designation>
          <language value="de-CH"/>
-         <value value="GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"/>
+         <value value="Geburt vor der 33. Schwangerschaftswoche oder Geburtsgewicht &lt; 1500g"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"/>
+         <value value="Naissance avant la 33e semaine de grossesse ou poids de naissance &lt;1500g"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Nascita prima della 33a settimana di gravidanza o peso alla nascita &lt;1500g"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"/>
       </designation>
       <designation>
@@ -335,14 +395,18 @@
       <display value="HAEMODIALYSEPATIENT"/>
       <designation>
          <language value="de-CH"/>
-         <value value="HAEMODIALYSEPATIENT"/>
+         <value value="Hämodialysepatient"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="HAEMODIALYSEPATIENT"/>
+         <value value="Personnes dialysées"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Persone in dialisi"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="HAEMODIALYSEPATIENT"/>
       </designation>
       <designation>
@@ -355,14 +419,18 @@
       <display value="HAEMOPHILIE_PATIENT"/>
       <designation>
          <language value="de-CH"/>
-         <value value="HAEMOPHILIE_PATIENT"/>
+         <value value="Hämophilie Patient"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="HAEMOPHILIE_PATIENT"/>
+         <value value="Personnes hémophiles"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Persone affette da emofilia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="HAEMOPHILIE_PATIENT"/>
       </designation>
       <designation>
@@ -375,14 +443,18 @@
       <display value="HERZINSUFFIZIENZ"/>
       <designation>
          <language value="de-CH"/>
-         <value value="HERZINSUFFIZIENZ"/>
+         <value value="Herzinsuffizienz"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="HERZINSUFFIZIENZ"/>
+         <value value="Insuffisance cardiaque"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Insufficienza cardiaca"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="HERZINSUFFIZIENZ"/>
       </designation>
       <designation>
@@ -395,14 +467,18 @@
       <display value="HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"/>
+         <value value="Herzkrankheiten (chronische, kongenitale Missbildungen)"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"/>
+         <value value="Cardiopathies chroniques, malformations congénitales"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Cardiopatie croniche, malformazioni congenite"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"/>
       </designation>
       <designation>
@@ -415,14 +491,18 @@
       <display value="HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"/>
       <designation>
          <language value="de-CH"/>
-         <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"/>
+         <value value="HIV Infektion mit CD4-Zellen &gt;= 15 % (Erwachsene: &gt;= 200 / µl)"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"/>
+         <value value="Infection à VIH avec CD4 &gt;= 15% (Adultes : &gt;= 200 / µl)"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Infezione HIV con CD4 &gt;= 15% (Adulti : &gt;= 200 / µl)"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"/>
       </designation>
       <designation>
@@ -435,14 +515,18 @@
       <display value="HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"/>
       <designation>
          <language value="de-CH"/>
-         <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"/>
+         <value value="HIV Infektion mit CD4-Zellen &lt; 15 % (Erwachsene: &lt; 200 / µl)"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"/>
+         <value value="Infection à VIH avec CD4 &lt; 15% (Adultes : &lt; 200 / µl)"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Infezione HIV con CD4 &lt; 15% (Adulti : &lt; 200 / µl)"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"/>
       </designation>
       <designation>
@@ -455,14 +539,18 @@
       <display value="KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"/>
       <designation>
          <language value="de-CH"/>
-         <value value="KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"/>
+         <value value="Kandidaten für eine Solidorgantransplantation"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"/>
+         <value value="Candidats à une transplantation d'organe solide"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Candidati a un trapianto d'organo solido"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"/>
       </designation>
       <designation>
@@ -475,14 +563,18 @@
       <display value="KARDIOPATHIE"/>
       <designation>
          <language value="de-CH"/>
-         <value value="KARDIOPATHIE"/>
+         <value value="Kardiopathie, angeborene Fehlbildung"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="KARDIOPATHIE"/>
+         <value value="Cardiopathie, malformation congénitale"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Cardiopatia, malformazione congenita"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="KARDIOPATHIE"/>
       </designation>
       <designation>
@@ -495,14 +587,18 @@
       <display value="LEBERZIRRHOSE"/>
       <designation>
          <language value="de-CH"/>
-         <value value="LEBERZIRRHOSE"/>
+         <value value="Leberzirrhose"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="LEBERZIRRHOSE"/>
+         <value value="Cirrhose hépatique"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Cirrosi epatica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="LEBERZIRRHOSE"/>
       </designation>
       <designation>
@@ -515,14 +611,18 @@
       <display value="LYMPHOM_LEUKAEMIE_MYELOM"/>
       <designation>
          <language value="de-CH"/>
-         <value value="LYMPHOM_LEUKAEMIE_MYELOM"/>
+         <value value="Lymphom, Leukämie, Myelom"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="LYMPHOM_LEUKAEMIE_MYELOM"/>
+         <value value="Lymphome, leucémie, myélome"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Linfoma, leucemia, mieloma"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="LYMPHOM_LEUKAEMIE_MYELOM"/>
       </designation>
       <designation>
@@ -535,14 +635,18 @@
       <display value="LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"/>
       <designation>
          <language value="de-CH"/>
-         <value value="LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"/>
+         <value value="Lymphom, Leukämie, Myelom während klinischer Remission"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"/>
+         <value value="Lymphome, leucémie, myélome durant une rémission clinique"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Linfoma, leucemia, mieloma durante una remissione clinica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"/>
       </designation>
       <designation>
@@ -555,14 +659,18 @@
       <display value="MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"/>
+         <value value="Mangel an Mannose-bindendem Lektin"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"/>
+         <value value="Déficit en lectine liant le mannose"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Deficit di lectina legante il mannosio"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"/>
       </designation>
       <designation>
@@ -575,14 +683,18 @@
       <display value="MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"/>
       <designation>
          <language value="de-CH"/>
-         <value value="MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"/>
+         <value value="Mangel im klassischen oder alternativen Weg der Komplementaktivierung"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"/>
+         <value value="Déficit en facteurs de la voie alterne ou terminale du complément"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Deficit in fattori della via alterna o terminale del complemento"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"/>
       </designation>
       <designation>
@@ -595,14 +707,18 @@
       <display value="MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"/>
       <designation>
          <language value="de-CH"/>
-         <value value="MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"/>
+         <value value="Medikamentöse Immunosuppression (inkl. systemische Langzeitkortikoidtherapie und Radiotherapie)"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"/>
+         <value value="Immunosuppression médicamenteuse (y c. corticothérapie de longue durée par voie générale et radiothérapie)"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Immunosoppressione medicamentosa (compresa una corticoterapia di lunga durata per via generale e una radioterapia)"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"/>
       </designation>
       <designation>
@@ -615,14 +731,18 @@
       <display value="MORBIDE_ADIPOSITAS_BMI_GROESSER_40"/>
       <designation>
          <language value="de-CH"/>
-         <value value="MORBIDE_ADIPOSITAS_BMI_GROESSER_40"/>
+         <value value="Morbide Adipositas (BMI &gt;= 40)"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="MORBIDE_ADIPOSITAS_BMI_GROESSER_40"/>
+         <value value="Obésité morbide (IMC &gt;= 40)"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Obesità patologica (IMC &gt;= 40)"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="MORBIDE_ADIPOSITAS_BMI_GROESSER_40"/>
       </designation>
       <designation>
@@ -635,14 +755,18 @@
       <display value="NEPHROTISCHES_SYNDROM"/>
       <designation>
          <language value="de-CH"/>
-         <value value="NEPHROTISCHES_SYNDROM"/>
+         <value value="Nephrotisches Syndrom"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="NEPHROTISCHES_SYNDROM"/>
+         <value value="Syndrome néphrotique"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Sindrome nefrosica"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="NEPHROTISCHES_SYNDROM"/>
       </designation>
       <designation>
@@ -655,14 +779,18 @@
       <display value="NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"/>
       <designation>
          <language value="de-CH"/>
-         <value value="NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"/>
+         <value value="Neuromuskuläre Krankheit (Falls Auswirkungen auf Herz-, Lungen- oder Nierenfunktion)"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"/>
+         <value value="Maladie neuromusculaire (Si répercussion sur la fonction cardiaque, pulmonaire ou rénale)"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Malattia neuromuscolare (Se ripercussione sulla funzione cardiaca, polmonare o renale)"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"/>
       </designation>
       <designation>
@@ -675,14 +803,18 @@
       <display value="NIERENINSUFFIZIENZ"/>
       <designation>
          <language value="de-CH"/>
-         <value value="NIERENINSUFFIZIENZ"/>
+         <value value="Niereninsuffizienz"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="NIERENINSUFFIZIENZ"/>
+         <value value="Insuffisance rénale"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Insufficienza renale"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="NIERENINSUFFIZIENZ"/>
       </designation>
       <designation>
@@ -695,14 +827,18 @@
       <display value="PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"/>
       <designation>
          <language value="de-CH"/>
-         <value value="PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"/>
+         <value value="Protein-S oder Protein-C Defizit"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"/>
+         <value value="déficit en protéine S et protéine C "/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="deficit di proteina S e proteina C"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"/>
       </designation>
       <designation>
@@ -715,14 +851,18 @@
       <display value="RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"/>
       <designation>
          <language value="de-CH"/>
-         <value value="RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"/>
+         <value value="Rheumatismus oder Autoimmunkrankheit, welche eine Immunsuppression bedingt"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"/>
+         <value value="Maladie rhumatismale ou auto-immune allant nécessiter une immunosuppression"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Malattia reumatica o autoimmune che presto richiederà l'immunosoppressione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"/>
       </designation>
       <designation>
@@ -735,14 +875,18 @@
       <display value="SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"/>
       <designation>
          <language value="de-CH"/>
-         <value value="SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"/>
+         <value value="Schädelbasisfraktur /-Missbildung, zerebrospinale Liquorfistel"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"/>
+         <value value="Fracture ou malformation de la base du crâne, fistule de liquide céphalo-rachidien"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Frattura o malformazione della base del cranio, fistola di liquido cerebrospinale"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"/>
       </designation>
       <designation>
@@ -755,14 +899,18 @@
       <display value="SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"/>
       <designation>
          <language value="de-CH"/>
-         <value value="SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"/>
+         <value value="Schwangerschaft und post-partum Periode"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"/>
+         <value value="Grossesse et post-partum"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Gravidanza e post-parto"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"/>
       </designation>
       <designation>
@@ -775,14 +923,18 @@
       <display value="SCHWERE_NEURODERMITIS_BEIM_KIND"/>
       <designation>
          <language value="de-CH"/>
-         <value value="SCHWERE_NEURODERMITIS_BEIM_KIND"/>
+         <value value="Schwere Neurodermitis beim Kind"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="SCHWERE_NEURODERMITIS_BEIM_KIND"/>
+         <value value="Eczema sévère chez l’enfant"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Eczema severo nel bambino"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="SCHWERE_NEURODERMITIS_BEIM_KIND"/>
       </designation>
       <designation>
@@ -795,14 +947,18 @@
       <display value="SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"/>
+         <value value="Schweres Asthma: bei verlängerter oder häufiger Behandlung mit oralen Steroiden"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"/>
+         <value value="Asthme sévère : si traitement prolongé ou fréquent par des corticoïdes oraux"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Asma severa : se trattamento prolungato o frequente con corticoidi orali"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"/>
       </designation>
       <designation>
@@ -815,14 +971,18 @@
       <display value="SICHELZELLANAEMIE"/>
       <designation>
          <language value="de-CH"/>
-         <value value="SICHELZELLANAEMIE"/>
+         <value value="Sichelzellanämie"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="SICHELZELLANAEMIE"/>
+         <value value="Anémie falciforme"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Anemia falciforme"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="SICHELZELLANAEMIE"/>
       </designation>
       <designation>
@@ -835,14 +995,18 @@
       <display value="ZOELIAKIE"/>
       <designation>
          <language value="de-CH"/>
-         <value value="ZOELIAKIE"/>
+         <value value="Zöliakie"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="ZOELIAKIE"/>
+         <value value="Coeliaquie"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Celiachia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="ZOELIAKIE"/>
       </designation>
       <designation>

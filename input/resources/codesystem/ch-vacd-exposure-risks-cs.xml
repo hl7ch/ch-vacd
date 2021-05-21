@@ -35,14 +35,18 @@
       <display value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
+         <value value="Beschäftigte im Gesundheitswesen"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
+         <value value="Personnel médical et soignant"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Personale medico e di cura"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"/>
       </designation>
       <designation>
@@ -55,14 +59,18 @@
       <display value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
+         <value value="Enge Kontaktpersonen von Meningokokken-Erkrankten"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
+         <value value="Méningocoques dans l'entourage"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Meningococco nell'entourage "/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"/>
       </designation>
       <designation>
@@ -75,14 +83,18 @@
       <display value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
+         <value value="Erwachsene und Kinder ab 6 Jahren, die in Endemiegebieten wohnen oder sich teilweise dort aufhalten"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
+         <value value="Adultes et enfants dès 6 ans qui résident ou séjournent temporairement dans des territoires endémiques"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Adulti e bambini a partire dai 6 anni che risiedono o soggiornano in regioni endemiche"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"/>
       </designation>
       <designation>
@@ -95,14 +107,18 @@
       <display value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
       <designation>
          <language value="de-CH"/>
-         <value value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
+         <value value="Familienangehörige von Personen mit einem erhöhten Risiko"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
+         <value value="Entourage familial des personnes à risque accru de complications"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Entourage famigliare di persone a maggiore rischio di complicazioni"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"/>
       </designation>
       <designation>
@@ -115,14 +131,18 @@
       <display value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
       <designation>
          <language value="de-CH"/>
-         <value value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
+         <value value="Fledermausforscher und -schützer"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
+         <value value="Scientifiques effectuant des recherches sur les chiroptères, protecteurs ou amateurs de chauves-souris"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Ricercatori che svolgono ricerche sui chirotteri, protettori o appassionati di pipistrelli"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="FLEDERMAUSFORSCHER_UND_SCHUETZER"/>
       </designation>
       <designation>
@@ -135,14 +155,18 @@
       <display value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
+         <value value="Geistig behinderte Personen in Heimen und deren BetreuerInnen"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
+         <value value="Personnes handicapées mentales et personnel des institutions pour handicapés mentaux "/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Persone disabili mentali e personale degli istituti per disabili mentali"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"/>
       </designation>
       <designation>
@@ -155,14 +179,18 @@
       <display value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
+         <value value="Kanalisationsarbeiter und Angestellte von Kläranlagen"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
+         <value value="Travailleurs des canalisationset des stations d’épuration"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Personale addetto alla manutenzione delle fognature e delle stazioni di depurazione"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"/>
       </designation>
       <designation>
@@ -175,14 +203,18 @@
       <display value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
+         <value value="Kinder aus Ländern mit mittlerer und hoher Endemizität, die in der Schweiz leben und für einen vorübergehenden Aufenthalt in ihr Herkunftsland zurückkehren"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
+         <value value="Enfants originaires de pays de moyenne et haute endémicité vivant en Suisse et retournant dans leurs pays pour des séjours temporaires"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Bambini originari di paesi di media ed elevata endemicità che vivono in Svizzera e che ritornano nel loro paese per dei soggiorni temporanei"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"/>
       </designation>
       <designation>
@@ -195,14 +227,18 @@
       <display value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
+         <value value="Kinderkrippe / Hort vor 5 Monaten"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
+         <value value="Crèche / garderie avant 5 mois "/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Asilo nido prima di 5 mesi"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="KINDERKRIPPE_HORT_VOR_5_MONATEN"/>
       </designation>
       <designation>
@@ -215,14 +251,18 @@
       <display value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
+         <value value="Konsumenten von injizierbaren Drogen und deren Kontaktpersonen"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
+         <value value="Consommateurs de drogues injectables et personnes à leur contact"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Consumatori di droghe iniettabili e persone a loro contatto"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"/>
       </designation>
       <designation>
@@ -235,14 +275,18 @@
       <display value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
       <designation>
          <language value="de-CH"/>
-         <value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
+         <value value="Kontaktpersonen von einer schwangeren Frau"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
+         <value value="Entourage d ' une femme enceinte "/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Entourage di una donna incinta "/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"/>
       </designation>
       <designation>
@@ -255,14 +299,18 @@
       <display value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
+         <value value="Kontaktpersonen von Hepatitis-A-Erkrankten"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
+         <value value="Hépatite A dans l'entourage"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Epatite A nell'entourage "/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"/>
       </designation>
       <designation>
@@ -275,14 +323,18 @@
       <display value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
+         <value value="Kontaktpersonen von Hepatitis-B-Erkrankten"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
+         <value value="Hépatite B dans l'entourage"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Epatite B nell'entourage "/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"/>
       </designation>
       <designation>
@@ -295,14 +347,18 @@
       <display value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
       <designation>
          <language value="de-CH"/>
-         <value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
+         <value value="Laborpersonal mit Bakterien-Expositionsrisiko"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
+         <value value="Personnel de laboratoire exposé aux bactéries"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Personale di laboratorio esposto ai batteri"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"/>
       </designation>
       <designation>
@@ -315,14 +371,18 @@
       <display value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
       <designation>
          <language value="de-CH"/>
-         <value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
+         <value value="Laborpersonal mit Virus-Expositionsrisiko"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
+         <value value="Personnel de laboratoire exposé aux virus"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Personale di laboratorio esposto ai virus"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"/>
       </designation>
       <designation>
@@ -335,14 +395,18 @@
       <display value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
+         <value value="Männer, die mit Männern Geschlechtsverkehr haben"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
+         <value value="Hommes ayant des relations sexuelles avec d’autres hommes"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Uomini che hanno rapporti sessuali con altri uomini"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"/>
       </designation>
       <designation>
@@ -355,14 +419,18 @@
       <display value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
+         <value value="Mitarbeitende von Kinderkrippen"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
+         <value value="Professionnels de la petite enfance"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Professionisti della prima infanzia"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="MITARBEITENDE_VON_KINDERKRIPPEN"/>
       </designation>
       <designation>
@@ -375,14 +443,18 @@
       <display value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
       <designation>
          <language value="de-CH"/>
-         <value value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
+         <value value="Neugeborene und Säuglinge unter 12 Monaten aus Ländern mit hoher Tuberkulose prävalenz, die wahrscheinlich wieder dorthin zurückkehren (in ihrem ersten Lebensjahr ) "/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
+         <value value="Nouveau - nés ou nourrissons &lt; 12 mois originaire d’un pays à haute endémie et susceptibles d’y retourner dans leur 1ère année de vie "/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Neonati o lattanti &lt; 12 mesi originari di un paese a elevata endemia e suscettibili di ritornarci nel loro primo anno di vita "/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"/>
       </designation>
       <designation>
@@ -395,14 +467,18 @@
       <display value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
+         <value value="Neugeborene von HBsAg-positiven Müttern "/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
+         <value value="Nouveau-nés de mères HBsAg positives"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Neonati di madri HBsAg positive "/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"/>
       </designation>
       <designation>
@@ -415,14 +491,18 @@
       <display value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
+         <value value="Patientinnen und Patienten in Pflegeheimen und in Einrichtungen für Personen mit chronischen Erkrankungen "/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
+         <value value="Patients résidant dans une maison de soins ou dans un établissement pour malades chroniques"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Ospiti di una casa di cura o di un istituto per malati cronici"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"/>
       </designation>
       <designation>
@@ -435,14 +515,18 @@
       <display value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
       <designation>
          <language value="de-CH"/>
-         <value value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
+         <value value="Personen aus Ländern mit hoher oder intermediärer Hepatitis-B-Endemizität"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
+         <value value="Personnes provenant de zones d’endémie haute ou intermédiaire pour l’hépatite B"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Persone provenienti da zone di endemicità elevata o intermedia per l’ epatite B"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"/>
       </designation>
       <designation>
@@ -455,14 +539,18 @@
       <display value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
       <designation>
          <language value="de-CH"/>
-         <value value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
+         <value value="Personen mit einer sexuell übertragbaren Krankheit"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
+         <value value="Personnes consultant pour une maladie sexuellement transmissible"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Persone che consultano per una malattia sessualmente trasmissibile"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"/>
       </designation>
       <designation>
@@ -475,14 +563,18 @@
       <display value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
       <designation>
          <language value="de-CH"/>
-         <value value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
+         <value value="Personen mit engem Kontakt zu Personen aus Ländern mit hoher Endemizität"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
+         <value value="Personnes en contact étroit avec des personnes en provenance de pays de haute endémicité"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Persone a stretto contatto con delle persone provenienti da paesi di endemicità elevata"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"/>
       </designation>
       <designation>
@@ -495,14 +587,18 @@
       <display value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
+         <value value="Personen mit häufig wechselnden Sexualpartnern"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
+         <value value="Personnes changeant souvent de partenaires sexuels"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Persone che cambiano spesso partner sessuale"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"/>
       </designation>
       <designation>
@@ -515,14 +611,18 @@
       <display value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
+         <value value="Personen mit regelmässigem Kontakt (beruflich / familiär) zu Säuglingen &lt; 6 Monaten, schwangere Frauen "/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
+         <value value="Personnes en contact professionnel ou familial régulier avec des nourrissons &lt; 6 mois, femmes enceintes "/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Personale in contatto professionale o famigliare con dei lattanti di meno di 6 mesi o con donne incinte "/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"/>
       </designation>
       <designation>
@@ -535,14 +635,18 @@
       <display value="REKRUTEN_MILITAER"/>
       <designation>
          <language value="de-CH"/>
-         <value value="REKRUTEN_MILITAER"/>
+         <value value="Rekruten (Militär)"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="REKRUTEN_MILITAER"/>
+         <value value="Recrues (militaires)"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Reclute (militari)"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="REKRUTEN_MILITAER"/>
       </designation>
       <designation>
@@ -555,14 +659,18 @@
       <display value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
       <designation>
          <language value="de-CH"/>
-         <value value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
+         <value value="Sozialarbeiter, Gefängnispersonal und Polizeiangestellte mit häufigem Kontakt zu Konsumenten von injizierbaren Drogen"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
+         <value value="Travailleurs sociaux, personnel des prisons et de la police en contact fréquent avec des consommateurs de drogues injectables"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Lavoratori nel campo socio - educativo o della sicurezza (carceri, polizia) a contatto frequente con dei consumatori di droghe iniettabili"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"/>
       </designation>
       <designation>
@@ -575,14 +683,18 @@
       <display value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
       <designation>
          <language value="de-CH"/>
-         <value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
+         <value value="Tierärzte (inkl. Studenten, Praxisangestellte)"/>
       </designation>
       <designation>
          <language value="fr-CH"/>
-         <value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
+         <value value="Vétérinaires (étudiants : assistants vétérinaires)"/>
       </designation>
       <designation>
          <language value="it-CH"/>
+         <value value="Veterinari (studenti, assistenti veterinari)"/>
+      </designation>
+      <designation>
+         <language value="rm-CH"/>
          <value value="TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"/>
       </designation>
       <designation>
