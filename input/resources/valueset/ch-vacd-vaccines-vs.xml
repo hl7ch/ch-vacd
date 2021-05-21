@@ -16,8 +16,8 @@
       <value value="ch-vacd-vaccines-vs"/>
    </identifier>
    <version value="2021-01-24T00:00:00"/>
-   <name value="SwissVaccinationPlanImmunizations"/>
-   <title value="Swiss Vaccination Plan Immunizations"/>
+   <name value="SwissVaccines"/>
+   <title value="Swiss Vaccines"/>
    <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
