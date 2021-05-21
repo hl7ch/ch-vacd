@@ -17,7 +17,7 @@
    </statusReason>
    <vaccineCode>
       <coding>
-         <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+         <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
          <code value="545"></code>
          <display value="HBVAXPRO 40"></display>
       </coding>
@@ -25,9 +25,16 @@
    <patient>
       <reference value="Patient/3-1-Patient"></reference>
    </patient>
-   <occurrenceDateTime value="2012-02-26T11:45:52+01:00"></occurrenceDateTime>
-   <recorded value="2012-02-26T11:45:52+01:00"></recorded>
-   <lotNumber value="12345"></lotNumber>
+   <occurrenceDateTime value="2012-02-26T10:42:42+01:00"></occurrenceDateTime>
+   <recorded value="2012-02-26T10:42:42+01:00"></recorded>
+   <lotNumber value="12-34244"></lotNumber>
+   <route>
+      <coding>
+         <system value="http://standardterms.edqm.eu"></system>
+         <code value="20035000"></code>
+         <display value="Intramuscular use"></display>
+      </coding>
+   </route>
    <performer>
       <actor>
          <reference value="PractitionerRole/6-3-PractitionerRole"></reference>

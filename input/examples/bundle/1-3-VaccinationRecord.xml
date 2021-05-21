@@ -1,15 +1,15 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-3-VaccinationRecord"></id>
    <meta>
-      <lastUpdated value="2021-05-19T11:45:52.449+02:00"></lastUpdated>
+      <lastUpdated value="2021-06-01T00:00:00.179+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:d7aa073a-7c8f-4f68-b353-db4f8f14d611"></value>
+      <value value="urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-05-19T11:45:52.449+02:00"></timestamp>
+   <timestamp value="2021-06-01T00:00:00.179+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/2-3-VaccinationRecordComposition"></fullUrl>
       <resource>
@@ -28,7 +28,7 @@
             </extension>
             <identifier>
                <system value="urn:ietf:rfc:3986"></system>
-               <value value="urn:uuid:59de8fe2-7681-4e5f-b81f-03b3cd11faa0"></value>
+               <value value="urn:uuid:00ae697d-3635-4c21-af13-4eaa8018c135"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -41,7 +41,7 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <date value="2021-05-19T11:45:52+02:00"></date>
+            <date value="2021-06-01T00:00:00+02:00"></date>
             <author>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </author>
@@ -90,12 +90,12 @@
                </entry>
             </section>
             <section id="medicalproblems">
-               <title value="MedicalProblems"></title>
+               <title value="Other Relevant Observations"></title>
                <code>
                   <coding>
                      <system value="http://loinc.org"></system>
-                     <code value="11450-4"></code>
-                     <display value="Problem list Reported"></display>
+                     <code value="30954-2"></code>
+                     <display value="Relevant diagnostic tests/laboratory data"></display>
                   </coding>
                </code>
                <text>
@@ -144,6 +144,26 @@
                </entry>
                <entry>
                   <reference value="AllergyIntolerance/11-2-AllergyIntolerance"></reference>
+               </entry>
+            </section>
+            <section id="otherRelevantObservations">
+               <title value="Other Relevant Observations"></title>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"></system>
+                     <code value="30954-2"></code>
+                     <display value="Problem list Reported"></display>
+                  </coding>
+               </code>
+               <text>
+                  <status value="generated"></status>
+                  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">This section MAY contain relevant coded results of a patient for the given document context. The section MUST contain at least one Problem entry. In case of no relevant results, one of the 'special case' codes MUST be used. 
+                     <br></br>In the context of immunizations, this section may indicate the gestational age of a child if relevant for immunization of the child. 
+                     <br></br>In the context of lab reports, this section may indicate the gestational age of a child if relevant for the observation interpretation.
+                  </div>
+               </text>
+               <entry>
+                  <reference value="Condition/8-9-Condition"></reference>
                </entry>
             </section>
             <section id="sectionLab1">
@@ -545,7 +565,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                   <code value="637"></code>
                   <display value="Boostrix"></display>
                </coding>
@@ -553,9 +573,16 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T11:45:52+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T11:45:52+02:00"></recorded>
-            <lotNumber value="12345"></lotNumber>
+            <occurrenceDateTime value="2013-09-15T10:42:42+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T10:42:42+02:00"></recorded>
+            <lotNumber value="12-34244"></lotNumber>
+            <route>
+               <coding>
+                  <system value="http://standardterms.edqm.eu"></system>
+                  <code value="20035000"></code>
+                  <display value="Intramuscular use"></display>
+               </coding>
+            </route>
             <performer>
                <actor>
                   <reference value="PractitionerRole/6-2-PractitionerRole"></reference>
@@ -603,7 +630,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                   <code value="637"></code>
                   <display value="Boostrix"></display>
                </coding>
@@ -611,9 +638,16 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T11:45:52+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T11:45:52+02:00"></recorded>
-            <lotNumber value="12345"></lotNumber>
+            <occurrenceDateTime value="2014-08-12T10:42:42+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T10:42:42+02:00"></recorded>
+            <lotNumber value="12-34244"></lotNumber>
+            <route>
+               <coding>
+                  <system value="http://standardterms.edqm.eu"></system>
+                  <code value="20035000"></code>
+                  <display value="Intramuscular use"></display>
+               </coding>
+            </route>
             <performer>
                <actor>
                   <reference value="PractitionerRole/6-2-PractitionerRole"></reference>
@@ -661,7 +695,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                   <code value="637"></code>
                   <display value="Boostrix"></display>
                </coding>
@@ -669,9 +703,16 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T11:45:52+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T11:45:52+01:00"></recorded>
-            <lotNumber value="12345"></lotNumber>
+            <occurrenceDateTime value="2015-11-01T10:42:42+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T10:42:42+01:00"></recorded>
+            <lotNumber value="12-34244"></lotNumber>
+            <route>
+               <coding>
+                  <system value="http://standardterms.edqm.eu"></system>
+                  <code value="20035000"></code>
+                  <display value="Intramuscular use"></display>
+               </coding>
+            </route>
             <performer>
                <actor>
                   <reference value="PractitionerRole/6-2-PractitionerRole"></reference>
@@ -719,7 +760,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                   <code value="268"></code>
                   <display value="MMR-II"></display>
                </coding>
@@ -727,9 +768,16 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T11:45:52+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T11:45:52+01:00"></recorded>
-            <lotNumber value="12345"></lotNumber>
+            <occurrenceDateTime value="2016-03-05T10:42:42+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T10:42:42+01:00"></recorded>
+            <lotNumber value="12-34244"></lotNumber>
+            <route>
+               <coding>
+                  <system value="http://standardterms.edqm.eu"></system>
+                  <code value="20035000"></code>
+                  <display value="Intramuscular use"></display>
+               </coding>
+            </route>
             <performer>
                <actor>
                   <reference value="PractitionerRole/6-3-PractitionerRole"></reference>
@@ -784,7 +832,7 @@
             </statusReason>
             <vaccineCode>
                <coding>
-                  <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                   <code value="545"></code>
                   <display value="HBVAXPRO 40"></display>
                </coding>
@@ -792,9 +840,16 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2012-02-26T11:45:52+01:00"></occurrenceDateTime>
-            <recorded value="2012-02-26T11:45:52+01:00"></recorded>
-            <lotNumber value="12345"></lotNumber>
+            <occurrenceDateTime value="2012-02-26T10:42:42+01:00"></occurrenceDateTime>
+            <recorded value="2012-02-26T10:42:42+01:00"></recorded>
+            <lotNumber value="12-34244"></lotNumber>
+            <route>
+               <coding>
+                  <system value="http://standardterms.edqm.eu"></system>
+                  <code value="20035000"></code>
+                  <display value="Intramuscular use"></display>
+               </coding>
+            </route>
             <performer>
                <actor>
                   <reference value="PractitionerRole/6-3-PractitionerRole"></reference>
@@ -831,7 +886,7 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <recordedDate value="2009-04-19T11:45:52+02:00"></recordedDate>
+            <recordedDate value="2009-04-21T10:42:42+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -856,7 +911,7 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <recordedDate value="2009-04-19T11:45:52+02:00"></recordedDate>
+            <recordedDate value="2009-04-21T10:42:42+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -881,7 +936,7 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <recordedDate value="1966-12-19T11:45:52+01:00"></recordedDate>
+            <recordedDate value="1966-12-21T10:42:42+01:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -912,7 +967,7 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <recordedDate value="2004-07-11T11:45:52+02:00"></recordedDate>
+            <recordedDate value="2004-07-11T10:42:42+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -943,11 +998,40 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <recordedDate value="1996-07-11T11:45:52+02:00"></recordedDate>
+            <recordedDate value="1996-07-11T10:42:42+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
          </AllergyIntolerance>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Condition/8-9-Condition"></fullUrl>
+      <resource>
+         <Condition xmlns="http://hl7.org/fhir">
+            <id value="8-9-Condition"></id>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems"></profile>
+            </meta>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"></system>
+                  <code value="49052-4"></code>
+                  <display value="Gestational age in days"></display>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/3-1-Patient"></reference>
+            </subject>
+            <onsetAge>
+               <value value="266"></value>
+               <unit value="d"></unit>
+            </onsetAge>
+            <recordedDate value="2009-04-21T10:42:42+02:00"></recordedDate>
+            <recorder>
+               <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
+            </recorder>
+         </Condition>
       </resource>
    </entry>
    <entry>
@@ -1011,8 +1095,8 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <onsetDateTime value="2021-11-19T11:45:52+01:00"></onsetDateTime>
-            <recordedDate value="2021-05-19T11:45:52+02:00"></recordedDate>
+            <onsetDateTime value="2021-11-21T10:42:42+01:00"></onsetDateTime>
+            <recordedDate value="2021-06-01T00:00:00+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -1034,11 +1118,11 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <date value="2021-05-19T11:45:52+02:00"></date>
+            <date value="2021-06-01T00:00:00+02:00"></date>
             <recommendation>
                <vaccineCode>
                   <coding>
-                     <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                     <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                      <code value="681"></code>
                      <display value="Boostrix Polio"></display>
                   </coding>
@@ -1083,11 +1167,11 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <date value="2021-05-19T11:45:52+02:00"></date>
+            <date value="2021-06-01T00:00:00+02:00"></date>
             <recommendation>
                <vaccineCode>
                   <coding>
-                     <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                     <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                      <code value="58317"></code>
                      <display value="Fluad"></display>
                   </coding>

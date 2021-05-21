@@ -10,7 +10,7 @@
    <status value="completed"></status>
    <vaccineCode>
       <coding>
-         <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+         <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
          <code value="637"></code>
          <display value="Boostrix"></display>
       </coding>
@@ -18,9 +18,16 @@
    <patient>
       <reference value="Patient/3-1-Patient"></reference>
    </patient>
-   <occurrenceDateTime value="2015-11-01T11:45:52+01:00"></occurrenceDateTime>
-   <recorded value="2015-11-01T11:45:52+01:00"></recorded>
-   <lotNumber value="12345"></lotNumber>
+   <occurrenceDateTime value="2015-11-01T10:42:42+01:00"></occurrenceDateTime>
+   <recorded value="2015-11-01T10:42:42+01:00"></recorded>
+   <lotNumber value="12-34244"></lotNumber>
+   <route>
+      <coding>
+         <system value="http://standardterms.edqm.eu"></system>
+         <code value="20035000"></code>
+         <display value="Intramuscular use"></display>
+      </coding>
+   </route>
    <performer>
       <actor>
          <reference value="PractitionerRole/6-2-PractitionerRole"></reference>

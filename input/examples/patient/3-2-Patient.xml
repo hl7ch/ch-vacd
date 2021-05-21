@@ -10,7 +10,7 @@
             <tbody>
                <tr>
                   <td>Identifier</td>
-                  <td>156f99d7-6a1e-46ae-9eac-81d8a4ffce59</td>
+                  <td>urn:uuid:3e424a80-6e34-4520-b5af-f830ed5a0203</td>
                </tr>
                <tr>
                   <td>Address</td>
@@ -28,7 +28,7 @@
    </text>
    <identifier>
       <system value="urn:oid:2.16.756.5.30.1.147.1.1"></system>
-      <value value="156f99d7-6a1e-46ae-9eac-81d8a4ffce59"></value>
+      <value value="urn:uuid:3e424a80-6e34-4520-b5af-f830ed5a0203"></value>
    </identifier>
    <gender value="female"></gender>
    <birthDate value="1967-03-10"></birthDate>

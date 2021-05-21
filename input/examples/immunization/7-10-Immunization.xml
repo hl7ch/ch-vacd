@@ -10,7 +10,7 @@
    <status value="completed"></status>
    <vaccineCode>
       <coding>
-         <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+         <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
          <code value="268"></code>
          <display value="MMR-II"></display>
       </coding>
@@ -18,8 +18,8 @@
    <patient>
       <reference value="Patient/3-2-Patient"></reference>
    </patient>
-   <occurrenceDateTime value="2016-03-05T11:46:00+01:00"></occurrenceDateTime>
-   <recorded value="2016-03-05T11:46:00+01:00"></recorded>
+   <occurrenceDateTime value="2016-03-05T10:42:49+01:00"></occurrenceDateTime>
+   <recorded value="2016-03-05T10:42:49+01:00"></recorded>
    <lotNumber value="12345"></lotNumber>
    <performer>
       <actor>

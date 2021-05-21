@@ -13,7 +13,7 @@
    <subject>
       <reference value="Patient/3-1-Patient"></reference>
    </subject>
-   <recordedDate value="2009-04-19T11:45:52+02:00"></recordedDate>
+   <recordedDate value="2009-04-21T10:42:42+02:00"></recordedDate>
    <recorder>
       <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
    </recorder>

@@ -10,11 +10,11 @@
    <patient>
       <reference value="Patient/3-1-Patient"></reference>
    </patient>
-   <date value="2021-05-19T11:45:52+02:00"></date>
+   <date value="2021-06-01T00:00:00+02:00"></date>
    <recommendation>
       <vaccineCode>
          <coding>
-            <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+            <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
             <code value="58317"></code>
             <display value="Fluad"></display>
          </coding>

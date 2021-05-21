@@ -1,0 +1,24 @@
+<Condition xmlns="http://hl7.org/fhir">
+   <id value="8-10-Condition"></id>
+   <meta>
+      <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-other-observations"></profile>
+   </meta>
+   <code>
+      <coding>
+         <system value="http://loinc.org"></system>
+         <code value="49052-4"></code>
+         <display value="Gestational age in days"></display>
+      </coding>
+   </code>
+   <subject>
+      <reference value="Patient/3-2-Patient"></reference>
+   </subject>
+   <onsetAge>
+      <value value="266"></value>
+      <unit value="d"></unit>
+   </onsetAge>
+   <recordedDate value="2009-04-21T10:42:49+02:00"></recordedDate>
+   <recorder>
+      <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
+   </recorder>
+</Condition>

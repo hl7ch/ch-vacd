@@ -1,15 +1,15 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-5-ImmunizationRecommendationResponse"></id>
    <meta>
-      <lastUpdated value="2021-05-19T11:46:00.440+02:00"></lastUpdated>
+      <lastUpdated value="2021-06-01T00:00:00.946+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-recommendation-response"></profile>
    </meta>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
-      <value value="urn:uuid:907b5ecd-ae38-403a-9237-10da34cdf1a6"></value>
+      <value value="urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-05-19T11:46:00.440+02:00"></timestamp>
+   <timestamp value="2021-06-01T00:00:00.946+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/2-5-ImmunizationRecommendationResponseComposition"></fullUrl>
       <resource>
@@ -25,7 +25,7 @@
             </text>
             <identifier>
                <system value="urn:ietf:rfc:3986"></system>
-               <value value="urn:uuid:8c048cff-0bc7-4c69-b910-7d89b4b0d49a"></value>
+               <value value="urn:uuid:cc7349c9-52b2-4575-9989-6d723d5548e4"></value>
             </identifier>
             <status value="final"></status>
             <type>
@@ -38,7 +38,7 @@
             <subject>
                <reference value="Patient/3-2-Patient"></reference>
             </subject>
-            <date value="2021-05-19T11:46:00+02:00"></date>
+            <date value="2021-06-01T00:00:00+02:00"></date>
             <author>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </author>
@@ -76,12 +76,12 @@
                </entry>
             </section>
             <section id="medicalproblems">
-               <title value="MedicalProblems"></title>
+               <title value="Other Relevant Observations"></title>
                <code>
                   <coding>
                      <system value="http://loinc.org"></system>
-                     <code value="11450-4"></code>
-                     <display value="Problem list Reported"></display>
+                     <code value="30954-2"></code>
+                     <display value="Relevant diagnostic tests/laboratory data"></display>
                   </coding>
                </code>
                <text>
@@ -130,6 +130,26 @@
                </entry>
                <entry>
                   <reference value="AllergyIntolerance/11-4-AllergyIntolerance"></reference>
+               </entry>
+            </section>
+            <section id="otherRelevantObservations">
+               <title value="Other Relevant Observations"></title>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"></system>
+                     <code value="30954-2"></code>
+                     <display value="Problem list Reported"></display>
+                  </coding>
+               </code>
+               <text>
+                  <status value="generated"></status>
+                  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">This section MAY contain relevant coded results of a patient for the given document context. The section MUST contain at least one Problem entry. In case of no relevant results, one of the 'special case' codes MUST be used. 
+                     <br></br>In the context of immunizations, this section may indicate the gestational age of a child if relevant for immunization of the child. 
+                     <br></br>In the context of lab reports, this section may indicate the gestational age of a child if relevant for the observation interpretation.
+                  </div>
+               </text>
+               <entry>
+                  <reference value="Condition/8-10-Condition"></reference>
                </entry>
             </section>
             <section id="sectionLab1">
@@ -204,7 +224,7 @@
                      <tbody>
                         <tr>
                            <td>Identifier</td>
-                           <td>156f99d7-6a1e-46ae-9eac-81d8a4ffce59</td>
+                           <td>urn:uuid:3e424a80-6e34-4520-b5af-f830ed5a0203</td>
                         </tr>
                         <tr>
                            <td>Address</td>
@@ -222,7 +242,7 @@
             </text>
             <identifier>
                <system value="urn:oid:2.16.756.5.30.1.147.1.1"></system>
-               <value value="156f99d7-6a1e-46ae-9eac-81d8a4ffce59"></value>
+               <value value="urn:uuid:3e424a80-6e34-4520-b5af-f830ed5a0203"></value>
             </identifier>
             <gender value="female"></gender>
             <birthDate value="1967-03-10"></birthDate>
@@ -421,7 +441,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                   <code value="637"></code>
                   <display value="Boostrix"></display>
                </coding>
@@ -429,8 +449,8 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T11:46:00+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T11:46:00+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T10:42:49+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T10:42:49+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -486,7 +506,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                   <code value="637"></code>
                   <display value="Boostrix"></display>
                </coding>
@@ -494,8 +514,8 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T11:46:00+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T11:46:00+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T10:42:49+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T10:42:49+02:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -551,7 +571,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                   <code value="637"></code>
                   <display value="Boostrix"></display>
                </coding>
@@ -559,8 +579,8 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T11:46:00+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T11:46:00+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T10:42:49+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T10:42:49+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -616,7 +636,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                   <code value="268"></code>
                   <display value="MMR-II"></display>
                </coding>
@@ -624,8 +644,8 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T11:46:00+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T11:46:00+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T10:42:49+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T10:42:49+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -681,7 +701,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                   <code value="545"></code>
                   <display value="HBVAXPRO 40"></display>
                </coding>
@@ -689,8 +709,8 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2012-02-26T11:46:00+01:00"></occurrenceDateTime>
-            <recorded value="2012-02-26T11:46:00+01:00"></recorded>
+            <occurrenceDateTime value="2012-02-26T10:42:49+01:00"></occurrenceDateTime>
+            <recorded value="2012-02-26T10:42:49+01:00"></recorded>
             <lotNumber value="12345"></lotNumber>
             <performer>
                <actor>
@@ -735,7 +755,7 @@
             <subject>
                <reference value="Patient/3-2-Patient"></reference>
             </subject>
-            <recordedDate value="2009-04-19T11:46:00+02:00"></recordedDate>
+            <recordedDate value="2009-04-21T10:42:49+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </recorder>
@@ -760,7 +780,7 @@
             <subject>
                <reference value="Patient/3-2-Patient"></reference>
             </subject>
-            <recordedDate value="2009-04-19T11:46:00+02:00"></recordedDate>
+            <recordedDate value="2009-04-21T10:42:49+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </recorder>
@@ -785,7 +805,7 @@
             <subject>
                <reference value="Patient/3-2-Patient"></reference>
             </subject>
-            <recordedDate value="1966-12-19T11:46:00+01:00"></recordedDate>
+            <recordedDate value="1966-12-21T10:42:49+01:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </recorder>
@@ -816,7 +836,7 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <recordedDate value="2004-07-11T11:46:00+02:00"></recordedDate>
+            <recordedDate value="2004-07-11T10:42:49+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </recorder>
@@ -847,11 +867,40 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <recordedDate value="1996-07-11T11:46:00+02:00"></recordedDate>
+            <recordedDate value="1996-07-11T10:42:49+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </recorder>
          </AllergyIntolerance>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="http://test.fhir.ch/r4/Condition/8-10-Condition"></fullUrl>
+      <resource>
+         <Condition xmlns="http://hl7.org/fhir">
+            <id value="8-10-Condition"></id>
+            <meta>
+               <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-other-observations"></profile>
+            </meta>
+            <code>
+               <coding>
+                  <system value="http://loinc.org"></system>
+                  <code value="49052-4"></code>
+                  <display value="Gestational age in days"></display>
+               </coding>
+            </code>
+            <subject>
+               <reference value="Patient/3-2-Patient"></reference>
+            </subject>
+            <onsetAge>
+               <value value="266"></value>
+               <unit value="d"></unit>
+            </onsetAge>
+            <recordedDate value="2009-04-21T10:42:49+02:00"></recordedDate>
+            <recorder>
+               <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
+            </recorder>
+         </Condition>
       </resource>
    </entry>
    <entry>
@@ -915,8 +964,8 @@
             <subject>
                <reference value="Patient/3-2-Patient"></reference>
             </subject>
-            <onsetDateTime value="2021-11-19T11:46:00+01:00"></onsetDateTime>
-            <recordedDate value="2021-05-19T11:46:00+02:00"></recordedDate>
+            <onsetDateTime value="2021-11-21T10:42:49+01:00"></onsetDateTime>
+            <recordedDate value="2021-06-01T00:00:00+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-4-PractitionerRole"></reference>
             </recorder>
@@ -938,11 +987,11 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <date value="2021-05-19T11:46:00+02:00"></date>
+            <date value="2021-06-01T00:00:00+02:00"></date>
             <recommendation>
                <vaccineCode>
                   <coding>
-                     <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                     <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                      <code value="681"></code>
                      <display value="Boostrix Polio"></display>
                   </coding>
@@ -987,11 +1036,11 @@
             <patient>
                <reference value="Patient/3-2-Patient"></reference>
             </patient>
-            <date value="2021-05-19T11:46:00+02:00"></date>
+            <date value="2021-06-01T00:00:00+02:00"></date>
             <recommendation>
                <vaccineCode>
                   <coding>
-                     <system value="http://swissmedic.ch/ns/authorizationnumber/vs"></system>
+                     <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
                      <code value="58317"></code>
                      <display value="Fluad"></display>
                   </coding>
