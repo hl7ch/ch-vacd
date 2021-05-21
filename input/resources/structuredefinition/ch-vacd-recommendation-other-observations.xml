@@ -17,42 +17,33 @@
 	</mapping>
 	<kind value="resource" />
 	<abstract value="false" />
-	<type value="Observation" />
+	<type value="Condition" />
 	<baseDefinition
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-observation" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-condition" />
 	<derivation value="constraint" />
 	<differential>
-		<element id="Observation">
-			<path value="Observation" />
-			<short value="CH VACD Observation" />
+		<element id="Condition">
+			<path value="Condition" />
+			<short value="CH VACD Recommendation Other Relevant Condition" />
 		</element>
-		
-		<element id="Observation.code">
-			<path value="Observation.code" />
-			<short value="Observation code" />
+		<element id="Condition.code">
+			<path value="Condition.code" />
+			<short value="Condition code" />
 			<patternCodeableConcept>
 				<coding>
-					<system value="http://snomed.info/sct" />
-					<code value="55607006" />
-					<display value="Problem" />
+					<system value="http://loinc.org" />
+					<code value="49052-4" />
+					<display
+						value="Gestational age in days" />
 				</coding>
 			</patternCodeableConcept>
-			<mapping>
-				<identity value="cda" />
-				<map value=".code" />
-			</mapping>
 		</element>
-		<element id="Observation.valueCodeableConcept">
-			<path value="Observation.valueCodeableConcept" />
-			<short value="Observation value CodeableConcept" />
+		<element id="Condition.onsetAge">
+			<path value="Condition.onsetAge" />
+			<short value="Condition onset Age" />
+			<comment value="The gestational age, recorded in days. Therefore weeks have to be converted to days and back to weeks by the applications." />
 			<min value="1" />
 			<max value="1" />
-			<binding>
-				<strength value="extensible" />
-				<valueSet
-					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-special-case-problems-vs" />
-			</binding>
 		</element>
-
 	</differential>
 </StructureDefinition>

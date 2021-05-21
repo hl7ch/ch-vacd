@@ -865,14 +865,6 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-
-		<resource>
-			<reference>
-				<reference
-					value="StructureDefinition/ch-vacd-recommendation-observation" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
 		<resource>
 			<reference>
 				<reference
@@ -974,12 +966,6 @@
 			<reference>
 				<reference
 					value="StructureDefinition/ch-vacd-medical-problems" />
-			</reference>
-			<exampleBoolean value="false" />
-		</resource>
-		<resource>
-			<reference>
-				<reference value="StructureDefinition/ch-vacd-observation" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
