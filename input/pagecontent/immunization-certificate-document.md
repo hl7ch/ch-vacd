@@ -1,5 +1,6 @@
 The **Immunization Certificate document** describes the content and format of an Immunization Certificate document 
-containing exclusively the chapter with all known and applied immunizations.
+containing the chapter with all known and applied immunizations, the pastillnesses for immunization the allergies and intolerances.
+This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next tu the Swiss EPR.
 
 The usage of this type of document is to represent the paper document in electronical form to declare all known and applied vaccines to a patient and other relevant informations.
 For documentation and exchange purposes of a new applied vaccine to a patient please refer to the [Immunization Administration document](immunization-administration-document.html)

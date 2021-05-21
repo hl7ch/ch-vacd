@@ -1,5 +1,6 @@
 The **Immunization Administration document** describes the content and format of an Immunization Administration document 
-containing exclusively the chapter with all known and applied immunizations and no further chapters.
+containing exclusively the chapter with all applied immunizations and no further chapters.
+This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next tu the Swiss EPR.
 
 The usage of this document is for administrative purposes to declare or exchange the corresponding data of an application of a vaccine to a patient for immunization reason.
 In difference to this, the [Immunization Certificate](immunization-certificate-document.html) represents the "Certificate" with all the known and applied vaccines and other information.

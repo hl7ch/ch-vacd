@@ -1,6 +1,7 @@
 The **Vaccination Record document** describes the content and format of a vaccination record document 
 containing in minimum the chapter with the known and applied immunizations and may contain all other 
 defined chapters including the medical and exposition risks which are very important for the immunization decisions.
+This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next tu the Swiss EPR.
 
 ### FHIR document (Bundle)
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 

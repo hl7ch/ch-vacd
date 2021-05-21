@@ -7,7 +7,7 @@
    <status value="active"/>
    <experimental value="false"/>
    <publisher value="eHealth Suisse"/>
-   <description value="Definition of the bundle for the vaccination record document."/>
+   <description value="Definition of the bundle for the vaccination record document. This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next tu the Swiss EPR."/>
    <kind value="resource"/>
    <abstract value="false"/>
    <type value="Bundle"/>
