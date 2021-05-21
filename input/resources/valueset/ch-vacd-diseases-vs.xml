@@ -1,638 +1,258 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="ch-vacd-diseases-vs"/>
-   <meta>
-      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-   </meta>
-   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
-      <valuePeriod>
-         <start value="2021-01-24T00:00:00+01:00"/>
-      </valuePeriod>
-   </extension>
-   <url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-diseases-vs"/>
-   <identifier>
-      <use value="official"/>
-      <system value="http://myvaccines.ch/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.147.4.1.4"/>
-   </identifier>
-   <version value="2021-01-24T00:00:00"/>
-   <name value="Disease"/>
-   <title value="Immunization Target Disease Codes"/>
-   <status value="active"/>
-   <experimental value="false"/>
-   <publisher value="eHealth Suisse"/>
-   <contact>
-      <name value="eHealth Suisse"/>
-      <telecom>
-         <system value="url"/>
-         <value value="www.e-health-suisse.ch"/>
-      </telecom>
-   </contact>
-   <description value="All diseases immunizations exists for."/>
-   <immutable value="true"/>
-   <compose>
-      <include>
-         <system value="http://snomed.info/sct"/>
-         <concept>
-            <code value="76668005"/>
-            <display value="Diphtheria"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Diphtherie"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Diphtérie"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Difterite"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Diphtheria"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="127786006"/>
-            <display value="Tetanus"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Tetanus"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Tétanos"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Tetano"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Tetanus"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="39343008"/>
-            <display value="Pertussis"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Pertussis"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Coqueluche"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Pertosse"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Pertussis"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="72093006"/>
-            <display value="Poliomyelitis"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Poliomyelitis"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Poliomyélite"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Poliomielite"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Poliomyelitis"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="127787002"/>
-            <display value="Hib"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Hib"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Hib"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Hib"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Hib"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="243789007"/>
-            <display value="Hepatitis A"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Hepatitis A"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Hépatite A"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Epatite A"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Hepatitis A"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="16584000"/>
-            <display value="Hepatitis B"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Hepatitis B"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Hépatite B"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Epatite B"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Hepatitis B"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="47435007"/>
-            <display value="Measles"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Masern"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Rougeole"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Morbillo"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Measles"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="50583002"/>
-            <display value="Mumps"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Mumps"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Oreillons"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Orecchioni"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Mumps"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="82314000"/>
-            <display value="Rubella"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Röteln"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Rubéole"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Rosolia"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Rubella"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="281658005"/>
-            <display value="Tick-borne encephalitis"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="FSME"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Méningoencéphalite à tiques"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="FSME"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Tick-borne encephalitis"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="41088001"/>
-            <display value="Meningococcus C"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Meningokokken C"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Méningocoques C"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Meningococchi C"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Meningococcus C"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="86198006"/>
-            <display value="Influenza"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Grippe"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Grippe"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Influenza"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Influenza"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="28877009"/>
-            <display value="Cholera"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Cholera"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Choléra"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Colera"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Cholera"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="34631000"/>
-            <display value="Rabies"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Tollwut"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Rage"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Rabbia"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Rabies"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="30338008"/>
-            <display value="Typhus"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Typhus"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Fièvre typhoïde"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Tifo"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Typhus"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="68525005"/>
-            <display value="Varicella"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Windpocken"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Varicelle"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Varicella"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Varicella"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="42284007"/>
-            <display value="Tuberculosis"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Tuberkulose"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Tuberculose"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Tubercolosi"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Tuberculosis"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="67308009"/>
-            <display value="Yellow fever"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Gelbfieber"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Fièvre jaune"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Febbre gialla"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Yellow fever"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="448964007"/>
-            <display value="Pneumococcus (PCV)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Pneumokokken (PCV)"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Pneumocoques (PCV)"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Pneumococchi (PCV)"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Pneumococcus (PCV)"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="135642004"/>
-            <display value="Pneumococcus 23"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Pneumokokken 23"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Pneumocoques 23"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Pneumococchi 23"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Pneumococcus 23"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="390892002"/>
-            <display value="Meningococcus ACWY"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Meningokokken ACWY"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Méningocoques ACWY"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Meningo ACWY"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Meningococcus ACWY"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="428570002"/>
-            <display value="HPV"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="HPV"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="HPV"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="HPV"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="HPV"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="116394005"/>
-            <display value="ETEC"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="ETEC"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="ETEC"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="ETEC"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="ETEC"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="4740000"/>
-            <display value="Herpes zoster"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Zoster"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Zona"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Herpes zoster"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Herpes zoster"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="18624000"/>
-            <display value="Rotavirus"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Rotavirus"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Rotavirus"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Rotavirus"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Rotavirus"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="442696006"/>
-            <display value="Influenza A/H1N1/09"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Influenza A/H1N1/09"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Grippe A/H1N1/09"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Influenza A/H1N1/099"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Influenza A/H1N1/09"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="67924001"/>
-            <display value="Smallpox"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Pocken"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Variole"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Vaiolo"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Smallpox"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="314759000"/>
-            <display value="Japanese encephalitis"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Japanische Enzephalitis"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Encéphalite japonaise"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Encefalite giapponese"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Japanese encephalitis"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="840534001"/>
-            <display value="Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="COVID-19"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="COVID-19"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="COVID-19"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)"/>
-            </designation>
-         </concept>
-      </include>
-   </compose>
+	<id value="ch-vacd-diseases-vs" />
+	<meta>
+		<profile
+			value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+	</meta>
+	<extension
+		url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+		<valuePeriod>
+			<start value="2021-01-24T00:00:00+01:00" />
+		</valuePeriod>
+	</extension>
+	<url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-diseases-vs" />
+	<identifier>
+		<use value="official" />
+		<system value="http://myvaccines.ch/ns/oids/vs" />
+		<value value="2.16.756.5.30.1.147.4.1.4" />
+	</identifier>
+	<version value="2021-01-24T00:00:00" />
+	<name value="Disease" />
+	<title value="Immunization Target Disease Codes" />
+	<status value="active" />
+	<experimental value="false" />
+	<publisher value="eHealth Suisse" />
+	<contact>
+		<name value="eHealth Suisse" />
+		<telecom>
+			<system value="url" />
+			<value value="www.e-health-suisse.ch" />
+		</telecom>
+	</contact>
+	<description value="All diseases immunizations exists for." />
+	<immutable value="true" />
+	<copyright
+		value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org." />
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct" />
+			<concept>
+				<code value="38907003" />
+				<display value="Varicella (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Varicella (disorder)" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Varicella (disorder)" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Varicella (disorder)" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="Varicella (disorder)" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Varicella (disorder)" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="14189004" />
+				<display value="Measles (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Measles (disorder)" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Measles (disorder)" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Measles (disorder)" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="Measles (disorder)" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Measles (disorder)" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="36989005" />
+				<display value="Mumps (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Mumps (disorder)" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Mumps (disorder)" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Mumps (disorder)" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="Mumps (disorder)" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Mumps (disorder)" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="36653000" />
+				<display value="Rubella (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Rubella (disorder)" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Rubella (disorder)" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Rubella (disorder)" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="Rubella (disorder)" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Rubella (disorder)" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="40468003" />
+				<display value="Viral hepatitis, type A (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Viral hepatitis, type A (disorder)" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Viral hepatitis, type A (disorder)" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Viral hepatitis, type A (disorder)" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="Viral hepatitis, type A (disorder)" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Viral hepatitis, type A (disorder)" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="66071002" />
+				<display value="Viral hepatitis type B (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Viral hepatitis type B (disorder)" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Viral hepatitis type B (disorder)" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Viral hepatitis type B (disorder)" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="Viral hepatitis type B (disorder)" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Viral hepatitis type B (disorder)" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="16901001" />
+				<display value="Central European encephalitis (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="FSME (Frühsommer-Meningoenzephalitis)" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Central European encephalitis (disorder)" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Central European encephalitis (disorder)" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="Central European encephalitis (disorder)" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Central European encephalitis (disorder)" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="16541001" />
+				<display value="Yellow fever (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Yellow fever (disorder)" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Yellow fever (disorder)" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Yellow fever (disorder)" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="Yellow fever (disorder)" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Yellow fever (disorder)" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="76902006" />
+				<display value="Tetanus (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Tetanus (disorder)" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Tetanus (disorder)" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Tetanus (disorder)" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="Tetanus (disorder)" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Tetanus (disorder)" />
+				</designation>
+			</concept>
+		</include>
+	</compose>
 </ValueSet>

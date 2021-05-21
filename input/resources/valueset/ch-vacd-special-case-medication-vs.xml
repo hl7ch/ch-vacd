@@ -32,6 +32,8 @@
 		</telecom>
 	</contact>
 	<description value="Special case medication codes." />
+	<copyright
+		value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org." />
 	<compose>
 		<include>
 			<system value="http://snomed.info/sct" />
@@ -49,6 +51,10 @@
 				<designation>
 					<language value="it-CH" />
 					<value value="Drug Treatment Unknown" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="-tbt-" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -71,6 +77,10 @@
 					<value value="No Drug Therapy Prescribed" />
 				</designation>
 				<designation>
+					<language value="rm-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
 					<language value="en-US" />
 					<value value="No Drug Therapy Prescribed" />
 				</designation>
@@ -91,6 +101,10 @@
 					<value value="Patient Not On Self-Medications" />
 				</designation>
 				<designation>
+					<language value="rm-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
 					<language value="en-US" />
 					<value value="Patient Not On Self-Medications" />
 				</designation>
@@ -109,6 +123,10 @@
 				<designation>
 					<language value="it-CH" />
 					<value value="Medication refused, Patient Objective" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="-tbt-" />
 				</designation>
 				<designation>
 					<language value="en-US" />

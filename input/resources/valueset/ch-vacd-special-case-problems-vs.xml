@@ -1,117 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-   <id value="ch-vacd-special-case-problems-vs"/>
-   <meta>
-      <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
-   </meta>
-   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
-      <valuePeriod>
-         <start value="2018-04-19T00:00:00+01:00"/>
-      </valuePeriod>
-   </extension>
-   <url value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-special-case-problems-vs"/>
-   <identifier>
-      <use value="official"/>
-      <system value="http://art-decor.org/ns/oids/vs"/>
-      <value value="2.16.756.5.30.1.1.11.74"/>
-   </identifier>
-   <version value="2018-04-19T00:00:00"/>
-   <name value="SpecialCaseProblems"/>
-   <title value="Special Case Problems"/>
-   <status value="active"/>
-   <experimental value="false"/>
-   <publisher value="eHealth Suisse"/>
-   <contact>
-      <name value="eHealth Suisse"/>
-      <telecom>
-         <system value="url"/>
-         <value value="www.e-health-suisse.ch"/>
-      </telecom>
-   </contact>
-   <description value="Special case problem codes."/>
-   <compose>
-      <include>
-         <system value="http://snomed.info/sct"/>
-         <concept>
-            <code value="160243008"/>
-            <display value="No Significant Medical History"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="No Significant Medical History"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="No Significant Medical History"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="No Significant Medical History"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="No Significant Medical History"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="160245001"/>
-            <display value="No current problems or disability"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="No current problems or disability"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="No current problems or disability"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="No current problems or disability"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="No current problems or disability"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="396782006"/>
-            <display value="History of Past Illness unknown"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="History of Past Illness unknown"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="History of Past Illness unknown"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="History of Past Illness unknown"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="History of Past Illness unknown"/>
-            </designation>
-         </concept>
-         <concept>
-            <code value="407559004"/>
-            <display value="Family History Unknown"/>
-            <designation>
-               <language value="de-CH"/>
-               <value value="Family History Unknown"/>
-            </designation>
-            <designation>
-               <language value="fr-CH"/>
-               <value value="Family History Unknown"/>
-            </designation>
-            <designation>
-               <language value="it-CH"/>
-               <value value="Family History Unknown"/>
-            </designation>
-            <designation>
-               <language value="en-US"/>
-               <value value="Family History Unknown"/>
-            </designation>
-         </concept>
-      </include>
-   </compose>
+	<id value="ch-vacd-special-case-problems-vs" />
+	<meta>
+		<profile
+			value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
+	</meta>
+	<extension
+		url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+		<valuePeriod>
+			<start value="2018-04-19T00:00:00+01:00" />
+		</valuePeriod>
+	</extension>
+	<url
+		value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-special-case-problems-vs" />
+	<identifier>
+		<use value="official" />
+		<system value="http://art-decor.org/ns/oids/vs" />
+		<value value="2.16.756.5.30.1.1.11.74" />
+	</identifier>
+	<version value="2018-04-19T00:00:00" />
+	<name value="SpecialCaseProblems" />
+	<title value="Special Case Problems" />
+	<status value="active" />
+	<experimental value="false" />
+	<publisher value="eHealth Suisse" />
+	<contact>
+		<name value="eHealth Suisse" />
+		<telecom>
+			<system value="url" />
+			<value value="www.e-health-suisse.ch" />
+		</telecom>
+	</contact>
+	<description value="Special case problem codes." />
+	<copyright
+		value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org." />
+	<compose>
+		<include>
+			<system value="http://snomed.info/sct" />
+			<concept>
+				<code value="160243008" />
+				<display value="No Significant Medical History" />
+				<designation>
+					<language value="de-CH" />
+					<value value="No Significant Medical History" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="No Significant Medical History" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="No Significant Medical History" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="No Significant Medical History" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="160245001" />
+				<display value="No current problems or disability" />
+				<designation>
+					<language value="de-CH" />
+					<value value="No current problems or disability" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="No current problems or disability" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="No current problems or disability" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="No current problems or disability" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="396782006" />
+				<display value="History of Past Illness unknown" />
+				<designation>
+					<language value="de-CH" />
+					<value value="History of Past Illness unknown" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="History of Past Illness unknown" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="History of Past Illness unknown" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="History of Past Illness unknown" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="407559004" />
+				<display value="Family History Unknown" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Family History Unknown" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Family History Unknown" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Family History Unknown" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="-tbt-" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Family History Unknown" />
+				</designation>
+			</concept>
+		</include>
+	</compose>
 </ValueSet>

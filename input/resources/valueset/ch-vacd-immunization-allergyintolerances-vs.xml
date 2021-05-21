@@ -19,9 +19,9 @@
 		<value value="2.16.756.5.30.1.1.11.76" />
 	</identifier>
 	<version value="2018-04-19T00:00:00" />
-	<name value="AllergiesForEvacdoc" />
-	<title value="Allergies for eVACDOC" />
-	<status value="active" />
+	<name value="AllergiesAndIntolerancesForImmunization" />
+	<title value="Allergies and Intolerance values for immunization" />
+	<status value="draft" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
 	<contact>
@@ -33,6 +33,9 @@
 	</contact>
 	<description
 		value="The allergies which have an influence on the immunization recommendations." />
+	<immutable value="false" />
+	<copyright
+		value="This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org." />
 	<compose>
 		<include>
 			<system value="http://snomed.info/sct" />
@@ -49,6 +52,10 @@
 				</designation>
 				<designation>
 					<language value="it-CH" />
+					<value value="Allergy to egg protein (finding)" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
 					<value value="Allergy to egg protein (finding)" />
 				</designation>
 				<designation>
@@ -69,6 +76,10 @@
 				</designation>
 				<designation>
 					<language value="it-CH" />
+					<value value="Atopic dermatitis (disorder)" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
 					<value value="Atopic dermatitis (disorder)" />
 				</designation>
 				<designation>
@@ -95,6 +106,10 @@
 					<value value="Allergy to anthrax vaccine" />
 				</designation>
 				<designation>
+					<language value="rm-CH" />
+					<value value="Allergy to anthrax vaccine" />
+				</designation>
+				<designation>
 					<language value="en-US" />
 					<value value="Allergy to anthrax vaccine" />
 				</designation>
@@ -113,6 +128,10 @@
 				</designation>
 				<designation>
 					<language value="it-CH" />
+					<value value="Allergy to pertussis vaccine" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
 					<value value="Allergy to pertussis vaccine" />
 				</designation>
 				<designation>
@@ -137,6 +156,10 @@
 					<value value="Allergy to tetanus vaccine" />
 				</designation>
 				<designation>
+					<language value="rm-CH" />
+					<value value="Allergy to tetanus vaccine" />
+				</designation>
+				<designation>
 					<language value="en-US" />
 					<value value="Allergy to tetanus vaccine" />
 				</designation>
@@ -154,6 +177,10 @@
 				</designation>
 				<designation>
 					<language value="it-CH" />
+					<value value="Allergy to diphtheria vaccine" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
 					<value value="Allergy to diphtheria vaccine" />
 				</designation>
 				<designation>
@@ -181,6 +208,10 @@
 						value="Allergy to Haemophilus influenzae type b vaccine" />
 				</designation>
 				<designation>
+					<language value="rm-CH" />
+					<value value="Allergy to Haemophilus influenzae type b vaccine" />
+				</designation>
+				<designation>
 					<language value="en-US" />
 					<value
 						value="Allergy to Haemophilus influenzae type b vaccine" />
@@ -202,6 +233,10 @@
 					<value value="Allergy to hepatitis A vaccine" />
 				</designation>
 				<designation>
+					<language value="rm-CH" />
+					<value value="Allergy to hepatitis A vaccine" />
+				</designation>
+				<designation>
 					<language value="en-US" />
 					<value value="Allergy to hepatitis A vaccine" />
 				</designation>
@@ -219,6 +254,10 @@
 				</designation>
 				<designation>
 					<language value="it-CH" />
+					<value value="Allergy to hepatitis B vaccine" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
 					<value value="Allergy to hepatitis B vaccine" />
 				</designation>
 				<designation>
@@ -244,6 +283,10 @@
 					<value value="Allergy to polio vaccine" />
 				</designation>
 				<designation>
+					<language value="rm-CH" />
+					<value value="Allergy to polio vaccine" />
+				</designation>
+				<designation>
 					<language value="en-US" />
 					<value value="Allergy to polio vaccine" />
 				</designation>
@@ -263,6 +306,10 @@
 				</designation>
 				<designation>
 					<language value="it-CH" />
+					<value value="Allergy to influenza vaccine" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
 					<value value="Allergy to influenza vaccine" />
 				</designation>
 				<designation>
@@ -288,6 +335,10 @@
 					<value value="Allergy to mumps vaccine" />
 				</designation>
 				<designation>
+					<language value="rm-CH" />
+					<value value="Allergy to mumps vaccine" />
+				</designation>
+				<designation>
 					<language value="en-US" />
 					<value value="Allergy to mumps vaccine" />
 				</designation>
@@ -307,6 +358,10 @@
 				</designation>
 				<designation>
 					<language value="it-CH" />
+					<value value="Allergy to meningococcus vaccine" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
 					<value value="Allergy to meningococcus vaccine" />
 				</designation>
 				<designation>
@@ -332,6 +387,10 @@
 					<value value="Allergy to rabies vaccine" />
 				</designation>
 				<designation>
+					<language value="rm-CH" />
+					<value value="Allergy to rabies vaccine" />
+				</designation>
+				<designation>
 					<language value="en-US" />
 					<value value="Allergy to rabies vaccine" />
 				</designation>
@@ -351,6 +410,10 @@
 				</designation>
 				<designation>
 					<language value="it-CH" />
+					<value value="Allergy to Rotavirus vaccine" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
 					<value value="Allergy to Rotavirus vaccine" />
 				</designation>
 				<designation>
@@ -376,6 +439,10 @@
 					<value value="Allergy to rubella vaccine" />
 				</designation>
 				<designation>
+					<language value="rm-CH" />
+					<value value="Allergy to rubella vaccine" />
+				</designation>
+				<designation>
 					<language value="en-US" />
 					<value value="Allergy to rubella vaccine" />
 				</designation>
@@ -395,6 +462,10 @@
 				</designation>
 				<designation>
 					<language value="it-CH" />
+					<value value="Allergy to typhoid vaccine" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
 					<value value="Allergy to typhoid vaccine" />
 				</designation>
 				<designation>
@@ -420,6 +491,10 @@
 					<value value="Allergy to pneumococcal vaccine" />
 				</designation>
 				<designation>
+					<language value="rm-CH" />
+					<value value="Allergy to pneumococcal vaccine" />
+				</designation>
+				<designation>
 					<language value="en-US" />
 					<value value="Allergy to pneumococcal vaccine" />
 				</designation>
@@ -442,6 +517,10 @@
 					<value value="Allergy to smallpox vaccine" />
 				</designation>
 				<designation>
+					<language value="rm-CH" />
+					<value value="Allergy to smallpox vaccine" />
+				</designation>
+				<designation>
 					<language value="en-US" />
 					<value value="Allergy to smallpox vaccine" />
 				</designation>
@@ -461,6 +540,10 @@
 				</designation>
 				<designation>
 					<language value="it-CH" />
+					<value value="Allergy to diphtheria and tetanus vaccine" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
 					<value value="Allergy to diphtheria and tetanus vaccine" />
 				</designation>
 				<designation>
@@ -487,6 +570,10 @@
 					<language value="it-CH" />
 					<value
 						value="Allergy to measles and mumps and rubella vaccine" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="Allergy to measles and mumps and rubella vaccine" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -516,6 +603,10 @@
 					<language value="it-CH" />
 					<value
 						value="Allergy to SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="Allergy to SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine" />
 				</designation>
 				<designation>
 					<language value="en-US" />
