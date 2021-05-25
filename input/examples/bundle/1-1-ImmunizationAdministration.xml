@@ -1,7 +1,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-1-ImmunizationAdministration"></id>
    <meta>
-      <lastUpdated value="2021-06-01T00:00:00.678+02:00"></lastUpdated>
+      <lastUpdated value="2021-06-01T00:00:00.915+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"></profile>
    </meta>
    <identifier>
@@ -9,7 +9,7 @@
       <value value="urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-06-01T00:00:00.729+02:00"></timestamp>
+   <timestamp value="2021-06-01T00:00:00.928+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/2-1-ImmunizationAdministrationComposition"></fullUrl>
       <resource>
@@ -61,7 +61,7 @@
                <reference value="Organization/5-1-Organization"></reference>
             </custodian>
             <section id="administration">
-               <title value="Liste der verabreichten Impfungen"></title>
+               <title value="Immunization Administration"></title>
                <code>
                   <coding>
                      <system value="http://loinc.org"></system>
@@ -78,7 +78,7 @@
                </entry>
             </section>
             <section id="annotation">
-               <title value="Kommentar"></title>
+               <title value="Comments"></title>
                <code>
                   <coding>
                      <system value="http://loinc.org"></system>
@@ -294,8 +294,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2017-09-15T15:57:52+02:00"></occurrenceDateTime>
-            <recorded value="2017-09-15T15:57:52+02:00"></recorded>
+            <occurrenceDateTime value="2017-09-15T18:41:55+02:00"></occurrenceDateTime>
+            <recorded value="2017-09-15T18:41:55+02:00"></recorded>
             <lotNumber value="12-34244"></lotNumber>
             <route>
                <coding>

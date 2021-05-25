@@ -32,7 +32,7 @@
       <reference value="Organization/5-4-Organization"></reference>
    </custodian>
    <section id="administration">
-      <title value="Liste der verabreichten Impfungen"></title>
+      <title value="Immunization Administration"></title>
       <code>
          <coding>
             <system value="http://loinc.org"></system>

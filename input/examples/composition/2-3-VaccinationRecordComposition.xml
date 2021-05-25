@@ -46,7 +46,7 @@
       <reference value="Organization/5-1-Organization"></reference>
    </custodian>
    <section id="administration">
-      <title value="Liste der verabreichten Impfungen"></title>
+      <title value="Immunization Administration"></title>
       <code>
          <coding>
             <system value="http://loinc.org"></system>
@@ -186,7 +186,7 @@
       </entry>
    </section>
    <section id="sectionImmunizationRecomendations1">
-      <title value="Impf Empfehlungen"></title>
+      <title value="Vaccination Recommendations"></title>
       <code>
          <coding>
             <system value="http://loinc.org"></system>
@@ -206,7 +206,7 @@
       </entry>
    </section>
    <section id="annotation">
-      <title value="Kommentar"></title>
+      <title value="Comments"></title>
       <code>
          <coding>
             <system value="http://loinc.org"></system>
