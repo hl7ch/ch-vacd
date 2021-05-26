@@ -46,5 +46,12 @@
 					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdeseasesandillnessesundergoneforimmunization-vs" />
 			</binding>
 		</element>
+		<element id="Condition.onsetDateTime">
+			<path value="Condition.onsetDateTime" />
+			<short value="Condition onset DateTime" />
+			<comment value="The estimated date for delivery" />
+			<min value="1" />
+			<max value="1" />
+		</element>
 	</differential>
 </StructureDefinition>

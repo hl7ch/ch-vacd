@@ -1,7 +1,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-2-ImmunizationCertificate"></id>
    <meta>
-      <lastUpdated value="2021-06-01T00:00:00.345+02:00"></lastUpdated>
+      <lastUpdated value="2021-06-01T00:00:00.542+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate"></profile>
    </meta>
    <identifier>
@@ -9,7 +9,7 @@
       <value value="urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-06-01T00:00:00.345+02:00"></timestamp>
+   <timestamp value="2021-06-01T00:00:00.542+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/2-2-ImmunizationCertificateComposition"></fullUrl>
       <resource>
@@ -479,8 +479,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2013-09-15T18:41:58+02:00"></occurrenceDateTime>
-            <recorded value="2013-09-15T18:41:58+02:00"></recorded>
+            <occurrenceDateTime value="2013-09-15T00:00:00+02:00"></occurrenceDateTime>
+            <recorded value="2013-09-15T00:00:00+02:00"></recorded>
             <lotNumber value="12-34244"></lotNumber>
             <route>
                <coding>
@@ -544,8 +544,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2014-08-12T18:41:58+02:00"></occurrenceDateTime>
-            <recorded value="2014-08-12T18:41:58+02:00"></recorded>
+            <occurrenceDateTime value="2014-08-12T00:00:00+02:00"></occurrenceDateTime>
+            <recorded value="2014-08-12T00:00:00+02:00"></recorded>
             <lotNumber value="12-34244"></lotNumber>
             <route>
                <coding>
@@ -609,8 +609,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2015-11-01T18:41:58+01:00"></occurrenceDateTime>
-            <recorded value="2015-11-01T18:41:58+01:00"></recorded>
+            <occurrenceDateTime value="2015-11-01T00:00:00+01:00"></occurrenceDateTime>
+            <recorded value="2015-11-01T00:00:00+01:00"></recorded>
             <lotNumber value="12-34244"></lotNumber>
             <route>
                <coding>
@@ -674,8 +674,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2016-03-05T18:41:58+01:00"></occurrenceDateTime>
-            <recorded value="2016-03-05T18:41:58+01:00"></recorded>
+            <occurrenceDateTime value="2016-03-05T00:00:00+01:00"></occurrenceDateTime>
+            <recorded value="2016-03-05T00:00:00+01:00"></recorded>
             <lotNumber value="12-34244"></lotNumber>
             <route>
                <coding>
@@ -746,8 +746,8 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <occurrenceDateTime value="2012-02-26T18:41:58+01:00"></occurrenceDateTime>
-            <recorded value="2012-02-26T18:41:58+01:00"></recorded>
+            <occurrenceDateTime value="2012-02-26T00:00:00+01:00"></occurrenceDateTime>
+            <recorded value="2012-02-26T00:00:00+01:00"></recorded>
             <lotNumber value="12-34244"></lotNumber>
             <route>
                <coding>
@@ -792,7 +792,8 @@
             <subject>
                <reference value="Patient/3-1-Patient"></reference>
             </subject>
-            <recordedDate value="1966-12-25T18:41:58+01:00"></recordedDate>
+            <onsetDateTime value="1966-11-30T00:00:00+01:00"></onsetDateTime>
+            <recordedDate value="1999-04-01T00:00:00+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -823,7 +824,7 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <recordedDate value="2004-07-11T18:41:58+02:00"></recordedDate>
+            <recordedDate value="2004-07-11T00:00:00+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
@@ -854,7 +855,7 @@
             <patient>
                <reference value="Patient/3-1-Patient"></reference>
             </patient>
-            <recordedDate value="1996-07-11T18:41:58+02:00"></recordedDate>
+            <recordedDate value="1996-07-11T00:00:00+02:00"></recordedDate>
             <recorder>
                <reference value="PractitionerRole/6-1-PractitionerRole"></reference>
             </recorder>
