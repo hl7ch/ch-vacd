@@ -39,7 +39,7 @@
 			<system value="http://snomed.info/sct" />
 			<concept>
 				<code value="182904002" />
-				<display value="Drug Treatment Unknown" />
+				<display value="Drug treatment unknown (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Drug Treatment Unknown" />
@@ -63,7 +63,7 @@
 			</concept>
 			<concept>
 				<code value="182849000" />
-				<display value="No Drug Therapy Prescribed" />
+				<display value="No drug therapy prescribed (situation)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="No Drug Therapy Prescribed" />
@@ -87,7 +87,7 @@
 			</concept>
 			<concept>
 				<code value="408350003" />
-				<display value="Patient Not On Self-Medications" />
+				<display value="Patient not on self-medication (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Patient Not On Self-Medications" />
@@ -111,7 +111,7 @@
 			</concept>
 			<concept>
 				<code value="406149000" />
-				<display value="Medication refused, Patient Objective" />
+				<display value="Medication refused (situation)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Medication refused, Patient Objective" />

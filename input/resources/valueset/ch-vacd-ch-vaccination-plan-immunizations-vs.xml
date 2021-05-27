@@ -38,7 +38,7 @@
 			<system value="http://snomed.info/sct" />
 			<concept>
 				<code value="42284007" />
-				<display value="BCG vaccination" />
+				<display value="Administration of vaccine product containing only live attenuated Mycobacterium bovis antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="BCG vaccination" />
@@ -62,7 +62,7 @@
 			</concept>
 			<concept>
 				<code value="76668005" />
-				<display value="Diphtheria vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Corynebacterium diphtheriae antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Diphtheria vaccination (procedure)" />
@@ -87,7 +87,7 @@
 			<concept>
 				<code value="127787002" />
 				<display
-					value="Haemophilus influenzae type b vaccination (procedure)" />
+					value="Administration of vaccine product containing only Haemophilus influenzae type B antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value
@@ -115,7 +115,7 @@
 			</concept>
 			<concept>
 				<code value="243789007" />
-				<display value="Hepatitis A immunization (procedure)" />
+				<display value="Administration of vaccine product containing only Hepatitis A virus antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Hepatitis A immunization (procedure)" />
@@ -139,7 +139,7 @@
 			</concept>
 			<concept>
 				<code value="16584000" />
-				<display value="Hepatitis B vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Hepatitis B virus antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Hepatitis B vaccination (procedure)" />
@@ -163,7 +163,7 @@
 			</concept>
 			<concept>
 				<code value="86198006" />
-				<display value="Influenza vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Influenza virus antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Influenza vaccination (procedure)" />
@@ -188,7 +188,7 @@
 			<concept>
 				<code value="314759000" />
 				<display
-					value="Japanese encephalitis vaccination (procedure)" />
+					value="Administration of vaccine product containing only Japanese encephalitis virus antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Japanese encephalitis vaccination (procedure)" />
@@ -212,7 +212,7 @@
 			</concept>
 			<concept>
 				<code value="47435007" />
-				<display value="Measles vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Measles morbillivirus antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Measles vaccination (procedure)" />
@@ -236,7 +236,7 @@
 			</concept>
 			<concept>
 				<code value="41088001" />
-				<display value="Meningococcus vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Neisseria meningitidis antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Meningococcus vaccination (procedure)" />
@@ -260,7 +260,7 @@
 			</concept>
 			<concept>
 				<code value="50583002" />
-				<display value="Mumps vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Mumps orthorubulavirus antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Mumps vaccination (procedure)" />
@@ -283,9 +283,9 @@
 				</designation>
 			</concept>
 			<concept>
-				<code value="428570002" />
+				<code value="761841000" />
 				<display
-					value="Vaccination for human papillomavirus (procedure)" />
+					value="Administration of vaccine product containing only Human papillomavirus antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value
@@ -313,7 +313,7 @@
 			</concept>
 			<concept>
 				<code value="39343008" />
-				<display value="Pertussis vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Bordetella pertussis antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Pertussis vaccination (procedure)" />
@@ -337,7 +337,7 @@
 			</concept>
 			<concept>
 				<code value="12866006" />
-				<display value="Pneumococcal vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Streptococcus pneumoniae antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Pneumococcal vaccination (procedure)" />
@@ -361,7 +361,7 @@
 			</concept>
 			<concept>
 				<code value="72093006" />
-				<display value="Poliomyelitis vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Human poliovirus antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Poliomyelitis vaccination (procedure)" />
@@ -385,7 +385,7 @@
 			</concept>
 			<concept>
 				<code value="34631000" />
-				<display value="Rabies vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Rabies lyssavirus antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Rabies vaccination (procedure)" />
@@ -409,7 +409,7 @@
 			</concept>
 			<concept>
 				<code value="82314000" />
-				<display value="Rubella vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Rubella virus antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Rubella vaccination (procedure)" />
@@ -433,7 +433,7 @@
 			</concept>
 			<concept>
 				<code value="127786006" />
-				<display value="Tetanus vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Clostridium tetani antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Tetanus vaccination (procedure)" />
@@ -458,7 +458,7 @@
 			<concept>
 				<code value="281658005" />
 				<display
-					value="Tick-borne encephalitis vaccination (procedure)" />
+					value="Administration of vaccine product containing only Tick-borne encephalitis virus antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value
@@ -486,7 +486,7 @@
 			</concept>
 			<concept>
 				<code value="15483003" />
-				<display value="Typhoid vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Typhoid vaccination (procedure)" />
@@ -509,8 +509,8 @@
 				</designation>
 			</concept>
 			<concept>
-				<code value="68525005" />
-				<display value="Varicella vaccination (procedure)" />
+				<code value="767634004" />
+				<display value="Administration of vaccine product containing only Human alphaherpesvirus 3 antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Varicella vaccination (procedure)" />
@@ -534,7 +534,7 @@
 			</concept>
 			<concept>
 				<code value="67308009" />
-				<display value="Yellow fever vaccination (procedure)" />
+				<display value="Administration of vaccine product containing only Yellow fever virus antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Yellow fever vaccination (procedure)" />
@@ -559,7 +559,7 @@
 			<concept>
 				<code value="840534001" />
 				<display
-					value="Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)" />
+					value="Administration of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 antigen (procedure)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="COVID-19" />

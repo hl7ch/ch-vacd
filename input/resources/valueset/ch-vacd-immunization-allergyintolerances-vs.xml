@@ -92,7 +92,7 @@
 			<system value="http://snomed.info/sct" />
 			<concept>
 				<code value="294641002" />
-				<display value="Allergy to anthrax vaccine" />
+				<display value="Allergy to component of vaccine product containing Bacillus anthracis antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to anthrax vaccine" />
@@ -117,7 +117,7 @@
 
 			<concept>
 				<code value="294651001" />
-				<display value="Allergy to pertussis vaccine" />
+				<display value="Allergy to component of vaccine product containing Bordetella pertussis antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to pertussis vaccine" />
@@ -142,7 +142,7 @@
 
 			<concept>
 				<code value="294658007" />
-				<display value="Allergy to tetanus vaccine" />
+				<display value="Allergy to component of vaccine product containing Clostridium tetani antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to tetanus vaccine" />
@@ -166,7 +166,7 @@
 			</concept>
 			<concept>
 				<code value="294642009" />
-				<display value="Allergy to diphtheria vaccine" />
+				<display value="Allergy to component of vaccine product containing Corynebacterium diphtheriae antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to diphtheria vaccine" />
@@ -191,7 +191,7 @@
 			<concept>
 				<code value="294664000" />
 				<display
-					value="Allergy to Haemophilus influenzae type b vaccine" />
+					value="Allergy to component of vaccine product containing Haemophilus influenzae type B antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value
@@ -219,7 +219,7 @@
 			</concept>
 			<concept>
 				<code value="294663006" />
-				<display value="Allergy to hepatitis A vaccine" />
+				<display value="Allergy to component of vaccine product containing Hepatitis A virus antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to hepatitis A vaccine" />
@@ -243,7 +243,7 @@
 			</concept>
 			<concept>
 				<code value="294646007" />
-				<display value="Allergy to hepatitis B vaccine" />
+				<display value="Allergy to component of vaccine product containing Hepatitis B virus antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to hepatitis B vaccine" />
@@ -269,7 +269,7 @@
 
 			<concept>
 				<code value="294654009" />
-				<display value="Allergy to polio vaccine" />
+				<display value="Allergy to component of vaccine product containing Human poliovirus antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to polio vaccine" />
@@ -295,7 +295,7 @@
 
 			<concept>
 				<code value="294647003" />
-				<display value="Allergy to influenza vaccine" />
+				<display value="Allergy to component of vaccine product containing Influenza virus antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to influenza vaccine" />
@@ -321,7 +321,7 @@
 
 			<concept>
 				<code value="294650000" />
-				<display value="Allergy to mumps vaccine" />
+				<display value="Allergy to component of vaccine product containing Mumps orthorubulavirus antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to mumps vaccine" />
@@ -347,7 +347,7 @@
 
 			<concept>
 				<code value="860695004" />
-				<display value="Allergy to meningococcus vaccine" />
+				<display value="Allergy to component of vaccine product containing Neisseria meningitidis antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to meningococcus vaccine" />
@@ -373,7 +373,7 @@
 
 			<concept>
 				<code value="294655005" />
-				<display value="Allergy to rabies vaccine" />
+				<display value="Allergy to component of vaccine product containing Rabies lyssavirus antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to rabies vaccine" />
@@ -399,7 +399,7 @@
 
 			<concept>
 				<code value="700468006" />
-				<display value="Allergy to Rotavirus vaccine" />
+				<display value="Allergy to component of vaccine product containing Rotavirus antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to Rotavirus vaccine" />
@@ -425,7 +425,7 @@
 
 			<concept>
 				<code value="294656006" />
-				<display value="Allergy to rubella vaccine" />
+				<display value="Allergy to component of vaccine product containing Rubella virus antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to rubella vaccine" />
@@ -451,7 +451,7 @@
 
 			<concept>
 				<code value="294659004" />
-				<display value="Allergy to typhoid vaccine" />
+				<display value="Allergy to component of vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to typhoid vaccine" />
@@ -477,7 +477,7 @@
 
 			<concept>
 				<code value="294652008" />
-				<display value="Allergy to pneumococcal vaccine" />
+				<display value="Allergy to component of vaccine product containing Streptococcus pneumoniae antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to pneumococcal vaccine" />
@@ -503,7 +503,7 @@
 
 			<concept>
 				<code value="294657002" />
-				<display value="Allergy to smallpox vaccine" />
+				<display value="Allergy to component of vaccine product containing Vaccinia virus antigen (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to smallpox vaccine" />
@@ -529,7 +529,7 @@
 
 			<concept>
 				<code value="294644005" />
-				<display value="Allergy to diphtheria and tetanus vaccine" />
+				<display value="Allergy to component of vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value value="Allergy to diphtheria and tetanus vaccine" />
@@ -555,7 +555,7 @@
 			<concept>
 				<code value="294662001" />
 				<display
-					value="Allergy to measles and mumps and rubella vaccine" />
+					value="Allergy to component of vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value
@@ -586,9 +586,9 @@
 		<include>
 			<system value="http://snomed.info/sct" />
 			<concept>
-				<code value="1324711000000102" />
+				<code value="1145003007" />
 				<display
-					value="Allergy to SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine" />
+					value="Hypersensitivity to vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (finding)" />
 				<designation>
 					<language value="de-CH" />
 					<value

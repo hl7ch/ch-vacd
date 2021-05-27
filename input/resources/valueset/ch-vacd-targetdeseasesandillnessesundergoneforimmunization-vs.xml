@@ -19,8 +19,8 @@
 		<value value="2.16.756.5.30.1.1.11.75" />
 	</identifier>
 	<version value="2018-04-19T00:00:00" />
-	<name value="TargetDeseasesAndIllnessesUndergoneForImmunization" />
-	<title value="target deseases and illnesses undergone for immunization" />
+	<name value="TargetDiseasesAndIllnessesUndergoneForImmunization" />
+	<title value="Target disease and illnesses undergone for immunization" />
 	<status value="active" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
@@ -556,6 +556,31 @@
 				<designation>
 					<language value="en-US" />
 					<value value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
+				</designation>
+			</concept>
+			
+			<concept>
+				<code value="840539006" />
+				<display value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
 				</designation>
 			</concept>
 		</include>
