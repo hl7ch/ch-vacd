@@ -177,6 +177,13 @@
 				<rules value="open" />
 			</slicing>
 		</element>
+		<element id="Composition.section:originalRepresentation">
+			<path value="Composition.section" />
+			<sliceName value="originalRepresentation" />
+			<short
+				value="Contains the original representation as a PDF of the current document." />
+			<min value="1" />
+		</element>
 
 		<!-- ************************************************************************** -->
 		<!-- Section Card (Immunization) -->
@@ -291,7 +298,7 @@
 			<min value="0" />
 			<max value="0" />
 		</element>
-		
+
 		<!-- ************************************************************************** -->
 		<!-- Section Card (Past Illnesses for Immunization) -->
 		<!-- ************************************************************************** -->
@@ -506,7 +513,8 @@
 					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances" />
 			</type>
 		</element>
-		<element id="Composition.section.entry:allergyintolerences.reference">
+		<element
+			id="Composition.section.entry:allergyintolerences.reference">
 			<path value="Composition.section.entry.reference" />
 			<min value="1" />
 			<max value="1" />
@@ -516,8 +524,8 @@
 			<min value="0" />
 			<max value="0" />
 		</element>
-		
-		
+
+
 		<!-- ************************************************************************** -->
 		<!-- Section Card (Annotation) -->
 		<!-- ************************************************************************** -->
