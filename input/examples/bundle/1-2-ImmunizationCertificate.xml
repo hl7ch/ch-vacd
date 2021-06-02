@@ -1,7 +1,7 @@
 <Bundle xmlns="http://hl7.org/fhir">
    <id value="1-2-ImmunizationCertificate"></id>
    <meta>
-      <lastUpdated value="2021-06-01T00:00:00.263+02:00"></lastUpdated>
+      <lastUpdated value="2021-06-01T00:00:00.963+02:00"></lastUpdated>
       <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-certificate"></profile>
    </meta>
    <identifier>
@@ -9,7 +9,7 @@
       <value value="urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"></value>
    </identifier>
    <type value="document"></type>
-   <timestamp value="2021-06-01T00:00:00.263+02:00"></timestamp>
+   <timestamp value="2021-06-01T00:00:00.963+02:00"></timestamp>
    <entry>
       <fullUrl value="http://test.fhir.ch/r4/Composition/2-2-ImmunizationCertificateComposition"></fullUrl>
       <resource>

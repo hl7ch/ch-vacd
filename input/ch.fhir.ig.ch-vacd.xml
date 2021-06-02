@@ -772,6 +772,17 @@
 			<exampleCanonical
 				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-address" />
 		</resource>
+		
+		<resource>
+			<reference>
+				<reference value="Binary/originalRepresentation1" />
+			</reference>
+			<name value="13.1 Binary Original Representation (Immunization Certificate)" />
+			<description
+				value="Example Binary for original represenation in section immunization servificate." />
+			<exampleCanonical
+				value="http://hl7.org/fhir/StructureDefinition/Binary" />
+		</resource>
 
 
 		<!-- **************************************************** -->

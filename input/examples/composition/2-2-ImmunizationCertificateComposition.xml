@@ -45,6 +45,23 @@
    <custodian>
       <reference value="Organization/5-1-Organization"></reference>
    </custodian>
+   <section id="originalRepresentation">
+      <title value="Original representation"></title>
+      <code>
+         <coding>
+            <system value="http://loinc.org"></system>
+            <code value="55108-5"></code>
+            <display value="Clinical presentation"></display>
+         </coding>
+      </code>
+      <text>
+         <status value="generated"></status>
+         <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">Representation of the original view.</div>
+      </text>
+      <entry>
+         <reference value="Binary/originalRepresentation1"></reference>
+      </entry>
+   </section>
    <section id="administration">
       <title value="Immunization Administration"></title>
       <code>
