@@ -79,7 +79,7 @@
 					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs" />
 			</binding>
 		</element>
-		
+
 		<element id="Immunization.vaccineCode:atcClass">
 			<path value="Immunization.vaccineCode" />
 			<sliceName value="atcClass" />
@@ -118,7 +118,7 @@
 					value="http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-immunizations-uv-ips" />
 			</binding>
 		</element>
-		
+
 		<!-- <element id="Immunization.vaccineCode"> <path value="Immunization.vaccineCode" 
 			/> <short value="Immunization Vaccine Code" /> <binding> <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"> 
 			<valueString value="VaccineCode" /> </extension> <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"> 
@@ -144,6 +144,15 @@
 				<targetProfile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-encounter" />
 			</type>
+		</element>
+		<element id="Immunization.route">
+			<path value="Immunization.route" />
+			<short value="How vaccine entered body." />
+			<binding>
+				<strength value="extensible" />
+				<valueSet
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-route-of-administration-vs" />
+			</binding>
 		</element>
 		<element id="Immunization.performer.actor">
 			<path value="Immunization.performer.actor" />

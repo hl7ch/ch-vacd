@@ -395,6 +395,7 @@
 	</target>
 
 	<target name="dist" depends="init">
+		<!--
 		<copy todir="../input/resources/valueset">
 			<fileset dir="output">
 				<include name="*-vs.xml" />
@@ -405,6 +406,7 @@
 				<include name="*-cs.xml" />
 			</fileset>
 		</copy>
+		-->
 	</target>
 
 </project>

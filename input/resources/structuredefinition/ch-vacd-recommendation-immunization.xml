@@ -141,6 +141,15 @@
 			<short value="Encounter" />
 			<max value="0" />
 		</element>
+		<element id="Immunization.route">
+			<path value="Immunization.route" />
+			<short value="How vaccine entered body." />
+			<binding>
+				<strength value="extensible" />
+				<valueSet
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-route-of-administration-vs" />
+			</binding>
+		</element>
 		<element id="Immunization.performer.actor">
 			<path value="Immunization.performer.actor" />
 			<short value="The performer who applied the vaccine" />
