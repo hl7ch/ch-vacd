@@ -874,9 +874,10 @@
                <reference value="Patient/3-2-Patient"></reference>
             </subject>
             <onsetAge>
-               <value value="266"></value>
-               <system value="UCUM"></system>
-               <code value="d"></code>
+              <value value="266" />
+              <unit value="day" />
+              <system value="http://unitsofmeasure.org" />
+              <code value="d" />
             </onsetAge>
             <recordedDate value="2009-03-31T00:00:00+02:00"></recordedDate>
             <recorder>
