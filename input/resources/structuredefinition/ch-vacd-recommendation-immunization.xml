@@ -222,7 +222,7 @@
 				<strength value="extensible" />
 				<description value="The code for disease." />
 				<valueSet
-					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdeseasesandillnessesundergoneforimmunization-vs" />
+					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs" />
 			</binding>
 		</element>
 	</differential>

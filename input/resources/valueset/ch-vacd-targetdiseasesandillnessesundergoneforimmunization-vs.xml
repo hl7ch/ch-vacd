@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-targetdeseasesandillnessesundergoneforimmunization-vs" />
+	<id
+		value="ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs" />
 	<meta>
 		<profile
 			value="http://hl7.org/fhir/StructureDefinition/shareablevalueset" />
@@ -12,7 +13,7 @@
 		</valuePeriod>
 	</extension>
 	<url
-		value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdeseasesandillnessesundergoneforimmunization-vs" />
+		value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs" />
 	<identifier>
 		<use value="official" />
 		<system value="http://art-decor.org/ns/oids/vs" />
@@ -20,7 +21,8 @@
 	</identifier>
 	<version value="2018-04-19T00:00:00" />
 	<name value="TargetDiseasesAndIllnessesUndergoneForImmunization" />
-	<title value="Target disease and illnesses undergone for immunization" />
+	<title
+		value="Target disease and illnesses undergone for immunization" />
 	<status value="active" />
 	<experimental value="false" />
 	<publisher value="eHealth Suisse" />
@@ -254,8 +256,8 @@
 					<value value="Tetanus (disorder)" />
 				</designation>
 			</concept>
-			
-			
+
+
 			<concept>
 				<code value="63650001" />
 				<display value="Cholera (disorder)" />
@@ -280,7 +282,7 @@
 					<value value="Cholera (disorder)" />
 				</designation>
 			</concept>
-			
+
 			<concept>
 				<code value="27836007" />
 				<display value="Pertussis (disorder)" />
@@ -305,58 +307,70 @@
 					<value value="Pertussis (disorder)" />
 				</designation>
 			</concept>
-			
-			
+
+
 			<concept>
 				<code value="127341000119105" />
-				<display value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
+				<display
+					value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
+					<value
+						value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
+					<value
+						value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
+					<value
+						value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
+					<value
+						value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
+					<value
+						value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
 				</designation>
 			</concept>
-			
+
 			<concept>
 				<code value="127261000119100" />
-				<display value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
+				<display
+					value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
+					<value
+						value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
+					<value
+						value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
+					<value
+						value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
+					<value
+						value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
+					<value
+						value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
 				</designation>
 			</concept>
-			
+
 			<concept>
 				<code value="398102009" />
 				<display value="Acute poliomyelitis (disorder)" />
@@ -381,9 +395,9 @@
 					<value value="Acute poliomyelitis (disorder)" />
 				</designation>
 			</concept>
-			
-			
-			
+
+
+
 			<concept>
 				<code value="18624000" />
 				<display value="Disease caused by Rotavirus (disorder)" />
@@ -408,7 +422,7 @@
 					<value value="Disease caused by Rotavirus (disorder)" />
 				</designation>
 			</concept>
-			
+
 			<concept>
 				<code value="14168008" />
 				<display value="Rabies (disorder)" />
@@ -433,7 +447,7 @@
 					<value value="Rabies (disorder)" />
 				</designation>
 			</concept>
-			
+
 			<concept>
 				<code value="56717001" />
 				<display value="Tuberculosis (disorder)" />
@@ -458,7 +472,7 @@
 					<value value="Tuberculosis (disorder)" />
 				</designation>
 			</concept>
-			
+
 			<concept>
 				<code value="4834000" />
 				<display value="Typhoid fever (disorder)" />
@@ -483,106 +497,101 @@
 					<value value="Typhoid fever (disorder)" />
 				</designation>
 			</concept>
-			<concept>
-				<code value="840539006" />
-				<display value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
-				<designation>
-					<language value="de-CH" />
-					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
-				</designation>
-				<designation>
-					<language value="fr-CH" />
-					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
-				</designation>
-				<designation>
-					<language value="it-CH" />
-					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
-				</designation>
-				<designation>
-					<language value="rm-CH" />
-					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
-				</designation>
-				<designation>
-					<language value="en-US" />
-					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
-				</designation>
-			</concept>
-			
-			
+
+
 			<concept>
 				<code value="709410003" />
-				<display value="Haemophilus influenzae type B infection (disorder)" />
+				<display
+					value="Haemophilus influenzae type B infection (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Haemophilus influenzae type B infection (disorder)" />
+					<value
+						value="Haemophilus influenzae type B infection (disorder)" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Haemophilus influenzae type B infection (disorder)" />
+					<value
+						value="Haemophilus influenzae type B infection (disorder)" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Haemophilus influenzae type B infection (disorder)" />
+					<value
+						value="Haemophilus influenzae type B infection (disorder)" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Haemophilus influenzae type B infection (disorder)" />
+					<value
+						value="Haemophilus influenzae type B infection (disorder)" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Haemophilus influenzae type B infection (disorder)" />
+					<value
+						value="Haemophilus influenzae type B infection (disorder)" />
 				</designation>
 			</concept>
-			
+
 			<concept>
 				<code value="397430003" />
-				<display value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
+				<display
+					value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
+					<value
+						value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
+					<value
+						value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
+					<value
+						value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
+					<value
+						value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
+					<value
+						value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
 				</designation>
 			</concept>
-			
+
 			<concept>
 				<code value="840539006" />
-				<display value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+				<display
+					value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+					<value
+						value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+					<value
+						value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+					<value
+						value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+					<value
+						value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+					<value
+						value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
 				</designation>
 			</concept>
+
 		</include>
 	</compose>
 </ValueSet>

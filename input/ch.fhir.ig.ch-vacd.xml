@@ -1062,7 +1062,7 @@
 
 		<resource>
 			<reference>
-				<reference value="ValueSet/ch-vacd-targetdeseasesandillnessesundergoneforimmunization-vs" />
+				<reference value="ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
