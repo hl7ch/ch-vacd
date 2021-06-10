@@ -1,5 +1,6 @@
 <div markdown="1" class="stu-note">
-This implementation guide is under informative ballot by [eHealth Suisse](https://www.e-health-suisse.ch) until March 15th, 2021 midnight. Please add your feedback via the 'Propose a change'-link in the footer on the page where you have comments.
+This implementation guide is under STU ballot by HL7 Switzerland until September 24th, 2021 midnight. 
+Please add your feedback via the ‘Propose a change’-link in the footer on the page where you have comments.
 </div>
 
 ### Introduction
