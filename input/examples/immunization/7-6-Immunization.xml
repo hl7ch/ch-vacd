@@ -17,7 +17,7 @@
    </statusReason>
    <vaccineCode>
       <coding>
-         <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
+         <system value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"></system>
          <code value="545"></code>
          <display value="HBVAXPRO 40"></display>
       </coding>

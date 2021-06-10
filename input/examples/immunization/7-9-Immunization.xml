@@ -10,7 +10,7 @@
    <status value="completed"></status>
    <vaccineCode>
       <coding>
-         <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
+         <system value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"></system>
          <code value="637"></code>
          <display value="Boostrix"></display>
       </coding>

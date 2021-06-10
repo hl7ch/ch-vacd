@@ -565,7 +565,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"></system>
                   <code value="637"></code>
                   <display value="Boostrix"></display>
                </coding>
@@ -630,7 +630,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"></system>
                   <code value="637"></code>
                   <display value="Boostrix"></display>
                </coding>
@@ -695,7 +695,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"></system>
                   <code value="637"></code>
                   <display value="Boostrix"></display>
                </coding>
@@ -760,7 +760,7 @@
             <status value="completed"></status>
             <vaccineCode>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"></system>
                   <code value="268"></code>
                   <display value="MMR-II"></display>
                </coding>
@@ -832,7 +832,7 @@
             </statusReason>
             <vaccineCode>
                <coding>
-                  <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
+                  <system value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"></system>
                   <code value="545"></code>
                   <display value="HBVAXPRO 40"></display>
                </coding>
@@ -1125,7 +1125,7 @@
             <recommendation>
                <vaccineCode>
                   <coding>
-                     <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
+                     <system value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"></system>
                      <code value="681"></code>
                      <display value="Boostrix Polio"></display>
                   </coding>
@@ -1174,7 +1174,7 @@
             <recommendation>
                <vaccineCode>
                   <coding>
-                     <system value="http://fhir.ch/ig/ch-vacd/cs/vaccines-swissmedic"></system>
+                     <system value="http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"></system>
                      <code value="58317"></code>
                      <display value="Fluad"></display>
                   </coding>
