@@ -211,8 +211,6 @@
 			<name value="3.1 Patient" />
 			<description
 				value="Example for Patient for all document except Recommendation Request/Response" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr" />
 		</resource>
 		<resource>
 			<reference>
@@ -234,8 +232,7 @@
 			<name value="4.1 Practitioner" />
 			<description
 				value="Example for Practitioner for all documents except Recommendation Request/Response" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr" />
+<exampleBoolean value="true" />
 		</resource>
 		<resource>
 			<reference>
@@ -244,8 +241,6 @@
 			<name value="4.2 Practitioner" />
 			<description
 				value="Example for Practitioner for all documents except Recommendation Request/Response" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner" />
 		</resource>
 		<resource>
 			<reference>
@@ -254,8 +249,6 @@
 			<name value="4.3 Practitioner" />
 			<description
 				value="Example for Practitioner for all documents except Recommendation Request/Response" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner" />
 		</resource>
 		<resource>
 			<reference>
@@ -297,8 +290,6 @@
 			<name value="5.1 Organization" />
 			<description
 				value="Example for Organization for all documents except  Recommendation Request/Response" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr" />
 		</resource>
 		<resource>
 			<reference>
@@ -307,8 +298,6 @@
 			<name value="5.2 Organization" />
 			<description
 				value="Example for Organization for all documents except  Recommendation Request/Response" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
 		</resource>
 		<resource>
 			<reference>
@@ -317,8 +306,6 @@
 			<name value="5.3 Organization" />
 			<description
 				value="Example for Organization for all documents except  Recommendation Request/Response" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
 		</resource>
 		<resource>
 			<reference>
@@ -357,31 +344,25 @@
 			<reference>
 				<reference value="PractitionerRole/6-1-PractitionerRole" />
 			</reference>
-			<name value="6.1 Practitioner Role)" />
+			<name value="6.1 Practitioner Role" />
 			<description
 				value="Example for Practitioner Role for all documents except Recommendation Request/Response" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr" />
 		</resource>
 		<resource>
 			<reference>
 				<reference value="PractitionerRole/6-2-PractitionerRole" />
 			</reference>
-			<name value="6.2 Practitioner Role)" />
+			<name value="6.2 Practitioner Role" />
 			<description
 				value="Example for Practitioner Role for all documents except Recommendation Request/Response" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 		</resource>
 		<resource>
 			<reference>
 				<reference value="PractitionerRole/6-3-PractitionerRole" />
 			</reference>
-			<name value="6.3 Practitioner Role)" />
+			<name value="6.3 Practitioner Role" />
 			<description
 				value="Example for Practitioner Role for all documents except Recommendation Request/Response" />
-			<exampleCanonical
-				value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole" />
 		</resource>
 
 		<resource>
@@ -787,8 +768,6 @@
 			<name value="13.1 Binary Original Representation (Immunization Certificate)" />
 			<description
 				value="Example Binary for original represenation in section immunization servificate." />
-			<exampleCanonical
-				value="http://hl7.org/fhir/StructureDefinition/Binary" />
 		</resource>
 
 
