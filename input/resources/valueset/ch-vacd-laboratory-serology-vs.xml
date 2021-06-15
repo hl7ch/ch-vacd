@@ -53,7 +53,7 @@
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="-tbt-" />
+					<value value="Varicella-Zoster-Virus Ak.IgG:Titr:Pkt:Ser:Qn:" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -65,7 +65,7 @@
 				<display value="Measles virus IgG Ab [Titer] in Serum" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Masern" />
+					<value value="Masern Virus IgG Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
@@ -77,7 +77,7 @@
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="-tbt-" />
+					<value value="Masern Virus IgG Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -102,7 +102,7 @@
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="-tbt-" />
+					<value value="Mumps-Virus Ak.IgG:Titr:Pkt:Ser:Qn:" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -114,7 +114,7 @@
 				<display value="Rubella virus IgG Ab [Titer] in Serum" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Röteln" />
+					<value value="Röteln Virus IgG Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
@@ -126,7 +126,7 @@
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="-tbt-" />
+					<value value="Röteln Virus IgG Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -138,7 +138,7 @@
 				<display value="Hepatitis A virus IgG Ab [Units/volume] in SerumActive" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Hepatitis A" />
+					<value value="Hepatitis A Virus IgG Ab [Units/volume] in SerumActive" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
@@ -150,7 +150,7 @@
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="-tbt-" />
+					<value value="Hepatitis A Virus IgG Ab [Units/volume] in SerumActive" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -162,7 +162,7 @@
 				<display value="Hepatitis B virus surface Ab [Units/volume] in Serum" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Hepatitis B" />
+					<value value="Hepatitis B Virus Oberfläche Ab [Units/volume] in Serum" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
@@ -174,7 +174,7 @@
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="-tbt-" />
+					<value value="Hepatitis B Virus Oberfläche Ab [Units/volume] in Serum" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -198,7 +198,7 @@
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="-tbt-" />
+					<value value="Europäischer Tick-borne Encephalitis-Virus Ak:Titr:Pkt:Ser:Qn: (FSME)" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -210,7 +210,7 @@
 				<display value="Yellow fever virus Ab [Titer] in Serum by Immunofluorescence" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Gelbfieber" />
+					<value value="Gelbfieber virus Ab [Titer] in Serum mittels Immunofluorescence" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
@@ -222,7 +222,7 @@
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="-tbt-" />
+					<value value="Gelbfieber virus Ab [Titer] in Serum mittels Immunofluorescence" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -234,7 +234,7 @@
 				<display value="Clostridium tetani toxoid IgG Ab [Units/volume] in Serum by Immunofluorescence" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Tetanus" />
+					<value value="Tetanus IgG Ab [Units/volume] in Serum mittels Immunofluorescence" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
@@ -246,7 +246,7 @@
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="-tbt-" />
+					<value value="Tetanus IgG Ab [Units/volume] in Serum" />
 				</designation>
 				<designation>
 					<language value="en-US" />

@@ -45,23 +45,23 @@
 				<display value="Varicella (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Varicella (disorder)" />
+					<value value="Varizellen (Windpocken)" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Varicella (disorder)" />
+					<value value="varicella" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Varicella (disorder)" />
+					<value value="varicella" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Varicella (disorder)" />
+					<value value="Varizellen (Windpocken)" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Varicella (disorder)" />
+					<value value="Varicella" />
 				</designation>
 			</concept>
 			<concept>
@@ -69,23 +69,23 @@
 				<display value="Measles (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Measles (disorder)" />
+					<value value="Masern" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Measles (disorder)" />
+					<value value="rougeole" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Measles (disorder)" />
+					<value value="morbillo" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Measles (disorder)" />
+					<value value="Masern" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Measles (disorder)" />
+					<value value="Measles" />
 				</designation>
 			</concept>
 			<concept>
@@ -93,23 +93,23 @@
 				<display value="Mumps (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Mumps (disorder)" />
+					<value value="Mumps" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Mumps (disorder)" />
+					<value value="oreillons" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Mumps (disorder)" />
+					<value value="parotite" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Mumps (disorder)" />
+					<value value="Mumps" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Mumps (disorder)" />
+					<value value="Mumps" />
 				</designation>
 			</concept>
 			<concept>
@@ -117,23 +117,23 @@
 				<display value="Rubella (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Rubella (disorder)" />
+					<value value="Röteln" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Rubella (disorder)" />
+					<value value="rubéole" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Rubella (disorder)" />
+					<value value="rosolia" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Rubella (disorder)" />
+					<value value="Röteln" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Rubella (disorder)" />
+					<value value="Rubella" />
 				</designation>
 			</concept>
 			<concept>
@@ -141,23 +141,23 @@
 				<display value="Viral hepatitis, type A (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Viral hepatitis, type A (disorder)" />
+					<value value="Virale Hepatitis, Typ A" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Viral hepatitis, type A (disorder)" />
+					<value value="hépatite virale de type A" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Viral hepatitis, type A (disorder)" />
+					<value value="epatite virale tipo A" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Viral hepatitis, type A (disorder)" />
+					<value value="Virale Hepatitis, Typ A" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Viral hepatitis, type A (disorder)" />
+					<value value="Viral hepatitis, type A" />
 				</designation>
 			</concept>
 			<concept>
@@ -165,23 +165,23 @@
 				<display value="Viral hepatitis type B (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Viral hepatitis type B (disorder)" />
+					<value value="Virale Hepatitis, Typ B" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Viral hepatitis type B (disorder)" />
+					<value value="hépatite virale de type B" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Viral hepatitis type B (disorder)" />
+					<value value="epatite virale tipo B" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Viral hepatitis type B (disorder)" />
+					<value value="Virale Hepatitis, Typ B" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Viral hepatitis type B (disorder)" />
+					<value value="Viral hepatitis type B" />
 				</designation>
 			</concept>
 			<concept>
@@ -189,19 +189,19 @@
 				<display value="Central European encephalitis (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="FSME (Frühsommer-Meningoenzephalitis)" />
+					<value value="Frühsommer-Meningoenzephalitis (FSME)" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Central European encephalitis (disorder)" />
+					<value value="encéphalite à tiques d'Europe centrale" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Central European encephalitis (disorder)" />
+					<value value="meningoencefalite verno-estiva" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Central European encephalitis (disorder)" />
+					<value value="Frühsommer-Meningoenzephalitis (FSME)" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -213,23 +213,23 @@
 				<display value="Yellow fever (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Yellow fever (disorder)" />
+					<value value="Gelbfieber" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Yellow fever (disorder)" />
+					<value value="fièvre jaune" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Yellow fever (disorder)" />
+					<value value="febbre gialla" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Yellow fever (disorder)" />
+					<value value="Gelbfieber" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Yellow fever (disorder)" />
+					<value value="Yellow fever" />
 				</designation>
 			</concept>
 			<concept>
@@ -237,23 +237,23 @@
 				<display value="Tetanus (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Tetanus (disorder)" />
+					<value value="Tetanus (Starrkrampf)" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Tetanus (disorder)" />
+					<value value="tétanos" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Tetanus (disorder)" />
+					<value value="tetano" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Tetanus (disorder)" />
+					<value value="Tetanus (Starrkrampf)" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Tetanus (disorder)" />
+					<value value="Tetanus" />
 				</designation>
 			</concept>
 
@@ -263,23 +263,23 @@
 				<display value="Cholera (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Cholera (disorder)" />
+					<value value="Cholera" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Cholera (disorder)" />
+					<value value="choléra" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Cholera (disorder)" />
+					<value value="colera" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Cholera (disorder)" />
+					<value value="Cholera" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Cholera (disorder)" />
+					<value value="Cholera" />
 				</designation>
 			</concept>
 
@@ -288,23 +288,23 @@
 				<display value="Pertussis (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Pertussis (disorder)" />
+					<value value="Pertussis (Keuchhusten)" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Pertussis (disorder)" />
+					<value value="coqueluche" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Pertussis (disorder)" />
+					<value value="pertosse" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Pertussis (disorder)" />
+					<value value="Pertussis (Keuchhusten)" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Pertussis (disorder)" />
+					<value value="Pertussis" />
 				</designation>
 			</concept>
 
@@ -316,27 +316,27 @@
 				<designation>
 					<language value="de-CH" />
 					<value
-						value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
+						value="Schwere Sepsis mit akuter organischer Funktionsstörung, verursacht durch Pneumokokken" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
 					<value
-						value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
+						value="sepsis sévère avec dysfonctionnement aigu d'organes causé par des pneumocoques" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
 					<value
-						value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
+						value="sepsi grave indotta da disfunzione d'organo  acuta causata da pneumococco" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
 					<value
-						value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
+						value="Schwere Sepsis mit akuter organischer Funktionsstörung, verursacht durch Pneumokokken" />
 				</designation>
 				<designation>
 					<language value="en-US" />
 					<value
-						value="Severe sepsis with acute organ dysfunction caused by Pneumococcus (disorder)" />
+						value="Severe sepsis with acute organ dysfunction caused by Pneumococcus" />
 				</designation>
 			</concept>
 
@@ -352,12 +352,12 @@
 				<designation>
 					<language value="fr-CH" />
 					<value
-						value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
+						value="choc septique avec dysfonctionnement aigu d'organes causé par des pneumocoque s" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
 					<value
-						value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
+						value="shock settico concomitante con disfunzione d'organo acuta causata da pneumococco" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
@@ -367,7 +367,7 @@
 				<designation>
 					<language value="en-US" />
 					<value
-						value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)" />
+						value="Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus" />
 				</designation>
 			</concept>
 
@@ -380,11 +380,11 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Acute poliomyelitis (disorder)" />
+					<value value="poliomyélite aiguë" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Acute poliomyelitis (disorder)" />
+					<value value="poliomelite acuta" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
@@ -392,7 +392,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Acute poliomyelitis (disorder)" />
+					<value value="Acute poliomyelitis" />
 				</designation>
 			</concept>
 
@@ -407,11 +407,11 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Disease caused by Rotavirus (disorder)" />
+					<value value="maladie causée par un rotavirus" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Disease caused by Rotavirus (disorder)" />
+					<value value="patologia causata da Rotavirus" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
@@ -419,7 +419,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Disease caused by Rotavirus (disorder)" />
+					<value value="Disease caused by Rotavirus" />
 				</designation>
 			</concept>
 
@@ -432,11 +432,11 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Rabies (disorder)" />
+					<value value="rage" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Rabies (disorder)" />
+					<value value="rabbia" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
@@ -444,7 +444,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Rabies (disorder)" />
+					<value value="Rabies" />
 				</designation>
 			</concept>
 
@@ -457,11 +457,11 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Tuberculosis (disorder)" />
+					<value value="tuberculose" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Tuberculosis (disorder)" />
+					<value value="tubercolosi" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
@@ -469,7 +469,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Tuberculosis (disorder)" />
+					<value value="Tuberculosis" />
 				</designation>
 			</concept>
 
@@ -482,11 +482,11 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Typhoid fever (disorder)" />
+					<value value="fièvre typhoïde" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Typhoid fever (disorder)" />
+					<value value="febbre tifoidea" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
@@ -494,7 +494,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Typhoid fever (disorder)" />
+					<value value="Typhoid fever" />
 				</designation>
 			</concept>
 
@@ -511,12 +511,12 @@
 				<designation>
 					<language value="fr-CH" />
 					<value
-						value="Haemophilus influenzae type B infection (disorder)" />
+						value="infection à Haemophilus influenzae de type b" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
 					<value
-						value="Haemophilus influenzae type B infection (disorder)" />
+						value="infezione da Haemophilus influenzae tipo B" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
@@ -526,7 +526,7 @@
 				<designation>
 					<language value="en-US" />
 					<value
-						value="Haemophilus influenzae type B infection (disorder)" />
+						value="Haemophilus influenzae type b infection" />
 				</designation>
 			</concept>
 
@@ -542,12 +542,12 @@
 				<designation>
 					<language value="fr-CH" />
 					<value
-						value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
+						value="diphtérie causée par Corynebacterium diphtheriae" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
 					<value
-						value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
+						value="difterite causata da Corynebacterium diphtheriae" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
@@ -557,7 +557,7 @@
 				<designation>
 					<language value="en-US" />
 					<value
-						value="Diphtheria caused by Corynebacterium diphtheriae (disorder)" />
+						value="Diphtheria caused by Corynebacterium diphtheriae" />
 				</designation>
 			</concept>
 
@@ -568,27 +568,27 @@
 				<designation>
 					<language value="de-CH" />
 					<value
-						value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+						value="COVID-19" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
 					<value
-						value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+						value="COVID-19" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
 					<value
-						value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+						value="COVID-19" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
 					<value
-						value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+						value="COVID-19" />
 				</designation>
 				<designation>
 					<language value="en-US" />
 					<value
-						value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
+						value="COVID-19" />
 				</designation>
 			</concept>
 

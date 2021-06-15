@@ -1,6 +1,9 @@
 <div xmlns="http://www.w3.org/1999/xhtml" 
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
 
+Note:<br/>
+The translations of the CodeSystems and ValueSets is not yet finished. The relevant language in the moment is <b>english</b>.
+<br/>
   <h3>ValueSets</h3>
   <div>
     {% include list-simple-valuesets.xhtml %}

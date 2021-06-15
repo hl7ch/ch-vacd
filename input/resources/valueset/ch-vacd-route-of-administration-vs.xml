@@ -45,19 +45,19 @@
 				<display value="Intradermal use" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Intradermal use" />
+					<value value="intradermale Anwendung" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Intradermal use" />
+					<value value="Voie intradermique" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Intradermal use" />
+					<value value="Uso intradermico" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Intradermal use" />
+					<value value="intradermale Anwendung" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -69,19 +69,19 @@
 				<display value="Intramuscular use" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Intramuscular use" />
+					<value value="intramuskuläre Anwendung" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Intramuscular use" />
+					<value value="Voie intramusculaire" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Intramuscular use" />
+					<value value="Uso intramuscolare" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Intramuscular use" />
+					<value value="intramuskuläre Anwendung" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -93,19 +93,19 @@
 				<display value="Nasal use" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Nasal use" />
+					<value value="nasale Anwendung" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Nasal use" />
+					<value value="Voie nasale" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Nasal use" />
+					<value value="Uso nasale" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Nasal use" />
+					<value value="nasale Anwendung" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -117,19 +117,19 @@
 				<display value="Intravenous use" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Intravenous use" />
+					<value value="intravenöse Anwendung" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Intravenous use" />
+					<value value="Voie intraveineuse" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Intravenous use" />
+					<value value="Uso endovenoso" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Intravenous use" />
+					<value value="intravenöse Anwendung" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -141,19 +141,19 @@
 				<display value="Oral use" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Oral use" />
+					<value value="zum Einnehmen" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Oral use" />
+					<value value="Voie orale" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Oral use" />
+					<value value="Uso orale" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Oral use" />
+					<value value="zum Einnehmen" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -165,19 +165,19 @@
 				<display value="Subcutaneous use" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Subcutaneous use" />
+					<value value="subkutane Anwendung" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Subcutaneous use" />
+					<value value="Voie sous-cutanée" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Subcutaneous use" />
+					<value value="Uso sottocutaneo" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Subcutaneous use" />
+					<value value="subkutane Anwendung" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -189,19 +189,19 @@
 				<display value="Transdermal use" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Transdermal use" />
+					<value value="transdermale Anwendung" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Transdermal use" />
+					<value value="Voie transdermique" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Transdermal use" />
+					<value value="Uso transdermico" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Transdermal use" />
+					<value value="transdermale Anwendung" />
 				</designation>
 				<designation>
 					<language value="en-US" />

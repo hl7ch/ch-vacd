@@ -45,7 +45,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="BCG vaccination" />
+					<value value="vaccination par le BCG" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -69,7 +69,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Diphtheria vaccination (procedure)" />
+					<value value="vaccination contre la diphtérie" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -81,7 +81,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Diphtheria vaccination (procedure)" />
+					<value value="Diphtheria vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -96,7 +96,7 @@
 				<designation>
 					<language value="fr-CH" />
 					<value
-						value="Haemophilus influenzae type b vaccination (procedure)" />
+						value="vaccination contre l'Haemophilus influenzae de type B" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -110,7 +110,7 @@
 				<designation>
 					<language value="en-US" />
 					<value
-						value="Haemophilus influenzae type b vaccination (procedure)" />
+						value="Haemophilus influenzae type b vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -122,7 +122,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Hepatitis A immunization (procedure)" />
+					<value value="vaccination contre l'hépatite A" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -134,7 +134,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Hepatitis A immunization (procedure)" />
+					<value value="Hepatitis A vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -146,7 +146,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Hepatitis B vaccination (procedure)" />
+					<value value="vaccination contre l'hépatite B" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -158,7 +158,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Hepatitis B vaccination (procedure)" />
+					<value value="Hepatitis B vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -170,7 +170,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Influenza vaccination (procedure)" />
+					<value value="vaccination contre l'influenza" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -182,7 +182,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Influenza vaccination (procedure)" />
+					<value value="Influenza vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -195,7 +195,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Japanese encephalitis vaccination (procedure)" />
+					<value value="vaccination contre l'encéphalite japonaise" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -207,7 +207,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Japanese encephalitis vaccination (procedure)" />
+					<value value="Japanese encephalitis vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -219,7 +219,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Measles vaccination (procedure)" />
+					<value value="vaccination antirougeoleuse" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -231,7 +231,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Measles vaccination (procedure)" />
+					<value value="Measles vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -243,7 +243,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Meningococcus vaccination (procedure)" />
+					<value value="vaccination contre le méningocoque" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -255,7 +255,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Meningococcus vaccination (procedure)" />
+					<value value="Meningococcus vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -267,7 +267,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Mumps vaccination (procedure)" />
+					<value value="vaccination contre les oreillons" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -279,7 +279,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Mumps vaccination (procedure)" />
+					<value value="Mumps vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -308,7 +308,7 @@
 				<designation>
 					<language value="en-US" />
 					<value
-						value="Vaccination for human papillomavirus (procedure)" />
+						value="Human papillomavirus vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -320,7 +320,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Pertussis vaccination (procedure)" />
+					<value value="vaccination contre la coqueluche" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -332,7 +332,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Pertussis vaccination (procedure)" />
+					<value value="Pertussis vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -344,7 +344,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Pneumococcal vaccination (procedure)" />
+					<value value="vaccination contre le pneumocoque" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -356,7 +356,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Pneumococcal vaccination (procedure)" />
+					<value value="Pneumococcal vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -368,7 +368,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Poliomyelitis vaccination (procedure)" />
+					<value value="vaccination contre la poliomyélite" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -380,7 +380,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Poliomyelitis vaccination (procedure)" />
+					<value value="Poliomyelitis vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -392,7 +392,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Rabies vaccination (procedure)" />
+					<value value="vaccination contre la rage" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -404,7 +404,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Rabies vaccination (procedure)" />
+					<value value="Rabies vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -416,7 +416,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Rubella vaccination (procedure)" />
+					<value value="vaccination contre la rubéole" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -428,7 +428,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Rubella vaccination (procedure)" />
+					<value value="Rubella vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -440,7 +440,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Tetanus vaccination (procedure)" />
+					<value value="vaccination contre le tétanos" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -452,7 +452,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Tetanus vaccination (procedure)" />
+					<value value="Tetanus vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -467,7 +467,7 @@
 				<designation>
 					<language value="fr-CH" />
 					<value
-						value="Tick-borne encephalitis vaccination (procedure)" />
+						value="vaccination contre l'encéphalite à tiques" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -481,7 +481,7 @@
 				<designation>
 					<language value="en-US" />
 					<value
-						value="Tick-borne encephalitis vaccination (procedure)" />
+						value="Tick-borne encephalitis vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -493,7 +493,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Typhoid vaccination (procedure)" />
+					<value value="vaccination antityphoïdique" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -505,7 +505,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Typhoid vaccination (procedure)" />
+					<value value="Typhoid vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -529,7 +529,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Varicella vaccination (procedure)" />
+					<value value="Varicella-zoster vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -541,7 +541,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Yellow fever vaccination (procedure)" />
+					<value value="vaccination contre la fièvre jaune" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -553,7 +553,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Yellow fever vaccination (procedure)" />
+					<value value="Yellow fever vaccination" />
 				</designation>
 			</concept>
 			<concept>
@@ -566,7 +566,7 @@
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="COVID-19" />
+					<value value="vaccination contre la COVID-19" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
@@ -579,7 +579,7 @@
 				<designation>
 					<language value="en-US" />
 					<value
-						value="Severe acute respiratory syndrome coronavirus 2 vaccination (procedure)" />
+						value="COVID-19 antigen vaccination" />
 				</designation>
 			</concept>
 		</include>
