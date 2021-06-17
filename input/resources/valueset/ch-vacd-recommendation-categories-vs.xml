@@ -57,7 +57,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Empfohlene Basisimpfungen" />
+					<value value="Recommended primary vaccinations" />
 				</designation>
 			</concept>
 			<concept>
@@ -81,7 +81,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Empfohlene ergänzende Impfungen" />
+					<value value="Recommended booster vaccinations" />
 				</designation>
 			</concept>
 			<concept>
@@ -105,7 +105,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Empfohlene Impfungen für Risikogruppen" />
+					<value value="Recommended vaccinations for risk groups" />
 				</designation>
 			</concept>
 			<concept>
@@ -129,7 +129,7 @@
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value value="Impfungen ohne Empfehlungen" />
+					<value value="Vaccinations without recommendations" />
 				</designation>
 			</concept>
 		</include>

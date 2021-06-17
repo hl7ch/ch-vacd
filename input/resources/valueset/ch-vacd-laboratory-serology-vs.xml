@@ -41,19 +41,19 @@
 				<display value="Varicella zoster virus IgG Ab [Titer] in Serum" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Varicella-Zoster-Virus Ak.IgG:Titr:Pkt:Ser:Qn:" />
+					<value value="Varizellen-Zoster-Virus IgG Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Varicelle zona virus Ac IgG:Titre:Ponctuel:Sérum:Numérique:" />
+					<value value="Anticorps IgG du virus varicelle-zona [titre] dans le sérum" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Varicella zoster, virus , Ab.IgG:Titr:Pt:Siero:Qn:" />
+					<value value="virus varicella-zoster Ab IgG [titolo] in siero" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Varicella-Zoster-Virus Ak.IgG:Titr:Pkt:Ser:Qn:" />
+					<value value="Varizellen-Zoster-Virus IgG Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -65,19 +65,19 @@
 				<display value="Measles virus IgG Ab [Titer] in Serum" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Masern Virus IgG Ab [Titer] in Serum" />
+					<value value="Masern-Virus IgG Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Rougeole virus Ac IgG:Titre:Ponctuel:Sérum:Numérique:" />
+					<value value="Anticorps IgG du virus de la rougeole [titre] dans le sérum" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Morbillo, virus , Ab.IgG:Titr:Pt:Siero:Qn:" />
+					<value value="virus del morbillo Ab IgG [titolo] in siero" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Masern Virus IgG Ab [Titer] in Serum" />
+					<value value="Masern-Virus IgG Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -90,19 +90,19 @@
 				<display value="Mumps virus IgG Ab [Titer] in Serum" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Mumps-Virus Ak.IgG:Titr:Pkt:Ser:Qn:" />
+					<value value="Mumps-Virus IgG Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Oreillons virus Ac IgG:Titre:Ponctuel:Sérum:Numérique:" />
+					<value value="Anticorps IgG du virus des oreillons [titre] dans le sérum" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Parotite, virus , Ab.IgG:Titr:Pt:Siero:Qn:" />
+					<value value="virus della parotite Ab IgG [titolo] in siero" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Mumps-Virus Ak.IgG:Titr:Pkt:Ser:Qn:" />
+					<value value="Mumps-Virus IgG Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -114,19 +114,19 @@
 				<display value="Rubella virus IgG Ab [Titer] in Serum" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Röteln Virus IgG Ab [Titer] in Serum" />
+					<value value="Röteln-Virus IgG Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Rubéole virus Ac IgG:Titre:Ponctuel:Sérum:Numérique:" />
+					<value value="Anticorps IgG du virus de la rubéole [titre] dans le sérum" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Rosolia virus , Ab.IgG:Titr:Pt:Siero:Qn:" />
+					<value value="virus della rosolia Ab IgG [titolo] in siero" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Röteln Virus IgG Ab [Titer] in Serum" />
+					<value value="Röteln-Virus IgG Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -138,19 +138,19 @@
 				<display value="Hepatitis A virus IgG Ab [Units/volume] in SerumActive" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Hepatitis A Virus IgG Ab [Units/volume] in SerumActive" />
+					<value value="Hepatitis-A-Virus IgG Ab [Einheiten/Volumen] in SerumAktiv" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Hépatite A virus Ac IgG:Arbitraire/Volume:Ponctuel:Sérum:Numérique" />
+					<value value="Anticorps IgG du virus de l'hépatite A [unités/volume] dans le sérum" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Epatite A, virus , Ab.IgG:ACnc:Pt:Siero:Qn:" />
+					<value value="virus dell'epatite A Ab IgG [unità/volume] in siero attivo" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Hepatitis A Virus IgG Ab [Units/volume] in SerumActive" />
+					<value value="Hepatitis-A-Virus IgG Ab [Einheiten/Volumen] in SerumAktiv" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -162,19 +162,19 @@
 				<display value="Hepatitis B virus surface Ab [Units/volume] in Serum" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Hepatitis B Virus Oberfläche Ab [Units/volume] in Serum" />
+					<value value="Hepatitis-B-Virus-Oberfläche Ab [Einheiten/Volumen] in Serum" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Hépatite B virus surface Ac:Arbitraire/Volume:Ponctuel:Sérum:Numérique:" />
+					<value value="Anticorps surface du virus de l'hépatite B [unités/volume] dans le sérum" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Epatite B virus, superficie , Ab:ACnc:Pt:Siero:Qn:" />
+					<value value="virus dell'epatite B Ab di superficie [unità/volume] in siero" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Hepatitis B Virus Oberfläche Ab [Units/volume] in Serum" />
+					<value value="Hepatitis-B-Virus-Oberfläche Ab [Einheiten/Volumen] in Serum" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -186,19 +186,19 @@
 				<display value="European tick borne encephalitis virus Ab [Titer] in Serum" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Europäischer Tick-borne Encephalitis-Virus Ak:Titr:Pkt:Ser:Qn: (FSME)" />
+					<value value="Europäischer Zeckenenzephalitis-Virus Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Encéphalite à tique européenne virus Ac:Titre:Ponctuel:Sérum:Numérique:" />
+					<value value="Anticorps du virus de l'encéphalite à tiques européennes [titre] dans le sérum " />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Encefalite trasmessa da zecca europea, virus , Ab:Titr:Pt:Siero:Qn:" />
+					<value value="virus della meningoencefalite da zecche europea Ab [titolo] in siero" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Europäischer Tick-borne Encephalitis-Virus Ak:Titr:Pkt:Ser:Qn: (FSME)" />
+					<value value="Europäischer Zeckenenzephalitis-Virus Ab [Titer] in Serum" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -210,19 +210,19 @@
 				<display value="Yellow fever virus Ab [Titer] in Serum by Immunofluorescence" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Gelbfieber virus Ab [Titer] in Serum mittels Immunofluorescence" />
+					<value value="Gelbfieber-Virus Ab [Titer] in Serum durch Immunfluoreszenz" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Fièvre jaune virus Ac:Titre:Ponctuel:Sérum:Numérique:Immunofluorescence" />
+					<value value="Anticorps du virus de la fièvre jaune [titre] dans le sérum par immunofluorescence" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Febbre gialla, virus , Ab:Titr:Pt:Siero:Qn:IF" />
+					<value value="virus della febbre gialla Ab [titolo] in siero mediante immunofluorescenza" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Gelbfieber virus Ab [Titer] in Serum mittels Immunofluorescence" />
+					<value value="Gelbfieber-Virus Ab [Titer] in Serum durch Immunfluoreszenz" />
 				</designation>
 				<designation>
 					<language value="en-US" />
@@ -234,19 +234,19 @@
 				<display value="Clostridium tetani toxoid IgG Ab [Units/volume] in Serum by Immunofluorescence" />
 				<designation>
 					<language value="de-CH" />
-					<value value="Tetanus IgG Ab [Units/volume] in Serum mittels Immunofluorescence" />
+					<value value="Clostridium tetani Toxoid IgG Ab [Einheiten/Volumen] in Serum durch Immunfluoreszenz" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value value="Clostridium tetani toxoïde Ac IgG:Arbitraire/Volume:Ponctuel:Sérum:Numérique:Immunofluorescence" />
+					<value value="Anticorps IgG de la toxine du Clostridium tetani [unités/volume] dans le sérum par immunofluorescence" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value value="Clostridium tetani, tossoide , Ab.IgG:ACnc:Pt:Siero:Qn:IF" />
+					<value value="tossoide di Clostridium tetani Ab IgG [unità/volume] in siero mediante immunofluorescenza" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value value="Tetanus IgG Ab [Units/volume] in Serum" />
+					<value value="Clostridium tetani Toxoid IgG Ab [Einheiten/Volumen] in Serum durch Immunfluoreszenz" />
 				</designation>
 				<designation>
 					<language value="en-US" />
