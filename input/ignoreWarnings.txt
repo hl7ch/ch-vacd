@@ -19,3 +19,4 @@ The valueSet reference http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-imm
 
 # All important examples are included
 The Implementation Guide contains no examples for this profile
+The Implementation Guide contains no examples for this extension

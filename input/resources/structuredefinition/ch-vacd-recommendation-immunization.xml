@@ -42,6 +42,17 @@
 				<rules value="open" />
 			</slicing>
 		</element>
+		<element id="Immunization.extension:medication">
+			<path value="Immunization.extension" />
+			<sliceName value="medication" />
+			<min value="0" />
+			<max value="1" />
+			<type>
+				<code value="Extension" />
+				<profile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference" />
+			</type>
+		</element>
 
 
 		<element id="Immunization.identifier">
@@ -87,7 +98,7 @@
 					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs" />
 			</binding>
 		</element>
-		
+
 		<element id="Immunization.vaccineCode:atcClass">
 			<path value="Immunization.vaccineCode" />
 			<sliceName value="atcClass" />

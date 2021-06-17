@@ -2,7 +2,7 @@
 	<id value="ch.fhir.ig.ch-vacd" />
 	<url
 		value="http://fhir.ch/ig/ch-vacd/ImplementationGuide/ch.fhir.ig.ch-vacd" />
-	<version value="0.2.0" />
+	<version value="1.0.0" />
 	<name value="CH_VACD" />
 	<title value="CH VACD (R4)" />
 	<status value="draft" />
@@ -1015,6 +1015,24 @@
 		<resource>
 			<reference>
 				<reference value="StructureDefinition/ch-vacd-pregnancy" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ch-vacd-medication-for-immunization" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+	
+		<!-- **************************************************** -->
+		<!-- References value sets -->
+		<!-- **************************************************** -->	
+		
+		<resource>
+			<reference>
+				<reference value="StructureDefinition/ch-vacd-ext-immunization-medication-reference" />
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
