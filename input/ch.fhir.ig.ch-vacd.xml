@@ -7,7 +7,7 @@
 	<title value="CH VACD (R4)" />
 	<status value="draft" />
 	<experimental value="false" />
-	<date value="2021-02-12" />
+	<date value="2021-06-18" />
 	<publisher value="eHealth Suisse" />
 	<contact>
 		<name value="eHealth Suisse" />
@@ -1162,8 +1162,8 @@
 		<!-- parameters -->
 		<parameter>
 			<code value="releaselabel" />
-			<value value="CI build" />
-			<!--<value value="STU 1 Informative Ballot"/> -->
+			<!--<value value="CI build" />-->
+			<value value="STU 2 Ballot"/>
 		</parameter>
 		<parameter>
 			<code value="path-pages" />
