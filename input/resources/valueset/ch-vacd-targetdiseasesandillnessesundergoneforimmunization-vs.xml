@@ -505,28 +505,23 @@
 					value="Haemophilus influenzae type b infection (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value
-						value="Infektion mit Haemophilus influenzae Typ B" />
+					<value value="Infektion mit Haemophilus influenzae Typ B" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value
-						value="infection à Haemophilus influenzae de type b" />
+					<value value="infection à Haemophilus influenzae de type b" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value
-						value="infezione da Haemophilus influenzae di tipo b" />
+					<value value="infezione da Haemophilus influenzae di tipo b" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value
-						value="Infektion mit Haemophilus influenzae Typ B" />
+					<value value="Infektion mit Haemophilus influenzae Typ B" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value
-						value="Haemophilus influenzae type b infection" />
+					<value value="Haemophilus influenzae type b infection" />
 				</designation>
 			</concept>
 
@@ -567,31 +562,123 @@
 					value="Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)" />
 				<designation>
 					<language value="de-CH" />
-					<value
-						value="COVID-19" />
+					<value value="COVID-19" />
 				</designation>
 				<designation>
 					<language value="fr-CH" />
-					<value
-						value="COVID-19" />
+					<value value="COVID-19" />
 				</designation>
 				<designation>
 					<language value="it-CH" />
-					<value
-						value="COVID-19" />
+					<value value="COVID-19" />
 				</designation>
 				<designation>
 					<language value="rm-CH" />
-					<value
-						value="COVID-19" />
+					<value value="COVID-19" />
 				</designation>
 				<designation>
 					<language value="en-US" />
-					<value
-						value="COVID-19" />
+					<value value="COVID-19" />
 				</designation>
 			</concept>
 
+			<!-- added missing diease -->
+			<concept>
+				<code value="30415006" />
+				<display value="Disease caused by Papillomavirus (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Disease caused by Papillomavirus (disorder)" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="860805006" />
+				<display value="Encephalomyelitis caused by Neisseria meningitidis (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Encephalomyelitis caused by Neisseria meningitidis (disorder)" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="52947006" />
+				<display value="Japanese encephalitis virus disease (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Japanese encephalitis virus disease (disorder)" />
+				</designation>
+			</concept>
+			<concept>
+				<code value="719590007" />
+				<display value="Influenza caused by seasonal influenza virus (disorder)" />
+				<designation>
+					<language value="de-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="fr-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="it-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="rm-CH" />
+					<value value="" />
+				</designation>
+				<designation>
+					<language value="en-US" />
+					<value value="Influenza caused by seasonal influenza virus (disorder)" />
+				</designation>
+			</concept>	
 		</include>
 	</compose>
 </ValueSet>
