@@ -48,8 +48,8 @@
 		</element>
 		<element id="Condition.onsetDateTime">
 			<path value="Condition.onsetDateTime" />
-			<short value="Condition onset DateTime" />
-			<comment value="The estimated date for delivery" />
+			<short value="Condition onset DateTime to declare the disorder/illness hat taken place." />
+			<comment value="The date the declared disorder had taken place and an immunization will be evolved." />
 			<min value="1" />
 			<max value="1" />
 		</element>
