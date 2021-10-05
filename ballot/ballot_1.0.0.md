@@ -30,7 +30,6 @@ This is the categorie to list issues with additional features brought up during 
 #### 3.2.1 Issues
 [Issue 71](https://github.com/ehealthsuisse/ch-vacd/issues/71) -  - Provide Use Cases in IG (Annatina Foppa, eHealth Suisse) (Duplicate: [Issue 75](https://github.com/ehealthsuisse/ch-vacd/issues/75))<br>
 [Issue 72](https://github.com/ehealthsuisse/ch-vacd/issues/72) -  - Add ConceptMap's (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 85](https://github.com/ehealthsuisse/ch-vacd/issues/85))<br>
-[Issue 86](https://github.com/ehealthsuisse/ch-vacd/issues/86) -  - Reactions to immunizations (Annatina Foppa, eHealth Suisse) <br>
 [Issue 87](https://github.com/ehealthsuisse/ch-vacd/issues/87) -  - Extension for Reference to Practitioner as Validator of Immunization entry (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 94](https://github.com/ehealthsuisse/ch-vacd/issues/94))<br>
 [Issue 88](https://github.com/ehealthsuisse/ch-vacd/issues/88) -  - Usecase from hospital environment to report vaccination documentation to authorities (Daniel Ratschiller, Cistec AG)<br>
 
@@ -54,3 +53,4 @@ This is the categorie to list issues with fundamental diskussion topics of the s
 This is the categorie to list issues "as nice to have"
 #### 3.5.1 Issues
 [Issue 69](https://github.com/ehealthsuisse/ch-vacd/issues/69) -  - Travel information -- Immunization Recommendation Request (Annatina Foppa, eHealth Suisse)<br>
+[Issue 86](https://github.com/ehealthsuisse/ch-vacd/issues/86) -  - Reactions to immunizations (Annatina Foppa, eHealth Suisse) <br>
