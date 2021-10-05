@@ -28,8 +28,6 @@ This is the categorie to list and resolve the bugs and typos found in the IG dur
 ### 3.2 Missing Parts
 This is the categorie to list issues with additional features brought up during the ballot.
 #### 3.2.1 Issues
-[Issue 68](https://github.com/ehealthsuisse/ch-vacd/issues/68) -  - additional sections for Immunization Administration document (Annatina Foppa, eHealth Suisse)<br>
-
 [Issue 71](https://github.com/ehealthsuisse/ch-vacd/issues/71) -  - Provide Use Cases in IG (Annatina Foppa, eHealth Suisse) (Duplicate: [Issue 75](https://github.com/ehealthsuisse/ch-vacd/issues/75))<br>
 [Issue 72](https://github.com/ehealthsuisse/ch-vacd/issues/72) -  - Add ConceptMap's (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 85](https://github.com/ehealthsuisse/ch-vacd/issues/85))<br>
 [Issue 86](https://github.com/ehealthsuisse/ch-vacd/issues/86) -  - Reactions to immunizations (Annatina Foppa, eHealth Suisse) <br>
@@ -49,7 +47,7 @@ This is the categorie to list issues with questions for discussion
 This is the categorie to list issues with fundamental diskussion topics of the structure or concept
 #### 3.4.1 Issues
 [Issue 80](https://github.com/ehealthsuisse/ch-vacd/issues/80) -  - Begriff "Certificate" hat Verwechslungspotential (Gabriel Hess, I4MI / BFH TI)<br>
-[Issue 92](https://github.com/ehealthsuisse/ch-vacd/issues/92) -  - Check usefulness of different documents (Annatina Foppa, eHealth Suisse)<br>
+[Issue 92](https://github.com/ehealthsuisse/ch-vacd/issues/92) -  - Check usefulness of different documents (Annatina Foppa, eHealth Suisse) (Similar [Issue 68](https://github.com/ehealthsuisse/ch-vacd/issues/68))<br>
 [Issue 93](https://github.com/ehealthsuisse/ch-vacd/issues/93) -  - Check if Recommendations should be in the document -- Vaccination Record document (Annatina Foppa, eHealth Suisse)
 
 ### 3.5 Backlog
