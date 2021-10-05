@@ -31,7 +31,6 @@ This is the categorie to list issues with additional features brought up during 
 [Issue 71](https://github.com/ehealthsuisse/ch-vacd/issues/71) -  - Provide Use Cases in IG (Annatina Foppa, eHealth Suisse) (Duplicate: [Issue 75](https://github.com/ehealthsuisse/ch-vacd/issues/75))<br>
 [Issue 72](https://github.com/ehealthsuisse/ch-vacd/issues/72) -  - Add ConceptMap's (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 85](https://github.com/ehealthsuisse/ch-vacd/issues/85))<br>
 [Issue 87](https://github.com/ehealthsuisse/ch-vacd/issues/87) -  - Extension for Reference to Practitioner as Validator of Immunization entry (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 94](https://github.com/ehealthsuisse/ch-vacd/issues/94))<br>
-[Issue 88](https://github.com/ehealthsuisse/ch-vacd/issues/88) -  - Usecase from hospital environment to report vaccination documentation to authorities (Daniel Ratschiller, Cistec AG)<br>
 
 
 ### 3.3 Questions/Diskussion/ChageResource
@@ -46,6 +45,7 @@ This is the categorie to list issues with questions for discussion
 This is the categorie to list issues with fundamental diskussion topics of the structure or concept
 #### 3.4.1 Issues
 [Issue 80](https://github.com/ehealthsuisse/ch-vacd/issues/80) -  - Begriff "Certificate" hat Verwechslungspotential (Gabriel Hess, I4MI / BFH TI)<br>
+[Issue 88](https://github.com/ehealthsuisse/ch-vacd/issues/88) -  - Usecase from hospital environment to report vaccination documentation to authorities (Daniel Ratschiller, Cistec AG)<br>
 [Issue 92](https://github.com/ehealthsuisse/ch-vacd/issues/92) -  - Check usefulness of different documents (Annatina Foppa, eHealth Suisse) (Similar [Issue 68](https://github.com/ehealthsuisse/ch-vacd/issues/68))<br>
 [Issue 93](https://github.com/ehealthsuisse/ch-vacd/issues/93) -  - Check if Recommendations should be in the document -- Vaccination Record document (Annatina Foppa, eHealth Suisse)
 
