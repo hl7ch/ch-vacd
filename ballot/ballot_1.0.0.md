@@ -19,8 +19,8 @@ This is the categorie to list and resolve the bugs and typos found in the IG dur
 [Issue 74](https://github.com/ehealthsuisse/ch-vacd/issues/74) -  - Home - Reference to CDA-CH VACD (Oliver Egger, ahdis ag)<br>
 [Issue 77](https://github.com/ehealthsuisse/ch-vacd/issues/77) - * - Typos and a very detail (Michaela Ziegler, ahdis ag)<br>
 [Issue 78](https://github.com/ehealthsuisse/ch-vacd/issues/78) - * - Target disease and illnesses undergone for immunization, falsche Übersetzung rm für Windpocken (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 83](https://github.com/ehealthsuisse/ch-vacd/issues/83))<br>
-[Issue 79](https://github.com/ehealthsuisse/ch-vacd/issues/79) -  - CH VACD Immunization Recommendations Profile cardinality of dateCriterion (Roeland Luykx, RALY GmbH)<br>
-[Issue 81](https://github.com/ehealthsuisse/ch-vacd/issues/81) -  - CH VACD Laboratory And Serology Profile, cardinality of valueQuantity  (Roeland Luykx, RALY GmbH)<br>
+[Issue 79](https://github.com/ehealthsuisse/ch-vacd/issues/79) - * - CH VACD Immunization Recommendations Profile cardinality of dateCriterion (Roeland Luykx, RALY GmbH)<br>
+[Issue 81](https://github.com/ehealthsuisse/ch-vacd/issues/81) - * - CH VACD Laboratory And Serology Profile, cardinality of valueQuantity  (Roeland Luykx, RALY GmbH)<br>
 [Issue 84](https://github.com/ehealthsuisse/ch-vacd/issues/84) -  - ValueSet missing information COVID test Laboratory Serology for Immunization (eHealth Suisse)<br>
 [Issue 89](https://github.com/ehealthsuisse/ch-vacd/issues/89) -  - slicing vaccine codes -- CH VACD Immunization Profile (Annatina Foppa, eHealth Suisse)<br>
 
@@ -29,7 +29,7 @@ This is the categorie to list and resolve the bugs and typos found in the IG dur
 This is the categorie to list issues with additional features brought up during the ballot.
 #### 3.2.1 Issues
 [Issue 71](https://github.com/ehealthsuisse/ch-vacd/issues/71) -  - Provide Use Cases in IG (Annatina Foppa, eHealth Suisse) (Duplicate: [Issue 75](https://github.com/ehealthsuisse/ch-vacd/issues/75))<br>
-[Issue 72](https://github.com/ehealthsuisse/ch-vacd/issues/72) -  - Add ConceptMap's (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 85](https://github.com/ehealthsuisse/ch-vacd/issues/85))<br>
+[Issue 72](https://github.com/ehealthsuisse/ch-vacd/issues/72) - * - Add ConceptMap's (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 85](https://github.com/ehealthsuisse/ch-vacd/issues/85))<br>
 [Issue 87](https://github.com/ehealthsuisse/ch-vacd/issues/87) -  - Extension for Reference to Practitioner as Validator of Immunization entry (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 94](https://github.com/ehealthsuisse/ch-vacd/issues/94))<br>
 
 
