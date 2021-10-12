@@ -9,9 +9,9 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 {% include img.html img="immunization-recommendation-request-document.png" caption="Fig.: Immunization Recommendation Request document" width="40%" %}
 
 #### Examples
-* 4.1 Immunization Recommendation Request document: [XML](Bundle-1-4-ImmunizationRecommendationRequest.xml.html), [JSON](Bundle-1-4-ImmunizationRecommendationRequest.json.html)
-* 4.2 Example Immunization Recommendation Request composition: [XML](Composition-2-4-ImmunizationRecommendationRequestComposition.xml.html), [JSON](Composition-2-4-ImmunizationRecommendationRequestComposition.json.html)
-* 4.3 Example Patient (Recommendation): [XML](Patient-3-2-Patient.xml.html), [JSON](Patient-3-2-Patient.json.html)
+* 1.4 Immunization Recommendation Request document: [XML](Bundle-1-4-ImmunizationRecommendationRequest.xml.html), [JSON](Bundle-1-4-ImmunizationRecommendationRequest.json.html)
+* 2.4 Example Immunization Recommendation Request composition: [XML](Composition-2-4-ImmunizationRecommendationRequestComposition.xml.html), [JSON](Composition-2-4-ImmunizationRecommendationRequestComposition.json.html)
+* 3.2 Example Patient (Recommendation): [XML](Patient-3-2-Patient.xml.html), [JSON](Patient-3-2-Patient.json.html)
 
  
 ### Resource profiles

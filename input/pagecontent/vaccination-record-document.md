@@ -1,7 +1,7 @@
 The **Vaccination Record document** describes the content and format of a vaccination record document 
 containing in minimum the chapter with the known and applied immunizations and may contain all other 
 defined chapters including the medical and exposition risks which are very important for the immunization decisions.
-This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next tu the Swiss EPR.
+This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next to the Swiss EPR.
 
 ### FHIR document (Bundle)
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 
@@ -11,9 +11,9 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 {% include img.html img="vaccination-record-document.png" caption="Fig.: Vaccination Record document" width="40%" %}
 
 #### Examples
-* 3.1 Example Vaccination Record document: [XML](Bundle-1-3-VaccinationRecord.xml.html), [JSON](Bundle-1-3-VaccinationRecord.json.html)
-* 3.2 Example Vaccination Record composition: [XML](Composition-2-3-VaccinationRecordComposition.xml.html), [JSON](Composition-2-3-VaccinationRecordComposition.json.html)
-* 3.3 Example Patient: [XML](Patient-3-1-Patient.xml.html), [JSON](Patient-3-1-Patient.json.html)
+* 1.3 Example Vaccination Record document: [XML](Bundle-1-3-VaccinationRecord.xml.html), [JSON](Bundle-1-3-VaccinationRecord.json.html)
+* 2.3 Example Vaccination Record composition: [XML](Composition-2-3-VaccinationRecordComposition.xml.html), [JSON](Composition-2-3-VaccinationRecordComposition.json.html)
+* 3.1 Example Patient: [XML](Patient-3-1-Patient.xml.html), [JSON](Patient-3-1-Patient.json.html)
 
 ### Resource profiles
 * [CH VACD Vaccination Record Document Profile](StructureDefinition-ch-vacd-document-vaccination-record.html): Definition of the bundle for the vaccination record document.

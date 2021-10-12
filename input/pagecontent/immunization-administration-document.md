@@ -1,6 +1,5 @@
-The **Immunization Administration document** describes the content and format of an Immunization Administration document 
-containing exclusively the chapter with all applied immunizations and no further chapters.
-This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next tu the Swiss EPR.
+The **Immunization Administration document** describes the content and format of an immunization administration document containing the chapter with all applied immunizations and no further chapters.
+This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next to the Swiss EPR.
 
 The usage of this document is for administrative purposes to declare or exchange the corresponding data of an application of a vaccine to a patient for immunization reason.
 In difference to this, the [Immunization Certificate](immunization-certificate-document.html) represents the "Certificate" with all the known and applied vaccines and other information.
@@ -13,8 +12,8 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
   
 #### Examples
 * 1.1 Example Immunization Administration document: [XML](Bundle-1-1-ImmunizationAdministration.xml.html), [JSON](Bundle-1-1-ImmunizationAdministration.json.html)
-* 1.2 Example Immunization Administration composition: [XML](Composition-2-1-ImmunizationAdministrationComposition.xml.html), [JSON](Composition-2-1-ImmunizationAdministrationComposition.json.html)
-* 1.3 Example Patient: [XML](Patient-3-1-Patient.xml.html), [JSON](Patient-3-1-Patient.json.html)
+* 2.1 Example Immunization Administration composition: [XML](Composition-2-1-ImmunizationAdministrationComposition.xml.html), [JSON](Composition-2-1-ImmunizationAdministrationComposition.json.html)
+* 3.1 Example Patient: [XML](Patient-3-1-Patient.xml.html), [JSON](Patient-3-1-Patient.json.html)
 
 ### Resource profiles
 * [CH VACD Immunization Administration Document Profile](StructureDefinition-ch-vacd-document-immunization-administration.html): Definition of the bundle for the immunization administration document.
