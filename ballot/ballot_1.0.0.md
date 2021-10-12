@@ -13,9 +13,9 @@ Other informations and experiences made in other profiles like ch-emed was also 
 ### 3.1 Bugs/Typos/Cardinality
 This is the categorie to list and resolve the bugs and typos found in the IG during the ballot.
 #### 3.1.1 Issues
-[Issue 66](https://github.com/ehealthsuisse/ch-vacd/issues/66) -  - Immunization Certificate - Missing Sections in Picture (Roeland Luykx, RALY GmbH)<br>
-[Issue 70](https://github.com/ehealthsuisse/ch-vacd/issues/70) -  - Immunization Administration document (Annatina Foppa, eHealth Suisse)<br>
-[Issue 73](https://github.com/ehealthsuisse/ch-vacd/issues/73) -  - Complete TargetDisease VS (Roeland Luykx, RALY GmbH)<br>
+[Issue 66](https://github.com/ehealthsuisse/ch-vacd/issues/66) - * - Immunization Certificate - Missing Sections in Picture (Roeland Luykx, RALY GmbH)<br>
+[Issue 70](https://github.com/ehealthsuisse/ch-vacd/issues/70) - (*) - Immunization Administration document (Annatina Foppa, eHealth Suisse) (depends on: [Issue 68](https://github.com/ehealthsuisse/ch-vacd/issues/68)))<br>
+[Issue 73](https://github.com/ehealthsuisse/ch-vacd/issues/73) - * - Complete TargetDisease VS (Roeland Luykx, RALY GmbH)<br>
 [Issue 74](https://github.com/ehealthsuisse/ch-vacd/issues/74) -  - Home - Reference to CDA-CH VACD (Oliver Egger, ahdis ag)<br>
 [Issue 77](https://github.com/ehealthsuisse/ch-vacd/issues/77) -  - Typos and a very detail (Michaela Ziegler, ahdis ag)<br>
 [Issue 78](https://github.com/ehealthsuisse/ch-vacd/issues/78) -  - Target disease and illnesses undergone for immunization, falsche Übersetzung rm für Windpocken (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 83](https://github.com/ehealthsuisse/ch-vacd/issues/83))<br>
