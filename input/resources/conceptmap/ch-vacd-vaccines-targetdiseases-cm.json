@@ -575,20 +575,6 @@
         "display": "Tetanus (disorder)"
       } ]
     }, {
-      "code": "627",
-      "display": "Encepur",
-      "target": [ {
-        "code": "16901001",
-        "display": "Central European encephalitis (disorder)"
-      } ]
-    }, {
-      "code": "628",
-      "display": "Encepur Kinder / Enfants",
-      "target": [ {
-        "code": "16901001",
-        "display": "Central European encephalitis (disorder)"
-      } ]
-    }, {
       "code": "62961",
       "display": "Fluarix Tetra",
       "target": [ {
