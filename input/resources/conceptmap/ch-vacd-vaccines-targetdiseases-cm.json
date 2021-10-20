@@ -6,9 +6,13 @@
   "name": "VaccineCodeToTargetDiseaseMapping",
   "title": "VaccineCode To TargetDisease Mapping",
   "status": "active",
-  "publisher": "HL7 Switzerland",
+  "publisher": "eHealth Suisse",
   "contact": [ {
-    "name": "eHealth Suisse"
+    "name": "eHealth Suisse",
+    "telecom": [ {
+      "system": "url",
+      "value": "https://www.e-health-suisse.ch/"
+    } ]
   } ],
   "copyright": "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.",
   "sourceUri": "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs",
@@ -66,6 +70,13 @@
         "display": "Viral hepatitis type B (disorder)"
       } ]
     }, {
+      "code": "642",
+      "display": "Heprecomb Kinder",
+      "target": [ {
+        "code": "66071002",
+        "display": "Viral hepatitis type B (disorder)"
+      } ]
+    }, {
       "code": "614",
       "display": "Inflexal V",
       "target": [ {
@@ -87,6 +98,13 @@
         "display": "Measles (disorder)"
       } ]
     }, {
+      "code": "555",
+      "display": "Orochol",
+      "target": [ {
+        "code": "63650001",
+        "display": "Cholera (disorder)"
+      } ]
+    }, {
       "code": "685",
       "display": "Rabipur",
       "target": [ {
@@ -97,6 +115,19 @@
       "code": "702",
       "display": "Td-pur",
       "target": [ {
+        "code": "76902006",
+        "display": "Tetanus (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+      } ]
+    }, {
+      "code": "686",
+      "display": "Td-Virelon",
+      "target": [ {
+        "code": "398102009",
+        "display": "Acute poliomyelitis (disorder)"
+      }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
       }, {
@@ -127,6 +158,9 @@
       "code": "681",
       "display": "Boostrix Polio",
       "target": [ {
+        "code": "398102009",
+        "display": "Acute poliomyelitis (disorder)"
+      }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
       }, {
@@ -135,19 +169,16 @@
       }, {
         "code": "397430003",
         "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
-        "code": "398102009",
-        "display": "Acute poliomyelitis (disorder)"
       } ]
     }, {
       "code": "567",
       "display": "Ditanrix",
       "target": [ {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "551",
@@ -155,7 +186,11 @@
       "target": [ {
         "code": "66071002",
         "display": "Viral hepatitis type B (disorder)"
-      }, {
+      } ]
+    }, {
+      "code": "534",
+      "display": "Engerix-B 20",
+      "target": [ {
         "code": "66071002",
         "display": "Viral hepatitis type B (disorder)"
       } ]
@@ -191,8 +226,8 @@
       "code": "638",
       "display": "Infanrix (DTPa-IPV)",
       "target": [ {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+        "code": "398102009",
+        "display": "Acute poliomyelitis (disorder)"
       }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
@@ -200,15 +235,18 @@
         "code": "27836007",
         "display": "Pertussis (disorder)"
       }, {
-        "code": "398102009",
-        "display": "Acute poliomyelitis (disorder)"
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "619",
       "display": "Infanrix (DTPa-IPV+Hib)",
       "target": [ {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+        "code": "709410003",
+        "display": "Haemophilus influenzae type b infection (disorder)"
+      }, {
+        "code": "398102009",
+        "display": "Acute poliomyelitis (disorder)"
       }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
@@ -216,24 +254,15 @@
         "code": "27836007",
         "display": "Pertussis (disorder)"
       }, {
-        "code": "398102009",
-        "display": "Acute poliomyelitis (disorder)"
-      }, {
-        "code": "709410003",
-        "display": "Haemophilus influenzae type b infection (disorder)"
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "640",
       "display": "Infanrix hexa (DTPa-HBV-IPV+Hib)",
       "target": [ {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
-        "code": "76902006",
-        "display": "Tetanus (disorder)"
-      }, {
-        "code": "27836007",
-        "display": "Pertussis (disorder)"
+        "code": "709410003",
+        "display": "Haemophilus influenzae type b infection (disorder)"
       }, {
         "code": "66071002",
         "display": "Viral hepatitis type B (disorder)"
@@ -241,13 +270,22 @@
         "code": "398102009",
         "display": "Acute poliomyelitis (disorder)"
       }, {
-        "code": "709410003",
-        "display": "Haemophilus influenzae type b infection (disorder)"
+        "code": "76902006",
+        "display": "Tetanus (disorder)"
+      }, {
+        "code": "27836007",
+        "display": "Pertussis (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "652",
       "display": "Mencevax ACWY",
       "target": [ {
+        "code": "127311000119106",
+        "display": "Sepsis caused by Meningococcus (disorder)"
+      }, {
         "code": "860805006",
         "display": "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
       } ]
@@ -275,11 +313,11 @@
       "code": "592",
       "display": "Twinrix 720/20",
       "target": [ {
-        "code": "40468003",
-        "display": "Viral hepatitis, type A (disorder)"
-      }, {
         "code": "66071002",
         "display": "Viral hepatitis type B (disorder)"
+      }, {
+        "code": "40468003",
+        "display": "Viral hepatitis, type A (disorder)"
       } ]
     }, {
       "code": "585",
@@ -317,6 +355,26 @@
         "display": "Viral hepatitis type B (disorder)"
       } ]
     }, {
+      "code": "268",
+      "display": "MMR-II",
+      "target": [ {
+        "code": "36653000",
+        "display": "Rubella (disorder)"
+      }, {
+        "code": "14189004",
+        "display": "Measles (disorder)"
+      }, {
+        "code": "36989005",
+        "display": "Mumps (disorder)"
+      } ]
+    }, {
+      "code": "247",
+      "display": "Mumpsvax",
+      "target": [ {
+        "code": "36989005",
+        "display": "Mumps (disorder)"
+      } ]
+    }, {
       "code": "373",
       "display": "Mutagrip",
       "target": [ {
@@ -327,33 +385,40 @@
       "code": "613",
       "display": "Pentavac",
       "target": [ {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+        "code": "709410003",
+        "display": "Haemophilus influenzae type b infection (disorder)"
       }, {
         "code": "398102009",
         "display": "Acute poliomyelitis (disorder)"
-      }, {
-        "code": "709410003",
-        "display": "Haemophilus influenzae type b infection (disorder)"
       }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
       }, {
         "code": "27836007",
         "display": "Pertussis (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+      } ]
+    }, {
+      "code": "509",
+      "display": "Pneumovax-23",
+      "target": [ {
+        "code": "127261000119100",
+        "display": "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)"
       } ]
     }, {
       "code": "646",
       "display": "Revaxis",
       "target": [ {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
         "code": "398102009",
         "display": "Acute poliomyelitis (disorder)"
       }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "520",
@@ -366,17 +431,17 @@
       "code": "612",
       "display": "Tetravac",
       "target": [ {
-        "code": "27836007",
-        "display": "Pertussis (disorder)"
-      }, {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
         "code": "398102009",
         "display": "Acute poliomyelitis (disorder)"
       }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
+      }, {
+        "code": "27836007",
+        "display": "Pertussis (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "417",
@@ -400,6 +465,13 @@
         "display": "Influenza caused by seasonal influenza virus (disorder)"
       } ]
     }, {
+      "code": "660",
+      "display": "Influvac plus",
+      "target": [ {
+        "code": "719590007",
+        "display": "Influenza caused by seasonal influenza virus (disorder)"
+      } ]
+    }, {
       "code": "654",
       "display": "Meningitec",
       "target": [ {
@@ -407,14 +479,43 @@
         "display": "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
       } ]
     }, {
-      "code": "711",
-      "display": "DiTe pediatric adsorbed",
+      "code": "643",
+      "display": "Prevenar-7",
       "target": [ {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+        "code": "127261000119100",
+        "display": "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)"
+      } ]
+    }, {
+      "code": "644",
+      "display": "Hexavac",
+      "target": [ {
+        "code": "709410003",
+        "display": "Haemophilus influenzae type b infection (disorder)"
+      }, {
+        "code": "66071002",
+        "display": "Viral hepatitis type B (disorder)"
+      }, {
+        "code": "398102009",
+        "display": "Acute poliomyelitis (disorder)"
       }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
+      }, {
+        "code": "27836007",
+        "display": "Pertussis (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+      } ]
+    }, {
+      "code": "711",
+      "display": "DiTe pediatric adsorbed",
+      "target": [ {
+        "code": "76902006",
+        "display": "Tetanus (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "704",
@@ -425,10 +526,17 @@
       } ]
     }, {
       "code": "417",
-      "display": "Rabique Mérieux",
+      "display": "Tollwut Impfstoff Mérieux",
       "target": [ {
         "code": "14168008",
         "display": "Rabies (disorder)"
+      } ]
+    }, {
+      "code": "483",
+      "display": "Rimevax",
+      "target": [ {
+        "code": "14189004",
+        "display": "Measles (disorder)"
       } ]
     }, {
       "code": "707",
@@ -442,28 +550,21 @@
       "display": "Gardasil",
       "target": [ {
         "code": "407458009",
-        "display": "Disease caused by Papillomaviridae (disorder) "
-      } ]
-    }, {
-      "code": "65387",
-      "display": "Gardasil 9",
-      "target": [ {
-        "code": "407458009",
-        "display": "Disease caused by Papillomaviridae (disorder) "
+        "display": "Disease caused by Papillomaviridae (disorder)"
       } ]
     }, {
       "code": "709",
       "display": "Zostavax",
       "target": [ {
         "code": "4740000",
-        "display": "Herpes zoster (disorder) "
+        "display": "Herpes zoster (disorder)"
       } ]
     }, {
       "code": "58158",
       "display": "Priorix-Tetra",
       "target": [ {
-        "code": "36989005",
-        "display": "Mumps (disorder)"
+        "code": "38907003",
+        "display": "Varicella (disorder)"
       }, {
         "code": "36653000",
         "display": "Rubella (disorder)"
@@ -471,8 +572,8 @@
         "code": "14189004",
         "display": "Measles (disorder)"
       }, {
-        "code": "38907003",
-        "display": "Varicella (disorder)"
+        "code": "36989005",
+        "display": "Mumps (disorder)"
       } ]
     }, {
       "code": "696",
@@ -499,14 +600,14 @@
       "code": "703",
       "display": "MMRVaxPro",
       "target": [ {
-        "code": "36989005",
-        "display": "Mumps (disorder)"
-      }, {
         "code": "36653000",
         "display": "Rubella (disorder)"
       }, {
         "code": "14189004",
         "display": "Measles (disorder)"
+      }, {
+        "code": "36989005",
+        "display": "Mumps (disorder)"
       } ]
     }, {
       "code": "58506",
@@ -534,7 +635,14 @@
       "display": "Cervarix",
       "target": [ {
         "code": "407458009",
-        "display": "Disease caused by Papillomaviridae (disorder) "
+        "display": "Disease caused by Papillomaviridae (disorder)"
+      } ]
+    }, {
+      "code": "60129",
+      "display": "Prevenar-13",
+      "target": [ {
+        "code": "127261000119100",
+        "display": "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)"
       } ]
     }, {
       "code": "59147",
@@ -547,6 +655,9 @@
       "code": "62502",
       "display": "Menveo",
       "target": [ {
+        "code": "127311000119106",
+        "display": "Sepsis caused by Meningococcus (disorder)"
+      }, {
         "code": "860805006",
         "display": "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
       } ]
@@ -554,11 +665,21 @@
       "code": "600",
       "display": "DiTe Anatoxal Erwachsene / Adultes",
       "target": [ {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+      } ]
+    }, {
+      "code": "690",
+      "display": "DiTe Anatoxal N Erwachsene / Adultes",
+      "target": [ {
+        "code": "76902006",
+        "display": "Tetanus (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "35",
@@ -573,6 +694,20 @@
       "target": [ {
         "code": "76902006",
         "display": "Tetanus (disorder)"
+      } ]
+    }, {
+      "code": "627",
+      "display": "Encepur N",
+      "target": [ {
+        "code": "16901001",
+        "display": "Central European encephalitis (disorder)"
+      } ]
+    }, {
+      "code": "628",
+      "display": "Encepur N Kinder / Enfants",
+      "target": [ {
+        "code": "16901001",
+        "display": "Central European encephalitis (disorder)"
       } ]
     }, {
       "code": "62961",
@@ -600,13 +735,6 @@
     "source": "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs",
     "target": "http://snomed.info/sct",
     "element": [ {
-      "code": "10",
-      "display": "Heprecomb Kinder",
-      "target": [ {
-        "code": "66071002",
-        "display": "Viral hepatitis type B (disorder)"
-      } ]
-    }, {
       "code": "14",
       "display": "MoRu-Viraten",
       "target": [ {
@@ -615,13 +743,6 @@
       }, {
         "code": "14189004",
         "display": "Measles (disorder)"
-      } ]
-    }, {
-      "code": "15",
-      "display": "Orochol",
-      "target": [ {
-        "code": "63650001",
-        "display": "Cholera (disorder)"
       } ]
     }, {
       "code": "16",
@@ -636,19 +757,6 @@
       "target": [ {
         "code": "398102009",
         "display": "Acute poliomyelitis (disorder)"
-      } ]
-    }, {
-      "code": "20",
-      "display": "Td-Virelon",
-      "target": [ {
-        "code": "76902006",
-        "display": "Tetanus (disorder)"
-      }, {
-        "code": "398102009",
-        "display": "Acute poliomyelitis (disorder)"
-      }, {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "23",
@@ -674,11 +782,11 @@
         "code": "76902006",
         "display": "Tetanus (disorder)"
       }, {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
         "code": "27836007",
         "display": "Pertussis (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "39",
@@ -687,17 +795,17 @@
         "code": "66071002",
         "display": "Viral hepatitis type B (disorder)"
       }, {
-        "code": "76902006",
-        "display": "Tetanus (disorder)"
-      }, {
         "code": "398102009",
         "display": "Acute poliomyelitis (disorder)"
       }, {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+        "code": "76902006",
+        "display": "Tetanus (disorder)"
       }, {
         "code": "27836007",
         "display": "Pertussis (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "47",
@@ -721,17 +829,11 @@
         "display": "Viral hepatitis type B (disorder)"
       } ]
     }, {
-      "code": "54",
-      "display": "MMR-II",
+      "code": "55",
+      "display": "Meningokokken-Impfstoff A+C Mérieux",
       "target": [ {
-        "code": "36653000",
-        "display": "Rubella (disorder)"
-      }, {
-        "code": "14189004",
-        "display": "Measles (disorder)"
-      }, {
-        "code": "36989005",
-        "display": "Mumps (disorder)"
+        "code": "127311000119106",
+        "display": "Sepsis caused by Meningococcus (disorder)"
       } ]
     }, {
       "code": "56",
@@ -741,56 +843,20 @@
         "display": "Rubella (disorder)"
       } ]
     }, {
-      "code": "57",
-      "display": "Mumpsvax",
-      "target": [ {
-        "code": "36989005",
-        "display": "Mumps (disorder)"
-      } ]
-    }, {
-      "code": "67",
-      "display": "Influvac plus",
-      "target": [ {
-        "code": "719590007",
-        "display": "Influenza caused by seasonal influenza virus (disorder)"
-      } ]
-    }, {
-      "code": "72",
-      "display": "Hexavac",
-      "target": [ {
-        "code": "66071002",
-        "display": "Viral hepatitis type B (disorder)"
-      }, {
-        "code": "76902006",
-        "display": "Tetanus (disorder)"
-      }, {
-        "code": "398102009",
-        "display": "Acute poliomyelitis (disorder)"
-      }, {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
-        "code": "709410003",
-        "display": "Haemophilus influenzae type b infection (disorder)"
-      }, {
-        "code": "27836007",
-        "display": "Pertussis (disorder)"
-      } ]
-    }, {
       "code": "73",
       "display": "Infanrix DTPa+Hib",
       "target": [ {
-        "code": "76902006",
-        "display": "Tetanus (disorder)"
-      }, {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
         "code": "709410003",
         "display": "Haemophilus influenzae type b infection (disorder)"
       }, {
+        "code": "76902006",
+        "display": "Tetanus (disorder)"
+      }, {
         "code": "27836007",
         "display": "Pertussis (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "74",
@@ -822,11 +888,11 @@
         "code": "76902006",
         "display": "Tetanus (disorder)"
       }, {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
         "code": "27836007",
         "display": "Pertussis (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "77",
@@ -849,31 +915,31 @@
         "code": "76902006",
         "display": "Tetanus (disorder)"
       }, {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
         "code": "27836007",
         "display": "Pertussis (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "80",
       "display": "Anatoxal DiTe Erwachsene",
       "target": [ {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "81",
       "display": "Anatoxal DiTe N Erwachsene",
       "target": [ {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "82",
@@ -944,11 +1010,11 @@
         "code": "76902006",
         "display": "Tetanus (disorder)"
       }, {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
         "code": "27836007",
         "display": "Pertussis (disorder)"
+      }, {
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "94",
@@ -985,8 +1051,8 @@
       "code": "99",
       "display": "Pentacoq",
       "target": [ {
-        "code": "27836007",
-        "display": "Pertussis (disorder)"
+        "code": "709410003",
+        "display": "Haemophilus influenzae type b infection (disorder)"
       }, {
         "code": "398102009",
         "display": "Acute poliomyelitis (disorder)"
@@ -994,11 +1060,18 @@
         "code": "76902006",
         "display": "Tetanus (disorder)"
       }, {
+        "code": "27836007",
+        "display": "Pertussis (disorder)"
+      }, {
         "code": "397430003",
         "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      }, {
-        "code": "709410003",
-        "display": "Haemophilus influenzae type b infection (disorder)"
+      } ]
+    }, {
+      "code": "100",
+      "display": "Pnu-Immune",
+      "target": [ {
+        "code": "127261000119100",
+        "display": "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)"
       } ]
     }, {
       "code": "101",
@@ -1022,24 +1095,17 @@
         "display": "Acute poliomyelitis (disorder)"
       } ]
     }, {
-      "code": "105",
-      "display": "Rimevax",
-      "target": [ {
-        "code": "14189004",
-        "display": "Measles (disorder)"
-      } ]
-    }, {
       "code": "106",
       "display": "Tetracoq",
       "target": [ {
-        "code": "27836007",
-        "display": "Pertussis (disorder)"
-      }, {
         "code": "398102009",
         "display": "Acute poliomyelitis (disorder)"
       }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
+      }, {
+        "code": "27836007",
+        "display": "Pertussis (disorder)"
       }, {
         "code": "397430003",
         "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
@@ -1048,14 +1114,14 @@
       "code": "107",
       "display": "Tetramune",
       "target": [ {
-        "code": "27836007",
-        "display": "Pertussis (disorder)"
+        "code": "709410003",
+        "display": "Haemophilus influenzae type b infection (disorder)"
       }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
       }, {
-        "code": "709410003",
-        "display": "Haemophilus influenzae type b infection (disorder)"
+        "code": "27836007",
+        "display": "Pertussis (disorder)"
       }, {
         "code": "397430003",
         "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
@@ -1126,12 +1192,16 @@
       "code": "121",
       "display": "Rimparix",
       "target": [ {
-        "code": "36989005",
-        "display": "Mumps (disorder)"
-      }, {
         "code": "14189004",
         "display": "Measles (disorder)"
       }, {
+        "code": "36989005",
+        "display": "Mumps (disorder)"
+      } ]
+    }, {
+      "code": "122",
+      "display": "Rubevac",
+      "target": [ {
         "code": "36653000",
         "display": "Rubella (disorder)"
       } ]
@@ -1139,14 +1209,14 @@
       "code": "123",
       "display": "Trimovax",
       "target": [ {
-        "code": "36989005",
-        "display": "Mumps (disorder)"
-      }, {
         "code": "36653000",
         "display": "Rubella (disorder)"
       }, {
         "code": "14189004",
         "display": "Measles (disorder)"
+      }, {
+        "code": "36989005",
+        "display": "Mumps (disorder)"
       } ]
     }, {
       "code": "126",
@@ -1231,14 +1301,14 @@
       "code": "142",
       "display": "Prohibit DTP",
       "target": [ {
-        "code": "27836007",
-        "display": "Pertussis (disorder)"
+        "code": "709410003",
+        "display": "Haemophilus influenzae type b infection (disorder)"
       }, {
         "code": "76902006",
         "display": "Tetanus (disorder)"
       }, {
-        "code": "709410003",
-        "display": "Haemophilus influenzae type b infection (disorder)"
+        "code": "27836007",
+        "display": "Pertussis (disorder)"
       }, {
         "code": "397430003",
         "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
@@ -1292,14 +1362,14 @@
       "code": "155",
       "display": "DiTePer Anatoxal",
       "target": [ {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+        "code": "76902006",
+        "display": "Tetanus (disorder)"
       }, {
         "code": "27836007",
         "display": "Pertussis (disorder)"
       }, {
-        "code": "76902006",
-        "display": "Tetanus (disorder)"
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "162",
@@ -1333,14 +1403,14 @@
       "code": "166",
       "display": "Infanrix",
       "target": [ {
-        "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+        "code": "76902006",
+        "display": "Tetanus (disorder)"
       }, {
         "code": "27836007",
         "display": "Pertussis (disorder)"
       }, {
-        "code": "76902006",
-        "display": "Tetanus (disorder)"
+        "code": "397430003",
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
       } ]
     }, {
       "code": "168",

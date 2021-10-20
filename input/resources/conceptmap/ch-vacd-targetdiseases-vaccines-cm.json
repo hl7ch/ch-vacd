@@ -1,0 +1,997 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "ch-vacd-targetdiseases-vaccines-cm",
+  "url": "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-targetdiseases-vaccines-cm",
+  "version": "202104.0-stable",
+  "name": "TargetDiseaseToVaccineCodeMapping",
+  "title": "TargetDisease To VaccineCode Mapping",
+  "status": "active",
+  "publisher": "eHealth Suisse",
+  "contact": [ {
+    "name": "eHealth Suisse",
+    "telecom": [ {
+      "system": "url",
+      "value": "https://www.e-health-suisse.ch/"
+    } ]
+  } ],
+  "copyright": "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.",
+  "sourceUri": "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs",
+  "targetUri": "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs",
+  "group": [ {
+    "source": "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs",
+    "target": "http://snomed.info/sct",
+    "element": [ {
+      "code": "397430003",
+      "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)",
+      "target": [ {
+        "code": "619",
+        "display": "Infanrix (DTPa-IPV+Hib)"
+      }, {
+        "code": "638",
+        "display": "Infanrix (DTPa-IPV)"
+      }, {
+        "code": "612",
+        "display": "Tetravac"
+      }, {
+        "code": "600",
+        "display": "DiTe Anatoxal Erwachsene / Adultes"
+      }, {
+        "code": "613",
+        "display": "Pentavac"
+      }, {
+        "code": "690",
+        "display": "DiTe Anatoxal N Erwachsene / Adultes"
+      }, {
+        "code": "567",
+        "display": "Ditanrix"
+      }, {
+        "code": "702",
+        "display": "Td-pur"
+      }, {
+        "code": "644",
+        "display": "Hexavac"
+      }, {
+        "code": "640",
+        "display": "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+      }, {
+        "code": "646",
+        "display": "Revaxis"
+      }, {
+        "code": "637",
+        "display": "Boostrix"
+      }, {
+        "code": "686",
+        "display": "Td-Virelon"
+      }, {
+        "code": "681",
+        "display": "Boostrix Polio"
+      }, {
+        "code": "711",
+        "display": "DiTe pediatric adsorbed"
+      } ]
+    }, {
+      "code": "76902006",
+      "display": "Tetanus (disorder)",
+      "target": [ {
+        "code": "619",
+        "display": "Infanrix (DTPa-IPV+Hib)"
+      }, {
+        "code": "638",
+        "display": "Infanrix (DTPa-IPV)"
+      }, {
+        "code": "612",
+        "display": "Tetravac"
+      }, {
+        "code": "600",
+        "display": "DiTe Anatoxal Erwachsene / Adultes"
+      }, {
+        "code": "613",
+        "display": "Pentavac"
+      }, {
+        "code": "690",
+        "display": "DiTe Anatoxal N Erwachsene / Adultes"
+      }, {
+        "code": "567",
+        "display": "Ditanrix"
+      }, {
+        "code": "702",
+        "display": "Td-pur"
+      }, {
+        "code": "644",
+        "display": "Hexavac"
+      }, {
+        "code": "640",
+        "display": "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+      }, {
+        "code": "707",
+        "display": "Tetanol pur"
+      }, {
+        "code": "646",
+        "display": "Revaxis"
+      }, {
+        "code": "637",
+        "display": "Boostrix"
+      }, {
+        "code": "35",
+        "display": "Te Anatoxal"
+      }, {
+        "code": "686",
+        "display": "Td-Virelon"
+      }, {
+        "code": "689",
+        "display": "Te Anatoxal N"
+      }, {
+        "code": "681",
+        "display": "Boostrix Polio"
+      }, {
+        "code": "711",
+        "display": "DiTe pediatric adsorbed"
+      } ]
+    }, {
+      "code": "27836007",
+      "display": "Pertussis (disorder)",
+      "target": [ {
+        "code": "619",
+        "display": "Infanrix (DTPa-IPV+Hib)"
+      }, {
+        "code": "640",
+        "display": "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+      }, {
+        "code": "638",
+        "display": "Infanrix (DTPa-IPV)"
+      }, {
+        "code": "612",
+        "display": "Tetravac"
+      }, {
+        "code": "637",
+        "display": "Boostrix"
+      }, {
+        "code": "613",
+        "display": "Pentavac"
+      }, {
+        "code": "681",
+        "display": "Boostrix Polio"
+      }, {
+        "code": "644",
+        "display": "Hexavac"
+      } ]
+    }, {
+      "code": "398102009",
+      "display": "Acute poliomyelitis (disorder)",
+      "target": [ {
+        "code": "619",
+        "display": "Infanrix (DTPa-IPV+Hib)"
+      }, {
+        "code": "640",
+        "display": "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+      }, {
+        "code": "638",
+        "display": "Infanrix (DTPa-IPV)"
+      }, {
+        "code": "669",
+        "display": "Poliorix"
+      }, {
+        "code": "612",
+        "display": "Tetravac"
+      }, {
+        "code": "646",
+        "display": "Revaxis"
+      }, {
+        "code": "613",
+        "display": "Pentavac"
+      }, {
+        "code": "686",
+        "display": "Td-Virelon"
+      }, {
+        "code": "681",
+        "display": "Boostrix Polio"
+      }, {
+        "code": "644",
+        "display": "Hexavac"
+      } ]
+    }, {
+      "code": "709410003",
+      "display": "Haemophilus influenzae type b infection (disorder)",
+      "target": [ {
+        "code": "619",
+        "display": "Infanrix (DTPa-IPV+Hib)"
+      }, {
+        "code": "640",
+        "display": "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+      }, {
+        "code": "603",
+        "display": "Hiberix"
+      }, {
+        "code": "613",
+        "display": "Pentavac"
+      }, {
+        "code": "644",
+        "display": "Hexavac"
+      } ]
+    }, {
+      "code": "40468003",
+      "display": "Viral hepatitis, type A (disorder)",
+      "target": [ {
+        "code": "558",
+        "display": "Havrix 1440"
+      }, {
+        "code": "599",
+        "display": "Havrix 720"
+      }, {
+        "code": "592",
+        "display": "Twinrix 720/20"
+      }, {
+        "code": "572",
+        "display": "Epaxal"
+      } ]
+    }, {
+      "code": "66071002",
+      "display": "Viral hepatitis type B (disorder)",
+      "target": [ {
+        "code": "640",
+        "display": "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+      }, {
+        "code": "528",
+        "display": "Gen H-B-Vax 10"
+      }, {
+        "code": "544",
+        "display": "Heprecomb"
+      }, {
+        "code": "551",
+        "display": "Engerix-B 10"
+      }, {
+        "code": "610",
+        "display": "Gen H-B-Vax 5"
+      }, {
+        "code": "663",
+        "display": "HBVAXPRO 10"
+      }, {
+        "code": "545",
+        "display": "HBVAXPRO 40"
+      }, {
+        "code": "534",
+        "display": "Engerix-B 20"
+      }, {
+        "code": "592",
+        "display": "Twinrix 720/20"
+      }, {
+        "code": "642",
+        "display": "Heprecomb Kinder"
+      }, {
+        "code": "644",
+        "display": "Hexavac"
+      } ]
+    }, {
+      "code": "14189004",
+      "display": "Measles (disorder)",
+      "target": [ {
+        "code": "268",
+        "display": "MMR-II"
+      }, {
+        "code": "483",
+        "display": "Rimevax"
+      }, {
+        "code": "703",
+        "display": "MMRVaxPro"
+      }, {
+        "code": "58506",
+        "display": "Measles vaccine live"
+      }, {
+        "code": "533",
+        "display": "Moraten"
+      }, {
+        "code": "615",
+        "display": "Priorix"
+      }, {
+        "code": "58158",
+        "display": "Priorix-Tetra"
+      } ]
+    }, {
+      "code": "36989005",
+      "display": "Mumps (disorder)",
+      "target": [ {
+        "code": "268",
+        "display": "MMR-II"
+      }, {
+        "code": "247",
+        "display": "Mumpsvax"
+      }, {
+        "code": "703",
+        "display": "MMRVaxPro"
+      }, {
+        "code": "615",
+        "display": "Priorix"
+      }, {
+        "code": "58158",
+        "display": "Priorix-Tetra"
+      } ]
+    }, {
+      "code": "36653000",
+      "display": "Rubella (disorder)",
+      "target": [ {
+        "code": "268",
+        "display": "MMR-II"
+      }, {
+        "code": "703",
+        "display": "MMRVaxPro"
+      }, {
+        "code": "615",
+        "display": "Priorix"
+      }, {
+        "code": "58158",
+        "display": "Priorix-Tetra"
+      } ]
+    }, {
+      "code": "16901001",
+      "display": "Central European encephalitis (disorder)",
+      "target": [ {
+        "code": "628",
+        "display": "Encepur N Kinder / Enfants"
+      }, {
+        "code": "627",
+        "display": "Encepur N"
+      }, {
+        "code": "628",
+        "display": "Encepur N Kinder / Enfants"
+      }, {
+        "code": "683",
+        "display": "FSME-Immun 0.25 ml Junior"
+      }, {
+        "code": "627",
+        "display": "Encepur N"
+      }, {
+        "code": "450",
+        "display": "FSME-Immun CC"
+      } ]
+    }, {
+      "code": "860805006",
+      "display": "Encephalomyelitis caused by Neisseria meningitidis (disorder)",
+      "target": [ {
+        "code": "654",
+        "display": "Meningitec"
+      }, {
+        "code": "62502",
+        "display": "Menveo"
+      }, {
+        "code": "656",
+        "display": "NeisVac-C"
+      }, {
+        "code": "652",
+        "display": "Mencevax ACWY"
+      }, {
+        "code": "657",
+        "display": "Menjugate"
+      } ]
+    }, {
+      "code": "719590007",
+      "display": "Influenza caused by seasonal influenza virus (disorder)",
+      "target": [ {
+        "code": "583",
+        "display": "Fluarix"
+      }, {
+        "code": "614",
+        "display": "Inflexal V"
+      }, {
+        "code": "58271",
+        "display": "Optaflu"
+      }, {
+        "code": "660",
+        "display": "Influvac plus"
+      }, {
+        "code": "373",
+        "display": "Mutagrip"
+      }, {
+        "code": "62961",
+        "display": "Fluarix Tetra"
+      }, {
+        "code": "58317",
+        "display": "Fluad"
+      }, {
+        "code": "59267",
+        "display": "Agrippal"
+      }, {
+        "code": "485",
+        "display": "Influvac"
+      } ]
+    }, {
+      "code": "63650001",
+      "display": "Cholera (disorder)",
+      "target": [ {
+        "code": "704",
+        "display": "Dukoral"
+      }, {
+        "code": "555",
+        "display": "Orochol"
+      } ]
+    }, {
+      "code": "14168008",
+      "display": "Rabies (disorder)",
+      "target": [ {
+        "code": "685",
+        "display": "Rabipur"
+      }, {
+        "code": "417",
+        "display": "Tollwut Impfstoff Mérieux"
+      }, {
+        "code": "417",
+        "display": "Tollwut Impfstoff Mérieux"
+      } ]
+    }, {
+      "code": "4834000",
+      "display": "Typhoid fever (disorder)",
+      "target": [ {
+        "code": "467",
+        "display": "Vivotif"
+      } ]
+    }, {
+      "code": "38907003",
+      "display": "Varicella (disorder)",
+      "target": [ {
+        "code": "688",
+        "display": "Varivax"
+      }, {
+        "code": "585",
+        "display": "Varilrix"
+      }, {
+        "code": "58158",
+        "display": "Priorix-Tetra"
+      } ]
+    }, {
+      "code": "56717001",
+      "display": "Tuberculosis (disorder)",
+      "target": [ {
+        "code": "696",
+        "display": "BCG SSI"
+      } ]
+    }, {
+      "code": "16541001",
+      "display": "Yellow fever (disorder)",
+      "target": [ {
+        "code": "520",
+        "display": "Stamaril"
+      } ]
+    }, {
+      "code": "127261000119100",
+      "display": "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)",
+      "target": [ {
+        "code": "60129",
+        "display": "Prevenar-13"
+      }, {
+        "code": "643",
+        "display": "Prevenar-7"
+      } ]
+    }, {
+      "code": "127261000119100",
+      "display": "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)",
+      "target": [ {
+        "code": "509",
+        "display": "Pneumovax-23"
+      } ]
+    }, {
+      "code": "127311000119106",
+      "display": "Sepsis caused by Meningococcus (disorder)",
+      "target": [ {
+        "code": "62502",
+        "display": "Menveo"
+      }, {
+        "code": "652",
+        "display": "Mencevax ACWY"
+      } ]
+    }, {
+      "code": "407458009",
+      "display": "Disease caused by Papillomaviridae (disorder)",
+      "target": [ {
+        "code": "57735",
+        "display": "Gardasil"
+      }, {
+        "code": "57814",
+        "display": "Cervarix"
+      } ]
+    }, {
+      "code": "4740000",
+      "display": "Herpes zoster (disorder)",
+      "target": [ {
+        "code": "709",
+        "display": "Zostavax"
+      } ]
+    }, {
+      "code": "18624000",
+      "display": "Disease caused by Rotavirus (disorder)",
+      "target": [ {
+        "code": "60150",
+        "display": "Rotarix"
+      } ]
+    }, {
+      "code": "52947006",
+      "display": "Japanese encephalitis virus disease (disorder)",
+      "target": [ {
+        "code": "59147",
+        "display": "Ixiaro"
+      } ]
+    }, {
+      "code": "840539006",
+      "display": "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)",
+      "target": [ {
+        "code": "68225",
+        "display": "COMIRNATY (Pfizer)"
+      }, {
+        "code": "68267",
+        "display": "COVID-19 Vaccine (Moderna)"
+      } ]
+    } ]
+  }, {
+    "source": "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs",
+    "target": "http://snomed.info/sct",
+    "element": [ {
+      "code": "397430003",
+      "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)",
+      "target": [ {
+        "code": "93",
+        "display": "Infanrix DTPa-HBV"
+      }, {
+        "code": "99",
+        "display": "Pentacoq"
+      }, {
+        "code": "73",
+        "display": "Infanrix DTPa+Hib"
+      }, {
+        "code": "80",
+        "display": "Anatoxal DiTe Erwachsene"
+      }, {
+        "code": "126",
+        "display": "Ditanrix pediatric"
+      }, {
+        "code": "81",
+        "display": "Anatoxal DiTe N Erwachsene"
+      }, {
+        "code": "154",
+        "display": "DiTe Anatoxal Kinder / Enfants"
+      }, {
+        "code": "107",
+        "display": "Tetramune"
+      }, {
+        "code": "82",
+        "display": "Anatoxal Di"
+      }, {
+        "code": "35",
+        "display": "Infanrix DTPa"
+      }, {
+        "code": "142",
+        "display": "Prohibit DTP"
+      }, {
+        "code": "39",
+        "display": "Infanrix Penta"
+      }, {
+        "code": "106",
+        "display": "Tetracoq"
+      }, {
+        "code": "166",
+        "display": "Infanrix"
+      }, {
+        "code": "134",
+        "display": "Anatoxal DiTe Kinder"
+      }, {
+        "code": "79",
+        "display": "Anatoxal DiTePer"
+      }, {
+        "code": "76",
+        "display": "Acel Immune"
+      }, {
+        "code": "155",
+        "display": "DiTePer Anatoxal"
+      }, {
+        "code": "151",
+        "display": "Di Anatoxal"
+      } ]
+    }, {
+      "code": "76902006",
+      "display": "Tetanus (disorder)",
+      "target": [ {
+        "code": "93",
+        "display": "Infanrix DTPa-HBV"
+      }, {
+        "code": "99",
+        "display": "Pentacoq"
+      }, {
+        "code": "73",
+        "display": "Infanrix DTPa+Hib"
+      }, {
+        "code": "80",
+        "display": "Anatoxal DiTe Erwachsene"
+      }, {
+        "code": "84",
+        "display": "Anatoxal Te N"
+      }, {
+        "code": "126",
+        "display": "Ditanrix pediatric"
+      }, {
+        "code": "81",
+        "display": "Anatoxal DiTe N Erwachsene"
+      }, {
+        "code": "154",
+        "display": "DiTe Anatoxal Kinder / Enfants"
+      }, {
+        "code": "83",
+        "display": "Anatoxal Te"
+      }, {
+        "code": "107",
+        "display": "Tetramune"
+      }, {
+        "code": "168",
+        "display": "Tanrix"
+      }, {
+        "code": "35",
+        "display": "Infanrix DTPa"
+      }, {
+        "code": "142",
+        "display": "Prohibit DTP"
+      }, {
+        "code": "39",
+        "display": "Infanrix Penta"
+      }, {
+        "code": "106",
+        "display": "Tetracoq"
+      }, {
+        "code": "166",
+        "display": "Infanrix"
+      }, {
+        "code": "134",
+        "display": "Anatoxal DiTe Kinder"
+      }, {
+        "code": "79",
+        "display": "Anatoxal DiTePer"
+      }, {
+        "code": "76",
+        "display": "Acel Immune"
+      }, {
+        "code": "155",
+        "display": "DiTePer Anatoxal"
+      } ]
+    }, {
+      "code": "27836007",
+      "display": "Pertussis (disorder)",
+      "target": [ {
+        "code": "39",
+        "display": "Infanrix Penta"
+      }, {
+        "code": "106",
+        "display": "Tetracoq"
+      }, {
+        "code": "166",
+        "display": "Infanrix"
+      }, {
+        "code": "93",
+        "display": "Infanrix DTPa-HBV"
+      }, {
+        "code": "99",
+        "display": "Pentacoq"
+      }, {
+        "code": "73",
+        "display": "Infanrix DTPa+Hib"
+      }, {
+        "code": "79",
+        "display": "Anatoxal DiTePer"
+      }, {
+        "code": "76",
+        "display": "Acel Immune"
+      }, {
+        "code": "107",
+        "display": "Tetramune"
+      }, {
+        "code": "155",
+        "display": "DiTePer Anatoxal"
+      }, {
+        "code": "35",
+        "display": "Infanrix DTPa"
+      }, {
+        "code": "142",
+        "display": "Prohibit DTP"
+      }, {
+        "code": "77",
+        "display": "Acel P"
+      } ]
+    }, {
+      "code": "398102009",
+      "display": "Acute poliomyelitis (disorder)",
+      "target": [ {
+        "code": "39",
+        "display": "Infanrix Penta"
+      }, {
+        "code": "102",
+        "display": "Polio Sabin"
+      }, {
+        "code": "106",
+        "display": "Tetracoq"
+      }, {
+        "code": "139",
+        "display": "Koprowski"
+      }, {
+        "code": "148",
+        "display": "Polio Lilly"
+      }, {
+        "code": "99",
+        "display": "Pentacoq"
+      }, {
+        "code": "147",
+        "display": "Polio Koprowski (K1-K3)"
+      }, {
+        "code": "138",
+        "display": "K1, K2, K3"
+      }, {
+        "code": "101",
+        "display": "Polio Salk"
+      }, {
+        "code": "17",
+        "display": "Poliomyelitis Impfstoff Berna"
+      }, {
+        "code": "103",
+        "display": "Poloral"
+      } ]
+    }, {
+      "code": "709410003",
+      "display": "Haemophilus influenzae type b infection (disorder)",
+      "target": [ {
+        "code": "92",
+        "display": "HibTiter"
+      }, {
+        "code": "78",
+        "display": "Act-Hib"
+      }, {
+        "code": "99",
+        "display": "Pentacoq"
+      }, {
+        "code": "73",
+        "display": "Infanrix DTPa+Hib"
+      }, {
+        "code": "133",
+        "display": "ProHibit"
+      }, {
+        "code": "107",
+        "display": "Tetramune"
+      }, {
+        "code": "98",
+        "display": "Pedvax"
+      }, {
+        "code": "142",
+        "display": "Prohibit DTP"
+      } ]
+    }, {
+      "code": "40468003",
+      "display": "Viral hepatitis, type A (disorder)",
+      "target": [ {
+        "code": "165",
+        "display": "Havrix junior"
+      }, {
+        "code": "74",
+        "display": "Twinrix 360/10"
+      }, {
+        "code": "115",
+        "display": "Havrix 360"
+      }, {
+        "code": "110",
+        "display": "Vaqta"
+      } ]
+    }, {
+      "code": "66071002",
+      "display": "Viral hepatitis type B (disorder)",
+      "target": [ {
+        "code": "39",
+        "display": "Infanrix Penta"
+      }, {
+        "code": "172",
+        "display": "Hepavax"
+      }, {
+        "code": "118",
+        "display": "Hevac B"
+      }, {
+        "code": "93",
+        "display": "Infanrix DTPa-HBV"
+      }, {
+        "code": "164",
+        "display": "HBVAX DNA 40"
+      }, {
+        "code": "53",
+        "display": "HBVAXPRO 5"
+      }, {
+        "code": "170",
+        "display": "Engerix-B 40"
+      }, {
+        "code": "74",
+        "display": "Twinrix 360/10"
+      }, {
+        "code": "163",
+        "display": "HBVAX DNA 10"
+      }, {
+        "code": "162",
+        "display": "HBVAX DNA 5"
+      } ]
+    }, {
+      "code": "14189004",
+      "display": "Measles (disorder)",
+      "target": [ {
+        "code": "14",
+        "display": "MoRu-Viraten"
+      }, {
+        "code": "23",
+        "display": "Triviraten"
+      }, {
+        "code": "47",
+        "display": "Attenuvax"
+      }, {
+        "code": "119",
+        "display": "MMR-I"
+      }, {
+        "code": "88",
+        "display": "Biviraten"
+      }, {
+        "code": "75",
+        "display": "Pluserix"
+      }, {
+        "code": "121",
+        "display": "Rimparix"
+      }, {
+        "code": "120",
+        "display": "Moruman"
+      }, {
+        "code": "127",
+        "display": "Eolarix"
+      }, {
+        "code": "96",
+        "display": "MM Vax"
+      }, {
+        "code": "123",
+        "display": "Trimovax"
+      } ]
+    }, {
+      "code": "36989005",
+      "display": "Mumps (disorder)",
+      "target": [ {
+        "code": "75",
+        "display": "Pluserix"
+      }, {
+        "code": "97",
+        "display": "Mumaten"
+      }, {
+        "code": "121",
+        "display": "Rimparix"
+      }, {
+        "code": "96",
+        "display": "MM Vax"
+      }, {
+        "code": "119",
+        "display": "MMR-I"
+      }, {
+        "code": "123",
+        "display": "Trimovax"
+      }, {
+        "code": "88",
+        "display": "Biviraten"
+      } ]
+    }, {
+      "code": "36653000",
+      "display": "Rubella (disorder)",
+      "target": [ {
+        "code": "117",
+        "display": "Almevax"
+      }, {
+        "code": "14",
+        "display": "MoRu-Viraten"
+      }, {
+        "code": "23",
+        "display": "Triviraten"
+      }, {
+        "code": "91",
+        "display": "Ervevax"
+      }, {
+        "code": "119",
+        "display": "MMR-I"
+      }, {
+        "code": "75",
+        "display": "Pluserix"
+      }, {
+        "code": "56",
+        "display": "Meruvax"
+      }, {
+        "code": "127",
+        "display": "Eolarix"
+      }, {
+        "code": "122",
+        "display": "Rubevac"
+      }, {
+        "code": "123",
+        "display": "Trimovax"
+      }, {
+        "code": "111",
+        "display": "Rubeaten"
+      }, {
+        "code": "112",
+        "display": "Rudivax"
+      } ]
+    }, {
+      "code": "16901001",
+      "display": "Central European encephalitis (disorder)",
+      "target": [ {
+        "code": "128",
+        "display": "FSME-Immun Injekt"
+      } ]
+    }, {
+      "code": "63650001",
+      "display": "Cholera (disorder)",
+      "target": [ {
+        "code": "16",
+        "display": "Orochol E"
+      } ]
+    }, {
+      "code": "14168008",
+      "display": "Rabies (disorder)",
+      "target": [ {
+        "code": "94",
+        "display": "Lyssavac Berna"
+      } ]
+    }, {
+      "code": "4834000",
+      "display": "Typhoid fever (disorder)",
+      "target": [ {
+        "code": "25",
+        "display": "Vivotif L"
+      }, {
+        "code": "143",
+        "display": "TAB oral"
+      } ]
+    }, {
+      "code": "56717001",
+      "display": "Tuberculosis (disorder)",
+      "target": [ {
+        "code": "87",
+        "display": "BCG Vaccin Mérieux"
+      }, {
+        "code": "48",
+        "display": "BCG"
+      } ]
+    }, {
+      "code": "16541001",
+      "display": "Yellow fever (disorder)",
+      "target": [ {
+        "code": "86",
+        "display": "Arilvax"
+      } ]
+    }, {
+      "code": "127261000119100",
+      "display": "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)",
+      "target": [ {
+        "code": "100",
+        "display": "Pnu-Immune"
+      } ]
+    }, {
+      "code": "127311000119106",
+      "display": "Sepsis caused by Meningococcus (disorder)",
+      "target": [ {
+        "code": "55",
+        "display": "Meningokokken-Impfstoff A+C Mérieux"
+      } ]
+    }, {
+      "code": "442438000",
+      "display": "Influenza caused by Influenza A virus (disorder)",
+      "target": [ {
+        "code": "136",
+        "display": "Celtura"
+      }, {
+        "code": "137",
+        "display": "Focetria"
+      }, {
+        "code": "141",
+        "display": "Pandemrix"
+      } ]
+    }, {
+      "code": "67924001",
+      "display": "Smallpox (disorder)",
+      "target": [ {
+        "code": "169",
+        "display": "Vaccin variole"
+      }, {
+        "code": "144",
+        "display": "Variola"
+      } ]
+    } ]
+  } ]
+}

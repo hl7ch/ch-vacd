@@ -1113,6 +1113,13 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
+		<resource>
+			<reference>
+				<reference
+					value="ConceptMap/ch-vacd-targetdiseases-vaccines-cm" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
 
 		<!-- **************************************************** -->
 		<!-- Pages -->
