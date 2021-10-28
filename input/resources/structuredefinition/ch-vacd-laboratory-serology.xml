@@ -105,7 +105,12 @@
 		<element id="Observation.valueQuantity">
 			<path value="Observation.valueQuantity" />
 			<short value="Observation.valueQuantity" />
-			<min value="1" />
+			<max value="1" />
+		</element>
+		
+		<element id="Observation.valueCodeableConcept">
+			<path value="Observation.valueCodeableConcept" />
+			<short value="Observation.valueCodeableConcept" />
 			<max value="1" />
 		</element>
 
