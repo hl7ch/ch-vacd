@@ -61,3 +61,9 @@ This is the categorie to list issues "as nice to have"
 
 ### 4.2 Missing Parts
 [Issue 72](https://github.com/ehealthsuisse/ch-vacd/issues/72) - * - Add ConceptMap's (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 85](https://github.com/ehealthsuisse/ch-vacd/issues/85))<br>
+
+### 4.3 Questions/Diskussion/ChageResource
+
+### 4.4 Structural/Concept
+
+### 4.5 Backlog
