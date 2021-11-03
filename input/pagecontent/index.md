@@ -33,9 +33,11 @@ The following documents have been defined:
 
 ### Collaboration
 This guide is created by [RALY GmbH](https://www.raly.ch) as a mandate of [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html).
+
 There was also support from
 * [HL7 Switzerland](https://www.hl7.ch)
 * [Swiss FHIR Implementers Community](https://www.fhir.ch/)
+
 especially during the executed ballots.
 
 
