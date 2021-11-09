@@ -18,8 +18,8 @@
   "sourceUri": "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs",
   "targetUri": "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs",
   "group": [ {
-    "source": "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs",
-    "target": "http://snomed.info/sct",
+  	"source": "http://snomed.info/sct",
+    "target": "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs",
     "element": [ {
       "code": "397430003",
       "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)",
