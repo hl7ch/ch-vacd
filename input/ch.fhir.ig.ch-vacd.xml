@@ -41,6 +41,13 @@
 		<packageId value="hl7.fhir.uv.ips" />
 		<version value="1.0.0" />
 	</dependsOn>
+	
+	<dependsOn id="challergy">
+		<uri
+			value="http://fhir.ch/ig/ch-allergyintolerance/ImplementationGuide/ch.fhir.ig.ch-allergyintolerance" />
+		<packageId value="ch.fhir.ig.ch-allergyintolerance" />
+		<version value="0.2.0" />
+	</dependsOn>
 
 	<definition>
 		<grouping>
@@ -407,10 +414,32 @@
 			</reference>
 			<name value="7.1 Immunization" />
 			<description
-				value="Example forImmunization for all documents except Recommendation Request/Response" />
+				value="Example for Immunization for all documents except Recommendation Request/Response" />
 			<exampleCanonical
 				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
 		</resource>
+		<!-- slicing vaccineCode test -->
+		<resource>
+			<reference>
+				<reference value="Immunization/7-1-Immunization2" />
+			</reference>
+			<name value="7.1 Immunization" />
+			<description
+				value="Example for Immunization with absent reason" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Immunization/7-1-Immunization3" />
+			</reference>
+			<name value="7.1 Immunization" />
+			<description
+				value="Example for Immunization with ATC" />
+			<exampleCanonical
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+		</resource>
+		
 		<resource>
 			<reference>
 				<reference value="Immunization/7-2-Immunization" />
@@ -1030,7 +1059,6 @@
 		<!-- **************************************************** -->
 		<!-- References extensions -->
 		<!-- **************************************************** -->
-
 		<resource>
 			<reference>
 				<reference
@@ -1038,8 +1066,15 @@
 			</reference>
 			<exampleBoolean value="false" />
 		</resource>
-
-
+		
+		<resource>
+			<reference>
+				<reference
+					value="StructureDefinition/ch-vacd-ext-entry-relatesto" />
+			</reference>
+			<exampleBoolean value="false" />
+		</resource>
+		
 		<!-- **************************************************** -->
 		<!-- References value sets -->
 		<!-- **************************************************** -->
