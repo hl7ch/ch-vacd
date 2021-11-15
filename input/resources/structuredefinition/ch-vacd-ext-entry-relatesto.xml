@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+	<id value="ch-vacd-ext-entry-relatesto" />
+	<url
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-entry-relatesto" />
+	<version value="0.1.0" />
+	<name value="CHVACDExtensionEntryRelatesTo" />
+	<title value="CH VACD Extension Entry RelatesTo" />
+	<status value="draft" />
+	<date value="2021-11-09T00:00:00+00:00" />
+	<publisher value="eHealth Suisse" />
+	<kind value="complex-type" />
+	<abstract value="false" />
+	<description
+		value="Extension to make a reference to an entry in an other document." />
+	<context>
+		<type value="element" />
+		<expression value="DomainResource" />
+	</context>
+	<type value="Extension" />
+	<baseDefinition
+		value="http://hl7.org/fhir/StructureDefinition/Extension" />
+	<derivation value="constraint" />
+	<differential>
+		<element id="Extension">
+			<path value="Extension" />
+			<short value="Reference to related resource" />
+			<definition
+				value="Extension to define reference to other related resource in an other related document." />
+			<min value="0" />
+			<max value="*" />
+		</element>
+		<element id="Extension.extension:entry">
+			<path value="Extension.extension" />
+			<sliceName value="entry" />
+			<short value="Reference to the related entry" />
+			<definition value="Reference to the related entry." />
+			<min value="1" />
+			<max value="1" />
+			<type>
+				<code value="Extension" />
+			</type>
+		</element>
+		<element id="Extension.extension:entry.extension">
+			<path value="Extension.extension.extension" />
+			<max value="0" />
+		</element>
+		<element id="Extension.extension:entry.url">
+			<path value="Extension.extension.url" />
+			<type>
+				<code value="uri" />
+			</type>
+			<fixedUri value="entry" />
+		</element>
+		<element id="Extension.extension:entry.valueReference">
+			<path value="Extension.extension.valueReference" />
+			<short value="The Reference " />
+			<min value="1" />
+			<type>
+				<code value="Reference" />
+				<targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+				<targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-condition" />
+				<targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology" />
+				<targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization-recommendations" />
+			</type>
+			<mustSupport value="true" />
+		</element>
+		
+		<element id="Extension.extension:document">
+			<path value="Extension.extension" />
+			<sliceName value="document" />
+			<short value="Reference to the related document" />
+			<definition value="Reference to the related document" />
+			<min value="1" />
+			<max value="1" />
+			<type>
+				<code value="Extension" />
+			</type>
+		</element>
+		<element id="Extension.extension:document.extension">
+			<path value="Extension.extension.extension" />
+			<max value="0" />
+		</element>
+		<element id="Extension.extension:document.url">
+			<path value="Extension.extension.url" />
+			<type>
+				<code value="uri" />
+			</type>
+			<fixedUri value="document" />
+		</element>
+		<element id="Extension.extension:document.valueReference">
+			<path value="Extension.extension.valueReference" />
+			<short value="The Reference" />
+			<min value="1" />
+			<type>
+				<code value="Reference" />
+				<targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-vaccination-record" />
+				<targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-administration" />
+			</type>
+			<mustSupport value="true" />
+		</element>
+		
+		<element id="Extension.url">
+			<path value="Extension.url" />
+			<fixedUri
+				value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-entry-relatesto" />
+		</element>
+		<element id="Extension.value[x]">
+			<path value="Extension.value[x]" />
+			<min value="0" />
+			<max value="0" />
+		</element>
+	</differential>
+</StructureDefinition>
