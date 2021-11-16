@@ -20,18 +20,17 @@
 	<abstract value="false" />
 	<type value="Condition" />
 	<baseDefinition
-		value="http://hl7.org/fhir/StructureDefinition/Condition" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-condition" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Condition">
 			<path value="Condition" />
 		</element>
-		<element id="Condition.code">
+		<!-- <element id="Condition.code">
 			<path value="Condition.code" />
 			<short value="Condition code" />
 			<min value="1" />
-		</element>
-
+		</element> -->
 		<element id="Condition.subject">
 			<path value="Condition.subject" />
 			<short value="Patient" />
@@ -46,7 +45,14 @@
 			<path value="Condition.encounter" />
 			<max value="0" />
 		</element>
-
+		
+		<element id="Condition.recordedDate">
+			<path value="Condition.recordedDate" />
+			<short value="Condition recordedDate" />
+			<min value="1" />
+			<max value="1" />
+		</element>
+		
 		<element id="Condition.recorder">
 			<path value="Condition.recorder" />
 			<type>
