@@ -557,7 +557,8 @@
       "display": "Tuberculosis (disorder)",
       "target": [ {
         "code": "696",
-        "display": "BCG SSI"
+        "display": "BCG SSI",
+        "equivalence": "wider"
       } ]
     }, {
       "code": "16541001",
@@ -578,11 +579,7 @@
         "code": "643",
         "display": "Prevenar-7",
         "equivalence": "wider"
-      } ]
-    }, {
-      "code": "127261000119100",
-      "display": "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)",
-      "target": [ {
+      }, {
         "code": "509",
         "display": "Pneumovax-23",
         "equivalence": "wider"
