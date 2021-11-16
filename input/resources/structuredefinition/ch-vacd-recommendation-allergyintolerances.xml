@@ -19,7 +19,7 @@
 	<abstract value="false" />
 	<type value="AllergyIntolerance" />
 	<baseDefinition
-		value="http://hl7.org/fhir/StructureDefinition/AllergyIntolerance" />
+		value="http://fhir.ch/ig/ch-allergyintolerance/StructureDefinition/ch-allergyintolerance" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="AllergyIntolerance">
