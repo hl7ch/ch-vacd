@@ -1045,13 +1045,16 @@
       "display": "Acel Immune",
       "target": [ {
         "code": "76902006",
-        "display": "Tetanus (disorder)"
+        "display": "Tetanus (disorder)",
+        "equivalence": "specializes"
       }, {
         "code": "27836007",
-        "display": "Pertussis (disorder)"
+        "display": "Pertussis (disorder)",
+        "equivalence": "specializes"
       }, {
         "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)",
+        "equivalence": "specializes"
       } ]
     }, {
       "code": "77",
@@ -1606,13 +1609,16 @@
       "display": "DiTePer Anatoxal",
       "target": [ {
         "code": "76902006",
-        "display": "Tetanus (disorder)"
+        "display": "Tetanus (disorder)",
+        "equivalence": "specializes"
       }, {
         "code": "27836007",
-        "display": "Pertussis (disorder)"
+        "display": "Pertussis (disorder)",
+        "equivalence": "specializes"
       }, {
         "code": "397430003",
-        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+        "display": "Diphtheria caused by Corynebacterium diphtheriae (disorder)",
+        "equivalence": "specializes"
       } ]
     }, {
       "code": "162",
