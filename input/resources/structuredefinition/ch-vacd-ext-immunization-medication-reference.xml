@@ -24,7 +24,7 @@
 	<differential>
 		<element id="Extension">
 			<path value="Extension" />
-			<short value="Extension Document Version" />
+			<short value="Extension to reference immunization medication resource" />
 			<definition value="Extension" />
 			<mustSupport value="true" />
 			<isModifier value="false" />
