@@ -54,18 +54,22 @@
 		</element>
 		<element id="Extension.extension:entry.valueReference">
 			<path value="Extension.extension.valueReference" />
-			<short value="The Reference " />
+			<short value="The Reference to a entry in a document" />
 			<min value="1" />
 			<type>
 				<code value="Reference" />
-				<targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
-				<targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-condition" />
-				<targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology" />
-				<targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization-recommendations" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-condition" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization-recommendations" />
 			</type>
 			<mustSupport value="true" />
 		</element>
-		
+
 		<element id="Extension.extension:document">
 			<path value="Extension.extension" />
 			<sliceName value="document" />
@@ -90,16 +94,58 @@
 		</element>
 		<element id="Extension.extension:document.valueReference">
 			<path value="Extension.extension.valueReference" />
-			<short value="The Reference" />
+			<short
+				value="The Reference to the related document the enty is in." />
 			<min value="1" />
 			<type>
 				<code value="Reference" />
-				<targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-vaccination-record" />
-				<targetProfile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-administration" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-vaccination-record" />
+				<targetProfile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-administration" />
 			</type>
 			<mustSupport value="true" />
 		</element>
-		
+
+		<element id="Extension.extension:relationcode">
+			<path value="Extension.extension" />
+			<sliceName value="relationcode" />
+			<short value="Reference to the related document" />
+			<definition value="Reference to the related document" />
+			<min value="1" />
+			<max value="1" />
+			<type>
+				<code value="Extension" />
+			</type>
+		</element>
+		<element id="Extension.extension:relationcode.extension">
+			<path value="Extension.extension.extension" />
+			<max value="0" />
+		</element>
+		<element id="Extension.extension:relationcode.url">
+			<path value="Extension.extension.url" />
+			<type>
+				<code value="uri" />
+			</type>
+			<fixedUri value="relationcode" />
+		</element>
+
+		<element id="Extension.extension:relationcode.valueCode">
+			<path value="Extension.extension.valueCode" />
+			<short
+				value="The type of relationship between the elements in the documents." />
+			<min value="1" />
+			<type>
+				<code value="code" />
+			</type>
+			<binding>
+				<strength value="required" />
+				<valueSet
+					value="http://hl7.org/fhir/ValueSet/document-relationship-type" />
+			</binding>
+			<mustSupport value="true" />
+		</element>
+
 		<element id="Extension.url">
 			<path value="Extension.url" />
 			<fixedUri
