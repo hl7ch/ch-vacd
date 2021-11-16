@@ -74,9 +74,11 @@
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization" />
 			</type>
 		</element>
-		
-		<element id="ImmunizationRecommendation.recommendation.vaccineCode">
-			<path value="ImmunizationRecommendation.recommendation.vaccineCode" />
+
+		<element
+			id="ImmunizationRecommendation.recommendation.vaccineCode">
+			<path
+				value="ImmunizationRecommendation.recommendation.vaccineCode" />
 			<short value="Immunization Recommendation Vaccine Code" />
 			<binding>
 				<extension
@@ -99,9 +101,11 @@
 					value="ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/consumable/manfacturedProduct/manufacturedMaterial/realmCode/code" />
 			</mapping>
 		</element>
-	
-		<element id="ImmunizationRecommendation.recommendation.targetDisease">
-			<path value="ImmunizationRecommendation.recommendation.targetDisease" />
+
+		<element
+			id="ImmunizationRecommendation.recommendation.targetDisease">
+			<path
+				value="ImmunizationRecommendation.recommendation.targetDisease" />
 			<min value="1" />
 			<binding>
 				<extension
@@ -118,9 +122,11 @@
 					value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs" />
 			</binding>
 		</element>
-		
-		<element id="ImmunizationRecommendation.recommendation.forecastReason">
-			<path value="ImmunizationRecommendation.recommendation.forecastReason" />
+
+		<element
+			id="ImmunizationRecommendation.recommendation.forecastReason">
+			<path
+				value="ImmunizationRecommendation.recommendation.forecastReason" />
 			<min value="1" />
 			<binding>
 				<extension
@@ -138,6 +144,12 @@
 			</binding>
 		</element>
 		
-		
+		<element
+			id="ImmunizationRecommendation.recommendation.dateCriterion">
+			<path
+				value="ImmunizationRecommendation.recommendation.dateCriterion" />
+			<min value="1" />
+		</element>
+
 	</differential>
 </StructureDefinition>
