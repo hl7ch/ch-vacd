@@ -52,4 +52,15 @@
 	<li>
 		<a href="artifacts.html">Artifacts</a>
 	</li>
+	<li class="dropdown">
+		<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+			Test Cases
+			<b class="caret"></b>
+		</a>
+		<ul class="dropdown-menu">
+			<li>
+				<a href="testcases.html">Overview</a>
+			</li>
+		</ul>
+	</li>
 </ul>

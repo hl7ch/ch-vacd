@@ -1182,9 +1182,6 @@
 				<title value="Use Cases" />
 				<generation value="markdown" />
 				<nameUrl value="usecases.html" />
-
-
-
 			</page>
 
 			<!-- the different immunization document types -->
@@ -1230,6 +1227,11 @@
 				<nameUrl value="terminology.html" />
 				<title value="Terminology" />
 				<generation value="html" />
+			</page>
+			<page>
+				<nameUrl value="testcases.html" />
+				<title value="Testcases" />
+				<generation value="markdown" />
 			</page>
 		</page>
 
