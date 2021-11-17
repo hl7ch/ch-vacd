@@ -3,6 +3,7 @@ input-cache
 output
 temp
 template
+fsh-generated
 .vscode
 .settings
 .project

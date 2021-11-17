@@ -1,0 +1,21 @@
+canonical: http://fhir.ch/ig/ch-vacd
+fhirVersion: 4.0.1
+FSHOnly: true
+applyExtensionMetadataToRoot: false
+id: ch.fhir.ig.ch-vacd
+name: CH_VACD
+status: draft
+version: 1.0.0
+dependencies:
+  ch.fhir.ig.ch-core:
+    version: 2.0.0
+    uri: http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core
+    id: chcore
+  hl7.fhir.uv.ips:
+    version: 1.0.0
+    uri: http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips
+    id: ips
+  ch.fhir.ig.ch-allergyintolerance:
+    version: 0.2.0
+    uri: http://fhir.ch/ig/ch-allergyintolerance/ImplementationGuide/ch.fhir.ig.ch-allergyintolerance
+    id: challergy

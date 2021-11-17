@@ -1,0 +1,44 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: ch.fhir.ig.ch-vacd
+canonical: http://fhir.ch/ig/ch-vacd
+name: ch-vacd
+# FSHOnly: true
+# applyExtensionMetadataToRoot: false
+status: draft
+version: 1.0.0
+fhirVersion: 4.0.1
+copyrightYear: 2021+
+releaseLabel: ci-build
+publisher:
+  name: eHealth Suisse
+  url: http://e-health-suisse.ch
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Use Cases: usecases.html
+  Document: documents.html
+  Profiles: profiles.html
+  Extensions: extensions.html
+  Terminology: terminology.html
+  Artifacts: artifacts.html
+  Test Cases: testcases.html
+
+dependencies:
+  ch.fhir.ig.ch-core:
+    version: 2.0.0
+    uri: http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core
+    id: chcore
+  hl7.fhir.uv.ips:
+    version: 1.0.0
+    uri: http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips
+    id: ips
+  ch.fhir.ig.ch-allergyintolerance:
+    version: 0.2.0
+    uri: http://fhir.ch/ig/ch-allergyintolerance/ImplementationGuide/ch.fhir.ig.ch-allergyintolerance
+    id: challergy
