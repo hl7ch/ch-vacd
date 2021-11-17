@@ -25,7 +25,7 @@ This is the categorie to list issues with additional features brought up during 
 ### 3.3 Questions/Diskussion/ChageResource
 This is the categorie to list issues with questions for discussion
 #### 3.3.1 Issues
-[Issue 76](https://github.com/ehealthsuisse/ch-vacd/issues/76) - W - References (to CH Core AND CH Core EPR?) (Michaela Ziegler, ahdis ag)<br>
+
 
 
 ### 3.4 Structural/Concept
@@ -69,7 +69,7 @@ This is the categorie to list issues "as nice to have"
 
 ### 4.3 Questions/Diskussion/ChageResource
 [Issue 82](https://github.com/ehealthsuisse/ch-vacd/issues/82) - * - Profiles Link to IG AllergyIntolerances (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 90](https://github.com/ehealthsuisse/ch-vacd/issues/90))<br>
-
+[Issue 76](https://github.com/ehealthsuisse/ch-vacd/issues/76) - * - References (to CH Core AND CH Core EPR?) (Michaela Ziegler, ahdis ag)<br>
 
 ### 4.4 Structural/Concept
 
