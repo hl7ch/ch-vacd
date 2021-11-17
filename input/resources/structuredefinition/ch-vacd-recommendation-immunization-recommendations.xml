@@ -11,11 +11,6 @@
   <publisher value="eHealth Suisse" />
   <description
     value="Definition of the immunization recommendation part for immunization recommendation request and response documents." />
-  <mapping>
-    <identity value="cda" />
-    <uri value="http://hl7.org/v3/cda" />
-    <name value="CDA (R2)" />
-  </mapping>
   <kind value="resource" />
   <abstract value="false" />
   <type value="ImmunizationRecommendation" />
@@ -49,10 +44,6 @@
       <path value="ImmunizationRecommendation.identifier" />
       <short value="Immunization Recommendation item ID" />
       <min value="1" />
-      <mapping>
-        <identity value="cda" />
-        <map value=".id" />
-      </mapping>
     </element>
     <element id="ImmunizationRecommendation.identifier.system">
       <path value="ImmunizationRecommendation.identifier.system" />
@@ -91,11 +82,6 @@
         <valueSet
           value="http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs" />
       </binding>
-      <mapping>
-        <identity value="cda" />
-        <map
-          value="ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/consumable/manfacturedProduct/manufacturedMaterial/realmCode/code" />
-      </mapping>
     </element>
 
     <element

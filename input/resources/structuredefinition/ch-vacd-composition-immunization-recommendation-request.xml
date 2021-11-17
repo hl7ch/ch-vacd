@@ -11,11 +11,6 @@
 	<publisher value="eHealth Suisse" />
 	<description
 		value="Definition of the composition for the immunization recommendation response document." />
-	<mapping>
-		<identity value="cda" />
-		<uri value="http://hl7.org/v3/cda" />
-		<name value="CDA (R2)" />
-	</mapping>
 	<kind value="resource" />
 	<abstract value="false" />
 	<type value="Composition" />
@@ -207,10 +202,6 @@
 				<profile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
 			</type>
-			<mapping>
-				<identity value="cda" />
-				<map value=".author.time" />
-			</mapping>
 		</element>
 		<element
 			id="Composition.section:administration.author.reference">
@@ -319,10 +310,6 @@
 				<profile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
 			</type>
-			<mapping>
-				<identity value="cda" />
-				<map value=".author.time" />
-			</mapping>
 		</element>
 		<element
 			id="Composition.section:medicalproblems.author.reference">
@@ -430,10 +417,6 @@
 				<profile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
 			</type>
-			<mapping>
-				<identity value="cda" />
-				<map value=".author.time" />
-			</mapping>
 		</element>
 		<element
 			id="Composition.section:pastillnesses.author.reference">
@@ -543,10 +526,6 @@
 				<profile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
 			</type>
-			<mapping>
-				<identity value="cda" />
-				<map value=".author.time" />
-			</mapping>
 		</element>
 		<element id="Composition.section:allergies.author.reference">
 			<path value="Composition.section.author.reference" />
@@ -652,10 +631,6 @@
 				<profile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
 			</type>
-			<mapping>
-				<identity value="cda" />
-				<map value=".author.time" />
-			</mapping>
 		</element>
 		<element id="Composition.section:otherrelevantobservations.author.reference">
 			<path value="Composition.section.author.reference" />
@@ -761,10 +736,6 @@
 				<profile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
 			</type>
-			<mapping>
-				<identity value="cda" />
-				<map value=".author.time" />
-			</mapping>
 		</element>
 		<element
 			id="Composition.section:laboratory-serology.author.reference">
@@ -871,10 +842,6 @@
 				<profile
 					value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-time" />
 			</type>
-			<mapping>
-				<identity value="cda" />
-				<map value=".author.time" />
-			</mapping>
 		</element>
 		<element id="Composition.section:pregnancy.author.reference">
 			<path value="Composition.section.author.reference" />
