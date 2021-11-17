@@ -19,12 +19,12 @@
 	<abstract value="false" />
 	<type value="Immunization" />
 	<baseDefinition
-		value="http://hl7.org/fhir/StructureDefinition/Immunization" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Immunization">
 			<path value="Immunization" />
-			<short value="CH VACD Immunization" />
+			<short value="CH VACD Recommendation Immunization" />
 		</element>
 		<element id="Immunization.contained">
 			<path value="Immunization.contained" />
@@ -32,6 +32,7 @@
 			<min value="0" />
 			<max value="1" />
 		</element>
+<!-- 
 		<element id="Immunization.extension">
 			<path value="Immunization.extension" />
 			<slicing>
@@ -72,7 +73,6 @@
 		</element>
 		<element id="Immunization.status">
 			<path value="Immunization.status" />
-			<!-- <fixedCode value="completed"/> -->
 			<mapping>
 				<identity value="cda" />
 				<map value=".statusCode" />
@@ -137,7 +137,7 @@
 					value="http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-immunizations-uv-ips" />
 			</binding>
 		</element>
-
+ -->
 		<element id="Immunization.patient">
 			<path value="Immunization.patient" />
 			<short value="Patient" />

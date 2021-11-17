@@ -35,6 +35,18 @@
 				<rules value="open" />
 			</slicing>
 		</element>
+		<element id="Condition.extension:relatesTo">
+			<path value="Condition.extension" />
+			<sliceName value="relatesTo" />
+			<definition value="The definition of a relation of this immunization entry in this document to an immunization entry in an other document." />
+			<min value="0" />
+			<max value="1" />
+			<type>
+				<code value="Extension" />
+				<profile
+					value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-entry-relatesto" />
+			</type>
+		</element>
 
 		<element id="Condition.code">
 			<path value="Condition.code" />

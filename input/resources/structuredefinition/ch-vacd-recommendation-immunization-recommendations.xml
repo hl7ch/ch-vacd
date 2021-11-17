@@ -20,12 +20,12 @@
   <abstract value="false" />
   <type value="ImmunizationRecommendation" />
   <baseDefinition
-    value="http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation" />
+    value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization-recommendations" />
   <derivation value="constraint" />
   <differential>
     <element id="ImmunizationRecommendation">
       <path value="ImmunizationRecommendation" />
-      <short value="CH VACD Immunization Recommendation" />
+      <short value="CH VACD Recommendation Immunization Recommendation" />
     </element>
     <element id="ImmunizationRecommendation.contained">
       <path value="ImmunizationRecommendation.contained" />
@@ -33,6 +33,8 @@
       <min value="0" />
       <max value="1" />
     </element>
+
+<!-- 
     <element id="ImmunizationRecommendation.extension">
       <path value="ImmunizationRecommendation.extension" />
       <slicing>
@@ -144,6 +146,6 @@
         value="ImmunizationRecommendation.recommendation.dateCriterion" />
       <min value="1" />
     </element>
-    
+     -->
   </differential>
 </StructureDefinition>

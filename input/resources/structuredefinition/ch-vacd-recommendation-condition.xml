@@ -26,11 +26,6 @@
 		<element id="Condition">
 			<path value="Condition" />
 		</element>
-		<!-- <element id="Condition.code">
-			<path value="Condition.code" />
-			<short value="Condition code" />
-			<min value="1" />
-		</element> -->
 		<element id="Condition.subject">
 			<path value="Condition.subject" />
 			<short value="Patient" />
