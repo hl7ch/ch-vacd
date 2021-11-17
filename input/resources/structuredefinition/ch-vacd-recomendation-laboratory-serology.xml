@@ -1,7 +1,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="ch-vacd-laboratory-serology" />
+	<id value="ch-vacd-recomendation-laboratory-serology" />
 	<url
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recomendation-laboratory-serology" />
 	<version value="0.1.0" />
 	<name value="CHVACDRecommendationLaboratorySerology" />
 	<title
@@ -15,7 +15,7 @@
 	<abstract value="false" />
 	<type value="Observation" />
 	<baseDefinition
-		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-observation" />
+		value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology" />
 	<derivation value="constraint" />
 	<differential>
 		<element id="Observation">
