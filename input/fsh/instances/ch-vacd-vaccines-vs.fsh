@@ -1003,29 +1003,139 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Influvac Tetra"
 * compose.include[=].concept[+].code = #68267
-* compose.include[=].concept[=].display = "COVID-19 Vaccine (Moderna)"
+* compose.include[=].concept[=].display = "Spikevax (COVID-19 Vaccine, Moderna)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "COVID-19 Vaccine (Moderna)"
+* compose.include[=].concept[=].designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "COVID-19 Vaccine (Moderna)"
+* compose.include[=].concept[=].designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "COVID-19 Vaccine (Moderna)"
+* compose.include[=].concept[=].designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "COVID-19 Vaccine (Moderna)"
+* compose.include[=].concept[=].designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "COVID-19 Vaccine (Moderna)"
+* compose.include[=].concept[=].designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
 * compose.include[=].concept[+].code = #68225
-* compose.include[=].concept[=].display = "COMIRNATY (Pfizer)"
+* compose.include[=].concept[=].display = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "COMIRNATY (Pfizer)"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "COMIRNATY (Pfizer)"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "COMIRNATY (Pfizer)"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "COMIRNATY (Pfizer)"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "COMIRNATY (Pfizer)"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty (COVID-19 Vaccine, Pfizer)"
+
+//68235	01	COVID-19 Vaccine Janssen, Injektionssuspension	Janssen-Cilag AG	B	22.03.2021	22.03.2021	21.03.2023	J07BX
+// added 2021-11-19
+* compose.include[=].concept[+].code = #68235
+* compose.include[=].concept[=].display = "COVID-19 Vaccine Janssen"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "COVID-19 Vaccine Janssen"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "COVID-19 Vaccine Janssen"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "COVID-19 Vaccine Janssen"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "COVID-19 Vaccine Janssen"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "COVID-19 Vaccine Janssen"
+
+//67987	01	Shingrix, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG	B	07.10.2021	07.10.2021	06.10.2026	J07BK03
+// added 2021-11-19
+* compose.include[=].concept[+].code = #67987
+* compose.include[=].concept[=].display = "Shingrix"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Shingrix"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Shingrix"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Shingrix"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Shingrix"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Shingrix"
+
+//67482	01	Flucelvax Tetra, Injektionssuspension	Medius AG	B	04.05.2021	04.05.2021	03.05.2026	J07BB02
+// added 2021-11-19
+* compose.include[=].concept[+].code = #67482
+* compose.include[=].concept[=].display = "Flucelvax Tetra"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Flucelvax Tetra"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Flucelvax Tetra"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Flucelvax Tetra"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Flucelvax Tetra"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Flucelvax Tetra"
+
+//67704	01	Efluelda 0.7 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	21.07.2021	21.07.2021	20.07.2026	J07BB02
+// added 2021-11-19
+* compose.include[=].concept[+].code = #67704
+* compose.include[=].concept[=].display = "Efluelda 0.7 ml"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Efluelda 0.7 ml"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Efluelda 0.7 ml"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Efluelda 0.7 ml"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Efluelda 0.7 ml"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Efluelda 0.7 ml"
+
+// 68003	01	Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	28.10.2021	28.10.2021	27.10.2026	J07BB02
+// added 2021-11-19
+* compose.include[=].concept[+].code = #68003
+* compose.include[=].concept[=].display = "Supemtek 0.5 ml"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Supemtek 0.5 ml"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Supemtek 0.5 ml"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Supemtek 0.5 ml"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Supemtek 0.5 ml"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Supemtek 0.5 ml"
+
+//66161	01	Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
+// added 2021-11-19
+* compose.include[=].concept[+].code = #66161
+* compose.include[=].concept[=].display = "Foclivia (Durchstechflasche)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Foclivia (Durchstechflasche)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Foclivia (Durchstechflasche)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Foclivia (Durchstechflasche)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Foclivia (Durchstechflasche)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Foclivia (Durchstechflasche)"
+
+//66156	01	Foclivia, Injektionssuspension in einer Fertigspritze	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
+// added 2021-11-19
+* compose.include[=].concept[+].code = #66156
+* compose.include[=].concept[=].display = "Foclivia (Fertigspritze)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
+
+
+// //////////////////////////////////////////////////////////////////////////////////////////
+// Old vaccines, missing swiss medic number                                               ///
+// //////////////////////////////////////////////////////////////////////////////////////////
 * compose.include[+].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
 * compose.include[=].concept[0].code = #14
 * compose.include[=].concept[=].display = "MoRu-Viraten"

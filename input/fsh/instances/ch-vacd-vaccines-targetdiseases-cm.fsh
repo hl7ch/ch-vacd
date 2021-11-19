@@ -555,16 +555,34 @@ Usage: #definition
 * group[=].element[=].target.code = #719590007
 * group[=].element[=].target.display = "Influenza caused by seasonal influenza virus (disorder)"
 * group[=].element[=].target.equivalence = #specializes
+
 * group[=].element[+].code = #68267
-* group[=].element[=].display = "COVID-19 Vaccine (Moderna)"
+* group[=].element[=].display = "Spikevax (COVID-19 Vaccine, Moderna)"
 * group[=].element[=].target.code = #840539006
 * group[=].element[=].target.display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target.equivalence = #specializes
 * group[=].element[+].code = #68225
-* group[=].element[=].display = "COMIRNATY (Pfizer)"
+* group[=].element[=].display = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * group[=].element[=].target.code = #840539006
 * group[=].element[=].target.display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target.equivalence = #specializes
+// added 2021-11-19
+* group[=].element[+].code = #68235
+* group[=].element[=].display = "COVID-19 Vaccine Janssen"
+* group[=].element[=].target.code = #840539006
+* group[=].element[=].target.display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target.equivalence = #specializes
+// added 2021-11-19
+* group[=].element[+].code = #67987
+* group[=].element[=].display = "Shingrix"
+* group[=].element[=].target.code = #4740000
+* group[=].element[=].target.display = "Herpes zoster (disorder)"
+* group[=].element[=].target.equivalence = #specializes
+
+
+// //////////////////////////////////////////////////////////////////////////////////////////
+// Old vaccines, missing swiss medic number                                               ///
+// //////////////////////////////////////////////////////////////////////////////////////////
 * group[+].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[0].code = #14

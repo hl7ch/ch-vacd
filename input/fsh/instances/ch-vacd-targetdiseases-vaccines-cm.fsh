@@ -451,11 +451,26 @@ Usage: #definition
 * group[=].element[+].code = #840539006
 * group[=].element[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[0].code = #68225
-* group[=].element[=].target[=].display = "COMIRNATY (Pfizer)"
+* group[=].element[=].target[=].display = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #68267
-* group[=].element[=].target[=].display = "COVID-19 Vaccine (Moderna)"
+* group[=].element[=].target[=].display = "Spikevax (COVID-19 Vaccine, Moderna)"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2021-11-19
+* group[=].element[=].target[+].code = #68235
+* group[=].element[=].target[=].display = "COVID-19 Vaccine Janssen"
+* group[=].element[=].target[=].equivalence = #wider
+// added 2021-11-19
+* group[=].element[+].code = #4740000
+* group[=].element[=].display = "Herpes zoster (disorder)"
+* group[=].element[=].target[0].code = #67987
+* group[=].element[=].target[=].display = "Shingrix"
+* group[=].element[=].target[=].equivalence = #wider
+
+
+// //////////////////////////////////////////////////////////////////////////////////////////
+// Old vaccines, missing swiss medic number                                               ///
+// //////////////////////////////////////////////////////////////////////////////////////////
 * group[+].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[0].code = #397430003

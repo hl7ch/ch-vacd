@@ -918,25 +918,135 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #68087 ^designation[=].value = "Influvac Tetra"
 * #68087 ^designation[+].language = #en-US
 * #68087 ^designation[=].value = "Influvac Tetra"
-* #68267 "COVID-19 Vaccine (Moderna)"
+
+// 68267	01	Spikevax, Injektionsdispersion	Moderna Switzerland GmbH	B	12.01.2021	12.01.2021	11.01.2023	J07B
+* #68267 "Spikevax (COVID-19 Vaccine, Moderna)"
+* #68267 ^definition = "Spikevax, Injektionsdispersion	Moderna Switzerland GmbH"
 * #68267 ^designation[0].language = #de-CH
-* #68267 ^designation[=].value = "COVID-19 Vaccine (Moderna)"
+* #68267 ^designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
 * #68267 ^designation[+].language = #fr-CH
-* #68267 ^designation[=].value = "COVID-19 Vaccine (Moderna)"
+* #68267 ^designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
 * #68267 ^designation[+].language = #it-CH
-* #68267 ^designation[=].value = "COVID-19 Vaccine (Moderna)"
+* #68267 ^designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
 * #68267 ^designation[+].language = #rm-CH
-* #68267 ^designation[=].value = "COVID-19 Vaccine (Moderna)"
+* #68267 ^designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
 * #68267 ^designation[+].language = #en-US
-* #68267 ^designation[=].value = "COVID-19 Vaccine (Moderna)"
-* #68225 "COMIRNATY (Pfizer)"
+* #68267 ^designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
+
+// 68225	01	Comirnaty, Konzentrat zur Herstellung einer Injektionsdispersion	Pfizer AG	B	19.12.2020	19.12.2020	18.12.2022	J07BX
+* #68225 "Comirnaty (COVID-19 Vaccine, Pfizer)"
+* #68225 ^definition = "Comirnaty, Konzentrat zur Herstellung einer Injektionsdispersion	Pfizer AG"
 * #68225 ^designation[0].language = #de-CH
-* #68225 ^designation[=].value = "COMIRNATY (Pfizer)"
+* #68225 ^designation[=].value = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * #68225 ^designation[+].language = #fr-CH
-* #68225 ^designation[=].value = "COMIRNATY (Pfizer)"
+* #68225 ^designation[=].value = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * #68225 ^designation[+].language = #it-CH
-* #68225 ^designation[=].value = "COMIRNATY (Pfizer)"
+* #68225 ^designation[=].value = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * #68225 ^designation[+].language = #rm-CH
-* #68225 ^designation[=].value = "COMIRNATY (Pfizer)"
+* #68225 ^designation[=].value = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * #68225 ^designation[+].language = #en-US
-* #68225 ^designation[=].value = "COMIRNATY (Pfizer)"
+* #68225 ^designation[=].value = "Comirnaty (COVID-19 Vaccine, Pfizer)"
+
+//68235	01	COVID-19 Vaccine Janssen, Injektionssuspension	Janssen-Cilag AG	B	22.03.2021	22.03.2021	21.03.2023	J07BX
+* #68235 "COVID-19 Vaccine Janssen"
+* #68235 ^definition = "COVID-19 Vaccine Janssen, Injektionssuspension	Janssen-Cilag AG"
+* #68235 ^designation[0].language = #de-CH
+* #68235 ^designation[=].value = "COVID-19 Vaccine Janssen"
+* #68235 ^designation[+].language = #fr-CH
+* #68235 ^designation[=].value = "COVID-19 Vaccine Janssen"
+* #68235 ^designation[+].language = #it-CH
+* #68235 ^designation[=].value = "COVID-19 Vaccine Janssen"
+* #68235 ^designation[+].language = #rm-CH
+* #68235 ^designation[=].value = "COVID-19 Vaccine Janssen"
+* #68235 ^designation[+].language = #en-US
+* #68235 ^designation[=].value = "COVID-19 Vaccine Janssen"
+
+//67482	01	Flucelvax Tetra, Injektionssuspension	Medius AG	B	04.05.2021	04.05.2021	03.05.2026	J07BB02
+// added 2021-11-19
+* #67482 "Flucelvax Tetra"
+* #67482 ^definition = "Flucelvax Tetra, Injektionssuspension	Medius AG"
+* #67482 ^designation[0].language = #de-CH
+* #67482 ^designation[=].value = "Flucelvax Tetra"
+* #67482 ^designation[+].language = #fr-CH
+* #67482 ^designation[=].value = "Flucelvax Tetra"
+* #67482 ^designation[+].language = #it-CH
+* #67482 ^designation[=].value = "Flucelvax Tetra"
+* #67482 ^designation[+].language = #rm-CH
+* #67482 ^designation[=].value = "Flucelvax Tetra"
+* #67482 ^designation[+].language = #en-US
+* #67482 ^designation[=].value = "Flucelvax Tetra"
+
+//67704	01	Efluelda 0.7 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	21.07.2021	21.07.2021	20.07.2026	J07BB02
+// added 2021-11-19
+* #67704 "Efluelda 0.7 ml"
+* #67704 ^definition = "Efluelda 0.7 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA"
+* #67704 ^designation[0].language = #de-CH
+* #67704 ^designation[=].value = "Efluelda 0.7 ml"
+* #67704 ^designation[+].language = #fr-CH
+* #67704 ^designation[=].value = "Efluelda 0.7 ml"
+* #67704 ^designation[+].language = #it-CH
+* #67704 ^designation[=].value = "Efluelda 0.7 ml"
+* #67704 ^designation[+].language = #rm-CH
+* #67704 ^designation[=].value = "Efluelda 0.7 ml"
+* #67704 ^designation[+].language = #en-US
+* #67704 ^designation[=].value = "Efluelda 0.7 ml"
+
+//67987	01	Shingrix, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG	B	07.10.2021	07.10.2021	06.10.2026	J07BK03
+// added 2021-11-19
+* #67987 "Shingrix"
+* #67987 ^definition = "Shingrix, Pulver und Suspension zur Herstellung einer Injektionssuspension	GlaxoSmithKline AG"
+* #67987 ^designation[0].language = #de-CH
+* #67987 ^designation[=].value = "Shingrix"
+* #67987 ^designation[+].language = #fr-CH
+* #67987 ^designation[=].value = "Shingrix"
+* #67987 ^designation[+].language = #it-CH
+* #67987 ^designation[=].value = "Shingrix"
+* #67987 ^designation[+].language = #rm-CH
+* #67987 ^designation[=].value = "Shingrix"
+* #67987 ^designation[+].language = #en-US
+* #67987 ^designation[=].value = "Shingrix"
+
+// 68003	01	Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	28.10.2021	28.10.2021	27.10.2026	J07BB02
+// added 2021-11-19
+* #68003 "Supemtek 0.5 ml"
+* #68003 ^definition = "Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA"
+* #68003 ^designation[0].language = #de-CH
+* #68003 ^designation[=].value = "Supemtek 0.5 ml"
+* #68003 ^designation[+].language = #fr-CH
+* #68003 ^designation[=].value = "Supemtek 0.5 ml"
+* #68003 ^designation[+].language = #it-CH
+* #68003 ^designation[=].value = "Supemtek 0.5 ml"
+* #68003 ^designation[+].language = #rm-CH
+* #68003 ^designation[=].value = "Supemtek 0.5 ml"
+* #68003 ^designation[+].language = #en-US
+* #68003 ^designation[=].value = "Supemtek 0.5 ml"
+
+//66161	01	Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
+// added 2021-11-19
+* #66161 "Foclivia (Durchstechflasche)"
+* #66161 ^definition = "Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH"
+* #66161 ^designation[0].language = #de-CH
+* #66161 ^designation[=].value = "Foclivia (Durchstechflasche)"
+* #66161 ^designation[+].language = #fr-CH
+* #66161 ^designation[=].value = "Foclivia (Durchstechflasche)"
+* #66161 ^designation[+].language = #it-CH
+* #66161 ^designation[=].value = "Foclivia (Durchstechflasche)"
+* #66161 ^designation[+].language = #rm-CH
+* #66161 ^designation[=].value = "Foclivia (Durchstechflasche)"
+* #66161 ^designation[+].language = #en-US
+* #66161 ^designation[=].value = "Foclivia (Durchstechflasche)"
+
+//66156	01	Foclivia, Injektionssuspension in einer Fertigspritze	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
+// added 2021-11-19
+* #66156 "Foclivia (Fertigspritze)"
+* #66156 ^definition = "Foclivia, Injektionssuspension in einer Fertigspritze	Emergent BioSolutions Berna GmbH"
+* #66156 ^designation[0].language = #de-CH
+* #66156 ^designation[=].value = "Foclivia (Fertigspritze)"
+* #66156 ^designation[+].language = #fr-CH
+* #66156 ^designation[=].value = "Foclivia (Fertigspritze)"
+* #66156 ^designation[+].language = #it-CH
+* #66156 ^designation[=].value = "Foclivia (Fertigspritze)"
+* #66156 ^designation[+].language = #rm-CH
+* #66156 ^designation[=].value = "Foclivia (Fertigspritze)"
+* #66156 ^designation[+].language = #en-US
+* #66156 ^designation[=].value = "Foclivia (Fertigspritze)"
