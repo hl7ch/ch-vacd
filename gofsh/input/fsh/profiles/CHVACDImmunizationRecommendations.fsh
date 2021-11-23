@@ -13,7 +13,7 @@ Description: "Definition of the immunization recommendation part for all documen
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
-* extension contains CHVACDExtensionEntryRelatesTo named relatesTo 0..1
+* extension contains CHVACDExtensionCrossReference named relatesTo 0..1
 * extension[relatesTo] ^definition = "The definition of a relation of this immunization entry in this document to an immunization entry in an other document."
 * identifier 1..
 * identifier ^short = "Immunization Recommendation item ID"

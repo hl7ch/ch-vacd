@@ -1,4 +1,4 @@
-Extension: CHVACDExtensionEntryRelatesTo
+Extension: CHVACDExtensionCrossReference
 Id: ch-vacd-ext-entry-relatesto
 Title: "CH VACD Extension Entry RelatesTo"
 Description: "Extension to make a reference to an entry in an other document."

@@ -10,7 +10,7 @@ Description: "Definition of the labor and serology part for all documents, excep
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
-* extension contains CHVACDExtensionEntryRelatesTo named relatesTo 0..1
+* extension contains CHVACDExtensionCrossReference named relatesTo 0..1
 * extension[relatesTo] ^definition = "The definition of a relation of this immunization entry in this document to an immunization entry in an other document."
 * identifier ^short = "Observation item ID"
 * code from $ch-vacd-laboratory-serology-vs (extensible)
