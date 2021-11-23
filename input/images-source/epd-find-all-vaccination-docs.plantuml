@@ -1,0 +1,66 @@
+@startuml
+title Find all a vaccination documents in EPD
+footer Version 1.0
+skinparam responseMessageBelowArrow true
+scale max 1000 width
+
+actor HCP #blue
+box "Community A"
+participant "GFPP/PIS" #00CC00
+participant "Aggregator" #00CC00
+participant "CO-Registry" #00CC00
+participant "CO-Repository" #00CC00
+participant "CO-IGW" #00CC00
+end box
+box "Community X"
+participant "OC-RGW" #00aaff
+participant "OC-Registry" #00aaff
+participant "OC-Repository" #00aaff
+end box
+
+autonumber "<b>[00]"
+HCP -> "GFPP/PIS": Get all immunization data
+activate "GFPP/PIS"
+"GFPP/PIS" -> "GFPP/PIS": query all registries
+activate "GFPP/PIS"
+"GFPP/PIS" -> "CO-IGW":  Registry Stored Query Request [ITI-18]
+activate "CO-IGW"
+"CO-IGW" -> "CO-Registry": Registry Stored Query Request [ITI-18]
+activate "CO-Registry"
+"CO-Registry" -> "CO-Registry": Lookup Data
+"CO-Registry" -> "CO-IGW": Registry Stored Query Response [ITI-18]
+deactivate "CO-Registry"
+"CO-IGW" -> "CO-IGW": request all communities
+activate "CO-IGW"
+"CO-IGW" -> "OC-RGW": Registry Stored Query Request [ITI-38]
+"OC-RGW" -> "OC-Registry": Registry Stored Query Request [ITI-18]
+"OC-Registry" -> "OC-Registry": Lookup Data
+"OC-Registry" -> "OC-RGW": Registry Stored Query Response [ITI-18]
+"OC-RGW" -> "CO-IGW": Registry Stored Query Response [ITI-38]
+"CO-IGW" -> "CO-IGW": end loop
+deactivate "CO-IGW"
+
+"CO-IGW" -> "CO-IGW": Assemble Query Responses
+"CO-IGW" -> "GFPP/PIS": Registry Stored Query Response [ITI-18]
+deactivate "CO-IGW"
+"GFPP/PIS" -> "GFPP/PIS": list of document info
+deactivate "GFPP/PIS"
+"GFPP/PIS" -> "GFPP/PIS": retrieve all documents
+activate "GFPP/PIS"
+"GFPP/PIS" -> "CO-IGW": Retrieve Document Request [ITI-43]
+"CO-IGW" -> "CO-Repository": Retrieve Document Request [ITI-43]
+"CO-Repository" -> "CO-Repository": allocate document data
+"CO-Repository" -> "CO-IGW": Retrieve Document Response [ITI-43]
+"CO-IGW" -> "OC-RGW": Retrieve Document Request [ITI-39]
+"OC-RGW" -> "OC-Repository": Retrieve Document Request [ITI-43]
+"OC-Repository" -> "OC-Repository": allocate document data
+"OC-Repository" -> "OC-RGW": Retrieve Document Response [ITI-43]
+"OC-RGW" -> "CO-IGW": Retrieve Document Response [ITI-39]
+"CO-IGW" -> "CO-IGW": Assemble Retrieve Responses
+"CO-IGW" -> "GFPP/PIS": Retrieve Document Response [ITI-43]
+"GFPP/PIS" -> "Aggregator": Aggregate documents
+"Aggregator" -> "GFPP/PIS": one FHIR ch-vacd document
+deactivate "GFPP/PIS"
+"GFPP/PIS" -> HCP: Show immunization data
+deactivate "GFPP/PIS"
+@enduml

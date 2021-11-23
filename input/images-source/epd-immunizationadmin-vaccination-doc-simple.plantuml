@@ -1,0 +1,17 @@
+@startuml
+title Erfassen und speichern Impfung im EPD
+footer Version 1.0
+skinparam responseMessageBelowArrow true
+
+actor Arzt #blue
+participant "GFPP/PIS" #00CC00
+participant "Eigene Gemeinschaft\nA" #00CC00
+
+autonumber "<b>[00]"
+Arzt -> "GFPP/PIS": Erfassen der abgegebenen \nImpfung und speichern.
+"GFPP/PIS" -> "Eigene Gemeinschaft\nA": Speichern des Dokumentes\n"Impfdokumentation"
+"Eigene Gemeinschaft\nA" -> "GFPP/PIS": OK
+
+"GFPP/PIS" -> Arzt: Bestätigung der Speicherung
+
+@enduml

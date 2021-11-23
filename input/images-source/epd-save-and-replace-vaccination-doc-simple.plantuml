@@ -1,0 +1,26 @@
+@startuml
+title Speichern eines aggregierten Impfdokumentes im EPD
+footer Version 1.0
+skinparam responseMessageBelowArrow true
+
+actor Arzt #blue
+participant "GFPP/PIS" #00CC00
+participant "Eigene Gemeinschaft\nA" #00CC00
+participant "Andere Gemeinschaft\nB" #00aaff
+participant "Andere Gemeinschaft\nN" #00aaff
+
+autonumber "<b>[00]"
+Arzt -> "GFPP/PIS": Anpassen der aggregierten Impfdaten,\nerstellen Impfdokument
+"GFPP/PIS" -> "Eigene Gemeinschaft\nA": Speichern des neuen Impfdokument\nund ersetzen der "alten" Dokumente
+"Eigene Gemeinschaft\nA" -> "GFPP/PIS": OK
+
+loop
+"GFPP/PIS" -> "Andere Gemeinschaft\nB": Setzen der "alten" Impfdokumente auf "VERALTET"
+"Andere Gemeinschaft\nB" -> "GFPP/PIS": OK
+
+"GFPP/PIS" -> "Andere Gemeinschaft\nN": Setzen der "alten" Impfdokumente auf "VERALTET"
+"Andere Gemeinschaft\nN" -> "GFPP/PIS": OK
+end
+"GFPP/PIS" -> Arzt: Bestätigung der Speicherung
+
+@enduml
