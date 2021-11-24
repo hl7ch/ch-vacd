@@ -24,5 +24,5 @@ An immunization can be recorded by an Practitioner and a Patient ([Immunization 
 Author == Patient means not validated<br/>
 Author == Practitioner means validated<br/>
 
-This can be done by changing the recorder of the immunization. This will be done by an Immunization Administration event which will replace the existing entry using the [relates to extension](StructureDefinition-ch-vacd-ext-entry-relatesto.html).
+This can be done by changing the recorder of the immunization. This will be done by an Immunization Administration event which will replace the existing entry using the [relates to extension](StructureDefinition-ch-vacd-ext-cross-reference.html).
 
