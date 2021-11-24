@@ -2,30 +2,31 @@
 title Suchen und Zusammenfassen Impfdokumente
 footer Version 1.0
 skinparam responseMessageBelowArrow true
-
+scale max 800 width
 
 actor Arzt #blue
-participant "GFPP/PIS" #00CC00
+participant "PIS/Portal" #00CC00
+participant "Aggregator"
+
 participant "Eigene Gemeinschaft\nA" #00CC00
 
-participant "Impfaggregator"
-participant "Andere Gemeinschaft\nB" #00aaff
 participant "Andere Gemeinschaft\nN" #00aaff
 
 
 autonumber "<b>[00]"
-Arzt -> "GFPP/PIS": Suche alle Impfdokumente
-"GFPP/PIS" -> "Eigene Gemeinschaft\nA": Suche nach Impfdokumenten
-"Eigene Gemeinschaft\nA" -> "GFPP/PIS": Alle gefundenen Impfdokumente (Gem A)
-loop "Alle anderen Gemeinschaften"
-"GFPP/PIS" -> "Andere Gemeinschaft\nB": Suche nach Impfdokumenten
-"Andere Gemeinschaft\nB" -> "GFPP/PIS": Alle gefundenen Impfdokumente (Gem. B)
+Arzt -> "PIS/Portal": Abfrage der Impfdokumente
+"PIS/Portal" -> "Eigene Gemeinschaft\nA": Suche in den Metadaten
+"Eigene Gemeinschaft\nA" -> "PIS/Portal": Metadaten aller Impfdokumente
+"PIS/Portal" -> "Eigene Gemeinschaft\nA": Abfrage der Impfdokumente
+"Eigene Gemeinschaft\nA" -> "PIS/Portal": Impfdokumente
 
-"GFPP/PIS" -> "Andere Gemeinschaft\nN": Suche nach Impfdokumenten
-"Andere Gemeinschaft\nN" -> "GFPP/PIS": Alle gefundenen Impfdokumente (Gem. N)
+loop "Alle anderen Gemeinschaften"
+"PIS/Portal" -> "Andere Gemeinschaft\nN": Abfrage der Impfdokumente
+"Andere Gemeinschaft\nN" -> "PIS/Portal": Impfdokumente
 end
-"GFPP/PIS" -> "Impfaggregator": Zusammenfassen aller strukturierten Daten
-"Impfaggregator" ->  "GFPP/PIS": Ein aggregiertes Impfdokument
-"GFPP/PIS" -> Arzt: Anzeigen der aggregierten\nImpfdaten
+
+"PIS/Portal" -> "Impfaggregator": Zusammenfassen der Daten
+"Impfaggregator" ->  "PIS/Portal": Ein aggregiertes Impfdokument
+"PIS/Portal" -> Arzt: Anzeigen der aggregierten\nImpfdaten
 
 @enduml

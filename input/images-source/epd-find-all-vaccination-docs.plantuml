@@ -2,7 +2,7 @@
 title Find all a vaccination documents in EPD
 footer Version 1.0
 skinparam responseMessageBelowArrow true
-scale max 1000 width
+scale max 800 width
 
 actor HCP #blue
 box "Community A"

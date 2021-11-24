@@ -1,6 +1,6 @@
 The following use cases will describe possible scenarios for the vaccination/immunization.
 
-## The Use Cases for EPD
+### The Use Cases for EPD
 
 * [Use Case 1 (DE): Impfdokumentation sichten](usecase_1_epd_de.html)
 * [Use Case 2 (DE): Impfung dokumentieren](usecase_2_epd_de.html)
@@ -9,7 +9,7 @@ The following use cases will describe possible scenarios for the vaccination/imm
 * [Use Case 5 (DE): Verifizierbares Zertifikat erstellen](usecase_5_epd_de.html)
 
 
-## The Use Cases (from the CDA-CH-VACD):
+### The Use Cases (from the CDA-CH-VACD):
 
 * [Use Case 1 (DE): Ambulante Impfstelle mit Papier KG](usecase_1_cda_de.html)
 * [Use Case 1 (FR): Centre de vaccination ambulatoire avec DM sur papier](usecase_1_cda_fr.html)

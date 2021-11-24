@@ -2,6 +2,7 @@
 title Save a vaccination document in EPD
 footer Version 1.0
 skinparam responseMessageBelowArrow true
+scale max 800 width
 
 actor HCP #blue
 box "Community A"

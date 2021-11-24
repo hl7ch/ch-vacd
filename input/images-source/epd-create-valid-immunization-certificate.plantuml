@@ -2,6 +2,7 @@
 title Impfzertifikat
 footer Version 1.0
 skinparam responseMessageBelowArrow true
+scale max 800 width
 
 actor Arzt #blue
 participant "GFPP/PIS" #00CC00
