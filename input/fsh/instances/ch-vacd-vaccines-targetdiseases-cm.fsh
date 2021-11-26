@@ -13,6 +13,10 @@ Usage: #definition
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 * sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
 * targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs"
+
+// //////////////////////////////////////////////////////////////////////////////////////////
+// vaccines with swiss medic number                                                       ///
+// //////////////////////////////////////////////////////////////////////////////////////////
 * group[0].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[0].code = #683
@@ -572,12 +576,58 @@ Usage: #definition
 * group[=].element[=].target.code = #840539006
 * group[=].element[=].target.display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target.equivalence = #specializes
+
 // added 2021-11-19
 * group[=].element[+].code = #67987
 * group[=].element[=].display = "Shingrix"
 * group[=].element[=].target.code = #4740000
 * group[=].element[=].target.display = "Herpes zoster (disorder)"
 * group[=].element[=].target.equivalence = #specializes
+
+// TODO
+//67482	01	Flucelvax Tetra, Injektionssuspension	Medius AG	B	04.05.2021	04.05.2021	03.05.2026	J07BB02
+// added 2021-11-19
+* group[=].element[+].code = #67482
+* group[=].element[=].display = "Flucelvax Tetra"
+* group[=].element[=].target.code = #tbd
+* group[=].element[=].target.display = "--tbd--"
+* group[=].element[=].target.equivalence = #specializes
+
+//67704	01	Efluelda 0.7 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	21.07.2021	21.07.2021	20.07.2026	J07BB02
+// added 2021-11-19
+* group[=].element[+].code = #67704
+* group[=].element[=].display = "Efluelda 0.7 ml"
+* group[=].element[=].target.code = #tbd
+* group[=].element[=].target.display = "--tbd--"
+* group[=].element[=].target.equivalence = #specializes
+
+// 68003	01	Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	28.10.2021	28.10.2021	27.10.2026	J07BB02
+// added 2021-11-19
+* group[=].element[+].code = #68003
+* group[=].element[=].display = "Supemtek 0.5 ml"
+* group[=].element[=].target.code = #tbd
+* group[=].element[=].target.display = "--tbd--"
+* group[=].element[=].target.equivalence = #specializes
+
+//66161	01	Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
+// added 2021-11-19
+* group[=].element[+].code = #66161
+* group[=].element[=].display = "Foclivia (Durchstechflasche)"
+* group[=].element[=].target.code = #tbd
+* group[=].element[=].target.display = "--tbd--"
+* group[=].element[=].target.equivalence = #specializes
+
+//66156	01	Foclivia, Injektionssuspension in einer Fertigspritze	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
+// added 2021-11-19
+* group[=].element[+].code = #66156
+* group[=].element[=].display = "Foclivia (Fertigspritze)"
+* group[=].element[=].target.code = #tbd
+* group[=].element[=].target.display = "--tbd--"
+* group[=].element[=].target.equivalence = #specializes
+
+
+
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////

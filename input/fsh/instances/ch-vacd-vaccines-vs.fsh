@@ -17,7 +17,12 @@ Usage: #definition
 * contact.telecom.system = #url
 * contact.telecom.value = "www.e-health-suisse.ch"
 * description = "The list of vaccines available or earlier available in Switzerland."
+
+// //////////////////////////////////////////////////////////////////////////////////////////
+// vaccines with swiss medic number                                                       ///
+// //////////////////////////////////////////////////////////////////////////////////////////
 * compose.include[0].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
+
 * compose.include[=].concept[0].code = #683
 * compose.include[=].concept[=].display = "FSME-Immun 0.25 ml Junior"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -30,6 +35,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "FSME-Immun 0.25 ml Junior"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "FSME-Immun 0.25 ml Junior"
+
 * compose.include[=].concept[+].code = #450
 * compose.include[=].concept[=].display = "FSME-Immun CC"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -42,6 +48,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "FSME-Immun CC"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "FSME-Immun CC"
+
 * compose.include[=].concept[+].code = #656
 * compose.include[=].concept[=].display = "NeisVac-C"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -54,6 +61,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "NeisVac-C"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "NeisVac-C"
+
 * compose.include[=].concept[+].code = #627
 * compose.include[=].concept[=].display = "Encepur N"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -66,6 +74,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Encepur N"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Encepur N"
+
 * compose.include[=].concept[+].code = #628
 * compose.include[=].concept[=].display = "Encepur N Kinder / Enfants"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -78,6 +87,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Encepur N Kinder / Enfants"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Encepur N Kinder / Enfants"
+
 * compose.include[=].concept[+].code = #572
 * compose.include[=].concept[=].display = "Epaxal"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -90,6 +100,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Epaxal"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Epaxal"
+
 * compose.include[=].concept[+].code = #544
 * compose.include[=].concept[=].display = "Heprecomb"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -102,6 +113,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Heprecomb"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Heprecomb"
+
 * compose.include[=].concept[+].code = #642
 * compose.include[=].concept[=].display = "Heprecomb Kinder"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -114,6 +126,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Heprecomb Kinder"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Heprecomb Kinder"
+
 * compose.include[=].concept[+].code = #614
 * compose.include[=].concept[=].display = "Inflexal V"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -126,6 +139,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Inflexal V"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Inflexal V"
+
 * compose.include[=].concept[+].code = #657
 * compose.include[=].concept[=].display = "Menjugate"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -138,6 +152,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Menjugate"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Menjugate"
+
 * compose.include[=].concept[+].code = #533
 * compose.include[=].concept[=].display = "Moraten"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -150,6 +165,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Moraten"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Moraten"
+
 * compose.include[=].concept[+].code = #555
 * compose.include[=].concept[=].display = "Orochol"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -162,6 +178,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Orochol"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Orochol"
+
 * compose.include[=].concept[+].code = #685
 * compose.include[=].concept[=].display = "Rabipur"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -174,6 +191,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Rabipur"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Rabipur"
+
 * compose.include[=].concept[+].code = #702
 * compose.include[=].concept[=].display = "Td-pur"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -186,6 +204,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Td-pur"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Td-pur"
+
 * compose.include[=].concept[+].code = #686
 * compose.include[=].concept[=].display = "Td-Virelon"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -198,6 +217,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Td-Virelon"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Td-Virelon"
+
 * compose.include[=].concept[+].code = #467
 * compose.include[=].concept[=].display = "Vivotif"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -210,6 +230,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Vivotif"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Vivotif"
+
 * compose.include[=].concept[+].code = #637
 * compose.include[=].concept[=].display = "Boostrix"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -222,6 +243,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Boostrix"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Boostrix"
+
 * compose.include[=].concept[+].code = #681
 * compose.include[=].concept[=].display = "Boostrix Polio"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -234,6 +256,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Boostrix Polio"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Boostrix Polio"
+
 * compose.include[=].concept[+].code = #567
 * compose.include[=].concept[=].display = "Ditanrix"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -246,6 +269,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Ditanrix"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Ditanrix"
+
 * compose.include[=].concept[+].code = #551
 * compose.include[=].concept[=].display = "Engerix-B 10"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -258,6 +282,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Engerix-B 10"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Engerix-B 10"
+
 * compose.include[=].concept[+].code = #534
 * compose.include[=].concept[=].display = "Engerix-B 20"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -270,6 +295,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Engerix-B 20"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Engerix-B 20"
+
 * compose.include[=].concept[+].code = #583
 * compose.include[=].concept[=].display = "Fluarix"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -282,6 +308,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Fluarix"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Fluarix"
+
 * compose.include[=].concept[+].code = #558
 * compose.include[=].concept[=].display = "Havrix 1440"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -294,6 +321,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Havrix 1440"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Havrix 1440"
+
 * compose.include[=].concept[+].code = #599
 * compose.include[=].concept[=].display = "Havrix 720"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -306,6 +334,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Havrix 720"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Havrix 720"
+
 * compose.include[=].concept[+].code = #603
 * compose.include[=].concept[=].display = "Hiberix"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -318,6 +347,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Hiberix"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Hiberix"
+
 * compose.include[=].concept[+].code = #638
 * compose.include[=].concept[=].display = "Infanrix DTPa-IPV"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -330,6 +360,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Infanrix DTPa-IPV"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Infanrix DTPa-IPV"
+
 * compose.include[=].concept[+].code = #619
 * compose.include[=].concept[=].display = "Infanrix DTPa-IPV+Hib"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -342,6 +373,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Infanrix DTPa-IPV+Hib"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Infanrix DTPa-IPV+Hib"
+
 * compose.include[=].concept[+].code = #640
 * compose.include[=].concept[=].display = "Infanrix hexa"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -354,6 +386,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Infanrix hexa"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Infanrix hexa"
+
 * compose.include[=].concept[+].code = #652
 * compose.include[=].concept[=].display = "Mencevax ACWY"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -366,6 +399,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Mencevax ACWY"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Mencevax ACWY"
+
 * compose.include[=].concept[+].code = #669
 * compose.include[=].concept[=].display = "Poliorix"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -378,6 +412,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Poliorix"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Poliorix"
+
 * compose.include[=].concept[+].code = #615
 * compose.include[=].concept[=].display = "Priorix"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -390,6 +425,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Priorix"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Priorix"
+
 * compose.include[=].concept[+].code = #592
 * compose.include[=].concept[=].display = "Twinrix 720/20"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -402,6 +438,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Twinrix 720/20"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Twinrix 720/20"
+
 * compose.include[=].concept[+].code = #585
 * compose.include[=].concept[=].display = "Varilrix"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -414,6 +451,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Varilrix"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Varilrix"
+
 * compose.include[=].concept[+].code = #528
 * compose.include[=].concept[=].display = "Gen H-B-Vax 10"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -426,6 +464,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Gen H-B-Vax 10"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Gen H-B-Vax 10"
+
 * compose.include[=].concept[+].code = #545
 * compose.include[=].concept[=].display = "HBVAXPRO 40"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -438,6 +477,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "HBVAXPRO 40"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "HBVAXPRO 40"
+
 * compose.include[=].concept[+].code = #610
 * compose.include[=].concept[=].display = "Gen H-B-Vax 5"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -450,6 +490,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Gen H-B-Vax 5"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Gen H-B-Vax 5"
+
 * compose.include[=].concept[+].code = #663
 * compose.include[=].concept[=].display = "HBVAXPRO 10"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -462,6 +503,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "HBVAXPRO 10"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "HBVAXPRO 10"
+
 * compose.include[=].concept[+].code = #268
 * compose.include[=].concept[=].display = "MMR-II"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -474,6 +516,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "MMR-II"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "MMR-II"
+
 * compose.include[=].concept[+].code = #247
 * compose.include[=].concept[=].display = "Mumpsvax"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -486,6 +529,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Mumpsvax"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Mumpsvax"
+
 * compose.include[=].concept[+].code = #373
 * compose.include[=].concept[=].display = "Mutagrip"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -498,6 +542,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Mutagrip"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Mutagrip"
+
 * compose.include[=].concept[+].code = #613
 * compose.include[=].concept[=].display = "Pentavac"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -510,6 +555,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Pentavac"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Pentavac"
+
 * compose.include[=].concept[+].code = #509
 * compose.include[=].concept[=].display = "Pneumovax-23"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -522,6 +568,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Pneumovax-23"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Pneumovax-23"
+
 * compose.include[=].concept[+].code = #646
 * compose.include[=].concept[=].display = "Revaxis"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -534,6 +581,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Revaxis"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Revaxis"
+
 * compose.include[=].concept[+].code = #520
 * compose.include[=].concept[=].display = "Stamaril"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -546,6 +594,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Stamaril"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Stamaril"
+
 * compose.include[=].concept[+].code = #612
 * compose.include[=].concept[=].display = "Tetravac"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -558,6 +607,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Tetravac"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Tetravac"
+
 * compose.include[=].concept[+].code = #417
 * compose.include[=].concept[=].display = "Tollwut Impfstoff Mérieux"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -570,6 +620,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Tollwut Impfstoff Mérieux"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Tollwut Impfstoff Mérieux"
+
 * compose.include[=].concept[+].code = #688
 * compose.include[=].concept[=].display = "Varivax"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -582,6 +633,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Varivax"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Varivax"
+
 * compose.include[=].concept[+].code = #485
 * compose.include[=].concept[=].display = "Influvac"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -594,6 +646,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Influvac"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Influvac"
+
 * compose.include[=].concept[+].code = #660
 * compose.include[=].concept[=].display = "Influvac plus"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -606,6 +659,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Influvac plus"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Influvac plus"
+
 * compose.include[=].concept[+].code = #654
 * compose.include[=].concept[=].display = "Meningitec"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -618,6 +672,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Meningitec"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Meningitec"
+
 * compose.include[=].concept[+].code = #643
 * compose.include[=].concept[=].display = "Prevenar-7"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -630,6 +685,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Prevenar-7"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Prevenar-7"
+
 * compose.include[=].concept[+].code = #644
 * compose.include[=].concept[=].display = "Hexavac"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -642,6 +698,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Hexavac"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Hexavac"
+
 * compose.include[=].concept[+].code = #711
 * compose.include[=].concept[=].display = "DiTe pediatric adsorbed"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -654,6 +711,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "DiTe pediatric adsorbed"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "DiTe pediatric adsorbed"
+
 * compose.include[=].concept[+].code = #704
 * compose.include[=].concept[=].display = "Dukoral"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -666,6 +724,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Dukoral"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Dukoral"
+
 * compose.include[=].concept[+].code = #483
 * compose.include[=].concept[=].display = "Rimevax"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -678,6 +737,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Rimevax"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Rimevax"
+
 * compose.include[=].concept[+].code = #707
 * compose.include[=].concept[=].display = "Tetanol pur"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -690,6 +750,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Tetanol pur"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Tetanol pur"
+
 * compose.include[=].concept[+].code = #57735
 * compose.include[=].concept[=].display = "Gardasil"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -702,6 +763,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Gardasil"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Gardasil"
+
 * compose.include[=].concept[+].code = #709
 * compose.include[=].concept[=].display = "Zostavax"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -714,6 +776,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Zostavax"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Zostavax"
+
 * compose.include[=].concept[+].code = #58158
 * compose.include[=].concept[=].display = "Priorix-Tetra"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -726,6 +789,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Priorix-Tetra"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Priorix-Tetra"
+
 * compose.include[=].concept[+].code = #696
 * compose.include[=].concept[=].display = "BCG SSI"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -738,6 +802,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "BCG SSI"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "BCG SSI"
+
 * compose.include[=].concept[+].code = #58317
 * compose.include[=].concept[=].display = "Fluad"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -750,6 +815,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Fluad"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Fluad"
+
 * compose.include[=].concept[+].code = #60150
 * compose.include[=].concept[=].display = "Rotarix"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -762,6 +828,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Rotarix"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Rotarix"
+
 * compose.include[=].concept[+].code = #703
 * compose.include[=].concept[=].display = "MMRVaxPro"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -774,6 +841,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "MMRVaxPro"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "MMRVaxPro"
+
 * compose.include[=].concept[+].code = #58506
 * compose.include[=].concept[=].display = "Measles vaccine live"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -786,6 +854,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Measles vaccine live"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Measles vaccine live"
+
 * compose.include[=].concept[+].code = #59267
 * compose.include[=].concept[=].display = "Agrippal"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -798,6 +867,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Agrippal"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Agrippal"
+
 * compose.include[=].concept[+].code = #58271
 * compose.include[=].concept[=].display = "Optaflu"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -810,6 +880,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Optaflu"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Optaflu"
+
 * compose.include[=].concept[+].code = #57814
 * compose.include[=].concept[=].display = "Cervarix"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -822,6 +893,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Cervarix"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Cervarix"
+
 * compose.include[=].concept[+].code = #60129
 * compose.include[=].concept[=].display = "Prevenar-13"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -834,6 +906,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Prevenar-13"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Prevenar-13"
+
 * compose.include[=].concept[+].code = #59147
 * compose.include[=].concept[=].display = "Ixiaro"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -846,6 +919,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Ixiaro"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Ixiaro"
+
 * compose.include[=].concept[+].code = #62502
 * compose.include[=].concept[=].display = "Menveo"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -858,6 +932,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Menveo"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Menveo"
+
 * compose.include[=].concept[+].code = #600
 * compose.include[=].concept[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -870,6 +945,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Erwachsene / Adultes"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Erwachsene / Adultes"
+
 * compose.include[=].concept[+].code = #690
 * compose.include[=].concept[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -882,6 +958,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
+
 * compose.include[=].concept[+].code = #35
 * compose.include[=].concept[=].display = "Te Anatoxal"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -894,6 +971,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Te Anatoxal"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Te Anatoxal"
+
 * compose.include[=].concept[+].code = #689
 * compose.include[=].concept[=].display = "Te Anatoxal N"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -906,6 +984,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Te Anatoxal N"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Te Anatoxal N"
+
 * compose.include[=].concept[+].code = #62961
 * compose.include[=].concept[=].display = "Fluarix Tetra"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -918,6 +997,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Fluarix Tetra"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Fluarix Tetra"
+
 * compose.include[=].concept[+].code = #66037
 * compose.include[=].concept[=].display = "Menjugate liquid"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -930,6 +1010,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Menjugate liquid"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Menjugate liquid"
+
 * compose.include[=].concept[+].code = #699
 * compose.include[=].concept[=].display = "ProQuad"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -942,6 +1023,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "ProQuad"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ProQuad"
+
 * compose.include[=].concept[+].code = #66427
 * compose.include[=].concept[=].display = "Vaxigrip Tetra"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -954,6 +1036,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Vaxigrip Tetra"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Vaxigrip Tetra"
+
 * compose.include[=].concept[+].code = #65387
 * compose.include[=].concept[=].display = "Gardasil 9"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -966,6 +1049,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Gardasil 9"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Gardasil 9"
+
 * compose.include[=].concept[+].code = #66940
 * compose.include[=].concept[=].display = "Vaxelis"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -978,6 +1062,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Vaxelis"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Vaxelis"
+
 * compose.include[=].concept[+].code = #65730
 * compose.include[=].concept[=].display = "Bexsero"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -990,6 +1075,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Bexsero"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Bexsero"
+
 * compose.include[=].concept[+].code = #68087
 * compose.include[=].concept[=].display = "Influvac Tetra"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -1002,6 +1088,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Influvac Tetra"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Influvac Tetra"
+
 * compose.include[=].concept[+].code = #68267
 * compose.include[=].concept[=].display = "Spikevax (COVID-19 Vaccine, Moderna)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -1014,6 +1101,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Spikevax (COVID-19 Vaccine, Moderna)"
+
 * compose.include[=].concept[+].code = #68225
 * compose.include[=].concept[=].display = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -1131,6 +1219,8 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
+
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////
