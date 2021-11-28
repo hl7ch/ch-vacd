@@ -9,24 +9,24 @@ Usage: #example
 * type = #document
 * timestamp = "2021-08-01T00:00:00.390+02:00"
 
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Composition/D1-P_G1"
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Composition/D3-GFP-G2-Composition"
 * entry[=].resource = D3_GFP_G2_Composition
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/TC01-patient"
-* entry[=].resource = TC01_patient
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC01-practitioner2-performer2"
-* entry[=].resource = TC01_practitioner2_performer2
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC01-organization2"
-* entry[=].resource = TC01_organization2
-* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC01-practitionerrole3-performer2"
-* entry[=].resource = TC01_practitionerrole3_performer2
-* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC01-practitionerrole4-author2"
-* entry[=].resource = TC01_practitionerrole4_author2
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/TC-patient"
+* entry[=].resource = TC_patient
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-practitioner2-performer2"
+* entry[=].resource = TC_practitioner2_performer2
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-organization2"
+* entry[=].resource = TC_organization2
+* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-practitionerrole3-performer2"
+* entry[=].resource = TC_practitionerrole3_performer2
+* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-practitionerrole4-author2"
+* entry[=].resource = TC_practitionerrole4_author2
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TC01-immunization3-performer2"
 * entry[=].resource = TC01_immunization3_performer2
 
 Instance: D3_GFP_G2_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration
-Title: "Patient Document 3 Gemeinschaft 2 Composition"
+Title: "Document 3 GFP Gemeinschaft 2 Composition"
 Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "D3-GFP-G2-Composition"
@@ -38,14 +38,14 @@ Usage: #example
 * identifier.value = "urn:uuid:9686dae0-448c-49f8-9c78-2db1aa95b921"
 * status = #final
 * type = $sct#41000179103 "Immunization record"
-* subject = Reference(TC01_patient)
+* subject = Reference(TC_patient)
 * date = "2021-08-01T00:00:00.390+02:00"
-* author = Reference(TC01_practitionerrole4_author2)
+* author = Reference(TC_practitionerrole4_author2)
 * title = "Immunization Administration"
 * confidentiality.extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode"
 * confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal (qualifier value)"
 * confidentiality = #N
-* custodian = Reference(TC01_organization2)
+* custodian = Reference(TC_organization2)
 * section[0].id = "administration"
 * section[=].title = "Immunization Administration"
 * section[=].code = $loinc#11369-6 "Hx of Immunization"

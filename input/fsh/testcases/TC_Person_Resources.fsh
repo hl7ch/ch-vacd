@@ -1,9 +1,9 @@
-Instance: TC01_patient
+Instance: TC_patient
 InstanceOf: CHCorePatientEPR
-Title: "TC01 patient"
+Title: "TC patient"
 Description: "Testcase 01: Example of patient"
 Usage: #definition
-* id = "TC01-patient"
+* id = "TC-patient"
 * identifier[0].system = "urn:oid:2.16.756.5.31"
 * identifier[=].value = "123.71.332.115"
 * identifier[+].system = "urn:oid:2.16.756.5.30.1.123.100.1.1.1"
@@ -21,12 +21,12 @@ Usage: #definition
 * address.postalCode = "9876"
 * address.country = "CH"
 
-Instance: TC01_practitioner1_performer
+Instance: TC_practitioner1_performer
 InstanceOf: CHCorePractitionerEPR
-Title: "TC01 Practitioner1 Performer"
+Title: "TC Practitioner1 Performer"
 Description: "Testcase 1 example of practitioner"
 Usage: #example
-* id = "TC01-practitioner1-performer"
+* id = "TC-practitioner1-performer"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7608888888888"
 * active = true
@@ -52,12 +52,12 @@ Usage: #example
 * address.country = "CH"
 
 
-Instance: TC01_organization1
+Instance: TC_organization1
 InstanceOf: CHCoreOrganizationEPR
-Title: "TC01 Organization 1"
+Title: "TC Organization 1"
 Description: "Testcase 1 example of organization 1"
 Usage: #definition
-* id = "TC01-organization1"
+* id = "TC-organization1"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7608888888888"
 * name = "Gruppenpraxis CH"
@@ -79,33 +79,33 @@ Usage: #definition
 * address.postalCode = "8888"
 * address.country = "CH"
 
-Instance: TC01_practitionerrole1_performer
+Instance: TC_practitionerrole1_performer
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC01 PractitionerRole"
+Title: "TC PractitionerRole"
 Description: "Testcase 1 example of practitionerrole"
 Usage: #definition
-* id = "TC01-practitionerrole1-performer"
+* id = "TC-practitionerrole1-performer"
 * active = true
-* practitioner = Reference(TC01_practitioner1_performer)
-* organization = Reference(TC01_organization1)
+* practitioner = Reference(TC_practitioner1_performer)
+* organization = Reference(TC_organization1)
 
-Instance: TC01_practitionerrole1_author1
+Instance: TC_practitionerrole1_author1
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC01 PractitionerRole"
+Title: "TC PractitionerRole"
 Description: "Testcase 1 example of practitionerrole"
 Usage: #definition
-* id = "TC01-practitionerrole1-author1"
+* id = "TC-practitionerrole1-author1"
 * active = true
-* practitioner = Reference(TC01_practitioner1_performer)
-* organization = Reference(TC01_organization1)
+* practitioner = Reference(TC_practitioner1_performer)
+* organization = Reference(TC_organization1)
 
 
-Instance: TC01_organization2
+Instance: TC_organization2
 InstanceOf: CHCoreOrganizationEPR
-Title: "TC01 Organization 2"
+Title: "TC Organization 2"
 Description: "Testcase 1 example of organization 2"
 Usage: #definition
-* id = "TC01-organization2"
+* id = "TC-organization2"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7609999999991"
 * name = "Praxis Dr. Gesund"
@@ -127,12 +127,12 @@ Usage: #definition
 * address.postalCode = "7890"
 * address.country = "CH"
 
-Instance: TC01_practitioner2_performer2
+Instance: TC_practitioner2_performer2
 InstanceOf: CHCorePractitionerEPR
-Title: "TC01 Practitioner2 Performer"
+Title: "TC Practitioner2 Performer"
 Description: "Testcase 1 example of practitioner 2"
 Usage: #example
-* id = "TC01-practitioner2-performer2"
+* id = "TC-practitioner2-performer2"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7609999999990"
 * active = true
@@ -159,22 +159,22 @@ Usage: #example
 * address.postalCode = "7890"
 * address.country = "CH"
 
-Instance: TC01_practitionerrole3_performer2
+Instance: TC_practitionerrole3_performer2
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC01 PractitionerRole 3 Performer 2"
+Title: "TC PractitionerRole 3 Performer 2"
 Description: "Testcase 1 example of practitionerrole"
 Usage: #definition
-* id = "TC01-practitionerrole3-performer2"
+* id = "TC-practitionerrole3-performer2"
 * active = true
-* practitioner = Reference(TC01_practitioner2_performer2)
-* organization = Reference(TC01_organization2)
+* practitioner = Reference(TC_practitioner2_performer2)
+* organization = Reference(TC_organization2)
 
-Instance: TC01_practitionerrole4_author2
+Instance: TC_practitionerrole4_author2
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC01 PractitionerRole 4 Author 2"
+Title: "TC PractitionerRole 4 Author 2"
 Description: "Testcase 1 example of practitionerrole 4"
 Usage: #definition
-* id = "TC01-practitionerrole4-author2"
+* id = "TC-practitionerrole4-author2"
 * active = true
-* practitioner = Reference(TC01_practitioner2_performer2)
-* organization = Reference(TC01_organization2)
+* practitioner = Reference(TC_practitioner2_performer2)
+* organization = Reference(TC_organization2)
