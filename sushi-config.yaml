@@ -5,7 +5,7 @@
 id: ch.fhir.ig.ch-vacd
 canonical: http://fhir.ch/ig/ch-vacd
 name: ch-vacd
-title: Implementation Guide CH-VACD
+title: Implementation Guide CH VACD
 # FSHOnly: true
 # applyExtensionMetadataToRoot: false
 status: draft
