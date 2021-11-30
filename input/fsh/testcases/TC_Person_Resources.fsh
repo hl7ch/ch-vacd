@@ -32,7 +32,7 @@ InstanceOf: CHCorePractitionerEPR
 Title: "TC Practitioner1 Performer"
 Description: "Testcase 1 example of practitioner"
 Usage: #example
-* id = "TC-GFP1-G1performer"
+* id = "TC-GFP1-G1"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7608888888888"
 * active = true
@@ -114,7 +114,7 @@ InstanceOf: CHCorePractitionerEPR
 Title: "TC GFP2 G2"
 Description: "Testcase practitionerole GFP2 of G2"
 Usage: #example
-* id = "TC-GFP2-G2-performer"
+* id = "TC-GFP2-G2"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7609999999990"
 * active = true

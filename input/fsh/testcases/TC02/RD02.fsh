@@ -1,7 +1,7 @@
 Instance: RD02
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case 01: Aggregated Dokument (RD02)"
-Description: "Test Case 01: Patient hat drei Impfdokumente in zwei unterschiedlichen Gemeinschaften (eines davon vom Patient selbst erfasst). Dies ist das vom Patienten erstellte Dokument"
+Title: "Test Case 02: Aggregated Dokument (RD02)"
+Description: "Test Case 02: GFP trägt zweite Dosis einer Impfung (Hepatitis A) ein"
 Usage: #example
 * id = "RD02"
 * identifier.system = "urn:ietf:rfc:3986"
@@ -13,13 +13,13 @@ Usage: #example
 * entry[=].resource = RD02_Composition
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/TC-patient"
 * entry[=].resource = TC_patient
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-GFP1-G1performer"
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-GFP1-G1"
 * entry[=].resource = TC_GFP1_G1
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG1"
 * entry[=].resource = TC_ORG1
 * entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-GFP1-ORG1-ROLE-performer"
 * entry[=].resource = TC_GFP1_ORG1_ROLE_performer
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-GFP2-G2-performer"
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-GFP2-G2"
 * entry[=].resource = TC_GFP2_G2
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG2"
 * entry[=].resource = TC_ORG2
@@ -35,6 +35,16 @@ Usage: #example
 * entry[=].resource = TC01_IMMUN3_GFP2_ORG2_ROLE
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TC01-IMMUN4-GFP1-ORG1-ROLE"
 * entry[=].resource = TC01_IMMUN4_GFP1_ORG1_ROLE
+
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-HAVRIX1440"
+* entry[=].resource = TC_IMMUN_MEDIC_HAVRIX1440
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-GSK"
+* entry[=].resource = TC_ORG_GSK
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-FSMEIMMCC"
+* entry[=].resource = TC_IMMUN_MEDIC_FSMEIMMCC
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-PFIZER"
+* entry[=].resource = TC_ORG_PFIZER
+
 
 Instance: RD02_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration

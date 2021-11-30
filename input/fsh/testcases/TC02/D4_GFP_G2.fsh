@@ -13,7 +13,7 @@ Usage: #example
 * entry[=].resource = D4_GFP_G2_Composition
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/TC-patient"
 * entry[=].resource = TC_patient
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-GFP2-G2-performer"
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-GFP2-G2"
 * entry[=].resource = TC_GFP2_G2
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG2"
 * entry[=].resource = TC_ORG2
@@ -23,6 +23,10 @@ Usage: #example
 * entry[=].resource = TC_GFP2_ORG2_ROLE_author
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TC01-IMMUN4-GFP1-ORG1-ROLE"
 * entry[=].resource = TC01_IMMUN4_GFP1_ORG1_ROLE
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-HAVRIX1440"
+* entry[=].resource = TC_IMMUN_MEDIC_HAVRIX1440
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-GSK"
+* entry[=].resource = TC_ORG_GSK
 
 Instance: D4_GFP_G2_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration

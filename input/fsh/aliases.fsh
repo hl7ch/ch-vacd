@@ -19,3 +19,4 @@ Alias: $ch-vacd-route-of-administration-vs = http://fhir.ch/ig/ch-vacd/ValueSet/
 Alias: $ch-vacd-laboratory-serology-vs = http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-laboratory-serology-vs
 Alias: $ch-vacd-risks-vs = http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-vs
 Alias: CHVACDRecommendationPatient = http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient
+Alias: $ucum = http://unitsofmeasure.org
