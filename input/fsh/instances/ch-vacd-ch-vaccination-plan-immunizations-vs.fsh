@@ -16,7 +16,7 @@ Usage: #definition
 * contact.name = "eHealth Suisse"
 * contact.telecom.system = #url
 * contact.telecom.value = "www.e-health-suisse.ch"
-* description = "Immunization Recommendation Categories available in Switzerland."
+* description = "Immunization procedures for recommendations according to the vaccination plan."
 * compose.include.system = "http://snomed.info/sct"
 * compose.include.concept[0].code = #42284007
 * compose.include.concept[=].display = "Administration of vaccine product containing only live attenuated Mycobacterium bovis antigen (procedure)"
