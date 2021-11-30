@@ -1,3 +1,6 @@
+// ////////////////////////////////////////////////
+// Definitions for patient
+// ////////////////////////////////////////////////
 Instance: TC_patient
 InstanceOf: CHCorePatientEPR
 Title: "TC patient"
@@ -21,12 +24,15 @@ Usage: #definition
 * address.postalCode = "9876"
 * address.country = "CH"
 
-Instance: TC_practitioner1_performer
+// ////////////////////////////////////////////////
+// Definitions for GFP1 in G1
+// ////////////////////////////////////////////////
+Instance: TC_GFP1_G1
 InstanceOf: CHCorePractitionerEPR
 Title: "TC Practitioner1 Performer"
 Description: "Testcase 1 example of practitioner"
 Usage: #example
-* id = "TC-practitioner1-performer"
+* id = "TC-GFP1-G1performer"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7608888888888"
 * active = true
@@ -52,12 +58,12 @@ Usage: #example
 * address.country = "CH"
 
 
-Instance: TC_organization1
+Instance: TC_ORG1
 InstanceOf: CHCoreOrganizationEPR
 Title: "TC Organization 1"
-Description: "Testcase 1 example of organization 1"
+Description: "Testcase organization of GFP1 in G1"
 Usage: #definition
-* id = "TC-organization1"
+* id = "TC-ORG1"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7608888888888"
 * name = "Gruppenpraxis CH"
@@ -79,60 +85,36 @@ Usage: #definition
 * address.postalCode = "8888"
 * address.country = "CH"
 
-Instance: TC_practitionerrole1_performer
+Instance: TC_GFP1_ORG1_ROLE_performer
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC PractitionerRole"
-Description: "Testcase 1 example of practitionerrole"
+Title: "TC GFP1 ORG1 Performer Role in G1"
+Description: "Testcase practitionerole GFP1 ORG1 as performer in G1"
 Usage: #definition
-* id = "TC-practitionerrole1-performer"
+* id = "TC-GFP1-ORG1-ROLE-performer"
 * active = true
-* practitioner = Reference(TC_practitioner1_performer)
-* organization = Reference(TC_organization1)
+* practitioner = Reference(TC_GFP1_G1)
+* organization = Reference(TC_ORG1)
 
-Instance: TC_practitionerrole1_author1
+Instance: TC_GFP1_ORG1_ROLE_author
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC PractitionerRole"
-Description: "Testcase 1 example of practitionerrole"
+Title: "TC GFP1 ORG1 Author Role in G1"
+Description: "Testcase practitionerole GFP1 ORG1 as author"
 Usage: #definition
-* id = "TC-practitionerrole1-author1"
+* id = "TC-GFP1-ORG1-ROLE-author"
 * active = true
-* practitioner = Reference(TC_practitioner1_performer)
-* organization = Reference(TC_organization1)
+* practitioner = Reference(TC_GFP1_G1)
+* organization = Reference(TC_ORG1)
 
 
-Instance: TC_organization2
-InstanceOf: CHCoreOrganizationEPR
-Title: "TC Organization 2"
-Description: "Testcase 1 example of organization 2"
-Usage: #definition
-* id = "TC-organization2"
-* identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7609999999991"
-* name = "Praxis Dr. Gesund"
-* telecom[0].system = #phone
-* telecom[=].value = "tel:+41.32.234.77.88"
-* telecom[=].use = #work
-* telecom[+].system = #fax
-* telecom[=].value = "fax:+41.32.234.77.89"
-* telecom[=].use = #work
-* telecom[+].system = #email
-* telecom[=].value = "mailto:leitung@praxis-gesund.ch"
-* telecom[=].use = #work
-* telecom[+].system = #url
-* telecom[=].value = "http://www.praxis-gesund.ch"
-* telecom[=].use = #work
-* address.line = "Aerztehaus"
-* address.city = "Beispielen"
-* address.state = "ZH"
-* address.postalCode = "7890"
-* address.country = "CH"
-
-Instance: TC_practitioner2_performer2
+// ////////////////////////////////////////////////
+// Definitions for GFP2 in G2
+// ////////////////////////////////////////////////
+Instance: TC_GFP2_G2
 InstanceOf: CHCorePractitionerEPR
-Title: "TC Practitioner2 Performer"
-Description: "Testcase 1 example of practitioner 2"
+Title: "TC GFP2 G2"
+Description: "Testcase practitionerole GFP2 of G2"
 Usage: #example
-* id = "TC-practitioner2-performer2"
+* id = "TC-GFP2-G2-performer"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7609999999990"
 * active = true
@@ -159,22 +141,49 @@ Usage: #example
 * address.postalCode = "7890"
 * address.country = "CH"
 
-Instance: TC_practitionerrole3_performer2
-InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC PractitionerRole 3 Performer 2"
-Description: "Testcase 1 example of practitionerrole"
+Instance: TC_ORG2
+InstanceOf: CHCoreOrganizationEPR
+Title: "TC Organization 2"
+Description: "Testcase organization of GFP2 in G2"
 Usage: #definition
-* id = "TC-practitionerrole3-performer2"
-* active = true
-* practitioner = Reference(TC_practitioner2_performer2)
-* organization = Reference(TC_organization2)
+* id = "TC-ORG2"
+* identifier.system = "urn:oid:2.51.1.3"
+* identifier.value = "7609999999991"
+* name = "Praxis Dr. Gesund"
+* telecom[0].system = #phone
+* telecom[=].value = "tel:+41.32.234.77.88"
+* telecom[=].use = #work
+* telecom[+].system = #fax
+* telecom[=].value = "fax:+41.32.234.77.89"
+* telecom[=].use = #work
+* telecom[+].system = #email
+* telecom[=].value = "mailto:leitung@praxis-gesund.ch"
+* telecom[=].use = #work
+* telecom[+].system = #url
+* telecom[=].value = "http://www.praxis-gesund.ch"
+* telecom[=].use = #work
+* address.line = "Aerztehaus"
+* address.city = "Beispielen"
+* address.state = "ZH"
+* address.postalCode = "7890"
+* address.country = "CH"
 
-Instance: TC_practitionerrole4_author2
+Instance: TC_GFP2_ORG2_ROLE_performer
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC PractitionerRole 4 Author 2"
-Description: "Testcase 1 example of practitionerrole 4"
+Title: "TC GFP2 G1 ORG2 Performer Role"
+Description: "Testcase practitionerole GFP2 ORG2 as performer"
 Usage: #definition
-* id = "TC-practitionerrole4-author2"
+* id = "TC-GFP2-ORG2-ROLE-performer"
 * active = true
-* practitioner = Reference(TC_practitioner2_performer2)
-* organization = Reference(TC_organization2)
+* practitioner = Reference(TC_GFP2_G2)
+* organization = Reference(TC_ORG2)
+
+Instance: TC_GFP2_ORG2_ROLE_author
+InstanceOf: CHCorePractitionerRoleEpr
+Title: "TC GFP2 G2 ORG2 Author Role"
+Description: "Testcase practitionerole GFP2 ORG2 as author in G2"
+Usage: #definition
+* id = "TC-GFP2-ORG2-ROLE-author"
+* active = true
+* practitioner = Reference(TC_GFP2_G2)
+* organization = Reference(TC_ORG2)

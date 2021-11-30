@@ -27,7 +27,7 @@ menu:
   Extensions: extensions.html
   Terminology: terminology.html
   Artifacts: artifacts.html
-  Test Cases: testcases.html
+  Test Cases: TestCases.html
 
 dependencies:
   ch.fhir.ig.ch-core:

@@ -1,9 +1,12 @@
-Instance: TC01_immunization1_patient
+// ////////////////////////////////////////////////
+// Definitions of immunizations resources for TC1
+// ////////////////////////////////////////////////
+Instance: TC01_IMMUN1_patient
 InstanceOf: CHVACDImmunization
 Title: "TC1 Immunization by patient"
 Description: "Testcase 1 example of immunization"
 Usage: #example
-* id = "TC01-immunization1-patient"
+* id = "TC01-IMMUN1-patient"
 * extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
 * extension[=].valueReference = Reference(TC_patient)
 * identifier.system = "urn:oid:2.16.756.5.30.1.147.1.3.1"
@@ -15,19 +18,19 @@ Usage: #example
 * recorded = "2020-02-02T11:14:56+02:00"
 * lotNumber = "1-3-HB763"
 * route = $standardterms#20035000 "Intramuscular use"
-* performer.actor = Reference(TC_practitionerrole1_performer)
+* performer.actor = Reference(TC_GFP1_ORG1_ROLE_performer)
 * protocolApplied.targetDisease[0] = $sct#40468003 "Viral hepatitis, type A (disorder)"
 * protocolApplied.doseNumberPositiveInt = 1
 
 
-Instance: TC01_immunization2_performer1
+Instance: TC01_IMMUN2_GFP1_ORG1_ROLE
 InstanceOf: CHVACDImmunization
 Title: "TC1 Immunization by GFP1"
 Description: "Testcase 1 example of immunization from GFP1"
 Usage: #example
-* id = "TC01-immunization2-performer1"
+* id = "TC01-IMMUN2-GFP1-ORG1-ROLE"
 * extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
-* extension[=].valueReference = Reference(TC_practitionerrole1_author1)
+* extension[=].valueReference = Reference(TC_GFP1_ORG1_ROLE_author)
 * identifier.system = "urn:oid:2.16.756.5.30.1.147.1.3.1"
 * identifier.value = "1829789"
 * status = #completed
@@ -37,7 +40,7 @@ Usage: #example
 * recorded = "2018-09-02T14:30:56+02:00"
 * lotNumber = "14-34218"
 * route = $standardterms#20035000 "Intramuscular use"
-* performer.actor = Reference(TC_practitionerrole1_performer)
+* performer.actor = Reference(TC_GFP1_ORG1_ROLE_performer)
 * protocolApplied.targetDisease[0] = $sct#397430003 "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * protocolApplied.targetDisease[+] = $sct#76902006 "Tetanus (disorder)"
 * protocolApplied.targetDisease[+] = $sct#27836007 "Pertussis (disorder)"
@@ -45,14 +48,14 @@ Usage: #example
 
 
 
-Instance: TC01_immunization3_performer2
+Instance: TC01_IMMUN3_GFP2_ORG2_ROLE
 InstanceOf: CHVACDImmunization
 Title: "TC1 Immunization by GFP2"
 Description: "Testcase 1 example of immunization from GFP2"
 Usage: #example
-* id = "TC01-immunization3-performer2"
+* id = "TC01-IMMUN3-GFP2-ORG2-ROLE"
 * extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
-* extension[=].valueReference = Reference(TC_practitionerrole4_author2)
+* extension[=].valueReference = Reference(TC_GFP2_ORG2_ROLE_author)
 * identifier.system = "urn:oid:2.16.756.5.30.1.147.1.3.1"
 * identifier.value = "182923456"
 * status = #completed
@@ -62,7 +65,7 @@ Usage: #example
 * recorded = "2017-09-15T09:12:56+02:00"
 * lotNumber = "12-34244"
 * route = $standardterms#20035000 "Intramuscular use"
-* performer.actor = Reference(TC_practitionerrole3_performer2)
+* performer.actor = Reference(TC_GFP2_ORG2_ROLE_performer)
 * protocolApplied.targetDisease[0] = $sct#397430003 "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * protocolApplied.targetDisease[+] = $sct#76902006 "Tetanus (disorder)"
 * protocolApplied.targetDisease[+] = $sct#27836007 "Pertussis (disorder)"
