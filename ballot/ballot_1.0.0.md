@@ -19,7 +19,6 @@ This is the categorie to list and resolve the bugs and typos found in the IG dur
 This is the categorie to list issues with additional features brought up during the ballot.
 #### 3.2.1 Issues
 [Issue 71](https://github.com/ehealthsuisse/ch-vacd/issues/71) - W - Provide Use Cases in IG (Annatina Foppa, eHealth Suisse) (Duplicate: [Issue 75](https://github.com/ehealthsuisse/ch-vacd/issues/75))<br>
-[Issue 88](https://github.com/ehealthsuisse/ch-vacd/issues/88) -  - Usecase from hospital environment to report vaccination documentation to authorities (Daniel Ratschiller, Cistec AG)<br>
 
 
 ### 3.3 Questions/Diskussion/ChageResource
@@ -49,7 +48,7 @@ This is the categorie to list issues "as nice to have"
 #### 3.6.1 Issues
 [Issue 69](https://github.com/ehealthsuisse/ch-vacd/issues/69) -  - Travel information -- Immunization Recommendation Request (Annatina Foppa, eHealth Suisse)<br>
 [Issue 86](https://github.com/ehealthsuisse/ch-vacd/issues/86) -  - Reactions to immunizations (Annatina Foppa, eHealth Suisse) <br>
-
+[Issue 88](https://github.com/ehealthsuisse/ch-vacd/issues/88) -  - Usecase from hospital environment to report vaccination documentation to authorities (Daniel Ratschiller, Cistec AG)<br>
 
 
 ## 4 Resolved Issues
