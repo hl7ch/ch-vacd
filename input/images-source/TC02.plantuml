@@ -1,0 +1,32 @@
+@startuml
+title Test Case 02
+footer Version 1.0
+skinparam responseMessageBelowArrow true
+scale max 800 width
+
+
+box "Stammgemeinschaft (G1)"
+actor PAT #blue
+participant "Dok1\nAdmin" #lightblue
+participant "Dok2\nAdmin" #lightblue
+participant Aggregator
+participant "Resultat\nRecord" #lightgreen
+end box
+
+box "Gemeinschaft (G2)"
+participant "Dok3\nAdmin" #orange
+participant "Dok4\nAdmin" #orange
+actor GFP2_G2 #orange
+end box
+
+GFP2_G2 -> "Dok4\nAdmin": Gesundheitsfachperson (G2) erstellt Dokument\nfür Impfung mit Havrix 1440 gegen Hepatitis A (2. Dosis)
+
+"Dok1\nAdmin" -> Aggregator: aggregation
+"Dok2\nAdmin" -> Aggregator: aggregation
+"Dok3\nAdmin" -> Aggregator: aggregation
+"Dok4\nAdmin" -> Aggregator: aggregation
+Aggregator -> "Resultat\nRecord": Erstellt Record Dokument
+PAT -> "Resultat\nRecord": Patient schaut die Impfübersicht an
+
+
+@enduml
