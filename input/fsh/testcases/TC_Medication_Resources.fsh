@@ -15,7 +15,7 @@ Usage: #example
 * identifier.system = "urn:oid:2.51.1.1"
 * identifier.value = "7680005580054"
 * manufacturer = Reference(TC_ORG_GSK)
-* form = $sct#385220007 "Injection suspension"
+* form = $sct#385220007 "Suspension for injection"
 * amount.numerator = 1 $ucum#ml "milliliter"
 * amount.denominator = 1 $sct#733020007 "Syringe (unit of presentation)"
 * batch.lotNumber = "AHAVB946A"
@@ -63,7 +63,7 @@ Usage: #example
 * identifier.system = "urn:oid:2.51.1.1"
 * identifier.value = "7680004500039"
 * manufacturer = Reference(TC_ORG_PFIZER)
-* form = $sct#385220007 "Injection suspension"
+* form = $sct#385220007 "Suspension for injection"
 * amount.numerator = 0.5 $ucum#ml "milliliter"
 * amount.denominator = 1 $sct#733020007 "Syringe (unit of presentation)"
 * batch.lotNumber = "VNR1T10C"

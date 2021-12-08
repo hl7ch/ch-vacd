@@ -2,6 +2,7 @@
 title Test Case 03
 footer Version 1.0
 skinparam responseMessageBelowArrow true
+skinparam style strictuml
 scale max 800 width
 
 

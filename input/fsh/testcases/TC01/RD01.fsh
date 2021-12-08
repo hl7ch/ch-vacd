@@ -7,18 +7,22 @@ Usage: #example
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:9aba4e33-12e0-46b3-958b-b856861d67f2"
 * type = #document
-* timestamp = "2021-06-01T00:00:00.390+02:00"
+* timestamp = "2021-08-10T00:00:00.390+02:00"
 
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Composition/RD01-Composition"
 * entry[=].resource = RD01_Composition
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/TC-patient"
 * entry[=].resource = TC_patient
+
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-GFP1-G1"
 * entry[=].resource = TC_GFP1_G1
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG1"
 * entry[=].resource = TC_ORG1
 * entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-GFP1-ORG1-ROLE-performer"
 * entry[=].resource = TC_GFP1_ORG1_ROLE_performer
+* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-GFP1-ORG1-ROLE-author"
+* entry[=].resource = TC_GFP1_ORG1_ROLE_author
+
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-GFP2-G2"
 * entry[=].resource = TC_GFP2_G2
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG2"
@@ -27,6 +31,7 @@ Usage: #example
 * entry[=].resource = TC_GFP2_ORG2_ROLE_performer
 * entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-GFP2-ORG2-ROLE-author"
 * entry[=].resource = TC_GFP2_ORG2_ROLE_author
+
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TC01-IMMUN1-patient"
 * entry[=].resource = TC01_IMMUN1_patient
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TC01-IMMUN2-GFP1-ORG1-ROLE"
@@ -59,7 +64,7 @@ Usage: #example
 * status = #final
 * type = $sct#41000179103 "Immunization record"
 * subject = Reference(TC_patient)
-* date = "2021-11-27T22:45:00+02:00"
+* date = "2021-08-10T00:00:00.390+02:00"
 * author = Reference(TC_patient)
 * title = "Immunization Administration"
 * confidentiality.extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode"

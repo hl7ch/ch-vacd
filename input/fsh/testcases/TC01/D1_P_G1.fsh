@@ -13,14 +13,17 @@ Usage: #example
 * entry[=].resource = D1_P_G1_Composition
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/TC-patient"
 * entry[=].resource = TC_patient
+
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-GFP1-G1"
 * entry[=].resource = TC_GFP1_G1
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG1"
 * entry[=].resource = TC_ORG1
 * entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-GFP1-ORG1-ROLE-performer"
 * entry[=].resource = TC_GFP1_ORG1_ROLE_performer
+
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TC01-IMMUN1-patient"
 * entry[=].resource = TC01_IMMUN1_patient
+
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-HAVRIX1440"
 * entry[=].resource = TC_IMMUN_MEDIC_HAVRIX1440
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-GSK"

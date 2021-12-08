@@ -17,8 +17,8 @@ Usage: #example
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#558 "Havrix 1440"
 * patient = Reference(TC_patient)
-* occurrenceDateTime = "2020-02-02T11:14:56+02:00"
-* recorded = "2020-02-02T11:14:56+02:00"
+* occurrenceDateTime = "2021-06-01T00:00:00.390+02:00"
+* recorded = "2021-06-01T00:00:00.390+02:00"
 * lotNumber = "AHAVB946A"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_GFP1_ORG1_ROLE_performer)
@@ -40,8 +40,8 @@ Usage: #example
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#637 "Boostrix"
 * patient = Reference(TC_patient)
-* occurrenceDateTime = "2018-09-02T14:30:56+02:00"
-* recorded = "2018-09-02T14:30:56+02:00"
+* occurrenceDateTime = "2021-06-15T00:00:00.390+02:00"
+* recorded = "2021-06-15T00:00:00.390+02:00"
 * lotNumber = "14-34218"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_GFP1_ORG1_ROLE_performer)
@@ -67,8 +67,8 @@ Usage: #example
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#450 	"FSME-Immun CC"
 * patient = Reference(TC_patient)
-* occurrenceDateTime = "2017-09-15T09:12:56+02:00"
-* recorded = "2017-09-15T09:12:56+02:00"
+* occurrenceDateTime = "2021-08-01T00:00:00.390+02:00"
+* recorded = "2021-08-01T00:00:00.390+02:00"
 * lotNumber = "12-34244"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_GFP2_ORG2_ROLE_performer)

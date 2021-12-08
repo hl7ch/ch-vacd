@@ -13,6 +13,7 @@ Usage: #example
 * entry[=].resource = D3_GFP_G2_Composition
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/TC-patient"
 * entry[=].resource = TC_patient
+
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-GFP2-G2"
 * entry[=].resource = TC_GFP2_G2
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG2"
@@ -21,6 +22,7 @@ Usage: #example
 * entry[=].resource = TC_GFP2_ORG2_ROLE_performer
 * entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-GFP2-ORG2-ROLE-author"
 * entry[=].resource = TC_GFP2_ORG2_ROLE_author
+
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TC01-IMMUN3-GFP2-ORG2-ROLE"
 * entry[=].resource = TC01_IMMUN3_GFP2_ORG2_ROLE
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-FSMEIMMCC"
