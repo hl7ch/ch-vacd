@@ -41,5 +41,5 @@ The test cases are tailored to use in the electronic patient record (EPR), but c
 
 |#|Fall|Dok1|Dok2|Dok3|Dok4|Resultat|
 |-|----|----|----|----|----|---|
-|[D01](TC_D01.html)|HCP or patient would like to see a vaccination status overview. When merging, a conflict is found in the vaccination entries (same vaccination, same date)|[D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.json|[D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.json)|…|…|[Result. Dokument D 01](Bundle-RDD01.json)|
+|[D01](TC_D01.html)|HCP or patient would like to see a vaccination status overview. When merging, a conflict is found in the vaccination entries (same vaccination, same date)|[D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.json)|[D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.json)|…|…|[Result. Dokument D 01](Bundle-RDD01.json)|
 
