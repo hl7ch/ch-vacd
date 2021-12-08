@@ -25,14 +25,14 @@ Usage: #definition
 * address.country = "CH"
 
 // ////////////////////////////////////////////////
-// Definitions for GFP1 in G1
+// Definitions for HCP1 in G1
 // ////////////////////////////////////////////////
-Instance: TC_GFP1_G1
+Instance: TC_HCP1_C1
 InstanceOf: CHCorePractitionerEPR
 Title: "TC Practitioner1 Performer"
 Description: "Testcase 1 example of practitioner"
 Usage: #example
-* id = "TC-GFP1-G1"
+* id = "TC-HCP1-C1"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7608888888888"
 * active = true
@@ -61,7 +61,7 @@ Usage: #example
 Instance: TC_ORG1
 InstanceOf: CHCoreOrganizationEPR
 Title: "TC Organization 1"
-Description: "Testcase organization of GFP1 in G1"
+Description: "Testcase organization of HCP1 in G1"
 Usage: #definition
 * id = "TC-ORG1"
 * identifier.system = "urn:oid:2.51.1.3"
@@ -85,36 +85,36 @@ Usage: #definition
 * address.postalCode = "8888"
 * address.country = "CH"
 
-Instance: TC_GFP1_ORG1_ROLE_performer
+Instance: TC_HCP1_ORG1_ROLE_performer
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC GFP1 ORG1 Performer Role in G1"
-Description: "Testcase practitionerole GFP1 ORG1 as performer in G1"
+Title: "TC HCP1 ORG1 Performer Role in G1"
+Description: "Testcase practitionerole HCP1 ORG1 as performer in G1"
 Usage: #definition
-* id = "TC-GFP1-ORG1-ROLE-performer"
+* id = "TC-HCP1-ORG1-ROLE-performer"
 * active = true
-* practitioner = Reference(TC_GFP1_G1)
+* practitioner = Reference(TC_HCP1_C1)
 * organization = Reference(TC_ORG1)
 
-Instance: TC_GFP1_ORG1_ROLE_author
+Instance: TC_HCP1_ORG1_ROLE_author
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC GFP1 ORG1 Author Role in G1"
-Description: "Testcase practitionerole GFP1 ORG1 as author"
+Title: "TC HCP1 ORG1 Author Role in G1"
+Description: "Testcase practitionerole HCP1 ORG1 as author"
 Usage: #definition
-* id = "TC-GFP1-ORG1-ROLE-author"
+* id = "TC-HCP1-ORG1-ROLE-author"
 * active = true
-* practitioner = Reference(TC_GFP1_G1)
+* practitioner = Reference(TC_HCP1_C1)
 * organization = Reference(TC_ORG1)
 
 
 // ////////////////////////////////////////////////
-// Definitions for GFP2 in G2
+// Definitions for HCP2 in G2
 // ////////////////////////////////////////////////
-Instance: TC_GFP2_G2
+Instance: TC_HCP2_C2
 InstanceOf: CHCorePractitionerEPR
-Title: "TC GFP2 G2"
-Description: "Testcase practitionerole GFP2 of G2"
+Title: "TC HCP2 G2"
+Description: "Testcase practitionerole HCP2 of G2"
 Usage: #example
-* id = "TC-GFP2-G2"
+* id = "TC-HCP2-C2"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7609999999990"
 * active = true
@@ -144,7 +144,7 @@ Usage: #example
 Instance: TC_ORG2
 InstanceOf: CHCoreOrganizationEPR
 Title: "TC Organization 2"
-Description: "Testcase organization of GFP2 in G2"
+Description: "Testcase organization of HCP2 in G2"
 Usage: #definition
 * id = "TC-ORG2"
 * identifier.system = "urn:oid:2.51.1.3"
@@ -168,22 +168,22 @@ Usage: #definition
 * address.postalCode = "7890"
 * address.country = "CH"
 
-Instance: TC_GFP2_ORG2_ROLE_performer
+Instance: TC_HCP2_ORG2_ROLE_performer
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC GFP2 G1 ORG2 Performer Role"
-Description: "Testcase practitionerole GFP2 ORG2 as performer"
+Title: "TC HCP2 G1 ORG2 Performer Role"
+Description: "Testcase practitionerole HCP2 ORG2 as performer"
 Usage: #definition
-* id = "TC-GFP2-ORG2-ROLE-performer"
+* id = "TC-HCP2-ORG2-ROLE-performer"
 * active = true
-* practitioner = Reference(TC_GFP2_G2)
+* practitioner = Reference(TC_HCP2_C2)
 * organization = Reference(TC_ORG2)
 
-Instance: TC_GFP2_ORG2_ROLE_author
+Instance: TC_HCP2_ORG2_ROLE_author
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC GFP2 G2 ORG2 Author Role"
-Description: "Testcase practitionerole GFP2 ORG2 as author in G2"
+Title: "TC HCP2 G2 ORG2 Author Role"
+Description: "Testcase practitionerole HCP2 ORG2 as author in G2"
 Usage: #definition
-* id = "TC-GFP2-ORG2-ROLE-author"
+* id = "TC-HCP2-ORG2-ROLE-author"
 * active = true
-* practitioner = Reference(TC_GFP2_G2)
+* practitioner = Reference(TC_HCP2_C2)
 * organization = Reference(TC_ORG2)

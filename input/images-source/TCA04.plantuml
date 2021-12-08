@@ -1,0 +1,39 @@
+@startuml
+title Test Case A 04
+footer Version 1.0
+skinparam responseMessageBelowArrow true
+skinparam style strictuml
+scale max 800 width
+
+box "Reference Community (C1)"
+actor "Patient" as PAT #blue
+actor "Health Care Professional 1 (C1)" as HCP1_C1 #lightblue
+participant "Doc1\nAdmin" as Doc1 #lightblue
+participant "Doc2\nAdmin" as Doc2 #lightblue
+participant "Doc5\nAdmin" as Doc5 #lightblue
+participant "Doc6\nAdmin" as Doc6 #lightblue
+participant Aggregator as AGG
+participant "Resultat\nRecord" as RES #lightgreen
+end box
+
+
+HCP1_C1 -> Doc6: HCP1 validates the TBE vaccination of the patient \n and creates a document so that the vaccination with FSME-Immun CC\nagainst TBE (2nd dose) is validated
+Doc6 --> Doc5 : relatesTo
+
+box "Community (C2)"
+participant "Doc3\nAdmin" as Doc3 #orange
+participant "Doc4\nAdmin" as Doc4 #orange
+end box
+
+
+Doc1 --> AGG: aggregation
+Doc2 --> AGG: aggregation
+Doc3 --> AGG: aggregation
+Doc4 --> AGG: aggregation
+Doc5 --> AGG: aggregation
+Doc6 --> AGG: aggregation
+AGG -> RES: creates document\nVaccination Record 
+PAT -> RES: Patient sees immunization status
+
+
+@enduml

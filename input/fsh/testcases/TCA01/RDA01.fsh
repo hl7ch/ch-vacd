@@ -1,45 +1,43 @@
-Instance: RD03
+Instance: RDA01
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case 03: Aggregated Dokument (RD03)"
-Description: "Test Case 03:  Patient trägt zweite Dosis einer Impfung (FSME) ein."
+Title: "Test Case 01: Aggregated Dokument (RDA01)"
+Description: "Test Case 01: Patient hat drei Impfdokumente in zwei unterschiedlichen Gemeinschaften (eines davon vom Patient selbst erfasst). Dies ist das vom Patienten erstellte Dokument"
 Usage: #example
-* id = "RD03"
+* id = "RDA01"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:9aba4e33-12e0-46b3-958b-b856861d67f2"
 * type = #document
-* timestamp = "2021-09-05T00:00:00.390+02:00"
+* timestamp = "2021-08-10T00:00:00.390+02:00"
 
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Composition/RD03-Composition"
-* entry[=].resource = RD03_Composition
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Composition/RDA01-Composition"
+* entry[=].resource = RDA01_Composition
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/TC-patient"
 * entry[=].resource = TC_patient
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-GFP1-G1"
 
-* entry[=].resource = TC_GFP1_G1
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-HCP1-C1"
+* entry[=].resource = TC_HCP1_C1
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG1"
 * entry[=].resource = TC_ORG1
-* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-GFP1-ORG1-ROLE-performer"
-* entry[=].resource = TC_GFP1_ORG1_ROLE_performer
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-GFP2-G2"
+* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP1-ORG1-ROLE-performer"
+* entry[=].resource = TC_HCP1_ORG1_ROLE_performer
+* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP1-ORG1-ROLE-author"
+* entry[=].resource = TC_HCP1_ORG1_ROLE_author
 
-* entry[=].resource = TC_GFP2_G2
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-HCP2-C2"
+* entry[=].resource = TC_HCP2_C2
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG2"
 * entry[=].resource = TC_ORG2
-* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-GFP2-ORG2-ROLE-performer"
-* entry[=].resource = TC_GFP2_ORG2_ROLE_performer
-* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-GFP2-ORG2-ROLE-author"
-* entry[=].resource = TC_GFP2_ORG2_ROLE_author
+* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP2-ORG2-ROLE-performer"
+* entry[=].resource = TC_HCP2_ORG2_ROLE_performer
+* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP2-ORG2-ROLE-author"
+* entry[=].resource = TC_HCP2_ORG2_ROLE_author
 
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TC01-IMMUN1-patient"
-* entry[=].resource = TC01_IMMUN1_patient
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TC01-IMMUN2-GFP1-ORG1-ROLE"
-* entry[=].resource = TC01_IMMUN2_GFP1_ORG1_ROLE
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TC01-IMMUN3-GFP2-ORG2-ROLE"
-* entry[=].resource = TC01_IMMUN3_GFP2_ORG2_ROLE
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TC02-IMMUN4-GFP2-ORG2-ROLE"
-* entry[=].resource = TC02_IMMUN4_GFP2_ORG2_ROLE
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TC03-IMMUN5-patient"
-* entry[=].resource = TC03_IMMUN5_patient
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCA01-IMMUN1-patient"
+* entry[=].resource = TCA01_IMMUN1_patient
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCA01-IMMUN2-HCP1-ORG1-ROLE"
+* entry[=].resource = TCA01_IMMUN2_HCP1_ORG1_ROLE
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCA01-IMMUN3-HCP2-ORG2-ROLE"
+* entry[=].resource = TCA01_IMMUN3_HCP2_ORG2_ROLE
 
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-HAVRIX1440"
 * entry[=].resource = TC_IMMUN_MEDIC_HAVRIX1440
@@ -51,12 +49,12 @@ Usage: #example
 * entry[=].resource = TC_ORG_PFIZER
 
 
-Instance: RD03_Composition
-InstanceOf: CHVACDCompositionImmunizationAdministration
+Instance: RDA01_Composition
+InstanceOf: CHVACDCompositionVaccinationRecord
 Title: "Aggregated Document Composition"
-Description: "Example for Composition Immunization Administration"
+Description: "Example for Composition Vaccination Record"
 Usage: #example
-* id = "RD03-Composition"
+* id = "RDA01-Composition"
 * language = #en-US
 * extension.id = "versionNumber"
 * extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber"
@@ -66,9 +64,9 @@ Usage: #example
 * status = #final
 * type = $sct#41000179103 "Immunization record"
 * subject = Reference(TC_patient)
-* date = "2021-09-05T00:00:00.390+02:00"
+* date = "2021-08-10T00:00:00.390+02:00"
 * author = Reference(TC_patient)
-* title = "Immunization Administration"
+* title = "Vaccination Record"
 * confidentiality.extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode"
 * confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal (qualifier value)"
 * confidentiality = #N
@@ -78,11 +76,9 @@ Usage: #example
 * section[=].code = $loinc#11369-6 "Hx of Immunization"
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing all immunization entries.</div>"
-* section[=].entry[+] = Reference(TC01_IMMUN1_patient)
-* section[=].entry[+] = Reference(TC01_IMMUN2_GFP1_ORG1_ROLE)
-* section[=].entry[+] = Reference(TC01_IMMUN3_GFP2_ORG2_ROLE)
-* section[=].entry[+] = Reference(TC02_IMMUN4_GFP2_ORG2_ROLE)
-* section[=].entry[+] = Reference(TC03_IMMUN5_patient)
+* section[=].entry[+] = Reference(TCA01_IMMUN1_patient)
+* section[=].entry[+] = Reference(TCA01_IMMUN2_HCP1_ORG1_ROLE)
+* section[=].entry[+] = Reference(TCA01_IMMUN3_HCP2_ORG2_ROLE)
 * section[+].id = "annotation"
 * section[=].title = "Comments"
 * section[=].code = $loinc#48767-8 "Annotation comment [Interpretation] Narrative"

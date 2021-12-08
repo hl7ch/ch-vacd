@@ -1,7 +1,11 @@
 // ////////////////////////////////////////////////
 // Definitions for medication
 // ////////////////////////////////////////////////
+
+// ////////////////////////////////////////////////
+// ////////////////////////////////////////////////
 // Havrix 1440
+// ////////////////////////////////////////////////
 Instance: TC_IMMUN_MEDIC_HAVRIX1440
 InstanceOf: CHVACDMedicationForImmunization
 Title: "TC1 Medication for Immunization by patient"
@@ -20,8 +24,9 @@ Usage: #example
 * amount.denominator = 1 $sct#733020007 "Syringe (unit of presentation)"
 * batch.lotNumber = "AHAVB946A"
 
-
-// Organization manufacturer 
+// ////////////////////////////////////////////////
+// Organization manufacturer GlaxoSmithKline
+// ////////////////////////////////////////////////
 Instance: TC_ORG_GSK
 InstanceOf: CHCoreOrganization
 Title: "Manufacturer GlaxoSmithKline AG"
@@ -49,7 +54,10 @@ Usage: #definition
 * address.postalCode = "3053"
 * address.country = "CH"
 
+// ////////////////////////////////////////////////
+// ////////////////////////////////////////////////
 // FSME-Immun CC, VNR1T10C, VNR1T10D, VNR1T10E,VNR1T11A
+// ////////////////////////////////////////////////
 Instance: TC_IMMUN_MEDIC_FSMEIMMCC
 InstanceOf: CHVACDMedicationForImmunization
 Title: "TC1 Medication for Immunization by patient"
@@ -69,7 +77,9 @@ Usage: #example
 * batch.lotNumber = "VNR1T10C"
 
 
-// Organization manufacturer 
+// ////////////////////////////////////////////////
+// Organization manufacturer PFIZER
+// ////////////////////////////////////////////////
 Instance: TC_ORG_PFIZER
 InstanceOf: CHCoreOrganization
 Title: "Manufacturer Pfizer AG"
@@ -97,3 +107,28 @@ Usage: #definition
 * address.state = "ZH"
 * address.postalCode = "8052"
 * address.country = "CH"
+
+
+
+// ////////////////////////////////////////////////
+// ////////////////////////////////////////////////
+// 637 Boostrix, Injektionssuspension GlaxoSmithKline AG AC37B367A
+// ////////////////////////////////////////////////
+Instance: TC_IMMUN_MEDIC_BOOSTRIX
+InstanceOf: CHVACDMedicationForImmunization
+Title: "TC Medication for Immunization (Boostrix) against on "
+Description: "Testcase  example of medication for immunization extension Boostrix" 
+Usage: #example
+* id = "TC-IMMUN-MEDIC-BOOSTRIX"
+* code = $sct#106181007 "Immunologic substance (substance)"
+* status = #active
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">Havrix 1440</div>"
+* identifier.system = "urn:oid:2.51.1.1"
+* identifier.value = "7680006370012"
+* manufacturer = Reference(TC_ORG_GSK)
+* form = $sct#385220007 "Suspension for injection"
+* amount.numerator = 0.5 $ucum#ml "milliliter"
+* amount.denominator = 1 $sct#733020007 "Syringe (unit of presentation)"
+* batch.lotNumber = "AHAVB946A"
+

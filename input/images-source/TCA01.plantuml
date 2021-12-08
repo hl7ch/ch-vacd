@@ -1,0 +1,36 @@
+@startuml
+title Test Case A 01
+footer Version 1.0
+skinparam responseMessageBelowArrow true
+skinparam style strictuml
+scale max 800 width
+
+
+box "Reference Community (C1)"
+actor "Patient" as PAT #blue
+actor "Health Care Professional 1 (C1)" as HCP1_C1 #lightblue
+participant "Doc1\nAdmin" as Doc1 #lightblue
+participant "Doc2\nAdmin" as Doc2 #lightblue
+participant Aggregator as AGG
+participant "Result\nRecord" as RES #lightgreen
+end box
+
+box "Community (C2)"
+participant "Doc3\nAdmin" as Doc3 #orange
+actor "Health Care Professional 2 (C2)" as HCP2_C2 #orange
+end box
+
+PAT -> Doc1: Patient (C1) creates document\nwith vaccination Havrix 1440 against viral heaptite A
+
+HCP1_C1 -> Doc2: HCP1 (C1) creates document\nwith vaccination Boostrix against\nDiphteria, Tetanus and pertussis
+
+HCP2_C2 -> Doc3: HCP2 (G2) creates document\nwith vaccination FSME-Immun CC\nagainst TBE (1. Dosis)
+
+Doc1 --> AGG: aggregation
+Doc2 --> AGG: aggregation
+Doc3 --> AGG: aggregation
+AGG -> RES: creates document\nVaccination Record 
+PAT -> RES: Patient sees immunization status
+
+
+@enduml

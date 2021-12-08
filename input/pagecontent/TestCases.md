@@ -1,22 +1,22 @@
-Es gibt unzählige Varianten von Inhalten welche mit dem Impfen zusammenhängen. In den nachfolgend aufgeführten Test Cases soll der Mechanismus aufgezeigt werden wie mit den vielzahlt von Dokumenten umgegangen werden muss um ein Gesamtbild eines Impfstatuses eines Patienten zu erhalten.
+There are innumerable variations of contents related to vaccination. In the test cases listed below, the mechanism of dealing with multiple documents to obtain an overall picture of a patient's vaccination status has to be shown.
 
-Die Testfälle sind auf die Anwendung im Umfeld des Elektronischen Patienten Dossiers (EPD) bezogen, sind aber durchaus auch anwendbar auf allen anderen Bereiche ausserhalb des EPD's, da es sich um grundsätzliche Abläufe handelt.
+The test cases are tailored to use in the electronic patient record (EPR), but can also be used in all other areas outside of the EPR, since these are fundamental processes.
 
 
 ### Test Cases 
 
-#### Impfungen
+#### A Immunizations
 
 |#|Fall|Dok1|Dok2|Dok3|Dok4|Dok5|Dok6|Resultat|
 |-|----|----|----|----|----|----|---|---|
-|[01](TC_A01.html)|Patient hat drei Impfdokumente in zwei unterschiedlichen Gemeinschaften|[D1_P_G1](Bundle-D1-P-G1.json)|[D2_GFP_G1](Bundle-D2-GFP-G1.json)|[D3_GFP_G2](Bundle-D3-GFP-G2.json)|-|-|-|[Result. Dokument 01](Bundle-RD01.json)|
-|[02](TC_02.html)|GFP as G2 trägt zweite Dosis einer Impfung (Hepatitis) ein. Dok4 (Dosis 2) bezieht sich auf Impfeintrag in Dok1 (Dosis 1)|[D1_P_G1](Bundle-D1-P-G1.json)|[D2_GFP_G1](Bundle-D2-GFP-G1.json)|[D3_GFP_G2](Bundle-D3-GFP-G2.json)|[D4_GFP_G2](Bundle-D4-GFP-G2.json)|-|-|[Result. Dokument 02](Bundle-RD02.json)|
-|[03](TC_03.html)|Patient trägt zweite Dosis einer Impfung (FSME) ein. Dok5 bezieht sich auf Impfeintrag in Dok3|[D1_P_G1](Bundle-D1-P-G1.json)|[D2_GFP_G1](Bundle-D2-GFP-G1.json)|[D3_GFP_G2](Bundle-D3-GFP-G2.json)|[D4_GFP_G2](Bundle-D4-GFP-G2.json) |[D5_P_G1](Bundle-D5-P-G1.json)|-|[Result. Dokument 03](Bundle-RD03.json)|
-|[04](TC_04.html)|GFP validiert die Impfung (FSME)(Dok6) welche vom Patienten eingetragen wurde (Dok5)|…|…|…|…|[D5_P_G1](Bundle-D5-P-G1.json)|[D6_GFP_G1](Bundle-D6-GFP-G1.json)|[Result. Dokument 04](Bundle-RD04.json)|
+|[A01](TC_A01.html)|Patient has three vaccination documents in two different communities (one of them recorded by the patient himself)|[A_D1_P_C1](Bundle-A-D1-P-C1.json)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.json)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.json)|-|-|-|[Result. Dokument A 01](Bundle-RDA01.json)|
+|[A02](TC_A02.html)|HCP from G2 applies and records second dose of vaccination (hepatitis A). Doc4 (dose 2) refers to the vaccination entry in Doc1 (dose 1)|[A_D1_P_C1](Bundle-A-D1-P-C1.json)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.json)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.json)|[A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.json)|-|-|[Result. Dokument A 02](Bundle-RDA02.json)|
+|[A03](TC_A03.html)|Patient enters second dose of vaccination (TBE). Dok5 refers to the vaccination entry in Dok3|[A_D1_P_C1](Bundle-A-D1-P-C1.json)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.json)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.json)|[A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.json) |[A_D5_P_C1](Bundle-A-D5-P-C1.json)|-|[Result. Dokument A 03](Bundle-RDA03.json)|
+|[A04](TC_A04.html)|HCP validates the vaccination (TBE) (Doc6) which was entered by the patient (Doc5)|…|…|…|…|[D5_P_C1](Bundle-A-D5-P-C1.json)|[A_D6_HCP1_C1](Bundle-A-D6-HCP1-C1.json)|[Result. Dokument A 04](Bundle-RDA04.json)|
 
 
 
-#### Andere Einträge
+#### B Other Immunization relavant Elements
 
 |#|Fall|Dok1|Dok2|Dok3|Dok4|Resultat|
 |-|----|----|----|----|----|---|
@@ -26,7 +26,7 @@ Die Testfälle sind auf die Anwendung im Umfeld des Elektronischen Patienten Dos
 |x|+ Schwangerschaft|…|…|…|…|…|
 
 
-#### Korrigieren von Einträgen
+#### C Korrigieren von Einträgen
 
 |#|Fall|Dok1|Dok2|Dok3|Resultat|
 |-|----|----|----|----|---|
@@ -37,9 +37,9 @@ Die Testfälle sind auf die Anwendung im Umfeld des Elektronischen Patienten Dos
 |x|+ Annullieren Eintrag andere Gemeinschaft|…|…|…|…|
 
 
-#### Fehler beim Zusammenführen
+#### D Fehler beim Zusammenführen
 
 |#|Fall|Dok1|Dok2|Dok3|Dok4|Resultat|
 |-|----|----|----|----|----|---|
-|[05](TC_05.html)|GFP oder Patient möchte eine Impfstatusübersicht anschauen. Beim Zusammenführen wird ein Konflikt bei den Impfeinträgen festgestellt (gleiche Impfung, gleiches Datum)|…|…|…|…|[Result. Dokument 05](Bundle-RD05.json)|
+|[D01](TC_D01.html)|HCP or patient would like to see a vaccination status overview. When merging, a conflict is found in the vaccination entries (same vaccination, same date)|[D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.json|[D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.json)|…|…|[Result. Dokument D 01](Bundle-RDD01.json)|
 

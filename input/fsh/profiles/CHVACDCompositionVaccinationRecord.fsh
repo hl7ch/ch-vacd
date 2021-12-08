@@ -51,7 +51,8 @@ Description: "Definition of the composition for the vaccination record document.
     laboratory-serology 0..1 and
     pregnancy 0..1 and
     recommendations 0..1 and
-    annotation 0..1
+    annotation 0..1 and
+    mergeconflicts 0..1
 * section[administration] ^short = "Immunization Administration"
 * section[administration].extension ^slicing.discriminator.type = #value
 * section[administration].extension ^slicing.discriminator.path = "url"
@@ -238,4 +239,18 @@ Description: "Definition of the composition for the vaccination record document.
 * section[annotation].entry ^short = "General comments"
 * section[annotation].entry.reference 1..1
 * section[annotation].section 0..0
+
+
+* section[mergeconflicts] ^short = "Merge conflicts"
+* section[mergeconflicts].title 1..1
+* section[mergeconflicts].title ^short = "'Konflikte beim Zusammenführen' in german or 'Conflits de fusion' in french or 'Unisci conflitti' in italian or 'Merge conflicts' in english\n or titles in other languages are also allowed"
+* section[mergeconflicts].code 1..
+* section[mergeconflicts].code = $loinc#94082-5 "Validation error summary Document"
+* section[mergeconflicts].text 1..1
+* section[mergeconflicts].text ^short = "A summary of the validation errors found during validation of a document's structure and/or contents."
+* section[mergeconflicts].entry 0..*
+* section[mergeconflicts].entry only Reference(CHVACDMergingOperationOutcome)
+* section[mergeconflicts].entry ^short = "General comments"
+* section[mergeconflicts].entry.reference 1..1
+* section[mergeconflicts].section 0..0
 
