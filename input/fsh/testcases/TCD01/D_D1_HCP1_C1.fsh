@@ -26,7 +26,7 @@ Usage: #example
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCD01-IMMUN1"
 * entry[=].resource = TCD01_IMMUN1
 
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCD01_IMMUN2"
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCD01-IMMUN2"
 * entry[=].resource = TCD01_IMMUN2
 
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-FSMEIMMCC"
@@ -34,7 +34,7 @@ Usage: #example
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-PFIZER"
 * entry[=].resource = TC_ORG_PFIZER
 
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-HAVRIX1440"
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-BOOSTRIX"
 * entry[=].resource = TC_IMMUN_MEDIC_BOOSTRIX
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-GSK"
 * entry[=].resource = TC_ORG_GSK
