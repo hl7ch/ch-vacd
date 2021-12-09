@@ -16,28 +16,28 @@ The test cases are tailored to use in the electronic patient record (EPR), but c
 
 
 
-#### B Other Immunization relavant Elements
+#### B Other Elements
 
 |#|Fall|Dok1|Dok2|Dok3|Dok4|Resultat|
 |-|----|----|----|----|----|---|
-|x|+ Allergie auf Typhus-Impfstoff|…|…|…|…|…|
-|x|+ durchgemachte Krankheit (Windpocken)|…|…|…|…|…|
-|x|+ Expositionsrisiko (Arbeiten im Gesundheitswesen)|…|…|…|…|…|
-|x|+ Schwangerschaft|…|…|…|…|…|
+|x|+ Allergy to typhoid vaccine|…|…|…|…|…|
+|x|+ undergone Illness (Chickenpox)|…|…|…|…|…|
+|x|+ Expositionrisk (Working in healthcare)|…|…|…|…|…|
+|x|+ Pregnancy|…|…|…|…|…|
 
 
-#### C Korrigieren von Einträgen
+#### C Correction of Entries
 
 |#|Fall|Dok1|Dok2|Dok3|Resultat|
 |-|----|----|----|----|---|
-|x|+ Korrektur eigener Eintrag|…|…|…|…|
-|x|+ Korrektur fremder Eintrag|…|…|…|…|
-|x|+ validiert Patienteneintrag zu durchgemachter Krankheit NICHT|…|…|…|…|
-|x|+ Annullieren Eintrag eigene Gemeinschaft|…|…|…|…|
-|x|+ Annullieren Eintrag andere Gemeinschaft|…|…|…|…|
+|x|+ Correction of own entry|…|…|…|…|
+|x|+ Correction of foreign entry|…|…|…|…|
+|x|+ DOES NOT validate patient entry for previous illness|…|…|…|…|
+|x|+ Cancel entry own community|…|…|…|…|
+|x|+ Cancel entry of other community|…|…|…|…|
 
 
-#### D Fehler beim Zusammenführen
+#### D Conflicts on merging Documents
 
 |#|Fall|Dok1|Dok2|Dok3|Dok4|Resultat|
 |-|----|----|----|----|----|---|

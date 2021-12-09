@@ -3,7 +3,7 @@
 ### Precondition
 The patient has an EPR. There are three vaccination administration documents for him on the respositories of the communities.
 He created a [Document A-D1-P-C1](Bundle-A-D1-P-C1.json) himself and uploaded it to the repository of his home community.
-The other two documents were created and uploaded by two experts [HCP1](TC-HCP1-C1.json) and [HCP2](TC-HCP2-C2.json).
+The other two documents were created and uploaded by two experts [HCP1](Practitioner-TC-HCP1-C1.json) and [HCP2](Practitioner-TC-HCP2-C2.json).
 
 Specialist HCP1 is connected to the same community as the patient and has created and uploaded a document [Dokument A-D2-HCP1-C1](Bundle-A-D2-HCP1-C1.json).
 

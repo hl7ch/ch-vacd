@@ -12,4 +12,7 @@ Description: "Operation outcome on merging vaccination documents showing conflic
 * issue.extension ^slicing.discriminator.type = #value
 * issue.extension ^slicing.discriminator.path = "url"
 * issue.extension ^slicing.rules = #open
-* issue.extension contains CHVACDExtensionMergingConflictEntryReference named entry 2..*
+* issue.extension contains CHVACDExtensionMergingConflictEntryReference named entry 1..1
+* issue.details 0..0
+* issue.location 0..0
+* issue.expression 0..0

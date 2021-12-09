@@ -17,7 +17,7 @@ Usage: #example
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#450 	"FSME-Immun CC"
 * patient = Reference(TC_patient)
-* occurrenceDateTime = "2021-09-01T00:00:00.390+02:00"
+* occurrenceDateTime = "2021-09-01"
 * recorded = "2021-09-01T00:00:00.390+02:00"
 * lotNumber = "12-34244"
 * route = $standardterms#20035000 "Intramuscular use"

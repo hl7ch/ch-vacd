@@ -17,7 +17,7 @@ Usage: #example
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#558 "Havrix 1440"
 * patient = Reference(TC_patient)
-* occurrenceDateTime = "2021-08-20T00:00:00.390+02:00"
+* occurrenceDateTime = "2021-08-20"
 * recorded = "2021-08-20T00:00:00.390+02:00"
 * lotNumber = "AHAVB946A"
 * route = $standardterms#20035000 "Intramuscular use"

@@ -16,6 +16,40 @@ Usage: #example
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG1"
 * entry[=].resource = TC_ORG1
 
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-HCP2-C2"
+* entry[=].resource = TC_HCP2_C2
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG2"
+* entry[=].resource = TC_ORG2
+* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP2-ORG2-ROLE-performer"
+* entry[=].resource = TC_HCP2_ORG2_ROLE_performer
+* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP2-ORG2-ROLE-author"
+* entry[=].resource = TC_HCP2_ORG2_ROLE_author
+
+// BOOSTRIX (in conflict with D_D1)
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCD01-IMMUN3"
+* entry[=].resource = TCD01_IMMUN3
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-BOOSTRIX"
+* entry[=].resource = TC_IMMUN_MEDIC_BOOSTRIX
+
+// PRIORIX
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCD01-IMMUN4"
+* entry[=].resource = TCD01_IMMUN4
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-PRIORIX"
+* entry[=].resource = TC_IMMUN_MEDIC_PRIORIX
+
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-GSK"
+* entry[=].resource = TC_ORG_GSK
+
+// GARDASIL9
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCD01-IMMUN5"
+* entry[=].resource = TCD01_IMMUN5
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-GARDASIL9"
+* entry[=].resource = TC_IMMUN_MEDIC_GARDASIL9
+
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-MSD"
+* entry[=].resource = TC_ORG_MSD
+
+
 
 Instance: D_D2_HCP2_C2_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration
@@ -44,7 +78,9 @@ Usage: #example
 * section[=].code = $loinc#11369-6 "Hx of Immunization"
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing all immunization entries.</div>"
-//* section[=].entry = Reference(TCA04_IMMUN5_patient_val_GFP)
+* section[=].entry[+] = Reference(TCD01_IMMUN3)
+* section[=].entry[+] = Reference(TCD01_IMMUN4)
+* section[=].entry[+] = Reference(TCD01_IMMUN5)
 * section[+].id = "annotation"
 * section[=].title = "Comments"
 * section[=].code = $loinc#48767-8 "Annotation comment [Interpretation] Narrative"

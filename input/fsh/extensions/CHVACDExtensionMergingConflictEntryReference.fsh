@@ -11,3 +11,22 @@ Description: "Extension to make a reference to an entry conflicting with other e
 * . 0..*
 * . ^short = "Reference to related resource"
 * . ^definition = "Extension to make a reference to an entry conflicting with other entries."
+* url only uri
+* extension contains
+    entry1 1..1 and
+    entry2 1..1
+* extension[entry1] only Extension
+* extension[entry1] ^short = "Reference to the conflicting entry 1."
+* extension[entry1] ^definition = "Reference to the conflicting entry 1."
+* extension[entry1].url only uri
+* extension[entry1].valueReference 1.. MS
+* extension[entry1].valueReference only Reference(CHVACDAllergyIntolerance or CHVACDImmunization or CHVACDImmunizationRecommendations or CHVACDLaboratorySerology or CHVACDMedicalProblems or CHVACDMedicationForImmunization or CHVACDMergingOperationOutcome or CHVACDOtherRelevantObservations or CHVACDPastIllness or CHVACDPregnancy)
+* extension[entry1].valueReference ^short = "The Reference to the conflicting entry 1."
+
+* extension[entry2] only Extension
+* extension[entry2] ^short = "Reference to the conflicting entry 2."
+* extension[entry2] ^definition = "Reference to the conflicting entry 2."
+* extension[entry2].url only uri
+* extension[entry2].valueReference 1.. MS
+* extension[entry2].valueReference only Reference(CHVACDAllergyIntolerance or CHVACDImmunization or CHVACDImmunizationRecommendations or CHVACDLaboratorySerology or CHVACDMedicalProblems or CHVACDMedicationForImmunization or CHVACDMergingOperationOutcome or CHVACDOtherRelevantObservations or CHVACDPastIllness or CHVACDPregnancy)
+* extension[entry2].valueReference ^short = "The Reference to the conflicting entry 2."
