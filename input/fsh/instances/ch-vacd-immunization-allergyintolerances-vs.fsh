@@ -19,7 +19,18 @@ Usage: #definition
 * description = "The allergies which have an influence on the immunization recommendations."
 * immutable = false
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
+
 * compose.include[0].system = "http://snomed.info/sct"
+* compose.include[=].concept[+].code = #260414001
+* compose.include[=].concept[=].display = "Nothing (qualifier value)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "nicht zutreffend"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "pas applicable"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "non applicabile"
+
+* compose.include[+].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #213020009
 * compose.include[=].concept[=].display = "Allergy to egg protein (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -32,6 +43,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen Hühnereiweiss"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to egg protein"
+
 * compose.include[=].concept[+].code = #24079001
 * compose.include[=].concept[=].display = "Atopic dermatitis (disorder)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -44,8 +56,27 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Atopische Dermatitis"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Atopic dermatitis"
+
+* compose.include[=].concept[+].code = #416098002
+* compose.include[=].concept[=].display = "Allergy to drug (finding)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Medikamente"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "à des médicaments"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "a medicamenti"
+
 * compose.include[+].system = "http://snomed.info/sct"
-* compose.include[=].concept[0].code = #294641002
+* compose.include[=].concept[0].code = #863903001
+* compose.include[=].concept[=].display = "Allergy to component of vaccine product (finding)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "einen der Bestandteile des Impfstoffs"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "à l’un des composants du vaccin ?"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "a uno dei componenti del vaccino"
+
+* compose.include[=].concept[+].code = #294641002
 * compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Bacillus anthracis antigen (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
