@@ -36,7 +36,7 @@ Description: "Definition of the composition for the  immunization administration
 * section ^slicing.ordered = false
 * section ^slicing.rules = #open
 * section contains
-    administration 1..1 and
+    administration 0..1 and
     annotation 0..1
 * section[administration] ^short = "Immunization Administration"
 * section[administration].extension ^slicing.discriminator.type = #value
