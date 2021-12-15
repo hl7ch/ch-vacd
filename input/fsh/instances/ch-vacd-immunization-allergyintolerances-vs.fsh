@@ -32,7 +32,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #rm-CH
 * compose.include[=].concept[=].designation[=].value = "Keine Allergie bekannt"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "No known allergy (situation"
+* compose.include[=].concept[=].designation[=].value = "No known allergy (situation)"
 
 * compose.include[+].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #213020009
@@ -66,7 +66,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen Medikamente"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie au médicament"
+* compose.include[=].concept[=].designation[=].value = "Allergie aux médicaments"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Allergia ai farmaci"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
