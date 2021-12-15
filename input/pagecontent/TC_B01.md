@@ -14,6 +14,6 @@ repository of the reference community C1.
 The AllergyIntollerance entry can be found in the vaccination status of the patient in his EPR.
 
 ### Documents
-* [B_D1_HCP1_C1](Bundle-B-D1-HCP1-C1.json)
-* [B_D2_HCP1_C1](Bundle-B-D2-HCP1-C1.json)
-* [Result. Dokument B 01](Bundle-RDB01.json)
+* [B_D1_HCP1_C1](Bundle-B-D1-HCP1-C1.html)
+* [B_D2_HCP1_C1](Bundle-B-D2-HCP1-C1.html)
+* [Result. Dokument B 01](Bundle-RDB01.html)

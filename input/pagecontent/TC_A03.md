@@ -13,9 +13,9 @@ He is entered as the patient as the author and creator of the document [Composit
 The second dose of the TBE vaccination is entered in the patient's documentation.
 
 ### Documents
-* [A_D1_P_C1](Bundle-A-D1-P-C1.json)
-* [A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.json)
-* [A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.json)
-* [A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.json)
-* [A_D5_P_C1](Bundle-A-D5-P-C1.json)
-* [Result. Dokument A 03](Bundle-RDA03.json)
+* [A_D1_P_C1](Bundle-A-D1-P-C1.html)
+* [A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.html)
+* [A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)
+* [A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.html)
+* [A_D5_P_C1](Bundle-A-D5-P-C1.html)
+* [Result. Dokument A 03](Bundle-RDA03.html)

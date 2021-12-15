@@ -4,8 +4,8 @@
 // Viral hepatitis, type A Vaccination, Havrix 1440, 1st dose, D1
 Instance: TCA01_IMMUN1_patient
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by patient"
-Description: "Testcase 1 example of immunization"
+Title: "TCA1 Immunization by patient"
+Description: "Testcase A 1 example of immunization"
 Usage: #example
 * id = "TCA01-IMMUN1-patient"
 * extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"

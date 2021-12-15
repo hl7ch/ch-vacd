@@ -9,10 +9,10 @@ The test cases are tailored to use in the electronic patient record (EPR), but c
 
 |#|Fall|Doc1|Doc2|Doc3|Doc4|Doc5|Doc6|Resultat|
 |-|----|----|----|----|----|----|---|---|
-|[A01](TC_A01.html)|Patient has three vaccination documents in two different communities (one of them recorded by the patient himself)|[A_D1_P_C1](Bundle-A-D1-P-C1.json)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.json)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.json)|-|-|-|[Result. Document A 01](Bundle-RDA01.json)|
-|[A02](TC_A02.html)|HCP from G2 applies and records second dose of vaccination (hepatitis A). Doc4 (dose 2) refers to the vaccination entry in Doc1 (dose 1)|[A_D1_P_C1](Bundle-A-D1-P-C1.json)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.json)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.json)|[A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.json)|-|-|[Result. Document A 02](Bundle-RDA02.json)|
-|[A03](TC_A03.html)|Patient enters second dose of vaccination (TBE). Doc5 refers to the vaccination entry in Doc3|[A_D1_P_C1](Bundle-A-D1-P-C1.json)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.json)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.json)|[A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.json) |[A_D5_P_C1](Bundle-A-D5-P-C1.json)|-|[Result. Document A 03](Bundle-RDA03.json)|
-|[A04](TC_A04.html)|HCP validates the vaccination (TBE) (Doc6) which was entered by the patient (Doc5)|…|…|…|…|[D5_P_C1](Bundle-A-D5-P-C1.json)|[A_D6_HCP1_C1](Bundle-A-D6-HCP1-C1.json)|[Result. Document A 04](Bundle-RDA04.json)|
+|[A01](TC_A01.html)|Patient has three vaccination documents in two different communities (one of them recorded by the patient himself)|[A_D1_P_C1](Bundle-A-D1-P-C1.html)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.html)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)|-|-|-|[Result. Document A 01](Bundle-RDA01.html)|
+|[A02](TC_A02.html)|HCP from G2 applies and records second dose of vaccination (hepatitis A). Doc4 (dose 2) refers to the vaccination entry in Doc1 (dose 1)|[A_D1_P_C1](Bundle-A-D1-P-C1.html)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.html)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)|[A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.html)|-|-|[Result. Document A 02](Bundle-RDA02.html)|
+|[A03](TC_A03.html)|Patient enters second dose of vaccination (TBE). Doc5 refers to the vaccination entry in Doc3|[A_D1_P_C1](Bundle-A-D1-P-C1.html)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.html)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)|[A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.html) |[A_D5_P_C1](Bundle-A-D5-P-C1.html)|-|[Result. Document A 03](Bundle-RDA03.html)|
+|[A04](TC_A04.html)|HCP validates the vaccination (TBE) (Doc6) which was entered by the patient (Doc5)|…|…|…|…|[D5_P_C1](Bundle-A-D5-P-C1.html)|[A_D6_HCP1_C1](Bundle-A-D6-HCP1-C1.html)|[Result. Document A 04](Bundle-RDA04.html)|
 
 
 
@@ -20,7 +20,7 @@ The test cases are tailored to use in the electronic patient record (EPR), but c
 
 |#|Case|Doc1|Doc2|Doc3|Doc4|Resultat|
 |-|----|----|----|----|----|---|
-|[B01](TC_B01.html)|Allergy to typhoid vaccine|[B_D1_HCP1_C1](Bundle-B-D1-HCP1-C1.json)|[B_D2_HCP1_C1](Bundle-B-D2-HCP1-C1.json)|…|…|[Result. Document B 01](Bundle-RDB01.json)|
+|[B01](TC_B01.html)|Allergy to typhoid vaccine|[B_D1_HCP1_C1](Bundle-B-D1-HCP1-C1.html)|[B_D2_HCP1_C1](Bundle-B-D2-HCP1-C1.html)|…|…|[Result. Document B 01](Bundle-RDB01.html)|
 |x|+ undergone Illness (Chickenpox)|…|…|…|…|…|
 |x|+ Expositionrisk (Working in healthcare)|…|…|…|…|…|
 |x|+ Pregnancy|…|…|…|…|…|
@@ -30,7 +30,7 @@ The test cases are tailored to use in the electronic patient record (EPR), but c
 
 |#|Case|Doc1|Doc2|Doc3|Resultat|
 |-|----|----|----|----|---|
-|x|+ Correction of own entry|…|…|…|…|
+|[C01](TC_C01.html)|Correction of own entry|[A_D1_P_C1](Bundle-A-D1-P-C1.html)|[C_D1_P_C1](Bundle-C-D1-P-C1.html)|…|[Result. Document C 01](Bundle-RDC01.html)|
 |x|+ Correction of foreign entry|…|…|…|…|
 |x|+ DOES NOT validate patient entry for previous illness|…|…|…|…|
 |x|+ Cancel entry own community|…|…|…|…|
@@ -41,5 +41,7 @@ The test cases are tailored to use in the electronic patient record (EPR), but c
 
 |#|Case|Doc1|Doc2|Doc3|Doc4|Resultat|
 |-|----|----|----|----|----|---|
-|[D01](TC_D01.html)|HCP or patient would like to see a vaccination status overview. When merging, a conflict is found in the vaccination entries (same vaccination, same date)|[D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.json)|[D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.json)|…|…|[Result. Document D 01](Bundle-RDD01.json)|
+|[D01](TC_D01.html)|HCP or patient would like to see a vaccination status overview. When merging, a conflict is found in the vaccination entries (same vaccination, same date)|[D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.html)|[D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.html)|…|…|[Result. Document D 01](Bundle-RDD01.html)|
+
+#### E Language handling on merging Documents
 

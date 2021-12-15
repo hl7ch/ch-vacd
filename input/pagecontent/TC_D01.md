@@ -14,6 +14,6 @@ During this merging process a dupplicated Immunization entry is detected and sho
 A Vaccination Record Document is created with the merging result. In a additional section the merging issued are listed to give feedback to the user due to resolving of the conflict.
 
 ### Documents
-* [D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.json)
-* [D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.json)
-* [Result. Dokument D 01](Bundle-RDD01.json)
+* [D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.html)
+* [D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.html)
+* [Result. Dokument D 01](Bundle-RDD01.html)
