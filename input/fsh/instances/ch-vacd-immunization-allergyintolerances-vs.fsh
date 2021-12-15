@@ -21,14 +21,18 @@ Usage: #definition
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 
 * compose.include[0].system = "http://snomed.info/sct"
-* compose.include[=].concept[+].code = #260414001
-* compose.include[=].concept[=].display = "Nothing (qualifier value)"
+* compose.include[=].concept[+].code = #716186003
+* compose.include[=].concept[=].display = "No known allergy (situation)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "nicht zutreffend"
+* compose.include[=].concept[=].designation[=].value = "Keine Allergie bekannt"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "pas applicable"
+* compose.include[=].concept[=].designation[=].value = "Aucune allergie connue"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "non applicabile"
+* compose.include[=].concept[=].designation[=].value = "Nessuna allergia nota"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Keine Allergie bekannt"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "No known allergy (situation"
 
 * compose.include[+].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #213020009
@@ -60,11 +64,15 @@ Usage: #definition
 * compose.include[=].concept[+].code = #416098002
 * compose.include[=].concept[=].display = "Allergy to drug (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Medikamente"
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Medikamente"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "à des médicaments"
+* compose.include[=].concept[=].designation[=].value = "Allergie au médicament"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "a medicamenti"
+* compose.include[=].concept[=].designation[=].value = "Allergia ai farmaci"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Medikamente"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Allergy to drug (finding)"
 
 * compose.include[+].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #863903001
@@ -75,19 +83,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "à l’un des composants du vaccin ?"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "a uno dei componenti del vaccino"
-
-* compose.include[=].concept[+].code = #294641002
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Bacillus anthracis antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre le charbon"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro l'antrace"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to anthrax vaccine"
 * compose.include[=].concept[+].code = #294651001
 * compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Bordetella pertussis antigen (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -268,18 +263,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen Pneumokokken-Impfstoff"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to pneumococcal vaccine"
-* compose.include[=].concept[+].code = #294657002
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Vaccinia virus antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pockenimpfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre la variole"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro il vaiolo"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pockenimpfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to smallpox vaccine"
 * compose.include[=].concept[+].code = #294644005
 * compose.include[=].concept[=].display = "Allergy to component of vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -304,7 +287,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen MMR-Impfstoff"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to measles and mumps and rubella vaccine"
-* compose.include[+].system = "http://snomed.info/sct"
 * compose.include[=].concept.code = #1145003007
 * compose.include[=].concept.display = "Hypersensitivity to vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (finding)"
 * compose.include[=].concept.designation[0].language = #de-CH
@@ -317,3 +299,29 @@ Usage: #definition
 * compose.include[=].concept.designation[=].value = "Hypersensitivität gegenüber SARS-CoV-2-mRNA-Impfstoff"
 * compose.include[=].concept.designation[+].language = #en-US
 * compose.include[=].concept.designation[=].value = "Hypersensitivity to SARS-CoV-2 mRNA vaccine"
+
+* compose.include[+].system = "http://snomed.info/sct"
+* compose.include[=].concept[+].code = #294657002
+* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Vaccinia virus antigen (finding)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pockenimpfstoff"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre la variole"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro il vaiolo"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pockenimpfstoff"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Allergy to smallpox vaccine"
+* compose.include[=].concept[+].code = #294641002
+* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Bacillus anthracis antigen (finding)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre le charbon"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro l'antrace"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Allergy to anthrax vaccine"
