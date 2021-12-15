@@ -5,7 +5,7 @@ Description: "Test Case C 01: patient corrects an entry of its own document"
 Usage: #example
 * id = "C-D1-P-C1"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:e3250dbd-5932-4eac-8054-dc5b9082001d"
+* identifier.value = "urn:uuid:6379e0da-49cc-4b29-a5ba-45810bb46fb0"
 * type = #document
 * timestamp = "2021-06-15T00:00:00.390+02:00"
 
@@ -41,7 +41,7 @@ Usage: #example
 * extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber"
 * extension.valueUnsignedInt = 1
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:b505b90a-f241-41ca-859a-b55a6103e753"
+* identifier.value = "urn:uuid:fc215e64-c4f4-4e39-b751-f967b84cf106"
 * status = #final
 * type = $sct#41000179103 "Immunization record"
 * subject = Reference(TC_patient)

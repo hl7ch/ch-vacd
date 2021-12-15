@@ -1,0 +1,34 @@
+@startuml
+title Test Case C 02
+footer Version 1.0
+skinparam responseMessageBelowArrow true
+skinparam style strictuml
+scale max 800 width
+
+
+box "Reference Community (C1)"
+actor "Patient" as PAT #blue
+actor "Health Care Professional 1 (C1)" as HCP1_C1 #lightblue
+participant "Doc2\nAdmin" as Doc2 #lightblue
+participant Aggregator as AGG
+participant "Result\nRecord" as RES #lightgreen
+end box
+
+box "Community (C2)"
+participant "Doc1\nAdmin" as Doc1 #orange
+actor "Health Care Professional 2 (C2)" as HCP2_C2 #orange
+end box
+
+HCP2_C2 -> Doc1: HCP2 (C2) creates document\nwith vaccination FSME-Immun CC\nagainst TBE
+
+HCP1_C1 -> Doc2: HCP1 (C1) creates document\nchanging some parameters of the vaccination entry TBE.
+
+Doc2 o<-->o Doc1: Has replacement relation
+
+Doc1 --> AGG: aggregation
+Doc2 --> AGG: aggregation
+AGG -> RES: creates document\nVaccination Record 
+PAT -> RES: Patient sees immunization status
+
+
+@enduml

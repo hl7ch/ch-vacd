@@ -19,7 +19,7 @@ end box
 Doc1 --> AGG: aggregation
 Doc2 --> AGG: aggregation
 
-Doc1 <-> Doc2: Same Immunization entry detected
+Doc1 o<-->o Doc2: Same Immunization entry detected
 
 AGG -> RES: creates document\nVaccination Record 
 PAT -> RES: Patient sees immunization status
