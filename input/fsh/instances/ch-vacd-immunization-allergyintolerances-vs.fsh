@@ -287,18 +287,18 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen MMR-Impfstoff"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to measles and mumps and rubella vaccine"
-* compose.include[=].concept.code = #1145003007
-* compose.include[=].concept.display = "Hypersensitivity to vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (finding)"
-* compose.include[=].concept.designation[0].language = #de-CH
-* compose.include[=].concept.designation[=].value = "Hypersensitivität gegenüber SARS-CoV-2-mRNA-Impfstoff"
-* compose.include[=].concept.designation[+].language = #fr-CH
-* compose.include[=].concept.designation[=].value = "hypersensibilité au vaccin à ARNm du SARS-CoV-2"
-* compose.include[=].concept.designation[+].language = #it-CH
-* compose.include[=].concept.designation[=].value = "ipersensibilità al vaccino a mRNA contro il SARS-CoV-2"
-* compose.include[=].concept.designation[+].language = #rm-CH
-* compose.include[=].concept.designation[=].value = "Hypersensitivität gegenüber SARS-CoV-2-mRNA-Impfstoff"
-* compose.include[=].concept.designation[+].language = #en-US
-* compose.include[=].concept.designation[=].value = "Hypersensitivity to SARS-CoV-2 mRNA vaccine"
+* compose.include[=].concept[+].code = #1145003007
+* compose.include[=].concept[=].display = "Hypersensitivity to vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (finding)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Hypersensitivität gegenüber SARS-CoV-2-mRNA-Impfstoff"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "hypersensibilité au vaccin à ARNm du SARS-CoV-2"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "ipersensibilità al vaccino a mRNA contro il SARS-CoV-2"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Hypersensitivität gegenüber SARS-CoV-2-mRNA-Impfstoff"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Hypersensitivity to SARS-CoV-2 mRNA vaccine"
 
 * compose.include[+].system = "http://snomed.info/sct"
 * compose.include[=].concept[+].code = #294657002
