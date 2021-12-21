@@ -1,7 +1,7 @@
 Instance: RDA01
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case 01: Aggregated Dokument (RDA01)"
-Description: "Test Case 01: Patient hat drei Impfdokumente in zwei unterschiedlichen Gemeinschaften (eines davon vom Patient selbst erfasst). Dies ist das vom Patienten erstellte Dokument"
+Title: "Test Case A 01: Aggregated Dokument (RDA01)"
+Description: "Test Case A 01: Patient hat drei Impfdokumente in zwei unterschiedlichen Gemeinschaften (eines davon vom Patient selbst erfasst). Dies ist das vom Patienten erstellte Dokument"
 Usage: #example
 * id = "RDA01"
 * identifier.system = "urn:ietf:rfc:3986"

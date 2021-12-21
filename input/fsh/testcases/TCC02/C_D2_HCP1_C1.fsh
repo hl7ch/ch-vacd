@@ -1,7 +1,7 @@
 Instance: C_D2_HCP1_C1
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case C02: GFP Dokument (C_D2_HCP1_C1)"
-Description: "Test Case C02: Example for Document Immunization Administration to fix Immunization entry."
+Title: "Test Case C 02: GFP Dokument (C_D2_HCP1_C1)"
+Description: "Test Case C 02: Example for Document Immunization Administration to fix Immunization entry."
 Usage: #example
 * id = "C-D2-HCP1-C1"
 * identifier.system = "urn:ietf:rfc:3986"

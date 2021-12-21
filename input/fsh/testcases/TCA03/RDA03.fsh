@@ -1,7 +1,7 @@
 Instance: RDA03
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case 03: Aggregated Dokument (RDA03)"
-Description: "Test Case 03:  Patient trägt zweite Dosis einer Impfung (FSME) ein."
+Title: "Test Case A 03: Aggregated Dokument (RDA03)"
+Description: "Test Case A 03:  Patient trägt zweite Dosis einer Impfung (FSME) ein."
 Usage: #example
 * id = "RDA03"
 * identifier.system = "urn:ietf:rfc:3986"

@@ -1,7 +1,7 @@
 Instance: RDA04
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case 04: Aggregated Dokument (RDA04)"
-Description: "Test Case 04: GFP validiert die Impfung (FSME)(Dok6) welche vom Patienten eingetragen wurde (Dok5)"
+Title: "Test Case A 04: Aggregated Dokument (RDA04)"
+Description: "Test Case A 04: GFP validiert die Impfung (FSME)(Dok6) welche vom Patienten eingetragen wurde (Dok5)"
 Usage: #example
 * id = "RDA04"
 * identifier.system = "urn:ietf:rfc:3986"

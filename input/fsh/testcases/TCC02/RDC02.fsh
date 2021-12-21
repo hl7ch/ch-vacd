@@ -1,7 +1,7 @@
 Instance: RDC02
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case D 01: Aggregated Dokument (RDD01)"
-Description: "Test Case D 01: Error aggregating documents due to dupplicated Immunization entry."
+Title: "Test Case C 02: Aggregated Dokument (RDD01)"
+Description: "Test Case C 02: Correction of foreign Immunization entry."
 Usage: #example
 * id = "RDC02"
 * identifier.system = "urn:ietf:rfc:3986"
