@@ -29,6 +29,7 @@ Alias: $ch-vacd-vaccines-sct-vs =                                       http://f
 Alias: $ch-vacd-route-of-administration-vs =                            http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-route-of-administration-vs
 Alias: $ch-vacd-laboratory-serology-vs =                                http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-laboratory-serology-vs
 Alias: $ch-vacd-risks-vs =                                              http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-vs
+Alias: $ch-vacd-conflict-vs =                                              http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-entry-conflict-vs
 Alias: CHVACDRecommendationPatient =                                    http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient
 Alias: $ch-vacd-immunization-allergyintolerances-vs =                   http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-immunization-allergyintolerances-vs
 

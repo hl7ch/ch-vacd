@@ -55,6 +55,40 @@ Usage: #example
 * protocolApplied.targetDisease[2] = $sct#397430003	"Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * protocolApplied.doseNumberPositiveInt = 1
 
+// 637 Boostrix, Injektionssuspension GlaxoSmithKline AG AC37B367A C-015976 30.09.2022
+// 76902006	Tetanus (disorder)
+// 27836007	Pertussis (disorder)
+// 397430003	Diphtheria caused by Corynebacterium diphtheriae (disorder)
+Instance: TCD01_IMMUN2_2
+InstanceOf: CHVACDImmunization
+Title: "TC1 Immunization by HCP1"
+Description: "Testcase D01 example of immunization against Tetanus, Pertussis, Diphtheria"
+Usage: #example
+* id = "TCD01-IMMUN2-2"
+* extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
+* extension[=].valueReference = Reference(TC_HCP1_ORG1_ROLE_author)
+* extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
+* extension[=].valueReference = Reference(TC_IMMUN_MEDIC_BOOSTRIX)
+* extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-merging-conflict-entry-reference"
+* extension[=].extension[0].url = "entry"
+* extension[=].extension[=].valueReference = Reference(TCD01_IMMUN3)
+* extension[=].extension[1].url = "conflict"
+* extension[=].extension[=].valueCode = #duplicate
+* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* identifier.value = "urn:uuid:ebcf6de2-ed9c-463c-8b08-cb487af8ce4e"
+* status = #completed
+* vaccineCode = $ch-vacd-swissmedic-cs#637 "Boostrix"
+* patient = Reference(TC_patient)
+* occurrenceDateTime = "2020-12-09"
+* recorded = "2020-12-09T11:00:00.390+02:00"
+* lotNumber = "AHAVB946A"
+* route = $standardterms#20035000 "Intramuscular use"
+* performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
+* protocolApplied.targetDisease[0] = $sct#76902006	"Tetanus (disorder)"
+* protocolApplied.targetDisease[1] = $sct#27836007	"Pertussis (disorder)"
+* protocolApplied.targetDisease[2] = $sct#397430003	"Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* protocolApplied.doseNumberPositiveInt = 1
+
 
 Instance: TCD01_IMMUN3
 InstanceOf: CHVACDImmunization
@@ -66,6 +100,36 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_HCP2_ORG2_ROLE_author)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_BOOSTRIX)
+* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* identifier.value = "urn:uuid:58457607-9160-4d0a-9a79-55495755a677"
+* status = #completed
+* vaccineCode = $ch-vacd-swissmedic-cs#637 "Boostrix"
+* patient = Reference(TC_patient)
+* occurrenceDateTime = "2020-12-09"
+* recorded = "2020-12-09T11:00:00.390+02:00"
+* lotNumber = "AHAVB946A"
+* route = $standardterms#20035000 "Intramuscular use"
+* performer.actor = Reference(TC_HCP2_ORG2_ROLE_performer)
+* protocolApplied.targetDisease[0] = $sct#76902006	"Tetanus (disorder)"
+* protocolApplied.targetDisease[1] = $sct#27836007	"Pertussis (disorder)"
+* protocolApplied.targetDisease[2] = $sct#397430003	"Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* protocolApplied.doseNumberPositiveInt = 1
+
+Instance: TCD01_IMMUN3_2
+InstanceOf: CHVACDImmunization
+Title: "TC1 Immunization by HCP2"
+Description: "Testcase D01 example of immunization against Tetanus, Pertussis, Diphtheria"
+Usage: #example
+* id = "TCD01-IMMUN3-2"
+* extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
+* extension[=].valueReference = Reference(TC_HCP2_ORG2_ROLE_author)
+* extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
+* extension[=].valueReference = Reference(TC_IMMUN_MEDIC_BOOSTRIX)
+* extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-merging-conflict-entry-reference"
+* extension[=].extension[0].url = "entry"
+* extension[=].extension[=].valueReference = Reference(TCD01_IMMUN2)
+* extension[=].extension[1].url = "conflict"
+* extension[=].extension[=].valueCode = #duplicate
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "urn:uuid:58457607-9160-4d0a-9a79-55495755a677"
 * status = #completed

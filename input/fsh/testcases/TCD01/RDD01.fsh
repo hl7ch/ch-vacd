@@ -34,8 +34,8 @@ Usage: #example
 * entry[=].resource = TC_ORG_PFIZER
 
 // BOOSTRIX (in conflict)
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCD01-IMMUN2"
-* entry[=].resource = TCD01_IMMUN2
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCD01-IMMUN2-2"
+* entry[=].resource = TCD01_IMMUN2_2
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-BOOSTRIX"
 * entry[=].resource = TC_IMMUN_MEDIC_BOOSTRIX
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-GSK"
@@ -53,8 +53,8 @@ Usage: #example
 * entry[=].resource = TC_HCP2_ORG2_ROLE_author
 
 // BOOSTRIX (in conflict)
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCD01-IMMUN3"
-* entry[=].resource = TCD01_IMMUN3
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCD01-IMMUN3-2"
+* entry[=].resource = TCD01_IMMUN3_2
 
 // PRIORIX
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCD01-IMMUN4"
@@ -69,9 +69,6 @@ Usage: #example
 * entry[=].resource = TC_IMMUN_MEDIC_GARDASIL9
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-MSD"
 * entry[=].resource = TC_ORG_MSD
-
-* entry[+].fullUrl = "http://test.fhir.ch/r4/OperationOutcome/TCD01-OPOUT-ISSUES"
-* entry[=].resource = TCD01_OPOUT_ISSUES
 
 
 Instance: RDD01_Composition
@@ -105,6 +102,8 @@ Usage: #example
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing all immunization entries.</div>"
 * section[=].entry[+] = Reference(TCD01_IMMUN1)
+* section[=].entry[+] = Reference(TCD01_IMMUN2_2)
+* section[=].entry[+] = Reference(TCD01_IMMUN3_2)
 * section[=].entry[+] = Reference(TCD01_IMMUN4)
 * section[=].entry[+] = Reference(TCD01_IMMUN5)
 
@@ -114,27 +113,4 @@ Usage: #example
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\">Annotations and comments</div>"
 
-* section[+].id = "mergeconflicts"
-* section[=].title =  "Merge conflicts"
-* section[=].code = $loinc#94082-5 "Validation error summary Document"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\">This is the section containing all immunization entries.</div>"
-* section[=].entry[+] = Reference(TCD01_OPOUT_ISSUES)
-
-
-Instance: TCD01_OPOUT_ISSUES
-InstanceOf: CHVACDMergingOperationOutcome
-Title: "Operation Outcome Merge Documents"
-Description: "Example for Operation Outcome on merging documents"
-Usage: #example
-* id = "TCD01-OPOUT-ISSUES"
-* issue[+].id = "urn:uuid:e1ed6478-9b8f-4e64-8874-a8cff618ee05"
-* issue[=].severity = #error
-* issue[=].code = #duplicate
-* issue[=].diagnostics = "There are 2 Immunization entries with same date and same vaccine. Please resolve conflict."
-* issue[=].extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-merging-conflict-entry-reference"
-* issue[=].extension[=].extension[0].url = "entry1"
-* issue[=].extension[=].extension[=].valueReference = Reference(TCD01_IMMUN2)
-* issue[=].extension[=].extension[1].url = "entry2"
-* issue[=].extension[=].extension[=].valueReference = Reference(TCD01_IMMUN3)
 

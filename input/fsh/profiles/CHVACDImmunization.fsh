@@ -16,7 +16,8 @@ Description: "Definition of the immunization part for all documents, except reco
 * extension contains
     CHVACDExtensionImmunizationRecorderReference named recorder 0..1 and
     CHVACDExtensionImmunizationMedicationReference named medication 0..1 and
-    CHVACDExtensionCrossReference named relatesTo 0..1
+    CHVACDExtensionCrossReference named relatesTo 0..1 and 
+    CHVACDExtensionMergingConflictEntryReference named conflict 0..* 
 * extension[recorder] ^definition = "The recorder Reference of the immunization. May be a Practitioner or a Patient"
 * extension[medication] ^definition = "The Reference to the Medication resource defining the vaccination material."
 * extension[relatesTo] ^definition = "The definition of a relation of this immunization entry in this document to an immunization entry in an other document."
