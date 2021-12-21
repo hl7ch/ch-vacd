@@ -9,7 +9,6 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_HCP1_ORG1_ROLE_author)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)
-
 * extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-cross-reference"
 * extension[=].extension[+].url = "entry"
 * extension[=].extension[=].valueReference = Reference(TCA01_IMMUN3_HCP2_ORG2_ROLE)
@@ -17,7 +16,6 @@ Usage: #example
 * extension[=].extension[=].valueReference = Reference(A_D3_HCP2_C2_Composition)
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
-
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "fe53381d-ade3-4a95-8bd1-033b76eadec2"
 * status = #completed
@@ -30,10 +28,6 @@ Usage: #example
 * performer.actor = Reference(TC_HCP2_ORG2_ROLE_performer)
 * protocolApplied.targetDisease[0] = $sct#16901001	"Central European encephalitis (disorder)"
 * protocolApplied.doseNumberPositiveInt = 1
-
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"></div>"
-
-
 
 
 Instance: TCC02_IMMUN4_HCP1_ORG1_ROLE

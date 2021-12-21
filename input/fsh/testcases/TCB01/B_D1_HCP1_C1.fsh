@@ -1,7 +1,7 @@
 Instance: B_D1_HCP1_C1
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case D 01: Document HCP1 with Immunization Entries (RDD01)"
-Description: "Test Case D 01: ImmunizationAdministration document created by HCP1 for Patient with Immunization Entries."
+Title: "Test Case B 0X: Document HCP1 with Immunization Entries"
+Description: "Test Case B 0X: ImmunizationAdministration document created by HCP1 for Patient with Immunization Entries."
 Usage: #example
 * id = "B-D1-HCP1-C1"
 * identifier.system = "urn:ietf:rfc:3986"
@@ -57,23 +57,19 @@ Usage: #example
 * type = $sct#41000179103 "Immunization record"
 * subject = Reference(TC_patient)
 * date = "2021-06-08T10:00:00.390+02:00"
-* author = Reference(TC_patient)
+* author = Reference(TC_HCP1_ORG1_ROLE_author)
 * title = "Immunization Administration"
 * confidentiality.extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode"
 * confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal (qualifier value)"
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Immunization Administration</div><table class=\"hapiPropertyTable\"><tr><td>Patient</td><td>Monika <b>WEGMUELLER </b></td></tr><tr><td>Author</td><td><div><table><tr><td>Practitioner</td><td>Dr. med. Allzeit <b>BEREIT </b></td></tr><tr><td>Organization</td><td>Gruppenpraxis CH</td></tr></table></div></td></tr><tr><td>Status</td><td>FINAL</td></tr><tr><td>Language</td><td>en-US</td></tr><tr><td>Sections</td><td><table><tr><td>Immunization Administration</td><td><table><tr><td></td></tr><tr><td></td></tr></table></td></tr></table></td></tr></table></div>"
+
 * section[0].id = "administration"
 * section[=].title = "Immunization Administration"
 * section[=].code = $loinc#11369-6 "Hx of Immunization"
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing all immunization entries.</div>"
-
 * section[=].entry[+] = Reference(TCD01_IMMUN1)
 * section[=].entry[+] = Reference(TCD01_IMMUN2)
-
-* section[+].id = "annotation"
-* section[=].title = "Comments"
-* section[=].code = $loinc#48767-8 "Annotation comment [Interpretation] Narrative"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\">This is the section containing all immunization entries.</div>"

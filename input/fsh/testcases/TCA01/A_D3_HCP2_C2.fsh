@@ -53,15 +53,12 @@ Usage: #example
 * confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal (qualifier value)"
 * confidentiality = #N
 * custodian = Reference(TC_ORG2)
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Immunization Administration</div><table class=\"hapiPropertyTable\"><tr><td>Patient</td><td>Monika <b>WEGMUELLER </b></td></tr><tr><td>Author</td><td><div><table><tr><td>Practitioner</td><td>Dr. med. Meist <b>GESUND </b></td></tr><tr><td>Organization</td><td>Praxis Dr. Gesund</td></tr></table></div></td></tr><tr><td>Status</td><td>FINAL</td></tr><tr><td>Language</td><td>en-US</td></tr><tr><td>Sections</td><td><table><tr><td>Immunization Administration</td><td><table><tr><td></td></tr></table></td></tr></table></td></tr></table></div>"
+
 * section[0].id = "administration"
 * section[=].title = "Immunization Administration"
 * section[=].code = $loinc#11369-6 "Hx of Immunization"
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing all immunization entries.</div>"
 * section[=].entry = Reference(TCA01_IMMUN3_HCP2_ORG2_ROLE)
-* section[+].id = "annotation"
-* section[=].title = "Comments"
-* section[=].code = $loinc#48767-8 "Annotation comment Interpretation] Narrative"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\">This is the section containing all immunization entries.</div>"
-

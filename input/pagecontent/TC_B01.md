@@ -2,10 +2,9 @@
 
 ### Precondition
 There is a ImmunizationAdministration document for the patient in his EPR stored on the repository of the reference community C1.
-The HCP1 of the reference community C1, creates a ImmunizationAdministration document with the earlier detected allergy on an vaccination and stores it to the 
-repository of the reference community C1.
 
 ### Sequence
+The HCP1 of the reference community C1, creates a ImmunizationAdministration document with the earlier detected allergy on an vaccination and stores it to the repository of the reference community C1.
 
 <div>{% include TCB01.svg %}</div>
 

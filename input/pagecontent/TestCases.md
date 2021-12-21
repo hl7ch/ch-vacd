@@ -18,30 +18,31 @@ The test cases are tailored to use in the electronic patient record (EPR), but c
 
 #### B Other Elements
 
-|#|Case|Doc1|Doc2|Doc3|Doc4|Resultat|
-|-|----|----|----|----|----|---|
-|[B01](TC_B01.html)|Allergy to typhoid vaccine|[B_D1_HCP1_C1](Bundle-B-D1-HCP1-C1.html)|[B_D2_HCP1_C1](Bundle-B-D2-HCP1-C1.html)|…|…|[Result. Document B 01](Bundle-RDB01.html)|
-|x|+ undergone Illness (Chickenpox)|…|…|…|…|…|
-|x|+ Expositionrisk (Working in healthcare)|…|…|…|…|…|
+|#|Case|Doc1|Doc2|Resultat|
+|-|----|----|----|---|
+|[B01](TC_B01.html)|Allergy to typhoid vaccine|[B_D1_HCP1_C1](Bundle-B-D1-HCP1-C1.html)|[B_D2_HCP1_C1](Bundle-B-D2-HCP1-C1.html)|[Result. Document B 01](Bundle-RDB01.html)|
+|[B02](TC_B02.html)|Undergone Illness (Varicella)|[B_D1_HCP1_C1](Bundle-B-D1-HCP1-C1.html)|[B_D3_HCP1_C1](Bundle-B-D3-HCP1-C1.html)|[Result. Document B 02](Bundle-RDB02.html)|
+|[B03](TC_B03.html)|Expositionrisk (Working in healthcare)|[B_D1_HCP1_C1](Bundle-B-D1-HCP1-C1.html)|[B_D4_HCP1_C1](Bundle-B-D4-HCP1-C1.html)|[Result. Document B 03](Bundle-RDB03.html)|
+|[B04](TC_B04.html)|Laboratory and Serology (Hepatitis B virus surface Ab)|[B_D1_HCP1_C1](Bundle-B-D1-HCP1-C1.html)|[B_D5_HCP1_C1](Bundle-B-D5-HCP1-C1.html)|[Result. Document B 04](Bundle-RDB04.html)|
 |x|+ Pregnancy|…|…|…|…|…|
 
 
 #### C Correction of Entries
 
-|#|Case|Doc1|Doc2|Doc3|Resultat|
-|-|----|----|----|----|---|
-|[C01](TC_C01.html)|Correction of own entry|[A_D1_P_C1](Bundle-A-D1-P-C1.html)|[C_D1_P_C1](Bundle-C-D1-P-C1.html)|…|[Result. Document C 01](Bundle-RDC01.html)|
-|[C02](TC_C02.html)|Correction of foreign entry|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)|[C_D2_HCP1_C1](Bundle-C-D2-HCP1-C1.html)|…|[Result. Document C 02](Bundle-RDC02.html)|
-|x|+ DOES NOT validate patient entry for previous illness|…|…|…|…|
-|x|+ Cancel entry own community|…|…|…|…|
-|x|+ Cancel entry of other community|…|…|…|…|
+|#|Case|Doc1|Resultat|
+|-|----|----|---|
+|[C01](TC_C01.html)|Correction of own entry|[A_D1_P_C1](Bundle-A-D1-P-C1.html)|[C_D1_P_C1](Bundle-C-D1-P-C1.html)|[Result. Document C 01](Bundle-RDC01.html)|
+|[C02](TC_C02.html)|Correction of foreign entry|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)|[C_D2_HCP1_C1](Bundle-C-D2-HCP1-C1.html)|[Result. Document C 02](Bundle-RDC02.html)|
+|x|+ DOES NOT validate patient entry for previous illness|…|…|…|
+|x|+ Cancel entry own community|…|…|…|
+|x|+ Cancel entry of other community|…|…|…|
 
 
 #### D Conflicts on merging Documents
 
-|#|Case|Doc1|Doc2|Doc3|Doc4|Resultat|
-|-|----|----|----|----|----|---|
-|[D01](TC_D01.html)|HCP or patient would like to see a vaccination status overview. When merging, a conflict is found in the vaccination entries (same vaccination, same date)|[D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.html)|[D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.html)|…|…|[Result. Document D 01](Bundle-RDD01.html)|
+|#|Case|Doc1|Doc2|Resultat|
+|-|----|----|----|---|
+|[D01](TC_D01.html)|HCP or patient would like to see a vaccination status overview. When merging, a conflict is found in the vaccination entries (same vaccination, same date)|[D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.html)|[D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.html)|[Result. Document D 01](Bundle-RDD01.html)|
 
 #### E Language handling on merging Documents
 

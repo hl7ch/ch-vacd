@@ -29,8 +29,8 @@ Usage: #definition
 // ////////////////////////////////////////////////
 Instance: TC_HCP1_C1
 InstanceOf: CHCorePractitionerEPR
-Title: "TC Practitioner1 Performer"
-Description: "Testcase 1 example of practitioner"
+Title: "TC HCP1 C1"
+Description: "Testcase practitioner HCP1 of C1"
 Usage: #example
 * id = "TC-HCP1-C1"
 * identifier.system = "urn:oid:2.51.1.3"
@@ -61,7 +61,7 @@ Usage: #example
 Instance: TC_ORG1
 InstanceOf: CHCoreOrganizationEPR
 Title: "TC Organization 1"
-Description: "Testcase organization of HCP1 in G1"
+Description: "Testcase organization of HCP1"
 Usage: #definition
 * id = "TC-ORG1"
 * identifier.system = "urn:oid:2.51.1.3"
@@ -87,8 +87,8 @@ Usage: #definition
 
 Instance: TC_HCP1_ORG1_ROLE_performer
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC HCP1 ORG1 Performer Role in G1"
-Description: "Testcase practitionerole HCP1 ORG1 as performer in G1"
+Title: "TC HCP1 ORG1 Role Performer"
+Description: "Testcase practitionerole HCP1 ORG1 as performer in C1"
 Usage: #definition
 * id = "TC-HCP1-ORG1-ROLE-performer"
 * active = true
@@ -97,7 +97,7 @@ Usage: #definition
 
 Instance: TC_HCP1_ORG1_ROLE_author
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC HCP1 ORG1 Author Role in G1"
+Title: "TC HCP1 ORG1 Role Author in C1"
 Description: "Testcase practitionerole HCP1 ORG1 as author"
 Usage: #definition
 * id = "TC-HCP1-ORG1-ROLE-author"
@@ -112,7 +112,7 @@ Usage: #definition
 Instance: TC_HCP2_C2
 InstanceOf: CHCorePractitionerEPR
 Title: "TC HCP2 G2"
-Description: "Testcase practitionerole HCP2 of G2"
+Description: "Testcase practitione HCP2 of C2"
 Usage: #example
 * id = "TC-HCP2-C2"
 * identifier.system = "urn:oid:2.51.1.3"
@@ -144,7 +144,7 @@ Usage: #example
 Instance: TC_ORG2
 InstanceOf: CHCoreOrganizationEPR
 Title: "TC Organization 2"
-Description: "Testcase organization of HCP2 in G2"
+Description: "Testcase organization of HCP2 in C2"
 Usage: #definition
 * id = "TC-ORG2"
 * identifier.system = "urn:oid:2.51.1.3"
@@ -170,7 +170,7 @@ Usage: #definition
 
 Instance: TC_HCP2_ORG2_ROLE_performer
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC HCP2 G1 ORG2 Performer Role"
+Title: "TC HCP2 ORG2 Role Performer"
 Description: "Testcase practitionerole HCP2 ORG2 as performer"
 Usage: #definition
 * id = "TC-HCP2-ORG2-ROLE-performer"
@@ -180,10 +180,37 @@ Usage: #definition
 
 Instance: TC_HCP2_ORG2_ROLE_author
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC HCP2 G2 ORG2 Author Role"
+Title: "TC HCP2 G2 ORG2 Role Author "
 Description: "Testcase practitionerole HCP2 ORG2 as author in G2"
 Usage: #definition
 * id = "TC-HCP2-ORG2-ROLE-author"
 * active = true
 * practitioner = Reference(TC_HCP2_C2)
 * organization = Reference(TC_ORG2)
+
+// ////////////////////////////////////////////////
+// Definitions for LABOR ORG
+// ////////////////////////////////////////////////
+Instance: TC_ORG3
+InstanceOf: CHCoreOrganization
+Title: "TC Labor Organization"
+Description: "Testcase labor organization for lab results"
+Usage: #definition
+* id = "TC-ORG3"
+* identifier.system = "urn:oid:2.51.1.3"
+* identifier.value = "7609999999981"
+* name = "Labor Wir Messen Alles"
+* telecom[0].system = #phone
+* telecom[=].value = "tel:+41.56.299.55.22"
+* telecom[=].use = #work
+* telecom[+].system = #email
+* telecom[=].value = "mailto:resultate@labor-messenalles.ch"
+* telecom[=].use = #work
+* telecom[+].system = #url
+* telecom[=].value = "http://www.labor-messenalles.ch"
+* telecom[=].use = #work
+* address.line = "Messweg 1"
+* address.city = "Wissen"
+* address.state = "ZG"
+* address.postalCode = "6310"
+* address.country = "CH"

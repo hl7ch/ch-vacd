@@ -12,7 +12,6 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
-
 * extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-cross-reference"
 * extension[=].extension[+].url = "entry"
 * extension[=].extension[=].valueReference = Reference(TCA01_IMMUN1_patient)
@@ -20,7 +19,6 @@ Usage: #example
 * extension[=].extension[=].valueReference = Reference(A_D1_P_C1_Composition)
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
-
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "375532dc-7e74-40dd-8564-3261e8d26603"
 * status = #completed
@@ -50,7 +48,6 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
-
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "375532dc-7e74-40dd-8564-3261e8d26603"
 * status = #completed

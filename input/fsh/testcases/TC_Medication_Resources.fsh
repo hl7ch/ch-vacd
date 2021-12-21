@@ -14,8 +14,6 @@ Usage: #example
 * id = "TC-IMMUN-MEDIC-HAVRIX1440"
 * code = $sct#106181007 "Immunologic substance (substance)"
 * status = #active
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">Havrix 1440</div>"
 * identifier.system = "urn:oid:2.51.1.1"
 * identifier.value = "7680005580054"
 * manufacturer = Reference(TC_ORG_GSK)
@@ -37,8 +35,6 @@ Usage: #example
 * id = "TC-IMMUN-MEDIC-FSMEIMMCC"
 * code = $sct#106181007 "Immunologic substance (substance)"
 * status = #active
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">FSME-Immun CC</div>"
 * identifier.system = "urn:oid:2.51.1.1"
 * identifier.value = "7680004500039"
 * manufacturer = Reference(TC_ORG_PFIZER)
@@ -60,8 +56,6 @@ Usage: #example
 * id = "TC-IMMUN-MEDIC-BOOSTRIX"
 * code = $sct#106181007 "Immunologic substance (substance)"
 * status = #active
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">Boostrix</div>"
 * identifier.system = "urn:oid:2.51.1.1"
 * identifier.value = "7680006370012"
 * manufacturer = Reference(TC_ORG_GSK)
@@ -83,8 +77,6 @@ Usage: #example
 * id = "TC-IMMUN-MEDIC-PRIORIX"
 * code = $sct#106181007 "Immunologic substance (substance)"
 * status = #active
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">Priorix</div>"
 * identifier.system = "urn:oid:2.51.1.1"
 * identifier.value = "7680006150010"
 * manufacturer = Reference(TC_ORG_GSK)
@@ -105,8 +97,6 @@ Usage: #example
 * id = "TC-IMMUN-MEDIC-GARDASIL9"
 * code = $sct#106181007 "Immunologic substance (substance)"
 * status = #active
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">Gardasil® 9</div>"
 * identifier.system = "urn:oid:2.51.1.1"
 * identifier.value = "7680653870019"
 * manufacturer = Reference(TC_ORG_MSD)

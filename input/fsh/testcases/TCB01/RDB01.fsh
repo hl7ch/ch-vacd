@@ -1,7 +1,7 @@
 Instance: RDB01
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case D 01: Resulting Document TC B 1 (RDB01)"
-Description: "Test Case D 01: VaccinationRecord document created as merging result with immunization and allergyintollerance entries."
+Title: "Test Case B 01: Resulting Document TC B 1 (RDB01)"
+Description: "Test Case B 01: VaccinationRecord document created as merging result with immunization and allergyintollerance entries."
 Usage: #example
 * id = "RDB01"
 * identifier.system = "urn:ietf:rfc:3986"
@@ -65,6 +65,9 @@ Usage: #example
 * confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal (qualifier value)"
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Vaccination Record</div><table class=\"hapiPropertyTable\"><tr><td>Patient</td><td>Monika <b>WEGMUELLER </b></td></tr><tr><td>Author</td><td><div><div class=\"hapiHeaderText\">Monika <b>WEGMUELLER </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>123.71.332.115</td></tr><tr><td>Address</td><td><span>CH-</span><span>9876 </span><span>Specimendorf </span></td></tr><tr><td>Date of birth</td><td><span>10 February 1967</span></td></tr></tbody></table></div></td></tr><tr><td>Status</td><td>FINAL</td></tr><tr><td>Language</td><td>en-US</td></tr><tr><td>Sections</td><td><table><tr><td>Immunization Administration</td><td><table><tr><td></td></tr><tr><td></td></tr></table></td></tr><tr><td>Allergies</td><td><table><tr><td></td></tr></table></td></tr></table></td></tr></table></div>"
+
 * section[0].id = "administration"
 * section[=].title = "Immunization Administration"
 * section[=].code = $loinc#11369-6 "Hx of Immunization"

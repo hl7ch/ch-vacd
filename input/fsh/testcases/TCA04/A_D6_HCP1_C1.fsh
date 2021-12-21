@@ -55,6 +55,9 @@ Usage: #example
 * confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal (qualifier value)"
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Immunization Administration</div><table class=\"hapiPropertyTable\"><tr><td>Patient</td><td>Monika <b>WEGMUELLER </b></td></tr><tr><td>Author</td><td><div><table><tr><td>Practitioner</td><td>Dr. med. Allzeit <b>BEREIT </b></td></tr><tr><td>Organization</td><td>Gruppenpraxis CH</td></tr></table></div></td></tr><tr><td>Status</td><td>FINAL</td></tr><tr><td>Language</td><td>en-US</td></tr><tr><td>Relates To</td><td><table><tr><td>REPLACES</td></tr></table></td></tr><tr><td>Sections</td><td><table><tr><td>Immunization Administration</td><td><table><tr><td></td></tr></table></td></tr><tr><td>Comments</td></tr></table></td></tr></table></div>"
+
 * relatesTo.code = #replaces
 * relatesTo.targetReference = Reference(A_D5_P_C1_Composition)
 * section[0].id = "administration"

@@ -1,5 +1,5 @@
 @startuml
-title Test Case B 01
+title Test Case B 03
 footer Version 1.0
 skinparam responseMessageBelowArrow true
 skinparam style strictuml
@@ -17,7 +17,7 @@ end box
 
 HCP1_C1 -> Doc1: HCP1 (C1) creates document\nwith vaccination Boostrix and FSME CC
 
-HCP1_C1 -> Doc2: HCP1 (C1) creates document\nwith allergy to typhoid vaccine
+HCP1_C1 -> Doc2: HCP1 (C1) creates document\nwith an entry for exposition risk "Worker in HealthCare"
 
 Doc1 --> AGG: aggregation
 Doc2 --> AGG: aggregation
