@@ -556,6 +556,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Pentavac"
 
+//65675	01	Pneumovax-23, Injektionslösung in einer Fertigspritze	MSD Merck Sharp & Dohme AG	B	26.02.2016	26.02.2016	unbegrenzt	J07AL01
 * compose.include[=].concept[+].code = #509
 * compose.include[=].concept[=].display = "Pneumovax-23"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -894,6 +895,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Cervarix"
 
+//60129	01	Prevenar 13, Injektionssuspension in einer Fertigspritze	Pfizer AG	B	12.08.2010	12.08.2010	unbegrenzt	J07AL02
 * compose.include[=].concept[+].code = #60129
 * compose.include[=].concept[=].display = "Prevenar-13"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -1063,6 +1065,21 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Vaxelis"
 
+//66427	05	VaxigripTetra, Suspension pour injection dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	12.06.2018	11.08.2021	11.06.2023	J07BB02
+* compose.include[=].concept[+].code = #66427
+* compose.include[=].concept[=].display = "VaxigripTetra"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "VaxigripTetra"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "VaxigripTetra"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "VaxigripTetra"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "VaxigripTetra"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "VaxigripTetra"
+
+//65730	01	Bexsero, Injektionssuspension	GlaxoSmithKline AG	B	23.11.2017	23.11.2017	22.11.2022	J07AH09
 * compose.include[=].concept[+].code = #65730
 * compose.include[=].concept[=].display = "Bexsero"
 * compose.include[=].concept[=].designation[0].language = #de-CH

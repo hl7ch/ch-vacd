@@ -15,6 +15,9 @@ Alias: $v3-ActCode =                            http://terminology.hl7.org/CodeS
 
 Alias: $absent-unknown-uv-ips =                 http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
 
+Alias: $ch-vacd-medrisk =                       urn:oid:2.16.756.5.30.1.127.3.3.1
+Alias: $ch-vacd-exprisk =                       urn:oid:2.16.756.5.30.1.127.3.3.2
+
 Alias: $ch-vacd-swissmedic-cs =                                         http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs
 Alias: $ch-vacd-ch-vaccination-plan-immunizations-vs =                  http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs
 Alias: $ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs = http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs
