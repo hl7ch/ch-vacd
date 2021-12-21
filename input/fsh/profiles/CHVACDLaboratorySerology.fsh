@@ -24,7 +24,7 @@ Description: "Definition of the labor and serology part for all documents, excep
 * subject ^short = "Patient"
 * encounter only Reference(CHCoreEncounter)
 * encounter ^short = "Encounter"
-* performer only Reference(CHCorePractitionerRole)
+* performer only Reference(CHCorePractitionerRole or CHCoreOrganization)
 * performer ^short = "Patient"
 * valueQuantity ..1
 * valueQuantity ^short = "Observation.valueQuantity"
