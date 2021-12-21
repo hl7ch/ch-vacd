@@ -5,6 +5,7 @@ The patient has an EPR. There is an ImmunizationAdministration [document A_D3_HC
 
 
 ### Sequence
+The HCP1 creates and ImmunizationAdministration document to correct an entry of HCP2 from communita C2 and stores it on the repository of the communit C1.
 
 <div>{% include TCC02.svg %}</div>
 
@@ -14,4 +15,6 @@ The HCP1 in community C1 has created an ImmunizationAdministration [document C_D
 In the [resulting document](Bundle-RDC02.html) only the new/corrected immunization entry will be shown.
 
 ### Documents
-
+* [A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)
+* [C_D2_HCP1_C1](Bundle-C-D2-HCP1-C1.html)
+* [Result. Document C 02](Bundle-RDC02.html)

@@ -12,6 +12,8 @@ Alias: $v3-ActReason =                          http://terminology.hl7.org/CodeS
 Alias: $v3-ObservationInterpretation =          http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
 Alias: $immunization-recommendation-status =    http://terminology.hl7.org/CodeSystem/immunization-recommendation-status
 Alias: $v3-ActCode =                            http://terminology.hl7.org/CodeSystem/v3-ActCode
+Alias: $condition-verification-status =         http://terminology.hl7.org/CodeSystem/condition-ver-status
+Alias: $condition-clinical-status =             http://terminology.hl7.org/CodeSystem/condition-clinical
 
 Alias: $absent-unknown-uv-ips =                 http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
 
@@ -23,6 +25,7 @@ Alias: $ch-vacd-ch-vaccination-plan-immunizations-vs =                  http://f
 Alias: $ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs = http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs
 Alias: $ch-vacd-recommendation-categories-vs =                          http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-recommendation-categories-vs
 Alias: $ch-vacd-vaccines-vs =                                           http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs
+Alias: $ch-vacd-vaccines-sct-vs =                                       http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs
 Alias: $ch-vacd-route-of-administration-vs =                            http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-route-of-administration-vs
 Alias: $ch-vacd-laboratory-serology-vs =                                http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-laboratory-serology-vs
 Alias: $ch-vacd-risks-vs =                                              http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-vs

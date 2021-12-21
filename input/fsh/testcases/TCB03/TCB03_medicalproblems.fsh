@@ -15,3 +15,6 @@ Usage: #example
 * onsetDateTime = "2021-10-01"
 * recordedDate = "2021-10-20"
 * recorder = Reference(TC_HCP1_ORG1_ROLE_author)
+* clinicalStatus = $condition-clinical-status#active "Active"
+* verificationStatus = $condition-verification-status#confirmed "Confirmed"
+
