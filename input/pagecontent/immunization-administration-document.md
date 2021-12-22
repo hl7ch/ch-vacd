@@ -2,7 +2,7 @@ The **Immunization Administration document** describes the content and format of
 This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next to the Swiss EPR.
 
 The usage of this document is for administrative purposes to declare or exchange the corresponding data of an application of a vaccine to a patient for immunization reason.
-In difference to this, the [Immunization Certificate](immunization-certificate-document.html) represents the "Certificate" with all the known and applied vaccines and other information.
+
 
 ### FHIR document (Bundle)
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 
