@@ -66,13 +66,6 @@ Usage: #inline
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing the pregnancy status entry.\n\t\t\t\t\t\t</div>"
 * section[=].entry.reference = "Condition/8-1-Condition"
-* section[+].id = "sectionImmunizationRecomendations1"
-* section[=].title = "Vaccination Recommendations"
-* section[=].code = $loinc#18776-5 "Plan of care note"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing all immunization\n\t\t\t\t\t\t\trecommendations entries.\n\t\t\t\t\t\t</div>"
-* section[=].entry[0].reference = "ImmunizationRecommendation/10-2-ImmunizationRecommendation"
-* section[=].entry[+].reference = "ImmunizationRecommendation/10-1-ImmunizationRecommendation"
 * section[+].id = "annotation"
 * section[=].title = "Comments"
 * section[=].code = $loinc#48767-8 "Annotation comment [Interpretation] Narrative"

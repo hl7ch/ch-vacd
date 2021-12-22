@@ -44,7 +44,6 @@ Description: "Definition of the composition for the  immunization administration
     otherrelevantobservations 0..1 and
     laboratory-serology 0..1 and
     pregnancy 0..1 and
-    recommendations 0..1 and
     annotation 0..1 
 * section[administration] ^short = "Immunization Administration"
 * section[administration].extension ^slicing.discriminator.type = #value
@@ -176,7 +175,6 @@ Description: "Definition of the composition for the  immunization administration
 * section[laboratory-serology].section 0..0
 
 
-
 * section[pregnancy] ^short = "Pregnancy"
 * section[pregnancy].extension ^slicing.discriminator.type = #value
 * section[pregnancy].extension ^slicing.discriminator.path = "url"
@@ -198,28 +196,6 @@ Description: "Definition of the composition for the  immunization administration
 * section[pregnancy].entry ^short = "Pregnancy"
 * section[pregnancy].entry.reference 1..1
 * section[pregnancy].section 0..0
-
-* section[recommendations] ^short = "Recommendations"
-* section[recommendations].extension ^slicing.discriminator.type = #value
-* section[recommendations].extension ^slicing.discriminator.path = "url"
-* section[recommendations].extension ^slicing.rules = #open
-* section[recommendations].title 1..1
-* section[recommendations].title ^short = "'Impfempfehlungen' in german or 'Recommandations de vaccination' in french or 'Raccomandazioni per la vaccinazione' in italian or 'Immunization recommendations' in english\n                        or titles in other languages are also allowed"
-* section[recommendations].code 1..
-* section[recommendations].code = $loinc#18776-5 "Plan of care note"
-* section[recommendations].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or RelatedPerson)
-* section[recommendations].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
-* section[recommendations].author.extension 0..1
-* section[recommendations].author.extension only EPRTime
-* section[recommendations].author.extension ^short = "Timestamp of the authorship/data input"
-* section[recommendations].author.reference 1..
-* section[recommendations].text 1..1
-* section[recommendations].text ^short = "Human readable text of this section"
-* section[recommendations].entry 0..*
-* section[recommendations].entry only Reference(CHVACDImmunizationRecommendations)
-* section[recommendations].entry ^short = "Recomendation"
-* section[recommendations].entry.reference 1..1
-* section[recommendations].section 0..0
 
 * section[annotation] ^short = "Annotation"
 * section[annotation].title 1..1

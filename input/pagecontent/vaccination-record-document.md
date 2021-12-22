@@ -25,4 +25,4 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 * [CH VACD Other Relevant Observations Section](StructureDefinition-ch-vacd-other-observations.html): Definition of the other relevant observations part for all documents, except recommendation request and response documents.
 * [CH VACD Laboratory And Serology Profile](StructureDefinition-ch-vacd-laboratory-serology.html): Definition of the labor and serology part for all documents, except recommendation request and response documents.
 * [CH VACD Pregnancy Profile](StructureDefinition-ch-vacd-pregnancy.html): Definition of the pregnancy part for all documents, except recommendation request and response documents.
-* [CH VACD Immunization Recommendations Profile](StructureDefinition-ch-vacd-immunization-recommendations.html): Definition of the immunization recommendation part for all documents, except recommendation request and response documents.
+
