@@ -1,15 +1,15 @@
 Instance: 1-5-ImmunizationRecommendationResponse
-InstanceOf: CHVACDDocumentImmunizationRecommendationResponse
+InstanceOf: CHVACDRecommendationResponseMessage
 Title: "1.5 Immunization Recommendation Response"
 Description: "Example for Bundle Immunization Recommendation Response"
 Usage: #example
 * meta.lastUpdated = "2021-06-01T00:00:00.159+02:00"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"
-* type = #document
+* type = #message
 * timestamp = "2021-06-01T00:00:00.159+02:00"
-* entry[0].fullUrl = "http://test.fhir.ch/r4/Composition/2-5-ImmunizationRecommendationResponseComposition"
-* entry[=].resource = Inline-Instance-for-1-5-ImmunizationRecommendationResponse-1
+//* entry[0].fullUrl = "http://test.fhir.ch/r4/Composition/2-5-ImmunizationRecommendationResponseComposition"
+//* entry[=].resource = Inline-Instance-for-1-5-ImmunizationRecommendationResponse-1
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/3-2-Patient"
 * entry[=].resource = 3-2-Patient
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/4-4-Practitioner"

@@ -21,8 +21,8 @@ The circumstance to be able to exchange the information across borders had his i
 The following documents have been defined:
 - [Immunization Administration document](immunization-administration-document.html)
 - [Vaccination Record document](vaccination-record-document.html)
-- [Immunization Recommendation Request document](immunization-recommendation-request-document.html)
-- [Immunization Recommendation Response document](immunization-recommendation-response-document.html)
+- [Immunization Recommendation Request message](immunization-recommendation-request-message.html)
+- [Immunization Recommendation Response message](immunization-recommendation-response-message.html)
 
 
 ### Source

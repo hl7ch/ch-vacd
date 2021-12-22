@@ -21,6 +21,8 @@ Alias: $ch-vacd-medrisk =                       urn:oid:2.16.756.5.30.1.127.3.3.
 Alias: $ch-vacd-exprisk =                       urn:oid:2.16.756.5.30.1.127.3.3.2
 
 Alias: $ch-vacd-swissmedic-cs =                                         http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs
+Alias: $ch-vacd-cdss-cs =                                               http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-clinical-decision-support-event-cs
+
 Alias: $ch-vacd-ch-vaccination-plan-immunizations-vs =                  http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs
 Alias: $ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs = http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs
 Alias: $ch-vacd-recommendation-categories-vs =                          http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-recommendation-categories-vs
@@ -29,7 +31,7 @@ Alias: $ch-vacd-vaccines-sct-vs =                                       http://f
 Alias: $ch-vacd-route-of-administration-vs =                            http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-route-of-administration-vs
 Alias: $ch-vacd-laboratory-serology-vs =                                http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-laboratory-serology-vs
 Alias: $ch-vacd-risks-vs =                                              http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-vs
-Alias: $ch-vacd-conflict-vs =                                              http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-entry-conflict-vs
-Alias: CHVACDRecommendationPatient =                                    http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient
+Alias: $ch-vacd-conflict-vs =                                           http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-entry-conflict-vs
 Alias: $ch-vacd-immunization-allergyintolerances-vs =                   http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-immunization-allergyintolerances-vs
 
+Alias: CHVACDRecommendationPatient =                                    http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-patient
