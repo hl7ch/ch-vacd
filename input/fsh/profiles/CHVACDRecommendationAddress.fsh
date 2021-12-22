@@ -6,7 +6,7 @@ Description: "Definition of the address of a patient for immunization recommenda
 * ^version = "0.1.0"
 * ^experimental = false
 * ^publisher = "eHealth Suisse"
-* ^kind = #resource
+* ^kind = #complex-type
 * use 0..0
 * type 0..0
 * text 0..0
