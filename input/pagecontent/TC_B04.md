@@ -16,3 +16,7 @@ The Observation entry can be found in the vaccination status of the patient in h
 * [B_D1_HCP1_C1](Bundle-B-D1-HCP1-C1.html)
 * [B_D5_HCP1_C1](Bundle-B-D5-HCP1-C1.html)
 * [Result. Dokument B 04](Bundle-RDB04.html)
+
+### Entries
+* [Labor result Observation TCB04_LABRES1](Observation-TCB04-LABRES.html)
+

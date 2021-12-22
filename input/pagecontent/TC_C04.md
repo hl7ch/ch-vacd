@@ -24,3 +24,4 @@ In the [resulting document](Bundle-RDC04.html) only the new/corrected immunizati
 ### Entries
 * [Exposition Risk (TCC04_EXPRISK1)](Condition-TCC04-EXPRISK1.html)
 * [Exposition Risk - correction (TCC04_EXPRISK2)](Condition-TCC04-EXPRISK2.html)
+* [Exposition Risk (TCC04_EXPRISK3)](Condition-TCC04-EXPRISK3.html)

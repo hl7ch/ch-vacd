@@ -17,7 +17,10 @@ The Immunization and Composititon in the new document have relation information 
 In the [resulting document](Bundle-RDC01.html) only the new immunization entry will be shown.
 
 ### Documents
-
 * [Document A-D1-P-C1](Bundle-A-D1-P-C1.html)
 * [Document C-D1-P-C1](Bundle-C-D1-P-C1.html)
 * [Result RDC01](Bundle-RDC01.html)
+
+### Entries
+* [Immunization (TCC01_IMMUN1_patient)](Immunization-TCC01-IMMUN1-patient.html)
+* [Immunization (TCC01_IMMUN2_patient)](Immunization-TCC01-IMMUN2-patient.html)

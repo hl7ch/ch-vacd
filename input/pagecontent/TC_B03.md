@@ -16,3 +16,6 @@ The Condition entry for expositionrisk can be found in the vaccination status of
 * [B_D1_HCP1_C1](Bundle-B-D1-HCP1-C1.html)
 * [B_D4_HCP1_C1](Bundle-B-D4-HCP1-C1.html)
 * [Result. Dokument B 03](Bundle-RDB03.html)
+
+### Entries
+* [Exposition Risk Condition TCB03_EXPRISK1](Condition-TCB03-EXPRISK1.html)

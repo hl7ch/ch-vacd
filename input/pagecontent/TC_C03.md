@@ -20,3 +20,6 @@ In the [resulting document](Bundle-RDC03.html) only the new/corrected immunizati
 * [B_D4_HCP1_C1](Bundle-B-D4-HCP1-C1.html)
 * [C_D3_HCP1_C1](Bundle-C-D3-HCP1-C1.html)
 * [Result. Document C 03](Bundle-RDC03.html)
+
+### Entries
+* [Medical Risk Condition (TCC03_EXPRISK1)(Condition-TCC03-EXPRISK1.html)

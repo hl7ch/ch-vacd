@@ -22,3 +22,5 @@ The 2nd dose of the TBE vaccination has now been validated by a health professio
 * [A_D6_HCP1_C1](Bundle-A-D6-HCP1-C1.html)
 * [Result. Dokument A 04](Bundle-RDA04.html)
 
+### Entries
+* [Immunization TCA04_IMMUN5_patient_val_GFP](Immunization-TCA04-IMMUN5-patient-val-gfp.html)

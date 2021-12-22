@@ -18,3 +18,5 @@ The Condition entry for pastillness can be found in the vaccination status of th
 * [B_D3_HCP1_C1](Bundle-B-D3-HCP1-C1.html)
 * [Result. Dokument B 02](Bundle-RDB02.html)
 
+### Entries
+* [Exposition Risk Condition TCB02_UNDILL1](Condition-TCB02-UNDILL1.html)

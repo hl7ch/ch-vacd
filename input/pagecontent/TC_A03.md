@@ -19,3 +19,6 @@ The second dose of the TBE vaccination is entered in the patient's documentation
 * [A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.html)
 * [A_D5_P_C1](Bundle-A-D5-P-C1.html)
 * [Result. Dokument A 03](Bundle-RDA03.html)
+
+### Entries
+* [Immunization TCA03_IMMUN5_patient](Immunization-TCA03-IMMUN5-patient.html)
