@@ -6,7 +6,6 @@
 	<h3>Document profiles</h3>
 	<div>
 	<li><a href="StructureDefinition-ch-vacd-document-immunization-administration.html">CH VACD Immunization Administration Document Profile</a> Definition of the bundle for the immunization administration document. This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next tu the Swiss EPR.</li>
-	<li><a href="StructureDefinition-ch-vacd-document-immunization-certificate.html">CH VACD Immunization Certificate Document Profile</a> Definition of the bundle for the immunization certificate document. This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next tu the Swiss EPR.</li>
 	<li><a href="StructureDefinition-ch-vacd-document-vaccination-record.html">CH VACD Vaccination Record Document Profile</a> Definition of the bundle for the vaccination record document. This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next tu the Swiss EPR.</li>
 	<li><a href="StructureDefinition-ch-vacd-document-immunization-recommendation-request.html">CH VACD Immunization Recommendation Request Document Profile</a> Definition of the bundle for the immunization recommendation request.</li>
 	<li><a href="StructureDefinition-ch-vacd-document-immunization-recommendation-response.html">CH VACD Immunization Recommendation Response Document Profile</a> Definition of the bundle for the immunization recommendation response.</li>
@@ -15,7 +14,6 @@
 	<h3>Composition profiles</h3>
 	<div>
 	<li><a href="StructureDefinition-ch-vacd-composition-immunization-administration.html">CH VACD Immunization Administration Composition Profile</a>Definition of the composition for the immunization administration document. This composition is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next tu the Swiss EPR.</li>
-	<li><a href="StructureDefinition-ch-vacd-composition-immunization-certificate.html">CH VACD Immunization Certificate Composition Profile</a> Definition of the composition for the immunization certificate document. This composition is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next tu the Swiss EPR.</li>
 	<li><a href="StructureDefinition-ch-vacd-composition-vaccination-record.html">CH VACD VaccinationRecord Composition Profile</a> Definition of the composition for the vaccination record document. This composition is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next tu the Swiss EPR.</li>
 	<li><a href="StructureDefinition-ch-vacd-composition-immunization-recommendation-request.html">CH VACD Immunization Recommendation Request Composition Profile</a> Definition of the composition for the immunization recommendation response document.</li>
 	<li><a href="StructureDefinition-ch-vacd-composition-immunization-recommendation-response.html">CH VACD Immunization Recommendation Response Composition Profile</a> Definition of the composition for the immunization recommendation response document.</li>
