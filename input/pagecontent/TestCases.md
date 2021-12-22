@@ -34,15 +34,17 @@ The test cases are tailored to use in the electronic patient record (EPR), but c
 |[C01](TC_C01.html)|Correction of own entry|[A_D1_P_C1](Bundle-A-D1-P-C1.html)|[C_D1_P_C1](Bundle-C-D1-P-C1.html)|[Result. Document C 01](Bundle-RDC01.html)|
 |[C02](TC_C02.html)|Correction of foreign entry|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)|[C_D2_HCP1_C1](Bundle-C-D2-HCP1-C1.html)|[Result. Document C 02](Bundle-RDC02.html)|
 |[C03](TC_C03.html)|Cancel entry own community (refuted)|[B_D4_HCP1_C1](Bundle-B-D4-HCP1-C1.html)|[C_D3_HCP1_C1](Bundle-C-D3-HCP1-C1.html)|[Result. Document C 03](Bundle-RDC03.html)|
-|x|+ Cancel entry of other community|…|…|…|
-|x|+ DOES NOT validate patient entry for previous illness|…|…|…|
+|[C04](TC_C04.html)|Cancel entry of other community|[C_D4_HCP2_C2](Bundle-C-D4-HCP2-C2.html)|[C_D5_HCP1_C1](Bundle-C-D5-HCP1-C1.html)|[Result. Document C 04](Bundle-RDC04.html)|
+|[C05](TC_C05.html)|DOES NOT validate patient entry for Undergone illness|[C_D6_P_C1](Bundle-C-D6-P-C1.html)|[C_D7_HCP1_C1](Bundle-C-D7-HCP1-C1.html)|[Result. Document C 05](Bundle-RDC05.html)|
 
 
 #### D Conflicts on merging Documents
 
 |#|Case|Doc1|Doc2|Resultat|
 |-|----|----|----|---|
-|[D01](TC_D01.html)|HCP or patient would like to see a vaccination status overview. When merging, a conflict is found in the vaccination entries (same vaccination, same date)|[D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.html)|[D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.html)|[Result. Document D 01](Bundle-RDD01.html)|
+|[D01](TC_D01.html)|HCP or patient would like to see a vaccination status overview. When merging, a conflict is found in the immunization entries (same vaccination, same date)|[D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.html)|[D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.html)|[Result. Document D 01](Bundle-RDD01.html)|
+|D02|…|…|…|…|
+|D03|…|…|…|…|
 
 #### E Language handling on merging Documents
 
