@@ -21,4 +21,4 @@ In the [resulting document](Bundle-RDC02.html) only the new/corrected immunizati
 
 ### Entries
 * [Immunization (TCC02_IMMUN3_HCP1_ORG1_ROLE)](Immunization-TCC02-IMMUN3-HCP1-ORG1-ROLE.html)
-* [Immunization (TCC02_IMMUN4_HCP1_ORG1_ROLE)](Immunization-TCC02-IMMUN4-HCP1-ORG1-ROLEhtml)
+* [Immunization (TCC02_IMMUN4_HCP1_ORG1_ROLE)](Immunization-TCC02-IMMUN4-HCP1-ORG1-ROLE.html)

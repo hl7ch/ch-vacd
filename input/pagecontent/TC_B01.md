@@ -18,6 +18,6 @@ The AllergyIntollerance entry can be found in the vaccination status of the pati
 * [Result. Dokument B 01](Bundle-RDB01.html)
 
 ### Entries
-* [AllergyIntollerance TCB01_ALLINTO1](AllergyIntollerance-TCB01-ALLINTO1.html)
+* [AllergyIntolerance TCB01_ALLINTO1](AllergyIntolerance-TCB01-ALLINTO1.html)
 * [Immunization TCB01_IMMUN1](Immunization-TCB01-IMMUN1.html)
 * [Immunization TCB01_IMMUN2](Immunization-TCB01-IMMUN2.html)
