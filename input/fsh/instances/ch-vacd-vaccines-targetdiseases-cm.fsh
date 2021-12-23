@@ -5,6 +5,7 @@ Usage: #definition
 * version = "202104.0-stable"
 * name = "VaccineCodeToTargetDiseaseMapping"
 * title = "VaccineCode To TargetDisease Mapping"
+* description = "Mappings from vaccine code to target disease according to the correcsponding valuesets"
 * status = #active
 * publisher = "eHealth Suisse"
 * contact.name = "eHealth Suisse"
