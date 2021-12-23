@@ -14,10 +14,11 @@ Usage: #example
 * entry[=].resource = 3-2-Patient
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/CDSS-Organization"
 * entry[=].resource = CDSS_Organization
-* entry[+].fullUrl = "http://test.fhir.ch/r4/ImmunizationRecommendation/10-4-ImmunizationRecommendation"
-* entry[=].resource = 10-4-ImmunizationRecommendation
 * entry[+].fullUrl = "http://test.fhir.ch/r4/ImmunizationRecommendation/10-3-ImmunizationRecommendation"
 * entry[=].resource = 10-3-ImmunizationRecommendation
+* entry[+].fullUrl = "http://test.fhir.ch/r4/ImmunizationRecommendation/10-4-ImmunizationRecommendation"
+* entry[=].resource = 10-4-ImmunizationRecommendation
+
 
 
 Instance: Inline-Instance-for-1-5-ImmunizationRecommendationResponse

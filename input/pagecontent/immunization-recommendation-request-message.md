@@ -6,12 +6,14 @@ The patient data MUST be pseudonymized.
 This exchange format is defined as a message type that corresponds to a Bundle as a FHIR resource. 
 A Bundle has a list of entries. The first entry is the MessageHeader, in which all contained entries are then referenced.
 
--- TODO BILD --
+{% include img.html img="immunization-recommendation-request-message.png" caption="Fig.: Immunization Recommendation Request Message" width="40%" %}
+
+
 
 #### Examples
--- TODO EXAMLES --
-
-* 3.2 Example Patient (Recommendation): [XML](Patient-3-2-Patient.xml.html), [JSON](Patient-3-2-Patient.json.html)
+* [1.4 ImmunizationRecommendationRequest](Bundle-1-4-ImmunizationRecommendationRequest.html): [XML](Bundle-1-4-ImmunizationRecommendationRequest.xml), [JSON](Bundle-1-4-ImmunizationRecommendationRequest.json)
+* [2.4 ImmunizationRecommendationRequestMessageHeader](MessageHeader-2-4-ImmunizationRecommendationRequestMessageHeader.html): [XML](MessageHeader-2-4-ImmunizationRecommendationRequestMessageHeader.xml), [JSON](MessageHeader-2-4-ImmunizationRecommendationRequestMessageHeader.json)
+* [3.2 Example Patient (Recommendation)](Patient-3-2-Patient.html): [XML](Patient-3-2-Patient.xml), [JSON](Patient-3-2-Patient.json)
 
  
 ### Resource profiles
