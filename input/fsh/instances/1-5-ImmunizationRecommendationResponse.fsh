@@ -8,55 +8,34 @@ Usage: #example
 * identifier.value = "urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"
 * type = #message
 * timestamp = "2021-06-01T00:00:00.159+02:00"
-//* entry[0].fullUrl = "http://test.fhir.ch/r4/Composition/2-5-ImmunizationRecommendationResponseComposition"
-//* entry[=].resource = Inline-Instance-for-1-5-ImmunizationRecommendationResponse-1
+* entry[0].fullUrl = "http://test.fhir.ch/r4/MessageHeader/2-5-ImmunizationRecommendationResponseMessageHeader"
+* entry[=].resource = Inline-Instance-for-1-5-ImmunizationRecommendationResponse
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/3-2-Patient"
 * entry[=].resource = 3-2-Patient
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/4-4-Practitioner"
-* entry[=].resource = 4-4-Practitioner
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/5-4-Organization"
-* entry[=].resource = 5-4-Organization
-* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/6-4-PractitionerRole"
-* entry[=].resource = 6-4-PractitionerRole
-* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/6-5-PractitionerRole"
-* entry[=].resource = 6-5-PractitionerRole
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/4-5-Practitioner"
-* entry[=].resource = 4-5-Practitioner
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/5-5-Organization"
-* entry[=].resource = 5-5-Organization
-* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/6-6-PractitionerRole"
-* entry[=].resource = 6-6-PractitionerRole
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/4-6-Practitioner"
-* entry[=].resource = 4-6-Practitioner
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/5-6-Organization"
-* entry[=].resource = 5-6-Organization
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/7-7-Immunization"
-* entry[=].resource = 7-7-Immunization
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/7-8-Immunization"
-* entry[=].resource = 7-8-Immunization
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/7-9-Immunization"
-* entry[=].resource = 7-9-Immunization
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/7-10-Immunization"
-* entry[=].resource = 7-10-Immunization
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/7-11-Immunization"
-* entry[=].resource = 7-11-Immunization
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/8-6-Condition"
-* entry[=].resource = 8-6-Condition
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/8-7-Condition"
-* entry[=].resource = 8-7-Condition
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/8-8-Condition"
-* entry[=].resource = 8-8-Condition
-* entry[+].fullUrl = "http://test.fhir.ch/r4/AllergyIntolerance/11-3-AllergyIntolerance"
-* entry[=].resource = 11-3-AllergyIntolerance
-* entry[+].fullUrl = "http://test.fhir.ch/r4/AllergyIntolerance/11-4-AllergyIntolerance"
-* entry[=].resource = 11-4-AllergyIntolerance
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/8-10-Condition"
-* entry[=].resource = 8-10-Condition
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/9-2-Observation"
-* entry[=].resource = 9-2-Observation
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/8-5-Condition"
-* entry[=].resource = 8-5-Condition
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/CDSS-Organization"
+* entry[=].resource = CDSS_Organization
 * entry[+].fullUrl = "http://test.fhir.ch/r4/ImmunizationRecommendation/10-4-ImmunizationRecommendation"
 * entry[=].resource = 10-4-ImmunizationRecommendation
 * entry[+].fullUrl = "http://test.fhir.ch/r4/ImmunizationRecommendation/10-3-ImmunizationRecommendation"
 * entry[=].resource = 10-3-ImmunizationRecommendation
+
+
+Instance: Inline-Instance-for-1-5-ImmunizationRecommendationResponse
+InstanceOf: CHVACDRecommendationResponseMessageHeader
+Title: "2.4 Immunization Recommendation Response MessageHeader"
+Description: "Example for Bundle Immunization Recommendation Response MessageHeader"
+Usage: #example
+* id = "2-5-ImmunizationRecommendationResponseMessageHeader"
+* meta.lastUpdated = "2021-06-01T00:00:00.394+02:00"
+* eventCoding = $ch-vacd-cdss-cs#immunrecoresponse "Immunization Recommendation Response"
+* destination.name = "Example Portal EPR"
+* destination.endpoint = "urn:oid:1.2.3.4.5"
+* sender =  Reference(CDSS_Organization)
+* source.name = "Example Vaccination Clinical Decision Support System"
+* source.endpoint = "https://example.com/cds/immunization/ws"
+* responsible = Reference(CDSS_Organization)
+* reason.coding = $sct#830152006 "Recommendation regarding vaccination (procedure)"
+* response.identifier = "1-4-ImmunizationRecommendationRequest"
+* response.code = #ok
+* focus[+] = Reference(10-4-ImmunizationRecommendation)
+* focus[+] = Reference(10-3-ImmunizationRecommendation)

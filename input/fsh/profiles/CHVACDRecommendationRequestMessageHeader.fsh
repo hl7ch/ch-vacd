@@ -8,7 +8,7 @@ Description: "Definition of the MessageHeader for the immunization recommendatio
 * ^publisher = "eHealth Suisse"
 * . ^short = "CH VACD Immunization Recommendation Request MessageHeader"
 
-* eventCoding = $ch-vacd-cdss-cs#immunrecorequest
+* eventCoding = $ch-vacd-cdss-cs#immunrecorequest "Immunization Recommendation Request"
 
 * destination 1..1
 * destination.name 1..
@@ -16,14 +16,25 @@ Description: "Definition of the MessageHeader for the immunization recommendatio
 * destination.receiver only Reference(CHCoreOrganization)
 
 * sender 1..
-* sender only Reference(CHCorePractitionerRole)
+* sender only Reference(CHCorePractitionerRole or CHCoreOrganization) 
 
 * source.name 1..
 * source.software 1..
 * source.version 1..
 
 * responsible 1..1 
-* responsible only Reference(CHCorePractitionerRole)
+* responsible only Reference(CHCorePractitionerRole or CHCoreOrganization)
 
 * reason 1..
 * reason = $sct#830152006 "Recommendation regarding vaccination (procedure)"
+
+* focus only Reference(
+    CHVACDRecommendationAllergyIntolerances or
+    CHVACDRecommendationCondition or
+    CHVACDRecommendationImmunization or
+    CHVACDRecommendationLaboratorySerology or
+    CHVACDRecommendationMedicalProblems or
+    CHVACDRecommendationOtherRelevantObservations or
+    CHVACDRecommendationPastIllness or
+    CHVACDRecommendationPregnancy
+)

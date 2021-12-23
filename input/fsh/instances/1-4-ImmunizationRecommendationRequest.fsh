@@ -3,15 +3,18 @@ InstanceOf: CHVACDRecommendationRequestMessage
 Title: "1.4 Immunization Recommendation Request"
 Description: "Example for Bundle Immunization Recommendation Request"
 Usage: #example
+* id = "1-4-ImmunizationRecommendationRequest"
 * meta.lastUpdated = "2021-06-01T00:00:00.394+02:00"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"
+* identifier.value = "urn:uuid:53b4759d-041f-4c04-955a-5fa58d248f77"
 * type = #message
 * timestamp = "2021-06-01T00:00:00.394+02:00"
-//* entry[0].fullUrl = "http://test.fhir.ch/r4/Composition/2-4-ImmunizationRecommendationRequestComposition"
-//* entry[=].resource = Inline-Instance-for-1-4-ImmunizationRecommendationRequest-1
+* entry[0].fullUrl = "http://test.fhir.ch/r4/MessageHeader/2-4-ImmunizationRecommendationRequestMessageHeader"
+* entry[=].resource = Inline-Instance-for-1-4-ImmunizationRecommendationRequest
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/3-2-Patient"
 * entry[=].resource = 3-2-Patient
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/CDSS-Organization"
+* entry[=].resource = CDSS_Organization
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/4-4-Practitioner"
 * entry[=].resource = 4-4-Practitioner
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/5-4-Organization"
@@ -56,3 +59,52 @@ Usage: #example
 * entry[=].resource = 9-2-Observation
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/8-5-Condition"
 * entry[=].resource = 8-5-Condition
+
+
+Instance: CDSS_Organization
+InstanceOf: CHCoreOrganization
+Title: "CDSS Organization"
+Description: "Example for Organization for CDS Service"
+Usage: #example
+* id = "CDSS-Organization"
+* identifier.system = "urn:oid:2.51.1.3"
+* identifier.value = "2010000000786"
+* name = "Immunization CDS Service"
+* address.line = "Mustergasse 99"
+* address.city = "Beispielen"
+* address.state = "SG"
+* address.postalCode = "9876"
+* address.country = "CH"
+
+
+Instance: Inline-Instance-for-1-4-ImmunizationRecommendationRequest
+InstanceOf: CHVACDRecommendationRequestMessageHeader
+Title: "2.4 Immunization Recommendation Request MessageHeader"
+Description: "Example for Bundle Immunization Recommendation Request MessageHeader"
+Usage: #example
+* id = "2-4-ImmunizationRecommendationRequestMessageHeader"
+* meta.lastUpdated = "2021-06-01T00:00:00.394+02:00"
+* eventCoding = $ch-vacd-cdss-cs#immunrecorequest "Immunization Recommendation Request"
+* destination.name = "Example Vaccination Clinical Decision Support System"
+* destination.receiver = Reference(CDSS_Organization)
+* destination.endpoint = "https://example.com/cds/immunization/ws"
+* sender =  Reference(6-4-PractitionerRole)
+* source.name = "Example Portal EPR"
+* source.software = "EPR-Portal-VacModule"
+* source.version = "V1.1"
+* source.endpoint = "urn:oid:1.2.3.4.5"
+* responsible = Reference(6-4-PractitionerRole)
+* reason.coding = $sct#830152006 "Recommendation regarding vaccination (procedure)"
+* focus[+] = Reference(7-7-Immunization)
+* focus[+] = Reference(7-8-Immunization)
+* focus[+] = Reference(7-9-Immunization)
+* focus[+] = Reference(7-10-Immunization)
+* focus[+] = Reference(7-11-Immunization)
+* focus[+] = Reference(8-6-Condition)
+* focus[+] = Reference(8-7-Condition)
+* focus[+] = Reference(8-8-Condition)
+* focus[+] = Reference(11-3-AllergyIntolerance)
+* focus[+] = Reference(11-4-AllergyIntolerance)
+* focus[+] = Reference(8-10-Condition)
+* focus[+] = Reference(9-2-Observation)
+* focus[+] = Reference(8-5-Condition)
