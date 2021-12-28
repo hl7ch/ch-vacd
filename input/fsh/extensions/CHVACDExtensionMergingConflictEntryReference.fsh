@@ -6,8 +6,14 @@ Description: "Extension to make a reference to an entry conflicting with other e
 * ^status = #draft
 * ^date = "2021-12-08T00:00:00+00:00"
 * ^publisher = "eHealth Suisse"
-* ^context.type = #element
-* ^context.expression = "Immunization"
+* ^context[+].type = #element
+* ^context[=].expression = "Immunization"
+* ^context[+].type = #element
+* ^context[=].expression = "Condition"
+* ^context[+].type = #element
+* ^context[=].expression = "Observation"
+* ^context[+].type = #element
+* ^context[=].expression = "AllergyIntolerance"
 * . 0..*
 * . ^short = "Reference to related resource"
 * . ^definition = "Extension to make a reference to an entry conflicting with other entries."
@@ -20,7 +26,7 @@ Description: "Extension to make a reference to an entry conflicting with other e
 * extension[entry] ^definition = "Reference to the conflicting entry."
 * extension[entry].url only uri
 * extension[entry].valueReference 1..
-* extension[entry].valueReference only Reference(CHVACDAllergyIntolerance or CHVACDImmunization or CHVACDImmunizationRecommendations or CHVACDLaboratorySerology or CHVACDMedicalProblems  or CHVACDOtherRelevantObservations or CHVACDPastIllness or CHVACDPregnancy)
+* extension[entry].valueReference only Reference(CHVACDAllergyIntolerance or CHVACDImmunization or CHVACDLaboratorySerology or CHVACDMedicalProblems  or CHVACDOtherRelevantObservations or CHVACDPastIllness or CHVACDPregnancy)
 * extension[entry].valueReference ^short = "The Reference to the conflicting entry."
 * extension[conflict] only Extension
 * extension[conflict] ^short = "Reference to the related document"
