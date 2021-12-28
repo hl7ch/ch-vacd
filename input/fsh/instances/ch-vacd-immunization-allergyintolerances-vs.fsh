@@ -74,6 +74,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to drug (finding)"
 
+
 * compose.include[+].system = "http://snomed.info/sct"
 * compose.include[=].concept[0].code = #863903001
 * compose.include[=].concept[=].display = "Allergy to component of vaccine product (finding)"
@@ -263,6 +264,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen Pneumokokken-Impfstoff"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to pneumococcal vaccine"
+
 * compose.include[=].concept[+].code = #294644005
 * compose.include[=].concept[=].display = "Allergy to component of vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -299,6 +301,10 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Hypersensitivität gegenüber SARS-CoV-2-mRNA-Impfstoff"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Hypersensitivity to SARS-CoV-2 mRNA vaccine"
+
+// missing herpes zoster
+// missing fsme
+// missing hpv
 
 * compose.include[+].system = "http://snomed.info/sct"
 * compose.include[=].concept[+].code = #294657002
