@@ -71,7 +71,7 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_BOOSTRIX)
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-merging-conflict-entry-reference"
 * extension[=].extension[0].url = "entry"
-* extension[=].extension[=].valueReference = Reference(TCD01_IMMUN3)
+* extension[=].extension[=].valueReference = Reference(TCD01_IMMUN3_2)
 * extension[=].extension[1].url = "conflict"
 * extension[=].extension[=].valueCode = #duplicate
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
@@ -127,7 +127,7 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_BOOSTRIX)
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-merging-conflict-entry-reference"
 * extension[=].extension[0].url = "entry"
-* extension[=].extension[=].valueReference = Reference(TCD01_IMMUN2)
+* extension[=].extension[=].valueReference = Reference(TCD01_IMMUN2_2)
 * extension[=].extension[1].url = "conflict"
 * extension[=].extension[=].valueCode = #duplicate
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"

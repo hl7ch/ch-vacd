@@ -51,7 +51,7 @@ Usage: #definition
 * address.country = "CH"
 
 // ////////////////////////////////////////////////
-// Definitions for HCP1 in G1
+// Definitions for HCP1 in C1
 // ////////////////////////////////////////////////
 Instance: TC_HCP1_C1
 InstanceOf: CHCorePractitionerEPR
@@ -72,7 +72,7 @@ Usage: #example
 * telecom[=].value = "fax:+41.32.234.55.67"
 * telecom[=].use = #work
 * telecom[+].system = #email
-* telecom[=].value = "mailto:bereit@gruppenpraxis.ch"
+* telecom[=].value = "mailto:allzeit.bereit@gruppenpraxis.ch"
 * telecom[=].use = #work
 * telecom[+].system = #url
 * telecom[=].value = "http://www.gruppenpraxis.ch"
@@ -129,6 +129,60 @@ Usage: #definition
 * id = "TC-HCP1-ORG1-ROLE-author"
 * active = true
 * practitioner = Reference(TC_HCP1_C1)
+* organization = Reference(TC_ORG1)
+
+
+// ////////////////////////////////////////////////
+// Definitions for HCP3 in C1
+// ////////////////////////////////////////////////
+Instance: TC_HCP3_C1
+InstanceOf: CHCorePractitionerEPR
+Title: "TC HCP3 C1"
+Description: "Testcase practitioner HCP3 of C1"
+Usage: #example
+* id = "TC-HCP3-C1"
+* identifier.system = "urn:oid:2.51.1.3"
+* identifier.value = "7607777777777"
+* active = true
+* name.family = "Gesund"
+* name.given = "Macht"
+* name.prefix = "Dr. med."
+* telecom[0].system = #phone
+* telecom[=].value = "tel:+41.11.222.55.66"
+* telecom[=].use = #work
+* telecom[+].system = #fax
+* telecom[=].value = "fax:+41.11.222.55.67"
+* telecom[=].use = #work
+* telecom[+].system = #email
+* telecom[=].value = "mailto:macht.gesund@gruppenpraxis.ch"
+* telecom[=].use = #work
+* telecom[+].system = #url
+* telecom[=].value = "http://www.gruppenpraxis.ch"
+* telecom[=].use = #work
+* address.type = #physical
+* address.line = "Doktorgasse 2"
+* address.city = "Musterhausen"
+* address.postalCode = "8888"
+* address.country = "CH"
+
+Instance: TC_HCP3_ORG1_ROLE_performer
+InstanceOf: CHCorePractitionerRoleEpr
+Title: "TC HCP3 ORG1 Role Performer"
+Description: "Testcase practitionerole HCP3 ORG1 as performer in C1"
+Usage: #definition
+* id = "TC-HCP3-ORG1-ROLE-performer"
+* active = true
+* practitioner = Reference(TC_HCP3_C1)
+* organization = Reference(TC_ORG1)
+
+Instance: TC_HCP3_ORG1_ROLE_author
+InstanceOf: CHCorePractitionerRoleEpr
+Title: "TC HCP3 ORG1 Role Author in C1"
+Description: "Testcase practitionerole HCP3 ORG1 as author"
+Usage: #definition
+* id = "TC-HCP3-ORG1-ROLE-author"
+* active = true
+* practitioner = Reference(TC_HCP3_C1)
 * organization = Reference(TC_ORG1)
 
 

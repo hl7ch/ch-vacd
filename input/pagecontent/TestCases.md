@@ -40,11 +40,14 @@ The test cases are tailored to use in the electronic patient record (EPR), but c
 
 #### D Conflicts on merging Documents
 
-|#|Case|Doc1|Doc2|Resultat|
-|-|----|----|----|---|
-|[D01](TC_D01.html)|HCP or patient would like to see a vaccination status overview. When merging, a conflict is found in the immunization entries (same vaccination, same date)|[D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.html)|[D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.html)|[Result. Document D 01](Bundle-RDD01.html)|
-|D02|…|…|…|…|
-|D03|…|…|…|…|
+|#|Case|Doc1|Doc2|Doc3|Resultat|
+|-|----|----|----|----|----|
+|[D01](TC_D01.html)|On merging, a conflict is found in the immunization entries (same vaccination, same date)|[D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.html)|[D_D2_HCP2_C2](Bundle-D-D2-HCP2-C2.html)|…|[Result. Document D 01](Bundle-RDD01.html)|
+|[D02](TC_D02.html)|Merging conflicts for immunization, medicalproblems and past illness|[D_D3_HCP1_C1](Bundle-D-D3-HCP1-C1.html)|[D_D4_HCP2_C2](Bundle-D-D4-HCP2-C2.html)|…|[Result. Document D 02](Bundle-RDD02.html)|
+|[D03](TC_D03.html)|Merging conflict for medicalproblem in three documents|[D_D5_HCP1_C1](Bundle-D-D5-HCP1-C1.html)|[D_D6_HCP2_C2](Bundle-D-D6-HCP2-C2.html)|[D_D7_HCP3_C1](Bundle-D-D7-HCP3-C1.html)|[Result. Document D 03](Bundle-RDD03.html)|
 
 #### E Language handling on merging Documents
 
+|#|Case|Doc1|Doc2|Resultat|
+|-|----|----|----|----|
+|[E01](TC_E01.html)|…|…|…|[Result. Document E 01](Bundle-RDE01.html)|

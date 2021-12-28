@@ -11,7 +11,7 @@ During this merging process a dupplicated Immunization entry is detected and sho
 
 
 ### Result
-A Vaccination Record Document is created with the merging result. In a additional section the merging issued are listed to give feedback to the user due to resolving of the conflict.
+A Vaccination Record Document is created with the merging result. The duplicated Immunization entries are both in the list, but on both entries the extension is added to make the duplicated entries incl. reference visible.
 
 ### Documents
 * [D_D1_HCP1_C1](Bundle-D-D1-HCP1-C1.html)
