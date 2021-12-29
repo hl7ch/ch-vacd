@@ -57,5 +57,5 @@ Usage: #example
 * section[=].title = "Medical Problems"
 * section[=].code = $loinc#11450-4 "Problem list Reported"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing the medical problem entries.</div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Code: </b><span>Problem list Reported (http://loinc.org#11450-4)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Condition-TCB03-EXPRISK1.html\">Condition/TCB03-EXPRISK1</a></td></tr></table></div>"
 * section[=].entry = Reference(TCB03_EXPRISK1)

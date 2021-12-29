@@ -63,12 +63,12 @@ Usage: #example
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Vaccin administré</div><table class=\"hapiPropertyTable\"><tr><td>Patient</td><td>Monika <b>WEGMUELLER </b></td></tr><tr><td>Author</td><td><div><table><tr><td>Practicien</td><td>Dr. med. Allzeit <b>BEREIT </b></td></tr><tr><td>Organisation</td><td>Gruppenpraxis CH</td></tr></table></div></td></tr><tr><td>Status</td><td>FINAL</td></tr><tr><td>Langue</td><td>fr-CH</td></tr><tr><td>Sections</td><td><table><tr><td>Liste Vaccin administré</td><td><table><tr><td></td></tr><tr><td></td></tr></table></td></tr></table></td></tr></table></div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-CH\" lang=\"fr-CH\"><h3>Vaccin administré</h3><p><b>Id: </b>E-D1-HCP1-C1-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:0b2c85af-aea2-4052-8cc2-09ce6e11bf24</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>June 8, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Practitioner-TC-HCP1-C1.html\">Practitioner/TC-HCP1-C1</a> Bereit Allzeit</p><p><a href=\"Organization-TC-ORG1.html\">Organization/TC-ORG1</a> Gruppenpraxis CH</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Liste Vaccin administré</td></tr></table></div>"
 
 * section[0].id = "administration"
 * section[=].title = "Liste Vaccin administré"
 * section[=].code = $loinc#11369-6 "Hx of Immunization"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-CH\" lang=\"fr-CH\">C'est la section avec les vaccins administré.</div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-CH\" lang=\"fr-CH\"><p><b>Code: </b><span>Hx of Immunization (http://loinc.org#11369-6)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Immunization-TCE01-IMMUN1-fr.html\">Immunization/TCE01-IMMUN1-fr</a></td></tr><tr><td><a href=\"Immunization-TCE01-IMMUN2-fr.html\">Immunization/TCE01-IMMUN2-fr</a></td></tr></table></div>"
 * section[=].entry[+] = Reference(TCE01_IMMUN1_fr)
 * section[=].entry[+] = Reference(TCE01_IMMUN2_fr)
