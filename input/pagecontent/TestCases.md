@@ -50,4 +50,4 @@ The test cases are tailored to use in the electronic patient record (EPR), but c
 
 |#|Case|Doc1|Doc2|Resultat|
 |-|----|----|----|----|
-|[E01](TC_E01.html)|…|…|…|[Result. Document E 01](Bundle-RDE01.html)|
+|[E01](TC_E01.html)|Mergin documents with different language settings|[E_D1_HCP1_C1](Bundle-E-D1-HCP1-C1.html)|[E_D2_HCP1_C1](Bundle-E-D2-HCP1-C1.html)|[Result. Document E 01](Bundle-RDE01.html)|

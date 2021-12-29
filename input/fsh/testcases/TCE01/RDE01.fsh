@@ -24,23 +24,23 @@ Usage: #example
 * entry[=].resource = TC_HCP1_ORG1_ROLE_author
 
 // FSME CC
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCB01-IMMUN1"
-* entry[=].resource = TCB01_IMMUN1
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCE01-IMMUN1-de"
+* entry[=].resource = TCE01_IMMUN1_de
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-FSMEIMMCC"
 * entry[=].resource = TC_IMMUN_MEDIC_FSMEIMMCC
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-PFIZER"
 * entry[=].resource = TC_ORG_PFIZER
 
 // BOOSTRIX (in conflict with D_D2)
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCB01-IMMUN2"
-* entry[=].resource = TCB01_IMMUN2
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCE01-IMMUN2-de"
+* entry[=].resource = TCE01_IMMUN2_de
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-BOOSTRIX"
 * entry[=].resource = TC_IMMUN_MEDIC_BOOSTRIX
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-GSK"
 * entry[=].resource = TC_ORG_GSK
 
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/TCB02-UNDILL1"
-* entry[=].resource = TCB02_UNDILL1
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/TCE01-UNDILL1-de"
+* entry[=].resource = TCE01_UNDILL1_de
 
 
 
@@ -66,22 +66,21 @@ Usage: #example
 * confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal (qualifier value)"
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
-//* text.status = #generated
-//* text.div = ""
-
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><h3>Impfdossier</h3><p><b>Id: </b>RDE01-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:bd70b715-a6cd-4855-b1be-e7a38ddf5775</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>November 20, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Liste der verabreichten Impfungen</td></tr><tr><td>Bisherige Krankheiten</td></tr></table></div>"
 
 * section[0].id = "administration"
 * section[=].title = "Liste der verabreichten Impfungen"
 * section[=].code = $loinc#11369-6 "Hx of Immunization"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de-CH\" lang=\"de-CH\">Diesr Abschnitt beinhaltet die Einträge bisher verabreichter Impfungen.</div>"
-* section[=].entry[+] = Reference(TCB01_IMMUN1)
-* section[=].entry[+] = Reference(TCB01_IMMUN2)
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Code: </b><span>Hx of Immunization (http://loinc.org#11369-6)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Immunization-TCE01-IMMUN1-de.html\">Immunization/TCE01-IMMUN1-de</a></td></tr><tr><td><a href=\"Immunization-TCE01-IMMUN2-de.html\">Immunization/TCE01-IMMUN2-de</a></td></tr></table></div>"
+* section[=].entry[+] = Reference(TCE01_IMMUN1_de)
+* section[=].entry[+] = Reference(TCE01_IMMUN2_de)
 
 
 * section[+].id = "pastillnesses"
-* section[=].title = "Bisherige Krankheiten'"
+* section[=].title = "Bisherige Krankheiten"
 * section[=].code = $loinc#11348-0 "Hx of Past illness"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"de-CH\" lang=\"de-CH\">Dieser Abschnitt beinhaltet die Einträge der bisher durchgemachten Krankheiten.</div>"
-* section[=].entry = Reference(TCB02_UNDILL1)
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Code: </b><span>Hx of Past illness (http://loinc.org#11348-0)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Condition-TCE01-UNDILL1-de.html\">Condition/TCE01-UNDILL1-de</a></td></tr></table></div>"
+* section[=].entry = Reference(TCE01_UNDILL1_de)
