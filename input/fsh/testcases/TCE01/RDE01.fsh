@@ -1,7 +1,7 @@
 Instance: RDE01
 InstanceOf: CHVACDDocumentVaccinationRecord
 Title: "Test Case E 01: Aggregated Dokument (RDE01)"
-Description: "Test Case E 01: Aggregating documents with different languages defined."
+Description: "Test Case E 01: Aggregating documents with different languages merge to document in german language."
 Usage: #example
 * id = "RDE01"
 * identifier.system = "urn:ietf:rfc:3986"

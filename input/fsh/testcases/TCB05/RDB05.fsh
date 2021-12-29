@@ -1,7 +1,7 @@
 Instance: RDB05
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case B 04: Resulting Document TC B 4 (RDB05)"
-Description: "Test Case B 04: VaccinationRecord document created as merging result with immunization and laboratory entries."
+Title: "Test Case B 05: Resulting Document TC B 4 (RDB05)"
+Description: "Test Case B 05: VaccinationRecord document created as merging result with immunization, medical problem and pregnancy entries."
 Usage: #example
 * id = "RDB05"
 * identifier.system = "urn:ietf:rfc:3986"

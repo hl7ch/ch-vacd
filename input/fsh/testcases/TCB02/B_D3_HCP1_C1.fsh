@@ -1,6 +1,6 @@
 Instance: B_D3_HCP1_C1
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case B 02: Document HCP1 with Immunization Entries"
+Title: "Test Case B 02: Document HCP1 with Past Illness Entries"
 Description: "Test Case B 02: ImmunizationAdministration document created by HCP1 for patient with past illness entries."
 Usage: #example
 * id = "B-D3-HCP1-C1"

@@ -1,7 +1,7 @@
 Instance: A_D5_P_C1
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case 03: Patient Dokument 5 (D5_P_C1)"
-Description: "Test Case 03: Patient trägt zweite Dosis einer Impfung (FSME) ein"
+Title: "Test Case A 03: Patient Dokument 5 (D5_P_C1)"
+Description: "Test Case A 03: Patient trägt zweite Dosis einer Impfung (FSME) ein"
 Usage: #example
 * id = "A-D5-P-C1"
 * identifier.system = "urn:ietf:rfc:3986"

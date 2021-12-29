@@ -1,7 +1,7 @@
 Instance: A_D1_P_C1
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case 01: Patient Dokument (A-D1-P_C1)"
-Description: "Test Case 01: Patient hat drei Impfdokumente in zwei unterschiedlichen Gemeinschaften (eines davon vom Patient selbst erfasst). Dies ist das vom Patienten erstellte Dokument"
+Title: "Test Case A 01: Patient Dokument (A-D1-P_C1)"
+Description: "Test Case A 01: Patient hat drei Impfdokumente in zwei unterschiedlichen Gemeinschaften (eines davon vom Patient selbst erfasst). Dies ist das vom Patienten erstellte Dokument"
 Usage: #example
 * id = "A-D1-P-C1"
 * identifier.system = "urn:ietf:rfc:3986"

@@ -1,7 +1,7 @@
 Instance: A_D6_HCP1_C1
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case 04: GFP Dokument (A_D6_HCP1_C1)"
-Description: "Test Case 04: GFP validiert die Impfung (FSME)(Dok6) welche vom Patienten eingetragen wurde (Dok5)"
+Title: "Test Case A 04: GFP Dokument (A_D6_HCP1_C1)"
+Description: "Test Case A 04: GFP validiert die Impfung (FSME)(Dok6) welche vom Patienten eingetragen wurde (Dok5)"
 Usage: #example
 * id = "A-D6-HCP1-C1"
 * identifier.system = "urn:ietf:rfc:3986"

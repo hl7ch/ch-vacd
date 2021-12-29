@@ -1,7 +1,7 @@
 Instance: D4_HCP2_C2
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case 02: GFP aus andere Gemeinschaft trägt zweite Dosis einer Impfung (Hepatitis A) ein"
-Description: "Test Case 02: GFP trägt zweite Dosis einer Impfung (Hepatitis A) ein."
+Title: "Test Case A 02: GFP aus andere Gemeinschaft trägt zweite Dosis einer Impfung (Hepatitis A) ein"
+Description: "Test Case A 02: GFP trägt zweite Dosis einer Impfung (Hepatitis A) ein."
 Usage: #example
 * id = "A-D4-HCP2-C2"
 * identifier.system = "urn:ietf:rfc:3986"

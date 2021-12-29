@@ -1,7 +1,7 @@
 Instance: A_D3_HCP2_C2
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case 01: GFP Dokument (A_D3_HCP2_C2)"
-Description: "Test Case 01: Patient hat drei Impfdokumente in zwei unterschiedlichen Gemeinschaften (eines davon vom Patient selbst erfasst). Dies ist das vom Patienten erstellte Dokument"
+Title: "Test Case A 01: GFP Dokument (A_D3_HCP2_C2)"
+Description: "Test Case A 01: Patient hat drei Impfdokumente in zwei unterschiedlichen Gemeinschaften (eines davon vom Patient selbst erfasst). Dies ist das vom Patienten erstellte Dokument"
 Usage: #example
 * id = "A-D3-HCP2-C2"
 * identifier.system = "urn:ietf:rfc:3986"

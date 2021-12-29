@@ -1,7 +1,7 @@
 Instance: C_D3_HCP1_C1
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case D 03: Document HCP1 with Medical Problem Entries"
-Description: "Test Case D 03: ImmunizationAdministration document created by HCP1 for patient with medical problem entry."
+Title: "Test Case C 03: Document HCP1 with Medical Problem Entries"
+Description: "Test Case C 03: ImmunizationAdministration document created by HCP1 for patient with medical problem entry."
 Usage: #example
 * id = "C-D3-HCP1-C1"
 * identifier.system = "urn:ietf:rfc:3986"
