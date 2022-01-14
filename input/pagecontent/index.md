@@ -14,7 +14,7 @@ immunization and vaccination information.
 The documents are based on the IHE Technical Framework „Patient Care Coordination (PCC)“ with the profile „Immunization Content (IC)“. 
 The IHE PCC himself references the HL7 Clinical Document Architecture (CDA).
 
-During the development of the IG a lot of issues popped up which had to be resolved. The fact, that the version 2.1 of the CDA was not really in use, lead to the cut of the line to the CDA to be able to set up a proper and usable exchange format based on FHIR.
+During the development of the IG a lot of issues popped up which had to be resolved. The fact that the version 2.1 of the CDA was not really in use led to the cut of the reverse compatibility to the CDA in order to be able to set up a proper and usable exchange format based on FHIR.
 
 The circumstance to be able to exchange the information across borders had his influence on the specification. The [International Patient Summary Implementation Guide (IPS)](http://hl7.org/fhir/uv/ips/) gave some support.
 
@@ -41,10 +41,13 @@ especially during the executed ballots.
 
 
 ### Copyright
-This artefact includes content from SNOMED Clinical Terms&reg; (SNOMED CT&reg;) which is copyright of the 
-International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must 
-have the appropriate SNOMED CT Affiliate license - for more information contact 
-http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org.
 
-This artefact includes content from LOINC®. This content LOINC® is copyright © 1995 Regenstrief Institute, 
-Inc. and the LOINC Committee, and available at no cost under the license at http://loinc.org/terms-of-use.
+| Terminology | Owner/Contact | Links |
+| - | - | -- |
+| SNOMED CT® | SNOMED International |  [https://www.e-health-suisse.ch/snomedct](www.e-health-suisse.ch/snomedct) or [snomed@e-health-suisse.ch](mailto:snomed@e-health-suisse.ch) |
+| SNOMED CT® Global Patient Set (GPS) | SNOMED International | https://www.snomed.org/snomed-international/learn-more/global-patient-set|
+| Logical Observation Identifiers Names & Codes (LOINC®) | Regenstrief Institute, Inc. and the LOINC Committee| [http://loinc.org/terms-of-use](http://loinc.org/terms-of-use) |
+| Unified Codes for Units of Measures (UCUM)  | Regenstrief Institute, Inc. and the UCUM Organization | http://unitsofmeasure.org/trac/wiki/TermsOfUse |
+| Anatomical Therapeutic Chemical (ATC) classification system | World Health Organization (WHO) Collaborating Centre for Drug Statistics Methodology | https://www.whocc.no/use_of_atc_ddd/ |
+| EDQM Standard Terms | European Directorate for the Quality of Medicines | https://www.edqm.eu/en/standard-terms-database |
+| ISO 3166 Country Code | International Organization for Standardization (ISO)  |  https://www.iso.org/iso-3166-country-codes.html |
