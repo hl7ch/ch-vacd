@@ -18,8 +18,8 @@ Usage: #example
 
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-HCP1-C1"
 * entry[=].resource = TC_HCP1_C1
-* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP1-ORG1-ROLE-performer"
-* entry[=].resource = TC_HCP1_ORG1_ROLE_performer
+//* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP1-ORG1-ROLE-performer"
+//* entry[=].resource = TC_HCP1_ORG1_ROLE_performer
 * entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP1-ORG1-ROLE-author"
 * entry[=].resource = TC_HCP1_ORG1_ROLE_author
 
@@ -51,7 +51,7 @@ Usage: #example
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Immunization Administration</div><table class=\"hapiPropertyTable\"><tr><td>Patient</td><td>Monika <b>WEGMUELLER </b></td></tr><tr><td>Author</td><td><div><table><tr><td>Practitioner</td><td>Dr. med. Allzeit <b>BEREIT </b></td></tr><tr><td>Organization</td><td>Gruppenpraxis CH</td></tr></table></div></td></tr><tr><td>Status</td><td>FINAL</td></tr><tr><td>Language</td><td>en-US</td></tr><tr><td>Relates To</td><td><table><tr><td>REPLACES</td></tr></table></td></tr><tr><td>Sections</td><td><table><tr><td>Medical Problems</td></tr></table></td></tr></table></div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><div class=\"hapiHeaderText\">Immunization Administration</div><table class=\"hapiPropertyTable\"><tr><td>Patient</td><td>Monika <b>WEGMUELLER </b></td></tr><tr><td>Author</td><td><div><table><tr><td>Practitioner</td><td>Dr. med. Allzeit <b>BEREIT </b></td></tr><tr><td>Organization</td><td>Gruppenpraxis CH</td></tr></table></div></td></tr><tr><td>Status</td><td>FINAL</td></tr><tr><td>Language</td><td>en-US</td></tr><tr><td>Relates To</td><td><table><tr><td>REPLACES</td></tr></table></td></tr><tr><td>Sections</td><td><table><tr><td>Medical Problems</td></tr></table></td></tr></table></div>"
 
 * relatesTo.code = #replaces
 * relatesTo.targetReference = Reference(B_D4_HCP1_C1_Composition)

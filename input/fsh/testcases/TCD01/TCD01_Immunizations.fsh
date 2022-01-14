@@ -185,7 +185,7 @@ Usage: #example
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "urn:uuid:cc632c23-ffb4-4cd9-a090-61afd0746aff"
 * status = #completed
-* vaccineCode = $ch-vacd-swissmedic-cs#65387	"Gardasil® 9"
+* vaccineCode = $ch-vacd-swissmedic-cs#65387	"Gardasil 9"
 * patient = Reference(TC_patient)
 * occurrenceDateTime = "2021-03-29"
 * recorded = "2021-03-29T11:00:00.390+02:00"

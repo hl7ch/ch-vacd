@@ -10,7 +10,7 @@ Usage: #example
 * id = "TCC04-EXPRISK1"
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
 * identifier.value = "dc168f1f-967c-4ff2-95ef-f8c468d67b45"
-* code = $ch-vacd-exprisk#213006 "Bat researcher or guard"
+* code = $ch-vacd-exprisk#213006 "FLEDERMAUSFORSCHER_UND_SCHUETZER"
 * subject = Reference(TC_patient2)
 * onsetDateTime = "2021-08-20"
 * recordedDate = "2021-08-20"
