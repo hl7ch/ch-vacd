@@ -1,22 +1,7 @@
 == Suppressed Messages ==
 
 # the following language definition cannot be validated
-The value provided ('rm-CH') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#rm-CH) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-
-The display "Clinical presentation" is not a valid display for the code {http://loinc.org}55108-5 - should be one of ["Clinical presentation Document","Clinical presentation Doc"] (from http://tx.fhir.org/r4) for 'http://loinc.org#55108-5'
-The display "Clinical presentation" is not a valid display for the code {http://loinc.org}55108-5 - should be one of ["Clinical presentation Document","Clinical presentation Doc","Clinical presentation Doc"] (from http://tx.fhir.org/r4) for 'http://loinc.org#55108-5'
 
 # the following valuesets can not be resolved
-Canonical URL 'http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips' does not resolve
-Canonical URL 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-immunizations-uv-ips' does not resolve
-Canonical URL 'http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips' does not resolve
-Canonical URL 'http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-immunizations-uv-ips' does not resolve
-
-The valueSet reference http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips on element Immunization.vaccineCode could not be resolved
-The valueSet reference http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-immunizations-uv-ips on element Immunization.vaccineCode could not be resolved
-The valueSet reference http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips on element Immunization.vaccineCode could not be resolved
-The valueSet reference http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-immunizations-uv-ips on element Immunization.vaccineCode could not be resolved
 
 # All important examples are included
-The Implementation Guide contains no examples for this profile
-The Implementation Guide contains no examples for this extension

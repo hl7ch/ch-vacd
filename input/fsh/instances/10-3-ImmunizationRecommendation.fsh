@@ -5,7 +5,7 @@ Description: "Example ImmunizationRecommendation for Recommendation Request/Resp
 Usage: #example
 * identifier.system = "urn:oid:2.16.756.5.30.1.147.1.3.1"
 * identifier.value = "2"
-* patient.reference = "Patient/3-2-Patient"
+* patient = Reference(3-2-Patient)
 * date = "2021-06-01T00:00:00+02:00"
 * recommendation.vaccineCode = $ch-vacd-swissmedic-cs#58317 "Fluad"
 * recommendation.targetDisease = $sct#63650001 "Cholera (disorder)"
