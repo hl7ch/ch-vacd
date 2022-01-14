@@ -55,18 +55,6 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "nasale Anwendung"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Nasal use"
-* compose.include.concept[+].code = #20045000
-* compose.include.concept[=].display = "Intravenous use"
-* compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "intravenöse Anwendung"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Voie intraveineuse"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Uso endovenoso"
-* compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "intravenöse Anwendung"
-* compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Intravenous use"
 * compose.include.concept[+].code = #20053000
 * compose.include.concept[=].display = "Oral use"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -91,15 +79,3 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "subkutane Anwendung"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Subcutaneous use"
-* compose.include.concept[+].code = #20070000
-* compose.include.concept[=].display = "Transdermal use"
-* compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "transdermale Anwendung"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Voie transdermique"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Uso transdermico"
-* compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "transdermale Anwendung"
-* compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Transdermal use"
