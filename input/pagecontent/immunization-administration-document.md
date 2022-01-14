@@ -1,7 +1,6 @@
-The **Immunization Administration document** describes the content and format of an immunization administration document containing the chapter with all applied immunizations and no further chapters.
-This document is allowed to be used in context of the Swiss EPR but can also used in context of dataexchange next to the Swiss EPR.
+The **Immunization Administration document** describes the content and format of an immunization administration document. It serves to document changes in the immunization status and contains information on applied immunizations and further relevant chapters as medical and exposition risks or serology results.
 
-The usage of this document is for administrative purposes to declare or exchange the corresponding data of an application of a vaccine to a patient for immunization reason.
+This document is allowed to be used in context of the Swiss EPR but can also used in context of data exchange next to the Swiss EPR.
 
 
 ### FHIR document (Bundle)

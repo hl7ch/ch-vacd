@@ -44,7 +44,7 @@ especially during the executed ballots.
 
 | Terminology | Owner/Contact | Links |
 | - | - | -- |
-| SNOMED CT® | SNOMED International |  [https://www.e-health-suisse.ch/snomedct](www.e-health-suisse.ch/snomedct) or [snomed@e-health-suisse.ch](mailto:snomed@e-health-suisse.ch) |
+| SNOMED CT® | SNOMED International |  [www.e-health-suisse.ch/snomedct](https://www.e-health-suisse.ch/snomedct) or [snomed@e-health-suisse.ch](mailto:snomed@e-health-suisse.ch) |
 | SNOMED CT® Global Patient Set (GPS) | SNOMED International | https://www.snomed.org/snomed-international/learn-more/global-patient-set|
 | Logical Observation Identifiers Names & Codes (LOINC®) | Regenstrief Institute, Inc. and the LOINC Committee| [http://loinc.org/terms-of-use](http://loinc.org/terms-of-use) |
 | Unified Codes for Units of Measures (UCUM)  | Regenstrief Institute, Inc. and the UCUM Organization | http://unitsofmeasure.org/trac/wiki/TermsOfUse |
