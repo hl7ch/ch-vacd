@@ -27,7 +27,7 @@ Description: "Extension to make a reference to an entry in an other document."
 * extension[document] ^definition = "Reference to the related document"
 * extension[document].url only uri
 * extension[document].valueReference 1.. MS
-* extension[document].valueReference only Reference(CHVACDCompositionVaccinationRecord or CHVACDCompositionImmunizationAdministration)
+* extension[document].valueReference only Reference(CHVACDCompositionImmunizationAdministration)
 * extension[document].valueReference ^short = "The Reference to the related document the enty is in."
 * extension[relationcode] only Extension
 * extension[relationcode] ^short = "Reference to the related document"
