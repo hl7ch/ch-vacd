@@ -1,6 +1,6 @@
 Extension: CHVACDExtensionCrossReference
 Id: ch-vacd-ext-cross-reference
-Title: "CH VACD Extension Entry RelatesTo"
+Title: "CH VACD Extension Entry Cross Reference"
 Description: "Extension to make a reference to an entry in an other document."
 * ^version = "0.1.0"
 * ^status = #draft
@@ -10,7 +10,7 @@ Description: "Extension to make a reference to an entry in an other document."
 * ^context.expression = "DomainResource"
 * . 0..*
 * . ^short = "Reference to related resource"
-* . ^definition = "Extension to define reference to other related resource in an other related document."
+* . ^definition = "Extension to define reference to other related resource in an other related document for replace or appending reasons."
 * extension contains
     entry 1..1 and
     document 1..1 and
