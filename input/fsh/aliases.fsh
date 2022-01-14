@@ -28,6 +28,7 @@ Alias: $ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs = http://f
 Alias: $ch-vacd-recommendation-categories-vs =                          http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-recommendation-categories-vs
 Alias: $ch-vacd-vaccines-vs =                                           http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs
 Alias: $ch-vacd-vaccines-sct-vs =                                       http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs
+Alias: $ch-vacd-vaccines-atc-vs =                                       http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-atc-vs
 Alias: $ch-vacd-route-of-administration-vs =                            http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-route-of-administration-vs
 Alias: $ch-vacd-laboratory-serology-vs =                                http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-laboratory-serology-vs
 Alias: $ch-vacd-risks-vs =                                              http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-vs

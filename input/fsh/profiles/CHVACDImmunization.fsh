@@ -39,7 +39,7 @@ Description: "Definition of the immunization part for all documents, except reco
 * vaccineCode.coding[snomedctVaccines] from $ch-vacd-vaccines-sct-vs (required)
 * vaccineCode.coding[snomedctVaccines] ^short = "Vaccine Code by SNOMED CT"
 * vaccineCode.coding[snomedctVaccines] ^definition = "Vaccine Code by SNOMED CT"
-* vaccineCode.coding[atcClass] from WhoAtcUvIps (required)
+* vaccineCode.coding[atcClass] from $ch-vacd-vaccines-atc-vs (required)
 * vaccineCode.coding[atcClass] ^short = "WHO ATC classification"
 * vaccineCode.coding[atcClass] ^definition = "WHO ATC classification"
 * vaccineCode.coding[absentOrUnknownImmunization] from NoImmunizationInfoUvIps (required)
