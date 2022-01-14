@@ -10,3 +10,4 @@ Description: "Definition of the immunization recommendation part for immunizatio
 * . ^short = "CH VACD Recommendation Immunization Recommendation"
 * contained 0..1
 * contained ^short = "ImmunizationRecommendation inline resource"
+* patient only Reference(CHVACDRecommendationPatient)
