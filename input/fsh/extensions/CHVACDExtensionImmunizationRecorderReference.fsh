@@ -16,5 +16,5 @@ Description: "Extension to add a reference to the recorder (author) of the immun
 * . ^isModifier = false
 * url only uri
 * valueReference 1.. MS
-* valueReference only Reference(CHCorePatient or CHCorePractitionerRole)
+* valueReference only Reference(CHCorePatient or CHCorePractitionerRole or RelatedPerson)
 * valueReference ^short = "The Reference to the recorder (author) of the immunization entry."

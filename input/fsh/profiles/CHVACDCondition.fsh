@@ -21,5 +21,5 @@ Description: "Generic definition (abstract profile) of the condition for all doc
 * encounter only Reference(CHCoreEncounter)
 * recordedDate 1..1
 * recordedDate ^short = "Condition recordedDate"
-* recorder only Reference(CHCorePractitionerRole or CHCorePatient)
+* recorder only Reference(CHCorePractitionerRole or CHCorePatient or RelatedPerson)
 * asserter only Reference(CHCorePractitionerRole)

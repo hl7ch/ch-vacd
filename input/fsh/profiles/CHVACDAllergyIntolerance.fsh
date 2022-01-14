@@ -25,5 +25,5 @@ Description: "Definition of the AllergyIntolerance part for vaccination record d
 * code ^binding.description = "The code for allergy."
 * patient only Reference(CHCorePatient)
 * patient ^short = "Patient"
-* recorder only Reference(CHCorePractitionerRole or CHCorePatient)
+* recorder only Reference(CHCorePractitionerRole or CHCorePatient or RelatedPerson)
 * recorder ^short = "Recorder"

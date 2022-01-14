@@ -11,5 +11,5 @@ Description: "Generic definition (abstract profile) of the condition for immuniz
 * encounter ..0
 * recordedDate 1..1
 * recordedDate ^short = "Condition recordedDate"
-* recorder only Reference(CHVACDRecommendationPractitionerRole or CHVACDRecommendationPatient)
+* recorder only Reference(CHVACDRecommendationPractitionerRole or CHVACDRecommendationPatient or RelatedPerson)
 * asserter only Reference(CHVACDRecommendationPractitionerRole)
