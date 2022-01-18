@@ -320,8 +320,9 @@ Usage: #definition
 * group[=].element[=].target[+].code = #450
 * group[=].element[=].target[=].display = "FSME-Immun CC"
 * group[=].element[=].target[=].equivalence = #wider
-* group[=].element[+].code = #860805006
-* group[=].element[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+
+* group[=].element[+].code = #23511006
+* group[=].element[=].display = "Meningococcal infectious disease (disorder)"
 * group[=].element[=].target[0].code = #654
 * group[=].element[=].target[=].display = "Meningitec"
 * group[=].element[=].target[=].equivalence = #wider
@@ -337,6 +338,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #657
 * group[=].element[=].target[=].display = "Menjugate"
 * group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #719590007
 * group[=].element[=].display = "Influenza caused by seasonal influenza virus (disorder)"
 * group[=].element[=].target[0].code = #583
@@ -366,6 +368,21 @@ Usage: #definition
 * group[=].element[=].target[+].code = #485
 * group[=].element[=].target[=].display = "Influvac"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2021-11-19
+//67482	01	Flucelvax Tetra, Injektionssuspension	Medius AG	B	04.05.2021	04.05.2021	03.05.2026	J07BB02
+//67704	01	Efluelda 0.7 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	21.07.2021	21.07.2021	20.07.2026	J07BB02
+//68003	01	Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	28.10.2021	28.10.2021	27.10.2026	J07BB02
+* group[=].element[=].target[+].code = #67482
+* group[=].element[=].target[=].display = "Flucelvax Tetra"
+* group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #67704
+* group[=].element[=].target[=].display = "Efluelda 0.7 ml"
+* group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #68003
+* group[=].element[=].target[=].display = "Supemtek 0.5 ml"
+* group[=].element[=].target[=].equivalence = #wider
+
+
 * group[=].element[+].code = #63650001
 * group[=].element[=].display = "Cholera (disorder)"
 * group[=].element[=].target[0].code = #704
@@ -411,6 +428,7 @@ Usage: #definition
 * group[=].element[=].target.code = #520
 * group[=].element[=].target.display = "Stamaril"
 * group[=].element[=].target.equivalence = #wider
+
 * group[=].element[+].code = #16814004
 * group[=].element[=].display = "Pneumococcal infectious disease (disorder)"
 * group[=].element[=].target[0].code = #60129
@@ -422,6 +440,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #509
 * group[=].element[=].target[=].display = "Pneumovax-23"
 * group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #23511006	
 * group[=].element[=].display = "Meningococcal infectious disease (disorder)"
 * group[=].element[=].target[0].code = #62502
@@ -430,6 +449,8 @@ Usage: #definition
 * group[=].element[=].target[+].code = #652
 * group[=].element[=].target[=].display = "Mencevax ACWY"
 * group[=].element[=].target[=].equivalence = #wider
+
+
 * group[=].element[+].code = #240532009
 * group[=].element[=].display = "Human papillomavirus infection (disorder)"
 * group[=].element[=].target[0].code = #57735
@@ -443,6 +464,12 @@ Usage: #definition
 * group[=].element[=].target.code = #709
 * group[=].element[=].target.display = "Zostavax"
 * group[=].element[=].target.equivalence = #wider
+// added 2021-11-19
+* group[=].element[=].target.code = #67987
+* group[=].element[=].target.display = "Shingrix"
+* group[=].element[=].target.equivalence = #wider
+
+
 * group[=].element[+].code = #18624000
 * group[=].element[=].display = "Disease caused by Rotavirus (disorder)"
 * group[=].element[=].target.code = #60150
@@ -465,19 +492,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #68235
 * group[=].element[=].target[=].display = "COVID-19 Vaccine Janssen"
 * group[=].element[=].target[=].equivalence = #wider
-// added 2021-11-19
-* group[=].element[+].code = #4740000
-* group[=].element[=].display = "Herpes zoster (disorder)"
-* group[=].element[=].target[0].code = #67987
-* group[=].element[=].target[=].display = "Shingrix"
-* group[=].element[=].target[=].equivalence = #wider
 
-// TODO
-//67482	01	Flucelvax Tetra, Injektionssuspension	Medius AG	B	04.05.2021	04.05.2021	03.05.2026	J07BB02
-//67704	01	Efluelda 0.7 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	21.07.2021	21.07.2021	20.07.2026	J07BB02
-//68003	01	Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	28.10.2021	28.10.2021	27.10.2026	J07BB02
+// added 2021-11-19
 //66161	01	Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
 //66156	01	Foclivia, Injektionssuspension in einer Fertigspritze	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
+* group[=].element[+].code = #719865001
+* group[=].element[=].display = "Influenza caused by pandemic influenza virus (disorder)"
+* group[=].element[=].target[+].code = #66161
+* group[=].element[=].target[=].display = "Foclivia (Durchstechflasche)"
+* group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #66156
+* group[=].element[=].target[=].display = "Foclivia (Fertigspritze)"
+* group[=].element[=].target[=].equivalence = #wider
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////
@@ -896,8 +923,8 @@ Usage: #definition
 * group[=].element[=].target.code = #55
 * group[=].element[=].target.display = "Meningokokken-Impfstoff A+C Mérieux"
 * group[=].element[=].target.equivalence = #wider
-* group[=].element[+].code = #442438000
-* group[=].element[=].display = "Influenza caused by Influenza A virus (disorder)"
+* group[=].element[+].code = #719865001
+* group[=].element[=].display = "Influenza caused by pandemic influenza virus (disorder)"
 * group[=].element[=].target[0].code = #136
 * group[=].element[=].target[=].display = "Celtura"
 * group[=].element[=].target[=].equivalence = #wider
