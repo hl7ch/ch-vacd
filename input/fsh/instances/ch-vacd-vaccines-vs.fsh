@@ -9,14 +9,14 @@ Usage: #definition
 * identifier.value = "ch-vacd-vaccines-vs"
 * version = "2021-01-24T00:00:00"
 * name = "SwissVaccines"
-* title = "Swiss Vaccines"
+* title = "Swissmedic code for vaccine code"
 * status = #active
 * experimental = false
 * publisher = "eHealth Suisse"
 * contact.name = "eHealth Suisse"
 * contact.telecom.system = #url
 * contact.telecom.value = "www.e-health-suisse.ch"
-* description = "The list of vaccines available or earlier available in Switzerland."
+* description = "The list of vaccines available (Swissmedic authorized) or earlier available in Switzerland."
 
 // //////////////////////////////////////////////////////////////////////////////////////////
 // vaccines with swiss medic number                                                       ///
