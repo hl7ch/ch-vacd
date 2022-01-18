@@ -32,8 +32,8 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #656
 * group[=].element[=].display = "NeisVac-C"
-* group[=].element[=].target.code = #860805006
-* group[=].element[=].target.display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* group[=].element[=].target.code = #23511006
+* group[=].element[=].target.display = "Meningococcal infectious disease (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #627
 * group[=].element[=].display = "Encepur N"
@@ -67,8 +67,8 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #657
 * group[=].element[=].display = "Menjugate"
-* group[=].element[=].target.code = #860805006
-* group[=].element[=].target.display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* group[=].element[=].target.code = #23511006
+* group[=].element[=].target.display = "Meningococcal infectious disease (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #533
 * group[=].element[=].display = "Moraten"
@@ -375,8 +375,8 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #654
 * group[=].element[=].display = "Meningitec"
-* group[=].element[=].target.code = #860805006
-* group[=].element[=].target.display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* group[=].element[=].target.code = #23511006
+* group[=].element[=].target.display = "Meningococcal infectious disease (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #643
 * group[=].element[=].display = "Prevenar-7"
@@ -516,9 +516,6 @@ Usage: #definition
 * group[=].element[=].target[0].code = #23511006
 * group[=].element[=].target[=].display = "Meningococcal infectious disease (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[+].code = #860805006
-* group[=].element[=].target[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
-* group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #600
 * group[=].element[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * group[=].element[=].target[0].code = #76902006
@@ -590,40 +587,40 @@ Usage: #definition
 // added 2021-11-19
 * group[=].element[+].code = #67482
 * group[=].element[=].display = "Flucelvax Tetra"
-* group[=].element[=].target.code = #tbd
-* group[=].element[=].target.display = "--tbd--"
+* group[=].element[=].target.code = #719590007
+* group[=].element[=].target.display = "Influenza caused by seasonal influenza virus (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 
 //67704	01	Efluelda 0.7 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	21.07.2021	21.07.2021	20.07.2026	J07BB02
 // added 2021-11-19
 * group[=].element[+].code = #67704
 * group[=].element[=].display = "Efluelda 0.7 ml"
-* group[=].element[=].target.code = #tbd
-* group[=].element[=].target.display = "--tbd--"
+* group[=].element[=].target.code = #719590007
+* group[=].element[=].target.display = "Influenza caused by seasonal influenza virus (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 
 // 68003	01	Supemtek 0.5 ml, solution injectable dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	28.10.2021	28.10.2021	27.10.2026	J07BB02
 // added 2021-11-19
 * group[=].element[+].code = #68003
 * group[=].element[=].display = "Supemtek 0.5 ml"
-* group[=].element[=].target.code = #tbd
-* group[=].element[=].target.display = "--tbd--"
+* group[=].element[=].target.code = #719590007
+* group[=].element[=].target.display = "Influenza caused by seasonal influenza virus (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 
 //66161	01	Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
 // added 2021-11-19
 * group[=].element[+].code = #66161
 * group[=].element[=].display = "Foclivia (Durchstechflasche)"
-* group[=].element[=].target.code = #tbd
-* group[=].element[=].target.display = "--tbd--"
+* group[=].element[=].target.code = #719865001
+* group[=].element[=].target.display = "Influenza caused by pandemic influenza virus (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 
 //66156	01	Foclivia, Injektionssuspension in einer Fertigspritze	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
 // added 2021-11-19
 * group[=].element[+].code = #66156
 * group[=].element[=].display = "Foclivia (Fertigspritze)"
-* group[=].element[=].target.code = #tbd
-* group[=].element[=].target.display = "--tbd--"
+* group[=].element[=].target.code = #719865001
+* group[=].element[=].target.display = "Influenza caused by pandemic influenza virus (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 
 
@@ -1052,13 +1049,13 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #136
 * group[=].element[=].display = "Celtura"
-* group[=].element[=].target.code = #442438000
-* group[=].element[=].target.display = "Influenza caused by Influenza A virus (disorder)"
+* group[=].element[=].target.code = #719865001
+* group[=].element[=].target.display = "Influenza caused by pandemic influenza virus (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #137
 * group[=].element[=].display = "Focetria"
-* group[=].element[=].target.code = #442438000
-* group[=].element[=].target.display = "Influenza caused by Influenza A virus (disorder)"
+* group[=].element[=].target.code = #719865001
+* group[=].element[=].target.display = "Influenza caused by pandemic influenza virus (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #138
 * group[=].element[=].display = "K1, K2, K3"
@@ -1072,8 +1069,8 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #141
 * group[=].element[=].display = "Pandemrix"
-* group[=].element[=].target.code = #442438000
-* group[=].element[=].target.display = "Influenza caused by Influenza A virus (disorder)"
+* group[=].element[=].target.code = #719865001
+* group[=].element[=].target.display = "Influenza caused by pandemic influenza virus (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #142
 * group[=].element[=].display = "Prohibit DTP"
