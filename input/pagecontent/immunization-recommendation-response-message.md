@@ -8,8 +8,8 @@ A Bundle has a list of entries. The first entry is the MessageHeader, in which a
 {% include img.html img="immunization-recommendation-response-message.png" caption="Fig.: Immunization Recommendation Response Message" width="40%" %}
 
 #### Examples
-* [1.5 ImmunizationRecommendationRequest](Bundle-1-5-ImmunizationRecommendationResponse.html): [XML](Bundle-1-5-ImmunizationRecommendationResponse.xml), [JSON](Bundle-1-5-ImmunizationRecommendationResponse.json)
-* [2.5 ImmunizationRecommendationRequestMessageHeader](MessageHeader-2-5-ImmunizationRecommendationResponseMessageHeader.html): [XML](MessageHeader-2-5-ImmunizationRecommendationResponseMessageHeader.xml),[JSON](MessageHeader-2-5-ImmunizationRecommendationResponseMessageHeader.json)
+* [1.5 ImmunizationRecommendationResponse](Bundle-1-5-ImmunizationRecommendationResponse.html): [XML](Bundle-1-5-ImmunizationRecommendationResponse.xml), [JSON](Bundle-1-5-ImmunizationRecommendationResponse.json)
+* [2.5 ImmunizationRecommendationResponseMessageHeader](MessageHeader-2-5-ImmunizationRecommendationResponseMessageHeader.html): [XML](MessageHeader-2-5-ImmunizationRecommendationResponseMessageHeader.xml),[JSON](MessageHeader-2-5-ImmunizationRecommendationResponseMessageHeader.json)
 * [3.2 Example Patient (Recommendation)](Patient-3-2-Patient.html): [XML](Patient-3-2-Patient.xml), [JSON](Patient-3-2-Patient.json)
 * [10.3. ImmunizationRecommendation](ImmunizationRecommendation-10-3-ImmunizationRecommendation.html): [XML](ImmunizationRecommendation-10-3-ImmunizationRecommendation.xml), [JSON](ImmunizationRecommendation-10-3-ImmunizationRecommendation.json)
 * [10.4. ImmunizationRecommendation](ImmunizationRecommendation-10-4-ImmunizationRecommendation.html): [XML](ImmunizationRecommendation-10-4-ImmunizationRecommendation.xml), [JSON](ImmunizationRecommendation-10-4-ImmunizationRecommendation.json)
