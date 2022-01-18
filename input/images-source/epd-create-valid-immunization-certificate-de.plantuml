@@ -1,13 +1,13 @@
 @startuml
-title Impfzertifikat
+title Impfzertifikat erstellen
 footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
 actor Arzt #blue
 participant "GFPP/PIS" #00CC00
-participant "Eigene Gemeinschaft A" #00CC00
-participant "Andere Gemeinschaft N" #00aaff
+participant "Eigene Gemeinschaft\nA" #00CC00
+participant "Andere Gemeinschaft\nN" #00aaff
 participant "Certificate Service" #00aa00
 
 autonumber "<b>[00]"
@@ -20,6 +20,12 @@ loop
 "Andere Gemeinschaft\nN" -> "GFPP/PIS": OK
 end
 
+Arzt -> "GFPP/PIS": Erstellen des Impfzertifikats
+"GFPP/PIS" -> "GFPP/PIS": Zusammenstellen der Daten für das Zertifikat
+"GFPP/PIS" -> "Certificate Service": Senden der Daten
+"Certificate Service" -> "Certificate Service": Erstellen Zertifikat
+"Certificate Service" -> "GFPP/PIS": Erstelltes Impfzertifikat
+"GFPP/PIS" -> "GFPP/PIS": Speichern des Impfzertifikats
 "GFPP/PIS" -> Arzt: Bestätigung der Speicherung
 
 @enduml

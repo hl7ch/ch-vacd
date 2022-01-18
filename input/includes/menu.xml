@@ -12,7 +12,10 @@
 		</a>
 		<ul class="dropdown-menu">
 			<li>
-				<a href="usecases.html">Overview</a>
+				<a href="usecases_de.html">Anwendungsfälle</a>
+			</li>
+			<li>
+				<a href="usecases_fr.html">Les cas d'utilisation</a>
 			</li>
 		</ul>
 	</li>
@@ -57,6 +60,21 @@
 		<ul class="dropdown-menu">
 			<li>
 				<a href="TestCases.html">Overview</a>
+			</li>
+			<li>
+				<a href="TestCases.html#a-immunizations">A Immunizations</a>
+			</li>
+			<li>
+				<a href="TestCases.html#b-other-elements">B Other Elements</a>
+			</li>
+			<li>
+				<a href="TestCases.html#c-correction-of-entries">C Correction of Entries</a>
+			</li>
+			<li>
+				<a href="TestCases.html#d-conflicts-on-merging-documents">D Conflicts on merging Documents</a>
+			</li>
+			<li>
+				<a href="TestCases.html#e-language-handling-on-merging-documents">E Language handling on merging Documents</a>
 			</li>
 		</ul>
 	</li>

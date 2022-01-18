@@ -12,7 +12,7 @@ Die Gesundheitsfachperson erfasst eine Allergie eines Patienten auf einen Impfst
 
 *Technische Umsetzung im EPD*: Das Primärsystem bzw. das Portal der Gemeinschaft legt die erfassten Informationen im Austauschformat Impfdokumentation im EPD ab.
 
-<div>{% include epd-immunizationadmin-vaccination-doc-simple.svg %}</div>
+<div>{% include epd-immunizationadmin-vaccination-doc-simple-de.svg %}</div>
 
 
 ### Impfung dokumentieren (Patient)
@@ -26,5 +26,5 @@ Der Patient erfasst die Daten einer Allergie auf einen Impfstoff im Portal der S
 
 *Technische Umsetzung im EPD*: Das Portal der Stammgemeinschaft legt die erfassten Informationen im Austauschformat Impfdokumentation im EPD ab.
 
-<div>{% include epd-immunizationadmin-vaccination-doc-simple-patient.svg %}</div>
+<div>{% include epd-immunizationadmin-vaccination-doc-simple-patient-de.svg %}</div>
 

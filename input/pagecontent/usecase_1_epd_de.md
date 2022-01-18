@@ -6,7 +6,7 @@ Eine Gesundheitsfachperson sichtet die Impfdaten (*Impfausweis* und *Impfdokumen
 
 *Technische Umsetzung im EPD*: Das Portal oder Primärsystem richtet eine Abfrage von Dokumenten der Austauschformate *Impfausweis* und *Impfdokumentation* an den Zugangspunkt der Gemeinschaft, der die Abfrage an andere Gemeinschaften weiterleitet, in denen Dokumente des Patienten abgelegt sind. Das Portal oder Primärsystem analysiert das Ergebnis der Registry Abfrage und fragt die Dokumente aus allen Stammgemeinschaften ab, welche Dokumente mit dem entsprechenden Dokumententyp bzw. Dokumentklasse gespeichert haben. Dazu führt das Portal je eine Abfrage für alle Dokumente pro Gemeinschaft durch, welche Dokumente für den ausgewählten Patienten gespeichert haben. Das Portal oder Primärsystem führt die Ergebnisse zusammen und zeigt der Gesundheitsfachperson kumulierten Daten (*Impfausweis* und *Impfdokumentation*) in einer Benutzeroberfläche an. 
 
-<div>{% include epd-find-all-vaccination-docs-simple.svg %}</div>
+<div>{% include epd-find-all-vaccination-docs-simple-de.svg %}</div>
 
 
 ### Impfausweis und Impfdokumentation sichten (Patient)
@@ -15,7 +15,7 @@ Ein Patient sichtet seine, im EPD gespeicherten Impfdaten (*Impfausweis* und *Im
 
 Technische Umsetzung im EPD: Das Portal richtet eine Abfrage von Dokumenten der Austauschformate Impfausweis und Impfdokumentation an den Zugangspunkt der Gemeinschaft, welcher die Abfrage an andere Gemeinschaften weiterleitet, in denen Dokumente des Patienten abgelegt sind. Das Portal analysiert das Ergebnis und fragt die Dokumente aus allen Stammgemeinschaften ab, welche Dokumente mit dem entsprechenden Dokumententyp bzw. Dokumentklasse gespeichert haben. Dazu führt das Portal je eine Abfrage für alle Dokumente pro Gemeinschaft durch, welche Dokumente für den ausgewählten Patienten gespeichert haben. Das Portal führt die Ergebnisse zusammen und zeigt dem Patienten die kumulierten Daten (*Impfausweis* und *Impfdokumentation*) in einer Benutzeroberfläche an.
 
-<div>{% include epd-find-all-vaccination-docs-simple-patient.svg %}</div>
+<div>{% include epd-find-all-vaccination-docs-simple-patient-de.svg %}</div>
 
 
 

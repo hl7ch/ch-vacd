@@ -10,5 +10,5 @@ Le système primaire ou le portail de la communauté fait appel à un service ce
 
 Sur demande, le patient présente le certificat vérifiable sur la version mobile du portail pour les patients ou dans une application mobile spécifique.
 
-<div>{% include epd-create-valid-immunization-certificate.svg %}</div>
+<div>{% include epd-create-valid-immunization-certificate-fr.svg %}</div>
 

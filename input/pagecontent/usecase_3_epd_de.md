@@ -6,7 +6,7 @@ Eine Gesundheitsfachperson sichtet die, im EPD gespeicherten Impfdaten aus dem E
 
 Die Gesundheitsfachperson prüft die Impfdaten, dabei insbesondere die vom Patienten erfassten verabreichten Impfungen. Die Gesundheitsfachperson korrigiert fehlerhaft erfasste Impfungen, Allergien und Vorerkrankungen in der Benutzeroberfläche des Primärsystems bzw. des Portals der Gemeinschaft. Die Gesundheitsfachperson speichert die korrigierten Daten als verifizierten Impfausweis und als neues Dokument im EPD des Patienten. 
 
-<div>{% include epd-save-and-replace-vaccination-doc-simple.svg %}</div>
+<div>{% include epd-save-and-replace-vaccination-doc-simple-de.svg %}</div>
 
 *Technische Umsetzung im EPD*: Das Portal oder Primärsystem richtet eine Abfrage von Dokumenten zur Impfdokumentation an den Zugangspunkt der Gemeinschaft, der die Abfrage an andere Gemeinschaften weiterleitet, in denen Dokumente des Patienten abgelegt sind. Das Portal oder Primärsystem analysiert das Ergebnis der Registry Abfrage und fragt die Dokumente zur Impfdokumentation aus allen Stammgemeinschaften ab, welche Dokumente mit dem entsprechenden Dokumententyp bzw. Dokumentklasse gespeichert haben. Dazu führt das Portal je eine Abfrage für alle Dokumente pro Gemeinschaft durch, welche Impfdaten für den ausgewählten Patienten gespeichert haben. Das Portal führt die Ergebnisse zusammen und zeigt dem Patienten die kumulierten Daten (Impfausweis und Impfdokumentation) in einer Benutzeroberfläche an. 
 

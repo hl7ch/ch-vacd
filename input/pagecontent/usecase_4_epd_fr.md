@@ -10,7 +10,7 @@ Le professionnel de la santé exécute le contrôle des vaccins automatisé, exa
 
 Le cas échéant, le professionnel de la santé complète le dossier de vaccination du patient avec les recommandations de vaccination et sauvegarde le dossier de vaccination à jour au format d’échange *dossier de vaccination* dans le DEP. Le nouveau document contient une indication sur les anciens documents remplacés ou complétés par le nouveau. L’élément de données *relatesTo* du format d’échange *dossier de vaccination* est utilisé à cet effet.
 
-<div>{% include epd-impfcheck-vaccination-docs-simple.svg %}</div>
+<div>{% include epd-impfcheck-vaccination-docs-simple-fr.svg %}</div>
 
 
 ### Procéder au contrôle des vaccins (patient)

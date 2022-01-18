@@ -9,7 +9,7 @@ Die Gesundheitsfachperson ruft den automatischen Impfcheck auf, sichtet die Impf
 
 Die Gesundheitsfachperson ergänzt ggf. das Impfdossier des Patienten um die Impfempfehlungen und speichert das aktualisierte Impfdossier im Austauschformat Impfdossier im EPD ab. Im neuen Dokument wird vermerkt, welche älteren Dokumente durch das neue Dokument ersetzt bzw. ergänzt werden. Dazu wird das Datenelement relatesTo der Austauschformats Impfdossier verwendet.
 
-<div>{% include epd-impfcheck-vaccination-docs-simple.svg %}</div>
+<div>{% include epd-impfcheck-vaccination-docs-simple-de.svg %}</div>
 
 
 ### Impfcheck ausführen (Patient)

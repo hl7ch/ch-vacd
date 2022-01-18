@@ -1,0 +1,27 @@
+@startuml
+title Suchen und Zusammenfassen Documents de vaccination
+footer Version 1.0
+skinparam responseMessageBelowArrow true
+scale max 800 width
+
+actor Patient #red
+participant "GFPP/PIS" #00CC00
+participant "Agrégateur de vaccins"
+participant "Contrôle de vaccination" #red
+
+participant "Communauté\nA..N" #00CC00
+
+autonumber "<b>[00]"
+Patient -> "GFPP/PIS": Rechercher tous les documents de vaccination
+loop "Interrogation de toutes les communautés"
+"GFPP/PIS" -> "Communauté\nA..N": Rechercher documents de vaccination
+"Communauté\nA..N" -> "GFPP/PIS": Tous les documents de vaccination trouvés (Com A)
+end
+"GFPP/PIS" -> "Agrégateur de vaccins": Résumer toutes les données structurées
+"Agrégateur de vaccins" ->  "GFPP/PIS": Un carnet de vaccination agrégé
+"GFPP/PIS" -> "GFPP/PIS": pseudonymiser
+"GFPP/PIS" ->  "Contrôle de vaccination": document de vaccination agrégé et pseudonymisé
+"Contrôle de vaccination" -> "GFPP/PIS": recommandation de vaccination
+"GFPP/PIS" -> Patient: Afficher les données de\nvaccination agrégées
+
+@enduml

@@ -1,21 +1,10 @@
 The following use cases will describe possible scenarios for the vaccination/immunization.
 
-### The Use Cases for EPD
+### Les cas d'utilisation DEP
 
-* [Use Case 1 (DE): Impfdokumentation sichten](usecase_1_epd_de.html)
 * [Use Case 1 (FR): Consulter les données de vaccination](usecase_1_epd_fr.html)
-
-* [Use Case 2 (DE): Impfung dokumentieren](usecase_2_epd_de.html)
 * [Use Case 2 (FR): Documenter la vaccination](usecase_2_epd_fr.html)
-
-* [Use Case 3 (DE): Impfdossier verifizieren und aktualisieren](usecase_3_epd_de.html)
 * [Use Case 3 (FR): Vérifier la documentation de vaccination](usecase_3_epd_fr.html)
-
-* [Use Case 4 (DE): Impfcheck ausführen](usecase_4_epd_de.html)
 * [Use Case 4 (FR): Procéder au contrôle des vaccins](usecase_4_epd_fr.html)
-
-* [Use Case 5 (DE): Verifizierbares Zertifikat erstellen](usecase_5_epd_de.html)
 * [Use Case 5 (FR): Établir un certificat vérifiable](usecase_5_epd_fr.html)
-
-
 

@@ -6,7 +6,7 @@ Un professionnel de la santé consulte les données de vaccination sauvegardées
 
 Le professionnel de la santé vérifie les données de vaccination, en particulier les vaccins administrés enregistrés par le patient. Le professionnel de la santé corrige les erreurs dans la saisie des vaccinations, des allergies et des antécédents médicaux dans l’interface utilisateur du système primaire ou sur le portail de la communauté. Le professionnel de la santé sauvegarde les données corrigées en tant que *documentation de vaccination vérifiée* sous la forme d’un nouveau document dans le DEP du patient.
 
-<div>{% include epd-save-and-replace-vaccination-doc-simple.svg %}</div>
+<div>{% include epd-save-and-replace-vaccination-doc-simple-fr.svg %}</div>
 
 *Mise en œuvre technique dans le DEP*: le portail ou le système primaire adresse une demande de documents de vaccination au point d’accès de la communauté, qui transmet la demande à d’autres communautés où sont stockés les documents du patient. Le portail ou le système primaire analyse le résultat de la requête au registre et récupère les documents de vaccination auprès de toutes les communautés de référence qui ont sauvegardé des documents dont le type ou la classe correspond. Par conséquent, le portail fait *une* demande pour tous les documents à chaque communauté qui a sauvegardé des données de vaccination concernant le patient sélectionné. Le portail centralise les résultats et affiche les données compilées (*dossier de vaccination*) à l’intention du professionnel de la santé dans une interface utilisateur. 
 

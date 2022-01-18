@@ -1,5 +1,5 @@
 @startuml
-title Speichern eines aggregierten Impfdokumentes im EPD
+title Speichern eines aggregierten Documents de vaccinations im EPD
 footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width

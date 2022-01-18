@@ -16,7 +16,7 @@ Le professionnel de la santé saisit l’examen de laboratoire d’un patient da
 *Mise en œuvre technique dans le DEP*: le système primaire ou le portail de la communauté stocke les informations enregistrées dans le DEP au format d’échange *documentation de vaccination*.
 
 
-<div>{% include epd-immunizationadmin-vaccination-doc-simple.svg %}</div>
+<div>{% include epd-immunizationadmin-vaccination-doc-simple-fr.svg %}</div>
 
 
 ### Documenter la vaccination (patient)
@@ -31,5 +31,5 @@ Le patient saisit les données d’une allergie à un vaccin dans le portail de 
 
 *Mise en œuvre technique dans le DEP*: le portail de la communauté de référence stocke les informations enregistrées dans le DEP au format d’échange *documentation de vaccination*.
 
-<div>{% include epd-immunizationadmin-vaccination-doc-simple-patient.svg %}</div>
+<div>{% include epd-immunizationadmin-vaccination-doc-simple-patient-fr.svg %}</div>
 

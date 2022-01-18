@@ -1,0 +1,27 @@
+@startuml
+title Enregistrement d'un document de vaccination agrégé dans le DEP
+footer Version 1.0
+skinparam responseMessageBelowArrow true
+scale max 800 width
+
+actor Docteur #blue
+participant "GFPP/PIS" #00CC00
+participant "Propre communauté\nA" #00CC00
+participant "Autre communauté\nB" #00aaff
+participant "Autre communauté\nN" #00aaff
+
+autonumber "<b>[00]"
+Docteur -> "GFPP/PIS": Ajuster les données de vaccination agrégées,\créer un document de vaccination
+"GFPP/PIS" -> "Propre communauté\nA": Enregistrez le nouveau document de vaccination\net remplacez les "anciens" documents
+"Propre communauté\nA" -> "GFPP/PIS": OK
+
+loop
+"GFPP/PIS" -> "Autre communauté\nB": Définissez les "anciens" Documents de vaccination sur "OBSOLETE"
+"Autre communauté\nB" -> "GFPP/PIS": OK
+
+"GFPP/PIS" -> "Autre communauté\nN": Définissez les "anciens" Documents de vaccination sur "OBSOLETE"
+"Autre communauté\nN" -> "GFPP/PIS": OK
+end
+"GFPP/PIS" -> Docteur: Confirmation d'enregistration
+
+@enduml

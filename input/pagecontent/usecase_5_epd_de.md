@@ -10,5 +10,5 @@ Das Primärsystem bzw. das Portal Gemeinschaft erstellt das verifizierbare Zerti
 
 Der Patient weist das verifizierbare Zertifikat mit der mobilen Version des Patientenportals oder einer speziellen mobilen Applikation auf Verlangen vor.
 
-<div>{% include epd-create-valid-immunization-certificate.svg %}</div>
+<div>{% include epd-create-valid-immunization-certificate-de.svg %}</div>
 
