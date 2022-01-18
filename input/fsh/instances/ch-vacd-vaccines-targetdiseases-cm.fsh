@@ -225,8 +225,8 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #652
 * group[=].element[=].display = "Mencevax ACWY"
-* group[=].element[=].target[0].code = #127311000119106
-* group[=].element[=].target[=].display = "Sepsis caused by Meningococcus (disorder)"
+* group[=].element[=].target[0].code = #23511006
+* group[=].element[=].target[=].display = "Meningococcal infectious disease (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[+].code = #860805006
 * group[=].element[=].target[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
@@ -320,8 +320,8 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #509
 * group[=].element[=].display = "Pneumovax-23"
-* group[=].element[=].target.code = #127261000119100
-* group[=].element[=].target.display = "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)"
+* group[=].element[=].target.code = #16814004
+* group[=].element[=].target.display = "Pneumococcal infectious disease (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #646
 * group[=].element[=].display = "Revaxis"
@@ -380,8 +380,8 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #643
 * group[=].element[=].display = "Prevenar-7"
-* group[=].element[=].target.code = #127261000119100
-* group[=].element[=].target.display = "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)"
+* group[=].element[=].target.code = #16814004
+* group[=].element[=].target.display = "Pneumococcal infectious disease (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #644
 * group[=].element[=].display = "Hexavac"
@@ -433,8 +433,8 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #57735
 * group[=].element[=].display = "Gardasil"
-* group[=].element[=].target.code = #407458009
-* group[=].element[=].target.display = "Disease caused by Papillomaviridae (disorder)"
+* group[=].element[=].target.code = #240532009
+* group[=].element[=].target.display = "Human papillomavirus infection (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #709
 * group[=].element[=].display = "Zostavax"
@@ -498,13 +498,13 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #57814
 * group[=].element[=].display = "Cervarix"
-* group[=].element[=].target.code = #407458009
-* group[=].element[=].target.display = "Disease caused by Papillomaviridae (disorder)"
+* group[=].element[=].target.code = #240532009
+* group[=].element[=].target.display = "Human papillomavirus infection (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #60129
 * group[=].element[=].display = "Prevenar-13"
-* group[=].element[=].target.code = #127261000119100
-* group[=].element[=].target.display = "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)"
+* group[=].element[=].target.code = #16814004
+* group[=].element[=].target.display = "Pneumococcal infectious disease (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #59147
 * group[=].element[=].display = "Ixiaro"
@@ -513,8 +513,8 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #62502
 * group[=].element[=].display = "Menveo"
-* group[=].element[=].target[0].code = #127311000119106
-* group[=].element[=].target[=].display = "Sepsis caused by Meningococcus (disorder)"
+* group[=].element[=].target[0].code = #23511006
+* group[=].element[=].target[=].display = "Meningococcal infectious disease (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[=].target[+].code = #860805006
 * group[=].element[=].target[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
@@ -712,8 +712,8 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #55
 * group[=].element[=].display = "Meningokokken-Impfstoff A+C Mérieux"
-* group[=].element[=].target.code = #127311000119106
-* group[=].element[=].target.display = "Sepsis caused by Meningococcus (disorder)"
+* group[=].element[=].target.code = #23511006
+* group[=].element[=].target.display = "Meningococcal infectious disease (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #56
 * group[=].element[=].display = "Meruvax"
@@ -900,8 +900,8 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #100
 * group[=].element[=].display = "Pnu-Immune"
-* group[=].element[=].target.code = #127261000119100
-* group[=].element[=].target.display = "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)"
+* group[=].element[=].target.code = #16814004
+* group[=].element[=].target.display = "Pneumococcal infectious disease (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #101
 * group[=].element[=].display = "Polio Salk"

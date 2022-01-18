@@ -91,6 +91,7 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Virale Hepatitis, Typ B"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Viral hepatitis type B"
+
 * compose.include.concept[+].code = #16901001
 * compose.include.concept[=].display = "Central European encephalitis (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -102,7 +103,8 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #rm-CH
 * compose.include.concept[=].designation[=].value = "Frühsommer-Meningoenzephalitis (FSME)"
 * compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Central European encephalitis (disorder)"
+* compose.include.concept[=].designation[=].value = "Central European tick-borne encephalitis"
+
 * compose.include.concept[+].code = #16541001
 * compose.include.concept[=].display = "Yellow fever (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -151,18 +153,7 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Keuchhusten"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pertussis"
-* compose.include.concept[+].code = #127261000119100
-* compose.include.concept[=].display = "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus (disorder)"
-* compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Septischer Schock bei gleichzeitiger akuter organischer Funktionsstörung, verursacht durch Pneumokokken"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "choc septique avec dysfonctionnement aigu d'organes causé par des pneumocoque s"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "shock settico concomitante con disfunzione d'organo acuta causata da pneumococco"
-* compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Septischer Schock bei gleichzeitiger akuter organischer Funktionsstörung, verursacht durch Pneumokokken"
-* compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Septic shock co-occurrent with acute organ dysfunction caused by Pneumococcus"
+
 * compose.include.concept[+].code = #398102009
 * compose.include.concept[=].display = "Acute poliomyelitis (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -259,30 +250,8 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "COVID-19"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "COVID-19"
-* compose.include.concept[+].code = #30415006
-* compose.include.concept[=].display = "Disease caused by Papillomavirus (disorder)"
-* compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Disease caused by Papillomavirus (disorder)"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Disease caused by Papillomavirus (disorder)"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Disease caused by Papillomavirus (disorder)"
-* compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Disease caused by Papillomavirus (disorder)"
-* compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Disease caused by Papillomavirus (disorder)"
-* compose.include.concept[+].code = #860805006
-* compose.include.concept[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
-* compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
-* compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
-* compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+
+
 * compose.include.concept[+].code = #52947006
 * compose.include.concept[=].display = "Japanese encephalitis virus disease (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -295,7 +264,9 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Japanese encephalitis virus disease (disorder)"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Japanese encephalitis virus disease (disorder)"
-* compose.include.concept[+].code = #719590007
+
+// new by expert review 202201
+* compose.include.concept[+].code = #719865001
 * compose.include.concept[=].display = "Influenza caused by seasonal influenza virus (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Influenza caused by seasonal influenza virus (disorder)"
@@ -306,7 +277,23 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #rm-CH
 * compose.include.concept[=].designation[=].value = "Influenza caused by seasonal influenza virus (disorder)"
 * compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Influenza caused by seasonal influenza virus (disorder)"
+* compose.include.concept[=].designation[=].value = "Influenza caused by seasonal influenza virus"
+
+
+* compose.include.concept[+].code = #719590007
+* compose.include.concept[=].display = "Influenza caused by pandemic influenza virus (disorder)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Influenza caused by pandemic influenza virus (disorder)"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Influenza caused by pandemic influenza virus (disorder)"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Influenza caused by pandemic influenza virus (disorder)"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Influenza caused by pandemic influenza virus (disorder)"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Influenza caused by pandemic influenza virus"
+
+
 * compose.include.concept[+].code = #67924001
 * compose.include.concept[=].display = "Smallpox (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -319,18 +306,22 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Smallpox (disorder)"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Smallpox (disorder)"
-* compose.include.concept[+].code = #407458009
-* compose.include.concept[=].display = "Disease caused by Papillomaviridae (disorder)"
+
+// new by expert review 202201
+* compose.include.concept[+].code = #240532009
+* compose.include.concept[=].display = "Human papillomavirus infection (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Disease caused by Papillomaviridae (disorder)"
+* compose.include.concept[=].designation[=].value = "HPV (Human papillomavirus) disease"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Disease caused by Papillomaviridae (disorder)"
+* compose.include.concept[=].designation[=].value = "HPV (Human papillomavirus) disease"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Disease caused by Papillomaviridae (disorder)"
+* compose.include.concept[=].designation[=].value = "HPV (Human papillomavirus) disease"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Disease caused by Papillomaviridae (disorder)"
+* compose.include.concept[=].designation[=].value = "HPV (Human papillomavirus) disease"
 * compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Disease caused by Papillomaviridae (disorder)"
+* compose.include.concept[=].designation[=].value = "HPV (Human papillomavirus) disease"
+
+
 * compose.include.concept[+].code = #4740000
 * compose.include.concept[=].display = "Herpes zoster (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -342,28 +333,31 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #rm-CH
 * compose.include.concept[=].designation[=].value = "Herpes zoster (disorder)"
 * compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Herpes zoster (disorder)"
-* compose.include.concept[+].code = #127311000119106
-* compose.include.concept[=].display = "Sepsis caused by Meningococcus (disorder)"
+* compose.include.concept[=].designation[=].value = "Herpes zoster"
+
+// new by expert review 202201
+* compose.include.concept[+].code = #23511006
+* compose.include.concept[=].display = "Meningococcal infectious disease (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Sepsis caused by Meningococcus (disorder)"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Sepsis caused by Meningococcus (disorder)"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Sepsis caused by Meningococcus (disorder)"
-* compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Sepsis caused by Meningococcus (disorder)"
-* compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Sepsis caused by Meningococcus (disorder)"
-* compose.include.concept[+].code = #442438000
-* compose.include.concept[=].display = "Influenza caused by Influenza A virus (disorder)"
+* compose.include.concept[=].designation[=].value = "Meningococcal infectious disease (disorder)"
+* compose.include.concept[=].designation[0].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Meningococcal infectious disease (disorder)"
+* compose.include.concept[=].designation[0].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Meningococcal infectious disease (disorder)"
+* compose.include.concept[=].designation[0].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Meningococcal infectious disease (disorder)"
+* compose.include.concept[=].designation[0].language = #en-US
+* compose.include.concept[=].designation[=].value = "Meningococcal disease"
+
+* compose.include.concept[+].code = #16814004
+* compose.include.concept[=].display = "Pneumococcal infectious disease (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Influenza caused by Influenza A virus (disorder)"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Influenza caused by Influenza A virus (disorder)"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Influenza caused by Influenza A virus (disorder)"
-* compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Influenza caused by Influenza A virus (disorder)"
-* compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Influenza caused by Influenza A virus (disorder)"
+* compose.include.concept[=].designation[=].value = "Pneumococcal infectious disease (disorder)"
+* compose.include.concept[=].designation[0].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Pneumococcal infectious disease (disorder)"
+* compose.include.concept[=].designation[0].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Pneumococcal infectious disease (disorder)"
+* compose.include.concept[=].designation[0].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Pneumococcal infectious disease (disorder)"
+* compose.include.concept[=].designation[0].language = #en-US
+* compose.include.concept[=].designation[=].value = "Pneumococcal disease"

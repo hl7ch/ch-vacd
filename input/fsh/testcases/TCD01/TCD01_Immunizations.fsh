@@ -192,5 +192,5 @@ Usage: #example
 * lotNumber = "12435"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP2_ORG2_ROLE_performer)
-* protocolApplied.targetDisease[0] = $sct#407458009 "Disease caused by Papillomaviridae (disorder)"
+* protocolApplied.targetDisease[0] = $sct#240532009 "Human papillomavirus infection (disorder)"
 * protocolApplied.doseNumberPositiveInt = 1

@@ -87,7 +87,7 @@ Usage: #example
 
 // ////////////////////////////////////////////////
 // ////////////////////////////////////////////////
-// 65387	Gardasil® 9	has specialization	407458009	Disease caused by Papillomaviridae (disorder) MSD Merck Sharp & Dohme AG, Luzern.
+// 65387	Gardasil® 9	has specialization	240532009	Human papillomavirus infection (disorder) MSD Merck Sharp & Dohme AG, Luzern.
 // ////////////////////////////////////////////////
 Instance: TC_IMMUN_MEDIC_GARDASIL9
 InstanceOf: CHVACDMedicationForImmunization
