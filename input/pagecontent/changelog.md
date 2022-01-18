@@ -83,3 +83,4 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [Issue 52](https://github.com/hl7ch/ch-vacd/issues/52): Revision of the code systems
 * [Issue 69](https://github.com/hl7ch/ch-vacd/issues/69): Travel information -- Immunization Recommendation Request (Annatina Foppa, eHealth Suisse)
 * [Issue 88](https://github.com/hl7ch/ch-vacd/issues/88): Usecase from hospital environment to report vaccination documentation to authorities (Daniel Ratschiller, Cistec AG)
+* [Issue 99](https://github.com/hl7ch/ch-vacd/issues/99): Expert review of valuesets and translations
