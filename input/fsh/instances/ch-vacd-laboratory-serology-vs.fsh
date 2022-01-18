@@ -43,18 +43,6 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Masern-Virus IgG Ab [Titer] in Serum"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Measles virus IgG Ab [Titer] in Serum"
-* compose.include.concept[+].code = #22417-0
-* compose.include.concept[=].display = "Mumps virus IgG Ab [Titer] in Serum"
-* compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Mumps-Virus IgG Ab [Titer] in Serum"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Anticorps IgG du virus des oreillons [titre] dans le sérum"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "virus della parotite Ab IgG [titolo] in siero"
-* compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Mumps-Virus IgG Ab [Titer] in Serum"
-* compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Mumps virus IgG Ab [Titer] in Serum"
 * compose.include.concept[+].code = #41763-4
 * compose.include.concept[=].display = "Rubella virus IgG Ab [Titer] in Serum"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -127,3 +115,29 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Clostridium tetani Toxoid IgG Ab [Einheiten/Volumen] in Serum durch Immunfluoreszenz"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Clostridium tetani toxoid IgG Ab [Units/volume] in Serum by Immunofluorescence"
+
+* compose.include.concept[+].code = #94505-5
+* compose.include.concept[=].display = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+
+* compose.include.concept[+].code = #14128-3
+* compose.include.concept[=].display = "Rabies virus Ab [Titer] in Serum"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Rabies virus Ab [Titer] in Serum"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Rabies virus Ab [Titer] in Serum"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Rabies virus Ab [Titer] in Serum"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Rabies virus Ab [Titer] in Serum"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Rabies virus Ab [Titer] in Serum"
