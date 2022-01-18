@@ -1,4 +1,0 @@
-<Address xmlns="http://hl7.org/fhir" id="12-2-Address">
-	<postalCode value="9876"></postalCode>
-	<country value="CH"></country>
-</Address>
