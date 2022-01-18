@@ -8,15 +8,15 @@ Usage: #definition
 * identifier.system = "http://e-health-suisse.ch/ns/vs"
 * identifier.value = "ch-vacd-vaccines-snomedct-vs"
 * version = "2021-12-21T00:00:00"
-* name = "VaccinesSnomedCt"
-* title = "Vaccines by SNOMED CT"
+* name = "SnomedCTForVaccineCode"
+* title = "Snomed CT for vaccine code"
 * status = #active
 * experimental = false
 * publisher = "eHealth Suisse"
 * contact.name = "eHealth Suisse"
 * contact.telecom.system = #url
 * contact.telecom.value = "www.e-health-suisse.ch"
-* description = "The list of vaccines in SNOMED CT list."
+* description = "The list of vaccine products in Snomed CT list."
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////

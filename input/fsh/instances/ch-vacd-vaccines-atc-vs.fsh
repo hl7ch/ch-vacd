@@ -6,7 +6,7 @@ Usage: #definition
 * url = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-atc-vs"
 * version = "2022-01-14T00:00:00"
 * name = "ATCForVaccineCode"
-* title = "ATC Codes for Vaccination"
+* title = "ATC for vaccine codes"
 * status = #active
 * experimental = false
 * publisher = "eHealth Suisse"
