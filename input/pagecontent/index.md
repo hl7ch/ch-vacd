@@ -25,10 +25,13 @@ The following documents have been defined:
 - [Immunization Recommendation Response message](immunization-recommendation-response-message.html)
 
 
-### Source
-[GitHub Repository](https://github.com/ehealthsuisse/ch-vacd)
+<div markdown="1" class="stu-note">
 
-**Download**: You can download this implementation guide in npm format from [here](package.tgz).
+[Significant Changes, Open and Closed Issues](changelog.html)
+
+</div>
+
+**Download**: You can download this implementation guide in [NPM format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
 ### Collaboration
 This guide is created by [RALY GmbH](https://www.raly.ch) as a mandate of [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html).

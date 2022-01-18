@@ -18,29 +18,22 @@ This is the categorie to list and resolve the bugs and typos found in the IG dur
 ### 3.2 Missing Parts
 This is the categorie to list issues with additional features brought up during the ballot.
 #### 3.2.1 Issues
-[Issue 71](https://github.com/ehealthsuisse/ch-vacd/issues/71) - W - Provide Use Cases in IG (Annatina Foppa, eHealth Suisse) (Duplicate: [Issue 75](https://github.com/ehealthsuisse/ch-vacd/issues/75))<br>
-
+--
 
 ### 3.3 Questions/Diskussion/ChageResource
 This is the categorie to list issues with questions for discussion
 #### 3.3.1 Issues
-
-
+--
 
 ### 3.4 Structural/Concept
 This is the categorie to list issues with fundamental diskussion topics of the structure or concept
 #### 3.4.1 Issues
-[Issue 80](https://github.com/ehealthsuisse/ch-vacd/issues/80) - W - Begriff "Certificate" hat Verwechslungspotential (Gabriel Hess, I4MI / BFH TI)<br>
-[Issue 92](https://github.com/ehealthsuisse/ch-vacd/issues/92) - W - Check usefulness of different documents (Annatina Foppa, eHealth Suisse) (Similar [Issue 68](https://github.com/ehealthsuisse/ch-vacd/issues/68))<br>
-[Issue 70](https://github.com/ehealthsuisse/ch-vacd/issues/70) - W - Immunization Administration document (Annatina Foppa, eHealth Suisse) (depends on: [Issue 68](https://github.com/ehealthsuisse/ch-vacd/issues/68)))<br>
-[Issue 93](https://github.com/ehealthsuisse/ch-vacd/issues/93) - W - Check if Recommendations should be in the document -- Vaccination Record document (Annatina Foppa, eHealth Suisse)
-
+--
 
 ### 3.5 Expert Support
 The issues in this categories needs expert support. especially valuesets and conceptmaps should be validated by an expert.
 #### 3.6.1 Issues
-[Issue 84](https://github.com/ehealthsuisse/ch-vacd/issues/84) - E - ValueSet missing information COVID test Laboratory Serology for Immunization (eHealth Suisse)<br>
-[Issue 91](https://github.com/ehealthsuisse/ch-vacd/issues/91) - E - Value SUB-set of Allergy value set CH:AllergyInt -- Allergies and Intolerance values for immunization (Annatina Foppa, eHealth Suisse)<br>
+--
 
 
 ### 3.6 Backlog
@@ -63,14 +56,22 @@ This is the categorie to list issues "as nice to have"
 [Issue 89](https://github.com/ehealthsuisse/ch-vacd/issues/89) - * - slicing vaccine codes -- CH VACD Immunization Profile (Annatina Foppa, eHealth Suisse)<br>
 
 ### 4.2 Missing Parts
+[Issue 71](https://github.com/ehealthsuisse/ch-vacd/issues/71) - * - Provide Use Cases in IG (Annatina Foppa, eHealth Suisse) (Duplicate: [Issue 75](https://github.com/ehealthsuisse/ch-vacd/issues/75))<br>
 [Issue 72](https://github.com/ehealthsuisse/ch-vacd/issues/72) - * - Add ConceptMap's (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 85](https://github.com/ehealthsuisse/ch-vacd/issues/85))<br>
 [Issue 87](https://github.com/ehealthsuisse/ch-vacd/issues/87) - * - Extension for Reference to Practitioner as Validator of Immunization entry (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 94](https://github.com/ehealthsuisse/ch-vacd/issues/94))<br>
+
+[Issue 84](https://github.com/ehealthsuisse/ch-vacd/issues/84) - E - ValueSet missing information COVID test Laboratory Serology for Immunization (eHealth Suisse)<br>
+[Issue 91](https://github.com/ehealthsuisse/ch-vacd/issues/91) - E - Value SUB-set of Allergy value set CH:AllergyInt -- Allergies and Intolerance values for immunization (Annatina Foppa, eHealth Suisse)<br>
+
 
 ### 4.3 Questions/Diskussion/ChageResource
 [Issue 82](https://github.com/ehealthsuisse/ch-vacd/issues/82) - * - Profiles Link to IG AllergyIntolerances (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 90](https://github.com/ehealthsuisse/ch-vacd/issues/90))<br>
 [Issue 76](https://github.com/ehealthsuisse/ch-vacd/issues/76) - * - References (to CH Core AND CH Core EPR?) (Michaela Ziegler, ahdis ag)<br>
 
 ### 4.4 Structural/Concept
-
+[Issue 70](https://github.com/ehealthsuisse/ch-vacd/issues/70) - * - Immunization Administration document (Annatina Foppa, eHealth Suisse) (depends on: [Issue 68](https://github.com/ehealthsuisse/ch-vacd/issues/68)))<br>
+[Issue 93](https://github.com/ehealthsuisse/ch-vacd/issues/93) - * - Check if Recommendations should be in the document -- Vaccination Record document (Annatina Foppa, eHealth Suisse)
+[Issue 80](https://github.com/ehealthsuisse/ch-vacd/issues/80) - * - Begriff "Certificate" hat Verwechslungspotential (Gabriel Hess, I4MI / BFH TI)<br>
+[Issue 92](https://github.com/ehealthsuisse/ch-vacd/issues/92) - * - Check usefulness of different documents (Annatina Foppa, eHealth Suisse) (Similar [Issue 68](https://github.com/ehealthsuisse/ch-vacd/issues/68))<br>
 
 ### 4.6 Backlog
