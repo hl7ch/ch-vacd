@@ -19,6 +19,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 * [Issue 91](https://github.com/hl7ch/ch-vacd/issues/91): Value SUB-set of Allergy value set CH:AllergyInt -- Allergies and Intolerance values for immunization (Annatina Foppa, eHealth Suisse)
    * [Allergies And Intolerances For Immunization](ValueSet-ch-vacd-immunization-allergyintolerances-vs.html)
+* [Issue 86](https://github.com/hl7ch/ch-vacd/issues/86): Reactions to immunizations (Annatina Foppa, eHealth Suisse)
+   * [Allergies And Intolerances For Immunization](ValueSet-ch-vacd-immunization-allergyintolerances-vs.html)
 
 
 
@@ -78,6 +80,6 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 
 #### Open features
+* [Issue 52](https://github.com/hl7ch/ch-vacd/issues/52): Revision of the code systems
 * [Issue 69](https://github.com/hl7ch/ch-vacd/issues/69): Travel information -- Immunization Recommendation Request (Annatina Foppa, eHealth Suisse)
-* [Issue 86](https://github.com/hl7ch/ch-vacd/issues/86): Reactions to immunizations (Annatina Foppa, eHealth Suisse)
 * [Issue 88](https://github.com/hl7ch/ch-vacd/issues/88): Usecase from hospital environment to report vaccination documentation to authorities (Daniel Ratschiller, Cistec AG)
