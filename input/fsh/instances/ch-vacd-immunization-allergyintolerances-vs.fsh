@@ -79,255 +79,316 @@ Usage: #definition
 * compose.include[=].concept[0].code = #863903001
 * compose.include[=].concept[=].display = "Allergy to component of vaccine product (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "einen der Bestandteile des Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "Allergie auf einen der Bestandteile des Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "à l’un des composants du vaccin ?"
+* compose.include[=].concept[=].designation[=].value = "Allergy à l’un des composants du vaccin ?"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "a uno dei componenti del vaccino"
-* compose.include[=].concept[+].code = #294651001
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Bordetella pertussis antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pertussis-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre la coqueluche"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro la pertosse"
+* compose.include[=].concept[=].designation[=].value = "Allergia ai uno dei componenti del vaccino"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pertussis-Impfstoff"
+* compose.include[=].concept[=].designation[=].value = "Allergie auf einen der Bestandteile des Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to pertussis vaccine"
-* compose.include[=].concept[+].code = #294658007
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Clostridium tetani antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Tetanus-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre le tétanos"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro il tetano"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Tetanus-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to tetanus vaccine"
-* compose.include[=].concept[+].code = #294642009
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Corynebacterium diphtheriae antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Diphterie-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre la diphtérie"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro la difterite"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Diphterie-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to diphtheria vaccine"
-* compose.include[=].concept[+].code = #294664000
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Haemophilus influenzae type B antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Haemophilus influenzae Typ b-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre Haemophilus influenzae de type B"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro l'Haemophilus influenzae di tipo b"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Haemophilus influenzae Typ b-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to Haemophilus influenzae type b vaccine"
-* compose.include[=].concept[+].code = #294663006
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Hepatitis A virus antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Hepatitis-A-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre l'hépatite A"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro l'epatite A"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Hepatitis-A-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to hepatitis A vaccine"
-* compose.include[=].concept[+].code = #294646007
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Hepatitis B virus antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Hepatitis-B-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre l'hépatite B"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro l'epatite B"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Hepatitis-B-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to hepatitis B vaccine"
-* compose.include[=].concept[+].code = #294654009
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Human poliovirus antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Polio-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre la poliomyélite"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro la poliomielite"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Polio-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to polio vaccine"
-* compose.include[=].concept[+].code = #294647003
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Influenza virus antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Grippeimpfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre l'influenza"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro l'influenza"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Grippeimpfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to influenza vaccine"
-* compose.include[=].concept[+].code = #294650000
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Mumps orthorubulavirus antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Mumps-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre les oreillons"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro la parotite"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Mumps-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to mumps vaccine"
-* compose.include[=].concept[+].code = #860695004
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Neisseria meningitidis antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Meningokokken-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre les méningocoques"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro i meningococchi"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Meningokokken-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to meningococcus vaccine"
-* compose.include[=].concept[+].code = #294655005
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Rabies lyssavirus antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Tollwutimpfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre la rage"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro la rabbia"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Tollwutimpfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to rabies vaccine"
-* compose.include[=].concept[+].code = #700468006
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Rotavirus antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Rotavirus-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre les rotavirus"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro i rotavirus"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Rotavirus-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to Rotavirus vaccine"
-* compose.include[=].concept[+].code = #294656006
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Rubella virus antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Röteln-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre la rubéole"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro la rosolia"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Röteln-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to rubella vaccine"
-* compose.include[=].concept[+].code = #294659004
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Typhus-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre la typhoïde"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro la febbre tifoidea"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Typhus-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to typhoid vaccine"
-* compose.include[=].concept[+].code = #294652008
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Streptococcus pneumoniae antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pneumokokken-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre les pneumocoques"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro gli pneumococchi"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pneumokokken-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to pneumococcal vaccine"
+* compose.include[=].concept[=].designation[=].value = "Allergy to component of vaccine product"
 
-* compose.include[=].concept[+].code = #294644005
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (finding)"
+// new by expert review 202201
+* compose.include[=].concept[+].code = #39579001
+* compose.include[=].concept[=].display = "Anaphylaxis (disorder)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Diphtherie-Tetanus-Impfstoff"
+* compose.include[=].concept[=].designation[=].value = "Anaphylaxis (disorder)"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre la diphtérie et le tétanos"
+* compose.include[=].concept[=].designation[=].value = "Anaphylaxis (disorder)"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro la difterite e il tetano"
+* compose.include[=].concept[=].designation[=].value = "Anaphylaxis (disorder)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Diphtherie-Tetanus-Impfstoff"
+* compose.include[=].concept[=].designation[=].value = "Anaphylaxis (disorder)"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to diphtheria and tetanus vaccine"
-* compose.include[=].concept[+].code = #294662001
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (finding)"
+* compose.include[=].concept[=].designation[=].value = "Anaphylactic reaction"
+
+* compose.include[=].concept[0].code = #293104008
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product (disorder)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen MMR-Impfstoff"
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product (disorder)"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre la rougeole, les oreillons et la rubéole"
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product (disorder)"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro il morbillo, la parotite e la rosolia"
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product (disorder)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen MMR-Impfstoff"
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product (disorder)"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to measles and mumps and rubella vaccine"
-* compose.include[=].concept[+].code = #1145003007
-* compose.include[=].concept[=].display = "Hypersensitivity to vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (finding)"
+* compose.include[=].concept[=].designation[=].value = "Vaccine adverse reaction"
+
+* compose.include[=].concept[0].code = #219082005
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Vibrio cholerae antigen (disorder)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Hypersensitivität gegenüber SARS-CoV-2-mRNA-Impfstoff"
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Vibrio cholerae antigen (disorder)"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "hypersensibilité au vaccin à ARNm du SARS-CoV-2"
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Vibrio cholerae antigen (disorder)"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "ipersensibilità al vaccino a mRNA contro il SARS-CoV-2"
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Vibrio cholerae antigen (disorder)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Hypersensitivität gegenüber SARS-CoV-2-mRNA-Impfstoff"
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Vibrio cholerae antigen (disorder)"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Hypersensitivity to SARS-CoV-2 mRNA vaccine"
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Vibrio cholerae antigen (disorder)"
+
+* compose.include[=].concept[0].code = #1142181004
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (disorder)"
+
+* compose.include[=].concept[0].code = #1157106007
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (disorder)"
+
+* compose.include[=].concept[0].code = #1162639000
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing only acellular Bordetella pertussis, Clostridium tetani, Corynebacterium diphtheriae, Haemophilus influenzae type B, Hepatitis B virus and inactivated Human poliovirus antigens (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only acellular Bordetella pertussis, Clostridium tetani, Corynebacterium diphtheriae, Haemophilus influenzae type B, Hepatitis B virus and inactivated Human poliovirus antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only acellular Bordetella pertussis, Clostridium tetani, Corynebacterium diphtheriae, Haemophilus influenzae type B, Hepatitis B virus and inactivated Human poliovirus antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only acellular Bordetella pertussis, Clostridium tetani, Corynebacterium diphtheriae, Haemophilus influenzae type B, Hepatitis B virus and inactivated Human poliovirus antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only acellular Bordetella pertussis, Clostridium tetani, Corynebacterium diphtheriae, Haemophilus influenzae type B, Hepatitis B virus and inactivated Human poliovirus antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only acellular Bordetella pertussis, Clostridium tetani, Corynebacterium diphtheriae, Haemophilus influenzae type B, Hepatitis B virus and inactivated Human poliovirus antigens (disorder)"
+
+* compose.include[=].concept[0].code = #293108006
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (disorder)"
+
+* compose.include[=].concept[0].code = #293109003
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (disorder)"
+
+* compose.include[=].concept[0].code = #293127000
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Haemophilus influenzae type B antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Haemophilus influenzae type B antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Haemophilus influenzae type B antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Haemophilus influenzae type B antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Haemophilus influenzae type B antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Haemophilus influenzae type B antigen (disorder)"
+
+* compose.include[=].concept[0].code = #293126009
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Hepatitis A virus antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Hepatitis A virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Hepatitis A virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Hepatitis A virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Hepatitis A virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Hepatitis A virus antigen (disorder)"
+
+* compose.include[=].concept[0].code = #293110008
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Hepatitis B virus antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Hepatitis B virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Hepatitis B virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Hepatitis B virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Hepatitis B virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Hepatitis B virus antigen (disorder)"
+
+* compose.include[=].concept[0].code = #420113004
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Influenza virus antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Influenza virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Influenza virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Influenza virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Influenza virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Influenza virus antigen (disorder)"
+
+* compose.include[=].concept[0].code = #293125008
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (disorder)"
+
+* compose.include[=].concept[0].code = #219096004
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Measles morbillivirus antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Measles morbillivirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Measles morbillivirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Measles morbillivirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Measles morbillivirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Measles morbillivirus antigen (disorder)"
+
+* compose.include[=].concept[0].code = #219088009
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Neisseria meningitidis antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Neisseria meningitidis antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Neisseria meningitidis antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Neisseria meningitidis antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Neisseria meningitidis antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Neisseria meningitidis antigen (disorder)"
+
+* compose.include[=].concept[0].code = #293114004
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Mumps orthorubulavirus antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Mumps orthorubulavirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Mumps orthorubulavirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Mumps orthorubulavirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Mumps orthorubulavirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Mumps orthorubulavirus antigen (disorder)"
+
+* compose.include[=].concept[0].code = #293116002
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Streptococcus pneumoniae antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Streptococcus pneumoniae antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Streptococcus pneumoniae antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Streptococcus pneumoniae antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Streptococcus pneumoniae antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Streptococcus pneumoniae antigen (disorder)"
+
+* compose.include[=].concept[0].code = #293117006
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Human poliovirus antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Human poliovirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Human poliovirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Human poliovirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Human poliovirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Human poliovirus antigen (disorder)"
+
+* compose.include[=].concept[0].code = #293118001
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Rabies lyssavirus antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Rabies lyssavirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Rabies lyssavirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Rabies lyssavirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Rabies lyssavirus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Rabies lyssavirus antigen (disorder)"
+
+* compose.include[=].concept[0].code = #219084006
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Clostridium tetani antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Clostridium tetani antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Clostridium tetani antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Clostridium tetani antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Clostridium tetani antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Clostridium tetani antigen (disorder)"
+
+* compose.include[=].concept[0].code = #219076007
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Bacillus Calmette-Guerin antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Bacillus Calmette-Guerin antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Bacillus Calmette-Guerin antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Bacillus Calmette-Guerin antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Bacillus Calmette-Guerin antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Bacillus Calmette-Guerin antigen (disorder)"
+
+* compose.include[=].concept[0].code = #293122006
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (disorder)"
+
+* compose.include[=].concept[0].code = #219095000
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Yellow fever virus antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Yellow fever virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Yellow fever virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Yellow fever virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Yellow fever virus antigen (disorder)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Yellow fever virus antigen (disorder)"
 
 // missing herpes zoster
 // missing fsme
 // missing hpv
-
-* compose.include[+].system = "http://snomed.info/sct"
-* compose.include[=].concept[+].code = #294657002
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Vaccinia virus antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pockenimpfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre la variole"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro il vaiolo"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pockenimpfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to smallpox vaccine"
-* compose.include[=].concept[+].code = #294641002
-* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Bacillus anthracis antigen (finding)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre le charbon"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro l'antrace"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to anthrax vaccine"
