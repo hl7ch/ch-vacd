@@ -9,10 +9,10 @@ title: Implementation Guide CH VACD
 # FSHOnly: true
 # applyExtensionMetadataToRoot: false
 status: draft
-version: 1.0.0
+version: 2.0.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
-releaseLabel: ci-build
+releaseLabel: trial-use
 publisher:
   name: eHealth Suisse
   url: http://e-health-suisse.ch
@@ -20,15 +20,15 @@ publisher:
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-menu:
-  Home: index.html
-  Use Cases: usecases.html
-  Document: documents.html
-  Profiles: profiles.html
-  Extensions: extensions.html
-  Terminology: terminology.html
-  Artifacts: artifacts.html
-  Test Cases: TestCases.html
+# menu:
+#   Home: index.html
+#   Use Cases: usecases.html
+#   Document: documents.html  
+#   Profiles: profiles.html
+#   Extensions: extensions.html
+#   Terminology: terminology.html
+#   Artifacts: artifacts.html
+#   Test Cases: TestCases.html
 
 dependencies:
   ch.fhir.ig.ch-core:
