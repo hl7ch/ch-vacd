@@ -40,6 +40,6 @@ dependencies:
     uri: http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips
     id: ips
   ch.fhir.ig.ch-allergyintolerance:
-    version: 0.2.0
+    version: current
     uri: http://fhir.ch/ig/ch-allergyintolerance/ImplementationGuide/ch.fhir.ig.ch-allergyintolerance
     id: challergy
