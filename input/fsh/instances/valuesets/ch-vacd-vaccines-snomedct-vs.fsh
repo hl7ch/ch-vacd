@@ -18,492 +18,472 @@ Usage: #definition
 * contact.telecom.value = "www.e-health-suisse.ch"
 * description = "The list of vaccine products in Snomed CT list."
 
+* compose.include.system = $sct
+* compose.include.concept[+].code = #871717007
+* compose.include.concept[=].display = "Vaccine product containing only Yellow fever virus antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Gelbfieber-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la fièvre jaune"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la febbre gialla"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Gelbfieber-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Yellow fever vaccine"
 
-// //////////////////////////////////////////////////////////////////////////////////////////
-// SNOMED CT  GENERIC CODE VACCINE PRODUCT                                                ///
-// //////////////////////////////////////////////////////////////////////////////////////////
-* compose.include[+].system = $sct
-* compose.include[=].concept[+].code = #787859002
-* compose.include[=].concept[=].display = "Vaccine product (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Impfstoffprodukt"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Produit vaccin"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Prodotto vaccino"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Impfstoffprodukt"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Vaccine product"
+* compose.include.concept[+].code = #871719005
+* compose.include.concept[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Zeckenenzephalitis-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre l'encéphalite à tiques"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la meningoencefalite da zecche"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Zeckenenzephalitis-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Tick-borne encephalitis vaccine"
 
+* compose.include.concept[+].code = #871724008
+* compose.include.concept[=].display = "Vaccine product containing only Japanese encephalitis virus antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Japanische-Enzephalitis-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre le virus de l'encéphalite japonaise"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro l’encefalite giapponese"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Japanische-Enzephalitis-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Japanese encephalitis virus vaccine"
 
+* compose.include.concept[+].code = #871726005
+* compose.include.concept[=].display = "Vaccine product containing only Rabies lyssavirus antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Tollwut-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin humain contre la rage"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la rabbia"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Tollwut-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Rabies vaccine"
 
-* compose.include[=].concept[+].code = #1861000221106
-* compose.include[=].concept[=].display = "Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "BCG (Bacillus Calmette-Guerin) vaccine"
+* compose.include.concept[+].code = #871737006
+* compose.include.concept[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Mumps-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre les oreillons"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la parotite"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Mumps-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Mumps vaccine"
 
-* compose.include[=].concept[+].code = #991000221105
-* compose.include[=].concept[=].display = "Vaccine product containing only Vibrio cholerae antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Vibrio cholerae antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Vibrio cholerae antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Vibrio cholerae antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Vibrio cholerae antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Cholera vaccine"
+* compose.include.concept[+].code = #871739009
+* compose.include.concept[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Poliomyelitis-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la poliomyélite"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la poliomielite"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Poliomyelitis-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Human poliovirus antigen only vaccine product"
 
-* compose.include[=].concept[+].code = #1119349007
-* compose.include[=].concept[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "COVID-19 mRNA vaccine"
+* compose.include.concept[+].code = #871742003
+* compose.include.concept[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre le tétanos"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro il tetano"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Tetanus vaccine"
 
-* compose.include[=].concept[+].code = #29061000087103
-* compose.include[=].concept[=].display = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "COVID-19 non-replicating viral vector vaccine"
+* compose.include.concept[+].code = #871751006
+* compose.include.concept[=].display = "Vaccine product containing only Hepatitis A virus antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Hepatitis A-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre l'hépatite A "
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro l’epatite A"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Hepatitis A-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Hepatitis A vaccine"
 
-* compose.include[=].concept[+].code = #871895005
-* compose.include[=].concept[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Diphtheria and Haemophilus influenzae type B and hepatitis B and pertussis and poliomyelitis and tetanus"
+* compose.include.concept[+].code = #871761004
+* compose.include.concept[=].display = "Vaccine product containing only Rotavirus antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Rotavirus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre les rotavirus"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro i rotavirus"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Rotavirus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Rotavirus vaccine"
 
-* compose.include[=].concept[+].code = #871887006
-* compose.include[=].concept[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Diphtheria and Haemophilus influenzae type B and pertussis and poliomyelitis and tetanus vaccine"
+* compose.include.concept[+].code = #871764007
+* compose.include.concept[=].display = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Haemophilus influenzae B-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre Haemophilus influenzae de type B"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro l’Haemophilus influenzae di tipo B"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Haemophilus influenzae B-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Haemophilus influenzae type B vaccine"
 
-* compose.include[=].concept[+].code = #871878002
-* compose.include[=].concept[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Diphtheria and pertussis and poliomyelitis and tetanus vaccine"
+* compose.include.concept[+].code = #871765008
+* compose.include.concept[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Masern-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la rougeole"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro il morbillo"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Masern-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Measles vaccine"
 
-* compose.include[=].concept[+].code = #871875004
-* compose.include[=].concept[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Diphtheria and pertussis and tetanus vaccine"
+* compose.include.concept[+].code = #871803007
+* compose.include.concept[=].display = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Hepatitis A- und B-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre les hépatites A et B"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro l’epatite A e B"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Hepatitis A- und B-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Hepatitis A and B vaccine"
 
-* compose.include[=].concept[+].code = #871837004
-* compose.include[=].concept[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Diphtheria and poliomyelitis and tetanus vaccine"
+* compose.include.concept[+].code = #871822003
+* compose.include.concept[=].display = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Hepatitis B-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre l'hépatite B"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro l’epatite B"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Hepatitis B-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Hepatitis B vaccine"
 
-* compose.include[=].concept[+].code = #871826000
-* compose.include[=].concept[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Diphtheria and tetanus vaccine"
+* compose.include.concept[+].code = #871826000
+* compose.include.concept[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Diphterie- und Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la diphtérie et le tétanos"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la difterite e il tetano"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Diphterie- und Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Diphtheria and tetanus vaccine"
 
-* compose.include[=].concept[+].code = #871764007
-* compose.include[=].concept[=].display = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Haemophilus influenzae type B antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Haemophilus influenzae type B vaccine"
+* compose.include.concept[+].code = #871831003
+* compose.include.concept[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Masern-, Mumps- und Röteln-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la rougeole, les oreillons et la rubéole"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro il morbillo, la parotite e la rosolia"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Masern-, Mumps- und Röteln-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Measles and mumps and rubella vaccine"
 
-* compose.include[=].concept[+].code = #871803007
-* compose.include[=].concept[=].display = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Hepatitis A and Hepatitis B virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Hepatitis A and B vaccine"
+* compose.include.concept[+].code = #871837004
+* compose.include.concept[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Diphterie-, Poliomyelitis- und Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la diphtérie, la poliomyélite et le tétanos"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la difterite, il tetano e la poliomielite"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Diphterie-, Poliomyelitis- und Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Diphtheria and poliomyelitis and tetanus vaccine"
 
-* compose.include[=].concept[+].code = #871751006
-* compose.include[=].concept[=].display = "Vaccine product containing only Hepatitis A virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Hepatitis A virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Hepatitis A virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Hepatitis A virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Hepatitis A virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Hepatitis A vaccine"
+* compose.include.concept[+].code = #871866001
+* compose.include.concept[=].display = "Vaccine product containing only Neisseria meningitidis serogroup C antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Meningitis-C-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la méningite C"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la meningite C"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Meningitis-C-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Meningitis C vaccine"
 
-* compose.include[=].concept[+].code = #871822003
-* compose.include[=].concept[=].display = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Hepatitis B virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Hepatitis B vaccine"
+* compose.include.concept[+].code = #871873006
+* compose.include.concept[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Meningitis-A, C-, W135- und Y-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre les méningites A, C, W135 et Y"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la meningite A, C, W135 e Y"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Meningitis-A, C-, W135- und Y-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Meningitis A, C, W135 and Y vaccine"
 
-* compose.include[=].concept[+].code = #1991000221106
-* compose.include[=].concept[=].display = "Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Human papillomavirus 16 and 18 vaccine"
+* compose.include.concept[+].code = #871875004
+* compose.include.concept[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Diphterie-, Pertussis- und Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la diphtérie, la coqueluche et le tétanos"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la difterite, il tetano e la pertosse"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Diphterie-, Pertussis- und Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Diphtheria and pertussis and tetanus vaccine"
 
-* compose.include[=].concept[+].code = #2001000221108
-* compose.include[=].concept[=].display = "Vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Human papillomavirus 6, 11, 16 and 18 vaccine"
+* compose.include.concept[+].code = #871878002
+* compose.include.concept[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Diphterie-, Pertussis-, Poliomyelitis- und Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la diphtérie, la coqueluche, la poliomyélite et le tétanos"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la difterite, il tetano, la pertosse e la poliomielite"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Diphterie-, Pertussis-, Poliomyelitis- und Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Diphtheria and pertussis and poliomyelitis and tetanus vaccine"
 
-* compose.include[=].concept[+].code = #871739009
-* compose.include[=].concept[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Human poliovirus antigen only vaccine product"
+* compose.include.concept[+].code = #871887006
+* compose.include.concept[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Diphtherie-, Haemophilus influenzae B-, Pertussis-, Poliomyelitis- und Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la diphtérie, Haemophilus influenzae de type B, la coqueluche, la poliomyélite et le tétanos"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la difterite, il tetano, la pertosse, la poliomielite e l’Haemophilus influenzae di tipo B"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Diphtherie-, Haemophilus influenzae B-, Pertussis-, Poliomyelitis- und Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Diphtheria and Haemophilus influenzae type B and pertussis and poliomyelitis and tetanus vaccine"
 
-* compose.include[=].concept[+].code = #1181000221105
-* compose.include[=].concept[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Influenza virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Influenza virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Influenza virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Influenza virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Influenza vaccine"
+* compose.include.concept[+].code = #871895005
+* compose.include.concept[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Diphtherie-, Haemophilus influenzae B-, Hepatitis B-, Pertussis-, Poliomyelitis- und Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la diphtérie, Haemophilus influenzae de type B, l'hépatite B, la coqueluche, la poliomyélite et le tétanos"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la difterite, il tetano, la pertosse, la poliomielite, l’Haemophilus influenzae di tipo B e l’epatite B"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Diphtherie-, Haemophilus influenzae B-, Hepatitis B-, Pertussis-, Poliomyelitis- und Tetanus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Diphtheria and Haemophilus influenzae type B and hepatitis B and pertussis and poliomyelitis and tetanus vaccine"
 
-* compose.include[=].concept[+].code = #871724008
-* compose.include[=].concept[=].display = "Vaccine product containing only Japanese encephalitis virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Japanese encephalitis virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Japanese encephalitis virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Japanese encephalitis virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Japanese encephalitis virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Japanese encephalitis virus vaccine"
+* compose.include.concept[+].code = #871908002
+* compose.include.concept[=].display = "Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Masern-, Mumps-, Röteln- und Windpocken-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la rougeole, les oreillons, la rubéole et la varicelle"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro il morbillo, la parotite, la rosolia e la varicella"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Masern-, Mumps-, Röteln- und Windpocken-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Measles and mumps and rubella and varicella virus vaccine"
 
-* compose.include[=].concept[+].code = #871919004
-* compose.include[=].concept[=].display = "Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Live attenuated Varicella-zoster vaccine"
+* compose.include.concept[+].code = #871919004
+* compose.include.concept[=].display = "Vaccine product containing only live attenuated Human alphaherpesvirus 3 antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Attenuierter Varizella-Zoster-Lebendimpfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin à virus varicelle-zona vivant atténué"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino vivo attenuato contro il virus varicella-zoster"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Attenuierter Varizella-Zoster-Lebendimpfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Live attenuated Varicella-zoster vaccine"
 
-* compose.include[=].concept[+].code = #871908002
-* compose.include[=].concept[=].display = "Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Measles and mumps and rubella and varicella virus vaccine"
+* compose.include.concept[+].code = #1052328007
+* compose.include.concept[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "7-valenter Pneumokokken-Konjugatimpfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin antipneumoccique conjugué 7-valent"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino coniugato eptavalente contro gli pneumococchi"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "7-valenter Pneumokokken-Konjugatimpfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Pneumococcal 7-valent conjugate vaccine"
 
-* compose.include[=].concept[+].code = #871831003
-* compose.include[=].concept[=].display = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Measles and mumps and rubella vaccine"
+* compose.include.concept[+].code = #1119254000
+* compose.include.concept[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "13-valenter Pneumokokken-Konjugatimpfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin antipneumococcique conjugué 13-valent"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino coniugato 13-valente contro gli pneumococchi"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "13-valenter Pneumokokken-Konjugatimpfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Pneumococcal 13-valent conjugate vaccine"
 
-* compose.include[=].concept[+].code = #871765008
-* compose.include[=].concept[=].display = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Measles morbillivirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Measles vaccine"
+* compose.include.concept[+].code = #1119349007
+* compose.include.concept[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "mRNA-Impfstoff gegen COVID-19"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin à ARNm contre le COVID-19"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino a mRNA anti-COVID-19"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "mRNA-Impfstoff gegen COVID-19"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "COVID-19 mRNA vaccine"
 
-* compose.include[=].concept[+].code = #871873006
-* compose.include[=].concept[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Meningitis A, C, W135 and Y vaccine"
+* compose.include.concept[+].code = #1156183006
+* compose.include.concept[=].display = "Vaccine product containing only Human alphaherpesvirus 3 recombinant surface glycoprotein E antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Rekombinanter Varizella-Zoster-Glykoprotein-E-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin varicelle-zona recombinant à glycoprotéine E"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino con antigene glicoproteina E ricombinante del virus varicella-zoster"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Rekombinanter Varizella-Zoster-Glykoprotein-E-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Recombinant Varicella-zoster glycoprotein E vaccine"
 
-* compose.include[=].concept[+].code = #871866001
-* compose.include[=].concept[=].display = "Vaccine product containing only Neisseria meningitidis serogroup C antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Neisseria meningitidis serogroup C antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Neisseria meningitidis serogroup C antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Neisseria meningitidis serogroup C antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Neisseria meningitidis serogroup C antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Meningitis C vaccine"
+* compose.include.concept[+].code = #961000221100
+* compose.include.concept[=].display = "Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Typhus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la fièvre typhoïde"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la febbre tifoide"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Typhus-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Typhoid vaccine"
 
-* compose.include[=].concept[+].code = #871737006
-* compose.include[=].concept[=].display = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Mumps orthorubulavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Mumps vaccine"
+* compose.include.concept[+].code = #981000221107
+* compose.include.concept[=].display = "Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "23-valenter Pneumokokken-Konjugatimpfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin antipneumococcique conjugué 23-valent"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino coniugato 23-valente contro gli pneumococchi"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "23-valenter Pneumokokken-Konjugatimpfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Pneumococcal 23-valent conjugate vaccine"
 
-* compose.include[=].concept[+].code = #1119254000
-* compose.include[=].concept[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Pneumococcal 13-valent conjugate vaccine"
+* compose.include.concept[+].code = #991000221105
+* compose.include.concept[=].display = "Vaccine product containing only Vibrio cholerae antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Cholera-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre le choléra"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro il colera"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Cholera-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Cholera vaccine"
 
-* compose.include[=].concept[+].code = #981000221107
-* compose.include[=].concept[=].display = "Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens only vaccine product"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Pneumococcal 23-valent conjugate vaccine"
+* compose.include.concept[+].code = #1181000221105
+* compose.include.concept[=].display = "Vaccine product containing only Influenza virus antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Influenza-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la grippe"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro l’influenza"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Influenza-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Influenza vaccine"
 
-* compose.include[=].concept[+].code = #1052328007
-* compose.include[=].concept[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Pneumococcal 7-valent conjugate vaccine"
+* compose.include.concept[+].code = #1861000221106
+* compose.include.concept[=].display = "Vaccine product containing only live attenuated Mycobacterium bovis antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "BCG (Bacillus Calmette-Guérin)-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin BCG (bacille de Calmette-Guérin)"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino BCG (bacillo di Calmette-Guérin)"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "BCG (Bacillus Calmette-Guérin)-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "BCG (Bacillus Calmette-Guerin) vaccine"
 
-* compose.include[=].concept[+].code = #871726005
-* compose.include[=].concept[=].display = "Vaccine product containing only Rabies lyssavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Rabies lyssavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Rabies lyssavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Rabies lyssavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Rabies lyssavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Rabies vaccine"
+* compose.include.concept[+].code = #1991000221106
+* compose.include.concept[=].display = "Vaccine product containing only Human papillomavirus 16 and 18 antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Impfstoff gegen humanes Papillomavirus 16 und 18"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre les papillomavirus humains 16 et 18"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro il papillomavirus umano tipi 16 e 18"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Impfstoff gegen humanes Papillomavirus 16 und 18"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Human papillomavirus 16 and 18 vaccine"
 
-* compose.include[=].concept[+].code = #1156183006
-* compose.include[=].concept[=].display = "Vaccine product containing only Human alphaherpesvirus 3 recombinant surface glycoprotein E antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human alphaherpesvirus 3 recombinant surface glycoprotein E antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human alphaherpesvirus 3 recombinant surface glycoprotein E antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human alphaherpesvirus 3 recombinant surface glycoprotein E antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Human alphaherpesvirus 3 recombinant surface glycoprotein E antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Recombinant Varicella-zoster glycoprotein E vaccine"
+* compose.include.concept[+].code = #2001000221108
+* compose.include.concept[=].display = "Vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Impfstoff gegen humanes Papillomavirus 6, 11, 16 und 18"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre les papillomavirus humains 6, 11, 16 et 18"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro il papillomavirus umano tipi 6, 11, 16 e 18"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Impfstoff gegen humanes Papillomavirus 6, 11, 16 und 18"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Human papillomavirus 6, 11, 16 and 18 vaccine"
 
-* compose.include[=].concept[+].code = #871761004
-* compose.include[=].concept[=].display = "Vaccine product containing only Rotavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Rotavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Rotavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Rotavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Rotavirus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Rotavirus vaccine"
-
-* compose.include[=].concept[+].code = #871742003
-* compose.include[=].concept[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Tetanus vaccine"
-
-* compose.include[=].concept[+].code = #871719005
-* compose.include[=].concept[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Tick-borne encephalitis vaccine"
-
-* compose.include[=].concept[+].code = #961000221100
-* compose.include[=].concept[=].display = "Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Salmonella enterica subspecies enterica serovar Typhi antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Typhoid vaccine"
-
-* compose.include[=].concept[+].code = #871717007
-* compose.include[=].concept[=].display = "Vaccine product containing only Yellow fever virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Yellow fever virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Yellow fever virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Yellow fever virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaccine product containing only Yellow fever virus antigen (medicinal product)"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Yellow fever vaccine"
-
+* compose.include.concept[+].code = #29061000087103
+* compose.include.concept[=].display = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Nicht replizierender viraler Vektorimpfstoff gegen COVID-19"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin à vecteur viral non réplicatif contre le COVID-19"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino a vettore virale non replicante anti-COVID-19"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Nicht replizierender viraler Vektorimpfstoff gegen COVID-19"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "COVID-19 non-replicating viral vector vaccine"
 

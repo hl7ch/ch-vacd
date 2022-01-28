@@ -119,41 +119,41 @@ Usage: #definition
 * compose.include.concept[+].code = #719596001
 * compose.include.concept[=].display = "Administration of vaccine product containing only Neisseria meningitidis serogroup C antigen (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Neisseria meningitidis serogroup C antigen (procedure)"
+* compose.include.concept[=].designation[=].value = "Meningitis-C-Impfung"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Neisseria meningitidis serogroup C antigen (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccination contre la méningite C"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Neisseria meningitidis serogroup C antigen (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccinazione contro la meningite C"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Neisseria meningitidis serogroup C antigen (procedure)"
+* compose.include.concept[=].designation[=].value = "Meningitis-C-Impfung"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Meningitis C vaccination"
+
 * compose.include.concept[+].code = #314417000
 * compose.include.concept[=].display = "Administration of vaccine product containing only Neisseria meningitidis serogroup A and C antigens (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Neisseria meningitidis serogroup A and C antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "Meningitis-A-und-C-Impfung"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Neisseria meningitidis serogroup A and C antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccination contre les méningites A et C"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Neisseria meningitidis serogroup A and C antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccinazione contro la meningite A e C"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Neisseria meningitidis serogroup A and C antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "Meningitis-A-und-C-Impfung"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Meningitis A and C vaccination"
+
 * compose.include.concept[+].code = #871874000
 * compose.include.concept[=].display = "Administration of vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "Meningitis-A, C-, W135- und Y-Impfung"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccination contre les méningites A, C, W135 et Y"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccinazione contro la meningite A, C, W135 e Y"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "Meningitis-A, C-, W135- und Y-Impfung"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Meningitis A, C, W135 and Y vaccination"
-
-
 
 * compose.include.concept[+].code = #50583002
 * compose.include.concept[=].display = "Administration of vaccine product containing only Mumps orthorubulavirus antigen (procedure)"
@@ -196,39 +196,41 @@ Usage: #definition
 * compose.include.concept[+].code = #11119368005
 * compose.include.concept[=].display = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (procedure)"
+* compose.include.concept[=].designation[=].value = "7-valente Pneumokokken-Konjugatimpfung"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccination antipneumococcique conjugué 7-valent"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccinazione con vaccino coniugato eptavalente contro gli pneumococchi"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (procedure)"
+* compose.include.concept[=].designation[=].value = "7-valente Pneumokokken-Konjugatimpfung"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pneumococcal 7-valent conjugate vaccination"
+
 * compose.include.concept[+].code = #11119366009
 * compose.include.concept[=].display = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "13-valente Pneumokokken-Konjugatimpfung"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccination antipneumococcique conjugué 13-valent"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccinazione con vaccino coniugato 13-valente contro gli pneumococchi"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "13-valente Pneumokokken-Konjugatimpfung"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pneumococcal 13-valent conjugate vaccination"
+
 * compose.include.concept[+].code = #11119367000
 * compose.include.concept[=].display = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "23-valente Pneumokokken-Konjugatimpfung"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccination antipneumococcique conjugué 23- valent"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccinazione con vaccino coniugato 23-valente contro gli pneumococchi"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "23-valente Pneumokokken-Konjugatimpfung"
 * compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (procedure)"
+* compose.include.concept[=].designation[=].value = "Pneumococcal 23-valent conjugate vaccination"
 
 
 
@@ -309,25 +311,25 @@ Usage: #definition
 * compose.include.concept[+].code = #737081007
 * compose.include.concept[=].display = "Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for chickenpox (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for chickenpox (procedure)"
+* compose.include.concept[=].designation[=].value = "Varizellen-Zoster-Impfung gegen Windpocken"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for chickenpox (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccination varicelle-zona contre la varicelle"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for chickenpox (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccinazione contro il virus varicella-zoster: solo varicella"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for chickenpox (procedure)"
+* compose.include.concept[=].designation[=].value = "Varizellen-Zoster-Impfung gegen Windpocken"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Varicella-zoster vaccination for chickenpox"
 * compose.include.concept[+].code = #722215002
 * compose.include.concept[=].display = "Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles (procedure)"
+* compose.include.concept[=].designation[=].value = "Varizellen-Zoster-Impfung gegen Gürtelrose"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccination varicelle-zona contre le zona"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccinazione contro il virus varicella-zoster: solo herpes zoster"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Human alphaherpesvirus 3 antigen for shingles (procedure)"
+* compose.include.concept[=].designation[=].value = "Varizellen-Zoster-Impfung gegen Gürtelrose"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Varicella-zoster vaccination for shingles"
 
@@ -349,25 +351,25 @@ Usage: #definition
 * compose.include.concept[+].code = #1157107003
 * compose.include.concept[=].display = "Administration of vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (procedure)"
+* compose.include.concept[=].designation[=].value = "Nicht replizierende virale Vektorimpfung gegen COVID-19"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (procedure)"
+* compose.include.concept[=].designation[=].value = "administration d'un vaccin à vecteur viral recombinant non réplicatif contre le COVID-19"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccinazione con vaccino a vettore virale non replicante anti-COVID-19"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (procedure)"
+* compose.include.concept[=].designation[=].value = "Nicht replizierende virale Vektorimpfung gegen COVID-19"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "COVID-19 non-replicating viral vector vaccination"
 * compose.include.concept[+].code = #1119350007
 * compose.include.concept[=].display = "Administration of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (procedure)"
+* compose.include.concept[=].designation[=].value = "mRNA-Impfung gegen COVID-19"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (procedure)"
+* compose.include.concept[=].designation[=].value = "administration d'un vaccin à ARNm du SARS-CoV-2"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccinazione con vaccino a mRNA anti-COVID-19"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Administration of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (procedure)"
+* compose.include.concept[=].designation[=].value = "mRNA-Impfung gegen COVID-19"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "COVID-19 mRNA vaccination"
 

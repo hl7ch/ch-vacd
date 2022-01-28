@@ -22,8 +22,7 @@ Usage: #definition
 // vaccines with swiss medic number                                                       ///
 // //////////////////////////////////////////////////////////////////////////////////////////
 * compose.include[0].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
-
-* compose.include[=].concept[0].code = #683
+* compose.include[=].concept[+].code = #683
 * compose.include[=].concept[=].display = "FSME-Immun 0.25 ml Junior"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "FSME-Immun 0.25 ml Junior"
@@ -1242,7 +1241,7 @@ Usage: #definition
 // Old vaccines, missing swiss medic number                                               ///
 // //////////////////////////////////////////////////////////////////////////////////////////
 * compose.include[+].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
-* compose.include[=].concept[0].code = #14
+* compose.include[=].concept[+].code = #14
 * compose.include[=].concept[=].display = "MoRu-Viraten"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "MoRu-Viraten"
