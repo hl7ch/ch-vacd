@@ -1,8 +1,8 @@
 Profile: CHVACDRecommendationOtherRelevantObservations
 Parent: CHVACDRecommendationCondition
 Id: ch-vacd-recommendation-other-observations
-Title: "CH VACD Recommendation Other Relevant Observations"
-Description: "Definition of the other relevant observations part for all recommendation request and response documents."
+Title: "CH VACD Recommendation Other Relevant Observations (Condition)"
+Description: "Definition of the Condition for the other relevant observations section for all recommendation request and response documents."
 * ^status = #active
 * ^experimental = false
 * ^publisher = "eHealth Suisse"

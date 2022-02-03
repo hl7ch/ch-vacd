@@ -119,25 +119,25 @@ Usage: #definition
 * compose.include.concept[+].code = #94505-5
 * compose.include.concept[=].display = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Einheiten/Volumen] in Serum oder Plasma durch Immunoassay"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+* compose.include.concept[=].designation[=].value = "Anticorps IgG du SARS-CoV-2 (COVID-19) [unités/volume] dans le sérum ou le plasma par immunoanalyse"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) Ab IgG [unità/volume] in siero o plasma mediante immunodosaggio"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
+* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Einheiten/Volumen] in Serum oder Plasma durch Immunoassay"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
 
 * compose.include.concept[+].code = #14128-3
 * compose.include.concept[=].display = "Rabies virus Ab [Titer] in Serum"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Rabies virus Ab [Titer] in Serum"
+* compose.include.concept[=].designation[=].value = "Tollwut-Virus Ab [Titer] im Serum"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Rabies virus Ab [Titer] in Serum"
+* compose.include.concept[=].designation[=].value = "Anticorps du virus de la rage [titre] dans le sérum"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Rabies virus Ab [Titer] in Serum"
+* compose.include.concept[=].designation[=].value = "virus della rabbia Ab [titolo] in siero"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Rabies virus Ab [Titer] in Serum"
+* compose.include.concept[=].designation[=].value = "Tollwut-Virus Ab [Titer] im Serum"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Rabies virus Ab [Titer] in Serum"
