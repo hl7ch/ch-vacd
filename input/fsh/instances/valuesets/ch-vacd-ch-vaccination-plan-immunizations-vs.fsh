@@ -193,7 +193,7 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Pertussis vaccination"
 
 // new by expert review 202201
-* compose.include.concept[+].code = #11119368005
+* compose.include.concept[+].code = #1119368005
 * compose.include.concept[=].display = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "7-valente Pneumokokken-Konjugatimpfung"
@@ -206,7 +206,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pneumococcal 7-valent conjugate vaccination"
 
-* compose.include.concept[+].code = #11119366009
+* compose.include.concept[+].code = #1119366009
 * compose.include.concept[=].display = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "13-valente Pneumokokken-Konjugatimpfung"
@@ -219,7 +219,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pneumococcal 13-valent conjugate vaccination"
 
-* compose.include.concept[+].code = #11119367000
+* compose.include.concept[+].code = #1119367000
 * compose.include.concept[=].display = "Administration of vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "23-valente Pneumokokken-Konjugatimpfung"

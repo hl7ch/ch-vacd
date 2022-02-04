@@ -809,18 +809,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Hepatitis A, inactivated, whole virus"
 
-* compose.include.concept[+].code = #J07BC03
-* compose.include.concept[=].display = "Hepatitis A, purified antigen"
-* compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Hepatitis A, gereinigtes Antigen"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Hépatite A, antigène purifié"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Epatite A, antigene purificato"
-* compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Hepatitis A, gereinigtes Antigen"
-* compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Hepatitis A, purified antigen"
+
 
 * compose.include.concept[+].code = #J07BC20
 * compose.include.concept[=].display = "Combinations"
@@ -1048,7 +1037,7 @@ Usage: #definition
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Rotavirus, lebend abgeschwächt"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = " Rotavirus vivant atténué"
+* compose.include.concept[=].designation[=].value = "Rotavirus vivant atténué"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Rotavirus, vivo attenuato"
 * compose.include.concept[=].designation[+].language = #rm-CH
@@ -1264,18 +1253,6 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Smallpox vaccine, live, modified"
 
-* compose.include.concept[+].code = #J07BX03
-* compose.include.concept[=].display = "Covid-19 vaccines"
-* compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Covid-19-Impfstoffe"
-* compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Vaccins contre la Covid-19"
-* compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Vaccini anti-COVID-19"
-* compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Covid-19-Impfstoffe"
-* compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Covid-19 vaccines"
 
 * compose.include.concept[+].code = #J07CA
 * compose.include.concept[=].display = "Bacterial and viral vaccines, combined"
@@ -1459,3 +1436,73 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Diphtheria-Haemophilus influenzae B-pertussis-tetanus-hepatitis B-meningococcus A + C"
 
+* compose.include.system = $atc
+// not validationg entries
+// this code seems no available in the actual list https://www.whocc.no/atc_ddd_index/?code=J07BC&showdescription=no
+* compose.include.concept[+].code = #J07BC03
+* compose.include.concept[=].display = "Hepatitis A, purified antigen"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Hepatitis A, gereinigtes Antigen"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Hépatite A, antigène purifié"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Epatite A, antigene purificato"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Hepatitis A, gereinigtes Antigen"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Hepatitis A, purified antigen"
+
+// not validating but in the list https://www.whocc.no/atc_ddd_index/?code=J07BX03&showdescription=no
+* compose.include.concept[+].code = #J07BX03
+* compose.include.concept[=].display = "Covid-19 vaccines"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Covid-19-Impfstoffe"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Vaccins contre la Covid-19"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Vaccini anti-COVID-19"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Covid-19-Impfstoffe"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Covid-19 vaccines"
+
+* compose.include.system = $atc
+// new ATC Codes from https://www.whocc.no/filearchive/documents/temporary__atc_and_ddd_decissions_november_2021.xlsx
+* compose.include.concept[+].code = #J07BN01
+* compose.include.concept[=].display = "Covid-19, RNA-based vaccine"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Covid-19, RNA-based vaccine"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Covid-19, RNA-based vaccine"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Covid-19, RNA-based vaccine"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Covid-19, RNA-based vaccine"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Covid-19, RNA-based vaccine"
+	
+* compose.include.concept[+].code = #J07BN02
+* compose.include.concept[=].display = "Covid-19, viral vector, non-replicating"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Covid-19, viral vector, non-replicating"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Covid-19, viral vector, non-replicating"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Covid-19, viral vector, non-replicating"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Covid-19, viral vector, non-replicating"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Covid-19, viral vector, non-replicating"
+
+* compose.include.concept[+].code = #J07BN03
+* compose.include.concept[=].display = "Covid-19, inactivated virus"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Covid-19, inactivated virus"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Covid-19, inactivated virus"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Covid-19, inactivated virus"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Covid-19, inactivated virus"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Covid-19, inactivated virus"
