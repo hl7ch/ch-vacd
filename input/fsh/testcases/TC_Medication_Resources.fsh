@@ -50,7 +50,7 @@ Usage: #example
 // ////////////////////////////////////////////////
 Instance: TC_IMMUN_MEDIC_BOOSTRIX
 InstanceOf: CHVACDMedicationForImmunization
-Title: "TC Medication for Immunization (Boostrix) against on "
+Title: "TC Medication for Immunization (Boostrix)"
 Description: "Testcase  example of medication for immunization extension Boostrix" 
 Usage: #example
 * id = "TC-IMMUN-MEDIC-BOOSTRIX"
@@ -71,7 +71,7 @@ Usage: #example
 // ////////////////////////////////////////////////
 Instance: TC_IMMUN_MEDIC_PRIORIX
 InstanceOf: CHVACDMedicationForImmunization
-Title: "TC Medication for Immunization (Priorix) against MMR "
+Title: "TC Medication for Immunization (Priorix) against MMR"
 Description: "Testcase  example of medication for immunization extension Priorix" 
 Usage: #example
 * id = "TC-IMMUN-MEDIC-PRIORIX"

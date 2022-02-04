@@ -260,7 +260,7 @@ Usage: #definition
 
 Instance: TC_HCP2_ORG2_ROLE_author
 InstanceOf: CHCorePractitionerRoleEpr
-Title: "TC HCP2 G2 ORG2 Role Author "
+Title: "TC HCP2 G2 ORG2 Role Author"
 Description: "Testcase practitionerole HCP2 ORG2 as author in G2"
 Usage: #definition
 * id = "TC-HCP2-ORG2-ROLE-author"

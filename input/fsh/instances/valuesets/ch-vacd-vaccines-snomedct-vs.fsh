@@ -115,7 +115,7 @@ Usage: #definition
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Hepatitis A-Impfstoff"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "vaccin contre l'hépatite A "
+* compose.include.concept[=].designation[=].value = "vaccin contre l'hépatite A"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccino contro l’epatite A"
 * compose.include.concept[=].designation[+].language = #rm-CH
