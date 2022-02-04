@@ -4,7 +4,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: ch.fhir.ig.ch-vacd
 canonical: http://fhir.ch/ig/ch-vacd
-name: ch-vacd
+name: CH_VACD
 title: Implementation Guide CH VACD
 # FSHOnly: true
 # applyExtensionMetadataToRoot: false
