@@ -21,7 +21,7 @@ Alias: $ch-vacd-medrisk =                       urn:oid:2.16.756.5.30.1.127.3.3.
 Alias: $ch-vacd-exprisk =                       urn:oid:2.16.756.5.30.1.127.3.3.2
 
 Alias: $ch-vacd-swissmedic-cs =                                         http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs
-Alias: $ch-vacd-cdss-cs =                                               http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-clinical-decision-support-event-cs
+Alias: $ch-vacd-cdss-cs =                                               http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-clinical-decision-support-event-cs
 
 Alias: $ch-vacd-ch-vaccination-plan-immunizations-vs =                  http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs
 Alias: $ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs = http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs
