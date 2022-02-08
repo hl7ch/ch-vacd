@@ -335,26 +335,26 @@ Usage: #definition
 // new by expert review 202201
 * compose.include.concept[+].code = #23511006
 * compose.include.concept[=].display = "Meningococcal infectious disease (disorder)"
-* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[+].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Meningokokken-Erkrankung"
-* compose.include.concept[=].designation[0].language = #fr-CH
+* compose.include.concept[=].designation[+].language = #fr-CH
 * compose.include.concept[=].designation[=].value = "infection à méningocoques"
-* compose.include.concept[=].designation[0].language = #it-CH
+* compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "malattia da meningococchi"
-* compose.include.concept[=].designation[0].language = #rm-CH
+* compose.include.concept[=].designation[+].language = #rm-CH
 * compose.include.concept[=].designation[=].value = "Meningokokken-Erkrankung"
-* compose.include.concept[=].designation[0].language = #en-US
+* compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Meningococcal disease"
 
 * compose.include.concept[+].code = #16814004
 * compose.include.concept[=].display = "Pneumococcal infectious disease (disorder)"
-* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[+].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Pneumokokken-Erkrankung"
-* compose.include.concept[=].designation[0].language = #fr-CH
+* compose.include.concept[=].designation[+].language = #fr-CH
 * compose.include.concept[=].designation[=].value = "infection à pneumocoques"
-* compose.include.concept[=].designation[0].language = #it-CH
+* compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "malattia da pneumococchi"
-* compose.include.concept[=].designation[0].language = #rm-CH
+* compose.include.concept[=].designation[+].language = #rm-CH
 * compose.include.concept[=].designation[=].value = "Pneumokokken-Erkrankung"
-* compose.include.concept[=].designation[0].language = #en-US
+* compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pneumococcal disease"
