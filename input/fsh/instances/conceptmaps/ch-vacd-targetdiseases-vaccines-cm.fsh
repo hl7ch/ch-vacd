@@ -510,8 +510,8 @@ Usage: #definition
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
 // //////////////////////////////////////////////////////////////////////////////////////////
-* group[+].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
-* group[=].target = "http://snomed.info/sct"
+* group[+].source = "http://snomed.info/sct"
+* group[=].target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
 * group[=].element[0].code = #397430003
 * group[=].element[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * group[=].element[=].target[0].code = #93
