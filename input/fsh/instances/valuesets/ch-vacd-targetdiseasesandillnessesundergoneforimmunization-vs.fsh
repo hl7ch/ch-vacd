@@ -230,15 +230,15 @@ Usage: #definition
 * compose.include.concept[+].code = #397430003
 * compose.include.concept[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Diphtherie, verursacht durch Corynebacterium diphtheriae"
+* compose.include.concept[=].designation[=].value = "Diphtherie"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "diphtérie causée par Corynebacterium diphtheriae"
+* compose.include.concept[=].designation[=].value = "diphtérie"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "difterite causata da Corynebacterium diphtheriae"
+* compose.include.concept[=].designation[=].value = "difterite"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Diphtherie, verursacht durch Corynebacterium diphtheriae"
+* compose.include.concept[=].designation[=].value = "Diphtherie"
 * compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Diphtheria caused by Corynebacterium diphtheriae"
+* compose.include.concept[=].designation[=].value = "Diphtheria"
 * compose.include.concept[+].code = #840539006
 * compose.include.concept[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH

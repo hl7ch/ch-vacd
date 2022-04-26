@@ -8,14 +8,14 @@ name: CH_VACD
 title: Implementation Guide CH VACD
 # FSHOnly: true
 # applyExtensionMetadataToRoot: false
-status: draft
+status: active
 version: 2.0.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: STU 2
 publisher:
-  name: eHealth Suisse
-  url: http://e-health-suisse.ch
+  name: HL7 Switzerland
+  url: https://www.hl7.ch/
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
@@ -40,6 +40,6 @@ dependencies:
     uri: http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips
     id: ips
   ch.fhir.ig.ch-allergyintolerance:
-    version: current
+    version: 1.0.0
     uri: http://fhir.ch/ig/ch-allergyintolerance/ImplementationGuide/ch.fhir.ig.ch-allergyintolerance
     id: challergy
