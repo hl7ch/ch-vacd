@@ -141,3 +141,32 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Tollwut-Virus Ab [Titer] im Serum"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Rabies virus Ab [Titer] in Serum"
+
+
+* compose.include.concept[+].code = #22755-3
+* compose.include.concept[=].display = "Haemophilus influenzae B Ab [Mass/volume] in Serum"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Haemophilus influenzae B Ak [Masse/Volumen] im Serum"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Haemophilus influenzae B Ac [masse/volume] dans le sérum"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Haemophilus influenzae B Ab [masse/volume] in siero"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Haemophilus influenzae B Ab [Masse/Volumen] im Serum"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Haemophilus influenzae B Ab [mass/volume] in Serum"
+
+
+
+* compose.include.concept[+].code = #25531-5
+* compose.include.concept[=].display = "Streptococcus pneumoniae Ab [Mass/volume] in Serum"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Streptococcus pneumoniae Ak [Masse/Volumen] im Serum"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Streptococcus pneumoniae Ac [masse/volume] dans le sérum"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Streptococcus pneumoniae Ab [masse/volume] in siero"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Streptococcus pneumoniae Ab [Masse/Volumen] im Serum"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Streptococcus pneumoniae Ab [mass/volume] in Serum"
