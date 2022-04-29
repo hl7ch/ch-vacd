@@ -34,11 +34,19 @@ Description: "Definition of the immunization recommendation part for all documen
 * recommendation.targetDisease ^binding.extension[+].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"
 * recommendation.targetDisease ^binding.extension[=].valueBoolean = true
 * recommendation.targetDisease ^binding.description = "The code for disease."
+
+* recommendation.forecastStatus from $ch-vacd-recommendation-forecast-status-vs (required)
+* recommendation.forecastStatus ^binding.extension[0].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
+* recommendation.forecastStatus ^binding.extension[=].valueString = "Disease"
+* recommendation.forecastStatus ^binding.extension[+].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"
+* recommendation.forecastStatus ^binding.extension[=].valueBoolean = true
+* recommendation.forecastStatus ^binding.description = "The reason the forecast is done."
+
 * recommendation.forecastReason 1..
 * recommendation.forecastReason from $ch-vacd-recommendation-categories-vs (required)
 * recommendation.forecastReason ^binding.extension[0].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
 * recommendation.forecastReason ^binding.extension[=].valueString = "Disease"
 * recommendation.forecastReason ^binding.extension[+].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"
 * recommendation.forecastReason ^binding.extension[=].valueBoolean = true
-* recommendation.forecastReason ^binding.description = "The code for disease."
+* recommendation.forecastReason ^binding.description = "The reason the forecast is done."
 * recommendation.dateCriterion 1..
