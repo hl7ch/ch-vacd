@@ -17,7 +17,7 @@ Usage: #definition
 * contact.telecom.system = #url
 * contact.telecom.value = "www.e-health-suisse.ch"
 * description = "The medical and exposision risks used in Switzerland."
-* compose.include[0].system = "urn:oid:2.16.756.5.30.1.127.3.3.1"
+* compose.include[0].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-complication-risks-cs"
 * compose.include[=].concept[+].code = #113001
 * compose.include[=].concept[=].display = "ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -511,7 +511,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ZOELIAKIE"
 
-* compose.include[+].system = "urn:oid:2.16.756.5.30.1.127.3.3.2"
+* compose.include[+].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-exposure-risks-cs"
 * compose.include[=].concept[+].code = #213001
 * compose.include[=].concept[=].display = "BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"
 * compose.include[=].concept[=].designation[0].language = #de-CH

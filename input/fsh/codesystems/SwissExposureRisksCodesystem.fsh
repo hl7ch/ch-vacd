@@ -5,9 +5,9 @@ Description: "Exposure risks codes available in Switzerland."
 * ^meta.source = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-exposure-risks-vs"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-01-24T00:00:00+01:00"
-* ^url = "urn:oid:2.16.756.5.30.1.127.3.3.2"
 * ^identifier.use = #official
 * ^identifier.system = "http://art-decor.org/ns/oids/vs"
+* ^identifier.value = "urn:oid:2.16.756.5.30.1.127.3.3.2"
 * ^version = "2021-01-24T00:00:00"
 * ^status = #active
 * ^experimental = false

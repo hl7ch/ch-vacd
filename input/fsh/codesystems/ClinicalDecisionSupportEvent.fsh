@@ -2,7 +2,7 @@ CodeSystem: ClinicalDecisionSupportEvent
 Id: ch-vacd-clinical-decision-support-event-cs
 Title: "CDS Event"
 Description: "Clinical Decision Support Event"
-* ^url = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-clinical-decision-support-event-cs"
+//* ^url = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-clinical-decision-support-event-cs"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2021-12-21T00:00:00+01:00"
 * ^identifier.use = #official

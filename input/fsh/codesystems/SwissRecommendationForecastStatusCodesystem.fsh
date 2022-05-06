@@ -2,7 +2,7 @@ CodeSystem: SwissRecommendationForecastStatusCodesystem
 Id: ch-vacd-recommendation-forecast-status-cs
 Title: "Swiss Recommendation Forecast Status Codesystem"
 Description: "Swiss Recommendation Forecast Status Codesystem"
-* ^url = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-forecast-status-cs"
+//* ^url = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-forecast-status-cs"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-04-28T00:00:00+01:00"
 * ^identifier.use = #official

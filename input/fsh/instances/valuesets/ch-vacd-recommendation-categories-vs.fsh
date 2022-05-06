@@ -17,7 +17,7 @@ Usage: #definition
 * contact.telecom.system = #url
 * contact.telecom.value = "www.e-health-suisse.ch"
 * description = "Immunization recommendation categories."
-* compose.include.system = "urn:oid:2.16.756.5.30.1.127.3.3.4"
+* compose.include.system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-categories-cs"
 * compose.include.concept[0].code = #41501
 * compose.include.concept[=].display = "REC_BASE"
 * compose.include.concept[=].designation[0].language = #de-CH
