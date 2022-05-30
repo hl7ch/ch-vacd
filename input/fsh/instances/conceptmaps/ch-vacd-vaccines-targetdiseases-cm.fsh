@@ -532,11 +532,6 @@ Usage: #definition
 * group[=].element[=].target[+].code = #397430003
 * group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[+].code = #35
-* group[=].element[=].display = "Te Anatoxal"
-* group[=].element[=].target.code = #76902006
-* group[=].element[=].target.display = "Tetanus (disorder)"
-* group[=].element[=].target.equivalence = #relatedto
 * group[=].element[+].code = #689
 * group[=].element[=].display = "Te Anatoxal N"
 * group[=].element[=].target.code = #76902006

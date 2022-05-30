@@ -107,9 +107,6 @@ Usage: #definition
 * group[=].element[=].target[+].code = #637
 * group[=].element[=].target[=].display = "Boostrix"
 * group[=].element[=].target[=].equivalence = #wider
-* group[=].element[=].target[+].code = #35
-* group[=].element[=].target[=].display = "Te Anatoxal"
-* group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #686
 * group[=].element[=].target[=].display = "Td-Virelon"
 * group[=].element[=].target[=].equivalence = #wider

@@ -960,19 +960,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
 
-* compose.include[=].concept[+].code = #35
-* compose.include[=].concept[=].display = "Te Anatoxal"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Te Anatoxal"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Te Anatoxal"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Te Anatoxal"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Te Anatoxal"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Te Anatoxal"
-
 * compose.include[=].concept[+].code = #689
 * compose.include[=].concept[=].display = "Te Anatoxal N"
 * compose.include[=].concept[=].designation[0].language = #de-CH

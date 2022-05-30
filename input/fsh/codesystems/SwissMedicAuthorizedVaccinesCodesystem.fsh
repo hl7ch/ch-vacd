@@ -836,17 +836,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #690 ^designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
 * #690 ^designation[+].language = #en-US
 * #690 ^designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
-* #35 "Te Anatoxal"
-* #35 ^designation[0].language = #de-CH
-* #35 ^designation[=].value = "Te Anatoxal"
-* #35 ^designation[+].language = #fr-CH
-* #35 ^designation[=].value = "Te Anatoxal"
-* #35 ^designation[+].language = #it-CH
-* #35 ^designation[=].value = "Te Anatoxal"
-* #35 ^designation[+].language = #rm-CH
-* #35 ^designation[=].value = "Te Anatoxal"
-* #35 ^designation[+].language = #en-US
-* #35 ^designation[=].value = "Te Anatoxal"
+
 * #689 "Te Anatoxal N"
 * #689 ^designation[0].language = #de-CH
 * #689 ^designation[=].value = "Te Anatoxal N"
