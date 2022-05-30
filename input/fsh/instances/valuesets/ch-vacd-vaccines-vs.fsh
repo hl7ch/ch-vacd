@@ -1224,6 +1224,20 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
 
 
+* compose.include[=].concept[+].code = #68473 
+* compose.include[=].concept[=].display = "Nuvaxovid 5 ml, Injektionsdispersion"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+
+
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
 // //////////////////////////////////////////////////////////////////////////////////////////

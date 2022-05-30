@@ -1078,3 +1078,18 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #66156 ^designation[=].value = "Foclivia (Fertigspritze)"
 * #66156 ^designation[+].language = #en-US
 * #66156 ^designation[=].value = "Foclivia (Fertigspritze)"
+
+
+//68473	01	Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	12.04.2024	J07BX03	X		X	X
+* #68473 "Nuvaxovid 5 ml, Injektionsdispersion"
+* #68473 ^definition = "Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH"
+* #68473 ^designation[0].language = #de-CH
+* #68473 ^designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* #68473 ^designation[+].language = #fr-CH
+* #68473 ^designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* #68473 ^designation[+].language = #it-CH
+* #68473 ^designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* #68473 ^designation[+].language = #rm-CH
+* #68473 ^designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* #68473 ^designation[+].language = #en-US
+* #68473 ^designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
