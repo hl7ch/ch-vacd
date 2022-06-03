@@ -27,7 +27,7 @@ Description: "Definition of the patient for immunization recommendation request 
 * contact[contact] 0..0
 * contact[nameOfFather] 0..0
 * contact[nameOfMother] 0..0
-* communication[languageOfCorrespondance] 0..0
+* communication[languageOfCorrespondence] 0..0
 * multipleBirth[x] 0..0
 * photo 0..0
 * generalPractitioner 0..0
