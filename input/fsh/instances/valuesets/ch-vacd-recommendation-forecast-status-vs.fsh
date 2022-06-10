@@ -73,18 +73,31 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "The patient may be contraindicated but get health care advice."
 
+* compose.include.concept[+].code = #indicated
+* compose.include.concept[=].display = "Indicated"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "The patient is indicated for further doses."
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "The patient is indicated for further doses."
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "The patient is indicated for further doses."
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "The patient is indicated for further doses."
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "The patient is indicated for further doses."
+
 * compose.include.concept[+].code = #contraindicated
 * compose.include.concept[=].display = "Contraindicated"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "The patient is contraindicated for futher doses."
+* compose.include.concept[=].designation[=].value = "The patient is contraindicated for further doses."
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "The patient is contraindicated for futher doses."
+* compose.include.concept[=].designation[=].value = "The patient is contraindicated for further doses."
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "The patient is contraindicated for futher doses."
+* compose.include.concept[=].designation[=].value = "The patient is contraindicated for further doses."
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "The patient is contraindicated for futher doses."
+* compose.include.concept[=].designation[=].value = "The patient is contraindicated for further doses."
 * compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "The patient is contraindicated for futher doses."
+* compose.include.concept[=].designation[=].value = "The patient is contraindicated for further doses."
 
 * compose.include.concept[+].code = #complete
 * compose.include.concept[=].display = "Complete"
@@ -98,3 +111,16 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "The patient is fully protected and no further doses are recommended."
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "The patient is fully protected and no further doses are recommended."
+
+* compose.include.concept[+].code = #notrelevant
+* compose.include.concept[=].display = "NotRelevant"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "There is no relevance for this patient."
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "There is no relevance for this patient."
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "There is no relevance for this patient."
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "There is no relevance for this patient."
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "There is no relevance for this patient."

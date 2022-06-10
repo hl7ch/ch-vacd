@@ -309,3 +309,10 @@ Usage: #definition
 * group[=].element[=].target.code = #840539006
 * group[=].element[=].target.display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
+
+// added 2022-06-08
+* group[=].element[+].code = #1162643001
+* group[=].element[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
+* group[=].element[=].target.code = #840539006
+* group[=].element[=].target.display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target.equivalence = #relatedto

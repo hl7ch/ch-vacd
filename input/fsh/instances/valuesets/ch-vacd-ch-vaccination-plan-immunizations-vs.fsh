@@ -360,6 +360,7 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Nicht replizierende virale Vektorimpfung gegen COVID-19"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "COVID-19 non-replicating viral vector vaccination"
+
 * compose.include.concept[+].code = #1119350007
 * compose.include.concept[=].display = "Administration of vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -372,4 +373,18 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "mRNA-Impfung gegen COVID-19"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "COVID-19 mRNA vaccination"
+
+//added 2022.06.08
+* compose.include.concept[+].code = #1162645008 
+* compose.include.concept[=].display = "Administration of vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (procedure)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "xxx-Impfung gegen COVID-19"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "administration d'un vaccin à xxx du SARS-CoV-2"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccinazione con vaccino a xxx anti-COVID-19"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "xxxx-Impfung gegen COVID-19"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "COVID-19 recombinant spike protein antigen vaccination"
 

@@ -1223,7 +1223,8 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
 
-
+// 68473	01	Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	12.04.2024	J07BX03
+// added 2022-06-08
 * compose.include[=].concept[+].code = #68473 
 * compose.include[=].concept[=].display = "Nuvaxovid 5 ml, Injektionsdispersion"
 * compose.include[=].concept[=].designation[0].language = #de-CH

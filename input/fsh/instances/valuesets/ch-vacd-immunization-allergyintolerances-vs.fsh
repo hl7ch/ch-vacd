@@ -389,6 +389,24 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Yellow fever vaccine adverse reaction"
 
+//added 2022.06.08
+//1162644007 Adverse reaction to component of vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (disorder)
+* compose.include[=].concept[+].code = #1162644007
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung "
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "effet indésirable du vaccin contre "
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro "
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "COVID-19 recombinant spike protein antigen vaccine adverse reaction"
+
+
 // missing herpes zoster
 // missing fsme
 // missing hpv
+
+

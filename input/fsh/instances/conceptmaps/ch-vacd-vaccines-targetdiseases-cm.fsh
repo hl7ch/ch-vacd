@@ -618,8 +618,12 @@ Usage: #definition
 * group[=].element[=].target.display = "Influenza caused by pandemic influenza virus (disorder)"
 * group[=].element[=].target.equivalence = #relatedto
 
-
-
+// added 2022-06-08
+* group[=].element[+].code = #68473
+* group[=].element[=].display = "Nuvaxovid 5 ml, Injektionsdispersion"
+* group[=].element[=].target.code = #840539006
+* group[=].element[=].target.display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target.equivalence = #relatedto
 
 
 
