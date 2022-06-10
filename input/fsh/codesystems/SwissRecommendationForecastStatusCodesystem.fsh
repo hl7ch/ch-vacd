@@ -69,18 +69,32 @@ Description: "Swiss Recommendation Forecast Status Codesystem"
 * #consultadvise ^designation[+].language = #en-US
 * #consultadvise ^designation[=].value = "The patient may be contraindicated but get health care advice."
 
+* #indicated "Indicated"
+* #indicated ^definition = "The patient is indicated for further doses."
+* #indicated ^designation[0].language = #de-CH
+* #indicated ^designation[=].value = "The patient is indicated for further doses."
+* #indicated ^designation[+].language = #fr-CH
+* #indicated ^designation[=].value = "The patient is indicated for further doses."
+* #indicated ^designation[+].language = #it-CH
+* #indicated ^designation[=].value = "The patient is indicated for further doses."
+* #indicated ^designation[+].language = #rm-CH
+* #indicated ^designation[=].value = "The patient is indicated for further doses."
+* #indicated ^designation[+].language = #en-US
+* #indicated ^designation[=].value = "The patient is indicated for further doses."
+
+
 * #contraindicated "Contraindicated"
-* #contraindicated ^definition = "The patient is contraindicated for futher doses."
+* #contraindicated ^definition = "The patient is contraindicated for further doses."
 * #contraindicated ^designation[0].language = #de-CH
-* #contraindicated ^designation[=].value = "The patient is contraindicated for futher doses."
+* #contraindicated ^designation[=].value = "The patient is contraindicated for further doses."
 * #contraindicated ^designation[+].language = #fr-CH
-* #contraindicated ^designation[=].value = "The patient is contraindicated for futher doses."
+* #contraindicated ^designation[=].value = "The patient is contraindicated for further doses."
 * #contraindicated ^designation[+].language = #it-CH
-* #contraindicated ^designation[=].value = "The patient is contraindicated for futher doses."
+* #contraindicated ^designation[=].value = "The patient is contraindicated for further doses."
 * #contraindicated ^designation[+].language = #rm-CH
-* #contraindicated ^designation[=].value = "The patient is contraindicated for futher doses."
+* #contraindicated ^designation[=].value = "The patient is contraindicated for further doses."
 * #contraindicated ^designation[+].language = #en-US
-* #contraindicated ^designation[=].value = "The patient is contraindicated for futher doses."
+* #contraindicated ^designation[=].value = "The patient is contraindicated for further doses."
 
 * #complete "Complete"
 * #complete ^definition = "The patient is fully protected and no further doses are recommended."
@@ -94,3 +108,16 @@ Description: "Swiss Recommendation Forecast Status Codesystem"
 * #complete ^designation[=].value = "The patient is fully protected and no further doses are recommended."
 * #complete ^designation[+].language = #en-US
 * #complete ^designation[=].value = "The patient is fully protected and no further doses are recommended."
+
+* #notrelevant "NotRelevant"
+* #notrelevant ^definition = "There is no relevance for this patient."
+* #notrelevant ^designation[0].language = #de-CH
+* #notrelevant ^designation[=].value = "There is no relevance for this patient."
+* #notrelevant ^designation[+].language = #fr-CH
+* #notrelevant ^designation[=].value = "There is no relevance for this patient."
+* #notrelevant ^designation[+].language = #it-CH
+* #notrelevant ^designation[=].value = "There is no relevance for this patient."
+* #notrelevant ^designation[+].language = #rm-CH
+* #notrelevant ^designation[=].value = "There is no relevance for this patient."
+* #notrelevant ^designation[+].language = #en-US
+* #notrelevant ^designation[=].value = "There is no relevance for this patient."
