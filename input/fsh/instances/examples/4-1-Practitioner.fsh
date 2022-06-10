@@ -4,7 +4,7 @@ Title: "4.1 Practitioner"
 Description: "Example for Practitioner for all documents except Recommendation Request/Response"
 Usage: #example
 * identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7608888888888"
+* identifier.value = "7601888888884"
 * active = true
 * name.family = "Bereit"
 * name.given = "Allzeit"

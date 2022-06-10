@@ -68,7 +68,7 @@ Description: "Example for Organization for CDS Service"
 Usage: #example
 * id = "CDSS-Organization"
 * identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "2010000000786"
+* identifier.value = "7601000000781"
 * name = "Immunization CDS Service"
 * address.line = "Mustergasse 99"
 * address.city = "Beispielen"

@@ -60,7 +60,7 @@ Description: "Testcase practitioner HCP1 of C1"
 Usage: #example
 * id = "TC-HCP1-C1"
 * identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7608888888888"
+* identifier.value = "7601888888884"
 * active = true
 * name.family = "Bereit"
 * name.given = "Allzeit"
@@ -91,7 +91,7 @@ Description: "Testcase organization of HCP1"
 Usage: #definition
 * id = "TC-ORG1"
 * identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7608888888888"
+* identifier.value = "7601888888884"
 * name = "Gruppenpraxis CH"
 * telecom[0].system = #phone
 * telecom[=].value = "tel:+41.32.234.55.66"
@@ -142,7 +142,7 @@ Description: "Testcase practitioner HCP3 of C1"
 Usage: #example
 * id = "TC-HCP3-C1"
 * identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7607777777777"
+* identifier.value = "7601077777777"
 * active = true
 * name.family = "Gesund"
 * name.given = "Macht"
@@ -196,7 +196,7 @@ Description: "Testcase practitione HCP2 of C2"
 Usage: #example
 * id = "TC-HCP2-C2"
 * identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7609999999990"
+* identifier.value = "7601999999998"
 * active = true
 * name.family = "Gesund"
 * name.given = "Meist"
@@ -228,7 +228,7 @@ Description: "Testcase organization of HCP2 in C2"
 Usage: #definition
 * id = "TC-ORG2"
 * identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7609999999991"
+* identifier.value = "7601999999912"
 * name = "Praxis Dr. Gesund"
 * telecom[0].system = #phone
 * telecom[=].value = "tel:+41.32.234.77.88"
@@ -278,7 +278,7 @@ Description: "Testcase labor organization for lab results"
 Usage: #definition
 * id = "TC-ORG3"
 * identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7609999999981"
+* identifier.value = "7601999999981"
 * name = "Labor Wir Messen Alles"
 * telecom[0].system = #phone
 * telecom[=].value = "tel:+41.56.299.55.22"
