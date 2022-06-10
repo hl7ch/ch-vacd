@@ -37,6 +37,6 @@ Description: "Definition of the MessageHeader for the immunization recommendatio
     CHVACDRecommendationOtherRelevantObservations or
     CHVACDRecommendationPastIllness or
     CHVACDRecommendationPregnancy or
-    Consent or
-    Condition
+    CHVACDCondition or
+    Consent
 )
