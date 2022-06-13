@@ -16,6 +16,7 @@ Description: "Old vaccines codes earlier available in Switzerland."
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "www.e-health-suisse.ch"
 * ^content = #complete
+* ^caseSensitive = true
 * #14 "MoRu-Viraten"
 * #14 ^designation[0].language = #de-CH
 * #14 ^designation[=].value = "MoRu-Viraten"

@@ -16,6 +16,7 @@ Description: "Exposure risks codes available in Switzerland."
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "www.e-health-suisse.ch"
 * ^content = #complete
+* ^caseSensitive = true
 * #213001 "BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"
 * #213001 ^designation[0].language = #de-CH
 * #213001 ^designation[=].value = "Beschäftigte im Gesundheitswesen"

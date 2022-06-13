@@ -16,6 +16,7 @@ Description: "The entry conflict codesystem"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "www.e-health-suisse.ch"
 * ^content = #complete
+* ^caseSensitive = true
 * #duplicate "duplicate"
 * #duplicate ^designation[0].language = #de-CH
 * #duplicate ^designation[=].value = "Duplikat"

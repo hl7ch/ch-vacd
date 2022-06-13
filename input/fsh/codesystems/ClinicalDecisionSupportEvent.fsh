@@ -16,6 +16,7 @@ Description: "Clinical Decision Support Event"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "www.e-health-suisse.ch"
 * ^content = #complete
+* ^caseSensitive = true
 * #immunrecorequest "Immunization Recommendation Request"
 * #immunrecorequest ^designation[0].language = #de-CH
 * #immunrecorequest ^designation[=].value = "Immunization Recommendation Request"

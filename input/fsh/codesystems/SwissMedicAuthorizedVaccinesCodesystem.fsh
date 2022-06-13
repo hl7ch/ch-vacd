@@ -16,6 +16,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "www.e-health-suisse.ch"
 * ^content = #complete
+* ^caseSensitive = true
 //683	01	FSME-Immun 0.25 ml Junior, Suspension zur intramuskulären Injektion	Pfizer AG	B	10.10.2003	10.10.2003	09.10.2023	J07BA01
 * #683 "FSME-Immun 0.25 ml Junior"
 * #683 ^definition = "FSME-Immun 0.25 ml Junior, Suspension zur intramuskulären Injektion	Pfizer AG"

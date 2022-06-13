@@ -15,7 +15,7 @@ Description: "Swiss Recommendation Forecast Status Codesystem"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "www.e-health-suisse.ch"
 * ^content = #complete
-
+* ^caseSensitive = true
 * #due "Due"
 * #due ^definition = "The patient is due for their next vaccination."
 * #due ^designation[0].language = #de-CH

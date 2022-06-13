@@ -16,6 +16,7 @@ Description: "Complication/medical risks available in Switzerland."
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "www.e-health-suisse.ch"
 * ^content = #complete
+* ^caseSensitive = true
 * #113001 "ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"
 * #113001 ^designation[0].language = #de-CH
 * #113001 ^designation[=].value = "Anatomische oder funktionelle Asplenie"

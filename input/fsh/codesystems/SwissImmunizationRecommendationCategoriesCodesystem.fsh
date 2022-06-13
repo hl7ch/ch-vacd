@@ -16,6 +16,7 @@ Description: "Immunization recommendation categories available in Switzerland."
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "www.e-health-suisse.ch"
 * ^content = #complete
+* ^caseSensitive = true
 * #41501 "Empfohlene Basisimpfungen"
 * #41501 ^designation[0].language = #de-CH
 * #41501 ^designation[=].value = "Empfohlene Basisimpfungen"
