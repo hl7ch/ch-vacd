@@ -21,6 +21,5 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 * [CH VACD Medical Problems Profile](StructureDefinition-ch-vacd-medical-problems.html): Definition of the medical problems part for all documents, except recommendation request and response documents.
 * [CH VACD Past Illness Profile](StructureDefinition-ch-vacd-pastillnesses.html): Definition of the past illness part for all documents, except recommendation request and response documents.
 * [CH VACD AllergyIntolerance Profile](StructureDefinition-ch-vacd-allergyintolerances.html): Definition of the AllergyIntolerance part for vaccination record documents.
-* [CH VACD Other Relevant Observations Section](StructureDefinition-ch-vacd-other-observations.html): Definition of the other relevant observations part for all documents, except recommendation request and response documents.
 * [CH VACD Laboratory And Serology Profile](StructureDefinition-ch-vacd-laboratory-serology.html): Definition of the labor and serology part for all documents, except recommendation request and response documents.
 

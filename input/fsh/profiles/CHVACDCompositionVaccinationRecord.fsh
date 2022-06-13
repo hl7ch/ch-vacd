@@ -50,7 +50,6 @@ Description: "Definition of the composition for the vaccination record document.
     medicalproblems 0..1 and
     pastillnesses 0..1 and
     allergyintolerences 0..1 and
-    otherrelevantobservations 0..1 and
     laboratory-serology 0..1 and
     annotation 0..1 
 * section[administration] ^short = "Immunization Administration"
@@ -140,28 +139,6 @@ Description: "Definition of the composition for the vaccination record document.
 * section[allergyintolerences].entry ^short = "Allergies"
 * section[allergyintolerences].entry.reference 1..1
 * section[allergyintolerences].section 0..0
-
-* section[otherrelevantobservations] ^short = "OtherRelevantObservatons"
-* section[otherrelevantobservations].extension ^slicing.discriminator.type = #value
-* section[otherrelevantobservations].extension ^slicing.discriminator.path = "url"
-* section[otherrelevantobservations].extension ^slicing.rules = #open
-* section[otherrelevantobservations].title 1..1
-* section[otherrelevantobservations].title ^short = "'Weiter relevante Beobachtungen' in german or 'Autres observations pertinentes' in french or 'Altre osservazioni rilevanti' in italian or 'Other Relevant Observations' in english\n                        or titles in other languages are also allowed"
-* section[otherrelevantobservations].code 1..
-* section[otherrelevantobservations].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data Narrative"
-* section[otherrelevantobservations].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or RelatedPerson)
-* section[otherrelevantobservations].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
-* section[otherrelevantobservations].author.extension 0..1
-* section[otherrelevantobservations].author.extension only EPRTime
-* section[otherrelevantobservations].author.extension ^short = "Timestamp of the authorship/data input"
-* section[otherrelevantobservations].author.reference 1..
-* section[otherrelevantobservations].text 1..1
-* section[otherrelevantobservations].text ^short = "Human readable text of this section"
-* section[otherrelevantobservations].entry 0..*
-* section[otherrelevantobservations].entry only Reference(CHVACDOtherRelevantObservations)
-* section[otherrelevantobservations].entry ^short = "Allergies"
-* section[otherrelevantobservations].entry.reference 1..1
-* section[otherrelevantobservations].section 0..0
 
 * section[laboratory-serology] ^short = "Laboratory-Serology"
 * section[laboratory-serology].title 1..1

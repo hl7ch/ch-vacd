@@ -25,11 +25,10 @@
 		<li><a href="StructureDefinition-ch-vacd-medical-problems.html">CH VACD Medical Problems Profile</a> Definition of the medical problems part for all documents, except recommendation request and response documents.</li>
 		<li><a href="StructureDefinition-ch-vacd-pastillnesses.html">CH VACD Past Illness Profile</a> Definition of the past illness part for all documents, except recommendation request and response documents.</li>
 		<li><a href="StructureDefinition-ch-vacd-allergyintolerances.html">CH VACD AllergyIntolerance Profile</a> Definition of the AllergyIntolerance part for vaccination record documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-other-observations.html">CH VACD Other Relevant Observations (Condition) Profile</a> Definition of the Condition for the other relevant observations section for all documents, except recommendation request and response documents.</li>
 		<li><a href="StructureDefinition-ch-vacd-laboratory-serology.html">CH VACD Laboratory And Serology Profile</a> Definition of the labor and serology part for all documents, except recommendation request and response documents.</li>
 		<li><a href="StructureDefinition-ch-vacd-immunization-recommendation.html">CH VACD Immunization Recommendations Profile</a> Definition of the immunization recommendation part for all documents, except recommendation request and response documents.</li>
 	</div>
-	
+
 	</div>
 
 	<div id="All" class="tabcontent" style="visibility: hidden">

@@ -48,12 +48,6 @@ Usage: #inline
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\">This is the\n\t\t\t\t\t\t\tsection containing the allergy entries.\n\t\t\t\t\t\t</div>"
 * section[=].entry[0].reference = "AllergyIntolerance/11-1-AllergyIntolerance"
 * section[=].entry[+].reference = "AllergyIntolerance/11-2-AllergyIntolerance"
-* section[+].id = "otherRelevantObservations"
-* section[=].title = "Other Relevant Observations"
-* section[=].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data Narrative"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">\n\t\t\t\t\t\t\tThis section MAY contain relevant coded results of a patient for\n\t\t\t\t\t\t\tthe given document context. The section MUST contain at least one\n\t\t\t\t\t\t\tProblem entry. In case of no relevant results, one of the\n\t\t\t\t\t\t\t'special case' codes MUST be used.\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tIn the context of immunizations, this section may indicate the\n\t\t\t\t\t\t\tgestational age of a child if relevant for immunization of the\n\t\t\t\t\t\t\tchild.\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\tIn the context of lab reports, this section may indicate the\n\t\t\t\t\t\t\tgestational age of a child if relevant for the observation\n\t\t\t\t\t\t\tinterpretation.\n\t\t\t\t\t\t</div>"
-* section[=].entry.reference = "Condition/8-9-Condition"
 * section[+].id = "sectionLab1"
 * section[=].title = "Lab"
 * section[=].code = $loinc#18727-8 "Serology studies (set)"

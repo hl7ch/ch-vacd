@@ -49,12 +49,6 @@ Usage: #example
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\">This is the section containing the allergy entries.</div>"
 * section[=].entry[0].reference = "AllergyIntolerance/11-1-AllergyIntolerance"
 * section[=].entry[+].reference = "AllergyIntolerance/11-2-AllergyIntolerance"
-* section[+].id = "otherRelevantObservations"
-* section[=].title = "Other Relevant Observations"
-* section[=].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data Narrative"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This section MAY contain relevant coded results of a patient for the given document context. The section MUST contain at least one Problem entry. In case of no relevant results, one of the 'special case' codes MUST be used. \n            In the context of immunizations, this section may indicate the gestational age of a child if relevant for immunization of the child. \n            In the context of lab reports, this section may indicate the gestational age of a child if relevant for the observation interpretation.         </div>"
-* section[=].entry.reference = "Condition/8-9-Condition"
 * section[+].id = "sectionLab1"
 * section[=].title = "Lab"
 * section[=].code = $loinc#18727-8 "Serology studies (set)"

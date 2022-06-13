@@ -20,7 +20,7 @@ Alias: $ch-vacd-medrisk =                       http://fhir.ch/ig/ch-vacd/CodeSy
 Alias: $ch-vacd-exprisk =                       http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-exposure-risks-cs
 
 Alias: $ch-vacd-swissmedic-cs =                                         http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs
-Alias: $ch-vacd-cdss-cs =                                               http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-clinical-decision-support-event-csgit 
+Alias: $ch-vacd-cdss-cs =                                               http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-clinical-decision-support-event-cs
 Alias: $ch-vacd-recommendation-forecast-status-cs =                     http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-forecast-status-cs
 
 Alias: $ch-vacd-ch-vaccination-plan-immunizations-vs =                  http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs
@@ -36,5 +36,3 @@ Alias: $ch-vacd-risks-vs =                                              http://f
 Alias: $ch-vacd-conflict-vs =                                           http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-entry-conflict-vs
 Alias: $ch-vacd-immunization-allergyintolerances-vs =                   http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-immunization-allergyintolerances-vs
 
-
-Alias: CHVACDRecommendationPatient =                                    http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-patient
