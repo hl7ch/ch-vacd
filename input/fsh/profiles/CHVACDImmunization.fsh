@@ -32,7 +32,6 @@ Description: "Definition of the immunization part for all documents, except reco
 * vaccineCode.coding contains 
     swissVaccines 0..1 and
     snomedctVaccines 0..1 and
-    atcClass 0..1 and
     absentOrUnknownImmunization 0..1
 * vaccineCode.coding[swissVaccines] from $ch-vacd-vaccines-vs (required)
 * vaccineCode.coding[swissVaccines] ^short = "Swiss Vaccine Code"
@@ -40,9 +39,6 @@ Description: "Definition of the immunization part for all documents, except reco
 * vaccineCode.coding[snomedctVaccines] from $ch-vacd-vaccines-sct-vs (required)
 * vaccineCode.coding[snomedctVaccines] ^short = "Vaccine Code by SNOMED CT"
 * vaccineCode.coding[snomedctVaccines] ^definition = "Vaccine Code by SNOMED CT"
-* vaccineCode.coding[atcClass] from $ch-vacd-vaccines-atc-vs (required)
-* vaccineCode.coding[atcClass] ^short = "WHO ATC classification"
-* vaccineCode.coding[atcClass] ^definition = "WHO ATC classification"
 * vaccineCode.coding[absentOrUnknownImmunization] from NoImmunizationInfoUvIps (required)
 * vaccineCode.coding[absentOrUnknownImmunization] ^short = "Absent Unknown Immunization"
 * vaccineCode.coding[absentOrUnknownImmunization] ^definition = "A reference to a code indicating that there there are no known immunizations or that this information is unknown."
