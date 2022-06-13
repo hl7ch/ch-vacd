@@ -20,7 +20,7 @@ Description: "Extension to make a reference to an entry in an other document."
 * extension[entry] ^definition = "Reference to the related entry."
 * extension[entry].url only uri
 * extension[entry].valueReference 1.. MS
-* extension[entry].valueReference only Reference(CHVACDAllergyIntolerance or CHVACDImmunization or CHVACDLaboratorySerology or CHVACDMedicalProblems  or CHVACDOtherRelevantObservations or CHVACDPastIllness or CHVACDPregnancy)
+* extension[entry].valueReference only Reference(CHVACDAllergyIntolerance or CHVACDImmunization or CHVACDLaboratorySerology or CHVACDMedicalProblems  or CHVACDOtherRelevantObservations or CHVACDPastIllness)
 * extension[entry].valueReference ^short = "The Reference to a entry in a document"
 * extension[document] only Extension
 * extension[document] ^short = "Reference to the related document"

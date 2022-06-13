@@ -54,5 +54,4 @@ Usage: #example
 * entry[=].resource = 8-9-Condition
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/9-1-Observation"
 * entry[=].resource = 9-1-Observation
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/8-1-Condition"
-* entry[=].resource = 8-1-Condition
+

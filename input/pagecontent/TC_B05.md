@@ -19,5 +19,4 @@ The status of pregnancy can be found as condition entries in the vaccination sta
 * [Result. Document B 05](Bundle-RDB05.html)
 
 ### Entries
-* [Pregnancy Condition (TCB05_PREG1)](Condition-TCB05-PREG1.html)
 * [Pregnancy Medical Risk Condition (TCB05_EXPRISK2)](Condition-TCB05-EXPRISK2.html)

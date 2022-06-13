@@ -52,7 +52,6 @@ Description: "Definition of the composition for the vaccination record document.
     allergyintolerences 0..1 and
     otherrelevantobservations 0..1 and
     laboratory-serology 0..1 and
-    pregnancy 0..1 and
     annotation 0..1 
 * section[administration] ^short = "Immunization Administration"
 * section[administration].extension ^slicing.discriminator.type = #value
@@ -182,30 +181,6 @@ Description: "Definition of the composition for the vaccination record document.
 * section[laboratory-serology].entry ^short = "LaboratorySerology"
 * section[laboratory-serology].entry.reference 1..1
 * section[laboratory-serology].section 0..0
-
-
-
-* section[pregnancy] ^short = "Pregnancy"
-* section[pregnancy].extension ^slicing.discriminator.type = #value
-* section[pregnancy].extension ^slicing.discriminator.path = "url"
-* section[pregnancy].extension ^slicing.rules = #open
-* section[pregnancy].title 1..1
-* section[pregnancy].title ^short = "'Schwangerschaft' in german or 'Grossesse' in french or 'Gravidanza' in italian or 'Pregnancy' in english\n                        or titles in other languages are also allowed"
-* section[pregnancy].code 1..
-* section[pregnancy].code = $loinc#10162-6 "Pregnancies Hx"
-* section[pregnancy].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or RelatedPerson)
-* section[pregnancy].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
-* section[pregnancy].author.extension 0..1
-* section[pregnancy].author.extension only EPRTime
-* section[pregnancy].author.extension ^short = "Timestamp of the authorship/data input"
-* section[pregnancy].author.reference 1..
-* section[pregnancy].text 1..1
-* section[pregnancy].text ^short = "Human readable text of this section"
-* section[pregnancy].entry 0..1
-* section[pregnancy].entry only Reference(CHVACDPregnancy)
-* section[pregnancy].entry ^short = "Pregnancy"
-* section[pregnancy].entry.reference 1..1
-* section[pregnancy].section 0..0
 
 * section[annotation] ^short = "Annotation"
 * section[annotation].title 1..1

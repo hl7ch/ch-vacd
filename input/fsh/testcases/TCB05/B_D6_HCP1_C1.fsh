@@ -25,9 +25,6 @@ Usage: #example
 
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/TCB05-EXPRISK2"
 * entry[=].resource = TCB05_EXPRISK2
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/TCB05-PREG1"
-* entry[=].resource = TCB05_PREG1
-
 
 
 Instance: B_D6_HCP1_C1_Composition
@@ -62,9 +59,3 @@ Usage: #example
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Code: </b><span>Problem list Reported (http://loinc.org#11450-4)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Condition-TCB05-EXPRISK2.html\">Condition/TCB05-EXPRISK2</a></td></tr></table></div>"
 * section[=].entry[+] = Reference(TCB05_EXPRISK2)
 
-* section[+].id = "pregnancy"
-* section[=].title = "Pregnancy"
-* section[=].code = $loinc#10162-6 "Pregnancies Hx"
-* section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Code: </b><span>Pregnancies Hx (http://loinc.org#10162-6)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Condition-TCB05-PREG1.html\">Condition/TCB05-PREG1</a></td></tr></table></div>"
-* section[=].entry[+] = Reference(TCB05_PREG1)
