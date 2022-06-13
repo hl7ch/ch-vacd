@@ -29,14 +29,12 @@ Description: "Definition of the MessageHeader for the immunization recommendatio
 * reason = $sct#830152006 "Recommendation regarding vaccination (procedure)"
 
 * focus only Reference(
-    CHVACDRecommendationAllergyIntolerances or
-    CHVACDRecommendationCondition or
-    CHVACDRecommendationImmunization or
-    CHVACDRecommendationLaboratorySerology or
-    CHVACDRecommendationMedicalProblems or
-    CHVACDRecommendationOtherRelevantObservations or
-    CHVACDRecommendationPastIllness or
-    CHVACDRecommendationPregnancy or
+    CHVACDAllergyIntolerance or
+    CHVACDCondition or
+    CHVACDImmunization or
+    CHVACDLaboratorySerology or
+    CHVACDMedicalProblems or
+    CHVACDPastIllness or
     CHVACDCondition or
     Consent
 )

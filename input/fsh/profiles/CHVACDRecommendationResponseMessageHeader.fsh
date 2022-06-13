@@ -23,4 +23,4 @@ Description: "Definition of the MessageHeader for the immunization recommendatio
 
 * response 1..
 
-* focus only Reference(CHVACDImmunizationRecommendations or CHVACDRecommendationImmunizationRecommendations)
+* focus only Reference(CHVACDImmunizationRecommendation)

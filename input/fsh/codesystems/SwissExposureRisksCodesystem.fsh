@@ -70,7 +70,7 @@ Description: "Exposure risks codes available in Switzerland."
 * #213006 ^designation[+].language = #rm-CH
 * #213006 ^designation[=].value = "FLEDERMAUSFORSCHER_UND_SCHUETZER"
 * #213006 ^designation[+].language = #en-US
-* #213006 ^designation[=].value = "FLEDERMAUSFORSCHER_UND_SCHUETZER"
+* #213006 ^designation[=].value = "Bat researcher or guard"
 * #213007 "GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"
 * #213007 ^designation[0].language = #de-CH
 * #213007 ^designation[=].value = "Geistig behinderte Personen in Heimen und deren BetreuerInnen"

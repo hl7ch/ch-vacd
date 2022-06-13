@@ -1,5 +1,5 @@
 Instance: 10-4-ImmunizationRecommendation
-InstanceOf: CHVACDRecommendationImmunizationRecommendations
+InstanceOf: CHVACDRecommendationImmunizationRecommendation
 Title: "10.4 ImmunizationRecommendation (Recommendation Request/Response)"
 Description: "Example ImmunizationRecommendation for Recommendation Request/Response"
 Usage: #example

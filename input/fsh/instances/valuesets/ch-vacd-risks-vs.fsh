@@ -571,7 +571,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #rm-CH
 * compose.include[=].concept[=].designation[=].value = "FLEDERMAUSFORSCHER_UND_SCHUETZER"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "FLEDERMAUSFORSCHER_UND_SCHUETZER"
+* compose.include[=].concept[=].designation[=].value = "Bat researcher or guard"
 * compose.include[=].concept[+].code = #213007
 * compose.include[=].concept[=].display = "GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"
 * compose.include[=].concept[=].designation[0].language = #de-CH

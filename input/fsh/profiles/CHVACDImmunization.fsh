@@ -30,13 +30,13 @@ Description: "Definition of the immunization part for all documents, except reco
 * vaccineCode.coding ^slicing.description = "Slice based on code value"
 * vaccineCode.coding ^slicing.rules = #open
 * vaccineCode.coding contains 
-//    swissVaccines 0..1 and
-     snomedctVaccines 0..1 and
-     atcClass 0..1 and
-     absentOrUnknownImmunization 0..1
-// * vaccineCode.coding[swissVaccines] from $ch-vacd-vaccines-vs (extensible)
-// * vaccineCode.coding[swissVaccines] ^short = "Swiss Vaccine Code"
-// * vaccineCode.coding[swissVaccines] ^definition = "Swiss Vaccine Code"
+    swissVaccines 0..1 and
+    snomedctVaccines 0..1 and
+    atcClass 0..1 and
+    absentOrUnknownImmunization 0..1
+* vaccineCode.coding[swissVaccines] from $ch-vacd-vaccines-vs (required)
+* vaccineCode.coding[swissVaccines] ^short = "Swiss Vaccine Code"
+* vaccineCode.coding[swissVaccines] ^definition = "Swiss Vaccine Code"
 * vaccineCode.coding[snomedctVaccines] from $ch-vacd-vaccines-sct-vs (required)
 * vaccineCode.coding[snomedctVaccines] ^short = "Vaccine Code by SNOMED CT"
 * vaccineCode.coding[snomedctVaccines] ^definition = "Vaccine Code by SNOMED CT"

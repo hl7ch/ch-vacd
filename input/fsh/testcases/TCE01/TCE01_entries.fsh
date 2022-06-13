@@ -6,7 +6,7 @@ Usage: #example
 * id = "TCE01-UNDILL1-de"
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
 * identifier.value = "5f727b7b-87ae-464f-85ac-1a45d23f0897"
-* code = $sct#38907003 "Windpocken"
+* code = $sct#38907003 "Varicella"
 * subject = Reference(TC_patient)
 * onsetDateTime = "2015-05-30"
 * recordedDate = "2015-05-30"
