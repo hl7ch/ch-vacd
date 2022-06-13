@@ -1,5 +1,5 @@
 Instance: 7-7-Immunization
-InstanceOf: CHVACDRecommendationImmunization
+InstanceOf: CHVACDImmunization
 Title: "7.7 Immunization (Recommendation Request/Response)"
 Description: "Example forImmunization for Recommendation Request/Response"
 Usage: #example

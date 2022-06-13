@@ -1,9 +1,9 @@
 Instance: 8-10-Condition
-InstanceOf: CHVACDRecommendationOtherRelevantObservations
+InstanceOf: CHVACDOtherRelevantObservations
 Title: "8.10 Condition (Other Relevant Observations for Recommendation Request/Response)"
 Description: "Example Condition for other relevant observations for Recommendation Request/Response"
 Usage: #example
-* meta.profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-other-observations"
+* meta.profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-other-observations"
 * code = $loinc#49052-4 "Gestational age in days"
 * subject.reference = "Patient/3-2-Patient"
 * onsetAge = 266 'd' "day"

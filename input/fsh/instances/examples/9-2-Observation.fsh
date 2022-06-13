@@ -1,5 +1,5 @@
 Instance: 9-2-Observation
-InstanceOf: CHVACDRecommendationLaboratorySerology
+InstanceOf: CHVACDLaboratorySerology
 Title: "9.2 Observation (Labor and Serology for Recommendation Request/Response)"
 Description: "Example Observation for labor and serology for Recommendation Request/Response"
 Usage: #example

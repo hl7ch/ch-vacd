@@ -19,14 +19,9 @@ A Bundle has a list of entries. The first entry is the MessageHeader, in which a
 ### Resource profiles
 * [CH VACD Immunization Recommendation Request Message Profile](StructureDefinition-ch-vacd-recommendation-request-message.html): Definition of the bundle for the immunization recommendation request.
 * [CH VACD Immunization Recommendation Request MessageHeader Profile](StructureDefinition-ch-vacd-recommendation-request-messageheader.html): Definition of the MessageHeader for the immunization recommendation request.
-* [CH VACD Recommendation Patient Profile](StructureDefinition-ch-vacd-recommendation-patient.html): Definition of the patient for immunization recommendation request and response documents.
-* [CH VACD Recommendation Address Profile](StructureDefinition-ch-vacd-recommendation-address.html): Definition of the address of a patient for immunization recommendation request and response documents.
-* [CH VACD Recommendation Practitioner Profile](StructureDefinition-ch-vacd-recommendation-practitioner.html): Definition of the practitioner for immunization recommendation request and response documents.
-* [CH VACD Recommendation Orgnaization Profile](StructureDefinition-ch-vacd-recommendation-organization.html): Definition of the organization for immunization recommendation request and response documents.
-* [CH VACD Recommendation PractitionerRole Profile](StructureDefinition-ch-vacd-recommendation-practitionerrole.html): Definition of the practitioner role for immunization recommendation request and response documents.
-* [CH VACD Recommendation Immunization Profile](StructureDefinition-ch-vacd-recommendation-immunization.html): Definition of the immunization part for immunization recommendation request and response documents.
-* [CH VACD Recommendation Medical Problems Profile](StructureDefinition-ch-vacd-recommendation-medical-problems.html): Definition of the medical problems part for recommendation request and response documents.
-* [CH VACD Recommendation Past Illness Profile](StructureDefinition-ch-vacd-recommendation-pastillnesses.html): Definition of the past illness part for immunization recommendation request and response documents.
-* [CH VACD Recommendation AllergyIntolerances Profile](StructureDefinition-ch-vacd-recommendation-allergyintolerances.html): Definition of the AllergyIntolerance part for immunization recommendation request and response documents.
-* [CH VACD Recommendation Other Relevant Observations Section](StructureDefinition-ch-vacd-recommendation-other-observations.html): Definition of the other relevant observations part for all recommendation request and response documents.
-* [CH VACD Recommendation Laboratory And Serology Profile](StructureDefinition-ch-vacd-recommendation-laboratory-serology.html): Definition of the labor and serology part for immunization recommendation request and response documents.
+* [CH VACD Immunization Profile](StructureDefinition-ch-vacd-immunization.html): Definition of the immunization part for all documents.
+* [CH VACD Medical Problems Profile](StructureDefinition-ch-vacd-medical-problems.html): Definition of the medical problems part for all documents.
+* [CH VACD Past Illness Profile](StructureDefinition-ch-vacd-pastillnesses.html): Definition of the past illness part for all documents.
+* [CH VACD AllergyIntolerance Profile](StructureDefinition-ch-vacd-allergyintolerances.html): Definition of the AllergyIntolerance part for all documents.
+* [CH VACD Other Relevant Observations Section](StructureDefinition-ch-vacd-other-observations.html): Definition of the other relevant observations part for all documents.
+* [CH VACD Laboratory And Serology Profile](StructureDefinition-ch-vacd-laboratory-serology.html): Definition of the labor and serology part for all documents.

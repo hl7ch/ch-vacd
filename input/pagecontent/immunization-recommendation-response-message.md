@@ -19,6 +19,4 @@ A Bundle has a list of entries. The first entry is the MessageHeader, in which a
 ### Resource profiles
 * [CH VACD Immunization Recommendation Response Message Profile](StructureDefinition-ch-vacd-recommendation-response-message.html) Definition of the bundle for the immunization recommendation response.
 * [CH VACD Immunization Recommendation Response MessageHeader Profile](StructureDefinition-ch-vacd-recommendation-response-messageheader.html): Definition of the messageheader for the immunization recommendation response.
-* [CH VACD Recommendation Patient Profile](StructureDefinition-ch-vacd-recommendation-patient.html): Definition of the patient for immunization recommendation request and response documents.
-* [CH VACD Recommendation Address Profile](StructureDefinition-ch-vacd-recommendation-address.html): Definition of the address of a patient for immunization recommendation request and response documents.
-* [CH VACD Recommendation Immunization Recommendation Profile](StructureDefinition-ch-vacd-recommendation-immunization-recommendation.html): Definition of the immunization recommendation part for immunization recommendation request and response documents.
+* [CH VACD Immunization Recommendation Profile](StructureDefinition-ch-vacd-immunization-recommendation.html): Definition of the immunization recommendation part for immunization recommendation request and response documents.

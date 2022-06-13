@@ -79,7 +79,7 @@ CHVACDExtensionEntryRelatesTo                                  Extension   exten
 CHVACDExtensionImmunizationMedicationReference                 Extension   extensions/CHVACDExtensionImmunizationMedicationReference.fsh
 CHVACDExtensionImmunizationRecorderReference                   Extension   extensions/CHVACDExtensionImmunizationRecorderReference.fsh
 CHVACDImmunization                                             Profile     profiles/CHVACDImmunization.fsh
-CHVACDImmunizationRecommendations                              Profile     profiles/CHVACDImmunizationRecommendations.fsh
+CHVACDImmunizationRecommendation                               Profile     profiles/CHVACDImmunizationRecommendatios.fsh
 CHVACDLaboratorySerology                                       Profile     profiles/CHVACDLaboratorySerology.fsh
 CHVACDMedicalProblems                                          Profile     profiles/CHVACDMedicalProblems.fsh
 CHVACDMedicationForImmunization                                Profile     profiles/CHVACDMedicationForImmunization.fsh

@@ -1,5 +1,5 @@
 Instance: 11-3-AllergyIntolerance
-InstanceOf: CHVACDRecommendationAllergyIntolerances
+InstanceOf: CHVACDAllergyIntolerance
 Title: "11.3 AllergyIntolerance (Recommendation Request/Response)"
 Description: "Example AllergyIntolerance for Recommendation Request/Response"
 Usage: #example

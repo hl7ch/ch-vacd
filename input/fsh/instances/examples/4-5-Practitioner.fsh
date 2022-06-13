@@ -1,5 +1,5 @@
 Instance: 4-5-Practitioner
-InstanceOf: CHVACDRecommendationPractitioner
+InstanceOf: CHCorePractitioner
 Title: "4.5 Practitioner (Recommendation Request/Response)"
 Description: "Example for Practitioner in Immunization Recommendation Request/Response"
 Usage: #example

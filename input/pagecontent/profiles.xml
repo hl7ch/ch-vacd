@@ -29,23 +29,9 @@
 		<li><a href="StructureDefinition-ch-vacd-laboratory-serology.html">CH VACD Laboratory And Serology Profile</a> Definition of the labor and serology part for all documents, except recommendation request and response documents.</li>
 		<li><a href="StructureDefinition-ch-vacd-immunization-recommendation.html">CH VACD Immunization Recommendations Profile</a> Definition of the immunization recommendation part for all documents, except recommendation request and response documents.</li>
 	</div>
-
-	<h3>Recommendation profiles</h3>
-	<div>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-patient.html">CH VACD Recommendation Patient Profile</a> Definition of the patient for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-address.html">CH VACD Recommendation Address Profile</a> Definition of the address of a patient for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-practitioner.html">CH VACD Recommendation Practitioner Profile</a> Definition of the practitioner for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-practitionerrole.html">CH VACD Recommendation PractitionerRole Profile</a> Definition of the Practitionerrole for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-immunization.html">CH VACD Recommendation Immunization Profile</a> Definition of the immunization part for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-medical-problems.html">CH VACD Recommendation Medical Problems Profile</a> Definition of the medical problems part for recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-pastillnesses.html">CH VACD Recommendation Past Illness Profile</a> Definition of the past illness part for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-allergyintolerances.html">CH VACD Recommendation AllergyIntolerances Profile</a> Definition of the AllergyIntolerance part for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-other-observations.html">CH VACD Recommendation Other Relevant Observations (Condition) Profile</a> Definition of the Condition for the other relevant observations section for all recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-laboratory-serology.html">CH VACD Recommendation Laboratory And Serology Profile</a> Definition of the labor and serology part for immunization recommendation request and response documents.</li>
-		<li><a href="StructureDefinition-ch-vacd-recommendation-immunization-recommendation.html">CH VACD Recommendation Immunization Recommendations Profile</a> Definition of the immunization recommendation part for immunization recommendation request and response documents.</li>
-	</div>
-	</div>
 	
+	</div>
+
 	<div id="All" class="tabcontent" style="visibility: hidden">
 		{% include list-profiles.xhtml %}
 	</div>

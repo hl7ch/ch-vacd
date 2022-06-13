@@ -1,5 +1,5 @@
 Instance: 6-4-PractitionerRole
-InstanceOf: CHVACDRecommendationPractitionerRole
+InstanceOf: CHCorePractitionerRole
 Title: "6.4 Practitioner Role (Recommendation Request/Response)"
 Description: "Example for Practitioner Role in Immunization Recommendation Request"
 Usage: #example

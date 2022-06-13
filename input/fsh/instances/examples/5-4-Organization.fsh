@@ -1,5 +1,5 @@
 Instance: 5-4-Organization
-InstanceOf: CHVACDRecommendationOrganization
+InstanceOf: CHCoreOrganization
 Title: "5.4 Organization (Recommendation Request/Response)"
 Description: "Example for Organization in Immunization Recommendation Request/Response"
 Usage: #example
