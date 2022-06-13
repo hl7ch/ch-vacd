@@ -35,8 +35,8 @@ All significant changes to this FHIR implementation guide will be documented on 
    * [Target Diseases And Illnesses Undergone For Immunization](ValueSet-ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs.html)
 
 * [Issue 79](https://github.com/hl7ch/ch-vacd/issues/79): CH VACD Immunization Recommendations Profile cardinality of dateCriterion (Roeland Luykx, RALY GmbH)
-   * [CH VACD Immunization Recommendations Profile](StructureDefinition-ch-vacd-immunization-recommendations.html)
-   * [CH VACD Recommendation Immunization Recommendations Profile](StructureDefinition-ch-vacd-recommendation-immunization-recommendations.html)
+   * [CH VACD Immunization Recommendations Profile](StructureDefinition-ch-vacd-immunization-recommendation.html)
+   * [CH VACD Recommendation Immunization Recommendations Profile](StructureDefinition-ch-vacd-recommendation-immunization-recommendation.html)
 
 * [Issue 81](https://github.com/hl7ch/ch-vacd/issues/81): CH VACD Laboratory And Serology Profile, cardinality of valueQuantity  (Roeland Luykx, RALY GmbH)
    * [CH VACD Laboratory And Serology Profile](StructureDefinition-ch-vacd-laboratory-serology.html)
