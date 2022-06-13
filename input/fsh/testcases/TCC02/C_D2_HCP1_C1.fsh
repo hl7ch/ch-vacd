@@ -70,7 +70,7 @@ Usage: #example
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Code: </b><span>Hx of Immunization (http://loinc.org#11369-6)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Immunization-TCC02-IMMUN3-HCP1-ORG1-ROLE.html\">Immunization/TCC02-IMMUN3-HCP1-ORG1-ROLE</a></td></tr></table></div>"
 * section[=].entry = Reference(TCC02_IMMUN3_HCP1_ORG1_ROLE)
 
-* section[+].id = "annotation"
+* section[+].id = "Annotation"
 * section[=].title = "Comments"
 * section[=].code = $loinc#48767-8 "Annotation comment Imp"
 * section[=].text.status = #generated

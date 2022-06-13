@@ -24,7 +24,8 @@ Description: "Definition of the bundle for the vaccination record document. This
     Immunizations 0..* and
     Conditions 0..* and
     AllergyIntolerences 0..* and
-    Observations 0..*
+    Observations 0..* and
+    Medication 0..*
 * entry[Composition] 1..1
 * entry[Composition] ^short = "Vaccination Record composition"
 * entry[Composition].resource 1..
@@ -53,3 +54,6 @@ Description: "Definition of the bundle for the vaccination record document. This
 
 * entry[Observations] ^short = "Observations"
 * entry[Observations].resource only CHVACDLaboratorySerology
+
+* entry[Medication] ^short = "Medication"
+* entry[Medication].resource only CHVACDMedicationForImmunization

@@ -61,8 +61,8 @@ Usage: #example
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing the lab entries.</div>"
 * section[=].entry.reference = "Observation/9-1-Observation"
-* section[+].id = "annotation"
+* section[+].id = "Annotation"
 * section[=].title = "Comments"
-* section[=].code = $loinc#48767-8 "Annotation comment [Interpretation] Narrative"
+* section[=].code = $loinc#48767-8 "Annotation comment Imp"
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\">This is the section containing all immunization entries.</div>"

@@ -67,9 +67,9 @@ Usage: #example
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Code: </b><span>Hx of Immunization (http://loinc.org#11369-6)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Immunization-TCA04-IMMUN5-patient-val-gfp.html\">Immunization/TCA04-IMMUN5-patient-val-gfp</a></td></tr></table></div>"
 * section[=].entry = Reference(TCA04_IMMUN5_patient_val_GFP)
 
-* section[+].id = "annotation"
+* section[+].id = "Annotation"
 * section[=].title = "Comments"
-* section[=].code = $loinc#48767-8 "Annotation comment [Interpretation] Narrative"
+* section[=].code = $loinc#48767-8 "Annotation comment Imp"
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Code: </b><span>Annotation comment [Interpretation] Narrative (http://loinc.org#48767-8)</span></p></div>"
 

@@ -190,8 +190,8 @@ Description: "Definition of the composition for the vaccination record document.
 * section[annotation].text 1..1
 * section[annotation].text ^short = "Human readable text of this section"
 * section[annotation].entry 0..0
-* section[annotation].entry ^short = "General comments"
-* section[annotation].entry.reference 1..1
+// * section[annotation].entry ^short = "General comments"
+// * section[annotation].entry.reference 1..1
 * section[annotation].section 0..0
 
 
