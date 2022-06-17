@@ -18,12 +18,13 @@ Description: "Definition of the immunization part for all documents, except reco
     CHVACDExtensionImmunizationMedicationReference named medication 0..1 and
     CHVACDExtensionCrossReference named relatesTo 0..1 and 
     CHVACDExtensionMergingConflictEntryReference named conflict 0..* 
+* extension[recorder] MS
 * extension[recorder] ^definition = "The recorder Reference of the immunization. May be a Practitioner or a Patient"
 * extension[medication] ^definition = "The Reference to the Medication resource defining the vaccination material."
 * extension[relatesTo] ^definition = "The definition of a relation of this immunization entry in this document to an immunization entry in an other document."
 * identifier 1..
 * identifier ^short = "Immunization item ID"
-* vaccineCode 1..1
+* vaccineCode 1..1 MS
 * vaccineCode from $ch-vacd-vaccines-vs (extensible)
 * vaccineCode.coding ^slicing.discriminator.type = #pattern
 * vaccineCode.coding ^slicing.discriminator.path = "$this"
@@ -42,20 +43,22 @@ Description: "Definition of the immunization part for all documents, except reco
 * vaccineCode.coding[absentOrUnknownImmunization] from NoImmunizationInfoUvIps (required)
 * vaccineCode.coding[absentOrUnknownImmunization] ^short = "Absent Unknown Immunization"
 * vaccineCode.coding[absentOrUnknownImmunization] ^definition = "A reference to a code indicating that there there are no known immunizations or that this information is unknown."
-
+* occurrenceDateTime MS
 * patient only Reference(CHCorePatient)
 * patient ^short = "Patient"
 * encounter only Reference(CHCoreEncounter)
 * encounter ^short = "Encounter"
 * route from $ch-vacd-route-of-administration-vs (extensible)
 * route ^short = "How vaccine entered body."
+* performer.actor MS
 * performer.actor only Reference(CHCorePractitionerRole)
 * performer.actor ^short = "The performer who applied the vaccine"
 * protocolApplied 1..
-* protocolApplied.targetDisease 1..
+* protocolApplied.targetDisease 1.. MS
 * protocolApplied.targetDisease from $ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs (extensible)
 * protocolApplied.targetDisease ^binding.extension[0].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
 * protocolApplied.targetDisease ^binding.extension[=].valueString = "Disease"
 * protocolApplied.targetDisease ^binding.extension[+].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"
 * protocolApplied.targetDisease ^binding.extension[=].valueBoolean = true
 * protocolApplied.targetDisease ^binding.description = "The code for disease."
+* protocolApplied.doseNumberPositiveInt MS

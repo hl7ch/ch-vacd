@@ -7,6 +7,7 @@ Description: "Definition of the MessageHeader for the immunization recommendatio
 * ^experimental = false
 * ^publisher = "eHealth Suisse"
 * . ^short = "CH VACD Immunization Recommendation Request MessageHeader"
+* . MS
 
 * eventCoding = $ch-vacd-cdss-cs#immunrecorequest "Immunization Recommendation Request"
 

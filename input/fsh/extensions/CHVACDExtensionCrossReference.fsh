@@ -8,6 +8,7 @@ Description: "Extension to make a reference to an entry in an other document."
 * ^publisher = "eHealth Suisse"
 * ^context.type = #element
 * ^context.expression = "DomainResource"
+* . MS
 * . 0..*
 * . ^short = "Reference to related resource"
 * . ^definition = "Extension to define reference to other related resource in an other related document for replace or appending reasons."

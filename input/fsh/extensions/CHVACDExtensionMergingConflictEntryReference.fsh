@@ -14,6 +14,7 @@ Description: "Extension to make a reference to an entry conflicting with other e
 * ^context[=].expression = "Observation"
 * ^context[+].type = #element
 * ^context[=].expression = "AllergyIntolerance"
+* . MS
 * . 0..*
 * . ^short = "Reference to related resource"
 * . ^definition = "Extension to make a reference to an entry conflicting with other entries."
