@@ -16,44 +16,32 @@ Description: "Definition of the bundle for the vaccination record document. This
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #open
-* entry contains 
-    Patient 1..* and
-    PractitionerRoles 0..* and
-    Practitioners 0..* and
-    Organizations 1..* and
-    Immunizations 0..* and
-    Conditions 0..* and
-    AllergyIntolerences 0..* and
-    Observations 0..* and
+* entry contains
+    Immunization 0..* and
+    Condition 0..* and
+    AllergyIntolerence 0..* and
+    Observation 0..* and
     Medication 0..*
-* entry[Composition] 1..1
+
 * entry[Composition] ^short = "Vaccination Record composition"
 * entry[Composition].resource 1..
 * entry[Composition].resource only CHVACDCompositionVaccinationRecord
 
-* entry[Patient] ^short = "Patient"
-* entry[Patient].resource only CHCorePatientEPR
+* entry[Patient] 1..*
 
-* entry[PractitionerRoles] ^short = "PractitionerRoles"
-* entry[PractitionerRoles].resource only CHCorePractitionerRoleEpr
+* entry[Organization] 1..*
 
-* entry[Practitioners] ^short = "Practitioners"
-* entry[Practitioners].resource only CHCorePractitionerEPR
+* entry[Immunization] ^short = "Immunization"
+* entry[Immunization].resource only CHVACDImmunization
 
-* entry[Organizations] ^short = "Organizations"
-* entry[Organizations].resource only CHCoreOrganizationEPR
+* entry[Condition] ^short = "Condition"
+* entry[Condition].resource only CHVACDCondition
 
-* entry[Immunizations] ^short = "Immunizations"
-* entry[Immunizations].resource only CHVACDImmunization
+* entry[AllergyIntolerence] ^short = "AllergyIntolerence"
+* entry[AllergyIntolerence].resource only CHVACDAllergyIntolerance
 
-* entry[Conditions] ^short = "Conditions"
-* entry[Conditions].resource only CHVACDCondition
-
-* entry[AllergyIntolerences] ^short = "AllergyIntolerences"
-* entry[AllergyIntolerences].resource only CHVACDAllergyIntolerance
-
-* entry[Observations] ^short = "Observations"
-* entry[Observations].resource only CHVACDLaboratorySerology
+* entry[Observation] ^short = "Observation"
+* entry[Observation].resource only CHVACDLaboratorySerology
 
 * entry[Medication] ^short = "Medication"
 * entry[Medication].resource only CHVACDMedicationForImmunization
