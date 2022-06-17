@@ -4,6 +4,9 @@ Alias: $standardterms =                         http://standardterms.edqm.eu
 Alias: $atc =                                   http://www.whocc.no/atc
 Alias: $ucum =                                  http://unitsofmeasure.org
 
+Alias: GTIN =                                   urn:oid:2.51.1.1
+Alias: EDQM =                                   urn:oid:0.4.0.127.0.16.1.1.2.1
+
 Alias: $shareablevalueset =                     http://hl7.org/fhir/StructureDefinition/shareablevalueset
 
 Alias: $allergyintolerance-clinical =           http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical

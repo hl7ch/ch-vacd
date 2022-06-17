@@ -27,6 +27,7 @@
 		<li><a href="StructureDefinition-ch-vacd-allergyintolerances.html">CH VACD AllergyIntolerance Profile</a> Definition of the AllergyIntolerance part for vaccination record documents.</li>
 		<li><a href="StructureDefinition-ch-vacd-laboratory-serology.html">CH VACD Laboratory And Serology Profile</a> Definition of the labor and serology part for all documents, except recommendation request and response documents.</li>
 		<li><a href="StructureDefinition-ch-vacd-immunization-recommendation.html">CH VACD Immunization Recommendations Profile</a> Definition of the immunization recommendation part for all documents, except recommendation request and response documents.</li>
+		<li><a href="StructureDefinition-ch-vacd-medication-for-immunization.html">CH VACD Medication For Immunization Profile</a> Definition of the medication for immunization.</li>
 	</div>
 
 	</div>

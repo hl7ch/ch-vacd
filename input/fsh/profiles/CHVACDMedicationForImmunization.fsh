@@ -1,5 +1,5 @@
 Profile: CHVACDMedicationForImmunization
-Parent: Medication
+Parent: CHEMEDMedication
 Id: ch-vacd-medication-for-immunization
 Title: "CH VACD Medication For Immunization Profile"
 Description: "Definition of the medication for immunization."

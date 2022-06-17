@@ -39,6 +39,10 @@ dependencies:
     version: 1.0.0
     uri: http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips
     id: ips
+  ch.fhir.ig.ch-emed:
+    version: 2.0.0
+    uri: http://fhir.ch/ig/ch-emed/ImplementationGuide/ch.fhir.ig.ch-emed
+    id: chemed
   ch.fhir.ig.ch-allergyintolerance:
     version: 1.0.0
     uri: http://fhir.ch/ig/ch-allergyintolerance/ImplementationGuide/ch.fhir.ig.ch-allergyintolerance
