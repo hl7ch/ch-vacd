@@ -63,7 +63,7 @@ Description: "Definition of the composition for the  immunization administration
 * section[administration].text     1..1
 * section[administration].text     ^short = "Human readable text of this section"
 * section[administration].entry     0..*
-* section[administration].entry     only Reference(CHVACDImmunization)
+* section[administration].entry     only Reference(CHVACDImmunization or CHVACDBasicImmunization)
 * section[administration].entry     ^short = "Immunization"
 * section[administration].entry.reference 1..1
 * section[administration].section     0..0
