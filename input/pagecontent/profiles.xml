@@ -28,6 +28,7 @@
 		<li><a href="StructureDefinition-ch-vacd-laboratory-serology.html">CH VACD Laboratory And Serology Profile</a> Definition of the labor and serology part for all documents, except recommendation request and response documents.</li>
 		<li><a href="StructureDefinition-ch-vacd-immunization-recommendation.html">CH VACD Immunization Recommendations Profile</a> Definition of the immunization recommendation part for all documents, except recommendation request and response documents.</li>
 		<li><a href="StructureDefinition-ch-vacd-medication-for-immunization.html">CH VACD Medication For Immunization Profile</a> Definition of the medication for immunization.</li>
+		<li><a href="StructureDefinition-ch-vacd-basic-immunization.html">CH VACD Basic Immunization Profile</a> Condition to declare Basic Immunization done by one single condition for DTPa or Polio. This is for cases the patient does not have a vaccination certificate to declare it, but knows that it is done.</li>
 	</div>
 
 	</div>

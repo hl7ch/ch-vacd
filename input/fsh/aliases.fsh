@@ -5,6 +5,7 @@ Alias: $atc =                                   http://www.whocc.no/atc
 Alias: $ucum =                                  http://unitsofmeasure.org
 
 Alias: GTIN =                                   urn:oid:2.51.1.1
+//Alias: GTIN =                                   https://www.gs1.org/gtin
 Alias: EDQM =                                   urn:oid:0.4.0.127.0.16.1.1.2.1
 
 Alias: $shareablevalueset =                     http://hl7.org/fhir/StructureDefinition/shareablevalueset
@@ -38,4 +39,5 @@ Alias: $ch-vacd-laboratory-serology-vs =                                http://f
 Alias: $ch-vacd-risks-vs =                                              http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-vs
 Alias: $ch-vacd-conflict-vs =                                           http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-entry-conflict-vs
 Alias: $ch-vacd-immunization-allergyintolerances-vs =                   http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-immunization-allergyintolerances-vs
+Alias: $ch-vacd-basic-immunization-vs =                                 http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-basic-immunization-vs
 
