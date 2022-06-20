@@ -9,10 +9,10 @@ title: Implementation Guide CH VACD
 # FSHOnly: true
 # applyExtensionMetadataToRoot: false
 status: active
-version: 2.0.0
+version: 2.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
-releaseLabel: STU 2
+releaseLabel: STU 3
 publisher:
   name: HL7 Switzerland
   url: https://www.hl7.ch/
