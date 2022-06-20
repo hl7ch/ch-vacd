@@ -24,11 +24,12 @@ Description: "Definition of the labor and serology part for all documents, excep
 * code ^binding.description = "The code for Laboratory and Serology."
 * subject only Reference(CHCorePatient)
 * subject ^short = "Patient"
+* subject MS
 * encounter only Reference(CHCoreEncounter)
 * encounter ^short = "Encounter"
 * performer only Reference(CHCorePractitionerRole or CHCoreOrganization)
 * performer ^short = "Patient"
-* valueQuantity ..1
-* valueQuantity ^short = "Observation.valueQuantity"
-* valueCodeableConcept ..1
-* valueCodeableConcept ^short = "Observation.valueCodeableConcept"
+* performer MS
+* value[x] 1..1
+* value[x] only Quantity or CodeableConcept
+
