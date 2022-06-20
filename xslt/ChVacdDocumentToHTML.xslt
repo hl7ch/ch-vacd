@@ -136,6 +136,9 @@
             text-align: center;
           }
          
+          .immunization-table {
+            display: table;
+          }
 
           .resource-properties-table {
             display: table;
@@ -519,11 +522,32 @@
       <!--<xsl:apply-templates select="fhir:text">
         <xsl:with-param name="nesting-depth" select="$nesting-depth + 1"/>
       </xsl:apply-templates>-->
-    
-        <xsl:apply-templates select="./fhir:entry">
-           <xsl:with-param name="nesting-depth" select="$nesting-depth + 1"/>
-        </xsl:apply-templates>
-    
+      <xsl:choose>
+        <xsl:when test="@id = 'administration'">
+          <div class="immunization-table">
+            <div class="resource-properties-table-row">
+              <div class="resource-properties-table-titlecell">ID</div>
+              <div class="resource-properties-table-titlecell">Vaccination Date</div>
+              <div class="resource-properties-table-titlecell">Vaccine</div>
+              <div class="resource-properties-table-titlecell">Lot</div>
+              <div class="resource-properties-table-titlecell">Route</div>
+              <div class="resource-properties-table-titlecell">Target</div>
+              <div class="resource-properties-table-titlecell">Doc Date</div>
+              <div class="resource-properties-table-titlecell">Performer</div>
+              <div class="resource-properties-table-titlecell">Identifier</div>
+            </div>
+
+            <xsl:apply-templates select="./fhir:entry">
+              <xsl:with-param name="nesting-depth" select="$nesting-depth + 1"/>
+            </xsl:apply-templates>
+          </div>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates select="./fhir:entry">
+            <xsl:with-param name="nesting-depth" select="$nesting-depth + 1"/>
+          </xsl:apply-templates>
+      </xsl:otherwise>
+      </xsl:choose>
       
 
       </xsl:element>
@@ -599,11 +623,23 @@
 
     <xsl:message>Matched fhir:entry</xsl:message>
     <xsl:comment>Matched fhir:entry begin </xsl:comment>
-    <div class="sectionentry">
+
+    <xsl:choose>
+      <xsl:when test="starts-with(./fhir:reference/@value, 'Immunization')">
         <xsl:apply-templates select="./fhir:reference">
           <xsl:with-param name="nesting-depth" select="$nesting-depth"/>
         </xsl:apply-templates>
-    </div>
+      </xsl:when>
+      <xsl:otherwise>
+        <div class="sectionentry">
+          <xsl:apply-templates select="./fhir:reference">
+            <xsl:with-param name="nesting-depth" select="$nesting-depth"/>
+          </xsl:apply-templates>
+        </div>
+      </xsl:otherwise>
+
+    </xsl:choose>
+   
     <xsl:comment>Matched fhir:entry end</xsl:comment>
   </xsl:template>
 
@@ -613,21 +649,22 @@
 
     <xsl:message>Matched fhir:Immunization</xsl:message>
     <xsl:comment>Matched fhir:Immunization begin </xsl:comment>
-    <xsl:variable name="heading-tag">
-      <xsl:call-template name="get-heading-tag">
-        <xsl:with-param name="level" select="$nesting-depth"/>
-      </xsl:call-template>
-    </xsl:variable>
-    <xsl:element name="{$heading-tag}">
-      <xsl:value-of select="./fhir:id/@value"></xsl:value-of>
-    </xsl:element>
 
-    <div class="resource-properties-table">
-      
-      <div class="resource-properties-table-row">
-        <div class="resource-properties-table-titlecell">Vaccine</div>
-        <div class="resource-properties-table-contentcell">
-          <span class="highlight">
+    <div class="resource-properties-table-row">
+      <div class="resource-properties-table-contentcell">
+        <xsl:value-of select="./fhir:id/@value"></xsl:value-of>
+      </div>
+
+      <div class="resource-properties-table-contentcell">
+        <span>
+          <xsl:call-template name="formatDate">
+            <xsl:with-param name="dateTime" select="./fhir:occurrenceDateTime/@value" />
+          </xsl:call-template>
+        </span>
+      </div>
+
+      <div class="resource-properties-table-contentcell">
+        <span class="highlight">
           <xsl:choose>
             <xsl:when test="./fhir:vaccineCode/fhir:coding">
               <xsl:apply-templates select="./fhir:vaccineCode/fhir:coding" />
@@ -635,81 +672,48 @@
             <xsl:otherwise>-</xsl:otherwise>
           </xsl:choose>
         </span>
-        </div>
-      </div>
-      <div class="resource-properties-table-row">
-        <div class="resource-properties-table-titlecell">Vaccination Date</div>
-        <div class="resource-properties-table-contentcell">
-            <!-- <span><xsl:value-of select="./fhir:occurrenceDateTime/@value"></xsl:value-of></span> -->
-            <span>
-              <xsl:call-template name="formatDate">
-                <xsl:with-param name="dateTime" select="./fhir:occurrenceDateTime/@value" />
-              </xsl:call-template>
-            </span>
-        </div>
       </div>
 
-      <div class="resource-properties-table-row">
-        <div class="resource-properties-table-titlecell">Lot #</div>
-        <div class="resource-properties-table-contentcell">
-            <span><xsl:value-of select="./fhir:lotNumber/@value"></xsl:value-of></span>
-        </div>
-      </div>
-      
-      <div class="resource-properties-table-row">
-        <div class="resource-properties-table-titlecell">Route</div>
-        <div class="resource-properties-table-contentcell">
-          <xsl:for-each select="./fhir:route/fhir:coding"> 
-            <span><xsl:value-of select="current()/fhir:code/@value"></xsl:value-of>: <xsl:value-of select="current()/fhir:display/@value"></xsl:value-of></span><br/>
-          </xsl:for-each>
-        </div>
+      <div class="resource-properties-table-contentcell">
+        <span><xsl:value-of select="./fhir:lotNumber/@value"></xsl:value-of></span>
       </div>
 
-      <div class="resource-properties-table-row">
-        <div class="resource-properties-table-titlecell">Target Disease</div>
-        <div class="resource-properties-table-contentcell">
-          <xsl:for-each select="./fhir:protocolApplied/fhir:targetDisease">
-          <xsl:for-each select="current()/fhir:coding">
-            <span><xsl:value-of select="current()/fhir:display/@value"></xsl:value-of></span><br/>
-          </xsl:for-each>  
+      <div class="resource-properties-table-contentcell">
+        <xsl:for-each select="./fhir:route/fhir:coding"> 
+          <span><xsl:value-of select="current()/fhir:code/@value"></xsl:value-of>: <xsl:value-of select="current()/fhir:display/@value"></xsl:value-of></span><br/>
         </xsl:for-each>
-        </div>
       </div>
 
-      
-
-
-      <div class="resource-properties-table-row">
-        <div class="resource-properties-table-titlecell">Documentation Date</div>
-        <div class="resource-properties-table-contentcell">
-            <!-- <span><xsl:value-of select="./fhir:recorded/@value"></xsl:value-of></span> -->
-            <span>
-              <xsl:call-template name="formatDate">
-                <xsl:with-param name="dateTime" select="./fhir:recorded/@value" />
-              </xsl:call-template>
-            </span>
-        </div>
+      <div class="resource-properties-table-contentcell">
+        <xsl:for-each select="./fhir:protocolApplied/fhir:targetDisease">
+        <xsl:for-each select="current()/fhir:coding">
+          <span><xsl:value-of select="current()/fhir:display/@value"></xsl:value-of></span><br/>
+        </xsl:for-each>  
+      </xsl:for-each>
       </div>
 
-      <div class="resource-properties-table-row">
-        <div class="resource-properties-table-titlecell">Performer</div>
-        <div class="resource-properties-table-contentcell">
-          <xsl:apply-templates select="./fhir:performer/fhir:actor/fhir:reference">
-            <xsl:with-param name="nesting-depth" select="$nesting-depth + 1"/>
-          </xsl:apply-templates>
-        </div>
+      <div class="resource-properties-table-contentcell">
+        <!-- <span><xsl:value-of select="./fhir:recorded/@value"></xsl:value-of></span> -->
+        <span>
+          <xsl:call-template name="formatDate">
+            <xsl:with-param name="dateTime" select="./fhir:recorded/@value" />
+          </xsl:call-template>
+        </span>
       </div>
 
-      <div class="resource-properties-table-row">
-        <div class="resource-properties-table-titlecell">Identifier</div>
-        <div class="resource-properties-table-contentcell">
-          <xsl:choose>
-            <xsl:when test="./fhir:identifier">
-              <xsl:apply-templates select="./fhir:identifier" />
-            </xsl:when>
-            <xsl:otherwise>-</xsl:otherwise>
-          </xsl:choose>
-        </div>
+      <div class="resource-properties-table-contentcell">
+        <xsl:apply-templates select="./fhir:performer/fhir:actor/fhir:reference">
+          <xsl:with-param name="nesting-depth" select="$nesting-depth + 1"/>
+        </xsl:apply-templates>
+      </div>
+
+      <div class="resource-properties-table-contentcell">
+        <xsl:choose>
+          <xsl:when test="./fhir:identifier">
+            <xsl:apply-templates select="./fhir:identifier" />
+          </xsl:when>
+          <xsl:otherwise>-</xsl:otherwise>
+        </xsl:choose>
       </div>
 
     </div>
@@ -749,6 +753,7 @@
 
     <xsl:message>Matched fhir:Condition</xsl:message>
     <xsl:comment>Matched fhir:Condition begin </xsl:comment>
+
     <xsl:variable name="heading-tag">
       <xsl:call-template name="get-heading-tag">
         <xsl:with-param name="level" select="$nesting-depth"/>
@@ -819,6 +824,7 @@
         </div>
       </div>
     </div>
+
     <xsl:comment>Matched fhir:Condition end </xsl:comment>
   </xsl:template>
 
