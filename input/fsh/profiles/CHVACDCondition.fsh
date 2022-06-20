@@ -11,15 +11,20 @@ Description: "Generic definition (abstract profile) of the condition for all doc
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains CHVACDExtensionCrossReference named relatesTo 0..1 and 
-                     CHVACDExtensionMergingConflictEntryReference named conflict 0..* 
+                     CHVACDExtensionMergingConflictEntryReference named conflict 0..*
+* extension[relatesTo] MS
 * extension[relatesTo] ^definition = "The definition of a relation of this immunization entry in this document to an immunization entry in an other document."
+* extension[conflict] MS
 * extension[conflict] ^definition = "The definition of a conflict on merging different documents."
-* code 1..
+* code 1.. MS
 * code ^short = "Condition code"
+* subject MS
 * subject only Reference(CHCorePatient)
 * subject ^short = "Patient"
 * encounter only Reference(CHCoreEncounter)
-* recordedDate 1..1
+* recordedDate 1..1 MS
 * recordedDate ^short = "Condition recordedDate"
+* recorder MS
 * recorder only Reference(CHCorePractitionerRole or CHCorePatient or RelatedPerson)
+* asserter MS
 * asserter only Reference(CHCorePractitionerRole)

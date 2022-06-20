@@ -8,6 +8,7 @@ Description: "Definition of the medical problems part for all documents, except 
 * ^experimental = false
 * ^publisher = "eHealth Suisse"
 * . ^short = "CH VACD Medical Problems Conditions"
+* code MS
 * code from $ch-vacd-risks-vs (extensible)
 * code ^short = "Condition code"
 * code ^binding.extension[0].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"

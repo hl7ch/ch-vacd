@@ -52,6 +52,7 @@ Description: "Definition of the composition for the vaccination record document.
     allergyintolerences 0..1 and
     laboratory-serology 0..1 and
     annotation 0..1 
+* section[administration] MS
 * section[administration] ^short = "Immunization Administration"
 * section[administration].extension ^slicing.discriminator.type = #value
 * section[administration].extension ^slicing.discriminator.path = "url"
@@ -74,6 +75,7 @@ Description: "Definition of the composition for the vaccination record document.
 * section[administration].entry.reference 1..1
 * section[administration].section     0..0
 
+* section[medicalproblems] MS
 * section[medicalproblems] ^short = "Medical Problems"
 * section[medicalproblems].extension ^slicing.discriminator.type = #value
 * section[medicalproblems].extension ^slicing.discriminator.path = "url"
@@ -96,6 +98,7 @@ Description: "Definition of the composition for the vaccination record document.
 * section[medicalproblems].entry.reference 1..1
 * section[medicalproblems].section 0..0
 
+* section[pastillnesses] MS
 * section[pastillnesses] ^short = "Past Illnesses"
 * section[pastillnesses].extension ^slicing.discriminator.type = #value
 * section[pastillnesses].extension ^slicing.discriminator.path = "url"
@@ -118,6 +121,7 @@ Description: "Definition of the composition for the vaccination record document.
 * section[pastillnesses].entry.reference 1..1
 * section[pastillnesses].section 0..0
 
+* section[allergyintolerences] MS
 * section[allergyintolerences] ^short = "Allergies and Intolerences"
 * section[allergyintolerences].extension ^slicing.discriminator.type = #value
 * section[allergyintolerences].extension ^slicing.discriminator.path = "url"
@@ -140,6 +144,7 @@ Description: "Definition of the composition for the vaccination record document.
 * section[allergyintolerences].entry.reference 1..1
 * section[allergyintolerences].section 0..0
 
+* section[laboratory-serology] MS
 * section[laboratory-serology] ^short = "Laboratory-Serology"
 * section[laboratory-serology].title 1..1
 * section[laboratory-serology].title ^short = "'Laborbefund - Serologie' in german or 'Résultats de laboratoire - Sérologie' in french or 'Risultati di laboratorio - Sierologia' in italian or 'Laboratory findings - Serology' in english\n                        or titles in other languages are also allowed"

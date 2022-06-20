@@ -16,6 +16,7 @@ Description: "Definition of the AllergyIntolerance part for vaccination record d
 * extension[relatesTo] ^definition = "The definition of a relation of this immunization entry in this document to an immunization entry in an other document."
 * extension[conflict] ^definition = "The definition of a conflict on merging different documents."
 * identifier ^short = "AllergyIntolerance item ID"
+* code MS
 * code from $ch-vacd-immunization-allergyintolerances-vs (extensible)
 * code ^short = "Allergy Intolerance code"
 * code ^binding.extension[0].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
@@ -23,7 +24,9 @@ Description: "Definition of the AllergyIntolerance part for vaccination record d
 * code ^binding.extension[+].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"
 * code ^binding.extension[=].valueBoolean = true
 * code ^binding.description = "The code for allergy."
+* patient MS
 * patient only Reference(CHCorePatient)
 * patient ^short = "Patient"
+* recorder MS
 * recorder only Reference(CHCorePractitionerRole or CHCorePatient or RelatedPerson)
 * recorder ^short = "Recorder"

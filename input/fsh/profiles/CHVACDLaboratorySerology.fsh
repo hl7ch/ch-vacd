@@ -30,6 +30,6 @@ Description: "Definition of the labor and serology part for all documents, excep
 * performer only Reference(CHCorePractitionerRole or CHCoreOrganization)
 * performer ^short = "Patient"
 * performer MS
-* value[x] 1..1
+* value[x] 1..1 MS
 * value[x] only Quantity or CodeableConcept
 
