@@ -1,5 +1,39 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
+### STU 3 Ballot
+
+#### ValueSet issues
+* [Issue 126](https://github.com/hl7ch/ch-vacd/issues/126): review and update of CH-VACD value sets including translations
+* [Issue 116](https://github.com/hl7ch/ch-vacd/issues/116): additional HPV-vaccination ch-vacd-ch-vaccination-plan-immunizations-vs (Annatina Foppa, eHealth Suisse)
+* [Issue 115](https://github.com/hl7ch/ch-vacd/issues/115): additional HPV vaccine ch-vacd-vaccines-snomedct-vs (Annatina Foppa, eHealth Suisse)
+* [Issue 114](https://github.com/hl7ch/ch-vacd/issues/114): Change English display name to "Rotavirus disease" ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs (Annatina Foppa, eHealth Suisse)
+* [Issue 113](https://github.com/hl7ch/ch-vacd/issues/113): additional concept "Anaphylaxis caused by component of vaccine product (disorder)" ch-vacd-immunization-allergyintolerances-vs (Annatina Foppa, eHealth Suisse)
+* [Issue 106](https://github.com/hl7ch/ch-vacd/issues/106): Define CH Recommendation Forecast Status CodeSystem/ValueSet 
+* [Issue 103](https://github.com/hl7ch/ch-vacd/issues/103): Terminology - Nuvaxovid in Value Sets ergänzen (Annatina Foppa, eHealth Suisse)
+
+#### Fixes and Typos
+* [Issue 125](https://github.com/hl7ch/ch-vacd/issues/125): Improve Slicing that info entry[1] warnings are not shown
+* [Issue 123](https://github.com/hl7ch/ch-vacd/issues/123): Examples: Fix GLN Numbers in examples after failing checks by CH CORE profile
+* [Issue 122](https://github.com/hl7ch/ch-vacd/issues/122): Typo: communication:languageOfCorrespondance
+* [Issue 105](https://github.com/hl7ch/ch-vacd/issues/105): CM wrong direction of source / target (Roeland Luykx (RALY GmbH))
+
+#### Profile issues
+* [Issue 124](https://github.com/hl7ch/ch-vacd/issues/124): CH VACD Recommendation Profile - remove the profile without sense
+* [Issue 121](https://github.com/hl7ch/ch-vacd/issues/121): Profile Definition for "Basic Immunization done"
+* [Issue 119](https://github.com/hl7ch/ch-vacd/issues/119): map or remove ATC value set -- ch-vacd-vaccines-atc-vs (Annatina Foppa, eHealth Suisse)
+* [Issue 118](https://github.com/hl7ch/ch-vacd/issues/118): do we need it? CH VACD Pregnancy Profile (Annatina Foppa, eHealth Suisse)
+* [Issue 117](https://github.com/hl7ch/ch-vacd/issues/117): Really needed? CH VACD Other Relevant Observations (Condition) (Annatina Foppa, eHealth Suisse)
+* [Issue 112](https://github.com/hl7ch/ch-vacd/issues/112): Specify presentation requirements of Immunization Administration Document (Annatina Foppa, eHealth Suisse)
+* [Issue 111](https://github.com/hl7ch/ch-vacd/issues/111): absent or unknown immunization leads to unlogic constraints -- CH VACD Immunization Profile (Annatina Foppa, eHealth Suisse)
+* [Issue 110](https://github.com/hl7ch/ch-vacd/issues/110): Provide Minimal Data Set or Must Support (Annatina Foppa, eHealth Suisse)
+* [Issue 109](https://github.com/hl7ch/ch-vacd/issues/109): Terminology - replace urn:oid uri (Roeland Luykx, RALY GmbH)
+* [Issue 108](https://github.com/hl7ch/ch-vacd/issues/108): Immunization Profile - Vaccine code VS have to be extensible in place of requrired (Roeland Luykx, RALY GmbH/HCI)
+* [Issue 107](https://github.com/hl7ch/ch-vacd/issues/107): CH VACD Recommendation Patient Profile - reduce restriction for name (Roeland Luykx (in name of HCI))
+* [Issue 104](https://github.com/hl7ch/ch-vacd/issues/104): CH VACD Medication For Immunization Profile (Oliver Egger, ahdis)
+* [Issue 101](https://github.com/hl7ch/ch-vacd/issues/101): CH VACD Other Relevant Observations: add short explanation about the resource type Condition
+
+
+
 ### STU 2 Ballot
 
 #### Added Missing Parts
