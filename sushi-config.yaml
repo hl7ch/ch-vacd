@@ -12,7 +12,7 @@ status: active
 version: 2.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
-releaseLabel: STU 3
+releaseLabel: STU 3 Ballot
 publisher:
   name: HL7 Switzerland
   url: https://www.hl7.ch/
