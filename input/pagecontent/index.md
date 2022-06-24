@@ -18,7 +18,7 @@ During the development of the IG a lot of issues popped up which had to be resol
 
 The circumstance to be able to exchange the information across borders had his influence on the specification. The [International Patient Summary Implementation Guide (IPS)](http://hl7.org/fhir/uv/ips/) gave some support.
 
-The following documents have been defined:
+The following documents and messages have been defined:
 - [Immunization Administration document](immunization-administration-document.html)
 - [Vaccination Record document](vaccination-record-document.html)
 - [Immunization Recommendation Request message](immunization-recommendation-request-message.html)
