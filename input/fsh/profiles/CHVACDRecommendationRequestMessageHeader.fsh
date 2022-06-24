@@ -1,7 +1,7 @@
 Profile: CHVACDRecommendationRequestMessageHeader
 Parent: MessageHeader
 Id: ch-vacd-recommendation-request-messageheader
-Title: "CH VACD Immunization Recommendation Request MessageHeader Profile"
+Title: "CH VACD Immunization Recommendation Request MessageHeader"
 Description: "Definition of the MessageHeader for the immunization recommendation request."
 //* ^version = "0.1.0"
 * ^experimental = false

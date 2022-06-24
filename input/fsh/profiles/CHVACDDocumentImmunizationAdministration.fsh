@@ -1,7 +1,7 @@
 Profile: CHVACDDocumentImmunizationAdministration
 Parent: CHCoreDocumentEPR
 Id: ch-vacd-document-immunization-administration
-Title: "CH VACD Immunization Administration Document Profile"
+Title: "CH VACD Immunization Administration Document"
 Description: "Definition of the bundle for the immunization administration document. This document is allowed to be used in context of the Swiss EPR but can also used in context of data exchange next to the Swiss EPR."
 * ^version = "0.2.0"
 * ^experimental = false

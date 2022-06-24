@@ -1,7 +1,7 @@
 Profile: CHVACDRecommendationResponseMessageHeader
 Parent: MessageHeader
 Id: ch-vacd-recommendation-response-messageheader
-Title: "CH VACD Immunization Recommendation Response MessageHeader Profile"
+Title: "CH VACD Immunization Recommendation Response MessageHeader"
 Description: "Definition of the MessageHeader for the immunization recommendation response."
 //* ^version = "0.1.0"
 * ^experimental = false

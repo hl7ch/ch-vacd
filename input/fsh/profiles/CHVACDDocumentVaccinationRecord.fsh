@@ -1,7 +1,7 @@
 Profile: CHVACDDocumentVaccinationRecord
 Parent: CHCoreDocumentEPR
 Id: ch-vacd-document-vaccination-record
-Title: "CH VACD Vaccination Record Document Profile"
+Title: "CH VACD Vaccination Record Document"
 Description: "Definition of the bundle for the vaccination record document. This document is allowed to be used in context of the Swiss EPR but can also used in context of data exchange next to the Swiss EPR."
 * ^version = "0.2.0"
 * ^experimental = false

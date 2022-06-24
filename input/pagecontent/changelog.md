@@ -69,21 +69,21 @@ All significant changes to this FHIR implementation guide will be documented on 
    * [Target Diseases And Illnesses Undergone For Immunization](ValueSet-ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs.html)
 
 * [Issue 79](https://github.com/hl7ch/ch-vacd/issues/79): CH VACD Immunization Recommendations Profile cardinality of dateCriterion (Roeland Luykx, RALY GmbH)
-   * [CH VACD Immunization Recommendations Profile](StructureDefinition-ch-vacd-immunization-recommendation.html)
-   * [CH VACD Recommendation Immunization Recommendations Profile](StructureDefinition-ch-vacd-recommendation-immunization-recommendation.html)
+   * [CH VACD Immunization Recommendations](StructureDefinition-ch-vacd-immunization-recommendation.html)
+   * [CH VACD Recommendation Immunization Recommendations](StructureDefinition-ch-vacd-recommendation-immunization-recommendation.html)
 
 * [Issue 81](https://github.com/hl7ch/ch-vacd/issues/81): CH VACD Laboratory And Serology Profile, cardinality of valueQuantity  (Roeland Luykx, RALY GmbH)
-   * [CH VACD Laboratory And Serology Profile](StructureDefinition-ch-vacd-laboratory-serology.html)
+   * [CH VACD Laboratory And Serology](StructureDefinition-ch-vacd-laboratory-serology.html)
 
 * [Issue 89](https://github.com/hl7ch/ch-vacd/issues/89): slicing vaccine codes -- CH VACD Immunization Profile (Annatina Foppa, eHealth Suisse)
-   * [CH VACD Immunization Profile](StructureDefinition-ch-vacd-immunization.html)
+   * [CH VACD Immunization](StructureDefinition-ch-vacd-immunization.html)
    * [ATC Codes for Vaccination](ValueSet-ch-vacd-vaccines-atc-vs.html)
    * [Vaccines by SNOMED CT](ValueSet-ch-vacd-vaccines-snomedct-vs.html)
 
 
 #### Changed and Updates
 * [Issue 82](https://github.com/hl7ch/ch-vacd/issues/82): Profiles Link to IG AllergyIntolerances (Roeland Luykx, RALY GmbH) (Duplicate:  [Issue 90](https://github.com/hl7ch/ch-vacd/issues/90))
-   * [CH VACD AllergyIntolerance Profile](StructureDefinition-ch-vacd-allergyintolerances.html)
+   * [CH VACD AllergyIntolerance](StructureDefinition-ch-vacd-allergyintolerances.html)
 
 * [Issue 73](https://github.com/hl7ch/ch-vacd/issues/73): Complete TargetDisease VS (Roeland Luykx, RALY GmbH)
    * [Target Diseases And Illnesses Undergone For Immunization](ValueSet-ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs.html)
@@ -95,7 +95,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 * [Issue 93](https://github.com/hl7ch/ch-vacd/issues/93): Check if Recommendations should be in the document -- Vaccination Record document (Annatina Foppa, eHealth Suisse)
    * [Vaccination Record Document](vaccination-record-document.html)
-   * [CH VACD VaccinationRecord Composition Profile](StructureDefinition-ch-vacd-composition-vaccination-record.html)
+   * [CH VACD VaccinationRecord Composition](StructureDefinition-ch-vacd-composition-vaccination-record.html)
 
 * [Issue 99](https://github.com/hl7ch/ch-vacd/issues/99): Expert review of valuesets
    * [ATC Codes for Vaccination](ValueSet-ch-vacd-vaccines-atc-vs.html)

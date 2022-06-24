@@ -1,7 +1,7 @@
 Profile: CHVACDImmunizationRecommendation
 Parent: ImmunizationRecommendation
 Id: ch-vacd-immunization-recommendation
-Title: "CH VACD Immunization Recommendations Profile"
+Title: "CH VACD Immunization Recommendations"
 Description: "Definition of the immunization recommendation part for all documents, except recommendation request and response documents."
 * ^version = "0.2.0"
 * ^status = #active

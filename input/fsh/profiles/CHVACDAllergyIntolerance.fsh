@@ -1,7 +1,7 @@
 Profile: CHVACDAllergyIntolerance
 Parent: CHAllergyIntolerance
 Id: ch-vacd-allergyintolerances
-Title: "CH VACD AllergyIntolerance Profile"
+Title: "CH VACD AllergyIntolerance"
 Description: "Definition of the AllergyIntolerance part for vaccination record documents."
 * ^version = "0.1.0"
 * ^status = #draft

@@ -1,7 +1,7 @@
 Profile: CHVACDCompositionImmunizationAdministration
 Parent: CHCoreCompositionEPR
 Id: ch-vacd-composition-immunization-administration
-Title: "CH VACD Immunization Administration Composition Profile"
+Title: "CH VACD Immunization Administration Composition"
 Description: "Definition of the composition for the  immunization administration document."
 * ^version = "0.2.0"
 * ^experimental = false

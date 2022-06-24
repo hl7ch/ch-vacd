@@ -15,10 +15,10 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 * 3.1 Example Patient: [XML](Patient-3-1-Patient.xml.html), [JSON](Patient-3-1-Patient.json.html)
 
 ### Resource profiles
-* [CH VACD Immunization Administration Document Profile](StructureDefinition-ch-vacd-document-immunization-administration.html): Definition of the bundle for the immunization administration document.
-* [CH VACD Immunization Administration Composition Profile](StructureDefinition-ch-vacd-composition-immunization-administration.html): Definition of the composition for the immunization administration document.
-* [CH VACD Immunization Profile](StructureDefinition-ch-vacd-immunization.html): Definition of the immunization part for all documents.
-* [CH VACD Medical Problems Profile](StructureDefinition-ch-vacd-medical-problems.html): Definition of the medical problems part for all documents.
-* [CH VACD Past Illness Profile](StructureDefinition-ch-vacd-pastillnesses.html): Definition of the past illness part for all documents.
-* [CH VACD AllergyIntolerance Profile](StructureDefinition-ch-vacd-allergyintolerances.html): Definition of the AllergyIntolerance part for all documents.
-* [CH VACD Laboratory And Serology Profile](StructureDefinition-ch-vacd-laboratory-serology.html): Definition of the labor and serology part for all documents.
+* [CH VACD Immunization Administration Document](StructureDefinition-ch-vacd-document-immunization-administration.html): Definition of the bundle for the immunization administration document.
+* [CH VACD Immunization Administration Composition](StructureDefinition-ch-vacd-composition-immunization-administration.html): Definition of the composition for the immunization administration document.
+* [CH VACD Immunization](StructureDefinition-ch-vacd-immunization.html): Definition of the immunization part for all documents.
+* [CH VACD Medical Problems](StructureDefinition-ch-vacd-medical-problems.html): Definition of the medical problems part for all documents.
+* [CH VACD Past Illness](StructureDefinition-ch-vacd-pastillnesses.html): Definition of the past illness part for all documents.
+* [CH VACD AllergyIntolerance](StructureDefinition-ch-vacd-allergyintolerances.html): Definition of the AllergyIntolerance part for all documents.
+* [CH VACD Laboratory And Serology](StructureDefinition-ch-vacd-laboratory-serology.html): Definition of the labor and serology part for all documents.

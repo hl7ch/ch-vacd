@@ -1,7 +1,7 @@
 Profile: CHVACDPastIllness
 Parent: CHVACDCondition
 Id: ch-vacd-pastillnesses
-Title: "CH VACD Past Illness Profile"
+Title: "CH VACD Past Illness"
 Description: "Definition of the past illness part for all documents, except recommendation request and response documents."
 * ^version = "0.2.0"
 * ^status = #draft

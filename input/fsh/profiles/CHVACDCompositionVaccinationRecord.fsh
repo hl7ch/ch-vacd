@@ -1,7 +1,7 @@
 Profile: CHVACDCompositionVaccinationRecord
 Parent: CHCoreCompositionEPR
 Id: ch-vacd-composition-vaccination-record
-Title: "CH VACD VaccinationRecord Composition Profile"
+Title: "CH VACD VaccinationRecord Composition"
 Description: "Definition of the composition for the vaccination record document."
 * ^version = "0.2.0"
 * ^experimental = false

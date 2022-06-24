@@ -3,7 +3,7 @@ This profile can be used as abstract derivation of the official [Condition](http
 <blockquote class="stu-note">
 Please do not use this profile directly.<br>
 Look into the profiles:
-* [CH VACD Recommendation Medical Problems profile](StructureDefinition-ch-vacd-ch-vacd-recommendation-medical-problems.html)
-* [CH VACD Recommendation Past Illness profile](StructureDefinition-ch-vacd-ch-vacd-recommendation-pastillnesses.html)
-* [CH VACD Recommendation Pregnancy profile](StructureDefinition-ch-vacd-ch-vacd-recommendation-pregnancy.html)
+* [CH VACD Recommendation Medical Problems](StructureDefinition-ch-vacd-ch-vacd-recommendation-medical-problems.html)
+* [CH VACD Recommendation Past Illness](StructureDefinition-ch-vacd-ch-vacd-recommendation-pastillnesses.html)
+* [CH VACD Recommendation Pregnancy](StructureDefinition-ch-vacd-ch-vacd-recommendation-pregnancy.html)
 </blockquote>
