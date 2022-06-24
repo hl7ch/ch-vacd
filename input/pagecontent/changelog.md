@@ -12,12 +12,15 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [Issue 103](https://github.com/hl7ch/ch-vacd/issues/103): Terminology - Nuvaxovid in Value Sets ergänzen (Annatina Foppa, eHealth Suisse)
 
 #### Fixes and Typos
+* [Issue 128](https://github.com/hl7ch/ch-vacd/issues/128): Rename tab 'Documents'
+* [Issue 127](https://github.com/hl7ch/ch-vacd/issues/127): Update title of the profiles
 * [Issue 125](https://github.com/hl7ch/ch-vacd/issues/125): Improve Slicing that info entry[1] warnings are not shown
 * [Issue 123](https://github.com/hl7ch/ch-vacd/issues/123): Examples: Fix GLN Numbers in examples after failing checks by CH CORE profile
 * [Issue 122](https://github.com/hl7ch/ch-vacd/issues/122): Typo: communication:languageOfCorrespondance
 * [Issue 105](https://github.com/hl7ch/ch-vacd/issues/105): CM wrong direction of source / target (Roeland Luykx (RALY GmbH))
 
 #### Profile issues
+* [Issue 129](https://github.com/hl7ch/ch-vacd/issues/129): warning: Found multiple matching profiles
 * [Issue 124](https://github.com/hl7ch/ch-vacd/issues/124): CH VACD Recommendation Profile - remove the profile without sense
 * [Issue 121](https://github.com/hl7ch/ch-vacd/issues/121): Profile Definition for "Basic Immunization done"
 * [Issue 119](https://github.com/hl7ch/ch-vacd/issues/119): map or remove ATC value set -- ch-vacd-vaccines-atc-vs (Annatina Foppa, eHealth Suisse)
