@@ -2,6 +2,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 3 Ballot
 
+The issues in an overview for this ballot can be found [here](https://github.com/hl7ch/ch-vacd/issues?q=is%3Aissue+-label%3Abacklog+milestone%3A%22Ballot+2.1.0%22)
+
 #### ValueSet issues
 * [Issue 126](https://github.com/hl7ch/ch-vacd/issues/126): review and update of CH-VACD value sets including translations
 * [Issue 116](https://github.com/hl7ch/ch-vacd/issues/116): additional HPV-vaccination ch-vacd-ch-vaccination-plan-immunizations-vs (Annatina Foppa, eHealth Suisse)
