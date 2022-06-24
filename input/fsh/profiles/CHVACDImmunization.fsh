@@ -24,6 +24,7 @@ Description: "Definition of the immunization part for all documents, except reco
 * extension[relatesTo] ^definition = "The definition of a relation of this immunization entry in this document to an immunization entry in an other document."
 * identifier 1..
 * identifier ^short = "Immunization item ID"
+* status MS
 * vaccineCode 1..1 MS
 * vaccineCode from $ch-vacd-vaccines-vs (extensible)
 * vaccineCode.coding ^slicing.discriminator.type = #pattern
@@ -48,11 +49,15 @@ Description: "Definition of the immunization part for all documents, except reco
 * patient ^short = "Patient"
 * encounter only Reference(CHCoreEncounter)
 * encounter ^short = "Encounter"
+* lotNumber MS
+* site MS
+* route MS
 * route from $ch-vacd-route-of-administration-vs (extensible)
 * route ^short = "How vaccine entered body."
 * performer.actor MS
 * performer.actor only Reference(CHCorePractitionerRole)
 * performer.actor ^short = "The performer who applied the vaccine"
+* reasonCode MS
 * protocolApplied 1..
 * protocolApplied.targetDisease 1.. MS
 * protocolApplied.targetDisease from $ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs (extensible)

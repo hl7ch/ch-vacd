@@ -8,8 +8,14 @@ Description: "Definition of the medical problems part for all documents, except 
 * ^experimental = false
 * ^publisher = "eHealth Suisse"
 * . ^short = "CH VACD Medical Problems Conditions"
+* clinicalStatus MS
+* verificationStatus MS
+* category MS
 * category 1..1
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
+* severity MS
+* onset[x] MS
+* abatement[x] MS
 * code MS
 * code from $ch-vacd-risks-vs (extensible)
 * code ^short = "Medical problem code"
@@ -18,3 +24,6 @@ Description: "Definition of the medical problems part for all documents, except 
 * code ^binding.extension[+].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"
 * code ^binding.extension[=].valueBoolean = true
 * code ^binding.description = "The code for medical problems (exposition and medical risks) for immunization."
+* bodySite MS
+* note MS
+* note.author[x] MS

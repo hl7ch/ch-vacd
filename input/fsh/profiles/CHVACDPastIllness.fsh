@@ -9,8 +9,11 @@ Description: "Definition of the past illness part for all documents, except reco
 * ^publisher = "eHealth Suisse"
 * . ^short = "CH VACD Past Illness Conditions"
 * category 0..0
+* clinicalStatus MS
 * clinicalStatus 1..1
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#resolved 	"Resolved"
+* verificationStatus MS
+* severity MS
 * code MS
 * code from $ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs (extensible)
 * code ^short = "Past illness code"
@@ -22,3 +25,7 @@ Description: "Definition of the past illness part for all documents, except reco
 * onsetDateTime 1..1 MS
 * onsetDateTime ^short = "Condition onset DateTime to declare the disorder/illness hat taken place."
 * onsetDateTime ^comment = "The date the declared disorder had taken place and an immunization will be evolved."
+* abatement[x] MS
+* evidence.code MS
+* note MS
+* note.author[x] MS
