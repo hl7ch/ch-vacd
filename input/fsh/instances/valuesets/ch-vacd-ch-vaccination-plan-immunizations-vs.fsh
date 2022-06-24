@@ -374,17 +374,33 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "COVID-19 mRNA vaccination"
 
-//added 2022.06.08
-* compose.include.concept[+].code = #1162645008 
+//added 20220624
+//1209198003	Administration of vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigen (procedure)	Impfung gegen die humanen Papillomaviren 6, 11, 16, 18, 31, 33, 45, 52 und 58	Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 vaccination	vaccination contre le papillomavirus humain 6, 11, 16, 18, 31, 33, 45, 52 and 58	TO DO	Impfung gegen die humanen Papillomaviren 6, 11, 16, 18, 31, 33, 45, 52 und 58
+* compose.include.concept[+].code = #1209198003
+* compose.include.concept[=].display = "Administration of vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigen (procedure)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Impfung gegen die humanen Papillomaviren 6, 11, 16, 18, 31, 33, 45, 52 und 58"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccination contre le papillomavirus humain 6, 11, 16, 18, 31, 33, 45, 52 and 58"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Impfung gegen die humanen Papillomaviren 6, 11, 16, 18, 31, 33, 45, 52 und 58"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Impfung gegen die humanen Papillomaviren 6, 11, 16, 18, 31, 33, 45, 52 und 58"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 vaccination"
+
+
+//added 20220624
+//1162645008	Administration of vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (procedure)	Impfung gegen Covid-19 mit rekombinanten Spike-Protein-Antigenen	COVID-19 recombinant spike protein antigen vaccination	vaccination antigénique à protéine Spike recombinante contre le COVID-19	TO DO	Impfung gegen Covid-19 mit rekombinanten Spike-Protein-Antigenen
+* compose.include.concept[+].code = #1162645008
 * compose.include.concept[=].display = "Administration of vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (procedure)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "xxx-Impfung gegen COVID-19"
+* compose.include.concept[=].designation[=].value = "Impfung gegen Covid-19 mit rekombinanten Spike-Protein-Antigenen"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "administration d'un vaccin à xxx du SARS-CoV-2"
+* compose.include.concept[=].designation[=].value = "vaccination antigénique à protéine Spike recombinante contre le COVID-19"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "vaccinazione con vaccino a xxx anti-COVID-19"
+* compose.include.concept[=].designation[=].value = "Impfung gegen Covid-19 mit rekombinanten Spike-Protein-Antigenen"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "xxxx-Impfung gegen COVID-19"
+* compose.include.concept[=].designation[=].value = "Impfung gegen Covid-19 mit rekombinanten Spike-Protein-Antigenen"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "COVID-19 recombinant spike protein antigen vaccination"
-

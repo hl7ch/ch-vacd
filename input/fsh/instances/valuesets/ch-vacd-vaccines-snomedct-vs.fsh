@@ -490,15 +490,31 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "COVID-19 non-replicating viral vector vaccine"
 
 //added 2022.06.08
+//1162643001	Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)	Covid-19 rekombinanter Spike-Protein-Antigen-Impfstoff 	COVID-19 recombinant spike protein antigen vaccine	vaccin antigénique à protéine Spike recombinante contre le COVID-19	TO DO
 * compose.include.concept[+].code = #1162643001
 * compose.include.concept[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
+* compose.include.concept[=].designation[=].value = "Covid-19 rekombinanter Spike-Protein-Antigen-Impfstoff"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "vaccin à antigène de la protéine S recombinante du SRAS-CoV-2"
+* compose.include.concept[=].designation[=].value = "vaccin antigénique à protéine Spike recombinante contre le COVID-19"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
+* compose.include.concept[=].designation[=].value = "Covid-19 rekombinanter Spike-Protein-Antigen-Impfstoff"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
+* compose.include.concept[=].designation[=].value = "Covid-19 rekombinanter Spike-Protein-Antigen-Impfstoff"
 * compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "SARS-CoV-2 recombinant spike protein antigen vaccine"
+* compose.include.concept[=].designation[=].value = "COVID-19 recombinant spike protein antigen vaccine"
+
+//added 2022.06.24
+//1209197008	Vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens (medicinal product)	Impfstoff gegen die humanen Papillomaviren 6, 11, 16, 18, 31, 33, 45, 52 und 58	Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 vaccine	vaccin contre le papillomavirus humain 6, 11, 16, 18, 31, 33, 45, 52 and 58	TO DO
+* compose.include.concept[+].code = #1209197008
+* compose.include.concept[=].display = "Vaccine product containing only Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Impfstoff gegen die humanen Papillomaviren 6, 11, 16, 18, 31, 33, 45, 52 und 58"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccine	vaccin contre le papillomavirus humain 6, 11, 16, 18, 31, 33, 45, 52 and 58"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Impfstoff gegen die humanen Papillomaviren 6, 11, 16, 18, 31, 33, 45, 52 und 58"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Impfstoff gegen die humanen Papillomaviren 6, 11, 16, 18, 31, 33, 45, 52 und 58"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58"

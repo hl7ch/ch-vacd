@@ -89,20 +89,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to component of vaccine product"
 
-// new by expert review 202201
-* compose.include[=].concept[+].code = #39579001
-* compose.include[=].concept[=].display = "Anaphylaxis (disorder)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Anaphylaktische Reaktion"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "réaction anaphylactique"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "reazione anafilattica"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Anaphylaktische Reaktion"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Anaphylactic reaction"
-
 * compose.include[=].concept[+].code = #293104008
 * compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product (disorder)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -390,20 +376,34 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Yellow fever vaccine adverse reaction"
 
 //added 2022.06.08
-//1162644007 Adverse reaction to component of vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (disorder)
+//1162644007	Adverse reaction to component of vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (disorder)	Unerwünschte Wirkung eines Covid-19-rekombinanten Spike-Protein-Antigen-Impfstoffs	COVID-19 recombinant spike protein antigen vaccine adverse reaction	effet indésirable du vaccin antigénique à protéine Spike recombinante contre le COVID-19	reazione avversa al vaccino anti-COVID-19 ricombinante con antigene della proteina spike	
 * compose.include[=].concept[+].code = #1162644007
 * compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (disorder)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung"
+* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Covid-19-rekombinanten Spike-Protein-Antigen-Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "effet indésirable du vaccin contre"
+* compose.include[=].concept[=].designation[=].value = "effet indésirable du vaccin antigénique à protéine Spike recombinante contre le COVID-19"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro"
+* compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino anti-COVID-19 ricombinante con antigene della proteina spike"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines"
+* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Covid-19-rekombinanten Spike-Protein-Antigen-Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "COVID-19 recombinant spike protein antigen vaccine adverse reaction"
 
+//added 2022.06.24
+//1217476001	Anaphylaxis caused by component of vaccine product (disorder)	Anaphylaktische Reaktion auf einen Impfstoff	Anaphylaxis due to vaccine	réaction anaphylactique due au vaccin	anafilassi dovuta al vaccino	Anaphylaktische Reaktion auf einen Impfstoff
+* compose.include[=].concept[+].code = #1217476001
+* compose.include[=].concept[=].display = "Anaphylaxis caused by component of vaccine product (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Anaphylaktische Reaktion auf einen Impfstoff"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "réaction anaphylactique due au vaccin"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "anafilassi dovuta al vaccino"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Anaphylaktische Reaktion auf einen Impfstoff"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Anaphylaxis due to vaccine"
 
 // missing herpes zoster
 // missing fsme

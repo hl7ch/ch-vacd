@@ -178,7 +178,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #rm-CH
 * compose.include.concept[=].designation[=].value = "Rotaviren-Erkrankung"
 * compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Disease caused by Rotavirus"
+* compose.include.concept[=].designation[=].value = "Rotavirus disease"
 * compose.include.concept[+].code = #14168008
 * compose.include.concept[=].display = "Rabies (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -200,7 +200,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "tubercolosi"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Tuberculosis (disorder)"
+* compose.include.concept[=].designation[=].value = "Tuberkulose"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Tuberculosis"
 * compose.include.concept[+].code = #4834000
