@@ -8,7 +8,6 @@ Title: "Exposition Risk Worker in Healthcare (Condition)"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCC03-EXPRISK1"
-
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-cross-reference"
 * extension[=].extension[+].url = "entry"
 * extension[=].extension[=].valueReference = Reference(TCB03_EXPRISK1)
@@ -16,10 +15,10 @@ Usage: #example
 * extension[=].extension[=].valueReference = Reference(B_D4_HCP1_C1_Composition)
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
-
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
 * identifier.value = "30327ea1-6893-4c65-896e-c32c394f1ec6"
 * code = $ch-vacd-exprisk#213001 "Beschäftigte im Gesundheitswesen"
+* category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * subject = Reference(TC_patient)
 * onsetDateTime = "2021-10-01"
 * recordedDate = "2021-12-20"

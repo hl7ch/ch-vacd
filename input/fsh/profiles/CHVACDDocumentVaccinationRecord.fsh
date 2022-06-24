@@ -18,8 +18,10 @@ Description: "Definition of the bundle for the vaccination record document. This
 * entry ^slicing.rules = #open
 * entry contains
     Immunization 0..* and
-    Condition 0..* and
-    AllergyIntolerence 0..* and
+    BasicImmunization 0..* and
+    MedicalProblem 0..* and 
+    PastIllness 0..* and
+    AllergyIntolerance 0..* and
     Observation 0..* and
     Medication 0..*
 
@@ -28,20 +30,35 @@ Description: "Definition of the bundle for the vaccination record document. This
 * entry[Composition].resource only CHVACDCompositionVaccinationRecord
 
 * entry[Patient] 1..*
+* entry[Patient].resource 1..1
 
 * entry[Organization] 1..*
+* entry[Organization].resource 1..1
 
 * entry[Immunization] ^short = "Immunization"
+* entry[Immunization].resource 1..1
 * entry[Immunization].resource only CHVACDImmunization
 
-* entry[Condition] ^short = "Condition"
-* entry[Condition].resource only CHVACDCondition
+* entry[BasicImmunization] ^short = "BasicImmunizations"
+* entry[BasicImmunization].resource 1..1
+* entry[BasicImmunization].resource only CHVACDBasicImmunization
 
-* entry[AllergyIntolerence] ^short = "AllergyIntolerence"
-* entry[AllergyIntolerence].resource only CHVACDAllergyIntolerance
+* entry[MedicalProblem] ^short = "MedicalProblems"
+* entry[MedicalProblem].resource 1..1
+* entry[MedicalProblem].resource only CHVACDMedicalProblems
+
+* entry[PastIllness] ^short = "PastIllness"
+* entry[PastIllness].resource 1..1
+* entry[PastIllness].resource only CHVACDPastIllness
+
+* entry[AllergyIntolerance] ^short = "AllergyIntolerance"
+* entry[AllergyIntolerance].resource 1..1
+* entry[AllergyIntolerance].resource only CHVACDAllergyIntolerance
 
 * entry[Observation] ^short = "Observation"
+* entry[Observation].resource 1..1
 * entry[Observation].resource only CHVACDLaboratorySerology
 
 * entry[Medication] ^short = "Medication"
+* entry[Medication].resource 1..1
 * entry[Medication].resource only CHVACDMedicationForImmunization

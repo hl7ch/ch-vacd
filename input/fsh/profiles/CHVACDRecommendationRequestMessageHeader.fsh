@@ -35,12 +35,10 @@ Description: "Definition of the MessageHeader for the immunization recommendatio
     CHCorePractitioner or
     CHCoreOrganization or
     CHVACDAllergyIntolerance or
-    CHVACDCondition or
     CHVACDImmunization or
     CHVACDLaboratorySerology or
     CHVACDMedicalProblems or
     CHVACDPastIllness or
     CHVACDBasicImmunization or
-    CHVACDCondition or
     Consent
 )

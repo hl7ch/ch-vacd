@@ -15,7 +15,7 @@ Usage: #example
 * onsetDateTime = "2015-07-30"
 * recordedDate = "2015-07-30"
 * recorder = Reference(TC_patient)
-* clinicalStatus = $condition-clinical-status#active "Active"
+* clinicalStatus = $condition-clinical-status#resolved "Resolved"
 * verificationStatus = $condition-verification-status#unconfirmed "Unconfirmed"
 
 // ////////////////////////////////////////////////
@@ -45,7 +45,7 @@ Usage: #example
 * recordedDate = "2021-09-10"
 * abatementDateTime	= "2021-09-10"
 * recorder = Reference(TC_HCP1_ORG1_ROLE_author)
-* clinicalStatus = $condition-clinical-status#inactive "Inactive"
+* clinicalStatus = $condition-clinical-status#resolved "Resolved"
 * verificationStatus = $condition-verification-status#refuted "Refuted"
 
 // ////////////////////////////////////////////////
@@ -68,5 +68,5 @@ Usage: #example
 * recordedDate = "2021-09-10"
 * abatementDateTime	= "2021-09-10"
 * recorder = Reference(TC_HCP1_ORG1_ROLE_author)
-* clinicalStatus = $condition-clinical-status#inactive "Inactive"
+* clinicalStatus = $condition-clinical-status#resolved "Resolved"
 * verificationStatus = $condition-verification-status#refuted "Refuted"

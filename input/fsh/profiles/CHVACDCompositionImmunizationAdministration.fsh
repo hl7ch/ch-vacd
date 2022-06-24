@@ -43,7 +43,7 @@ Description: "Definition of the composition for the  immunization administration
     administration 0..1 and
     medicalproblems 0..1 and
     pastillnesses 0..1 and
-    allergyintolerences 0..1 and
+    allergyintolerances 0..1 and
     laboratory-serology 0..1 and
     annotation 0..1 
 * section[administration] MS
@@ -115,28 +115,28 @@ Description: "Definition of the composition for the  immunization administration
 * section[pastillnesses].entry.reference 1..1
 * section[pastillnesses].section 0..0
 
-* section[allergyintolerences] MS
-* section[allergyintolerences] ^short = "Allergies and Intolerences"
-* section[allergyintolerences].extension ^slicing.discriminator.type = #value
-* section[allergyintolerences].extension ^slicing.discriminator.path = "url"
-* section[allergyintolerences].extension ^slicing.rules = #open
-* section[allergyintolerences].title 1..1
-* section[allergyintolerences].title ^short = "'Allergien' in german or 'Les allergies' in french or 'Allergie' in italian or 'Allergies' in english\n                        or titles in other languages are also allowed"
-* section[allergyintolerences].code 1..
-* section[allergyintolerences].code = $loinc#48765-2 "Allergies and adverse reactions Document"
-* section[allergyintolerences].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or RelatedPerson)
-* section[allergyintolerences].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
-* section[allergyintolerences].author.extension 0..1
-* section[allergyintolerences].author.extension only EPRTime
-* section[allergyintolerences].author.extension ^short = "Timestamp of the authorship/data input"
-* section[allergyintolerences].author.reference 1..
-* section[allergyintolerences].text 1..1
-* section[allergyintolerences].text ^short = "Human readable text of this section"
-* section[allergyintolerences].entry 0..*
-* section[allergyintolerences].entry only Reference(CHVACDAllergyIntolerance)
-* section[allergyintolerences].entry ^short = "Allergies"
-* section[allergyintolerences].entry.reference 1..1
-* section[allergyintolerences].section 0..0
+* section[allergyintolerances] MS
+* section[allergyintolerances] ^short = "Allergies and Intolerences"
+* section[allergyintolerances].extension ^slicing.discriminator.type = #value
+* section[allergyintolerances].extension ^slicing.discriminator.path = "url"
+* section[allergyintolerances].extension ^slicing.rules = #open
+* section[allergyintolerances].title 1..1
+* section[allergyintolerances].title ^short = "'Allergien' in german or 'Les allergies' in french or 'Allergie' in italian or 'Allergies' in english\n                        or titles in other languages are also allowed"
+* section[allergyintolerances].code 1..
+* section[allergyintolerances].code = $loinc#48765-2 "Allergies and adverse reactions Document"
+* section[allergyintolerances].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or RelatedPerson)
+* section[allergyintolerances].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
+* section[allergyintolerances].author.extension 0..1
+* section[allergyintolerances].author.extension only EPRTime
+* section[allergyintolerances].author.extension ^short = "Timestamp of the authorship/data input"
+* section[allergyintolerances].author.reference 1..
+* section[allergyintolerances].text 1..1
+* section[allergyintolerances].text ^short = "Human readable text of this section"
+* section[allergyintolerances].entry 0..*
+* section[allergyintolerances].entry only Reference(CHVACDAllergyIntolerance)
+* section[allergyintolerances].entry ^short = "Allergies"
+* section[allergyintolerances].entry.reference 1..1
+* section[allergyintolerances].section 0..0
 
 * section[laboratory-serology] MS
 * section[laboratory-serology] ^short = "Laboratory-Serology"

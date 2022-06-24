@@ -5,6 +5,7 @@ Description: "Example Condition for medical problems for Recommendation Request/
 Usage: #example
 * meta.profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems"
 * code = http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-complication-risks-cs#114036 "ANDERE_LEBERERKRANKUNG"
+* category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * subject.reference = "Patient/3-2-Patient"
 * recordedDate = "2019-04-01T00:00:00+02:00"
 * recorder.reference = "PractitionerRole/6-4-PractitionerRole"

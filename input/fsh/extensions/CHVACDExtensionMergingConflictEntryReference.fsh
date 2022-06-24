@@ -27,7 +27,8 @@ Description: "Extension to make a reference to an entry conflicting with other e
 * extension[entry] ^definition = "Reference to the conflicting entry."
 * extension[entry].url only uri
 * extension[entry].valueReference 1..
-* extension[entry].valueReference only Reference(CHVACDAllergyIntolerance or CHVACDImmunization or CHVACDLaboratorySerology or CHVACDMedicalProblems or CHVACDPastIllness)
+//* extension[entry].valueReference only Reference(CHVACDImmunization or CHVACDAllergyIntolerance  or CHVACDLaboratorySerology or CHVACDBasicImmunization or CHVACDMedicalProblems or CHVACDPastIllness)
+* extension[entry].valueReference only Reference(CHVACDImmunization or CHVACDAllergyIntolerance  or CHVACDLaboratorySerology or CHVACDCondition)
 * extension[entry].valueReference ^short = "The Reference to the conflicting entry."
 * extension[conflict] only Extension
 * extension[conflict] ^short = "Reference to the related document"

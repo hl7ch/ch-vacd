@@ -8,9 +8,12 @@ Description: "Definition of the past illness part for all documents, except reco
 * ^experimental = false
 * ^publisher = "eHealth Suisse"
 * . ^short = "CH VACD Past Illness Conditions"
+* category 0..0
+* clinicalStatus 1..1
+* clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#resolved 	"Resolved"
 * code MS
 * code from $ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs (extensible)
-* code ^short = "Condition code"
+* code ^short = "Past illness code"
 * code ^binding.extension[0].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
 * code ^binding.extension[=].valueString = "PastIllnessesCode"
 * code ^binding.extension[+].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"
