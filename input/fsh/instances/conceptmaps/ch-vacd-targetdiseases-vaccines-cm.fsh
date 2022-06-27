@@ -489,6 +489,10 @@ Usage: #definition
 * group[=].element[=].target[+].code = #68235
 * group[=].element[=].target[=].display = "COVID-19 Vaccine Janssen"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-06-27
+* group[=].element[=].target[+].code = #68473
+* group[=].element[=].target[=].display = "Nuvaxovid 5 ml, Injektionsdispersion"
+* group[=].element[=].target[=].equivalence = #wider
 
 // added 2021-11-19
 //66161	01	Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
