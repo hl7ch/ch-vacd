@@ -16,7 +16,7 @@ Usage: #definition
 * contact.name = "eHealth Suisse"
 * contact.telecom.system = #url
 * contact.telecom.value = "www.e-health-suisse.ch"
-* description = "The allergies which have an influence on the immunization recommendations."
+* description = "The allergies and adverse reactions which have an influence on the immunization recommendations."
 * immutable = false
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 
@@ -26,13 +26,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Keine Allergie bekannt"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Aucune allergie connue"
+* compose.include[=].concept[=].designation[=].value = "pas d'allergie connue"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Nessuna allergia nota"
+* compose.include[=].concept[=].designation[=].value = "nessuna allergia nota"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
 * compose.include[=].concept[=].designation[=].value = "Keine Allergie bekannt"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "No known allergy (situation)"
+* compose.include[=].concept[=].designation[=].value = "No known allergy"
 
 * compose.include[+].system = "http://snomed.info/sct"
 * compose.include[=].concept[+].code = #213020009
@@ -64,28 +64,28 @@ Usage: #definition
 * compose.include[=].concept[+].code = #416098002
 * compose.include[=].concept[=].display = "Allergy to drug (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Medikamente"
+* compose.include[=].concept[=].designation[=].value = "Medikamenten-Allergie"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie aux médicaments"
+* compose.include[=].concept[=].designation[=].value = "allergie aux médicaments"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Allergia ai farmaci"
+* compose.include[=].concept[=].designation[=].value = "allergia ai farmaci"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Medikamente"
+* compose.include[=].concept[=].designation[=].value = "Medikamenten-Allergie"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Allergy to drug (finding)"
+* compose.include[=].concept[=].designation[=].value = "Allergy to drug"
 
 
 * compose.include[+].system = "http://snomed.info/sct"
 * compose.include[=].concept[+].code = #863903001
 * compose.include[=].concept[=].display = "Allergy to component of vaccine product (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen einen Bestandteil eines Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Bestandteil eines Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie à un composant du vaccin"
+* compose.include[=].concept[=].designation[=].value = "allergie à un composant du vaccin"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Allergia a un componente del vaccino"
+* compose.include[=].concept[=].designation[=].value = "allergia a un componente del vaccino"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen einen Bestandteil eines Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Bestandteil eines Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to component of vaccine product"
 
@@ -94,7 +94,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "réaction indésirable à un vaccin"
+* compose.include[=].concept[=].designation[=].value = "effet indésirable à un vaccin"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa a un vaccino"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
@@ -120,7 +120,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines mRNA-Impfstoffs gegen COVID-19"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "réaction indésirable à un composant d'un vaccin à ARNm contre la COVID-19"
+* compose.include[=].concept[=].designation[=].value = "effet indésirable à un composant d'un vaccin à ARNm contre la COVID-19"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino a mRNA anti-COVID-19"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
@@ -146,7 +146,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Diphtherie-, Pertussis (azellulär)-, Haemophilus influenzae B-, Hepatitis B- und Poliomyelitis sowie Tetanus (inaktiviert)-Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Effet indésirable d'un vaccin contre la diphtérie, la coqueluche (acellulaire), Haemophilus influenzae de type B, l'hépatite B, la poliomyélite (inactivé) et le tétanos"
+* compose.include[=].concept[=].designation[=].value = "effet indésirable d'un vaccin contre la diphtérie, la coqueluche (acellulaire), Haemophilus influenzae de type B, l'hépatite B, la poliomyélite (inactivé) et le tétanos"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro la difterite, il tetano, la pertosse (acellulare), la poliomielite (inattivato), l’Haemophilus influenzae di tipo B e l’epatite B"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
