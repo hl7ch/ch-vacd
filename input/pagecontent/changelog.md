@@ -22,6 +22,7 @@ The issues in an overview for this ballot can be found [here](https://github.com
 * [Issue 105](https://github.com/hl7ch/ch-vacd/issues/105): CM wrong direction of source / target (Roeland Luykx (RALY GmbH))
 
 #### Profile issues
+* [Issue 130](https://github.com/hl7ch/ch-vacd/issues/130): Cardinality of text in section
 * [Issue 129](https://github.com/hl7ch/ch-vacd/issues/129): warning: Found multiple matching profiles
 * [Issue 124](https://github.com/hl7ch/ch-vacd/issues/124): CH VACD Recommendation Profile - remove the profile without sense
 * [Issue 121](https://github.com/hl7ch/ch-vacd/issues/121): Profile Definition for "Basic Immunization done"

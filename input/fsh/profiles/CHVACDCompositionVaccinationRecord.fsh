@@ -67,7 +67,7 @@ Description: "Definition of the composition for the vaccination record document.
 * section[administration].author.extension only EPRTime
 * section[administration].author.extension ^short = "Timestamp of the authorship/data input"
 * section[administration].author.reference 1..
-* section[administration].text     1..1
+//* section[administration].text     1..1
 * section[administration].text     ^short = "Human readable text of this section"
 * section[administration].entry     0..*
 * section[administration].entry     only Reference(CHVACDImmunization or CHVACDBasicImmunization)
@@ -90,7 +90,7 @@ Description: "Definition of the composition for the vaccination record document.
 * section[medicalproblems].author.extension only EPRTime
 * section[medicalproblems].author.extension ^short = "Timestamp of the authorship/data input"
 * section[medicalproblems].author.reference 1..
-* section[medicalproblems].text 1..1
+//* section[medicalproblems].text 1..1
 * section[medicalproblems].text ^short = "Human readable text of this section"
 * section[medicalproblems].entry 0..*
 * section[medicalproblems].entry only Reference(CHVACDMedicalProblems)
@@ -113,7 +113,7 @@ Description: "Definition of the composition for the vaccination record document.
 * section[pastillnesses].author.extension only EPRTime
 * section[pastillnesses].author.extension ^short = "Timestamp of the authorship/data input"
 * section[pastillnesses].author.reference 1..
-* section[pastillnesses].text 1..1
+//* section[pastillnesses].text 1..1
 * section[pastillnesses].text ^short = "Human readable text of this section"
 * section[pastillnesses].entry 0..*
 * section[pastillnesses].entry only Reference(CHVACDPastIllness)
@@ -136,7 +136,7 @@ Description: "Definition of the composition for the vaccination record document.
 * section[allergyintolerances].author.extension only EPRTime
 * section[allergyintolerances].author.extension ^short = "Timestamp of the authorship/data input"
 * section[allergyintolerances].author.reference 1..
-* section[allergyintolerances].text 1..1
+//* section[allergyintolerances].text 1..1
 * section[allergyintolerances].text ^short = "Human readable text of this section"
 * section[allergyintolerances].entry 0..*
 * section[allergyintolerances].entry only Reference(CHVACDAllergyIntolerance)
@@ -156,7 +156,7 @@ Description: "Definition of the composition for the vaccination record document.
 * section[laboratory-serology].author.extension only EPRTime
 * section[laboratory-serology].author.extension ^short = "Timestamp of the authorship/data input"
 * section[laboratory-serology].author.reference 1..
-* section[laboratory-serology].text 1..1
+//* section[laboratory-serology].text 1..1
 * section[laboratory-serology].text ^short = "Human readable text of this section"
 * section[laboratory-serology].entry 0..*
 * section[laboratory-serology].entry only Reference(CHVACDLaboratorySerology)
@@ -169,7 +169,7 @@ Description: "Definition of the composition for the vaccination record document.
 * section[annotation].title ^short = "'Kommentar' in german or 'Commentaire' in french or 'Osservazione' in italian or 'Comment' in english\n                        or titles in other languages are also allowed"
 * section[annotation].code 1..
 * section[annotation].code = $loinc#48767-8 "Annotation comment Imp"
-* section[annotation].text 1..1
+//* section[annotation].text 1..1
 * section[annotation].text ^short = "Human readable text of this section"
 * section[annotation].entry 0..0
 // * section[annotation].entry ^short = "General comments"
