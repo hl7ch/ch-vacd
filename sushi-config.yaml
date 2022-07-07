@@ -18,6 +18,10 @@ publisher:
   name: HL7 Switzerland
   url: https://www.hl7.ch/
 
+license: CC-BY-SA-4.0
+copyright: CC-BY-SA-4.0
+jurisdiction: urn:iso:std:iso:3166#CHE
+
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
