@@ -10,6 +10,7 @@ title: Implementation Guide CH VACD
 # applyExtensionMetadataToRoot: false
 status: active
 version: 2.1.0
+date: 2022-07-07
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: STU 3 Ballot
@@ -32,7 +33,7 @@ publisher:
 
 dependencies:
   ch.fhir.ig.ch-core:
-    version: current
+    version: 2.1.0
     uri: http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core
     id: chcore
   hl7.fhir.uv.ips:
@@ -40,7 +41,7 @@ dependencies:
     uri: http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips
     id: ips
   ch.fhir.ig.ch-emed:
-    version: current
+    version: 2.1.0
     uri: http://fhir.ch/ig/ch-emed/ImplementationGuide/ch.fhir.ig.ch-emed
     id: chemed
   ch.fhir.ig.ch-allergyintolerance:
