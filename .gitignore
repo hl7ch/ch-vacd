@@ -8,10 +8,6 @@ fsh-generated
 .settings
 .project
 
-www/*   
-!www/package-list.json   
-!www/publish.ini
-
 ch-vacd_vaccineCodeSlicing.patch
 cibuild
 git_repo_ehs.txt
