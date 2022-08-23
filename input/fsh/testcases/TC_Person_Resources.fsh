@@ -68,8 +68,8 @@ Usage: #example
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601888888884"
 * active = true
-* name.family = "Bereit"
-* name.given = "Allzeit"
+* name.family = "Müller"
+* name.given = "Peter"
 * name.prefix = "Dr. med."
 * telecom[0].system = #phone
 * telecom[=].value = "tel:+41.32.234.55.66"
@@ -84,9 +84,9 @@ Usage: #example
 * telecom[=].value = "http://www.gruppenpraxis.ch"
 * telecom[=].use = #work
 * address.type = #physical
-* address.line = "Doktorgasse 2"
-* address.city = "Musterhausen"
-* address.postalCode = "8888"
+* address.line = "Grabenstrasse 2"
+* address.city = "Zürich"
+* address.postalCode = "8005"
 * address.country = "CH"
 
 
@@ -97,8 +97,8 @@ Description: "Testcase organization of HCP1"
 Usage: #definition
 * id = "TC-ORG1"
 * identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7601888888884"
-* name = "Gruppenpraxis CH"
+* identifier.value = "76017777777710"
+* name = "Gruppenpraxis Müller"
 * telecom[0].system = #phone
 * telecom[=].value = "tel:+41.32.234.55.66"
 * telecom[=].use = #work
@@ -111,10 +111,10 @@ Usage: #definition
 * telecom[+].system = #url
 * telecom[=].value = "http://www.gruppenpraxis.ch"
 * telecom[=].use = #work
-* address.line = "Doktorgasse 2"
-* address.city = "Musterhausen"
+* address.line = "Grabenstrasse 2"
+* address.city = "Zürich"
 * address.state = "ZH"
-* address.postalCode = "8888"
+* address.postalCode = "8005"
 * address.country = "CH"
 
 Instance: TC_HCP1_ORG1_ROLE_performer
@@ -204,8 +204,8 @@ Usage: #example
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601999999998"
 * active = true
-* name.family = "Gesund"
-* name.given = "Meist"
+* name.family = "Meier"
+* name.given = "Gabriela"
 * name.prefix = "Dr. med."
 * telecom[0].system = #phone
 * telecom[0].system = #phone
@@ -221,10 +221,10 @@ Usage: #example
 * telecom[=].value = "http://www.praxis-gesund.ch"
 * telecom[=].use = #work
 * address.type = #physical
-* address.line = "Aerztehaus"
-* address.city = "Beispielen"
+* address.line = "Werthgasse 34"
+* address.city = "Bern"
 * address.state = "ZH"
-* address.postalCode = "7890"
+* address.postalCode = "3000"
 * address.country = "CH"
 
 Instance: TC_ORG2
@@ -235,7 +235,7 @@ Usage: #definition
 * id = "TC-ORG2"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601999999912"
-* name = "Praxis Dr. Gesund"
+* name = "Praxis Dr. G. Meier"
 * telecom[0].system = #phone
 * telecom[=].value = "tel:+41.32.234.77.88"
 * telecom[=].use = #work
@@ -248,10 +248,10 @@ Usage: #definition
 * telecom[+].system = #url
 * telecom[=].value = "http://www.praxis-gesund.ch"
 * telecom[=].use = #work
-* address.line = "Aerztehaus"
-* address.city = "Beispielen"
+* address.line = "Werthgasse 34"
+* address.city = "Bern"
 * address.state = "ZH"
-* address.postalCode = "7890"
+* address.postalCode = "3000"
 * address.country = "CH"
 
 Instance: TC_HCP2_ORG2_ROLE_performer

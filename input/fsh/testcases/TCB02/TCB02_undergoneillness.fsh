@@ -17,3 +17,7 @@ Usage: #example
 * recorder = Reference(TC_HCP1_ORG1_ROLE_author)
 * clinicalStatus = $condition-clinical-status#resolved "Resolved"
 * verificationStatus = $condition-verification-status#confirmed "Confirmed"
+* note.authorReference = Reference(TC_HCP1_C1)
+* note.time = "2015-05-30"
+* note.text = "Der Patient hatte einen milden Verlauf der Windpockenerkrankung"
+

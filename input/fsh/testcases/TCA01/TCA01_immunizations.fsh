@@ -18,12 +18,15 @@ Usage: #example
 * vaccineCode = $ch-vacd-swissmedic-cs#558 "Havrix 1440"
 * patient = Reference(TC_patient)
 * occurrenceDateTime = "2021-06-01"
-* recorded = "2021-06-01T00:00:00.390+02:00"
+* recorded = "2021-06-02T00:00:00.390+02:00"
 * lotNumber = "AHAVB946A"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
 * protocolApplied.targetDisease[0] = $sct#40468003 "Viral hepatitis, type A (disorder)"
 * protocolApplied.doseNumberPositiveInt = 1
+* note.authorReference = Reference(TC_HCP1_C1)
+* note.time = "2021-06-01"
+* note.text = "Der Patient hat diese Impfung ohne jedwelcher nebenwirkungen gut vertragen."
 
 
 // DTP Vaccination, Boostrix, 1st dose, D2
@@ -41,7 +44,7 @@ Usage: #example
 * vaccineCode = $ch-vacd-swissmedic-cs#637 "Boostrix"
 * patient = Reference(TC_patient)
 * occurrenceDateTime = "2021-06-15"
-* recorded = "2021-06-15T00:00:00.390+02:00"
+* recorded = "2021-06-20T00:00:00.390+02:00"
 * lotNumber = "14-34218"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
@@ -49,6 +52,9 @@ Usage: #example
 * protocolApplied.targetDisease[+] = $sct#76902006 "Tetanus (disorder)"
 * protocolApplied.targetDisease[+] = $sct#27836007 "Pertussis (disorder)"
 * protocolApplied.doseNumberPositiveInt = 1
+* note.authorReference = Reference(TC_HCP1_C1)
+* note.time = "2021-06-20"
+* note.text = "Der Patient hatte an mehreren nachfolgenden Tagen eine sehr empfindliche und leicht gerötete Haut rund um die Einstichstelle."
 
 
 // FSME Vaccination, 1st dose, D3
@@ -68,9 +74,12 @@ Usage: #example
 * vaccineCode = $ch-vacd-swissmedic-cs#450 	"FSME-Immun CC"
 * patient = Reference(TC_patient)
 * occurrenceDateTime = "2021-08-01"
-* recorded = "2021-08-01T00:00:00.390+02:00"
+* recorded = "2021-08-02T00:00:00.390+02:00"
 * lotNumber = "12-34244"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP2_ORG2_ROLE_performer)
 * protocolApplied.targetDisease[0] = $sct#16901001	"Central European encephalitis (disorder)"
 * protocolApplied.doseNumberPositiveInt = 1
+* note.authorReference = Reference(TC_HCP2_C2)
+* note.time = "2021-08-01"
+* note.text = "Der Patient hatte keinerlei Nebenwirkungen."
