@@ -51,3 +51,12 @@ The test cases are tailored to use in the electronic patient record (EPR), but c
 |#|Case|Doc1|Doc2|Resultat|
 |-|----|----|----|----|
 |[E01](TC_E01.html)|Mergin documents with different language settings|[E_D1_HCP1_C1](Bundle-E-D1-HCP1-C1.html)|[E_D2_HCP1_C1](Bundle-E-D2-HCP1-C1.html)|[Result. Document E 01](Bundle-RDE01.html)|
+
+
+#### F Add Notes to existing Elements
+
+|#|Case|Doc1|Doc2|Resultat|
+|-|----|----|----|----|
+|[F01](TC_F01.html)|Add comment (note) to an existing Immunization|[F_D1_HCP1_C1](Bundle-F-D1-HCP1-C1.html)|[F_D2_HCP1_C1](Bundle-F-D2-HCP1-C1.html)|[Result. Document F 01](Bundle-RDF01.html)|
+|[F02](TC_F02.html)|Add comment (note) to an existing AllergyIntolerance|[F_D3_HCP1_C1](Bundle-F-D3-HCP1-C1.html)|[F_D4_HCP1_C1](Bundle-F-D4-HCP1-C1.html)|[Result. Document F 02](Bundle-RDF02.html)|
+|[F03](TC_F03.html)|Add comment (note) to an existing Condition(PastIllness)|[F_D5_HCP1_C1](Bundle-F-D5-HCP1-C1.html)|[F_D6_HCP1_C1](Bundle-F-D6-HCP1-C1.html)|[Result. Document F 03](Bundle-RDF03.html)|

@@ -1,5 +1,9 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
+### STU 3
+#### Testcases
+* [Issue 133](https://github.com/hl7ch/ch-vacd/issues/133): Add Note information to Testdata 
+
 ### STU 3 Ballot
 
 The issues in an overview for this ballot can be found [here](https://github.com/hl7ch/ch-vacd/issues?q=is%3Aissue+-label%3Abacklog+milestone%3A%22Ballot+2.1.0%22)
