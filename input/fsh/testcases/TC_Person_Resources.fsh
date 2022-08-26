@@ -97,7 +97,7 @@ Description: "Testcase organization of HCP1"
 Usage: #definition
 * id = "TC-ORG1"
 * identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "76017777777710"
+* identifier.value = "7601777777718"
 * name = "Gruppenpraxis Müller"
 * telecom[0].system = #phone
 * telecom[=].value = "tel:+41.32.234.55.66"
