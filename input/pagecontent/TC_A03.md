@@ -5,7 +5,7 @@ The patient has already entered a dose of the TBE vaccination in his vaccination
 
 ### Sequence
 The patient creates the corresponding vaccination administration document for the second dose of the TBE vaccination with the vaccination module of the patient portal.
-He is entered as the patient as the author and creator of the document [Composition.author](StructureDefinition-ch-vacd-composition-immunization-administration-definitions.html#Composition.author) and the Immunization [Extension.valueReference](StructureDefinition-ch-vacd-ext-immunization-recorder-reference-definitions.html#Extension.valueReference)
+He is entered as the patient as the author and creator of the document [Composition.author](StructureDefinition-ch-vacd-composition-immunization-administration-definitions.html#Composition.author) and the Immunization
 
 <div>{% include TCA03.svg %}</div>
 

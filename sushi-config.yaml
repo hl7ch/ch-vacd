@@ -37,7 +37,7 @@ jurisdiction: urn:iso:std:iso:3166#CHE
 
 dependencies:
   ch.fhir.ig.ch-core:
-    version: 2.1.0
+    version: current
     uri: http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core
     id: chcore
   hl7.fhir.uv.ips:
