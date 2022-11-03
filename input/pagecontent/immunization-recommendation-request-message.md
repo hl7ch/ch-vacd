@@ -1,5 +1,5 @@
 The **Immunization Recommendation Request Message** describes the content and format of an Immunization Recommendation Request  
-containing all relevant data to be able to get an immunization recommendation from the clinical decision support system inkluding also 
+containing all relevant data to be able to get an immunization recommendation from the clinical decision support system including also 
 original representations of the resulting recommendations of the cds system.
 
 ### FHIR message (Bundle)
