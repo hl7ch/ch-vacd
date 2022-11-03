@@ -4,7 +4,6 @@ InstanceOf: $shareablevalueset
 Usage: #definition
 * extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * extension.valuePeriod.start = "2022-06-17T00:00:00+01:00"
-* url = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-basic-immunization-vs"
 * version = "2021-01-24T00:00:00"
 * name = "BasicImmunizationCode"
 * title = "Basic Immunization Codes"
