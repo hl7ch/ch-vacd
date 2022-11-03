@@ -16,13 +16,20 @@ The IHE PCC himself references the HL7 Clinical Document Architecture (CDA).
 
 During the development of the IG a lot of issues popped up which had to be resolved. The fact that the version 2.1 of the CDA was not really in use led to the cut of the reverse compatibility to the CDA in order to be able to set up a proper and usable exchange format based on FHIR.
 
-The circumstance to be able to exchange the information across borders had his influence on the specification. The [International Patient Summary Implementation Guide (IPS)](http://hl7.org/fhir/uv/ips/) gave some support.
+The circumstance to be able to exchange the information across borders had his influence on the specification. The [International Patient Summary Implementation Guide (IPS)](http://hl7.org/fhir/uv/ips/) gave some support (i.e. [Immunization Profile](http://hl7.org/fhir/uv/ips/StructureDefinition-Immunization-uv-ips.html)).
+Using as much as possible international codesystems like SNOMED CT® , LOINC, EDQM UCUM will increase the compatibility across borders.
+
 
 The following documents and messages have been defined:
 - [Immunization Administration document](immunization-administration-document.html)
 - [Vaccination Record document](vaccination-record-document.html)
 - [Immunization Recommendation Request message](immunization-recommendation-request-message.html)
 - [Immunization Recommendation Response message](immunization-recommendation-response-message.html)
+
+
+### Narrative Text Generation
+The narrative text in the composition of the bundle of type document can be generated using the FHIR XML representation and the defined xslt transformer defined in this implementation guide.
+for further details see [Narrative Text Generation](generatenarrativetext.html)
 
 
 <div markdown="1" class="stu-note">
