@@ -44,19 +44,6 @@ There was also support from
 
 especially during the executed ballots.
 
-
-### Copyright
-
-| Terminology | Owner/Contact | Links |
-| - | - | -- |
-| SNOMED CT® | SNOMED International |  [www.e-health-suisse.ch/snomedct](https://www.e-health-suisse.ch/snomedct) or [snomed@e-health-suisse.ch](mailto:snomed@e-health-suisse.ch) |
-| SNOMED CT® Global Patient Set (GPS) | SNOMED International | https://www.snomed.org/snomed-international/learn-more/global-patient-set|
-| Logical Observation Identifiers Names & Codes (LOINC®) | Regenstrief Institute, Inc. and the LOINC Committee| [http://loinc.org/terms-of-use](http://loinc.org/terms-of-use) |
-| Unified Codes for Units of Measures (UCUM)  | Regenstrief Institute, Inc. and the UCUM Organization | http://unitsofmeasure.org/trac/wiki/TermsOfUse |
-| Anatomical Therapeutic Chemical (ATC) classification system | World Health Organization (WHO) Collaborating Centre for Drug Statistics Methodology | https://www.whocc.no/use_of_atc_ddd/ |
-| EDQM Standard Terms | European Directorate for the Quality of Medicines | https://www.edqm.eu/en/standard-terms-database |
-| ISO 3166 Country Code | International Organization for Standardization (ISO)  |  https://www.iso.org/iso-3166-country-codes.html |
-
 ### IP Statements
 This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
 
@@ -65,6 +52,8 @@ HL7®, HEALTH LEVEL SEVEN®, FHIR® and the FHIR <img src="icon-fhir-16.png" sty
 This implementation guide contains and references intellectual property owned by third parties ("Third Party IP"). Acceptance of these License Terms does not grant any rights with respect to Third Party IP. The licensee alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize Third Party IP in connection with the specification or otherwise.
 
 {% include ip-statements.xhtml %}
+
+* This publication includes IP from Unified Codes for Units of Measures (UCUM) [Regenstrief Institute, Inc. and the UCUM Organization](http://unitsofmeasure.org/trac/wiki/TermsOfUse)
 
 ### Cross Version Analysis
 
