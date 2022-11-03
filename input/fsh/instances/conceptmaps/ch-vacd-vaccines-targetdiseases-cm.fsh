@@ -1,8 +1,6 @@
 Instance: ch-vacd-vaccines-targetdiseases-cm
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-targetdiseases-cm"
-* version = "202104.0-stable"
 * name = "VaccineCodeToTargetDiseaseMapping"
 * title = "VaccineCode To TargetDisease Mapping"
 * description = "Mappings from vaccine code to target disease according to the correcsponding valuesets"
@@ -403,6 +401,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #397430003
 * group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #711
 * group[=].element[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[+].code = #76902006
@@ -411,6 +410,26 @@ Usage: #definition
 * group[=].element[=].target[+].code = #397430003
 * group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
+
+* group[=].element[+].code = #711-01
+* group[=].element[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+* group[=].element[+].code = #711-02
+* group[=].element[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
 * group[=].element[+].code = #704
 * group[=].element[=].display = "Dukoral"
 * group[=].element[=].target[+].code = #63650001

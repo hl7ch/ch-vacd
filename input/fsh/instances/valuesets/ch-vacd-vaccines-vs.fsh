@@ -712,6 +712,33 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "DiTe pediatric adsorbed"
 
+* compose.include[=].concept[+].code = #711-01
+* compose.include[=].concept[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+
+* compose.include[=].concept[+].code = #711-02
+* compose.include[=].concept[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+
+
 * compose.include[=].concept[+].code = #704
 * compose.include[=].concept[=].display = "Dukoral"
 * compose.include[=].concept[=].designation[0].language = #de-CH

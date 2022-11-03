@@ -1,7 +1,6 @@
 Instance: ch-vacd-targetdiseases-vaccines-cm
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-targetdiseases-vaccines-cm"
 * name = "TargetDiseaseToVaccineCodeMapping"
 * title = "TargetDisease To VaccineCode Mapping"
 * description = "Mappings from target disease to vaccine code according to the correcsponding valuesets"
@@ -66,6 +65,13 @@ Usage: #definition
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #711-01
+* group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #711-02
+* group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* group[=].element[=].target[=].equivalence = #wider
+
 // added 2022-11-03
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
@@ -128,6 +134,12 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
+* group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #711-01
+* group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #711-02
+* group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #wider
 // added 2022-11-03
 * group[=].element[=].target[+].code = #68317

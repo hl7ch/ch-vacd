@@ -629,6 +629,32 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #711 ^designation[+].language = #en-US
 * #711 ^designation[=].value = "DiTe pediatric adsorbed"
 
+* #711-01 "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* #711-01 ^definition = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH"
+* #711-01 ^designation[0].language = #de-CH
+* #711-01 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* #711-01 ^designation[+].language = #fr-CH
+* #711-01 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* #711-01 ^designation[+].language = #it-CH
+* #711-01 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* #711-01 ^designation[+].language = #rm-CH
+* #711-01 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* #711-01 ^designation[+].language = #en-US
+* #711-01 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+
+* #711-02 "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* #711-02 ^definition = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH"
+* #711-02 ^designation[0].language = #de-CH
+* #711-02 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* #711-02 ^designation[+].language = #fr-CH
+* #711-02 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* #711-02 ^designation[+].language = #it-CH
+* #711-02 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* #711-02 ^designation[+].language = #rm-CH
+* #711-02 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* #711-02 ^designation[+].language = #en-US
+* #711-02 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+
 * #704 "Dukoral"
 * #704 ^designation[0].language = #de-CH
 * #704 ^designation[=].value = "Dukoral"
