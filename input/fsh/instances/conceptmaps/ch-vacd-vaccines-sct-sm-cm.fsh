@@ -1,11 +1,10 @@
 Instance: ch-vacd-vaccines-sct-sm-cm
 InstanceOf: ConceptMap
 Usage: #definition
-* version = "2022-11-03"
 * name = "VaccineCodeSMToVaccineCodeSCT"
 * title = "Snomed CT VaccineCode  To SwissMedic VaccineCode"
 * description = "Mappings from vaccine code to vaccine code"
-* status = #active
+* status = #draft
 * publisher = "eHealth Suisse"
 * contact.name = "eHealth Suisse"
 * contact.telecom.system = #url
