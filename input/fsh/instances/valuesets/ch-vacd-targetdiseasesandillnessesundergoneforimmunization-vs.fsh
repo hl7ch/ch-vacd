@@ -24,7 +24,7 @@ Usage: #definition
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Windpocken"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "varicella"
+* compose.include.concept[=].designation[=].value = "varicelle"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "varicella"
 * compose.include.concept[=].designation[+].language = #rm-CH
@@ -92,18 +92,19 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Viral hepatitis type B"
 
-* compose.include.concept[+].code = #16901001
-* compose.include.concept[=].display = "Central European encephalitis (disorder)"
+// former code 16901001
+* compose.include.concept[+].code = #712986001
+* compose.include.concept[=].display = "Encephalitis caused by tick-borne encephalitis virus (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Frühsommer-Meningoenzephalitis (FSME)"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "encéphalite à tiques d'Europe centrale"
+* compose.include.concept[=].designation[=].value = "encéphalite à tiques"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "meningoencefalite verno-estiva"
 * compose.include.concept[=].designation[+].language = #rm-CH
 * compose.include.concept[=].designation[=].value = "Frühsommer-Meningoenzephalitis (FSME)"
 * compose.include.concept[=].designation[+].language = #en-US
-* compose.include.concept[=].designation[=].value = "Central European tick-borne encephalitis"
+* compose.include.concept[=].designation[=].value = "Tickborne encephalitis"
 
 * compose.include.concept[+].code = #16541001
 * compose.include.concept[=].display = "Yellow fever (disorder)"
@@ -304,6 +305,20 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Pocken"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Smallpox"
+
+// new by ballot 3 input
+* compose.include.concept[+].code = #359814004
+* compose.include.concept[=].display = "Monkeypox (disorder)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Affenpocken"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "variole du singe"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaiolo delle scimmie"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Affenpocken"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Monkeypox"
 
 // new by expert review 202201
 * compose.include.concept[+].code = #240532009
