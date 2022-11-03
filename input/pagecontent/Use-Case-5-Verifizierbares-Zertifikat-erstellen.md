@@ -1,5 +1,3 @@
-## UC 5: Verifizierbares Zertifikat erstellen
-
 ### Verifizierbares Zertifikat erstellen
 
 Ein Patient verlangt von einer Gesundheitsfachperson ein verifizierbares Zertifikat (z.B. Covid 19 Zertifikat) als international anerkannter Beleg für eine Impfung, eine bestätigte Genesung oder einen laborbestätigten Test zum Nachweis der Immunität.

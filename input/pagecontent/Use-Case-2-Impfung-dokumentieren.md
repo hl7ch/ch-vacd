@@ -1,5 +1,3 @@
-## UC 2: Impfung dokumentieren
-
 ### Impfung dokumentieren (Gesundheitsfachperson)
 
 Eine Gesundheitsfachperson erfasst aktuell verabreichte Impfungen in ihrem Primärsystem oder dem Portal der Gemeinschaft. Sie wählt dazu die entsprechenden Benutzeroberflächen aus und sucht die strukturierten Daten der verabreichten Impfung anhand von Suchkriterien und Stichworten. Sie sucht die Gesundheitsfachperson, welche die Impfung verordnet hat anhand von Suchkriterien und Stichwörtern bzw. gibt die Daten manuell ein, wenn diese nicht am EPD teilnimmt. Die Gesundheitsfachperson speichert die Daten.

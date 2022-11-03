@@ -1,6 +1,5 @@
-## UC 4: Impfcheck ausführen
-
 ### Impfcheck ausführen (Gesundheitsfachperson)
+
 Eine Gesundheitsfachperson aktualisiert die Impfdaten in seinem Primärsystem mit der Impfdaten eines Patienten im EPD.
 
 Die Gesundheitsfachperson stellt ggf. die zusätzlichen und für den Impfcheck benötigten medizinischen Informationen mit Bezug zum Immunitätsstatus des Patienten im Primärsystem zusammen oder wählt diese in den Benutzeroberflächen des Portals der Gemeinschaft aus.

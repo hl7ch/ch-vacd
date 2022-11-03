@@ -1,5 +1,3 @@
-## UC 5: Établir un certificat vérifiable 
-
 ### Établir un certificat vérifiable 
 
 Un patient requiert un certificat vérifiable (p. ex. un certificat COVID-19) auprès d’un professionnel de la santé, en tant que justificatif internationalement reconnu de vaccination, de guérison confirmée ou de test confirmé par un laboratoire pour prouver l’immunité.

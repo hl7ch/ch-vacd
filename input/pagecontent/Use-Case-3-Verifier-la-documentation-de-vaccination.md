@@ -1,5 +1,3 @@
-## UC 3: Vérifier la documentation de vaccination
-
 ### Vérifier la documentation de vaccination (professionnel de la santé)
 
 Un professionnel de la santé consulte les données de vaccination sauvegardées dans le DEP d’un patient via son système primaire ou le portail de la communauté. Il choisit à cet effet les interfaces utilisateur correspondantes dans le système primaire ou sur le portail, recherche le patient et consulte son *dossier de vaccination* pour obtenir les informations sur les vaccins administrés, les vaccins non désirés ou non indiqués, les antécédents médicaux et les allergies à des vaccins enregistrées dans le DEP du patient.
