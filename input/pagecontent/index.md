@@ -31,15 +31,6 @@ The following documents and messages have been defined:
 The narrative text in the composition of the bundle of type document can be generated using the FHIR XML representation and the defined xslt transformer defined in this implementation guide.
 for further details see [Narrative Text Generation](generatenarrativetext.html)
 
-
-<div markdown="1" class="stu-note">
-
-This implementation guide is under ballot for STU 3 by [HL7 Switzerland](https://www.hl7.ch/) until September 30th, 2022 midnight. Please add your feedback via the 'Propose a change'-link in the footer on the page where you have comments.
-
-[Significant Changes, Open and Closed Issues](changelog.html)
-
-</div>
-
 **Download**: You can download this implementation guide in [NPM format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
 ### Collaboration
