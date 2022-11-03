@@ -373,3 +373,17 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Pneumokokken-Erkrankung"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pneumococcal disease"
+
+// added 2022-11-03
+* compose.include.concept[+].code = #37109004
+* compose.include.concept[=].display = "Ebola virus disease (disorder)"
+* compose.include.concept[=].designation[+].language = #de-CH
+* compose.include.concept[=].designation[=].value = "EVD - Ebola virus disease"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "EVD - Ebola virus disease"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "EVD - Ebola virus disease"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "EVD - Ebola virus disease"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "EVD - Ebola virus disease"

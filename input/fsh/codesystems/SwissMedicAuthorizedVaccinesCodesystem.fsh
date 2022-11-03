@@ -535,6 +535,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #612 ^designation[=].value = "Tetravac"
 * #612 ^designation[+].language = #en-US
 * #612 ^designation[=].value = "Tetravac"
+
 * #417 "Tollwut Impfstoff Mérieux"
 * #417 ^designation[0].language = #de-CH
 * #417 ^designation[=].value = "Tollwut Impfstoff Mérieux"
@@ -612,6 +613,10 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #644 ^designation[=].value = "Hexavac"
 * #644 ^designation[+].language = #en-US
 * #644 ^designation[=].value = "Hexavac"
+
+
+//711	02	Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren, Injektionssuspension	Emergent BioSolutions Berna GmbH	B	5/19/2006	7/20/2021	unbegrenzt	J07AM51
+//711	01	Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren, Injektionssuspension	Emergent BioSolutions Berna GmbH	B	5/19/2006	5/19/2006	unbegrenzt	J07AM51
 * #711 "DiTe pediatric adsorbed"
 * #711 ^designation[0].language = #de-CH
 * #711 ^designation[=].value = "DiTe pediatric adsorbed"
@@ -623,6 +628,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #711 ^designation[=].value = "DiTe pediatric adsorbed"
 * #711 ^designation[+].language = #en-US
 * #711 ^designation[=].value = "DiTe pediatric adsorbed"
+
 * #704 "Dukoral"
 * #704 ^designation[0].language = #de-CH
 * #704 ^designation[=].value = "Dukoral"
@@ -871,7 +877,10 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #66037 ^designation[=].value = "Menjugate liquid"
 * #66037 ^designation[+].language = #en-US
 * #66037 ^designation[=].value = "Menjugate liquid"
+
+//699	01	ProQuad, Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension	MSD Merck Sharp & Dohme AG	B	11/8/2010	11/8/2010	unbegrenzt	J07BD54
 * #699 "ProQuad"
+* #699 ^definition = "ProQuad, Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension, MSD Merck Sharp & Dohme AG"
 * #699 ^designation[0].language = #de-CH
 * #699 ^designation[=].value = "ProQuad"
 * #699 ^designation[+].language = #fr-CH
@@ -906,6 +915,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #66940 ^designation[=].value = "Vaxelis"
 * #66940 ^designation[+].language = #en-US
 * #66940 ^designation[=].value = "Vaxelis"
+
 //65730	01	Bexsero, Injektionssuspension	GlaxoSmithKline AG	B	23.11.2017	23.11.2017	22.11.2022	J07AH09
 * #65730 "Bexsero"
 * #65730 ^definition = "Bexsero, Injektionssuspension	GlaxoSmithKline AG"
@@ -1082,15 +1092,139 @@ Description: "The vaccines swissmedic has given an autorization number."
 
 
 //68473	01	Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	12.04.2024	J07BX03	X		X	X
-* #68473 "Nuvaxovid 5 ml, Injektionsdispersion"
+// added 2021-11-19
+* #68473 "Nuvaxovid 5 ml"
 * #68473 ^definition = "Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH"
 * #68473 ^designation[0].language = #de-CH
-* #68473 ^designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* #68473 ^designation[=].value = "Nuvaxovid 5 ml"
 * #68473 ^designation[+].language = #fr-CH
-* #68473 ^designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* #68473 ^designation[=].value = "Nuvaxovid 5 ml"
 * #68473 ^designation[+].language = #it-CH
-* #68473 ^designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* #68473 ^designation[=].value = "Nuvaxovid 5 ml"
 * #68473 ^designation[+].language = #rm-CH
-* #68473 ^designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* #68473 ^designation[=].value = "Nuvaxovid 5 ml"
 * #68473 ^designation[+].language = #en-US
-* #68473 ^designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* #68473 ^designation[=].value = "Nuvaxovid 5 ml"
+
+
+// added data by list of 20221031 from Swissmedic
+//68358	01	Ervebo, Injektionslösung	MSD Merck Sharp & Dohme AG	B	11/10/2021	11/10/2021	11/9/2026	J07BX02
+// added 2022-11-03
+* #68358 "Ervebo, Injektionslösung"
+* #68358 ^definition = "Ervebo, Injektionslösung, MSD Merck Sharp & Dohme AG"
+* #68358 ^designation[0].language = #de-CH
+* #68358 ^designation[=].value = "Ervebo"
+* #68358 ^designation[+].language = #fr-CH
+* #68358 ^designation[=].value = "Ervebo"
+* #68358 ^designation[+].language = #it-CH
+* #68358 ^designation[=].value = "Ervebo"
+* #68358 ^designation[+].language = #rm-CH
+* #68358 ^designation[=].value = "Ervebo"
+* #68358 ^designation[+].language = #en-US
+* #68358 ^designation[=].value = "Ervebo"
+
+//68710	01	Comirnaty® 30 Mikrogramm/Dosis, gebrauchsfertige Injektionsdispersion  für Personen ab 12  Jahren	Pfizer AG	B	12/10/2021	12/10/2021	12/18/2022	J07BX
+// added 2022-11-03
+* #68710-01 "Comirnaty® 30 Mikrogramm/Dosis"
+* #68710-01 ^definition = "Comirnaty® 30 Mikrogramm/Dosis, gebrauchsfertige Injektionsdispersion für Personen ab 12 Jahren, Pfizer AG"
+* #68710-01 ^designation[0].language = #de-CH
+* #68710-01 ^designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* #68710-01 ^designation[+].language = #fr-CH
+* #68710-01 ^designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* #68710-01 ^designation[+].language = #it-CH
+* #68710-01 ^designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* #68710-01 ^designation[+].language = #rm-CH
+* #68710-01 ^designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* #68710-01 ^designation[+].language = #en-US
+* #68710-01 ^designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+
+
+//68710	02	Comirnaty® 10 Mikrogramm/Dosis, Konzentrat zur Herstellung einer Injektionsdispersion	Pfizer AG	B	12/10/2021	12/10/2021	12/18/2022	J07BX
+// added 2022-11-03
+* #68710-02 "Comirnaty® 10 Mikrogramm/Dosis"
+* #68710-02 ^definition = "Comirnaty® 10 Mikrogramm/Dosis, Konzentrat zur Herstellung einer Injektionsdispersion, Pfizer AG"
+* #68710-02 ^designation[0].language = #de-CH
+* #68710-02 ^designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* #68710-02 ^designation[+].language = #fr-CH
+* #68710-02 ^designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* #68710-02 ^designation[+].language = #it-CH
+* #68710-02 ^designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* #68710-02 ^designation[+].language = #rm-CH
+* #68710-02 ^designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* #68710-02 ^designation[+].language = #en-US
+* #68710-02 ^designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+
+//68462	01	Fluenz Tetra, Nasenspray, Suspension	AstraZeneca AG	B	5/11/2022	5/11/2022	5/10/2027	J07BB03
+// added 2022-11-03
+* #68462 "Fluenz Tetra"
+* #68462 ^definition = "Fluenz Tetra, Nasenspray, Suspension, AstraZeneca AG"
+* #68462 ^designation[0].language = #de-CH
+* #68462 ^designation[=].value = "Fluenz Tetra"
+* #68462 ^designation[+].language = #fr-CH
+* #68462 ^designation[=].value = "Fluenz Tetra"
+* #68462 ^designation[+].language = #it-CH
+* #68462 ^designation[=].value = "Fluenz Tetra"
+* #68462 ^designation[+].language = #rm-CH
+* #68462 ^designation[=].value = "Fluenz Tetra"
+* #68462 ^designation[+].language = #en-US
+* #68462 ^designation[=].value = "Fluenz Tetra"
+
+//69009	01	Spikevax Bivalent Original / Omicron	Moderna Switzerland GmbH	B	8/26/2022	8/26/2022	8/25/2024	J07B
+// added 2022-11-03
+* #69009 "Spikevax Bivalent Original / Omicron"
+* #69009 ^definition = "Spikevax Bivalent Original / Omicron, Moderna Switzerland GmbH"
+* #69009 ^designation[0].language = #de-CH
+* #69009 ^designation[=].value = "Spikevax Bivalent Original / Omicron"
+* #69009 ^designation[+].language = #fr-CH
+* #69009 ^designation[=].value = "Spikevax Bivalent Original / Omicron"
+* #69009 ^designation[+].language = #it-CH
+* #69009 ^designation[=].value = "Spikevax Bivalent Original / Omicron"
+* #69009 ^designation[+].language = #rm-CH
+* #69009 ^designation[=].value = "Spikevax Bivalent Original / Omicron"
+* #69009 ^designation[+].language = #en-US
+* #69009 ^designation[=].value = "Spikevax Bivalent Original / Omicron"
+
+//68110	01	Adacel-Polio 0.5 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	8/26/2022	8/26/2022	8/25/2027	J07CA02
+// added 2022-11-03
+* #68110 "Adacel-Polio 0.5 ml"
+* #68110 ^definition = "Adacel-Polio 0.5 ml, suspension injectable en seringue préremplie, Sanofi-Aventis (Suisse) SA"
+* #68110 ^designation[0].language = #de-CH
+* #68110 ^designation[=].value = "Adacel-Polio 0.5 ml"
+* #68110 ^designation[+].language = #fr-CH
+* #68110 ^designation[=].value = "Adacel-Polio 0.5 ml"
+* #68110 ^designation[+].language = #it-CH
+* #68110 ^designation[=].value = "Adacel-Polio 0.5 ml"
+* #68110 ^designation[+].language = #rm-CH
+* #68110 ^designation[=].value = "Adacel-Polio 0.5 ml"
+* #68110 ^designation[+].language = #en-US
+* #68110 ^designation[=].value = "Adacel-Polio 0.5 ml"
+
+//68317	01	Adacel 0.5 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	8/26/2022	8/26/2022	8/25/2027	J07AJ52
+// added 2022-11-03
+* #68317 "Adacel 0.5 ml"
+* #68317 ^definition = "Adacel 0.5 ml, suspension injectable en seringue préremplie, Sanofi-Aventis (Suisse) SA"
+* #68317 ^designation[0].language = #de-CH
+* #68317 ^designation[=].value = "Adacel 0.5 ml"
+* #68317 ^designation[+].language = #fr-CH
+* #68317 ^designation[=].value = "Adacel 0.5 ml"
+* #68317 ^designation[+].language = #it-CH
+* #68317 ^designation[=].value = "Adacel 0.5 ml"
+* #68317 ^designation[+].language = #rm-CH
+* #68317 ^designation[=].value = "Adacel 0.5 ml"
+* #68317 ^designation[+].language = #en-US
+* #68317 ^designation[=].value = "Adacel 0.5 ml"
+
+//68221	01	MenQuadfi, solution injectable	Sanofi-Aventis (Suisse) SA	B	10/5/2022	10/5/2022	10/4/2027	J07AH08
+// added 2022-11-03
+* #68221 "MenQuadfi"
+* #68221 ^definition = "MenQuadfi, solution injectable, Sanofi-Aventis (Suisse) SA"
+* #68221 ^designation[0].language = #de-CH
+* #68221 ^designation[=].value = "MenQuadfi"
+* #68221 ^designation[+].language = #fr-CH
+* #68221 ^designation[=].value = "MenQuadfi"
+* #68221 ^designation[+].language = #it-CH
+* #68221 ^designation[=].value = "MenQuadfi"
+* #68221 ^designation[+].language = #rm-CH
+* #68221 ^designation[=].value = "MenQuadfi"
+* #68221 ^designation[+].language = #en-US
+* #68221 ^designation[=].value = "MenQuadfi"
