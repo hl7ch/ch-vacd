@@ -6,7 +6,7 @@ To transform FHIR XML CH-VACD document to html you can use [ChVacdDocumentToHTML
 
 use i.e. the following command to do so:
 ```
-xsltproc ChVacdDocumentToHTML.xslt -o &lt;html-output-file&gt; &lt;xml-file&gt;
+xsltproc ChVacdDocumentToHTML.xslt -o html-output-file fhir-xml-input-file
 ```
 
 The output can be added as content (stripe html and body tag) to the narrative text div of the composition in the document bundle.
@@ -688,6 +688,7 @@ then take the inner html part without html and body tag and put it to the compos
               }
             });
           }
-          </script>
-</div>
+    </script>
+  </div>
+</text>
 ```
