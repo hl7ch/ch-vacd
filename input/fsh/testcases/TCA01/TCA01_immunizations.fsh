@@ -26,7 +26,7 @@ Usage: #example
 * protocolApplied.doseNumberPositiveInt = 1
 * note.authorReference = Reference(TC_HCP1_C1)
 * note.time = "2021-06-01"
-* note.text = "Der Patient hat diese Impfung ohne jedwelcher nebenwirkungen gut vertragen."
+* note.text = "Der Patient hat diese Impfung ohne jegliche Nebenwirkungen gut vertragen."
 
 
 // DTP Vaccination, Boostrix, 1st dose, D2
