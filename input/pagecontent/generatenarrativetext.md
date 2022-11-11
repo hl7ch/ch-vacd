@@ -9,8 +9,13 @@ use i.e. the following command to do so:
 xsltproc ChVacdDocumentToHTML.xslt -o html-output-file fhir-xml-input-file
 ```
 
-The output can be added as content (stripe html and body tag) to the narrative text div of the composition in the document bundle.
 
+To generate the narrative content from a document, you can process the following XSL transformer [ChVacdDocumentToCompositionNarrative](xslt/ChVacdDocumentToCompositionNarrative.xslt).
+
+```
+xsltproc ChVacdDocumentToCompositionNarrative.xslt -o html-output-file fhir-xml-input-file
+```
+The output can be added as content (stripe html and body tag) to the narrative text div of the composition in the document bundle.
 
 ## Example
 File Bundle-Example.xml
