@@ -1,6 +1,6 @@
-# Narrative Text Generation
+### Narrative Text Generation
 
-## XML to HTML Transform
+#### XML to HTML Transform
 
 To transform FHIR XML CH-VACD document to html you can use [ChVacdDocumentToHTML](xslt/ChVacdDocumentToHTML.xslt) XSL transformer.
 
@@ -14,10 +14,15 @@ To generate the narrative content from a document, you can process the following
 
 ```
 xsltproc ChVacdDocumentToCompositionNarrative.xslt -o html-output-file fhir-xml-input-file
+
 ```
 The output can be added as content (stripe html and body tag) to the narrative text div of the composition in the document bundle.
 
-## Example
+Examples with the generated narrative can be seen here: [Immunization Administration Document](Bundle-1-1-ImmunizationAdministration.html)
+and [Vaccination Record](Bundle-1-3-VaccinationRecord.html)
+
+
+#### Example
 File Bundle-Example.xml
 ```xml
 <Bundle xmlns="http://hl7.org/fhir">
@@ -697,3 +702,5 @@ then take the inner html part without html and body tag and put it to the compos
   </div>
 </text>
 ```
+
+
