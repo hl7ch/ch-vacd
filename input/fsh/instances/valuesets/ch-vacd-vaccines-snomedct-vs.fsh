@@ -552,7 +552,7 @@ Usage: #definition
 
 //1119220001	23-valenter Pneumokokken-Impfstoff	Pneumococcal 23-valent vaccine	vaccin antipneumococcique 23-valent	vaccino 23-valente contro gli pneumococchi
 * compose.include.concept[+].code = #1119220001
-* compose.include.concept[=].display = " Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)"
+* compose.include.concept[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "23-valenter Pneumokokken-Impfstoff"
 * compose.include.concept[=].designation[+].language = #fr-CH

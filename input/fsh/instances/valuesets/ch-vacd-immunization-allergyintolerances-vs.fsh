@@ -408,7 +408,7 @@ Usage: #definition
 // added 2022.11.25
 // 293120003		Unerwünschte Wirkung eines Pocken-Impfstoffs	Smallpox vaccine adverse reactionerse reaction	effet indésirable d'un vaccin contre la variole	effetto indesiderato di un vaccino antivaiolo
 * compose.include[=].concept[+].code = #293120003
-* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Vaccinia virus antigen (disorder) "
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Vaccinia virus antigen (disorder)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Pocken-Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
