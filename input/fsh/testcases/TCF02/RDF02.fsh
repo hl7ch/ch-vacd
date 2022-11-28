@@ -17,8 +17,8 @@ Usage: #example
 * entry[=].resource = TC_HCP1_C1
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG1"
 * entry[=].resource = TC_ORG1
-* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP1-ORG1-ROLE-performer"
-* entry[=].resource = TC_HCP1_ORG1_ROLE_performer
+* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP1-ORG1-ROLE-author"
+* entry[=].resource = TC_HCP1_ORG1_ROLE_author
 
 * entry[+].fullUrl = "http://test.fhir.ch/r4/AllergyIntolerance/TCF02-ALLINTO3"
 * entry[=].resource = TCF02_ALLINTO3
