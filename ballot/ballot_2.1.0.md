@@ -36,6 +36,7 @@ Here the resulting issues from STU3 Ballot (v2.1.0)
 * [Issue 153](https://github.com/hl7ch/ch-vacd/issues/153): update extension according to ch core
 
 #### Termnology
+* [Issue 158](https://github.com/hl7ch/ch-vacd/issues/158): Missing mapping in Code System for the vaccine "Vaxigrip Tetra" (code 66427)
 * [Issue 150](https://github.com/hl7ch/ch-vacd/issues/150): Terminology -- include remarks and corrections of FOPH 
 * [Issue 145](https://github.com/hl7ch/ch-vacd/issues/145): Archive ch-vacd-vaccines-atc-vs
 * [Issue 144](https://github.com/hl7ch/ch-vacd/issues/144): Archive ch-vacd-recommendation-forecast-status-vs

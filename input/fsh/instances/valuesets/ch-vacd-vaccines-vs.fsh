@@ -1039,19 +1039,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ProQuad"
 
-* compose.include[=].concept[+].code = #66427
-* compose.include[=].concept[=].display = "Vaxigrip Tetra"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaxigrip Tetra"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaxigrip Tetra"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaxigrip Tetra"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaxigrip Tetra"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Vaxigrip Tetra"
-
 * compose.include[=].concept[+].code = #65387
 * compose.include[=].concept[=].display = "Gardasil 9"
 * compose.include[=].concept[=].designation[0].language = #de-CH

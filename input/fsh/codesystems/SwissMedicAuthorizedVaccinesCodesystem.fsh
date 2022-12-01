@@ -982,7 +982,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #66427 ^designation[+].language = #rm-CH
 * #66427 ^designation[=].value = "VaxigripTetra"
 * #66427 ^designation[+].language = #en-US
-* #66427 ^designation[=].value = "VaxeVaxigripTetralis"
+* #66427 ^designation[=].value = "VaxigripTetra"
 
 // 68267	01	Spikevax, Injektionsdispersion	Moderna Switzerland GmbH	B	12.01.2021	12.01.2021	11.01.2023	J07B
 * #68267 "Spikevax (COVID-19 Vaccine, Moderna)"

@@ -13,20 +13,6 @@ Usage: #definition
 * sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
 * targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs"
 
-// * group[0].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
-// * group[=].target = "http://snomed.info/sct"
-// * group[=].element[+].code = #68267
-// * group[=].element[=].display = "Spikevax (COVID-19 Vaccine, Moderna)"
-// * group[=].element[=].target[+].code = #1119349007
-// * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-// * group[=].element[=].target[=].equivalence = #equivalent
-
-// * group[=].element[+].code = #68225
-// * group[=].element[=].display = "Comirnaty (COVID-19 Vaccine, Pfizer)"
-// * group[=].element[=].target[+].code = #1119349007
-// * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-// * group[=].element[=].target[=].equivalence = #equivalent
-
 * group[+].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[+].code = #683
@@ -405,6 +391,24 @@ Usage: #definition
 * group[=].element[=].display = "Te Anatoxal N"
 * group[=].element[=].target[+].code = #871742003
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+* group[=].element[+].code = #699
+* group[=].element[=].display = "ProQuad"
+* group[=].element[=].target[+].code = #871908002
+* group[=].element[=].target[=].display = "Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+* group[=].element[+].code = #65387
+* group[=].element[=].display = "Gardasil 9"
+* group[=].element[=].target[+].code = #2001000221108
+* group[=].element[=].target[=].display = "Vaccine product containing only Human papillomavirus 6, 11, 16 and 18 antigens (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+* group[=].element[+].code = #66940
+* group[=].element[=].display = "Vaxelis"
+* group[=].element[=].target[+].code = #871895005
+* group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #68267

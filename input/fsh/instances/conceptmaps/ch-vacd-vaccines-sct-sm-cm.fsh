@@ -13,18 +13,6 @@ Usage: #definition
 * targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs"
 * sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
 
-// * group[0].source = "http://snomed.info/sct"
-// * group[=].target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
-
-// * group[=].element[+].code = #1119349007
-// * group[=].element[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-// * group[=].element[=].target[+].code = #68267
-// * group[=].element[=].target[=].display = "Spikevax (COVID-19 Vaccine, Moderna)"
-// * group[=].element[=].target[=].equivalence = #equivalent
-// * group[=].element[=].target[+].code = #68225
-// * group[=].element[=].target[=].display = "Comirnaty (COVID-19 Vaccine, Pfizer)"
-// * group[=].element[=].target[=].equivalence = #equivalent
-
 * group[+].source = "http://snomed.info/sct"
 * group[=].target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
 * group[=].element[+].code = #87171900
@@ -212,6 +200,9 @@ Usage: #definition
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[+].code = #66940
+* group[=].element[=].target[=].display = "Vaxelis"
+* group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #871739009
 * group[=].element[=].display = "Vaccine product containing only Human poliovirus antigen (medicinal product)"
@@ -278,6 +269,9 @@ Usage: #definition
 * group[=].element[=].target[+].code = #57814
 * group[=].element[=].target[=].display = "Cervarix"
 * group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[+].code = #65387
+* group[=].element[=].target[=].display = "Gardasil 9"
+* group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #1156183006
 * group[=].element[=].display = "Vaccine product containing only Human alphaherpesvirus 3 recombinant surface glycoprotein E antigen (medicinal product)"
@@ -292,6 +286,9 @@ Usage: #definition
 * group[=].element[=].display = "Vaccine product containing only Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens (medicinal product)"
 * group[=].element[=].target[+].code = #58158
 * group[=].element[=].target[=].display = "Priorix-Tetra"
+* group[=].element[=].target[=].equivalence = #equivalent
+* group[=].element[=].target[+].code = #699
+* group[=].element[=].target[=].display = "ProQuad"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #871761004

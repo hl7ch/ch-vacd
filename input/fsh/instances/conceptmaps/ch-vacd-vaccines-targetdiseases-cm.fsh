@@ -229,6 +229,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #860805006
 * group[=].element[=].target[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
+
 * group[=].element[+].code = #669
 * group[=].element[=].display = "Poliorix"
 * group[=].element[=].target[+].code = #398102009
@@ -730,6 +731,73 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
+//66427	05	VaxigripTetra, Suspension pour injection dans une seringue pré-remplie	Sanofi-Aventis (Suisse) SA	B	12.06.2018	11.08.2021	11.06.2023	J07BB02
+// added 2022-12-01
+* group[=].element[+].code = #66427
+* group[=].element[=].display = "VaxigripTetra"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2022-12-01
+* group[=].element[+].code = #65387
+* group[=].element[=].display = "Gardasil 9"
+* group[=].element[=].target[+].code = #240532009
+* group[=].element[=].target[=].display = "Human papillomavirus infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2022-12-01
+* group[=].element[+].code = #66940
+* group[=].element[=].display = "Vaxelis"
+* group[=].element[=].target[+].code = #76902006
+* group[=].element[=].target[=].display = "Tetanus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #27836007
+* group[=].element[=].target[=].display = "Pertussis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #398102009	
+* group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #397430003	
+* group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #66071002
+* group[=].element[=].target[=].display = "Viral hepatitis type B (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #709410003
+* group[=].element[=].target[=].display = "Haemophilus influenzae type b infection (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2022-12-01
+* group[=].element[+].code = #68087	
+* group[=].element[=].display = "Influvac Tetra"
+* group[=].element[=].target[+].code = #719590007
+* group[=].element[=].target[=].display = "Influenza caused by seasonal influenza virus (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+// added 2022-12-01
+* group[=].element[+].code = #66037
+* group[=].element[=].display = "Menjugate liquid"
+* group[=].element[=].target[+].code = #860805006
+* group[=].element[=].target[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+// added 2022-12-01
+* group[=].element[+].code = #699
+* group[=].element[=].display = "ProQuad"
+* group[=].element[=].target[+].code = #36653000
+* group[=].element[=].target[=].display = "Rubella (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #14189004
+* group[=].element[=].target[=].display = "Measles (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #36989005
+* group[=].element[=].target[=].display = "Mumps (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+* group[=].element[=].target[+].code = #38907003	
+* group[=].element[=].target[=].display = "Varicella (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////
