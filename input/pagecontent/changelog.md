@@ -49,7 +49,7 @@ The issues in an overview for this ballot can be found [here](https://github.com
 
 #### Added Missing Parts
 * [Issue 71](https://github.com/hl7ch/ch-vacd/issues/71): Provide Use Cases in IG (Annatina Foppa, eHealth Suisse) (Duplicate: [Issue 75](https://github.com/hl7ch/ch-vacd/issues/75))
-   * [Anwendungsfälle EPD](usecases_de.html)
+   * [Anwendungsfälle EPD](uUse-Cases-Deutsch.html)
    * [Les cas d’utilisation DEP](usecases_fr.html)
 
 * [Issue 72](https://github.com/hl7ch/ch-vacd/issues/72): Add ConceptMap's (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 85](https://github.com/hl7ch/ch-vacd/issues/85))

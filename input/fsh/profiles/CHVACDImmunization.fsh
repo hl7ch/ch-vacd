@@ -14,7 +14,7 @@ Description: "Definition of the immunization part for all documents, except reco
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
 * extension contains
-    CHVACDExtensionImmunizationRecorderReference named recorder 0..1 and
+    $ch-ext-author named recorder 0..1 and
     CHVACDExtensionImmunizationMedicationReference named medication 0..1 and
     CHVACDExtensionCrossReference named relatesTo 0..1 and 
     CHVACDExtensionMergingConflictEntryReference named conflict 0..* 

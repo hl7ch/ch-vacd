@@ -8,7 +8,7 @@ Title: "TCC1 Immunization by patient"
 Description: "Testcase C 1 example of immunization"
 Usage: #example
 * id = "TCC01-IMMUN1-patient"
-* extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
+* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
@@ -44,7 +44,7 @@ Title: "TCC1 Immunization by patient"
 Description: "Testcase C 1 example of immunization"
 Usage: #example
 * id = "TCC01-IMMUN2-patient"
-* extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
+* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)

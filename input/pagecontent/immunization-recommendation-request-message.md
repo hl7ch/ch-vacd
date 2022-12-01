@@ -1,6 +1,6 @@
 The **Immunization Recommendation Request Message** describes the content and format of an Immunization Recommendation Request  
-containing all relevant data to be able to  get an immunization recommendation from the clinical decision support system.
-The patient data MUST be pseudonymized.
+containing all relevant data to be able to get an immunization recommendation from the clinical decision support system including also 
+original representations of the resulting recommendations of the cds system.
 
 ### FHIR message (Bundle)
 This exchange format is defined as a message type that corresponds to a Bundle as a FHIR resource. 

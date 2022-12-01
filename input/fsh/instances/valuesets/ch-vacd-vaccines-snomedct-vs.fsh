@@ -50,7 +50,7 @@ Usage: #definition
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Japanische-Enzephalitis-Impfstoff"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "vaccin contre le virus de l'encéphalite japonaise"
+* compose.include.concept[=].designation[=].value = "vaccin contre l'encéphalite japonaise"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccino contro l’encefalite giapponese"
 * compose.include.concept[=].designation[+].language = #rm-CH
@@ -63,7 +63,7 @@ Usage: #definition
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Tollwut-Impfstoff"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "vaccin humain contre la rage"
+* compose.include.concept[=].designation[=].value = "vaccin antirabique"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccino contro la rabbia"
 * compose.include.concept[=].designation[+].language = #rm-CH
@@ -230,26 +230,26 @@ Usage: #definition
 * compose.include.concept[+].code = #871866001
 * compose.include.concept[=].display = "Vaccine product containing only Neisseria meningitidis serogroup C antigen (medicinal product)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Meningitis-C-Impfstoff"
+* compose.include.concept[=].designation[=].value = "Meningokokken-C-Impfstoff"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "vaccin contre la méningite C"
+* compose.include.concept[=].designation[=].value = "vaccin contre les méningocoques C"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccino contro la meningite C"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Meningitis-C-Impfstoff"
+* compose.include.concept[=].designation[=].value = "Meningokokken-C-Impfstoff"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Meningitis C vaccine"
 
 * compose.include.concept[+].code = #871873006
 * compose.include.concept[=].display = "Vaccine product containing only Neisseria meningitidis serogroup A, C, W135 and Y antigens (medicinal product)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "Meningitis-A, C-, W135- und Y-Impfstoff"
+* compose.include.concept[=].designation[=].value = "Meningokokken-A, C-, W135- und Y-Impfstoff"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "vaccin contre les méningites A, C, W135 et Y"
+* compose.include.concept[=].designation[=].value = "vaccin contre les méningocoques de types A, C, W135 et Y"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccino contro la meningite A, C, W135 e Y"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Meningitis-A, C-, W135- und Y-Impfstoff"
+* compose.include.concept[=].designation[=].value = "Meningokokken-A, C-, W135- und Y-Impfstoff"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Meningitis A, C, W135 and Y vaccine"
 
@@ -344,16 +344,17 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pneumococcal 7-valent conjugate vaccine"
 
+//13-valenter Pneumokokken-Impfstoff	Pneumococcal 13-valent vaccine	vaccin antipneumococcique 13-valent	vaccino 13-valente contro gli pneumococchi
 * compose.include.concept[+].code = #1119254000
 * compose.include.concept[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens (medicinal product)"
 * compose.include.concept[=].designation[0].language = #de-CH
-* compose.include.concept[=].designation[=].value = "13-valenter Pneumokokken-Konjugatimpfstoff"
+* compose.include.concept[=].designation[=].value = "13-valenter Pneumokokken-Impfstoff"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "vaccin antipneumococcique conjugué 13-valent"
+* compose.include.concept[=].designation[=].value = "vaccin antipneumococcique 13-valent"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "vaccino coniugato 13-valente contro gli pneumococchi"
+* compose.include.concept[=].designation[=].value = "vaccino 13-valente contro gli pneumococchi"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "13-valenter Pneumokokken-Konjugatimpfstoff"
+* compose.include.concept[=].designation[=].value = "13-valenter Pneumokokken-Impfstoff"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pneumococcal 13-valent conjugate vaccine"
 
@@ -518,3 +519,47 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "Impfstoff gegen die humanen Papillomaviren 6, 11, 16, 18, 31, 33, 45, 52 und 58"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 vaccine"
+
+
+//1981000221108		Meningokokken-B-Impfstoff	Meningitis B vaccine	vaccin contre les méningocoques B	vaccino contro la meningite B
+* compose.include.concept[+].code = #1981000221108
+* compose.include.concept[=].display = "Vaccine product containing only Neisseria meningitidis serogroup B antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Meningokokken-B-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre les méningocoques B"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino contro la meningite B"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Meningokokken-B-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Meningitis B vaccine"
+
+//836389008		Pocken-Impfstoff	Vaccinia virus antigen-containing vaccine product	vaccin contre la variole	vaccino antivaiolo
+* compose.include.concept[+].code = #836389008
+* compose.include.concept[=].display = "Vaccine product containing Vaccinia virus antigen (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Pocken-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin contre la variole"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino antivaiolo"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Pocken-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Vaccinia virus antigen-containing vaccine product"
+
+
+//1119220001	23-valenter Pneumokokken-Impfstoff	Pneumococcal 23-valent vaccine	vaccin antipneumococcique 23-valent	vaccino 23-valente contro gli pneumococchi
+* compose.include.concept[+].code = #1119220001
+* compose.include.concept[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, and 33F capsular polysaccharide antigens (medicinal product)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "23-valenter Pneumokokken-Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin antipneumococcique 23-valent"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino 23-valente contro gli pneumococchi"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "23-valenter Pneumokokken-Impfstoff"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Pneumococcal 23-valent vaccine"

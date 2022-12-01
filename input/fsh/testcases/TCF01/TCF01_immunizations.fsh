@@ -8,7 +8,7 @@ Title: "TCF1 Immunization 1"
 Description: "Testcase F 1 example of immunization"
 Usage: #example
 * id = "TCF01-IMMUN1"
-* extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
+* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
@@ -32,7 +32,7 @@ Title: "TCF1 Immunization 2"
 Description: "Testcase F 1 example of immunization with added note"
 Usage: #example
 * id = "TCF01-IMMUN2"
-* extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
+* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
@@ -57,7 +57,7 @@ Usage: #example
 * protocolApplied.doseNumberPositiveInt = 1
 * note.authorReference = Reference(TC_HCP1_C1)
 * note.time = "2021-06-02"
-* note.text = "Der Patient hat diese Impfung ohne jedwelcher nebenwirkungen gut vertragen."
+* note.text = "Der Patient hat diese Impfung ohne jegliche Nebenwirkungen gut vertragen."
 
 Instance: TCF01_IMMUN3
 InstanceOf: CHVACDImmunization
@@ -65,7 +65,7 @@ Title: "TCF1 Immunization 3"
 Description: "Testcase F 1 example of immunization with added note"
 Usage: #example
 * id = "TCF01-IMMUN3"
-* extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
+* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
@@ -83,4 +83,4 @@ Usage: #example
 * protocolApplied.doseNumberPositiveInt = 1
 * note.authorReference = Reference(TC_HCP1_C1)
 * note.time = "2021-06-02"
-* note.text = "Der Patient hat diese Impfung ohne jedwelcher nebenwirkungen gut vertragen."
+* note.text = "Der Patient hat diese Impfung ohne jegliche Nebenwirkungen gut vertragen."

@@ -8,7 +8,7 @@ Title: "TC02 Immunization by GFP"
 Description: "Testcase 2 example of immunization from GFP for second dose hepatite A"
 Usage: #example
 * id = "TCA02-IMMUN4-HCP2-ORG2-ROLE"
-* extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
+* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(TC_HCP2_ORG2_ROLE_author)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)

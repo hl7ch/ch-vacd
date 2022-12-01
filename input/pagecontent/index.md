@@ -16,7 +16,9 @@ The IHE PCC himself references the HL7 Clinical Document Architecture (CDA).
 
 During the development of the IG a lot of issues popped up which had to be resolved. The fact that the version 2.1 of the CDA was not really in use led to the cut of the reverse compatibility to the CDA in order to be able to set up a proper and usable exchange format based on FHIR.
 
-The circumstance to be able to exchange the information across borders had his influence on the specification. The [International Patient Summary Implementation Guide (IPS)](http://hl7.org/fhir/uv/ips/) gave some support.
+The circumstance to be able to exchange the information across borders had his influence on the specification. The [International Patient Summary Implementation Guide (IPS)](http://hl7.org/fhir/uv/ips/) gave some support (i.e. [Immunization Profile](http://hl7.org/fhir/uv/ips/StructureDefinition-Immunization-uv-ips.html)).
+Using as much as possible international codesystems like SNOMED CT® , LOINC, EDQM UCUM will increase the compatibility across borders.
+
 
 The following documents and messages have been defined:
 - [Immunization Administration document](immunization-administration-document.html)
@@ -25,13 +27,9 @@ The following documents and messages have been defined:
 - [Immunization Recommendation Response message](immunization-recommendation-response-message.html)
 
 
-<div markdown="1" class="stu-note">
-
-This implementation guide is under ballot for STU 3 by [HL7 Switzerland](https://www.hl7.ch/) until September 30th, 2022 midnight. Please add your feedback via the 'Propose a change'-link in the footer on the page where you have comments.
-
-[Significant Changes, Open and Closed Issues](changelog.html)
-
-</div>
+### Narrative Text Generation
+The narrative text in the composition of the bundle of type document can be generated using the FHIR XML representation and the defined xslt transformer defined in this implementation guide.
+for further details see [Narrative Text Generation](generatenarrativetext.html)
 
 **Download**: You can download this implementation guide in [NPM format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
@@ -44,15 +42,25 @@ There was also support from
 
 especially during the executed ballots.
 
+### IP Statements
+This document is licensed under Creative Commons "No Rights Reserved" ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)).
 
-### Copyright
+HL7®, HEALTH LEVEL SEVEN®, FHIR® and the FHIR <img src="icon-fhir-16.png" style="float: none; margin: 0px; padding: 0px; vertical-align: bottom"/>&reg; are trademarks owned by Health Level Seven International, registered with the United States Patent and Trademark Office.
 
-| Terminology | Owner/Contact | Links |
-| - | - | -- |
-| SNOMED CT® | SNOMED International |  [www.e-health-suisse.ch/snomedct](https://www.e-health-suisse.ch/snomedct) or [snomed@e-health-suisse.ch](mailto:snomed@e-health-suisse.ch) |
-| SNOMED CT® Global Patient Set (GPS) | SNOMED International | https://www.snomed.org/snomed-international/learn-more/global-patient-set|
-| Logical Observation Identifiers Names & Codes (LOINC®) | Regenstrief Institute, Inc. and the LOINC Committee| [http://loinc.org/terms-of-use](http://loinc.org/terms-of-use) |
-| Unified Codes for Units of Measures (UCUM)  | Regenstrief Institute, Inc. and the UCUM Organization | http://unitsofmeasure.org/trac/wiki/TermsOfUse |
-| Anatomical Therapeutic Chemical (ATC) classification system | World Health Organization (WHO) Collaborating Centre for Drug Statistics Methodology | https://www.whocc.no/use_of_atc_ddd/ |
-| EDQM Standard Terms | European Directorate for the Quality of Medicines | https://www.edqm.eu/en/standard-terms-database |
-| ISO 3166 Country Code | International Organization for Standardization (ISO)  |  https://www.iso.org/iso-3166-country-codes.html |
+This implementation guide contains and references intellectual property owned by third parties ("Third Party IP"). Acceptance of these License Terms does not grant any rights with respect to Third Party IP. The licensee alone is responsible for identifying and obtaining any necessary licenses or authorizations to utilize Third Party IP in connection with the specification or otherwise.
+
+{% include ip-statements.xhtml %}
+
+* This publication includes IP from Unified Codes for Units of Measures (UCUM) [Regenstrief Institute, Inc. and the UCUM Organization](http://unitsofmeasure.org/trac/wiki/TermsOfUse)
+
+### Cross Version Analysis
+
+{% include cross-version-analysis.xhtml %}
+
+### Dependency Table
+
+{% include dependency-table.xhtml %}
+
+### Globals Table
+
+{% include globals-table.xhtml %}

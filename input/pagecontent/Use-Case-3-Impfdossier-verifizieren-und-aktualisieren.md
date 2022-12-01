@@ -1,5 +1,3 @@
-## UC 3: Impfdossier verifizieren und aktualisieren
-
 ### Impfausweis und Impfdokumentation verifizieren (Gesundheitsfachperson)
 
 Eine Gesundheitsfachperson sichtet die, im EPD gespeicherten Impfdaten aus dem EPD eines Patienten in ihrem Primärsystem bzw. im Portal der Gemeinschaft. Sie wählt dazu die entsprechenden Benutzeroberflächen im Primärsystem bzw. im Portal aus, sucht den Patienten und fragt den Impfausweis bzw. die Impfdokumentation mit den Informationen zu verabreichten Impfungen, unerwünschten bzw. nicht angezeigten Impfungen, den Vorerkrankungen und Allergien auf Impfstoffe aus dem EPD des Patienten ab.
@@ -14,7 +12,7 @@ Von der Gesundheitsfachperson eingegeben bzw. korrigierte Daten werden im Primä
 
 ### Impfdossier aktualisieren
 
-Eine Gesundheitsfachperson aktualisiert die Impfdaten in seinem Primärsystem mit der Impfdaten eines Patienten im EPD (siehe [UC 1](usecase_1_epd_de.html)). Sie übernimmt dabei neue Daten aus dem EPD bzw. überträgt neu erfasste Daten in das EPD des Patienten (siehe [UC 2](usecase_2_epd_de.html)).
+Eine Gesundheitsfachperson aktualisiert die Impfdaten in seinem Primärsystem mit der Impfdaten eines Patienten im EPD (siehe [UC 1](Use-Case-1-Impfdokumentation-sichten.html)). Sie übernimmt dabei neue Daten aus dem EPD bzw. überträgt neu erfasste Daten in das EPD des Patienten (siehe [UC 2](Use-Case-2-Impfung-dokumentieren.html)).
 
 Die Gesundheitsfachperson stellt die zusätzlichen und für das Impfdossier benötigten medizinischen Informationen mit Bezug zum Immunitätsstatus des Patienten im Primärsystem zusammen oder wählt diese im Portal der Gemeinschaft aus. Die Gesundheitsfachperson wählt die Funktion zur Erstellung des Austauschformats Impfdossier.
 

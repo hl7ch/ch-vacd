@@ -84,7 +84,7 @@ Usage: #definition
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Europäischer Zeckenenzephalitis-Virus Ab [Titer] in Serum"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "Anticorps du virus de l'encéphalite à tiques européennes [titre] dans le sérum"
+* compose.include.concept[=].designation[=].value = "Anticorps du virus de l'encéphalite à tiques [titre] dans le serum"
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "virus della meningoencefalite da zecche europea Ab [titolo] in siero"
 * compose.include.concept[=].designation[+].language = #rm-CH

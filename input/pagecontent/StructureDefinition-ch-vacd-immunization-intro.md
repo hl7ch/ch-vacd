@@ -2,7 +2,7 @@
 
 ### Immunization validation
 
-An immunization can be recorded by an Practitioner or a Patient ([CH VACD Extension Immunization Recorder Reference](StructureDefinition-ch-vacd-ext-immunization-recorder-reference.html)). In the case a practitioner is recorder, the immunization entry is directly validated. In the case a patient is recording an immunization, a practitioner has to validate the immunization entry.<br>
+An immunization can be recorded by an Practitioner or a Patient ([Extension: Author of the content](http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author)) . In the case a practitioner is recorder, the immunization entry is directly validated. In the case a patient is recording an immunization, a practitioner has to validate the immunization entry.<br>
 Recorder == Patient means not validated<br/>
 Recorder == PractitionerRole means validated<br/>
 

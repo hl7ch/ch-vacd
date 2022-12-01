@@ -712,6 +712,33 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "DiTe pediatric adsorbed"
 
+* compose.include[=].concept[+].code = #711-01
+* compose.include[=].concept[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+
+* compose.include[=].concept[+].code = #711-02
+* compose.include[=].concept[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+
+
 * compose.include[=].concept[+].code = #704
 * compose.include[=].concept[=].display = "Dukoral"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -1012,19 +1039,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ProQuad"
 
-* compose.include[=].concept[+].code = #66427
-* compose.include[=].concept[=].display = "Vaxigrip Tetra"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Vaxigrip Tetra"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vaxigrip Tetra"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Vaxigrip Tetra"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Vaxigrip Tetra"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Vaxigrip Tetra"
-
 * compose.include[=].concept[+].code = #65387
 * compose.include[=].concept[=].display = "Gardasil 9"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -1237,6 +1251,143 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+
+
+//68358	01	Ervebo, Injektionslösung	MSD Merck Sharp & Dohme AG	B	11/10/2021	11/10/2021	11/9/2026	J07BX02
+// added 2022-11-03
+* compose.include[=].concept[+].code = #68358
+* compose.include[=].concept[=].display = "Ervebo, Injektionslösung"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Ervebo"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Ervebo"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Ervebo"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Ervebo"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Ervebo"
+
+//68710	01	Comirnaty® 30 Mikrogramm/Dosis, gebrauchsfertige Injektionsdispersion  für Personen ab 12  Jahren	Pfizer AG	B	12/10/2021	12/10/2021	12/18/2022	J07BX
+// added 2022-11-03
+* compose.include[=].concept[+].code = #68710-01
+* compose.include[=].concept[=].display = "Comirnaty® 30 Mikrogramm/Dosis"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+
+
+//68710	02	Comirnaty® 10 Mikrogramm/Dosis, Konzentrat zur Herstellung einer Injektionsdispersion	Pfizer AG	B	12/10/2021	12/10/2021	12/18/2022	J07BX
+// added 2022-11-03
+* compose.include[=].concept[+].code = #68710-02
+* compose.include[=].concept[=].display = "Comirnaty® 10 Mikrogramm/Dosis"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+
+//68473	01	Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	4/12/2022	4/12/2022	4/12/2024	J07BX03
+// added 2022-11-03
+* compose.include[=].concept[+].code = #68473
+* compose.include[=].concept[=].display = "Nuvaxovid 5 ml"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml"
+
+//68462	01	Fluenz Tetra, Nasenspray, Suspension	AstraZeneca AG	B	5/11/2022	5/11/2022	5/10/2027	J07BB03
+// added 2022-11-03
+* compose.include[=].concept[+].code = #68462
+* compose.include[=].concept[=].display = "Fluenz Tetra"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Fluenz Tetra"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Fluenz Tetra"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Fluenz Tetra"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Fluenz Tetra"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Fluenz Tetra"
+
+//69009	01	Spikevax Bivalent Original / Omicron	Moderna Switzerland GmbH	B	8/26/2022	8/26/2022	8/25/2024	J07B
+// added 2022-11-03
+* compose.include[=].concept[+].code = #69009
+* compose.include[=].concept[=].display = "Spikevax Bivalent Original / Omicron"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron"
+
+//68110	01	Adacel-Polio 0.5 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	8/26/2022	8/26/2022	8/25/2027	J07CA02
+// added 2022-11-03
+* compose.include[=].concept[+].code = #68110
+* compose.include[=].concept[=].display = "Adacel-Polio 0.5 ml"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adacel-Polio 0.5 ml"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adacel-Polio 0.5 ml"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adacel-Polio 0.5 ml"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adacel-Polio 0.5 ml"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adacel-Polio 0.5 ml"
+
+//68317	01	Adacel 0.5 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	8/26/2022	8/26/2022	8/25/2027	J07AJ52
+// added 2022-11-03
+* compose.include[=].concept[+].code = #68317
+* compose.include[=].concept[=].display = "Adacel 0.5 ml"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Adacel 0.5 ml"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Adacel 0.5 ml"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Adacel 0.5 ml"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Adacel 0.5 ml"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Adacel 0.5 ml"
+
+//68221	01	MenQuadfi, solution injectable	Sanofi-Aventis (Suisse) SA	B	10/5/2022	10/5/2022	10/4/2027	J07AH08
+// added 2022-11-03
+* compose.include[=].concept[+].code = #68221
+* compose.include[=].concept[=].display = "MenQuadfi"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "MenQuadfi"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "MenQuadfi"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "MenQuadfi"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "MenQuadfi"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "MenQuadfi"
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////

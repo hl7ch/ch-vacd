@@ -21,9 +21,9 @@ Usage: #definition
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Duplikat"
 * compose.include.concept[=].designation[+].language = #fr-CH
-* compose.include.concept[=].designation[=].value = "dupliquer"
+* compose.include.concept[=].designation[=].value = "doublon"
 * compose.include.concept[=].designation[+].language = #it-CH
-* compose.include.concept[=].designation[=].value = "duplicare"
+* compose.include.concept[=].designation[=].value = "duplicato"
 * compose.include.concept[=].designation[+].language = #rm-CH
 * compose.include.concept[=].designation[=].value = "Duplikat"
 * compose.include.concept[=].designation[+].language = #en-US

@@ -8,7 +8,7 @@ Title: "TC1 Immunization by Patient"
 Description: "Testcase 3 example of immunization against Central European encephalitis (disorder) from patient"
 Usage: #example
 * id = "TCA04-IMMUN5-patient-val-gfp"
-* extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
+* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(TC_HCP1_ORG1_ROLE_author)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)

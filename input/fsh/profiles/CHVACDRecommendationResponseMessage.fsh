@@ -1,7 +1,7 @@
 Profile: CHVACDRecommendationResponseMessage
 Parent: Bundle
 Id: ch-vacd-recommendation-response-message
-Title: "CH VACD Message Immunization Recommendation Response "
+Title: "CH VACD Message Immunization Recommendation Response"
 Description: "Definition of the bundle for the immunization recommendation response."
 //* ^version = "0.1.0"
 * ^experimental = false

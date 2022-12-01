@@ -1,5 +1,3 @@
-## UC 1: Impfdokumentation sichten
-
 ### Impfdaten und Impfdokumentation sichten (Gesundheitsfachperson)
 
 Eine Gesundheitsfachperson sichtet die Impfdaten (*Impfausweis* und *Impfdokumentation*) im EPD eines Patienten in ihrem Primärsystem bzw. im Portal der Gemeinschaft. Sie wählt dazu die entsprechenden Benutzeroberflächen im Primärsystem bzw. im Portal aus, sucht den Patienten und fragt den *Impfausweis* bzw. die *Impfdokumentation* mit den Informationen zu verabreichten Impfungen, unerwünschten bzw. nicht angezeigten Impfungen, den Vorerkrankungen und Allergien auf Impfstoffe aus dem EPD des Patienten ab. Die Gesundheitsfachperson sichtet die Impfdaten im Primärsystem bzw. im Portal der Gemeinschaft und berücksichtigt die Informationen bei Diagnosen und Therapien.

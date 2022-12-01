@@ -1,5 +1,3 @@
-## UC 4: Procéder au contrôle des vaccins
-
 ### Procéder au contrôle des vaccins (professionnel de la santé)
 
 Un professionnel de la santé met à jour les données de vaccination dans son système primaire à l’aide des données de vaccination d’un patient dans le DEP.

@@ -120,7 +120,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines mRNA-Impfstoffs gegen COVID-19"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "effet indésirable à un composant d'un vaccin à ARNm contre la COVID-19"
+* compose.include[=].concept[=].designation[=].value = "effet indésirable d'un vaccin à ARNm contre la COVID-19"
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino a mRNA anti-COVID-19"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
@@ -404,6 +404,21 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Anaphylaktische Reaktion auf einen Impfstoff"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Anaphylaxis due to vaccine"
+
+// added 2022.11.25
+// 293120003		Unerwünschte Wirkung eines Pocken-Impfstoffs	Smallpox vaccine adverse reactionerse reaction	effet indésirable d'un vaccin contre la variole	effetto indesiderato di un vaccino antivaiolo
+* compose.include[=].concept[+].code = #293120003
+* compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Vaccinia virus antigen (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Pocken-Impfstoffs"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "effet indésirable d'un vaccin contre la variole"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "effetto indesiderato di un vaccino antivaiolo"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Pocken-Impfstoffs"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Smallpox vaccine adverse reactionerse reaction"
 
 // missing herpes zoster
 // missing fsme

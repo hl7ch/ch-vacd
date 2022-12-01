@@ -8,7 +8,7 @@ Title: "TCA1 Immunization by patient"
 Description: "Testcase A 1 example of immunization"
 Usage: #example
 * id = "TCA01-IMMUN1-patient"
-* extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
+* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
@@ -26,7 +26,7 @@ Usage: #example
 * protocolApplied.doseNumberPositiveInt = 1
 * note.authorReference = Reference(TC_HCP1_C1)
 * note.time = "2021-06-01"
-* note.text = "Der Patient hat diese Impfung ohne jedwelcher nebenwirkungen gut vertragen."
+* note.text = "Der Patient hat diese Impfung ohne jegliche Nebenwirkungen gut vertragen."
 
 
 // DTP Vaccination, Boostrix, 1st dose, D2
@@ -36,7 +36,7 @@ Title: "TC1 Immunization by HCP1"
 Description: "Testcase 1 example of immunization from HCP1"
 Usage: #example
 * id = "TCA01-IMMUN2-HCP1-ORG1-ROLE"
-* extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
+* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(TC_HCP1_ORG1_ROLE_author)
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "11853642-8ff4-45ae-af98-44c58b3bf0b7"
@@ -64,7 +64,7 @@ Title: "TC1 Immunization by HCP2"
 Description: "Testcase 1 example of immunization from HCP2"
 Usage: #example
 * id = "TCA01-IMMUN3-HCP2-ORG2-ROLE"
-* extension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-recorder-reference"
+* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(TC_HCP2_ORG2_ROLE_author)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)

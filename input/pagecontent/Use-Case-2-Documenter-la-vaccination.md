@@ -1,5 +1,3 @@
-## UC 2: Documenter la vaccination
-
 ### Documenter la vaccination (professionnel de la santé)
 
 Un professionnel de la santé saisit les vaccins actuellement administrés dans son système primaire ou sur le portail de la communauté. Il choisit à cet effet les interfaces utilisateur correspondantes et recherche les données structurées du vaccin administré à l’aide de critères de recherche et de mots-clés, puis les sauvegarde. 

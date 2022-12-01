@@ -1,7 +1,6 @@
 Instance: ch-vacd-targetdiseases-vaccines-cm
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-targetdiseases-vaccines-cm"
 * name = "TargetDiseaseToVaccineCodeMapping"
 * title = "TargetDisease To VaccineCode Mapping"
 * description = "Mappings from target disease to vaccine code according to the correcsponding valuesets"
@@ -66,6 +65,27 @@ Usage: #definition
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #711-01
+* group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #711-02
+* group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* group[=].element[=].target[=].equivalence = #wider
+// added 2022-12-01
+* group[=].element[=].target[+].code = #66940
+* group[=].element[=].target[=].display = "Vaxelis"
+* group[=].element[=].target[=].equivalence = #wider
+
+// added 2022-11-03
+* group[=].element[=].target[+].code = #68317
+* group[=].element[=].target[=].display = "Adacel 0.5 ml"
+* group[=].element[=].target[=].equivalence = #wider
+// added 2022-11-03
+* group[=].element[=].target[+].code = #68110
+* group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
+* group[=].element[=].target[=].equivalence = #wider
+
+
 * group[=].element[+].code = #76902006
 * group[=].element[=].display = "Tetanus (disorder)"
 * group[=].element[=].target[0].code = #619
@@ -119,6 +139,26 @@ Usage: #definition
 * group[=].element[=].target[+].code = #711
 * group[=].element[=].target[=].display = "DiTe pediatric adsorbed"
 * group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #711-01
+* group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #711-02
+* group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #66940
+* group[=].element[=].target[=].display = "Vaxelis"
+* group[=].element[=].target[=].equivalence = #wider
+
+// added 2022-11-03
+* group[=].element[=].target[+].code = #68317
+* group[=].element[=].target[=].display = "Adacel 0.5 ml"
+* group[=].element[=].target[=].equivalence = #wider
+// added 2022-11-03
+* group[=].element[=].target[+].code = #68110
+* group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
+* group[=].element[=].target[=].equivalence = #wider
+
+
 * group[=].element[+].code = #27836007
 * group[=].element[=].display = "Pertussis (disorder)"
 * group[=].element[=].target[0].code = #619
@@ -145,6 +185,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-11-03
+* group[=].element[=].target[+].code = #68317
+* group[=].element[=].target[=].display = "Adacel 0.5 ml"
+* group[=].element[=].target[=].equivalence = #wider
+// added 2022-11-03
+* group[=].element[=].target[+].code = #68110
+* group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
+* group[=].element[=].target[=].equivalence = #wider
+// added 2022-12-01
+* group[=].element[=].target[+].code = #66940
+* group[=].element[=].target[=].display = "Vaxelis"
+* group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #398102009
 * group[=].element[=].display = "Acute poliomyelitis (disorder)"
 * group[=].element[=].target[0].code = #619
@@ -177,6 +230,16 @@ Usage: #definition
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-11-03
+* group[=].element[=].target[+].code = #68110
+* group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
+* group[=].element[=].target[=].equivalence = #wider
+//added 2022-12-01
+* group[=].element[=].target[+].code = #66940
+* group[=].element[=].target[=].display = "Vaxelis"
+* group[=].element[=].target[=].equivalence = #wider
+
+
 * group[=].element[+].code = #709410003
 * group[=].element[=].display = "Haemophilus influenzae type b infection (disorder)"
 * group[=].element[=].target[0].code = #619
@@ -194,6 +257,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-12-01
+* group[=].element[=].target[+].code = #66940
+* group[=].element[=].target[=].display = "Vaxelis"
+* group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #40468003
 * group[=].element[=].display = "Viral hepatitis, type A (disorder)"
 * group[=].element[=].target[0].code = #558
@@ -208,6 +276,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #572
 * group[=].element[=].target[=].display = "Epaxal"
 * group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #66071002
 * group[=].element[=].display = "Viral hepatitis type B (disorder)"
 * group[=].element[=].target[0].code = #640
@@ -243,6 +312,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #644
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-12-01
+* group[=].element[=].target[+].code = #66940
+* group[=].element[=].target[=].display = "Vaxelis"
+* group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #14189004
 * group[=].element[=].display = "Measles (disorder)"
 * group[=].element[=].target[0].code = #268
@@ -266,6 +340,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #58158
 * group[=].element[=].target[=].display = "Priorix-Tetra"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-12-01
+* group[=].element[=].target[+].code = #699	
+* group[=].element[=].target[=].display = "ProQuad"
+* group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #36989005
 * group[=].element[=].display = "Mumps (disorder)"
 * group[=].element[=].target[0].code = #268
@@ -283,6 +362,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #58158
 * group[=].element[=].target[=].display = "Priorix-Tetra"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-12-01
+* group[=].element[=].target[+].code = #699	
+* group[=].element[=].target[=].display = "ProQuad"
+* group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #36653000
 * group[=].element[=].display = "Rubella (disorder)"
 * group[=].element[=].target[0].code = #268
@@ -297,6 +381,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #58158
 * group[=].element[=].target[=].display = "Priorix-Tetra"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-12-01
+* group[=].element[=].target[+].code = #699	
+* group[=].element[=].target[=].display = "ProQuad"
+* group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #16901001
 * group[=].element[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target[0].code = #628
@@ -335,6 +424,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #657
 * group[=].element[=].target[=].display = "Menjugate"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-11-03
+* group[=].element[=].target[+].code = #68221
+* group[=].element[=].target[=].display = "MenQuadfi"
+* group[=].element[=].target[=].equivalence = #wider
+
 
 * group[=].element[+].code = #719590007
 * group[=].element[=].display = "Influenza caused by seasonal influenza virus (disorder)"
@@ -365,6 +459,14 @@ Usage: #definition
 * group[=].element[=].target[+].code = #485
 * group[=].element[=].target[=].display = "Influvac"
 * group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[+].code = #66427
+* group[=].element[=].target[=].display = "VaxigripTetra"
+* group[=].element[=].target[=].equivalence = #wider
+// added 2022-12-01
+* group[=].element[=].target[+].code = #68087	
+* group[=].element[=].target[=].display = "Influvac Tetra"
+* group[=].element[=].target[=].equivalence = #wider
+
 // added 2021-11-19
 //67482	01	Flucelvax Tetra, Injektionssuspension	Medius AG	B	04.05.2021	04.05.2021	03.05.2026	J07BB02
 //67704	01	Efluelda 0.7 ml, suspension injectable en seringue préremplie	Sanofi-Aventis (Suisse) SA	B	21.07.2021	21.07.2021	20.07.2026	J07BB02
@@ -378,6 +480,10 @@ Usage: #definition
 * group[=].element[=].target[+].code = #68003
 * group[=].element[=].target[=].display = "Supemtek 0.5 ml"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-11-03
+* group[=].element[=].target[+].code = #68462
+* group[=].element[=].target[=].display = "Fluenz Tetra"
+* group[=].element[=].target[=].equivalence = #wider
 
 
 * group[=].element[+].code = #63650001
@@ -388,6 +494,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #555
 * group[=].element[=].target[=].display = "Orochol"
 * group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #14168008
 * group[=].element[=].display = "Rabies (disorder)"
 * group[=].element[=].target[0].code = #685
@@ -399,11 +506,13 @@ Usage: #definition
 * group[=].element[=].target[+].code = #417
 * group[=].element[=].target[=].display = "Tollwut Impfstoff Mérieux"
 * group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #4834000
 * group[=].element[=].display = "Typhoid fever (disorder)"
 * group[=].element[=].target.code = #467
 * group[=].element[=].target.display = "Vivotif"
 * group[=].element[=].target.equivalence = #wider
+
 * group[=].element[+].code = #38907003
 * group[=].element[=].display = "Varicella (disorder)"
 * group[=].element[=].target[0].code = #688
@@ -415,11 +524,17 @@ Usage: #definition
 * group[=].element[=].target[+].code = #58158
 * group[=].element[=].target[=].display = "Priorix-Tetra"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-12-01
+* group[=].element[=].target[+].code = #699	
+* group[=].element[=].target[=].display = "ProQuad"
+* group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #56717001
 * group[=].element[=].display = "Tuberculosis (disorder)"
 * group[=].element[=].target.code = #696
 * group[=].element[=].target.display = "BCG SSI"
 * group[=].element[=].target.equivalence = #wider
+
 * group[=].element[+].code = #16541001
 * group[=].element[=].display = "Yellow fever (disorder)"
 * group[=].element[=].target.code = #520
@@ -453,6 +568,10 @@ Usage: #definition
 * group[=].element[=].target[0].code = #57735
 * group[=].element[=].target[=].display = "Gardasil"
 * group[=].element[=].target[=].equivalence = #wider
+* group[=].element[=].target[0].code = #65387
+* group[=].element[=].target[=].display = "Gardasil 9"
+* group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[=].target[+].code = #57814
 * group[=].element[=].target[=].display = "Cervarix"
 * group[=].element[=].target[=].equivalence = #wider
@@ -493,6 +612,19 @@ Usage: #definition
 * group[=].element[=].target[+].code = #68473
 * group[=].element[=].target[=].display = "Nuvaxovid 5 ml, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-11-03
+* group[=].element[=].target[+].code = #68710-01
+* group[=].element[=].target[=].display = "Comirnaty® 30 Mikrogramm/Dosis"
+* group[=].element[=].target[=].equivalence = #wider
+// added 2022-11-03
+* group[=].element[=].target[+].code = #68710-02
+* group[=].element[=].target[=].display = "Comirnaty® 10 Mikrogramm/Dosis"
+* group[=].element[=].target[=].equivalence = #wider
+// added 2022-11-03
+* group[=].element[=].target[+].code = #69009
+* group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron"
+* group[=].element[=].target[=].equivalence = #wider
+
 
 // added 2021-11-19
 //66161	01	Foclivia, Injektionssuspension in einer Durchstechflasche	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
@@ -506,6 +638,19 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Foclivia (Fertigspritze)"
 * group[=].element[=].target[=].equivalence = #wider
 
+// added 2022-11-03
+* group[=].element[+].code = #37109004
+* group[=].element[=].display = "Ebola virus disease (disorder)"
+* group[=].element[=].target[0].code = #68358
+* group[=].element[=].target[=].display = "Ervebo, Injektionslösung"
+* group[=].element[=].target[=].equivalence = #wider
+
+// added 2022-12-01
+* group[=].element[+].code = #860805006
+* group[=].element[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* group[=].element[=].target[+].code = #66037	
+* group[=].element[=].target[=].display = "Menjugate liquid"
+* group[=].element[=].target[=].equivalence = #wider
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////
@@ -572,6 +717,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #151
 * group[=].element[=].target[=].display = "Di Anatoxal"
 * group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #76902006
 * group[=].element[=].display = "Tetanus (disorder)"
 * group[=].element[=].target[0].code = #93
@@ -634,6 +780,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2022-12-01
+* group[=].element[=].target[+].code = #66940
+* group[=].element[=].target[=].display = "Vaxelis"
+* group[=].element[=].target[=].equivalence = #wider
+
 * group[=].element[+].code = #27836007
 * group[=].element[=].display = "Pertussis (disorder)"
 * group[=].element[=].target[0].code = #39
@@ -943,3 +1094,4 @@ Usage: #definition
 * group[=].element[=].target[+].code = #144
 * group[=].element[=].target[=].display = "Variola"
 * group[=].element[=].target[=].equivalence = #wider
+

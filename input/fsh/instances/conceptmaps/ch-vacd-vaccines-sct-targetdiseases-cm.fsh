@@ -1,8 +1,6 @@
 Instance: ch-vacd-vaccines-sct-targetdiseases-cm
 InstanceOf: ConceptMap
 Usage: #definition
-* url = "http://fhir.ch/ig/ch-vacd/ConceptMap/ch-vacd-vaccines-sct-targetdiseases-cm"
-* version = "202104.0-stable"
 * name = "SnomedCTVaccineCodeToTargetDiseaseMapping"
 * title = "Snomed CT VaccineCode To TargetDisease Mapping"
 * description = "Mappings from SnomedCT vaccine code to target disease according to the correcsponding valuesets"
@@ -28,7 +26,7 @@ Usage: #definition
 
 * group[=].element[+].code = #87171900
 * group[=].element[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
-* group[=].element[=].target[+].code = #116901001
+* group[=].element[=].target[+].code = #16901001
 * group[=].element[=].target[=].display =  "Central European encephalitis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
