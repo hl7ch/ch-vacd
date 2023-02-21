@@ -49,15 +49,15 @@ The issues in an overview for this ballot can be found [here](https://github.com
 
 #### Added Missing Parts
 * [Issue 71](https://github.com/hl7ch/ch-vacd/issues/71): Provide Use Cases in IG (Annatina Foppa, eHealth Suisse) (Duplicate: [Issue 75](https://github.com/hl7ch/ch-vacd/issues/75))
-   * [Anwendungsfälle EPD](uUse-Cases-Deutsch.html)
-   * [Les cas d’utilisation DEP](usecases_fr.html)
+   * [Anwendungsfälle EPD](Use-Cases-Deutsch.html)
+   * [Les cas d’utilisation DEP](Use-Cases-Francais.html)
 
 * [Issue 72](https://github.com/hl7ch/ch-vacd/issues/72): Add ConceptMap's (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 85](https://github.com/hl7ch/ch-vacd/issues/85))
    * [TargetDisease To VaccineCode Mapping](ConceptMap-ch-vacd-targetdiseases-vaccines-cm.html)
    * [VaccineCode To TargetDisease Mapping](ConceptMap-ch-vacd-vaccines-targetdiseases-cm.html)
 
 * [Issue 87](https://github.com/hl7ch/ch-vacd/issues/87): Extension for Reference to Practitioner as Validator of Immunization entry (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 94](https://github.com/hl7ch/ch-vacd/issues/94)): Not validator but recorder.
-   * [CH VACD Extension Immunization Recorder Reference](StructureDefinition-ch-vacd-ext-immunization-recorder-reference.html)
+   * [CH VACD Extension Immunization Recorder Reference](https://fhir.ch/ig/ch-vacd/2.0.0/StructureDefinition-ch-vacd-ext-immunization-recorder-reference.html)
 
 * [Issue 84](https://github.com/hl7ch/ch-vacd/issues/84): ValueSet missing information COVID test Laboratory Serology for Immunization (eHealth Suisse)
    * [Laboratory Serology Immunization](ValueSet-ch-vacd-laboratory-serology-vs.html)
@@ -81,14 +81,14 @@ The issues in an overview for this ballot can be found [here](https://github.com
 
 * [Issue 79](https://github.com/hl7ch/ch-vacd/issues/79): CH VACD Immunization Recommendations Profile cardinality of dateCriterion (Roeland Luykx, RALY GmbH)
    * [CH VACD Immunization Recommendations](StructureDefinition-ch-vacd-immunization-recommendation.html)
-   * [CH VACD Recommendation Immunization Recommendations](StructureDefinition-ch-vacd-recommendation-immunization-recommendation.html)
+   * [CH VACD Recommendation Immunization Recommendations](https://fhir.ch/ig/ch-vacd/2.0.0/StructureDefinition-ch-vacd-recommendation-immunization-recommendation.html)
 
 * [Issue 81](https://github.com/hl7ch/ch-vacd/issues/81): CH VACD Laboratory And Serology Profile, cardinality of valueQuantity  (Roeland Luykx, RALY GmbH)
    * [CH VACD Laboratory And Serology](StructureDefinition-ch-vacd-laboratory-serology.html)
 
 * [Issue 89](https://github.com/hl7ch/ch-vacd/issues/89): slicing vaccine codes -- CH VACD Immunization Profile (Annatina Foppa, eHealth Suisse)
    * [CH VACD Immunization](StructureDefinition-ch-vacd-immunization.html)
-   * [ATC Codes for Vaccination](ValueSet-ch-vacd-vaccines-atc-vs.html)
+   * [ATC Codes for Vaccination](https://fhir.ch/ig/ch-vacd/2.0.0/ValueSet-ch-vacd-vaccines-atc-vs.html)
    * [Vaccines by SNOMED CT](ValueSet-ch-vacd-vaccines-snomedct-vs.html)
 
 
@@ -109,7 +109,7 @@ The issues in an overview for this ballot can be found [here](https://github.com
    * [CH VACD VaccinationRecord Composition](StructureDefinition-ch-vacd-composition-vaccination-record.html)
 
 * [Issue 99](https://github.com/hl7ch/ch-vacd/issues/99): Expert review of valuesets
-   * [ATC Codes for Vaccination](ValueSet-ch-vacd-vaccines-atc-vs.html)
+   * [ATC Codes for Vaccination](https://fhir.ch/ig/ch-vacd/2.0.0/ValueSet-ch-vacd-vaccines-atc-vs.html)
    * [Vaccines by SNOMED CT](ValueSet-ch-vacd-vaccines-snomedct-vs.html)
    * [Route of Administration for Immunization](ValueSet-ch-vacd-route-of-administration-vs.html)
    * [Swiss Vaccination Plan Immunizations](ValueSet-ch-vacd-ch-vaccination-plan-immunizations-vs.html)

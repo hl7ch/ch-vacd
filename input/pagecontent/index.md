@@ -17,7 +17,7 @@ The IHE PCC himself references the HL7 Clinical Document Architecture (CDA).
 During the development of the IG a lot of issues popped up which had to be resolved. The fact that the version 2.1 of the CDA was not really in use led to the cut of the reverse compatibility to the CDA in order to be able to set up a proper and usable exchange format based on FHIR.
 
 The circumstance to be able to exchange the information across borders had his influence on the specification. The [International Patient Summary Implementation Guide (IPS)](http://hl7.org/fhir/uv/ips/) gave some support (i.e. [Immunization Profile](http://hl7.org/fhir/uv/ips/StructureDefinition-Immunization-uv-ips.html)).
-Using as much as possible international codesystems like SNOMED CT® , LOINC, EDQM UCUM will increase the compatibility across borders.
+Using as much as possible international codesystems like SNOMED CT®, LOINC, EDQM UCUM will increase the compatibility across borders.
 
 
 The following documents and messages have been defined:
@@ -26,12 +26,17 @@ The following documents and messages have been defined:
 - [Immunization Recommendation Request message](immunization-recommendation-request-message.html)
 - [Immunization Recommendation Response message](immunization-recommendation-response-message.html)
 
+<div markdown="1" class="stu-note">
+
+[Significant changes, open and closed issues](changelog.html)
+
+</div>
+
+**Download**: You can download this implementation guide in [NPM format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
 ### Narrative Text Generation
 The narrative text in the composition of the bundle of type document can be generated using the FHIR XML representation and the defined xslt transformer defined in this implementation guide.
-for further details see [Narrative Text Generation](generatenarrativetext.html)
-
-**Download**: You can download this implementation guide in [NPM format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
+For further details see [Narrative Text Generation](generatenarrativetext.html).
 
 ### Collaboration
 This guide is created by [RALY GmbH](https://www.raly.ch) as a mandate of [eHealth Suisse](https://www.e-health-suisse.ch/startseite.html).
