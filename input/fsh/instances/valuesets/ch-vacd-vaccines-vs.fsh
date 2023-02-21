@@ -1390,6 +1390,56 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "MenQuadfi"
 
 
+//69123	01	Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze	Moderna Switzerland GmbH	B	11.11.2022	11.11.2022	25.08.2024	J07BX03
+// added 2023-02-21
+* compose.include[=].concept[+].code = #69123
+* compose.include[=].concept[=].display = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+
+
+//69010	01	Spikevax, Fertigspritze	Moderna Switzerland GmbH	B	13.10.2022	13.10.2022	26.09.2023	J07BX03
+// added 2023-02-21
+* compose.include[=].concept[+].code = #69010
+* compose.include[=].concept[=].display = "Spikevax, Fertigspritze"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax, Fertigspritze"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax, Fertigspritze"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax, Fertigspritze"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax, Fertigspritze"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Spikevax, Fertigspritze"
+
+
+//69047	01	Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis gebrauchsfertige Injektionsdispersion für Personen ab 18 Jahren	Pfizer AG	B	10.10.2022	10.10.2022	09.10.2024	J07BX03
+// added 2023-02-21
+* compose.include[=].concept[+].code = #69047
+* compose.include[=].concept[=].display = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+
+
+
+
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///
 // //////////////////////////////////////////////////////////////////////////////////////////
