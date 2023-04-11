@@ -25,7 +25,7 @@ Description: "Clinical Decision Support Event"
 * #bi-dtpa ^designation[+].language = #it-CH
 * #bi-dtpa ^designation[=].value = "Ha ricevuto tutte le vaccinazioni contro la DTPa durante l'infanzia."
 * #bi-dtpa ^designation[+].language = #rm-CH
-* #bi-dtpa ^designation[=].value = "Alle Impfungen gegen DTPa in der Kindheit erhalten."
+* #bi-dtpa ^designation[=].value = "Ha obtegnì tut las vaccinaziuns cunter la DTPa durant l'uffanza."
 * #bi-dtpa ^designation[+].language = #en-US
 * #bi-dtpa ^designation[=].value = "Received all vaccinations against DTPa in childhood."
 
@@ -37,6 +37,6 @@ Description: "Clinical Decision Support Event"
 * #bi-polio ^designation[+].language = #it-CH
 * #bi-polio ^designation[=].value = "Ha ricevuto tutte le vaccinazioni contro la poliomelite durante l'infanzia."
 * #bi-polio ^designation[0].language = #rm-CH
-* #bi-polio ^designation[=].value = "Alle Impfungen gegen Poliomyelitis in der Kindheit erhalten."
+* #bi-polio ^designation[=].value = "Ha obtegnì tut las vaccinaziuns cunter la poliomielitis durant l'uffanza."
 * #bi-polio ^designation[+].language = #en-US
 * #bi-polio ^designation[=].value = "Received all vaccinations against poliomyelitis in childhood."
