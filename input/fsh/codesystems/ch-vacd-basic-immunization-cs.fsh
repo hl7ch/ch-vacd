@@ -36,7 +36,7 @@ Description: "Clinical Decision Support Event"
 * #bi-polio ^designation[=].value = "Avoir reçu tous les vaccins contre la poliomyélite dans l'enfance."
 * #bi-polio ^designation[+].language = #it-CH
 * #bi-polio ^designation[=].value = "Ha ricevuto tutte le vaccinazioni contro la poliomelite durante l'infanzia."
-* #bi-polio ^designation[0].language = #rm-CH
+* #bi-polio ^designation[+].language = #rm-CH
 * #bi-polio ^designation[=].value = "Ha obtegnì tut las vaccinaziuns cunter la poliomielitis durant l'uffanza."
 * #bi-polio ^designation[+].language = #en-US
 * #bi-polio ^designation[=].value = "Received all vaccinations against poliomyelitis in childhood."
