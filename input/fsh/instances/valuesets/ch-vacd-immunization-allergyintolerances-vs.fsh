@@ -30,7 +30,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "nessuna allergia nota"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Keine Allergie bekannt"
+* compose.include[=].concept[=].designation[=].value = "nagina allergia enconuschenta"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "No known allergy"
 
@@ -44,7 +44,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "allergia alle proteine dell'uovo"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Hühnereiweiss"
+* compose.include[=].concept[=].designation[=].value = "allergia cunter alv d'ov da giaglina"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to egg protein"
 
@@ -57,7 +57,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "dermatite atopica"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Atopische Dermatitis"
+* compose.include[=].concept[=].designation[=].value = "dermatitis atopica"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Atopic dermatitis"
 
@@ -70,7 +70,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "allergia ai farmaci"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Medikamenten-Allergie"
+* compose.include[=].concept[=].designation[=].value = "allergia cunter medicaments"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to drug"
 
@@ -85,7 +85,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "allergia a un componente del vaccino"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Bestandteil eines Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "allergia cunter ina cumponenta d'in vaccin"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to component of vaccine product"
 
@@ -98,7 +98,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa a un vaccino"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Vaccine adverse reaction"
 
@@ -111,7 +111,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro il colera"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Cholera-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter colera"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Cholera vaccine adverse reaction"
 
@@ -124,7 +124,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino a mRNA anti-COVID-19"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines mRNA-Impfstoffs gegen COVID-19"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter COVID-19 mRNA"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "COVID-19 mRNA vaccine adverse reaction"
 
@@ -137,7 +137,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino a vettore virale non replicante anti-COVID-19"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines nicht replizierenden viralen Vektorimpfstoffs gegen COVID-19"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin vectorial viral betg replitgant cunter COVID-19"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "COVID-19 non-replicating viral vector vaccine adverse reaction"
 
@@ -150,7 +150,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro la difterite, il tetano, la pertosse (acellulare), la poliomielite (inattivato), l’Haemophilus influenzae di tipo B e l’epatite B"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Diphtherie-, Pertussis (azellulär)-, Haemophilus influenzae B-, Hepatitis B- und Poliomyelitis sowie Tetanus (inaktiviert)-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin (inactivà) cunter difteria, la tuss chanina (acellulara), hemofilus influenza B, hepatitis B e poliomielitis sco er tetanus"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Diphtheria and acellular pertussis and Haemophilus influenzae type B and hepatitis B and inactivated poliomyelitis and tetanus vaccine adverse reaction"
 
@@ -163,7 +163,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro la difterite e il tetano"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Diphtherie- und Tetanus-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter difteria e tetanus"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Diphtheria and tetanus vaccine adverse reaction"
 
@@ -176,7 +176,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro la difterite, il tetano e la pertosse"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Diphtherie-, Pertussis und Tetanus-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter difteria, la tuss chanina e tetanus"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Diphtheria, pertussis, and tetanus vaccine adverse reaction"
 
@@ -189,7 +189,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro l’Haemophilus influenzae di tipo B"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Haemophilus influenzae B-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter hemofilus influenza B"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Haemophilus influenzae Type B vaccine adverse reaction"
 
@@ -202,7 +202,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro l’epatite A"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Hepatitis A-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter hepatitis A"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Hepatitis A vaccine adverse reaction"
 
@@ -215,7 +215,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro l’epatite B"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Hepatitis B-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter hepatitis B"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Hepatitis B vaccine adverse reaction"
 
@@ -228,7 +228,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro l’influenza"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Influenzavirus-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter la grippa"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Influenza virus vaccine adverse reaction"
 
@@ -241,7 +241,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro il morbillo, la parotite e la rosolia"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Masern-, Mumps- und Röteln-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter il virustgel, il glandun e la rubella"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Measles and mumps and rubella vaccine adverse reaction"
 
@@ -254,7 +254,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro il morbillo"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Masern-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter il virustgel"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Measles vaccine adverse reaction"
 
@@ -267,7 +267,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro i meningococchi"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Meningokokken-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter meningococcus"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Meningococcal vaccine adverse reaction"
 
@@ -280,7 +280,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro la parotite"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Mumps-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter il glandun"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Mumps vaccine adverse reaction"
 
@@ -293,7 +293,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro gli pneumococchi"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Pneumokokken-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter pneumococcus"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Pneumococcal vaccine adverse reaction"
 
@@ -306,7 +306,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro la poliomielite"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Poliomyelitis-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter poliomielitis"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Poliomyelitis vaccine adverse reaction"
 
@@ -319,7 +319,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro la rabbia"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Tollwut-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter la frenesia"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Rabies vaccine adverse reaction"
 
@@ -332,7 +332,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro il tetano"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Tetanus-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter tetanus"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Tetanus vaccine adverse reaction"
 
@@ -345,7 +345,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro la tubercolosi"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Tuberkulose-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter tuberculosa"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Bacillus Calmette-Guerin antigen (disorder)"
 
@@ -358,7 +358,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro la febbre tifoide"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Typhus-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter tifus"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Typhoid vaccine adverse reaction"
 
@@ -371,7 +371,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro la febbre gialla"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Gelbfieber-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter la fevra melna"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Yellow fever vaccine adverse reaction"
 
@@ -386,7 +386,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino anti-COVID-19 ricombinante con antigene della proteina spike"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Covid-19-rekombinanten Spike-Protein-Antigen-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter COVID-19 cun antigens dal protein spike recumbinant"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "COVID-19 recombinant spike protein antigen vaccine adverse reaction"
 
@@ -401,7 +401,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "anafilassi dovuta al vaccino"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Anaphylaktische Reaktion auf einen Impfstoff"
+* compose.include[=].concept[=].designation[=].value = "reacziun anafilactica sin in vaccin"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Anaphylaxis due to vaccine"
 
@@ -416,7 +416,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "effetto indesiderato di un vaccino antivaiolo"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Pocken-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter la virola"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Smallpox vaccine adverse reactionerse reaction"
 
