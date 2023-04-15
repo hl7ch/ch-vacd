@@ -27,7 +27,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Vaccinazioni raccomandate di base"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Empfohlene Basisimpfungen"
+* compose.include.concept[=].designation[=].value = "vaccinaziuns da basa recumandadas"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Recommended primary vaccinations"
 * compose.include.concept[+].code = #41502
@@ -39,7 +39,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Vaccinazioni raccomandate complementari"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Empfohlene ergänzende Impfungen"
+* compose.include.concept[=].designation[=].value = "vaccinaziuns cumplementaras recumandadas"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Recommended booster vaccinations"
 * compose.include.concept[+].code = #41503
@@ -51,7 +51,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Vaccinazioni raccomandate a gruppi a rischio"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Empfohlene Impfungen für Risikogruppen"
+* compose.include.concept[=].designation[=].value = "vaccinaziuns recumandadas per gruppas da ristga"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Recommended vaccinations for risk groups"
 * compose.include.concept[+].code = #41504
@@ -63,6 +63,6 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Vaccinazioni senza raccomandazione d’utilizzo"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Impfungen ohne Empfehlungen"
+* compose.include.concept[=].designation[=].value = "vaccinaziuns senza recumandaziuns"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Vaccinations without recommendations"
