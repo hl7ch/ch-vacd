@@ -7,7 +7,7 @@ Usage: #definition
 * identifier.use = #official
 * identifier.system = "http://art-decor.org/ns/oids/vs"
 * identifier.value = "2.16.756.5.30.1.1.11.71"
-* version = "2020-06-26T00:00:00"
+* version = "2023-04-15T00:00:00"
 * name = "SwissVaccinationPlanImmunizations"
 * title = "Swiss Vaccination Plan Immunizations"
 * status = #active
@@ -27,7 +27,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la tubercolosi"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "BCG-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter tuberculosa"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "BCG vaccination"
 * compose.include.concept[+].code = #76668005
@@ -39,7 +39,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la difterite"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Diphterie-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter difteria"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Diphtheria vaccination"
 * compose.include.concept[+].code = #127787002
@@ -51,7 +51,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro l'Haemophilus influenzae di tipo b"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Impfung gegen Haemophilus influenzae Typ B"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter hemofilus influenza tip B"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Haemophilus influenzae type b vaccination"
 * compose.include.concept[+].code = #243789007
@@ -63,7 +63,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro l'epatite A"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Hepatitis-A-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter hepatitis A"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Hepatitis A vaccination"
 * compose.include.concept[+].code = #16584000
@@ -75,7 +75,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro l'epatite B"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Hepatitis-B-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter hepatitis B"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Hepatitis B vaccination"
 * compose.include.concept[+].code = #86198006
@@ -87,7 +87,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro l'influenza"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Grippeimpfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter la grippa"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Influenza vaccination"
 * compose.include.concept[+].code = #314759000
@@ -99,7 +99,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Jvaccinazione contro l'encefalite giapponese"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Impfung gegen Japanische Enzephalitis"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter l'encefalitis giapunaisa"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Japanese encephalitis vaccination"
 * compose.include.concept[+].code = #47435007
@@ -111,7 +111,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro il morbillo"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Masernimpfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter il virustgel"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Measles vaccination"
 
@@ -125,7 +125,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la meningite C"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Meningitis-C-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter meninghitis C"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Meningitis C vaccination"
 
@@ -138,7 +138,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la meningite A e C"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Meningitis-A-und-C-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter meninghitis A e C"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Meningitis A and C vaccination"
 
@@ -151,7 +151,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la meningite A, C, W135 e Y"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Meningitis-A, C-, W135- und Y-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter meninghitis A, C, W135 ed Y"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Meningitis A, C, W135 and Y vaccination"
 
@@ -164,7 +164,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la parotite"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Mumpsimpfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter il glandun"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Mumps vaccination"
 * compose.include.concept[+].code = #761841000
@@ -176,7 +176,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro il virus del papilloma umano"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Impfung gegen humane Papillomaviren"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter ils papillomavirus umans"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Human papillomavirus vaccination"
 * compose.include.concept[+].code = #39343008
@@ -188,7 +188,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la pertosse"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Pertussis-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter la tuss chanina"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pertussis vaccination"
 
@@ -202,7 +202,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione con vaccino coniugato eptavalente contro gli pneumococchi"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "7-valente Pneumokokken-Konjugatimpfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter pneumococcus cun vaccin fusiunà valenza 7"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pneumococcal 7-valent conjugate vaccination"
 
@@ -215,7 +215,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione con vaccino coniugato 13-valente contro gli pneumococchi"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "13-valente Pneumokokken-Konjugatimpfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter pneumococcus cun vaccin fusiunà valenza 13"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pneumococcal 13-valent conjugate vaccination"
 
@@ -228,7 +228,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione con vaccino coniugato 23-valente contro gli pneumococchi"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "23-valente Pneumokokken-Konjugatimpfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter pneumococcus cun vaccin fusiunà valenza 23"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Pneumococcal 23-valent conjugate vaccination"
 
@@ -243,7 +243,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la poliomielite"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Polio-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter poliomielitica"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Poliomyelitis vaccination"
 * compose.include.concept[+].code = #34631000
@@ -255,7 +255,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la rabbia"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Rabies vaccination (procedure)"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter la frenesia"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Rabies vaccination"
 * compose.include.concept[+].code = #82314000
@@ -267,7 +267,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la rosolia"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Röteln-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter la rubella"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Rubella vaccination"
 * compose.include.concept[+].code = #127786006
@@ -279,7 +279,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro il tetano"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Tetanus-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter tetanus"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Tetanus vaccination"
 * compose.include.concept[+].code = #281658005
@@ -291,7 +291,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la meningoencefalite da zecche"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "FSME-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter la meningoencefalitis da zeccas"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Tick-borne encephalitis vaccination"
 * compose.include.concept[+].code = #15483003
@@ -303,7 +303,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la febbre tifoidea"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Typhus-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter tifus"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Typhoid vaccination"
 
@@ -317,7 +317,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro il virus varicella-zoster: solo varicella"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Varizellen-Zoster-Impfung gegen Windpocken"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter la virola selvadia"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Varicella-zoster vaccination for chickenpox"
 * compose.include.concept[+].code = #722215002
@@ -329,7 +329,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro il virus varicella-zoster: solo herpes zoster"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Varizellen-Zoster-Impfung gegen Gürtelrose"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter herpes zoster"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Varicella-zoster vaccination for shingles"
 
@@ -343,7 +343,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro la febbre gialla"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Gelbfieber-Impfung"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter la fevra melna"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Yellow fever vaccination"
 
@@ -357,7 +357,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione con vaccino a vettore virale non replicante anti-COVID-19"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Nicht replizierende virale Vektorimpfung gegen COVID-19"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter COVID-19 cun vaccin vectorial viral betg replitgant"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "COVID-19 non-replicating viral vector vaccination"
 
@@ -370,7 +370,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione con vaccino a mRNA anti-COVID-19"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "mRNA-Impfung gegen COVID-19"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter COVID-19 cun vaccin mRNA"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "COVID-19 mRNA vaccination"
 
@@ -385,7 +385,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione contro i papillomavirus umani 6, 11, 16, 18, 31, 33, 45, 52 e 58"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Impfung gegen die humanen Papillomaviren 6, 11, 16, 18, 31, 33, 45, 52 und 58"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter ils papillomavirus umans 6, 11, 16, 18, 31, 33, 45, 52 e 58"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Human papillomavirus 6, 11, 16, 18, 31, 33, 45, 52 and 58 vaccination"
 
@@ -401,6 +401,6 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "vaccinazione con vaccino antigenico anti-COVID-19 con proteina spike ricombinante"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Impfung gegen Covid-19 mit rekombinanten Spike-Protein-Antigenen"
+* compose.include.concept[=].designation[=].value = "vaccinaziun cunter COVID-19 cun antigens dal protein spike recumbinant"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "COVID-19 recombinant spike protein antigen vaccination"
