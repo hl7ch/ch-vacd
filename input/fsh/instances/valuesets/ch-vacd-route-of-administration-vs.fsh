@@ -28,7 +28,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Uso intradermico"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "intradermale Anwendung"
+* compose.include.concept[=].designation[=].value = "applicaziun intradermala"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Intradermal use"
 * compose.include.concept[+].code = #20035000
@@ -40,7 +40,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Uso intramuscolare"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "intramuskuläre Anwendung"
+* compose.include.concept[=].designation[=].value = "applicaziun intramusculara"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Intramuscular use"
 * compose.include.concept[+].code = #20049000
@@ -52,7 +52,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Uso nasale"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "nasale Anwendung"
+* compose.include.concept[=].designation[=].value = "applicaziun nasala"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Nasal use"
 * compose.include.concept[+].code = #20053000
@@ -64,7 +64,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Uso orale"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "zum Einnehmen"
+* compose.include.concept[=].designation[=].value = "applicaziun orala"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Oral use"
 * compose.include.concept[+].code = #20066000
@@ -76,6 +76,6 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Uso sottocutaneo"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "subkutane Anwendung"
+* compose.include.concept[=].designation[=].value = "applicaziun subcutana"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Subcutaneous use"
