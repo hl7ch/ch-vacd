@@ -721,7 +721,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Difterite e tetano vaccino adsorbito per bambini di età inferiore agli 8 anni"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "difteria e tetanus vaccin d’asorbat per uffants sut 8 onns"
+* compose.include[=].concept[=].designation[=].value = "Difteria e tetanus vaccin d’asorbat per uffants sut 8 onns"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Diphtheria and tetanus adsorbate vaccine for children under 8 years of age"
 
@@ -734,7 +734,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Difterite e tetano vaccino adsorbito per bambini di età inferiore agli 8 anni"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "diabetheria e tetanus vaccin d’asorbat per uffants sut 8 onns"
+* compose.include[=].concept[=].designation[=].value = "Difteria e tetanus vaccin d’asorbat per uffants sut 8 onns"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Diphtheria and tetanus adsorbate vaccine for children under 8 years of age"
 
