@@ -1298,6 +1298,6 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #69047 ^designation[+].language = #it-CH
 * #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg per dose"
 * #69047 ^designation[+].language = #rm-CH
-* #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro dosis"
 * #69047 ^designation[+].language = #en-US
 * #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg per dose"
