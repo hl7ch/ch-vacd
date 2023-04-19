@@ -613,11 +613,11 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Tollwut Impfstoff Mérieux"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "rage vaccin Mérieux"
+* compose.include[=].concept[=].designation[=].value = "Rage vaccin Mérieux"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "rabbia vaccino Mérieux"
+* compose.include[=].concept[=].designation[=].value = "Rabbia vaccino Mérieux"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "frenesia vaccin Mérieux"
+* compose.include[=].concept[=].designation[=].value = "Frenesia vaccin Mérieux"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Rage vaccine Mérieux"
 
@@ -730,13 +730,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Diphtérie- et tétanos-vaccin adsorbant pour les enfants de moins de 8 ans"
+* compose.include[=].concept[=].designation[=].value = "Diphtérie- et tétanos-vaccin adsorbant pour pour les adultes et les enfants à partir de 7 ans"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Difterite e tetano vaccino adsorbito per bambini di età inferiore agli 8 anni"
+* compose.include[=].concept[=].designation[=].value = "Difterite e tetano vaccino adsorbito per adulti e bambini dai 7 anni in su"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Difteria e tetanus vaccin d’asorbat per uffants sut 8 onns"
+* compose.include[=].concept[=].designation[=].value = "Difteria e tetanus vaccin d’asorbat per persunas creschidas e per uffants a partir da 7 onns"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Diphtheria and tetanus adsorbate vaccine for children under 8 years of age"
+* compose.include[=].concept[=].designation[=].value = "Diphtheria and tetanus adsorbate vaccine for adults and children over 7 years old"
 
 
 * compose.include[=].concept[+].code = #704
@@ -1429,13 +1429,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg par dose"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg per dose"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro dosis"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg per dose"
 
 
 
