@@ -21,10 +21,10 @@ Description: "The entry conflict codesystem"
 * #duplicate ^designation[0].language = #de-CH
 * #duplicate ^designation[=].value = "Duplikat"
 * #duplicate ^designation[+].language = #fr-CH
-* #duplicate ^designation[=].value = "dupliquer"
+* #duplicate ^designation[=].value = "doublon"
 * #duplicate ^designation[+].language = #it-CH
 * #duplicate ^designation[=].value = "duplicare"
 * #duplicate ^designation[+].language = #rm-CH
-* #duplicate ^designation[=].value = "Duplikat"
+* #duplicate ^designation[=].value = "duplicat"
 * #duplicate ^designation[+].language = #en-US
 * #duplicate ^designation[=].value = "duplicate"
