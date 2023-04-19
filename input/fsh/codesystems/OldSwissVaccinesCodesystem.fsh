@@ -219,24 +219,24 @@ Description: "Old vaccines codes earlier available in Switzerland."
 * #80 ^designation[0].language = #de-CH
 * #80 ^designation[=].value = "Anatoxal DiTe Erwachsene"
 * #80 ^designation[+].language = #fr-CH
-* #80 ^designation[=].value = "Anatoxal DiTe Erwachsene"
+* #80 ^designation[=].value = "Anatoxal DiTe adultes"
 * #80 ^designation[+].language = #it-CH
-* #80 ^designation[=].value = "Anatoxal DiTe Erwachsene"
+* #80 ^designation[=].value = "Anatoxal DiTe adulti"
 * #80 ^designation[+].language = #rm-CH
-* #80 ^designation[=].value = "Anatoxal DiTe Erwachsene"
+* #80 ^designation[=].value = "Anatoxal DiTe persunas creschidas"
 * #80 ^designation[+].language = #en-US
-* #80 ^designation[=].value = "Anatoxal DiTe Erwachsene"
+* #80 ^designation[=].value = "Anatoxal DiTe adults"
 * #81 "Anatoxal DiTe N Erwachsene"
 * #81 ^designation[0].language = #de-CH
 * #81 ^designation[=].value = "Anatoxal DiTe N Erwachsene"
 * #81 ^designation[+].language = #fr-CH
-* #81 ^designation[=].value = "Anatoxal DiTe N Erwachsene"
+* #81 ^designation[=].value = "Anatoxal DiTe N adultes"
 * #81 ^designation[+].language = #it-CH
-* #81 ^designation[=].value = "Anatoxal DiTe N Erwachsene"
+* #81 ^designation[=].value = "Anatoxal DiTe N adulti"
 * #81 ^designation[+].language = #rm-CH
-* #81 ^designation[=].value = "Anatoxal DiTe N Erwachsene"
+* #81 ^designation[=].value = "Anatoxal DiTe N persunas creschidas"
 * #81 ^designation[+].language = #en-US
-* #81 ^designation[=].value = "Anatoxal DiTe N Erwachsene"
+* #81 ^designation[=].value = "Anatoxal DiTe N adults"
 * #82 "Anatoxal Di"
 * #82 ^designation[0].language = #de-CH
 * #82 ^designation[=].value = "Anatoxal Di"
@@ -615,13 +615,13 @@ Description: "Old vaccines codes earlier available in Switzerland."
 * #128 ^designation[0].language = #de-CH
 * #128 ^designation[=].value = "FSME-Immun Injekt"
 * #128 ^designation[+].language = #fr-CH
-* #128 ^designation[=].value = "FSME-Immun Injekt"
+* #128 ^designation[=].value = "FSME-Immun Inject"
 * #128 ^designation[+].language = #it-CH
-* #128 ^designation[=].value = "FSME-Immun Injekt"
+* #128 ^designation[=].value = "FSME-Immun Iniettare"
 * #128 ^designation[+].language = #rm-CH
-* #128 ^designation[=].value = "FSME-Immun Injekt"
+* #128 ^designation[=].value = "FSME-Immun inject"
 * #128 ^designation[+].language = #en-US
-* #128 ^designation[=].value = "FSME-Immun Injekt"
+* #128 ^designation[=].value = "FSME-Immun Inject"
 * #133 "ProHibit"
 * #133 ^designation[0].language = #de-CH
 * #133 ^designation[=].value = "ProHibit"
@@ -637,13 +637,13 @@ Description: "Old vaccines codes earlier available in Switzerland."
 * #134 ^designation[0].language = #de-CH
 * #134 ^designation[=].value = "Anatoxal DiTe Kinder"
 * #134 ^designation[+].language = #fr-CH
-* #134 ^designation[=].value = "Anatoxal DiTe Kinder"
+* #134 ^designation[=].value = "Anatoxal DiTe enfants"
 * #134 ^designation[+].language = #it-CH
-* #134 ^designation[=].value = "Anatoxal DiTe Kinder"
+* #134 ^designation[=].value = "Anatoxal DiTe bambini"
 * #134 ^designation[+].language = #rm-CH
-* #134 ^designation[=].value = "Anatoxal DiTe Kinder"
+* #134 ^designation[=].value = "Anatoxal DiTe uffants"
 * #134 ^designation[+].language = #en-US
-* #134 ^designation[=].value = "Anatoxal DiTe Kinder"
+* #134 ^designation[=].value = "Anatoxal DiTe children"
 * #136 "Celtura"
 * #136 ^designation[0].language = #de-CH
 * #136 ^designation[=].value = "Celtura"
@@ -767,15 +767,15 @@ Description: "Old vaccines codes earlier available in Switzerland."
 * #151 ^designation[=].value = "Di Anatoxal"
 * #154 "DiTe Anatoxal Kinder / Enfants"
 * #154 ^designation[0].language = #de-CH
-* #154 ^designation[=].value = "DiTe Anatoxal Kinder / Enfants"
+* #154 ^designation[=].value = "DiTe Anatoxal Kinder"
 * #154 ^designation[+].language = #fr-CH
-* #154 ^designation[=].value = "DiTe Anatoxal Kinder / Enfants"
+* #154 ^designation[=].value = "DiTe Anatoxal enfants"
 * #154 ^designation[+].language = #it-CH
-* #154 ^designation[=].value = "DiTe Anatoxal Kinder / Enfants"
+* #154 ^designation[=].value = "DiTe Anatoxal bambini"
 * #154 ^designation[+].language = #rm-CH
-* #154 ^designation[=].value = "DiTe Anatoxal Kinder / Enfants"
+* #154 ^designation[=].value = "DiTe Anatoxal uffants"
 * #154 ^designation[+].language = #en-US
-* #154 ^designation[=].value = "DiTe Anatoxal Kinder / Enfants"
+* #154 ^designation[=].value = "DiTe Anatoxal children"
 * #155 "DiTePer Anatoxal"
 * #155 ^designation[0].language = #de-CH
 * #155 ^designation[=].value = "DiTePer Anatoxal"
