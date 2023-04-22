@@ -32,13 +32,13 @@ Description: "Old vaccines codes earlier available in Switzerland."
 * #17 ^designation[0].language = #de-CH
 * #17 ^designation[=].value = "Poliomyelitis Impfstoff Berna"
 * #17 ^designation[+].language = #fr-CH
-* #17 ^designation[=].value = "Poliomyelitis Impfstoff Berna"
+* #17 ^designation[=].value = "Poliomyelitis vaccin Berna"
 * #17 ^designation[+].language = #it-CH
-* #17 ^designation[=].value = "Poliomyelitis Impfstoff Berna"
+* #17 ^designation[=].value = "Poliomyelitis vaccino Berna"
 * #17 ^designation[+].language = #rm-CH
-* #17 ^designation[=].value = "Poliomyelitis Impfstoff Berna"
+* #17 ^designation[=].value = "Poliomyelitis vaccin Berna"
 * #17 ^designation[+].language = #en-US
-* #17 ^designation[=].value = "Poliomyelitis Impfstoff Berna"
+* #17 ^designation[=].value = "Poliomyelitis vaccine Berna"
 * #23 "Triviraten"
 * #23 ^designation[0].language = #de-CH
 * #23 ^designation[=].value = "Triviraten"
@@ -120,13 +120,13 @@ Description: "Old vaccines codes earlier available in Switzerland."
 * #55 ^designation[0].language = #de-CH
 * #55 ^designation[=].value = "Meningokokken-Impfstoff A+C Mérieux"
 * #55 ^designation[+].language = #fr-CH
-* #55 ^designation[=].value = "Meningokokken-Impfstoff A+C Mérieux"
+* #55 ^designation[=].value = "Vaccin méningococcique A+C Mérieux"
 * #55 ^designation[+].language = #it-CH
-* #55 ^designation[=].value = "Meningokokken-Impfstoff A+C Mérieux"
+* #55 ^designation[=].value = "Vaccino meningococcico A+C Mérieux"
 * #55 ^designation[+].language = #rm-CH
-* #55 ^designation[=].value = "Meningokokken-Impfstoff A+C Mérieux"
+* #55 ^designation[=].value = "vaccin da meningokokken A+C Mérieux"
 * #55 ^designation[+].language = #en-US
-* #55 ^designation[=].value = "Meningokokken-Impfstoff A+C Mérieux"
+* #55 ^designation[=].value = "Meningococcal vaccine A+C Mérieux"
 * #56 "Meruvax"
 * #56 ^designation[0].language = #de-CH
 * #56 ^designation[=].value = "Meruvax"
