@@ -25,7 +25,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #113001 ^designation[+].language = #it-CH
 * #113001 ^designation[=].value = "Asplenia anatomica o funzionale"
 * #113001 ^designation[+].language = #rm-CH
-* #113001 ^designation[=].value = "ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"
+* #113001 ^designation[=].value = "asplenia anatomica u funcziunala"
 * #113001 ^designation[+].language = #en-US
 * #113001 ^designation[=].value = "ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"
 * #114036 "ANDERE_LEBERERKRANKUNG"
@@ -36,7 +36,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114036 ^designation[+].language = #it-CH
 * #114036 ^designation[=].value = "altra malattia epatica"
 * #114036 ^designation[+].language = #rm-CH
-* #114036 ^designation[=].value = "ANDERE_LEBERERKRANKUNG"
+* #114036 ^designation[=].value = "autra malsogna dal gnirom"
 * #114036 ^designation[+].language = #en-US
 * #114036 ^designation[=].value = "ANDERE_LEBERERKRANKUNG"
 * #114006 "ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"
@@ -47,7 +47,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114006 ^designation[+].language = #it-CH
 * #114006 ^designation[=].value = "Altre malattie polmonari (p.es. mucoviscidosi, asmatrattata con aerosol, ecc.)"
 * #114006 ^designation[+].language = #rm-CH
-* #114006 ^designation[=].value = "ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"
+* #114006 ^designation[=].value = "autras malsognas dal pulmun (p.ex. mucoviscidosa, asma bronchiala, e.u.v.)"
 * #114006 ^designation[+].language = #en-US
 * #114006 ^designation[=].value = "ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"
 * #114033 "ANDERE_NIERENERKRANKUNG"
@@ -58,7 +58,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114033 ^designation[+].language = #it-CH
 * #114033 ^designation[=].value = "altra malattia renale"
 * #114033 ^designation[+].language = #rm-CH
-* #114033 ^designation[=].value = "ANDERE_NIERENERKRANKUNG"
+* #114033 ^designation[=].value = "autra malsogna dals gnirunchels"
 * #114033 ^designation[+].language = #en-US
 * #114033 ^designation[=].value = "ANDERE_NIERENERKRANKUNG"
 * #114034 "ANDERER_KREBS"
@@ -69,7 +69,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114034 ^designation[+].language = #it-CH
 * #114034 ^designation[=].value = "altro cancro"
 * #114034 ^designation[+].language = #rm-CH
-* #114034 ^designation[=].value = "ANDERER_KREBS"
+* #114034 ^designation[=].value = "auter cancer"
 * #114034 ^designation[+].language = #en-US
 * #114034 ^designation[=].value = "ANDERER_KREBS"
 * #114025 "ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"
@@ -80,7 +80,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114025 ^designation[+].language = #it-CH
 * #114025 ^designation[=].value = "Immunodeficienza congenita, immunodeficienza comune variabile, deficit di risposta ai polisaccaridi"
 * #114025 ^designation[+].language = #rm-CH
-* #114025 ^designation[=].value = "ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"
+* #114025 ^designation[=].value = "immunodeficienza innata, immunodeficienza cumina variabla, resposta deficitara sin polisaccarids"
 * #114025 ^designation[+].language = #en-US
 * #114025 ^designation[=].value = "ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"
 * #114021 "AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"
@@ -91,7 +91,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114021 ^designation[+].language = #it-CH
 * #114021 ^designation[=].value = "Malattia autoimmune che richiede probabilmente una immunosoppressione"
 * #114021 ^designation[+].language = #rm-CH
-* #114021 ^designation[=].value = "AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"
+* #114021 ^designation[=].value = "malsogna d'autoimmunitad che pretenda ina immunosuppressiun"
 * #114021 ^designation[+].language = #en-US
 * #114021 ^designation[=].value = "AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"
 * #114005 "BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"
@@ -102,7 +102,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114005 ^designation[+].language = #it-CH
 * #114005 ^designation[=].value = "Bronchiettasie su carenza in anticorpi"
 * #114005 ^designation[+].language = #rm-CH
-* #114005 ^designation[=].value = "BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"
+* #114005 ^designation[=].value = "bronchetasias tras mancanza d'anticorpuls"
 * #114005 ^designation[+].language = #en-US
 * #114005 ^designation[=].value = "BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"
 * #114003 "CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"
@@ -113,7 +113,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114003 ^designation[+].language = #it-CH
 * #114003 ^designation[=].value = "Pneumopatia cronica ostruttiva"
 * #114003 ^designation[+].language = #rm-CH
-* #114003 ^designation[=].value = "CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"
+* #114003 ^designation[=].value = "pneumopatia cronica obstructiva"
 * #114003 ^designation[+].language = #en-US
 * #114003 ^designation[=].value = "CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"
 * #114007 "CHRONISCHE_LEBERERKRANKUNG"
@@ -124,7 +124,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114007 ^designation[+].language = #it-CH
 * #114007 ^designation[=].value = "Malattia epatica cronica"
 * #114007 ^designation[+].language = #rm-CH
-* #114007 ^designation[=].value = "CHRONISCHE_LEBERERKRANKUNG"
+* #114007 ^designation[=].value = "malsogna cronica dal gnirom"
 * #114007 ^designation[+].language = #en-US
 * #114007 ^designation[=].value = "CHRONISCHE_LEBERERKRANKUNG"
 * #113002 "COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"
@@ -135,7 +135,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #113002 ^designation[+].language = #it-CH
 * #113002 ^designation[=].value = "Impianto cocleare, in situ o pianificato"
 * #113002 ^designation[+].language = #rm-CH
-* #113002 ^designation[=].value = "COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"
+* #113002 ^designation[=].value = "implantat da la cochlea, in situ u planisà"
 * #113002 ^designation[+].language = #en-US
 * #113002 ^designation[=].value = "COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"
 * #114015 "DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"
@@ -146,7 +146,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114015 ^designation[+].language = #it-CH
 * #114015 ^designation[=].value = "Diabete con ripercussioni sulla funzione cardiopolmonare o renale"
 * #114015 ^designation[+].language = #rm-CH
-* #114015 ^designation[=].value = "DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"
+* #114015 ^designation[=].value = "diabetes cun consequenza sin la funcziun dal cor, dal pulmun u dals gnirunchels"
 * #114015 ^designation[+].language = #en-US
 * #114015 ^designation[=].value = "DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"
 * #114019 "EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"
@@ -157,7 +157,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114019 ^designation[+].language = #it-CH
 * #114019 ^designation[=].value = "Riceventi di un trapianto d'organo solido"
 * #114019 ^designation[+].language = #rm-CH
-* #114019 ^designation[=].value = "EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"
+* #114019 ^designation[=].value = "retschaviders d'ina transplantaziun d'organs solida"
 * #114019 ^designation[+].language = #en-US
 * #114019 ^designation[=].value = "EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"
 * #114020 "EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"
@@ -168,7 +168,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114020 ^designation[+].language = #it-CH
 * #114020 ^designation[=].value = "Riceventi di cellule staminali ematopoietiche"
 * #114020 ^designation[+].language = #rm-CH
-* #114020 ^designation[=].value = "EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"
+* #114020 ^designation[=].value = "retschaviders d'ina transplantaziun da cellas da basa"
 * #114020 ^designation[+].language = #en-US
 * #114020 ^designation[=].value = "EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"
 * #113004 "GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"
@@ -179,7 +179,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #113004 ^designation[+].language = #it-CH
 * #113004 ^designation[=].value = "Nascita prima della 33a settimana di gravidanza o peso alla nascita <1500g"
 * #113004 ^designation[+].language = #rm-CH
-* #113004 ^designation[=].value = "GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"
+* #113004 ^designation[=].value = "naschientscha avant la 33. emna da gravidanza u pais da naschientscha < 1500g"
 * #113004 ^designation[+].language = #en-US
 * #113004 ^designation[=].value = "GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"
 * #114037 "HAEMODIALYSEPATIENT"
@@ -190,7 +190,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114037 ^designation[+].language = #it-CH
 * #114037 ^designation[=].value = "Persone in dialisi"
 * #114037 ^designation[+].language = #rm-CH
-* #114037 ^designation[=].value = "HAEMODIALYSEPATIENT"
+* #114037 ^designation[=].value = "pazient da hemodialisa"
 * #114037 ^designation[+].language = #en-US
 * #114037 ^designation[=].value = "HAEMODIALYSEPATIENT"
 * #114038 "HAEMOPHILIE_PATIENT"
@@ -201,7 +201,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114038 ^designation[+].language = #it-CH
 * #114038 ^designation[=].value = "Persone affette da emofilia"
 * #114038 ^designation[+].language = #rm-CH
-* #114038 ^designation[=].value = "HAEMOPHILIE_PATIENT"
+* #114038 ^designation[=].value = "pazient da hemofilia"
 * #114038 ^designation[+].language = #en-US
 * #114038 ^designation[=].value = "HAEMOPHILIE_PATIENT"
 * #114001 "HERZINSUFFIZIENZ"
@@ -212,7 +212,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114001 ^designation[+].language = #it-CH
 * #114001 ^designation[=].value = "Insufficienza cardiaca"
 * #114001 ^designation[+].language = #rm-CH
-* #114001 ^designation[=].value = "HERZINSUFFIZIENZ"
+* #114001 ^designation[=].value = "insuffizienza dal cor"
 * #114001 ^designation[+].language = #en-US
 * #114001 ^designation[=].value = "HERZINSUFFIZIENZ"
 * #113007 "HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"
@@ -223,7 +223,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #113007 ^designation[+].language = #it-CH
 * #113007 ^designation[=].value = "Cardiopatie croniche, malformazioni congenite"
 * #113007 ^designation[+].language = #rm-CH
-* #113007 ^designation[=].value = "HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"
+* #113007 ^designation[=].value = "malsognas dal cor (cronicas u defurmaziuns congenitalas)"
 * #113007 ^designation[+].language = #en-US
 * #113007 ^designation[=].value = "HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"
 * #113008 "HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"
@@ -234,7 +234,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #113008 ^designation[+].language = #it-CH
 * #113008 ^designation[=].value = "Infezione HIV con CD4 >= 15% (Adulti : >= 200 / µl)"
 * #113008 ^designation[+].language = #rm-CH
-* #113008 ^designation[=].value = "HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"
+* #113008 ^designation[=].value = "infecziun HIV cun cellas CD4 >= 15 % (persunas creschidas: >= 200 / µl)"
 * #113008 ^designation[+].language = #en-US
 * #113008 ^designation[=].value = "HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"
 * #113009 "HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"
@@ -245,7 +245,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #113009 ^designation[+].language = #it-CH
 * #113009 ^designation[=].value = "Infezione HIV con CD4 < 15% (Adulti : < 200 / µl)"
 * #113009 ^designation[+].language = #rm-CH
-* #113009 ^designation[=].value = "HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"
+* #113009 ^designation[=].value = "infecziun HIV cun cellas CD4 < 15 % (persunas creschidas: <= 200 / µl)"
 * #113009 ^designation[+].language = #en-US
 * #113009 ^designation[=].value = "HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"
 * #114018 "KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"
@@ -256,7 +256,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114018 ^designation[+].language = #it-CH
 * #114018 ^designation[=].value = "Candidati a un trapianto d'organo solido"
 * #114018 ^designation[+].language = #rm-CH
-* #114018 ^designation[=].value = "KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"
+* #114018 ^designation[=].value = "candidats per ina transplantaziun d'organs solida"
 * #114018 ^designation[+].language = #en-US
 * #114018 ^designation[=].value = "KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"
 * #114002 "KARDIOPATHIE"
@@ -267,7 +267,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114002 ^designation[+].language = #it-CH
 * #114002 ^designation[=].value = "Cardiopatia, malformazione congenita"
 * #114002 ^designation[+].language = #rm-CH
-* #114002 ^designation[=].value = "KARDIOPATHIE"
+* #114002 ^designation[=].value = "cardiopatia, malfurmaziun innata"
 * #114002 ^designation[+].language = #en-US
 * #114002 ^designation[=].value = "KARDIOPATHIE"
 * #114008 "LEBERZIRRHOSE"
@@ -278,7 +278,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114008 ^designation[+].language = #it-CH
 * #114008 ^designation[=].value = "Cirrosi epatica"
 * #114008 ^designation[+].language = #rm-CH
-* #114008 ^designation[=].value = "LEBERZIRRHOSE"
+* #114008 ^designation[=].value = "cirrosa hepatica"
 * #114008 ^designation[+].language = #en-US
 * #114008 ^designation[=].value = "LEBERZIRRHOSE"
 * #113012 "LYMPHOM_LEUKAEMIE_MYELOM"
@@ -289,7 +289,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #113012 ^designation[+].language = #it-CH
 * #113012 ^designation[=].value = "Linfoma, leucemia, mieloma"
 * #113012 ^designation[+].language = #rm-CH
-* #113012 ^designation[=].value = "LYMPHOM_LEUKAEMIE_MYELOM"
+* #113012 ^designation[=].value = "limfom, leuchemia, mielom"
 * #113012 ^designation[+].language = #en-US
 * #113012 ^designation[=].value = "LYMPHOM_LEUKAEMIE_MYELOM"
 * #118001 "LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"
@@ -300,7 +300,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #118001 ^designation[+].language = #it-CH
 * #118001 ^designation[=].value = "Linfoma, leucemia, mieloma durante una remissione clinica"
 * #118001 ^designation[+].language = #rm-CH
-* #118001 ^designation[=].value = "LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"
+* #118001 ^designation[=].value = "limfom, leuchemia, mielom durant ina remissiun clinica"
 * #118001 ^designation[+].language = #en-US
 * #118001 ^designation[=].value = "LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"
 * #113014 "MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"
@@ -311,7 +311,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #113014 ^designation[+].language = #it-CH
 * #113014 ^designation[=].value = "Deficit di lectina legante il mannosio"
 * #113014 ^designation[+].language = #rm-CH
-* #113014 ^designation[=].value = "MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"
+* #113014 ^designation[=].value = "mancanza dal lectin che lia la mannosa"
 * #113014 ^designation[+].language = #en-US
 * #113014 ^designation[=].value = "MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"
 * #114026 "MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"
@@ -322,7 +322,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114026 ^designation[+].language = #it-CH
 * #114026 ^designation[=].value = "Deficit in fattori della via alterna o terminale del complemento"
 * #114026 ^designation[+].language = #rm-CH
-* #114026 ^designation[=].value = "MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"
+* #114026 ^designation[=].value = "mancanza da l'activaziun cumplementara en il senn classic u alternativ"
 * #114026 ^designation[+].language = #en-US
 * #114026 ^designation[=].value = "MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"
 * #114022 "MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"
@@ -333,7 +333,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114022 ^designation[+].language = #it-CH
 * #114022 ^designation[=].value = "Immunosoppressione medicamentosa (compresa una corticoterapia di lunga durata per via generale e una radioterapia)"
 * #114022 ^designation[+].language = #rm-CH
-* #114022 ^designation[=].value = "MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"
+* #114022 ^designation[=].value = "immunosuppressiun cun medicaments (incl. corticoidterapia sistemica da lunga durada e radioterapia)"
 * #114022 ^designation[+].language = #en-US
 * #114022 ^designation[=].value = "MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"
 * #114016 "MORBIDE_ADIPOSITAS_BMI_GROESSER_40"
@@ -344,7 +344,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114016 ^designation[+].language = #it-CH
 * #114016 ^designation[=].value = "Obesità patologica (IMC >= 40)"
 * #114016 ^designation[+].language = #rm-CH
-* #114016 ^designation[=].value = "MORBIDE_ADIPOSITAS_BMI_GROESSER_40"
+* #114016 ^designation[=].value = "adipositas morbida (BMI > 40)"
 * #114016 ^designation[+].language = #en-US
 * #114016 ^designation[=].value = "MORBIDE_ADIPOSITAS_BMI_GROESSER_40"
 * #113018 "NEPHROTISCHES_SYNDROM"
@@ -355,7 +355,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #113018 ^designation[+].language = #it-CH
 * #113018 ^designation[=].value = "Sindrome nefrosica"
 * #113018 ^designation[+].language = #rm-CH
-* #113018 ^designation[=].value = "NEPHROTISCHES_SYNDROM"
+* #113018 ^designation[=].value = "sindrom nefrotic"
 * #113018 ^designation[+].language = #en-US
 * #113018 ^designation[=].value = "NEPHROTISCHES_SYNDROM"
 * #114012 "NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"
@@ -366,7 +366,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114012 ^designation[+].language = #it-CH
 * #114012 ^designation[=].value = "Malattia neuromuscolare (Se ripercussione sulla funzione cardiaca, polmonare o renale)"
 * #114012 ^designation[+].language = #rm-CH
-* #114012 ^designation[=].value = "NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"
+* #114012 ^designation[=].value = "malsogna neuromusculara (sche consequenzas sin il cor, il pulmun u ils gnirunchels)"
 * #114012 ^designation[+].language = #en-US
 * #114012 ^designation[=].value = "NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"
 * #113023 "NIERENINSUFFIZIENZ"
@@ -377,7 +377,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #113023 ^designation[+].language = #it-CH
 * #113023 ^designation[=].value = "Insufficienza renale"
 * #113023 ^designation[+].language = #rm-CH
-* #113023 ^designation[=].value = "NIERENINSUFFIZIENZ"
+* #113023 ^designation[=].value = "insuffizienza dals gnirunchels"
 * #113023 ^designation[+].language = #en-US
 * #113023 ^designation[=].value = "NIERENINSUFFIZIENZ"
 * #114035 "PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"
@@ -388,7 +388,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114035 ^designation[+].language = #it-CH
 * #114035 ^designation[=].value = "deficit di proteina S e proteina C"
 * #114035 ^designation[+].language = #rm-CH
-* #114035 ^designation[=].value = "PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"
+* #114035 ^designation[=].value = "deficit da protein S u da protein C"
 * #114035 ^designation[+].language = #en-US
 * #114035 ^designation[=].value = "PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"
 * #113035 "RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"
@@ -399,7 +399,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #113035 ^designation[+].language = #it-CH
 * #113035 ^designation[=].value = "Malattia reumatica o autoimmune che presto richiederà l'immunosoppressione"
 * #113035 ^designation[+].language = #rm-CH
-* #113035 ^designation[=].value = "RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"
+* #113035 ^designation[=].value = "reumatissem u malsogna d'autoimmunitad che chaschuna ina immunosuppressiun"
 * #113035 ^designation[+].language = #en-US
 * #113035 ^designation[=].value = "RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"
 * #114032 "SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"
@@ -410,7 +410,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114032 ^designation[+].language = #it-CH
 * #114032 ^designation[=].value = "Frattura o malformazione della base del cranio, fistola di liquido cerebrospinale"
 * #114032 ^designation[+].language = #rm-CH
-* #114032 ^designation[=].value = "SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"
+* #114032 ^designation[=].value = "fractura / defurmaziun da la basa da la chavazza, fistla da liquor cerebrospinal"
 * #114032 ^designation[+].language = #en-US
 * #114032 ^designation[=].value = "SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"
 * #114028 "SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"
@@ -421,7 +421,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114028 ^designation[+].language = #it-CH
 * #114028 ^designation[=].value = "Gravidanza e post-parto"
 * #114028 ^designation[+].language = #rm-CH
-* #114028 ^designation[=].value = "SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"
+* #114028 ^designation[=].value = "gravidanza e perioda post-partum"
 * #114028 ^designation[+].language = #en-US
 * #114028 ^designation[=].value = "SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"
 * #113021 "SCHWERE_NEURODERMITIS_BEIM_KIND"
@@ -432,7 +432,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #113021 ^designation[+].language = #it-CH
 * #113021 ^designation[=].value = "Eczema severo nel bambino"
 * #113021 ^designation[+].language = #rm-CH
-* #113021 ^designation[=].value = "SCHWERE_NEURODERMITIS_BEIM_KIND"
+* #113021 ^designation[=].value = "greva neurodermitis tar l'uffant"
 * #113021 ^designation[+].language = #en-US
 * #113021 ^designation[=].value = "SCHWERE_NEURODERMITIS_BEIM_KIND"
 * #114004 "SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"
@@ -443,7 +443,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114004 ^designation[+].language = #it-CH
 * #114004 ^designation[=].value = "Asma severa : se trattamento prolungato o frequente con corticoidi orali"
 * #114004 ^designation[+].language = #rm-CH
-* #114004 ^designation[=].value = "SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"
+* #114004 ^designation[=].value = "ferma asma: en cas d'in tractament prolungà u frequent cun steroids orals"
 * #114004 ^designation[+].language = #en-US
 * #114004 ^designation[=].value = "SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"
 * #114014 "SICHELZELLANAEMIE"
@@ -454,7 +454,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #114014 ^designation[+].language = #it-CH
 * #114014 ^designation[=].value = "Anemia falciforme"
 * #114014 ^designation[+].language = #rm-CH
-* #114014 ^designation[=].value = "SICHELZELLANAEMIE"
+* #114014 ^designation[=].value = "anemia falsiforma"
 * #114014 ^designation[+].language = #en-US
 * #114014 ^designation[=].value = "SICHELZELLANAEMIE"
 * #113036 "ZOELIAKIE"
@@ -465,6 +465,6 @@ Description: "Complication/medical risks available in Switzerland."
 * #113036 ^designation[+].language = #it-CH
 * #113036 ^designation[=].value = "Celiachia"
 * #113036 ^designation[+].language = #rm-CH
-* #113036 ^designation[=].value = "ZOELIAKIE"
+* #113036 ^designation[=].value = "celiachia"
 * #113036 ^designation[+].language = #en-US
 * #113036 ^designation[=].value = "ZOELIAKIE"
