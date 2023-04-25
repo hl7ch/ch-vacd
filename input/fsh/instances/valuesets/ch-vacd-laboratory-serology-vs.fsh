@@ -28,7 +28,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "virus varicella-zoster Ab IgG [titolo] in siero"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Varizellen-Zoster-Virus IgG Ab [Titer] in Serum"
+* compose.include.concept[=].designation[=].value = "virus da la virola selvadia IgG Ab [titer] en il serum"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Varicella zoster virus IgG Ab [Titer] in Serum"
 * compose.include.concept[+].code = #22502-9
@@ -40,7 +40,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "virus del morbillo Ab IgG [titolo] in siero"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Masern-Virus IgG Ab [Titer] in Serum"
+* compose.include.concept[=].designation[=].value = "virus dal virustgel IgG Ab [titer] en il serum"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Measles virus IgG Ab [Titer] in Serum"
 * compose.include.concept[+].code = #41763-4
@@ -52,7 +52,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "virus della rosolia Ab IgG [titolo] in siero"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Röteln-Virus IgG Ab [Titer] in Serum"
+* compose.include.concept[=].designation[=].value = "virus da la rubella IgG Ab [titer] en il serum"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Rubella virus IgG Ab [Titer] in Serum"
 * compose.include.concept[+].code = #22313-1
@@ -64,7 +64,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "virus dell'epatite A Ab IgG [unità/volume] in siero attivo"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Hepatitis-A-Virus IgG Ab [Einheiten/Volumen] in SerumAktiv"
+* compose.include.concept[=].designation[=].value = "virus da hepatitis A IgG Ab [unitads/volumen] en il serum activ"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Hepatitis A virus IgG Ab [Units/volume] in SerumActive"
 * compose.include.concept[+].code = #16935-9
@@ -76,7 +76,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "virus dell'epatite B Ab di superficie [unità/volume] in siero"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Hepatitis-B-Virus-Oberfläche Ab [Einheiten/Volumen] in Serum"
+* compose.include.concept[=].designation[=].value = "virus da hepatitis B da surfatscha Ab [unitads/volumen] en il serum"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Hepatitis B virus surface Ab [Units/volume] in Serum"
 * compose.include.concept[+].code = #26061-2
@@ -88,7 +88,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "virus della meningoencefalite da zecche europea Ab [titolo] in siero"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Europäischer Zeckenenzephalitis-Virus Ab [Titer] in Serum"
+* compose.include.concept[=].designation[=].value = "virus da l'encefalitis da zeccas europeic Ab [titer] en il serum"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "European tick borne encephalitis virus Ab [Titer] in Serum"
 * compose.include.concept[+].code = #6589-6
@@ -100,7 +100,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "virus della febbre gialla Ab [titolo] in siero mediante immunofluorescenza"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Gelbfieber-Virus Ab [Titer] in Serum durch Immunfluoreszenz"
+* compose.include.concept[=].designation[=].value = "virus da la fevrra melna Ab [titer] en il serum tras immunofluorescenza"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Yellow fever virus Ab [Titer] in Serum by Immunofluorescence"
 * compose.include.concept[+].code = #58770-9
@@ -112,7 +112,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "tossoide di Clostridium tetani Ab IgG [unità/volume] in siero mediante immunofluorescenza"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Clostridium tetani Toxoid IgG Ab [Einheiten/Volumen] in Serum durch Immunfluoreszenz"
+* compose.include.concept[=].designation[=].value = "toxoid dal clostridium tetani IgG Ab [unitads/volumen] en il serum tras immunofluorescenza"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Clostridium tetani toxoid IgG Ab [Units/volume] in Serum by Immunofluorescence"
 
@@ -125,7 +125,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) Ab IgG [unità/volume] in siero o plasma mediante immunodosaggio"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Einheiten/Volumen] in Serum oder Plasma durch Immunoassay"
+* compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [unitads/volumen] en il serum u en il plasma tras immunoassay"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "SARS-CoV-2 (COVID-19) IgG Ab [Units/volume] in Serum or Plasma by Immunoassay"
 
@@ -138,7 +138,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "virus della rabbia Ab [titolo] in siero"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Tollwut-Virus Ab [Titer] im Serum"
+* compose.include.concept[=].designation[=].value = "virus da la frenesia Ab [titer] en il serum"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Rabies virus Ab [Titer] in Serum"
 
@@ -152,7 +152,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Haemophilus influenzae B Ab [masse/volume] in siero"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Haemophilus influenzae B Ab [Masse/Volumen] im Serum"
+* compose.include.concept[=].designation[=].value = "hemofilus influenza B Ak [massa/volumen] en il serum"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Haemophilus influenzae B Ab [mass/volume] in Serum"
 
@@ -167,6 +167,6 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Streptococcus pneumoniae Ab [masse/volume] in siero"
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Streptococcus pneumoniae Ab [Masse/Volumen] im Serum"
+* compose.include.concept[=].designation[=].value = "streptococcus pneumoniae Ak [massa/volumen] en il serum"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Streptococcus pneumoniae Ab [mass/volume] in Serum"

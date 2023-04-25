@@ -73,15 +73,15 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #628 "Encepur N Kinder / Enfants"
 * #627 ^definition = "Encepur N Kinder, Injektionssuspension	Bavarian Nordic Switzerland AG"
 * #628 ^designation[0].language = #de-CH
-* #628 ^designation[=].value = "Encepur N Kinder / Enfants"
+* #628 ^designation[=].value = "Encepur N Kinder"
 * #628 ^designation[+].language = #fr-CH
-* #628 ^designation[=].value = "Encepur N Kinder / Enfants"
+* #628 ^designation[=].value = "Encepur N enfants"
 * #628 ^designation[+].language = #it-CH
-* #628 ^designation[=].value = "Encepur N Kinder / Enfants"
+* #628 ^designation[=].value = "Encepur N bambini"
 * #628 ^designation[+].language = #rm-CH
-* #628 ^designation[=].value = "Encepur N Kinder / Enfants"
+* #628 ^designation[=].value = "Encepur N uffants"
 * #628 ^designation[+].language = #en-US
-* #628 ^designation[=].value = "Encepur N Kinder / Enfants"
+* #628 ^designation[=].value = "Encepur N childrean"
 * #572 "Epaxal"
 * #572 ^designation[0].language = #de-CH
 * #572 ^designation[=].value = "Epaxal"
@@ -108,13 +108,13 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #642 ^designation[0].language = #de-CH
 * #642 ^designation[=].value = "Heprecomb Kinder"
 * #642 ^designation[+].language = #fr-CH
-* #642 ^designation[=].value = "Heprecomb Kinder"
+* #642 ^designation[=].value = "Heprecomb enfants"
 * #642 ^designation[+].language = #it-CH
-* #642 ^designation[=].value = "Heprecomb Kinder"
+* #642 ^designation[=].value = "Heprecomb bambini"
 * #642 ^designation[+].language = #rm-CH
-* #642 ^designation[=].value = "Heprecomb Kinder"
+* #642 ^designation[=].value = "Heprecomb uffants"
 * #642 ^designation[+].language = #en-US
-* #642 ^designation[=].value = "Heprecomb Kinder"
+* #642 ^designation[=].value = "Heprecomb childrean"
 * #614 "Inflexal V"
 * #614 ^designation[0].language = #de-CH
 * #614 ^designation[=].value = "Inflexal V"
@@ -540,13 +540,13 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #417 ^designation[0].language = #de-CH
 * #417 ^designation[=].value = "Tollwut Impfstoff Mérieux"
 * #417 ^designation[+].language = #fr-CH
-* #417 ^designation[=].value = "Tollwut Impfstoff Mérieux"
+* #417 ^designation[=].value = "Rage vaccin Mérieux"
 * #417 ^designation[+].language = #it-CH
-* #417 ^designation[=].value = "Tollwut Impfstoff Mérieux"
+* #417 ^designation[=].value = "Rabbia vaccino Mérieux"
 * #417 ^designation[+].language = #rm-CH
-* #417 ^designation[=].value = "Tollwut Impfstoff Mérieux"
+* #417 ^designation[=].value = "Frenesia vaccin Mérieux"
 * #417 ^designation[+].language = #en-US
-* #417 ^designation[=].value = "Tollwut Impfstoff Mérieux"
+* #417 ^designation[=].value = "Rage vaccine Mérieux"
 * #688 "Varivax"
 * #688 ^designation[0].language = #de-CH
 * #688 ^designation[=].value = "Varivax"
@@ -634,26 +634,26 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #711-01 ^designation[0].language = #de-CH
 * #711-01 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * #711-01 ^designation[+].language = #fr-CH
-* #711-01 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* #711-01 ^designation[=].value = "Diphtérie- et tétanos-vaccin adsorbant pour les enfants de moins de 8 ans"
 * #711-01 ^designation[+].language = #it-CH
-* #711-01 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* #711-01 ^designation[=].value = "Difterite e tetano vaccino adsorbito per bambini di età inferiore agli 8 anni"
 * #711-01 ^designation[+].language = #rm-CH
-* #711-01 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* #711-01 ^designation[=].value = "Difteria e tetanus vaccin d’asorbat per uffants sut 8 onns"
 * #711-01 ^designation[+].language = #en-US
-* #711-01 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* #711-01 ^designation[=].value = "Diphtheria and tetanus adsorbate vaccine for children under 8 years of age"
 
 * #711-02 "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * #711-02 ^definition = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH"
 * #711-02 ^designation[0].language = #de-CH
 * #711-02 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * #711-02 ^designation[+].language = #fr-CH
-* #711-02 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* #711-02 ^designation[=].value = "Diphtérie- et tétanos-vaccin adsorbant pour pour les adultes et les enfants à partir de 7 ans"
 * #711-02 ^designation[+].language = #it-CH
-* #711-02 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* #711-02 ^designation[=].value = "Difterite e tetano vaccino adsorbito per adulti e bambini dai 7 anni in su"
 * #711-02 ^designation[+].language = #rm-CH
-* #711-02 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* #711-02 ^designation[=].value = "Difteria e tetanus vaccin d’asorbat per persunas creschidas e per uffants a partir da 7 onns "
 * #711-02 ^designation[+].language = #en-US
-* #711-02 ^designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
+* #711-02 ^designation[=].value = "Diphtheria and tetanus adsorbate vaccine for adults and children over 7 years old"
 
 * #704 "Dukoral"
 * #704 ^designation[0].language = #de-CH
@@ -849,26 +849,26 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #62502 ^designation[=].value = "Menveo"
 * #600 "DiTe Anatoxal Erwachsene / Adultes"
 * #600 ^designation[0].language = #de-CH
-* #600 ^designation[=].value = "DiTe Anatoxal Erwachsene / Adultes"
+* #600 ^designation[=].value = "DiTe Anatoxal Erwachsene"
 * #600 ^designation[+].language = #fr-CH
-* #600 ^designation[=].value = "DiTe Anatoxal Erwachsene / Adultes"
+* #600 ^designation[=].value = "DiTe Anatoxal adultes"
 * #600 ^designation[+].language = #it-CH
-* #600 ^designation[=].value = "DiTe Anatoxal Erwachsene / Adultes"
+* #600 ^designation[=].value = "DiTe Anatoxal adulti"
 * #600 ^designation[+].language = #rm-CH
-* #600 ^designation[=].value = "DiTe Anatoxal Erwachsene / Adultes"
+* #600 ^designation[=].value = "DiTe Anatoxal persunas creschidas"
 * #600 ^designation[+].language = #en-US
-* #600 ^designation[=].value = "DiTe Anatoxal Erwachsene / Adultes"
+* #600 ^designation[=].value = "DiTe Anatoxal adults"
 * #690 "DiTe Anatoxal N Erwachsene / Adultes"
 * #690 ^designation[0].language = #de-CH
-* #690 ^designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
+* #690 ^designation[=].value = "DiTe Anatoxal N Erwachsene"
 * #690 ^designation[+].language = #fr-CH
-* #690 ^designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
+* #690 ^designation[=].value = "DiTe Anatoxal N adultes"
 * #690 ^designation[+].language = #it-CH
-* #690 ^designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
+* #690 ^designation[=].value = "DiTe Anatoxal N adulti"
 * #690 ^designation[+].language = #rm-CH
-* #690 ^designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
+* #690 ^designation[=].value = "DiTe Anatoxal N persunas creshidas"
 * #690 ^designation[+].language = #en-US
-* #690 ^designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
+* #690 ^designation[=].value = "DiTe Anatoxal N adults"
 
 * #689 "Te Anatoxal N"
 * #689 ^designation[0].language = #de-CH
@@ -1093,13 +1093,13 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #66161 ^designation[0].language = #de-CH
 * #66161 ^designation[=].value = "Foclivia (Durchstechflasche)"
 * #66161 ^designation[+].language = #fr-CH
-* #66161 ^designation[=].value = "Foclivia (Durchstechflasche)"
+* #66161 ^designation[=].value = "Foclivia (flacon multidoses)"
 * #66161 ^designation[+].language = #it-CH
-* #66161 ^designation[=].value = "Foclivia (Durchstechflasche)"
+* #66161 ^designation[=].value = "Foclivia (flacone multidose)"
 * #66161 ^designation[+].language = #rm-CH
-* #66161 ^designation[=].value = "Foclivia (Durchstechflasche)"
+* #66161 ^designation[=].value = "Foclivia (flacona multidosa)"
 * #66161 ^designation[+].language = #en-US
-* #66161 ^designation[=].value = "Foclivia (Durchstechflasche)"
+* #66161 ^designation[=].value = "Foclivia (penetration bottle)"
 
 //66156	01	Foclivia, Injektionssuspension in einer Fertigspritze	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
 // added 2021-11-19
@@ -1108,13 +1108,13 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #66156 ^designation[0].language = #de-CH
 * #66156 ^designation[=].value = "Foclivia (Fertigspritze)"
 * #66156 ^designation[+].language = #fr-CH
-* #66156 ^designation[=].value = "Foclivia (Fertigspritze)"
+* #66156 ^designation[=].value = "Foclivia (seringue préremplie)"
 * #66156 ^designation[+].language = #it-CH
-* #66156 ^designation[=].value = "Foclivia (Fertigspritze)"
+* #66156 ^designation[=].value = "Foclivia (siringa preriempita)"
 * #66156 ^designation[+].language = #rm-CH
-* #66156 ^designation[=].value = "Foclivia (Fertigspritze)"
+* #66156 ^designation[=].value = "Foclivia (siringa prominenta)"
 * #66156 ^designation[+].language = #en-US
-* #66156 ^designation[=].value = "Foclivia (Fertigspritze)"
+* #66156 ^designation[=].value = "Foclivia (pre-filled syringe)"
 
 
 //68473	01	Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	12.04.2024	J07BX03	X		X	X
@@ -1156,13 +1156,13 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #68710-01 ^designation[0].language = #de-CH
 * #68710-01 ^designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
 * #68710-01 ^designation[+].language = #fr-CH
-* #68710-01 ^designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* #68710-01 ^designation[=].value = "Comirnaty® 30 microgrammes/dose, pour les personnes de plus de 12 ans"
 * #68710-01 ^designation[+].language = #it-CH
-* #68710-01 ^designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* #68710-01 ^designation[=].value = "Comirnaty® 30 microgrammi/dose, per persone di età superiore ai 12 anni"
 * #68710-01 ^designation[+].language = #rm-CH
-* #68710-01 ^designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* #68710-01 ^designation[=].value = "Comirnaty® 30 microgram/dosa, per persunas sur 12 onns"
 * #68710-01 ^designation[+].language = #en-US
-* #68710-01 ^designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* #68710-01 ^designation[=].value = "Comirnaty® 30 microgram/dose, for people over 12 years"
 
 
 //68710	02	Comirnaty® 10 Mikrogramm/Dosis, Konzentrat zur Herstellung einer Injektionsdispersion	Pfizer AG	B	12/10/2021	12/10/2021	12/18/2022	J07BX
@@ -1172,13 +1172,13 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #68710-02 ^designation[0].language = #de-CH
 * #68710-02 ^designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
 * #68710-02 ^designation[+].language = #fr-CH
-* #68710-02 ^designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* #68710-02 ^designation[=].value = "Comirnaty® 10 microgrammes/dose"
 * #68710-02 ^designation[+].language = #it-CH
-* #68710-02 ^designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* #68710-02 ^designation[=].value = "Comirnaty® 10 microgrammi/dose"
 * #68710-02 ^designation[+].language = #rm-CH
 * #68710-02 ^designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
 * #68710-02 ^designation[+].language = #en-US
-* #68710-02 ^designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* #68710-02 ^designation[=].value = "Comirnaty® 10 microgram/dosa"
 
 //68462	01	Fluenz Tetra, Nasenspray, Suspension	AstraZeneca AG	B	5/11/2022	5/11/2022	5/10/2027	J07BB03
 // added 2022-11-03
@@ -1263,13 +1263,13 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #69123 ^designation[0].language = #de-CH
 * #69123 ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
 * #69123 ^designation[+].language = #fr-CH
-* #69123 ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* #69123 ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, seringue préremplie"
 * #69123 ^designation[+].language = #it-CH
-* #69123 ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* #69123 ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, siringa preriempita"
 * #69123 ^designation[+].language = #rm-CH
-* #69123 ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* #69123 ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, squitta finida"
 * #69123 ^designation[+].language = #en-US
-* #69123 ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* #69123 ^designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, pre-filled syringe"
 
 
 //69010	01	Spikevax, Fertigspritze	Moderna Switzerland GmbH	B	13.10.2022	13.10.2022	26.09.2023	J07BX03
@@ -1279,13 +1279,13 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #69010 ^designation[0].language = #de-CH
 * #69010 ^designation[=].value = "Spikevax, Fertigspritze"
 * #69010 ^designation[+].language = #fr-CH
-* #69010 ^designation[=].value = "Spikevax, Fertigspritze"
+* #69010 ^designation[=].value = "Spikevax, seringue préremplie"
 * #69010 ^designation[+].language = #it-CH
-* #69010 ^designation[=].value = "Spikevax, Fertigspritze"
+* #69010 ^designation[=].value = "Spikevax, siringa preriempita"
 * #69010 ^designation[+].language = #rm-CH
-* #69010 ^designation[=].value = "Spikevax, Fertigspritze"
+* #69010 ^designation[=].value = "Spikevax, squitta finida"
 * #69010 ^designation[+].language = #en-US
-* #69010 ^designation[=].value = "Spikevax, Fertigspritze"
+* #69010 ^designation[=].value = "Spikevax, pre-filled syringe"
 
 //69047	01	Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis gebrauchsfertige Injektionsdispersion für Personen ab 18 Jahren	Pfizer AG	B	10.10.2022	10.10.2022	09.10.2024	J07BX03
 // added 2023-02-21
@@ -1294,10 +1294,10 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #69047 ^designation[0].language = #de-CH
 * #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
 * #69047 ^designation[+].language = #fr-CH
-* #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg par dose"
 * #69047 ^designation[+].language = #it-CH
-* #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg per dose"
 * #69047 ^designation[+].language = #rm-CH
-* #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro dosis"
 * #69047 ^designation[+].language = #en-US
-* #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg per dose"

@@ -27,7 +27,7 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Ha ricevuto tutte le vaccinazioni contro la DTPa durante l'infanzia."
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Alle Impfungen gegen DTPa in der Kindheit erhalten."
+* compose.include.concept[=].designation[=].value = "Ha obtegnì tut las vaccinaziuns cunter la DTPa durant l'uffanza."
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Received all vaccinations against DTPa in childhood."
 
@@ -40,6 +40,6 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #it-CH
 * compose.include.concept[=].designation[=].value = "Ha ricevuto tutte le vaccinazioni contro la poliomelite durante l'infanzia."
 * compose.include.concept[=].designation[+].language = #rm-CH
-* compose.include.concept[=].designation[=].value = "Alle Impfungen gegen Poliomyelitis in der Kindheit erhalten."
+* compose.include.concept[=].designation[=].value = "Ha obtegnì tut las vaccinaziuns cunter la poliomielitis durant l'uffanza."
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Received all vaccinations against poliomyelitis in childhood."

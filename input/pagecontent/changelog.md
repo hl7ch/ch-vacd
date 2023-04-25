@@ -1,5 +1,9 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
+### STU 4
+
+See [Resolution Desk STU 4 Ballot](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_3.1.0.md)
+
 ### STU 3
 
 See [Resolution Desk STU 3 Ballot](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_2.1.0.md)

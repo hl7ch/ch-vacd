@@ -27,7 +27,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Asplenia anatomica o funzionale"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"
+* compose.include[=].concept[=].designation[=].value = "asplenia anatomica u funcziunala"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"
 * compose.include[=].concept[+].code = #114036
@@ -39,7 +39,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "altra malattia epatica"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "ANDERE_LEBERERKRANKUNG"
+* compose.include[=].concept[=].designation[=].value = "autra malsogna dal gnirom"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ANDERE_LEBERERKRANKUNG"
 * compose.include[=].concept[+].code = #114006
@@ -51,7 +51,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Altre malattie polmonari (p.es. mucoviscidosi, asmatrattata con aerosol, ecc.)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"
+* compose.include[=].concept[=].designation[=].value = "autras malsognas dal pulmun (p.ex. mucoviscidosa, asma bronchiala, e.u.v.)"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"
 * compose.include[=].concept[+].code = #114033
@@ -63,7 +63,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "altra malattia renale"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "ANDERE_NIERENERKRANKUNG"
+* compose.include[=].concept[=].designation[=].value = "autra malsogna dals gnirunchels"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ANDERE_NIERENERKRANKUNG"
 * compose.include[=].concept[+].code = #114034
@@ -75,7 +75,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "altro cancro"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "ANDERER_KREBS"
+* compose.include[=].concept[=].designation[=].value = "auter cancer"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ANDERER_KREBS"
 * compose.include[=].concept[+].code = #114025
@@ -87,7 +87,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Immunodeficienza congenita, immunodeficienza comune variabile, deficit di risposta ai polisaccaridi"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"
+* compose.include[=].concept[=].designation[=].value = "immunodeficienza innata, immunodeficienza cumina variabla, resposta deficitara sin polisaccarids"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"
 * compose.include[=].concept[+].code = #114021
@@ -99,7 +99,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Malattia autoimmune che richiede probabilmente una immunosoppressione"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"
+* compose.include[=].concept[=].designation[=].value = "malsogna d'autoimmunitad che pretenda ina immunosuppressiun"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"
 * compose.include[=].concept[+].code = #114005
@@ -111,7 +111,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Bronchiettasie su carenza in anticorpi"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"
+* compose.include[=].concept[=].designation[=].value = "bronchetasias tras mancanza d'anticorpuls"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"
 * compose.include[=].concept[+].code = #114003
@@ -123,7 +123,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Pneumopatia cronica ostruttiva"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"
+* compose.include[=].concept[=].designation[=].value = "pneumopatia cronica obstructiva"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"
 * compose.include[=].concept[+].code = #114007
@@ -135,7 +135,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Malattia epatica cronica"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "CHRONISCHE_LEBERERKRANKUNG"
+* compose.include[=].concept[=].designation[=].value = "malsogna cronica dal gnirom"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "CHRONISCHE_LEBERERKRANKUNG"
 * compose.include[=].concept[+].code = #113002
@@ -147,7 +147,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Impianto cocleare, in situ o pianificato"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"
+* compose.include[=].concept[=].designation[=].value = "implantat da la cochlea, in situ u planisà"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"
 * compose.include[=].concept[+].code = #114015
@@ -159,7 +159,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Diabete con ripercussioni sulla funzione cardiopolmonare o renale"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"
+* compose.include[=].concept[=].designation[=].value = "diabetes cun consequenza sin la funcziun dal cor, dal pulmun u dals gnirunchels"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"
 * compose.include[=].concept[+].code = #114019
@@ -171,7 +171,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Riceventi di un trapianto d'organo solido"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"
+* compose.include[=].concept[=].designation[=].value = "retschaviders d'ina transplantaziun d'organs solida"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"
 * compose.include[=].concept[+].code = #114020
@@ -183,7 +183,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Riceventi di cellule staminali ematopoietiche"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"
+* compose.include[=].concept[=].designation[=].value = "retschaviders d'ina transplantaziun da cellas da basa"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"
 * compose.include[=].concept[+].code = #113004
@@ -195,7 +195,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Nascita prima della 33a settimana di gravidanza o peso alla nascita <1500g"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"
+* compose.include[=].concept[=].designation[=].value = "naschientscha avant la 33. emna da gravidanza u pais da naschientscha < 1500g"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"
 * compose.include[=].concept[+].code = #114037
@@ -207,7 +207,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Persone in dialisi"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "HAEMODIALYSEPATIENT"
+* compose.include[=].concept[=].designation[=].value = "pazient da hemodialisa"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "HAEMODIALYSEPATIENT"
 * compose.include[=].concept[+].code = #114038
@@ -219,7 +219,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Persone affette da emofilia"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "HAEMOPHILIE_PATIENT"
+* compose.include[=].concept[=].designation[=].value = "pazient da hemofilia"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "HAEMOPHILIE_PATIENT"
 * compose.include[=].concept[+].code = #114001
@@ -231,7 +231,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Insufficienza cardiaca"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "HERZINSUFFIZIENZ"
+* compose.include[=].concept[=].designation[=].value = "insuffizienza dal cor"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "HERZINSUFFIZIENZ"
 * compose.include[=].concept[+].code = #113007
@@ -243,7 +243,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Cardiopatie croniche, malformazioni congenite"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"
+* compose.include[=].concept[=].designation[=].value = "malsognas dal cor (cronicas u defurmaziuns congenitalas)"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"
 * compose.include[=].concept[+].code = #113008
@@ -255,7 +255,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Infezione HIV con CD4 >= 15% (Adulti : >= 200 / µl)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"
+* compose.include[=].concept[=].designation[=].value = "infecziun HIV cun cellas CD4 >= 15 % (persunas creschidas: >= 200 / µl)"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"
 * compose.include[=].concept[+].code = #113009
@@ -267,7 +267,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Infezione HIV con CD4 < 15% (Adulti : < 200 / µl)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"
+* compose.include[=].concept[=].designation[=].value = "infecziun HIV cun cellas CD4 < 15 % (persunas creschidas: <= 200 / µl)"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"
 * compose.include[=].concept[+].code = #114018
@@ -279,7 +279,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Candidati a un trapianto d'organo solido"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"
+* compose.include[=].concept[=].designation[=].value = "candidats per ina transplantaziun d'organs solida"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"
 * compose.include[=].concept[+].code = #114002
@@ -291,7 +291,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Cardiopatia, malformazione congenita"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "KARDIOPATHIE"
+* compose.include[=].concept[=].designation[=].value = "cardiopatia, malfurmaziun innata"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "KARDIOPATHIE"
 * compose.include[=].concept[+].code = #114008
@@ -303,7 +303,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Cirrosi epatica"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "LEBERZIRRHOSE"
+* compose.include[=].concept[=].designation[=].value = "cirrosa hepatica"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "LEBERZIRRHOSE"
 * compose.include[=].concept[+].code = #113012
@@ -315,7 +315,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Linfoma, leucemia, mieloma"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "LYMPHOM_LEUKAEMIE_MYELOM"
+* compose.include[=].concept[=].designation[=].value = "limfom, leuchemia, mielom"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "LYMPHOM_LEUKAEMIE_MYELOM"
 * compose.include[=].concept[+].code = #118001
@@ -327,7 +327,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Linfoma, leucemia, mieloma durante una remissione clinica"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"
+* compose.include[=].concept[=].designation[=].value = "limfom, leuchemia, mielom durant ina remissiun clinica"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"
 * compose.include[=].concept[+].code = #113014
@@ -339,7 +339,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Deficit di lectina legante il mannosio"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"
+* compose.include[=].concept[=].designation[=].value = "mancanza dal lectin che lia la mannosa"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"
 * compose.include[=].concept[+].code = #114026
@@ -351,7 +351,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Deficit in fattori della via alterna o terminale del complemento"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"
+* compose.include[=].concept[=].designation[=].value = "mancanza da l'activaziun cumplementara en il senn classic u alternativ"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"
 * compose.include[=].concept[+].code = #114022
@@ -363,7 +363,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Immunosoppressione medicamentosa (compresa una corticoterapia di lunga durata per via generale e una radioterapia)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"
+* compose.include[=].concept[=].designation[=].value = "immunosuppressiun cun medicaments (incl. corticoidterapia sistemica da lunga durada e radioterapia)"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"
 * compose.include[=].concept[+].code = #114016
@@ -375,7 +375,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Obesità patologica (IMC >= 40)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "MORBIDE_ADIPOSITAS_BMI_GROESSER_40"
+* compose.include[=].concept[=].designation[=].value = "adipositas morbida (BMI > 40)"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "MORBIDE_ADIPOSITAS_BMI_GROESSER_40"
 * compose.include[=].concept[+].code = #113018
@@ -387,7 +387,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Sindrome nefrosica"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "NEPHROTISCHES_SYNDROM"
+* compose.include[=].concept[=].designation[=].value = "sindrom nefrotic"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "NEPHROTISCHES_SYNDROM"
 * compose.include[=].concept[+].code = #114012
@@ -399,7 +399,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Malattia neuromuscolare (Se ripercussione sulla funzione cardiaca, polmonare o renale)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"
+* compose.include[=].concept[=].designation[=].value = "malsogna neuromusculara (sche consequenzas sin il cor, il pulmun u ils gnirunchels)"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"
 * compose.include[=].concept[+].code = #113023
@@ -411,7 +411,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Insufficienza renale"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "NIERENINSUFFIZIENZ"
+* compose.include[=].concept[=].designation[=].value = "insuffizienza dals gnirunchels"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "NIERENINSUFFIZIENZ"
 * compose.include[=].concept[+].code = #114035
@@ -423,7 +423,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "deficit di proteina S e proteina C"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"
+* compose.include[=].concept[=].designation[=].value = "deficit da protein S u da protein C"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"
 * compose.include[=].concept[+].code = #113035
@@ -435,7 +435,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Malattia reumatica o autoimmune che presto richiederà l'immunosoppressione"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"
+* compose.include[=].concept[=].designation[=].value = "reumatissem u malsogna d'autoimmunitad che chaschuna ina immunosuppressiun"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "RHEUMATISMUS_ODER_AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_BEDINGT"
 * compose.include[=].concept[+].code = #114032
@@ -447,7 +447,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Frattura o malformazione della base del cranio, fistola di liquido cerebrospinale"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"
+* compose.include[=].concept[=].designation[=].value = "fractura / defurmaziun da la basa da la chavazza, fistla da liquor cerebrospinal"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "SCHAEDELBASISFRAKTUR_MISSBILDUNG_ZEREBROSPINALE_LIQUORFISTEL"
 * compose.include[=].concept[+].code = #114028
@@ -459,7 +459,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Gravidanza e post-parto"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"
+* compose.include[=].concept[=].designation[=].value = "gravidanza e perioda post-partum"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"
 * compose.include[=].concept[+].code = #113021
@@ -471,7 +471,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Eczema severo nel bambino"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "SCHWERE_NEURODERMITIS_BEIM_KIND"
+* compose.include[=].concept[=].designation[=].value = "greva neurodermitis tar l'uffant"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "SCHWERE_NEURODERMITIS_BEIM_KIND"
 * compose.include[=].concept[+].code = #114004
@@ -483,7 +483,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Asma severa : se trattamento prolungato o frequente con corticoidi orali"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"
+* compose.include[=].concept[=].designation[=].value = "ferma asma: en cas d'in tractament prolungà u frequent cun steroids orals"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "SCHWERES_ASTHMA_BEI_VERLAENGERTER_ODER_HAEUFIGER_BEHANDLUNG_MIT_ORALEN_STEROIDEN"
 * compose.include[=].concept[+].code = #114014
@@ -495,7 +495,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Anemia falciforme"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "SICHELZELLANAEMIE"
+* compose.include[=].concept[=].designation[=].value = "anemia falsiforma"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "SICHELZELLANAEMIE"
 * compose.include[=].concept[+].code = #113036
@@ -507,7 +507,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Celiachia"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "ZOELIAKIE"
+* compose.include[=].concept[=].designation[=].value = "celiachia"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ZOELIAKIE"
 
@@ -521,7 +521,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Personale medico e di cura"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"
+* compose.include[=].concept[=].designation[=].value = "persunal dal sectur da sanadad"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"
 * compose.include[=].concept[+].code = #213028
@@ -533,7 +533,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Meningococco nell'entourage"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"
+* compose.include[=].concept[=].designation[=].value = "persunas da stretg contact cun malsauns da meningococcus"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"
 * compose.include[=].concept[+].code = #213003
@@ -545,7 +545,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Adulti e bambini a partire dai 6 anni che risiedono o soggiornano in regioni endemiche"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"
+* compose.include[=].concept[=].designation[=].value = "persunas creschidas ed uffants da 6 onns e dapli che abitan u che sa trategnan temporarmain en territoris endemics"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "ERWACHSENE_UND_KINDER_AB_6_JAHREN_DIE_IN_ENDEMIEGEBIET_WOHNEN_ODER_SICH_TEILWEISE_DORT_AUFHALTEN"
 * compose.include[=].concept[+].code = #213005
@@ -557,7 +557,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Entourage famigliare di persone a maggiore rischio di complicazioni"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"
+* compose.include[=].concept[=].designation[=].value = "confamigliars da persunas cun ina ristga pli gronda"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "FAMILIENANGEHOERIGE_VON_PERSONEN_MIT_EINEM_ERHOEHTEN_RISIKO"
 * compose.include[=].concept[+].code = #213006
@@ -569,7 +569,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Ricercatori che svolgono ricerche sui chirotteri, protettori o appassionati di pipistrelli"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "FLEDERMAUSFORSCHER_UND_SCHUETZER"
+* compose.include[=].concept[=].designation[=].value = "perscrutaders e protecturs dad utschels-mezmieur"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Bat researcher or guard"
 * compose.include[=].concept[+].code = #213007
@@ -581,7 +581,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Persone disabili mentali e personale degli istituti per disabili mentali"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"
+* compose.include[=].concept[=].designation[=].value = "persunas cun impediments spiertals en chasas da dimora e lur persunal"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "GEISTIG_BEHINDERTE_PERSONEN_IN_HEIMEN_UND_DEREN_BETREUERINNEN"
 * compose.include[=].concept[+].code = #213010
@@ -593,7 +593,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Personale addetto alla manutenzione delle fognature e delle stazioni di depurazione"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"
+* compose.include[=].concept[=].designation[=].value = "lavurants da chanalisaziun ed emploiads da sereneras"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "KANALISATIONSARBEITER_UND_ANGESTELLTE_VON_KLAERANLAGEN"
 * compose.include[=].concept[+].code = #213011
@@ -605,7 +605,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Bambini originari di paesi di media ed elevata endemicità che vivono in Svizzera e che ritornano nel loro paese per dei soggiorni temporanei"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"
+* compose.include[=].concept[=].designation[=].value = "uffants da pajais cun endemicitad mesauna ed auta che vivan en Svizra e che returnan en lur pajais da derivanza per segiurns temporars"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "KINDER_AUS_LAENDERN_MIT_MITTLERER_UND_HOHER_ENDEMIZITAET_DIE_IN_DER_SCHWEIZ_LEBEN_UND_FUER_EINEN_VORUEBERGEHENDEN_AUFENTHALT_IN_IHR_HERKUNFTSLAND_ZURUECKKEHREN"
 * compose.include[=].concept[+].code = #213031
@@ -617,7 +617,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Asilo nido prima di 5 mesi"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "KINDERKRIPPE_HORT_VOR_5_MONATEN"
+* compose.include[=].concept[=].designation[=].value = "canorta d'uffants / canorta d'uffants pli giuvens che 5 mais"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "KINDERKRIPPE_HORT_VOR_5_MONATEN"
 * compose.include[=].concept[+].code = #213012
@@ -629,7 +629,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Consumatori di droghe iniettabili e persone a loro contatto"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"
+* compose.include[=].concept[=].designation[=].value = "consuments da drogas injectablas e lur persunas da contact"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "KONSUMENTEN_VON_INJIZIERBAREN_DROGEN_UND_DEREN_KONTAKTPERSONEN"
 * compose.include[=].concept[+].code = #213032
@@ -641,7 +641,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Entourage di una donna incinta"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"
+* compose.include[=].concept[=].designation[=].value = "persunas da contact d'ina dunna en speranza"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "KONTAKTPERSONEN_VON_EINER_SCHWANGEREN_FRAU"
 * compose.include[=].concept[+].code = #213027
@@ -653,7 +653,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Epatite A nell'entourage"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"
+* compose.include[=].concept[=].designation[=].value = "persunas da contact da malsauns da hepatitis A"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "KONTAKTPERSONEN_VON_HEPATITIS_A_ERKRANKTEN"
 * compose.include[=].concept[+].code = #213026
@@ -665,7 +665,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Epatite B nell'entourage"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"
+* compose.include[=].concept[=].designation[=].value = "persunas da contact da malsauns da hepatitis B"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"
 * compose.include[=].concept[+].code = #213030
@@ -677,7 +677,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Personale di laboratorio esposto ai batteri"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"
+* compose.include[=].concept[=].designation[=].value = "persunal da labor cun ristga d'esser expost a bacterias"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"
 * compose.include[=].concept[+].code = #213029
@@ -689,7 +689,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Personale di laboratorio esposto ai virus"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"
+* compose.include[=].concept[=].designation[=].value = "persunal da labor cun ristga d'esser expost a virus"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"
 * compose.include[=].concept[+].code = #213014
@@ -701,7 +701,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Uomini che hanno rapporti sessuali con altri uomini"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"
+* compose.include[=].concept[=].designation[=].value = "umens che han relaziuns sexualas cun umens"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "MAENNER_DIE_MIT_MAENNERN_GESCHLECHTSVERKEHR_HABEN"
 * compose.include[=].concept[+].code = #213033
@@ -713,7 +713,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Professionisti della prima infanzia"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "MITARBEITENDE_VON_KINDERKRIPPEN"
+* compose.include[=].concept[=].designation[=].value = "collavuraturas e collavuraturs da canortas d'uffants"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "MITARBEITENDE_VON_KINDERKRIPPEN"
 * compose.include[=].concept[+].code = #213024
@@ -725,7 +725,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Neonati o lattanti < 12 mesi originari di un paese a elevata endemia e suscettibili di ritornarci nel loro primo anno di vita"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"
+* compose.include[=].concept[=].designation[=].value = "novnaschids e poppins pli giuvens che 12 mais che derivan da pajais cun auta prevalenza da la tuberculosa, che returnan probablamain en quests pajais (durant lur emprim onn da vita)"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "NEUGEBORENE_UND_SAEUGLINGE_UNTER_12_MONATEN_AUS_LAENDERN_MIT_HOHER_TUBERKULOSE_PRAEVALENZ_DIE_WAHRSCHEINLICH_WIEDER_DORTHIN_ZURUECKKEHREN_IN_IHREM_ERSTEN_LEBENSJAHR"
 * compose.include[=].concept[+].code = #213025
@@ -737,7 +737,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Neonati di madri HBsAg positive"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"
+* compose.include[=].concept[=].designation[=].value = "novnaschids da mammas HBsAg positivas"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "NEUGEBORENE_VON_HBSAG_POSITIVEN_MUETTERN"
 * compose.include[=].concept[+].code = #213015
@@ -749,7 +749,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Ospiti di una casa di cura o di un istituto per malati cronici"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"
+* compose.include[=].concept[=].designation[=].value = "pazientas e pazients en chasas da tgira ed en instituziuns per persunas cun malsognas cronicas"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "PATIENTINNEN_UND_PATIENTEN_IN_PFLEGEHEIMEN_UND_IN_EINRICHTUNGEN_FUER_PERSONEN_MIT_CHRONISCHEN_ERKRANKUNGEN"
 * compose.include[=].concept[+].code = #213016
@@ -761,7 +761,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Persone provenienti da zone di endemicità elevata o intermedia per l’ epatite B"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"
+* compose.include[=].concept[=].designation[=].value = "persunas che derivan da pajais cun edemicitad auta u intermediara per hepatitis B"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "PERSONEN_AUS_LAENDERN_MIT_HOHER_ODER_INTERMEDIAERER_HEPATITIS_B_ENDEMIZITAET"
 * compose.include[=].concept[+].code = #213017
@@ -773,7 +773,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Persone che consultano per una malattia sessualmente trasmissibile"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"
+* compose.include[=].concept[=].designation[=].value = "persunas cun ina malsogna sexualmain transmissibla"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "PERSONEN_MIT_EINER_SEXUELL_UEBERTRAGBAREN_KRANKHEIT"
 * compose.include[=].concept[+].code = #213018
@@ -785,7 +785,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Persone a stretto contatto con delle persone provenienti da paesi di endemicità elevata"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"
+* compose.include[=].concept[=].designation[=].value = "persunas che han in stretg contact cun persunas che derivan da pajais cun endemicitad auta"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "PERSONEN_MIT_ENGEM_KONTAKT_ZU_PERSONEN_AUS_LAENDERN_MIT_HOHER_ENDEMIZITAET"
 * compose.include[=].concept[+].code = #213019
@@ -797,7 +797,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Persone che cambiano spesso partner sessuale"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"
+* compose.include[=].concept[=].designation[=].value = "persunas che midan savens lur partenari sexual"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "PERSONEN_MIT_HAEUFIG_WECHSELNDEN_SEXUALPARTNERN"
 * compose.include[=].concept[+].code = #213020
@@ -809,7 +809,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Personale in contatto professionale o famigliare con dei lattanti di meno di 6 mesi o con donne incinte"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"
+* compose.include[=].concept[=].designation[=].value = "persunas che han regularmain contact (professiunal / famigliar) cun poppins pli giuvens che 6 mais, dunnas en speranza"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "PERSONEN_MIT_REGELMAESSIGEM_KONTAKT_BERUFLICH_ODER_FAMILIAER_ZU_SAEUGLINGEN_UNTER_6_MONATEN_ODER_SCHWANGERE_FRAUEN"
 * compose.include[=].concept[+].code = #213021
@@ -821,7 +821,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Reclute (militari)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "REKRUTEN_MILITAER"
+* compose.include[=].concept[=].designation[=].value = "recruts (militar)"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "REKRUTEN_MILITAER"
 * compose.include[=].concept[+].code = #213022
@@ -833,7 +833,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Lavoratori nel campo socio - educativo o della sicurezza (carceri, polizia) a contatto frequente con dei consumatori di droghe iniettabili"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"
+* compose.include[=].concept[=].designation[=].value = "lavurers socials, persunal da praschun ed emploiads da polizia che han savens contact cun consuments da drogas injectablas"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"
 * compose.include[=].concept[+].code = #213023
@@ -845,6 +845,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "Veterinari (studenti, assistenti veterinari)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"
+* compose.include[=].concept[=].designation[=].value = "veterinaris (incl. students, emploiads da pratica)
+"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"

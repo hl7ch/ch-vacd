@@ -77,15 +77,15 @@ Usage: #definition
 * compose.include[=].concept[+].code = #628
 * compose.include[=].concept[=].display = "Encepur N Kinder / Enfants"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Encepur N Kinder / Enfants"
+* compose.include[=].concept[=].designation[=].value = "Encepur N Kinder"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Encepur N Kinder / Enfants"
+* compose.include[=].concept[=].designation[=].value = "Encepur N enfants"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Encepur N Kinder / Enfants"
+* compose.include[=].concept[=].designation[=].value = "Encepur N bambini"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Encepur N Kinder / Enfants"
+* compose.include[=].concept[=].designation[=].value = "Encepur N uffants"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Encepur N Kinder / Enfants"
+* compose.include[=].concept[=].designation[=].value = "Encepur N children"
 
 * compose.include[=].concept[+].code = #572
 * compose.include[=].concept[=].display = "Epaxal"
@@ -118,13 +118,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Heprecomb Kinder"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Heprecomb Kinder"
+* compose.include[=].concept[=].designation[=].value = "Heprecomb enfants"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Heprecomb Kinder"
+* compose.include[=].concept[=].designation[=].value = "Heprecomb bambini"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Heprecomb Kinder"
+* compose.include[=].concept[=].designation[=].value = "Heprecomb uffants"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Heprecomb Kinder"
+* compose.include[=].concept[=].designation[=].value = "Heprecomb children"
 
 * compose.include[=].concept[+].code = #614
 * compose.include[=].concept[=].display = "Inflexal V"
@@ -613,13 +613,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Tollwut Impfstoff Mérieux"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Tollwut Impfstoff Mérieux"
+* compose.include[=].concept[=].designation[=].value = "Rage vaccin Mérieux"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Tollwut Impfstoff Mérieux"
+* compose.include[=].concept[=].designation[=].value = "Rabbia vaccino Mérieux"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Tollwut Impfstoff Mérieux"
+* compose.include[=].concept[=].designation[=].value = "Frenesia vaccin Mérieux"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Tollwut Impfstoff Mérieux"
+* compose.include[=].concept[=].designation[=].value = "Rage vaccine Mérieux"
 
 * compose.include[=].concept[+].code = #688
 * compose.include[=].concept[=].display = "Varivax"
@@ -717,26 +717,26 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Diphtérie- et tétanos-vaccin adsorbant pour les enfants de moins de 8 ans"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Difterite e tetano vaccino adsorbito per bambini di età inferiore agli 8 anni"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Difteria e tetanus vaccin d’asorbat per uffants sut 8 onns"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Diphtheria and tetanus adsorbate vaccine for children under 8 years of age"
 
 * compose.include[=].concept[+].code = #711-02
 * compose.include[=].concept[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Diphtérie- et tétanos-vaccin adsorbant pour pour les adultes et les enfants à partir de 7 ans"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Difterite e tetano vaccino adsorbito per adulti e bambini dai 7 anni in su"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Difteria e tetanus vaccin d’asorbat per persunas creschidas e per uffants a partir da 7 onns"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Diphtheria and tetanus adsorbate vaccine for adults and children over 7 years old"
 
 
 * compose.include[=].concept[+].code = #704
@@ -964,28 +964,28 @@ Usage: #definition
 * compose.include[=].concept[+].code = #600
 * compose.include[=].concept[=].display = "DiTe Anatoxal Erwachsene / Adultes"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Erwachsene / Adultes"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Erwachsene"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Erwachsene / Adultes"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal adultes"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Erwachsene / Adultes"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal adulti"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Erwachsene / Adultes"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal persunas creschidas"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Erwachsene / Adultes"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal adults"
 
 * compose.include[=].concept[+].code = #690
 * compose.include[=].concept[=].display = "DiTe Anatoxal N Erwachsene / Adultes"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal N Erwachsene"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal N adultes"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal adulti"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal persunas creschidas"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal N Erwachsene / Adultes"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal adults"
 
 * compose.include[=].concept[+].code = #689
 * compose.include[=].concept[=].display = "Te Anatoxal N"
@@ -1214,13 +1214,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Foclivia (Durchstechflasche)"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Foclivia (Durchstechflasche)"
+* compose.include[=].concept[=].designation[=].value = "Foclivia (flacon multidoses)"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Foclivia (Durchstechflasche)"
+* compose.include[=].concept[=].designation[=].value = "Foclivia (flacone multidose)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Foclivia (Durchstechflasche)"
+* compose.include[=].concept[=].designation[=].value = "Foclivia (flacona multidosa)"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Foclivia (Durchstechflasche)"
+* compose.include[=].concept[=].designation[=].value = "Foclivia (penetration bottle)"
 
 //66156	01	Foclivia, Injektionssuspension in einer Fertigspritze	Emergent BioSolutions Berna GmbH	B	20.04.2018	20.04.2018	19.04.2023	J07BB02
 // added 2021-11-19
@@ -1229,13 +1229,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
+* compose.include[=].concept[=].designation[=].value = "Foclivia (seringue préremplie)"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
+* compose.include[=].concept[=].designation[=].value = "Foclivia (siringa preriempita)"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
+* compose.include[=].concept[=].designation[=].value = "Foclivia (siringa prominenta)"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Foclivia (Fertigspritze)"
+* compose.include[=].concept[=].designation[=].value = "Foclivia (pre-filled syringe)"
 
 // 68473	01	Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	12.04.2024	J07BX03
 // added 2022-06-08
@@ -1244,13 +1244,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, dispersion injectable"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, dispersione per iniezione"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, dispersiun d’injecziun"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, injection dispersion"
 
 
 //68358	01	Ervebo, Injektionslösung	MSD Merck Sharp & Dohme AG	B	11/10/2021	11/10/2021	11/9/2026	J07BX02
@@ -1275,13 +1275,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 microgrammes/dose, pour les personnes de plus de 12 ans"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 microgrammi/dose, per persone di età superiore ai 12 anni"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 microgram/dosa, per persunas sur 12 onns"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 Mikrogramm/Dosis, für Personen ab 12 Jahren"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 30 microgram/dose, for people over 12 years"
 
 
 //68710	02	Comirnaty® 10 Mikrogramm/Dosis, Konzentrat zur Herstellung einer Injektionsdispersion	Pfizer AG	B	12/10/2021	12/10/2021	12/18/2022	J07BX
@@ -1291,13 +1291,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 microgrammes/dose"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 microgrammi/dose"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 microgram/dosa"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 Mikrogramm/Dosis"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 microgram/dose"
 
 //68473	01	Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	4/12/2022	4/12/2022	4/12/2024	J07BX03
 // added 2022-11-03
@@ -1397,13 +1397,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, seringue préremplie"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, siringa preriempita"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, squitta finida"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron 10 mg/ml, pre-filled syringe"
 
 
 //69010	01	Spikevax, Fertigspritze	Moderna Switzerland GmbH	B	13.10.2022	13.10.2022	26.09.2023	J07BX03
@@ -1413,13 +1413,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Spikevax, Fertigspritze"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Spikevax, Fertigspritze"
+* compose.include[=].concept[=].designation[=].value = "Spikevax, seringue  préremplie"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Spikevax, Fertigspritze"
+* compose.include[=].concept[=].designation[=].value = "Spikevax, siringa preriempita"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Spikevax, Fertigspritze"
+* compose.include[=].concept[=].designation[=].value = "Spikevax, squitta finida"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Spikevax, Fertigspritze"
+* compose.include[=].concept[=].designation[=].value = "Spikevax, pre-filled syringe"
 
 
 //69047	01	Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis gebrauchsfertige Injektionsdispersion für Personen ab 18 Jahren	Pfizer AG	B	10.10.2022	10.10.2022	09.10.2024	J07BX03
@@ -1429,13 +1429,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg par dose"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg per dose"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro dosis"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg per dose"
 
 
 
@@ -1461,13 +1461,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Poliomyelitis Impfstoff Berna"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Poliomyelitis Impfstoff Berna"
+* compose.include[=].concept[=].designation[=].value = "Poliomyelitis vaccin Berna"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Poliomyelitis Impfstoff Berna"
+* compose.include[=].concept[=].designation[=].value = "Poliomyelitis vaccino Berna"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Poliomyelitis Impfstoff Berna"
+* compose.include[=].concept[=].designation[=].value = "Poliomyelitis vaccin Berna"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Poliomyelitis Impfstoff Berna"
+* compose.include[=].concept[=].designation[=].value = "Poliomyelitis vaccine Berna"
 * compose.include[=].concept[+].code = #23
 * compose.include[=].concept[=].display = "Triviraten"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -1557,13 +1557,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Meningokokken-Impfstoff A+C Mérieux"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Meningokokken-Impfstoff A+C Mérieux"
+* compose.include[=].concept[=].designation[=].value = "Vaccin méningococcique A+C Mérieux"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Meningokokken-Impfstoff A+C Mérieux"
+* compose.include[=].concept[=].designation[=].value = "Vaccino meningococcico A+C Mérieux"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Meningokokken-Impfstoff A+C Mérieux"
+* compose.include[=].concept[=].designation[=].value = "Vaccin da meningokokken A+C Mérieux"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Meningokokken-Impfstoff A+C Mérieux"
+* compose.include[=].concept[=].designation[=].value = "Meningococcal vaccine A+C Mérieux"
 * compose.include[=].concept[+].code = #56
 * compose.include[=].concept[=].display = "Meruvax"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -1665,25 +1665,25 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe Erwachsene"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe Erwachsene"
+* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe adultes"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe Erwachsene"
+* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe adulti"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe Erwachsene"
+* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe persunas creschidas"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe Erwachsene"
+* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe adults"
 * compose.include[=].concept[+].code = #81
 * compose.include[=].concept[=].display = "Anatoxal DiTe N Erwachsene"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe N Erwachsene"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe N Erwachsene"
+* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe N adultes"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe N Erwachsene"
+* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe N adulti"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe N Erwachsene"
+* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe N persunas creschidas"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe N Erwachsene"
+* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe N adults"
 * compose.include[=].concept[+].code = #82
 * compose.include[=].concept[=].display = "Anatoxal Di"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -2097,13 +2097,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "FSME-Immun Injekt"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "FSME-Immun Injekt"
+* compose.include[=].concept[=].designation[=].value = "FSME-Immun inject"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "FSME-Immun Injekt"
+* compose.include[=].concept[=].designation[=].value = "FSME-Immun iniettare"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "FSME-Immun Injekt"
+* compose.include[=].concept[=].designation[=].value = "FSME-Immun inject"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "FSME-Immun Injekt"
+* compose.include[=].concept[=].designation[=].value = "FSME-Immun inject"
 * compose.include[=].concept[+].code = #133
 * compose.include[=].concept[=].display = "ProHibit"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -2121,13 +2121,13 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe Kinder"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe Kinder"
+* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe enfants"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe Kinder"
+* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe bambini"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe Kinder"
+* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe uffants"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe Kinder"
+* compose.include[=].concept[=].designation[=].value = "Anatoxal DiTe children"
 * compose.include[=].concept[+].code = #136
 * compose.include[=].concept[=].display = "Celtura"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -2263,15 +2263,15 @@ Usage: #definition
 * compose.include[=].concept[+].code = #154
 * compose.include[=].concept[=].display = "DiTe Anatoxal Kinder / Enfants"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Kinder / Enfants"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Kinder"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Kinder / Enfants"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal enfants"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Kinder / Enfants"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal bambini"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Kinder / Enfants"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal uffants"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal Kinder / Enfants"
+* compose.include[=].concept[=].designation[=].value = "DiTe Anatoxal children"
 * compose.include[=].concept[+].code = #155
 * compose.include[=].concept[=].display = "DiTePer Anatoxal"
 * compose.include[=].concept[=].designation[0].language = #de-CH
