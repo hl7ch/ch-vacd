@@ -17,15 +17,15 @@ Description: "Complication/medical risks available in Switzerland."
 * ^contact.telecom.value = "www.e-health-suisse.ch"
 * ^content = #complete
 * ^caseSensitive = true
-* #51244008 "Asplenie"
+* #51244008 "Milzerkrankung"
 * #51244008 ^designation[0].language = #de-CH
-* #51244008 ^designation[=].value = "Asplenie"
+* #51244008 ^designation[=].value = "Milzerkrankung"
 * #51244008 ^designation[+].language = #fr-CH
-* #51244008 ^designation[=].value = "asplénie"
+* #51244008 ^designation[=].value = "affection de la rate"
 * #51244008 ^designation[+].language = #it-CH
-* #51244008 ^designation[=].value = "asplenia"
+* #51244008 ^designation[=].value = "malattia della milza"
 * #51244008 ^designation[+].language = #rm-CH
-* #51244008 ^designation[=].value = "asplenia"
+* #51244008 ^designation[=].value = "malsogna da la spletga"
 * #51244008 ^designation[+].language = #en-US
 * #51244008 ^designation[=].value = "Disorder of spleen (disorder)"
 * #235856003 "Lebererkrankung"
@@ -72,28 +72,17 @@ Description: "Complication/medical risks available in Switzerland."
 * #363346000 ^designation[=].value = "giomber"
 * #363346000 ^designation[+].language = #en-US
 * #363346000 ^designation[=].value = "Malignant neoplastic disease (disorder)"
-* #114025 "ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"
-* #114025 ^designation[0].language = #de-CH
-* #114025 ^designation[=].value = "Angeborene Immundefizienz, variables Immundefektsyndrom, defizitäre Antwort auf Polysaccharide"
-* #114025 ^designation[+].language = #fr-CH
-* #114025 ^designation[=].value = "Immunodéficience congénitale, immunodéficience commune variable, déficit réponse aux polysaccharidiques"
-* #114025 ^designation[+].language = #it-CH
-* #114025 ^designation[=].value = "Immunodeficienza congenita, immunodeficienza comune variabile, deficit di risposta ai polisaccaridi"
-* #114025 ^designation[+].language = #rm-CH
-* #114025 ^designation[=].value = "immunodeficienza innata, immunodeficienza cumina variabla, resposta deficitara sin polisaccarids"
-* #114025 ^designation[+].language = #en-US
-* #114025 ^designation[=].value = "ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"
-* #114021 "AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"
-* #114021 ^designation[0].language = #de-CH
-* #114021 ^designation[=].value = "Autoimmunkrankheit, welche eine Immunsuppression erfordert"
-* #114021 ^designation[+].language = #fr-CH
-* #114021 ^designation[=].value = "Maladie auto-immune exigeant vraisemblablement une immunosuppression"
-* #114021 ^designation[+].language = #it-CH
-* #114021 ^designation[=].value = "Malattia autoimmune che richiede probabilmente una immunosoppressione"
-* #114021 ^designation[+].language = #rm-CH
-* #114021 ^designation[=].value = "malsogna d'autoimmunitad che pretenda ina immunosuppressiun"
-* #114021 ^designation[+].language = #en-US
-* #114021 ^designation[=].value = "AUTOIMMUNKRANKHEIT_WELCHE_EINE_IMMUNSUPPRESSION_ERFORDERT"
+* #414029004 "Störung der Immunfunktion"
+* #414029004 ^designation[0].language = #de-CH
+* #414029004 ^designation[=].value = "Störung der Immunfunktion"
+* #414029004 ^designation[+].language = #fr-CH
+* #414029004 ^designation[=].value = "perturbation de la fonction immunitaire"
+* #414029004 ^designation[+].language = #it-CH
+* #414029004 ^designation[=].value = "disturbo della funzione immunitaria"
+* #414029004 ^designation[+].language = #rm-CH
+* #414029004 ^designation[=].value = "disturbi da la funcziun d'immunitad"
+* #414029004 ^designation[+].language = #en-US
+* #414029004 ^designation[=].value = "Disorder of immune function (disorder)"
 * #114005 "BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"
 * #114005 ^designation[0].language = #de-CH
 * #114005 ^designation[=].value = "Bronchiektasen durch Antikörpermangel"
@@ -116,17 +105,6 @@ Description: "Complication/medical risks available in Switzerland."
 * #114003 ^designation[=].value = "pneumopatia cronica obstructiva"
 * #114003 ^designation[+].language = #en-US
 * #114003 ^designation[=].value = "CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"
-* #114007 "CHRONISCHE_LEBERERKRANKUNG"
-* #114007 ^designation[0].language = #de-CH
-* #114007 ^designation[=].value = "Chronische Lebererkrankung"
-* #114007 ^designation[+].language = #fr-CH
-* #114007 ^designation[=].value = "Maladie hépatique chronique"
-* #114007 ^designation[+].language = #it-CH
-* #114007 ^designation[=].value = "Malattia epatica cronica"
-* #114007 ^designation[+].language = #rm-CH
-* #114007 ^designation[=].value = "malsogna cronica dal gnirom"
-* #114007 ^designation[+].language = #en-US
-* #114007 ^designation[=].value = "CHRONISCHE_LEBERERKRANKUNG"
 * #449840001 "Cochleaimplantat in situ"
 * #449840001 ^designation[0].language = #de-CH
 * #449840001 ^designation[=].value = "Cochleaimplantat in situ"
