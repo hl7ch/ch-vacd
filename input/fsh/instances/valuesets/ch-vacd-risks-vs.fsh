@@ -18,54 +18,54 @@ Usage: #definition
 * contact.telecom.value = "www.e-health-suisse.ch"
 * description = "The medical and exposision risks used in Switzerland."
 * compose.include[0].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-complication-risks-cs"
-* compose.include[=].concept[+].code = #113001
-* compose.include[=].concept[=].display = "ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"
+* compose.include[=].concept[+].code = #51244008
+* compose.include[=].concept[=].display = "Asplenie"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Anatomische oder funktionelle Asplenie"
+* compose.include[=].concept[=].designation[=].value = "Asplenie"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Asplénie anatomique ou fonctionnelle"
+* compose.include[=].concept[=].designation[=].value = "asplénie"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Asplenia anatomica o funzionale"
+* compose.include[=].concept[=].designation[=].value = "asplenia"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "asplenia anatomica u funcziunala"
+* compose.include[=].concept[=].designation[=].value = "asplenia"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"
-* compose.include[=].concept[+].code = #114036
-* compose.include[=].concept[=].display = "ANDERE_LEBERERKRANKUNG"
+* compose.include[=].concept[=].designation[=].value = "Disorder of spleen (disorder)"
+* compose.include[=].concept[+].code = #235856003
+* compose.include[=].concept[=].display = "Lebererkrankung"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "andere Lebererkrankung"
+* compose.include[=].concept[=].designation[=].value = "Lebererkrankung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "autre maladie hépatique"
+* compose.include[=].concept[=].designation[=].value = "affection du foie"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "altra malattia epatica"
+* compose.include[=].concept[=].designation[=].value = "malattia epatica"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "autra malsogna dal gnirom"
+* compose.include[=].concept[=].designation[=].value = "malsogna dal gnirom"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "ANDERE_LEBERERKRANKUNG"
-* compose.include[=].concept[+].code = #114006
-* compose.include[=].concept[=].display = "ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"
+* compose.include[=].concept[=].designation[=].value = "Disorder of liver (disorder)"
+* compose.include[=].concept[+].code = #19829001
+* compose.include[=].concept[=].display = "Lungenerkrankung"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Andere Lungenerkrankungen (z.B. Mukoviszidose, Asthma bronchiale, etc.)"
+* compose.include[=].concept[=].designation[=].value = "Lungenerkrankung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Autres maladies pulmonaires (ex : mucoviscidose, asthme traité par aérosols, etc)"
+* compose.include[=].concept[=].designation[=].value = "maladie du poumon"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Altre malattie polmonari (p.es. mucoviscidosi, asmatrattata con aerosol, ecc.)"
+* compose.include[=].concept[=].designation[=].value = "malattia polmonare"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "autras malsognas dal pulmun (p.ex. mucoviscidosa, asma bronchiala, e.u.v.)"
+* compose.include[=].concept[=].designation[=].value = "malsogna dal pulmun"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"
-* compose.include[=].concept[+].code = #114033
-* compose.include[=].concept[=].display = "ANDERE_NIERENERKRANKUNG"
+* compose.include[=].concept[=].designation[=].value = "Disorder of lung (disorder)"
+* compose.include[=].concept[+].code = #90708001
+* compose.include[=].concept[=].display = "Nierenerkrankung"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Andere Nierenerkrankung"
+* compose.include[=].concept[=].designation[=].value = "Nierenerkrankung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "autre maladie des reins"
+* compose.include[=].concept[=].designation[=].value = "maladie rénale"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "altra malattia renale"
+* compose.include[=].concept[=].designation[=].value = "malattia renale"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "autra malsogna dals gnirunchels"
+* compose.include[=].concept[=].designation[=].value = "malsogna dals gnirunchels"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "ANDERE_NIERENERKRANKUNG"
+* compose.include[=].concept[=].designation[=].value = "Kidney disease (disorder)"
 * compose.include[=].concept[+].code = #114034
 * compose.include[=].concept[=].display = "ANDERER_KREBS"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -138,18 +138,18 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "malsogna cronica dal gnirom"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "CHRONISCHE_LEBERERKRANKUNG"
-* compose.include[=].concept[+].code = #113002
-* compose.include[=].concept[=].display = "COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"
+* compose.include[=].concept[+].code = #449840001
+* compose.include[=].concept[=].display = "Cochleaimplantat in situ"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Cochleaimplantat, in situ oder geplant"
+* compose.include[=].concept[=].designation[=].value = "Cochleaimplantat in situ"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Implant cochléaire, in situ ou planifié"
+* compose.include[=].concept[=].designation[=].value = "implant cochléaire in situ"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Impianto cocleare, in situ o pianificato"
+* compose.include[=].concept[=].designation[=].value = "impianto cocleare in situ"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "implantat da la cochlea, in situ u planisà"
+* compose.include[=].concept[=].designation[=].value = "implantat d'udida in situ"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"
+* compose.include[=].concept[=].designation[=].value = "Cochlear prosthesis in situ (finding)"
 * compose.include[=].concept[+].code = #114015
 * compose.include[=].concept[=].display = "DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -186,18 +186,18 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "retschaviders d'ina transplantaziun da cellas da basa"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"
-* compose.include[=].concept[+].code = #113004
-* compose.include[=].concept[=].display = "GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"
+* compose.include[=].concept[+].code = #1237576009
+* compose.include[=].concept[=].display = "Frühgeburt bei einer Geburt von weniger als 32 Wochen"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Geburt vor der 33. Schwangerschaftswoche oder Geburtsgewicht < 1500g"
+* compose.include[=].concept[=].designation[=].value = "Frühgeburt bei einer Geburt von weniger als 32 Wochen"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Naissance avant la 33e semaine de grossesse ou poids de naissance <1500g"
+* compose.include[=].concept[=].designation[=].value = "naissance prématurée à moins de 32 semaines"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Nascita prima della 33a settimana di gravidanza o peso alla nascita <1500g"
+* compose.include[=].concept[=].designation[=].value = "prematurità: parto prima della 32a settimana"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "naschientscha avant la 33. emna da gravidanza u pais da naschientscha < 1500g"
+* compose.include[=].concept[=].designation[=].value = "naschientscha prematura en cas d'ina gravidanza da main che 32 emnas"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"
+* compose.include[=].concept[=].designation[=].value = "Baby premature at delivery less than 32 weeks (finding)"
 * compose.include[=].concept[+].code = #114037
 * compose.include[=].concept[=].display = "HAEMODIALYSEPATIENT"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -222,18 +222,18 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "pazient da hemofilia"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "HAEMOPHILIE_PATIENT"
-* compose.include[=].concept[+].code = #114001
-* compose.include[=].concept[=].display = "HERZINSUFFIZIENZ"
+* compose.include[=].concept[+].code = #56265001
+* compose.include[=].concept[=].display = "Herzerkrankung"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Herzinsuffizienz"
+* compose.include[=].concept[=].designation[=].value = "Herzerkrankung"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Insuffisance cardiaque"
+* compose.include[=].concept[=].designation[=].value = "maladie cardiaque"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Insufficienza cardiaca"
+* compose.include[=].concept[=].designation[=].value = "malattia cardiaca"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "insuffizienza dal cor"
+* compose.include[=].concept[=].designation[=].value = "malsogna dal cor"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "HERZINSUFFIZIENZ"
+* compose.include[=].concept[=].designation[=].value = "Heart disease (disorder)"
 * compose.include[=].concept[+].code = #113007
 * compose.include[=].concept[=].display = "HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -512,18 +512,18 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "ZOELIAKIE"
 
 * compose.include[+].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-exposure-risks-cs"
-* compose.include[=].concept[+].code = #213001
-* compose.include[=].concept[=].display = "BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"
+* compose.include[=].concept[+].code = #223366009
+* compose.include[=].concept[=].display = "Gesundheitsfachperson"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Beschäftigte im Gesundheitswesen"
+* compose.include[=].concept[=].designation[=].value = "Gesundheitsfachperson"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Personnel médical et soignant"
+* compose.include[=].concept[=].designation[=].value = "professionnel de la santé"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Personale medico e di cura"
+* compose.include[=].concept[=].designation[=].value = "professionista della salute"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "persunal dal sectur da sanadad"
+* compose.include[=].concept[=].designation[=].value = "persuna spezialisada dal sectur da sanadad"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"
+* compose.include[=].concept[=].designation[=].value = "Healthcare professional (occupation)"
 * compose.include[=].concept[+].code = #213028
 * compose.include[=].concept[=].display = "ENGE_KONTAKTPERSONEN_VON_MENINGOKOKKEN_ERKRANKTEN"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -668,18 +668,18 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "persunas da contact da malsauns da hepatitis B"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "KONTAKTPERSONEN_VON_HEPATITIS_B_ERKRANKTEN"
-* compose.include[=].concept[+].code = #213030
-* compose.include[=].concept[=].display = "LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"
+* compose.include[=].concept[+].code = #61246008
+* compose.include[=].concept[=].display = "Spezialist / Spezialistin für Labormedizin"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Laborpersonal mit Bakterien-Expositionsrisiko"
+* compose.include[=].concept[=].designation[=].value = "Spezialist / Spezialistin für Labormedizin"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Personnel de laboratoire exposé aux bactéries"
+* compose.include[=].concept[=].designation[=].value = "spécialiste en médecine de laboratoire"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Personale di laboratorio esposto ai batteri"
+* compose.include[=].concept[=].designation[=].value = "specialista in medicina di laboratorio"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "persunal da labor cun ristga d'esser expost a bacterias"
+* compose.include[=].concept[=].designation[=].value = "spezialista u spezialist per medischina da labor"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "LABORPERSONAL_MIT_BAKTERIEN_EXPOSITIONSRISIKO"
+* compose.include[=].concept[=].designation[=].value = "Laboratory medicine specialist (occupation)"
 * compose.include[=].concept[+].code = #213029
 * compose.include[=].concept[=].display = "LABORPERSONAL_MIT_VIRUS_EXPOSITIONSRISIKO"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -836,16 +836,15 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "lavurers socials, persunal da praschun ed emploiads da polizia che han savens contact cun consuments da drogas injectablas"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "SOZIALARBEITER_GEFAENGNISPERSONAL_UND_POLIZEIANGESTELLTE_MIT_HAEUFIGEM_KONTAKT_ZU_KONSUMENTEN_VON_INJIZIERBAREN_DROGEN"
-* compose.include[=].concept[+].code = #213023
-* compose.include[=].concept[=].display = "TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"
+* compose.include[=].concept[+].code = #265940000
+* compose.include[=].concept[=].display = "Beschäftigt im Veterinärwesen"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Tierärzte (inkl. Studenten, Praxisangestellte)"
+* compose.include[=].concept[=].designation[=].value = "Beschäftigt im Veterinärwesen"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Vétérinaires (étudiants : assistants vétérinaires)"
+* compose.include[=].concept[=].designation[=].value = "profession en santé animale"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Veterinari (studenti, assistenti veterinari)"
+* compose.include[=].concept[=].designation[=].value = "professione in ambito veterinario"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "veterinaris (incl. students, emploiads da pratica)
-"
+* compose.include[=].concept[=].designation[=].value = "occupada u occupà en ils fatgs veterinars"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "TIERAERZTE_INKL_STUDENTEN_PRAXISANGESTELLTE"
+* compose.include[=].concept[=].designation[=].value = "Animal health occupation (occupation)"
