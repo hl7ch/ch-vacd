@@ -17,7 +17,7 @@ Description: "Complication/medical risks available in Switzerland."
 * ^contact.telecom.value = "www.e-health-suisse.ch"
 * ^content = #complete
 * ^caseSensitive = true
-* #113001 "Asplenie"
+* #51244008 "Asplenie"
 * #51244008 ^designation[0].language = #de-CH
 * #51244008 ^designation[=].value = "Asplenie"
 * #51244008 ^designation[+].language = #fr-CH
