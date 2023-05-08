@@ -17,50 +17,50 @@ Description: "Complication/medical risks available in Switzerland."
 * ^contact.telecom.value = "www.e-health-suisse.ch"
 * ^content = #complete
 * ^caseSensitive = true
-* #113001 "ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"
-* #113001 ^designation[0].language = #de-CH
-* #113001 ^designation[=].value = "Anatomische oder funktionelle Asplenie"
-* #113001 ^designation[+].language = #fr-CH
-* #113001 ^designation[=].value = "Asplénie anatomique ou fonctionnelle"
-* #113001 ^designation[+].language = #it-CH
-* #113001 ^designation[=].value = "Asplenia anatomica o funzionale"
-* #113001 ^designation[+].language = #rm-CH
-* #113001 ^designation[=].value = "asplenia anatomica u funcziunala"
-* #113001 ^designation[+].language = #en-US
-* #113001 ^designation[=].value = "ANATOMISCHE_ODER_FUNKTIONELLE_ASPLENIE"
-* #114036 "ANDERE_LEBERERKRANKUNG"
-* #114036 ^designation[0].language = #de-CH
-* #114036 ^designation[=].value = "andere Lebererkrankung"
-* #114036 ^designation[+].language = #fr-CH
-* #114036 ^designation[=].value = "autre maladie hépatique"
-* #114036 ^designation[+].language = #it-CH
-* #114036 ^designation[=].value = "altra malattia epatica"
-* #114036 ^designation[+].language = #rm-CH
-* #114036 ^designation[=].value = "autra malsogna dal gnirom"
-* #114036 ^designation[+].language = #en-US
-* #114036 ^designation[=].value = "ANDERE_LEBERERKRANKUNG"
-* #114006 "ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"
-* #114006 ^designation[0].language = #de-CH
-* #114006 ^designation[=].value = "Andere Lungenerkrankungen (z.B. Mukoviszidose, Asthma bronchiale, etc.)"
-* #114006 ^designation[+].language = #fr-CH
-* #114006 ^designation[=].value = "Autres maladies pulmonaires (ex : mucoviscidose, asthme traité par aérosols, etc)"
-* #114006 ^designation[+].language = #it-CH
-* #114006 ^designation[=].value = "Altre malattie polmonari (p.es. mucoviscidosi, asmatrattata con aerosol, ecc.)"
-* #114006 ^designation[+].language = #rm-CH
-* #114006 ^designation[=].value = "autras malsognas dal pulmun (p.ex. mucoviscidosa, asma bronchiala, e.u.v.)"
-* #114006 ^designation[+].language = #en-US
-* #114006 ^designation[=].value = "ANDERE_LUNGENERKRANKUNGEN_ZB_MUKOVISZIDOSE_ASTHMA_BRONCHIALE_ETC"
-* #114033 "ANDERE_NIERENERKRANKUNG"
-* #114033 ^designation[0].language = #de-CH
-* #114033 ^designation[=].value = "Andere Nierenerkrankung"
-* #114033 ^designation[+].language = #fr-CH
-* #114033 ^designation[=].value = "autre maladie des reins"
-* #114033 ^designation[+].language = #it-CH
-* #114033 ^designation[=].value = "altra malattia renale"
-* #114033 ^designation[+].language = #rm-CH
-* #114033 ^designation[=].value = "autra malsogna dals gnirunchels"
-* #114033 ^designation[+].language = #en-US
-* #114033 ^designation[=].value = "ANDERE_NIERENERKRANKUNG"
+* #113001 "Asplenie"
+* #51244008 ^designation[0].language = #de-CH
+* #51244008 ^designation[=].value = "Asplenie"
+* #51244008 ^designation[+].language = #fr-CH
+* #51244008 ^designation[=].value = "asplénie"
+* #51244008 ^designation[+].language = #it-CH
+* #51244008 ^designation[=].value = "asplenia"
+* #51244008 ^designation[+].language = #rm-CH
+* #51244008 ^designation[=].value = "asplenia"
+* #51244008 ^designation[+].language = #en-US
+* #51244008 ^designation[=].value = "Disorder of spleen (disorder)"
+* #235856003 "Lebererkrankung"
+* #235856003 ^designation[0].language = #de-CH
+* #235856003 ^designation[=].value = "Lebererkrankung"
+* #235856003 ^designation[+].language = #fr-CH
+* #235856003 ^designation[=].value = "affection du foie"
+* #235856003 ^designation[+].language = #it-CH
+* #235856003 ^designation[=].value = "malattia epatica"
+* #235856003 ^designation[+].language = #rm-CH
+* #235856003 ^designation[=].value = "malsogna dal gnirom"
+* #235856003 ^designation[+].language = #en-US
+* #235856003 ^designation[=].value = "Disorder of liver (disorder)"
+* #19829001 "Lungenerkrankung"
+* #19829001 ^designation[0].language = #de-CH
+* #19829001 ^designation[=].value = "Lungenerkrankung"
+* #19829001 ^designation[+].language = #fr-CH
+* #19829001 ^designation[=].value = "maladie du poumon"
+* #19829001 ^designation[+].language = #it-CH
+* #19829001 ^designation[=].value = "malattia polmonare"
+* #19829001 ^designation[+].language = #rm-CH
+* #19829001 ^designation[=].value = "malsogna dal pulmun"
+* #19829001 ^designation[+].language = #en-US
+* #19829001 ^designation[=].value = "Disorder of lung (disorder)"
+* #90708001 "Nierenerkrankung"
+* #90708001 ^designation[0].language = #de-CH
+* #90708001 ^designation[=].value = "Nierenerkrankung"
+* #90708001 ^designation[+].language = #fr-CH
+* #90708001 ^designation[=].value = "maladie rénale"
+* #90708001 ^designation[+].language = #it-CH
+* #90708001 ^designation[=].value = "malattia renale"
+* #90708001 ^designation[+].language = #rm-CH
+* #90708001 ^designation[=].value = "malsogna dals gnirunchels"
+* #90708001 ^designation[+].language = #en-US
+* #90708001 ^designation[=].value = "Kidney disease (disorder)"
 * #114034 "ANDERER_KREBS"
 * #114034 ^designation[0].language = #de-CH
 * #114034 ^designation[=].value = "Anderer Krebs"
@@ -127,17 +127,17 @@ Description: "Complication/medical risks available in Switzerland."
 * #114007 ^designation[=].value = "malsogna cronica dal gnirom"
 * #114007 ^designation[+].language = #en-US
 * #114007 ^designation[=].value = "CHRONISCHE_LEBERERKRANKUNG"
-* #113002 "COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"
-* #113002 ^designation[0].language = #de-CH
-* #113002 ^designation[=].value = "Cochleaimplantat, in situ oder geplant"
-* #113002 ^designation[+].language = #fr-CH
-* #113002 ^designation[=].value = "Implant cochléaire, in situ ou planifié"
-* #113002 ^designation[+].language = #it-CH
-* #113002 ^designation[=].value = "Impianto cocleare, in situ o pianificato"
-* #113002 ^designation[+].language = #rm-CH
-* #113002 ^designation[=].value = "implantat da la cochlea, in situ u planisà"
-* #113002 ^designation[+].language = #en-US
-* #113002 ^designation[=].value = "COCHLEAIMPLANTAT_IN_SITU_ODER_GEPLANT"
+* #449840001 "Cochleaimplantat in situ"
+* #449840001 ^designation[0].language = #de-CH
+* #449840001 ^designation[=].value = "Cochleaimplantat in situ"
+* #449840001 ^designation[+].language = #fr-CH
+* #449840001 ^designation[=].value = "implant cochléaire in situ"
+* #449840001 ^designation[+].language = #it-CH
+* #449840001 ^designation[=].value = "impianto cocleare in situ"
+* #449840001 ^designation[+].language = #rm-CH
+* #449840001 ^designation[=].value = "implantat d'udida in situ"
+* #449840001 ^designation[+].language = #en-US
+* #449840001 ^designation[=].value = "Cochlear prosthesis in situ (finding)"
 * #114015 "DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"
 * #114015 ^designation[0].language = #de-CH
 * #114015 ^designation[=].value = "Diabetes mit Auswirkung auf die Funktion von Herz, Lungen oder Nieren"
@@ -171,17 +171,17 @@ Description: "Complication/medical risks available in Switzerland."
 * #114020 ^designation[=].value = "retschaviders d'ina transplantaziun da cellas da basa"
 * #114020 ^designation[+].language = #en-US
 * #114020 ^designation[=].value = "EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"
-* #113004 "GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"
-* #113004 ^designation[0].language = #de-CH
-* #113004 ^designation[=].value = "Geburt vor der 33. Schwangerschaftswoche oder Geburtsgewicht < 1500g"
-* #113004 ^designation[+].language = #fr-CH
-* #113004 ^designation[=].value = "Naissance avant la 33e semaine de grossesse ou poids de naissance <1500g"
-* #113004 ^designation[+].language = #it-CH
-* #113004 ^designation[=].value = "Nascita prima della 33a settimana di gravidanza o peso alla nascita <1500g"
-* #113004 ^designation[+].language = #rm-CH
-* #113004 ^designation[=].value = "naschientscha avant la 33. emna da gravidanza u pais da naschientscha < 1500g"
-* #113004 ^designation[+].language = #en-US
-* #113004 ^designation[=].value = "GEBURT_VOR_DER_33_SCHWANGERSCHAFTSWOCHE_ODER_GEBURTSGEWICHT_GROESSER_1500G"
+* #1237576009 "Frühgeburt bei einer Geburt von weniger als 32 Wochen"
+* #1237576009 ^designation[0].language = #de-CH
+* #1237576009 ^designation[=].value = "Frühgeburt bei einer Geburt von weniger als 32 Wochen"
+* #1237576009 ^designation[+].language = #fr-CH
+* #1237576009 ^designation[=].value = "naissance prématurée à moins de 32 semaines"
+* #1237576009 ^designation[+].language = #it-CH
+* #1237576009 ^designation[=].value = "prematurità: parto prima della 32a settimana"
+* #1237576009 ^designation[+].language = #rm-CH
+* #1237576009 ^designation[=].value = "naschientscha prematura en cas d'ina gravidanza da main che 32 emnas"
+* #1237576009 ^designation[+].language = #en-US
+* #1237576009 ^designation[=].value = "Baby premature at delivery less than 32 weeks (finding)"
 * #114037 "HAEMODIALYSEPATIENT"
 * #114037 ^designation[0].language = #de-CH
 * #114037 ^designation[=].value = "Hämodialysepatient"
