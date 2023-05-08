@@ -61,17 +61,17 @@ Description: "Complication/medical risks available in Switzerland."
 * #90708001 ^designation[=].value = "malsogna dals gnirunchels"
 * #90708001 ^designation[+].language = #en-US
 * #90708001 ^designation[=].value = "Kidney disease (disorder)"
-* #114034 "ANDERER_KREBS"
-* #114034 ^designation[0].language = #de-CH
-* #114034 ^designation[=].value = "Anderer Krebs"
-* #114034 ^designation[+].language = #fr-CH
-* #114034 ^designation[=].value = "autre cancer"
-* #114034 ^designation[+].language = #it-CH
-* #114034 ^designation[=].value = "altro cancro"
-* #114034 ^designation[+].language = #rm-CH
-* #114034 ^designation[=].value = "auter cancer"
-* #114034 ^designation[+].language = #en-US
-* #114034 ^designation[=].value = "ANDERER_KREBS"
+* #363346000 "Krebs"
+* #363346000 ^designation[0].language = #de-CH
+* #363346000 ^designation[=].value = "Krebs"
+* #363346000 ^designation[+].language = #fr-CH
+* #363346000 ^designation[=].value = "cancer"
+* #363346000 ^designation[+].language = #it-CH
+* #363346000 ^designation[=].value = "cancro"
+* #363346000 ^designation[+].language = #rm-CH
+* #363346000 ^designation[=].value = "giomber"
+* #363346000 ^designation[+].language = #en-US
+* #363346000 ^designation[=].value = "Malignant neoplastic disease (disorder)"
 * #114025 "ANGEBORENE_IMMUNDEFIZIENZ_VARIABLES_IMMUNDEFEKTSYNDROM_DEFIZITAERE_ANTWORT_AUF_POLYSACCHARIDE"
 * #114025 ^designation[0].language = #de-CH
 * #114025 ^designation[=].value = "Angeborene Immundefizienz, variables Immundefektsyndrom, defizitäre Antwort auf Polysaccharide"
