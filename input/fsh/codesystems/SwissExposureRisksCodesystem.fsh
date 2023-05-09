@@ -161,18 +161,6 @@ Description: "Exposure risks codes available in Switzerland."
 * #1237020006 ^designation[+].language = #en-US
 * #1237020006 ^designation[=].value = "At increased risk of exposure to hepatitis B virus (finding)"
 
-* #1251534000 "Exposition gegenüber invasiver Meningokokkeninfektion"
-* #1251534000 ^designation[0].language = #de-CH
-* #1251534000 ^designation[=].value = "Exposition gegenüber invasiver Meningokokkeninfektion"
-* #1251534000 ^designation[+].language = #fr-CH
-* #1251534000 ^designation[=].value = "exposition à une infection invasive à méningocoque"
-* #1251534000 ^designation[+].language = #it-CH
-* #1251534000 ^designation[=].value = "esposizione a infezione invasiva da meningococchi"
-* #1251534000 ^designation[+].language = #rm-CH
-* #1251534000 ^designation[=].value = "expost ad ina infecziun invasiva cun meningococcus"
-* #1251534000 ^designation[+].language = #en-US
-* #1251534000 ^designation[=].value = "Exposure to invasive meningococcal disease (event)"
-
 * #1237016007 "Erhöhtes Expositionsrisiko für Masern"
 * #1237016007 ^designation[0].language = #de-CH
 * #1237016007 ^designation[=].value = "Erhöhtes Expositionsrisiko für Masern"
@@ -316,18 +304,6 @@ Description: "Exposure risks codes available in Switzerland."
 * #1237027009 ^designation[=].value = "pli gronda ristga d'esser expost a la virola selvadia"
 * #1237027009 ^designation[+].language = #en-US
 * #1237027009 ^designation[=].value = "At increased risk of exposure to Human alphaherpesvirus 3 (finding)"
-
-* #1237028004 "REKRUTEN_MILITAER"
-* #1237028004 ^designation[0].language = #de-CH
-* #1237028004 ^designation[=].value = "Rekruten (Militär)"
-* #1237028004 ^designation[+].language = #fr-CH
-* #1237028004 ^designation[=].value = "Recrues (militaires)"
-* #1237028004 ^designation[+].language = #it-CH
-* #1237028004 ^designation[=].value = "Reclute (militari)"
-* #1237028004 ^designation[+].language = #rm-CH
-* #1237028004 ^designation[=].value = "recruts (militar)"
-* #1237028004 ^designation[+].language = #en-US
-* #1237028004 ^designation[=].value = "REKRUTEN_MILITAER"
 
 * #1237029007 "Erhöhtes Expositionsrisiko für Pneumokokken"
 * #1237029007 ^designation[0].language = #de-CH
