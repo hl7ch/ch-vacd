@@ -149,18 +149,6 @@ Description: "Exposure risks codes available in Switzerland."
 * #1255626009 ^designation[+].language = #en-US
 * #1255626009 ^designation[=].value = "Has contact with injecting drug user (situation)"
 
-* #1237020006 "Erhöhtes Expositionsrisiko gegenüber Hepatitis-B-Virus"
-* #1237020006 ^designation[0].language = #de-CH
-* #1237020006 ^designation[=].value = "Erhöhtes Expositionsrisiko gegenüber Hepatitis-B-Virus"
-* #1237020006 ^designation[+].language = #fr-CH
-* #1237020006 ^designation[=].value = "risque accru d'exposition au virus de l'hépatite B"
-* #1237020006 ^designation[+].language = #it-CH
-* #1237020006 ^designation[=].value = "maggiore rischio d'esposizione al virus dell'epatite B"
-* #1237020006 ^designation[+].language = #rm-CH
-* #1237020006 ^designation[=].value = "pli gronda ristga d'esser expost al virus da hepatitis B"
-* #1237020006 ^designation[+].language = #en-US
-* #1237020006 ^designation[=].value = "At increased risk of exposure to hepatitis B virus (finding)"
-
 * #1237016007 "Erhöhtes Expositionsrisiko für Masern"
 * #1237016007 ^designation[0].language = #de-CH
 * #1237016007 ^designation[=].value = "Erhöhtes Expositionsrisiko für Masern"
