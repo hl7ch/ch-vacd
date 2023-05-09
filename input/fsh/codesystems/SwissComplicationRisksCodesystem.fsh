@@ -195,7 +195,7 @@ Description: "Complication/medical risks available in Switzerland."
 * #77386006 ^designation[+].language = #rm-CH
 * #77386006 ^designation[=].value = "gravidanza"
 * #77386006 ^designation[+].language = #en-US
-* #77386006 ^designation[=].value = "Trying to conceive (finding)"
+* #77386006 ^designation[=].value = "Pregnancy (finding)"
 
 * #24063002 "Schädelbasisfraktur"
 * #24063002 ^designation[0].language = #de-CH
