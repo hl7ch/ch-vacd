@@ -137,17 +137,17 @@ Description: "Complication/medical risks available in Switzerland."
 * #1237576009 ^designation[+].language = #en-US
 * #1237576009 ^designation[=].value = "Baby premature at delivery less than 32 weeks (finding)"
 
-* #1237576009 "Geburtsgewicht 1,5 Kilogramm oder weniger"
-* #1237576009 ^designation[0].language = #de-CH
-* #1237576009 ^designation[=].value = "Geburtsgewicht 1,5 Kilogramm oder weniger"
-* #1237576009 ^designation[+].language = #fr-CH
-* #1237576009 ^designation[=].value = "Poids à la naissance 1,5 kilogramme ou moins"
-* #1237576009 ^designation[+].language = #it-CH
-* #1237576009 ^designation[=].value = "peso alla nascita 1,5 kg o meno"
-* #1237576009 ^designation[+].language = #rm-CH
-* #1237576009 ^designation[=].value = "pais da naschientscha 1,5 kilograms u damain"
-* #1237576009 ^designation[+].language = #en-US
-* #1237576009 ^designation[=].value = "Birth weight 1.5 kilogram or less (finding)"
+* #1237443008 "Geburtsgewicht 1,5 Kilogramm oder weniger"
+* #1237443008 ^designation[0].language = #de-CH
+* #1237443008 ^designation[=].value = "Geburtsgewicht 1,5 Kilogramm oder weniger"
+* #1237443008 ^designation[+].language = #fr-CH
+* #1237443008 ^designation[=].value = "Poids à la naissance 1,5 kilogramme ou moins"
+* #1237443008 ^designation[+].language = #it-CH
+* #1237443008 ^designation[=].value = "peso alla nascita 1,5 kg o meno"
+* #1237443008 ^designation[+].language = #rm-CH
+* #1237443008 ^designation[=].value = "pais da naschientscha 1,5 kilograms u damain"
+* #1237443008 ^designation[+].language = #en-US
+* #1237443008 ^designation[=].value = "Birth weight 1.5 kilogram or less (finding)"
 
 * #414027002 "Erkrankung des blutbildenden Systems"
 * #414027002 ^designation[0].language = #de-CH
