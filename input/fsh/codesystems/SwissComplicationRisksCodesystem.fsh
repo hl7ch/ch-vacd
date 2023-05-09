@@ -83,28 +83,6 @@ Description: "Complication/medical risks available in Switzerland."
 * #414029004 ^designation[=].value = "disturbi da la funcziun d'immunitad"
 * #414029004 ^designation[+].language = #en-US
 * #414029004 ^designation[=].value = "Disorder of immune function (disorder)"
-* #114005 "BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"
-* #114005 ^designation[0].language = #de-CH
-* #114005 ^designation[=].value = "Bronchiektasen durch Antikörpermangel"
-* #114005 ^designation[+].language = #fr-CH
-* #114005 ^designation[=].value = "Bronchiectasies sur carence en anticorps"
-* #114005 ^designation[+].language = #it-CH
-* #114005 ^designation[=].value = "Bronchiettasie su carenza in anticorpi"
-* #114005 ^designation[+].language = #rm-CH
-* #114005 ^designation[=].value = "bronchetasias tras mancanza d'anticorpuls"
-* #114005 ^designation[+].language = #en-US
-* #114005 ^designation[=].value = "BRONCHIEKTASEN_DURCH_ANTIKOERPERMANGEL"
-* #114003 "CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"
-* #114003 ^designation[0].language = #de-CH
-* #114003 ^designation[=].value = "Chronisch obstruktive Pneumopathie"
-* #114003 ^designation[+].language = #fr-CH
-* #114003 ^designation[=].value = "Pneumopathie chronique obstructive"
-* #114003 ^designation[+].language = #it-CH
-* #114003 ^designation[=].value = "Pneumopatia cronica ostruttiva"
-* #114003 ^designation[+].language = #rm-CH
-* #114003 ^designation[=].value = "pneumopatia cronica obstructiva"
-* #114003 ^designation[+].language = #en-US
-* #114003 ^designation[=].value = "CHRONISCH_OBSTRUKTIVE_PNEUMOPATHIE"
 * #449840001 "Cochleaimplantat in situ"
 * #449840001 ^designation[0].language = #de-CH
 * #449840001 ^designation[=].value = "Cochleaimplantat in situ"
@@ -116,39 +94,28 @@ Description: "Complication/medical risks available in Switzerland."
 * #449840001 ^designation[=].value = "implantat d'udida in situ"
 * #449840001 ^designation[+].language = #en-US
 * #449840001 ^designation[=].value = "Cochlear prosthesis in situ (finding)"
-* #114015 "DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"
-* #114015 ^designation[0].language = #de-CH
-* #114015 ^designation[=].value = "Diabetes mit Auswirkung auf die Funktion von Herz, Lungen oder Nieren"
-* #114015 ^designation[+].language = #fr-CH
-* #114015 ^designation[=].value = "Diabète avec répercussion sur la fonction cardiaque, pulmonaire ou rénale"
-* #114015 ^designation[+].language = #it-CH
-* #114015 ^designation[=].value = "Diabete con ripercussioni sulla funzione cardiopolmonare o renale"
-* #114015 ^designation[+].language = #rm-CH
-* #114015 ^designation[=].value = "diabetes cun consequenza sin la funcziun dal cor, dal pulmun u dals gnirunchels"
-* #114015 ^designation[+].language = #en-US
-* #114015 ^designation[=].value = "DIABETES_MIT_AUSWIRKUNG_AUF_DIE_FUNKTION_VON_HERZ_LUNGEN_ODER_NIEREN"
-* #114019 "EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"
-* #114019 ^designation[0].language = #de-CH
-* #114019 ^designation[=].value = "Empfänger einer Solidorgantransplantation"
-* #114019 ^designation[+].language = #fr-CH
-* #114019 ^designation[=].value = "Receveurs d'une transplantation d'organe solide"
-* #114019 ^designation[+].language = #it-CH
-* #114019 ^designation[=].value = "Riceventi di un trapianto d'organo solido"
-* #114019 ^designation[+].language = #rm-CH
-* #114019 ^designation[=].value = "retschaviders d'ina transplantaziun d'organs solida"
-* #114019 ^designation[+].language = #en-US
-* #114019 ^designation[=].value = "EMPFAENGER_EINER_SOLIDORGANTRANSPLANTATION"
-* #114020 "EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"
-* #114020 ^designation[0].language = #de-CH
-* #114020 ^designation[=].value = "Empfänger einer Stammzelltransplantation"
-* #114020 ^designation[+].language = #fr-CH
-* #114020 ^designation[=].value = "Receveurs de cellules souches hématopoïétiques"
-* #114020 ^designation[+].language = #it-CH
-* #114020 ^designation[=].value = "Riceventi di cellule staminali ematopoietiche"
-* #114020 ^designation[+].language = #rm-CH
-* #114020 ^designation[=].value = "retschaviders d'ina transplantaziun da cellas da basa"
-* #114020 ^designation[+].language = #en-US
-* #114020 ^designation[=].value = "EMPFAENGER_EINER_STAMMZELLTRANSPLANTATION"
+* #75934005 "Stoffwechselerkrankung"
+* #75934005 ^designation[0].language = #de-CH
+* #75934005 ^designation[=].value = "Stoffwechselerkrankung"
+* #75934005 ^designation[+].language = #fr-CH
+* #75934005 ^designation[=].value = "maladie métabolique"
+* #75934005 ^designation[+].language = #it-CH
+* #75934005 ^designation[=].value = "malattia metabolica"
+* #75934005 ^designation[+].language = #rm-CH
+* #75934005 ^designation[=].value = "malsogna dal metabolissem"
+* #75934005 ^designation[+].language = #en-US
+* #75934005 ^designation[=].value = "Metabolic disease (disorder)"
+* #737294004 "Transplantation vorhanden"
+* #737294004 ^designation[0].language = #de-CH
+* #737294004 ^designation[=].value = "Transplantation vorhanden"
+* #737294004 ^designation[+].language = #fr-CH
+* #737294004 ^designation[=].value = "présence d'une transplantation"
+* #737294004 ^designation[+].language = #it-CH
+* #737294004 ^designation[=].value = "presenza di un trapianto"
+* #737294004 ^designation[+].language = #rm-CH
+* #737294004 ^designation[=].value = "transplantaziun avant maun"
+* #737294004 ^designation[+].language = #en-US
+* #737294004 ^designation[=].value = "Transplant present (finding)"
 * #1237576009 "Frühgeburt bei einer Geburt von weniger als 32 Wochen"
 * #1237576009 ^designation[0].language = #de-CH
 * #1237576009 ^designation[=].value = "Frühgeburt bei einer Geburt von weniger als 32 Wochen"
@@ -160,160 +127,39 @@ Description: "Complication/medical risks available in Switzerland."
 * #1237576009 ^designation[=].value = "naschientscha prematura en cas d'ina gravidanza da main che 32 emnas"
 * #1237576009 ^designation[+].language = #en-US
 * #1237576009 ^designation[=].value = "Baby premature at delivery less than 32 weeks (finding)"
-* #114037 "HAEMODIALYSEPATIENT"
-* #114037 ^designation[0].language = #de-CH
-* #114037 ^designation[=].value = "Hämodialysepatient"
-* #114037 ^designation[+].language = #fr-CH
-* #114037 ^designation[=].value = "Personnes dialysées"
-* #114037 ^designation[+].language = #it-CH
-* #114037 ^designation[=].value = "Persone in dialisi"
-* #114037 ^designation[+].language = #rm-CH
-* #114037 ^designation[=].value = "pazient da hemodialisa"
-* #114037 ^designation[+].language = #en-US
-* #114037 ^designation[=].value = "HAEMODIALYSEPATIENT"
-* #114038 "HAEMOPHILIE_PATIENT"
-* #114038 ^designation[0].language = #de-CH
-* #114038 ^designation[=].value = "Hämophilie Patient"
-* #114038 ^designation[+].language = #fr-CH
-* #114038 ^designation[=].value = "Personnes hémophiles"
-* #114038 ^designation[+].language = #it-CH
-* #114038 ^designation[=].value = "Persone affette da emofilia"
-* #114038 ^designation[+].language = #rm-CH
-* #114038 ^designation[=].value = "pazient da hemofilia"
-* #114038 ^designation[+].language = #en-US
-* #114038 ^designation[=].value = "HAEMOPHILIE_PATIENT"
-* #114001 "HERZINSUFFIZIENZ"
-* #114001 ^designation[0].language = #de-CH
-* #114001 ^designation[=].value = "Herzinsuffizienz"
-* #114001 ^designation[+].language = #fr-CH
-* #114001 ^designation[=].value = "Insuffisance cardiaque"
-* #114001 ^designation[+].language = #it-CH
-* #114001 ^designation[=].value = "Insufficienza cardiaca"
-* #114001 ^designation[+].language = #rm-CH
-* #114001 ^designation[=].value = "insuffizienza dal cor"
-* #114001 ^designation[+].language = #en-US
-* #114001 ^designation[=].value = "HERZINSUFFIZIENZ"
-* #113007 "HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"
-* #113007 ^designation[0].language = #de-CH
-* #113007 ^designation[=].value = "Herzkrankheiten (chronische, kongenitale Missbildungen)"
-* #113007 ^designation[+].language = #fr-CH
-* #113007 ^designation[=].value = "Cardiopathies chroniques, malformations congénitales"
-* #113007 ^designation[+].language = #it-CH
-* #113007 ^designation[=].value = "Cardiopatie croniche, malformazioni congenite"
-* #113007 ^designation[+].language = #rm-CH
-* #113007 ^designation[=].value = "malsognas dal cor (cronicas u defurmaziuns congenitalas)"
-* #113007 ^designation[+].language = #en-US
-* #113007 ^designation[=].value = "HERZKRANKHEITEN_CHRONISCHE_KONGENITALE_MISSBILDUNGEN"
-* #113008 "HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"
-* #113008 ^designation[0].language = #de-CH
-* #113008 ^designation[=].value = "HIV Infektion mit CD4-Zellen >= 15 % (Erwachsene: >= 200 / µl)"
-* #113008 ^designation[+].language = #fr-CH
-* #113008 ^designation[=].value = "Infection à VIH avec CD4 >= 15% (Adultes : >= 200 / µl)"
-* #113008 ^designation[+].language = #it-CH
-* #113008 ^designation[=].value = "Infezione HIV con CD4 >= 15% (Adulti : >= 200 / µl)"
-* #113008 ^designation[+].language = #rm-CH
-* #113008 ^designation[=].value = "infecziun HIV cun cellas CD4 >= 15 % (persunas creschidas: >= 200 / µl)"
-* #113008 ^designation[+].language = #en-US
-* #113008 ^designation[=].value = "HIV_INFEKTION_MIT_CD4_ZELLEN_GROESSER_GLEICH_15_PROZENT_ERWACHSENE_GROESSER_GLEICH_200_PRO_UL"
-* #113009 "HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"
-* #113009 ^designation[0].language = #de-CH
-* #113009 ^designation[=].value = "HIV Infektion mit CD4-Zellen < 15 % (Erwachsene: < 200 / µl)"
-* #113009 ^designation[+].language = #fr-CH
-* #113009 ^designation[=].value = "Infection à VIH avec CD4 < 15% (Adultes : < 200 / µl)"
-* #113009 ^designation[+].language = #it-CH
-* #113009 ^designation[=].value = "Infezione HIV con CD4 < 15% (Adulti : < 200 / µl)"
-* #113009 ^designation[+].language = #rm-CH
-* #113009 ^designation[=].value = "infecziun HIV cun cellas CD4 < 15 % (persunas creschidas: <= 200 / µl)"
-* #113009 ^designation[+].language = #en-US
-* #113009 ^designation[=].value = "HIV_INFEKTION_MIT_CD4_ZELLEN_KLEINER_15_PROZENT_ERWACHSENE_KLEINER_200_PRO_UL"
-* #114018 "KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"
-* #114018 ^designation[0].language = #de-CH
-* #114018 ^designation[=].value = "Kandidaten für eine Solidorgantransplantation"
-* #114018 ^designation[+].language = #fr-CH
-* #114018 ^designation[=].value = "Candidats à une transplantation d'organe solide"
-* #114018 ^designation[+].language = #it-CH
-* #114018 ^designation[=].value = "Candidati a un trapianto d'organo solido"
-* #114018 ^designation[+].language = #rm-CH
-* #114018 ^designation[=].value = "candidats per ina transplantaziun d'organs solida"
-* #114018 ^designation[+].language = #en-US
-* #114018 ^designation[=].value = "KANDIDATEN_FUER_EINE_SOLIDORGANTRANSPLANTATION"
-* #114002 "KARDIOPATHIE"
-* #114002 ^designation[0].language = #de-CH
-* #114002 ^designation[=].value = "Kardiopathie, angeborene Fehlbildung"
-* #114002 ^designation[+].language = #fr-CH
-* #114002 ^designation[=].value = "Cardiopathie, malformation congénitale"
-* #114002 ^designation[+].language = #it-CH
-* #114002 ^designation[=].value = "Cardiopatia, malformazione congenita"
-* #114002 ^designation[+].language = #rm-CH
-* #114002 ^designation[=].value = "cardiopatia, malfurmaziun innata"
-* #114002 ^designation[+].language = #en-US
-* #114002 ^designation[=].value = "KARDIOPATHIE"
-* #114008 "LEBERZIRRHOSE"
-* #114008 ^designation[0].language = #de-CH
-* #114008 ^designation[=].value = "Leberzirrhose"
-* #114008 ^designation[+].language = #fr-CH
-* #114008 ^designation[=].value = "Cirrhose hépatique"
-* #114008 ^designation[+].language = #it-CH
-* #114008 ^designation[=].value = "Cirrosi epatica"
-* #114008 ^designation[+].language = #rm-CH
-* #114008 ^designation[=].value = "cirrosa hepatica"
-* #114008 ^designation[+].language = #en-US
-* #114008 ^designation[=].value = "LEBERZIRRHOSE"
-* #113012 "LYMPHOM_LEUKAEMIE_MYELOM"
-* #113012 ^designation[0].language = #de-CH
-* #113012 ^designation[=].value = "Lymphom, Leukämie, Myelom"
-* #113012 ^designation[+].language = #fr-CH
-* #113012 ^designation[=].value = "Lymphome, leucémie, myélome"
-* #113012 ^designation[+].language = #it-CH
-* #113012 ^designation[=].value = "Linfoma, leucemia, mieloma"
-* #113012 ^designation[+].language = #rm-CH
-* #113012 ^designation[=].value = "limfom, leuchemia, mielom"
-* #113012 ^designation[+].language = #en-US
-* #113012 ^designation[=].value = "LYMPHOM_LEUKAEMIE_MYELOM"
-* #118001 "LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"
-* #118001 ^designation[0].language = #de-CH
-* #118001 ^designation[=].value = "Lymphom, Leukämie, Myelom während klinischer Remission"
-* #118001 ^designation[+].language = #fr-CH
-* #118001 ^designation[=].value = "Lymphome, leucémie, myélome durant une rémission clinique"
-* #118001 ^designation[+].language = #it-CH
-* #118001 ^designation[=].value = "Linfoma, leucemia, mieloma durante una remissione clinica"
-* #118001 ^designation[+].language = #rm-CH
-* #118001 ^designation[=].value = "limfom, leuchemia, mielom durant ina remissiun clinica"
-* #118001 ^designation[+].language = #en-US
-* #118001 ^designation[=].value = "LYMPHOM_LEUKAEMIE_MYELOM_WAEHREND_KLINISCHER_REMISSION"
-* #113014 "MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"
-* #113014 ^designation[0].language = #de-CH
-* #113014 ^designation[=].value = "Mangel an Mannose-bindendem Lektin"
-* #113014 ^designation[+].language = #fr-CH
-* #113014 ^designation[=].value = "Déficit en lectine liant le mannose"
-* #113014 ^designation[+].language = #it-CH
-* #113014 ^designation[=].value = "Deficit di lectina legante il mannosio"
-* #113014 ^designation[+].language = #rm-CH
-* #113014 ^designation[=].value = "mancanza dal lectin che lia la mannosa"
-* #113014 ^designation[+].language = #en-US
-* #113014 ^designation[=].value = "MANGEL_AN_MANNOSE_BINDENDEM_LEKTIN"
-* #114026 "MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"
-* #114026 ^designation[0].language = #de-CH
-* #114026 ^designation[=].value = "Mangel im klassischen oder alternativen Weg der Komplementaktivierung"
-* #114026 ^designation[+].language = #fr-CH
-* #114026 ^designation[=].value = "Déficit en facteurs de la voie alterne ou terminale du complément"
-* #114026 ^designation[+].language = #it-CH
-* #114026 ^designation[=].value = "Deficit in fattori della via alterna o terminale del complemento"
-* #114026 ^designation[+].language = #rm-CH
-* #114026 ^designation[=].value = "mancanza da l'activaziun cumplementara en il senn classic u alternativ"
-* #114026 ^designation[+].language = #en-US
-* #114026 ^designation[=].value = "MANGEL_IM_KLASSISCHEN_ODER_ALTERNATIVEN_WEG_DER_KOMPLEMENTAKTIVIERUNG"
-* #114022 "MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"
-* #114022 ^designation[0].language = #de-CH
-* #114022 ^designation[=].value = "Medikamentöse Immunosuppression (inkl. systemische Langzeitkortikoidtherapie und Radiotherapie)"
-* #114022 ^designation[+].language = #fr-CH
-* #114022 ^designation[=].value = "Immunosuppression médicamenteuse (y c. corticothérapie de longue durée par voie générale et radiothérapie)"
-* #114022 ^designation[+].language = #it-CH
-* #114022 ^designation[=].value = "Immunosoppressione medicamentosa (compresa una corticoterapia di lunga durata per via generale e una radioterapia)"
-* #114022 ^designation[+].language = #rm-CH
-* #114022 ^designation[=].value = "immunosuppressiun cun medicaments (incl. corticoidterapia sistemica da lunga durada e radioterapia)"
-* #114022 ^designation[+].language = #en-US
-* #114022 ^designation[=].value = "MEDIKAMENTOESE_IMMUNOSUPPRESSION_INKL_SYSTEMISCHE_LANGZEITKORTIKOIDTHERAPIE_UND_RADIOTHERAPIE"
+* #1237576009 "Geburtsgewicht 1,5 Kilogramm oder weniger"
+* #1237576009 ^designation[0].language = #de-CH
+* #1237576009 ^designation[=].value = "Geburtsgewicht 1,5 Kilogramm oder weniger"
+* #1237576009 ^designation[+].language = #fr-CH
+* #1237576009 ^designation[=].value = "Poids à la naissance 1,5 kilogramme ou moins"
+* #1237576009 ^designation[+].language = #it-CH
+* #1237576009 ^designation[=].value = "peso alla nascita 1,5 kg o meno"
+* #1237576009 ^designation[+].language = #rm-CH
+* #1237576009 ^designation[=].value = "pais da naschientscha 1,5 kilograms u damain"
+* #1237576009 ^designation[+].language = #en-US
+* #1237576009 ^designation[=].value = "Birth weight 1.5 kilogram or less (finding)"
+* #414027002 "Erkrankung des blutbildenden Systems"
+* #414027002 ^designation[0].language = #de-CH
+* #414027002 ^designation[=].value = "Erkrankung des blutbildenden Systems"
+* #414027002 ^designation[+].language = #fr-CH
+* #414027002 ^designation[=].value = "affection du système hématopoïétique"
+* #414027002 ^designation[+].language = #it-CH
+* #414027002 ^designation[=].value = "disturbo del sistema ematopoietico"
+* #414027002 ^designation[+].language = #rm-CH
+* #414027002 ^designation[=].value = "malsogna dal sistem che producescha sang"
+* #414027002 ^designation[+].language = #en-US
+* #414027002 ^designation[=].value = "Disorder of hematopoietic structure (disorder)"
+* #56265001 "Herzerkrankung"
+* #56265001 ^designation[0].language = #de-CH
+* #56265001 ^designation[=].value = "Herzerkrankung"
+* #56265001 ^designation[+].language = #fr-CH
+* #56265001 ^designation[=].value = "maladie cardiaque"
+* #56265001 ^designation[+].language = #it-CH
+* #56265001 ^designation[=].value = "malattia cardiaca"
+* #56265001 ^designation[+].language = #rm-CH
+* #56265001 ^designation[=].value = "malsogna dal cor"
+* #56265001 ^designation[+].language = #en-US
+* #56265001 ^designation[=].value = "Heart disease (disorder)"
 * #114016 "MORBIDE_ADIPOSITAS_BMI_GROESSER_40"
 * #114016 ^designation[0].language = #de-CH
 * #114016 ^designation[=].value = "Morbide Adipositas (BMI >= 40)"
@@ -347,17 +193,6 @@ Description: "Complication/medical risks available in Switzerland."
 * #114012 ^designation[=].value = "malsogna neuromusculara (sche consequenzas sin il cor, il pulmun u ils gnirunchels)"
 * #114012 ^designation[+].language = #en-US
 * #114012 ^designation[=].value = "NEUROMUSKULAERE_KRANKHEIT_FALLS_AUSWIRKUNGEN_AUF_HERZ__LUNGEN_ODER_NIERENFUNKTION"
-* #113023 "NIERENINSUFFIZIENZ"
-* #113023 ^designation[0].language = #de-CH
-* #113023 ^designation[=].value = "Niereninsuffizienz"
-* #113023 ^designation[+].language = #fr-CH
-* #113023 ^designation[=].value = "Insuffisance rénale"
-* #113023 ^designation[+].language = #it-CH
-* #113023 ^designation[=].value = "Insufficienza renale"
-* #113023 ^designation[+].language = #rm-CH
-* #113023 ^designation[=].value = "insuffizienza dals gnirunchels"
-* #113023 ^designation[+].language = #en-US
-* #113023 ^designation[=].value = "NIERENINSUFFIZIENZ"
 * #114035 "PROTEIN_S_ODER_PROTEIN_C_DEFIZIT"
 * #114035 ^designation[0].language = #de-CH
 * #114035 ^designation[=].value = "Protein-S oder Protein-C Defizit"
