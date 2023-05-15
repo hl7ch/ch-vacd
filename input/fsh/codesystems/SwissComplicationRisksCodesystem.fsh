@@ -17,17 +17,17 @@ Description: "Complication/medical risks available in Switzerland."
 * ^contact.telecom.value = "www.e-health-suisse.ch"
 * ^content = #complete
 * ^caseSensitive = true
-* #51244008 "Atopische Dermatitis im Kindesalter"
-* #51244008 ^designation[0].language = #de-CH
-* #51244008 ^designation[=].value = "Atopische Dermatitis im Kindesalter"
-* #51244008 ^designation[+].language = #fr-CH
-* #51244008 ^designation[=].value = "dermatite atopique de l'enfance"
-* #51244008 ^designation[+].language = #it-CH
-* #51244008 ^designation[=].value = "dermatite atopica nell'infanzia"
-* #51244008 ^designation[+].language = #rm-CH
-* #51244008 ^designation[=].value = "dermatitis atopica durant l'uffanza"
-* #51244008 ^designation[+].language = #en-US
-* #51244008 ^designation[=].value = "Childhood atopic dermatitis (disorder)"
+* #402196005 "Atopische Dermatitis im Kindesalter"
+* #402196005 ^designation[0].language = #de-CH
+* #402196005 ^designation[=].value = "Atopische Dermatitis im Kindesalter"
+* #402196005 ^designation[+].language = #fr-CH
+* #402196005 ^designation[=].value = "dermatite atopique de l'enfance"
+* #402196005 ^designation[+].language = #it-CH
+* #402196005 ^designation[=].value = "dermatite atopica nell'infanzia"
+* #402196005 ^designation[+].language = #rm-CH
+* #402196005 ^designation[=].value = "dermatitis atopica durant l'uffanza"
+* #402196005 ^designation[+].language = #en-US
+* #402196005 ^designation[=].value = "Childhood atopic dermatitis (disorder)"
 
 * #449840001 "Cochleaimplantat in situ"
 * #449840001 ^designation[0].language = #de-CH
