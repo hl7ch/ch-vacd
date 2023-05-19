@@ -7,7 +7,7 @@ Usage: #definition
 * identifier.use = #official
 * identifier.system = "http://e-health-suisse.ch/ns/vs"
 * identifier.value = "ch-vacd-risks-vs"
-* version = "2021-01-24T00:00:00"
+* version = "2023-05-19T00:00:00"
 * name = "SwissRisksForImmunizations"
 * title = "SwissRisksForImmunizations"
 * status = #active
@@ -33,7 +33,5 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Undetermined (qualifier value)"
 
 * compose.include[0].valueSet = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-medicalrisk-vs"
-
 * compose.include[0].valueSet = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-social-vs"
-
 * compose.include[0].valueSet = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-occupation-vs"
