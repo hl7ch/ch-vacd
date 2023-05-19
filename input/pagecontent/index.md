@@ -34,6 +34,10 @@ The following documents and messages have been defined:
 
 **Download**: You can download this implementation guide in [NPM format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
+### MustSupport
+Labeling an element MustSupport means that implementations that produce or consume resources SHALL provide «support» for the element in some meaningful way. The purpose of Must Support is for
+use in situations such as national program created profiles where they want to leave an element as «optional», but want to state that implementers must support that element (See [eVaccination CH-VACD](https://www.e-health-suisse.ch/fileadmin/user_upload/Dokumente/E/eVaccination_documentation.pdf) and [Impfen_MustSupport](https://github.com/hl7ch/ch-vacd/files/8965666/220623_Impfen_MustSupport.docx)).
+
 ### Narrative Text Generation
 The narrative text in the composition of the bundle of type document can be generated using the FHIR XML representation and the defined xslt transformer defined in this implementation guide.
 For further details see [Narrative Text Generation](generatenarrativetext.html).
