@@ -10,6 +10,7 @@ Usage: #definition
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.e-health-suisse.ch/"
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
+* experimental = false
 * sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
 * targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs"
 
@@ -292,7 +293,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #711-02
-* group[=].element[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH"
+* group[=].element[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[+].code = #871826000
 * group[=].element[=].target[=].display = "Vaccine product containing only Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
@@ -358,7 +359,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #60129
-* group[=].element[=].display = "Prevenar-13"
+* group[=].element[=].display = "Prevenar 13"
 * group[=].element[=].target[+].code = #1052328007
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
@@ -436,7 +437,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #68473
-* group[=].element[=].display = "Nuvaxovid 5 ml, Injektionsdispersion"
+* group[=].element[=].display = "Nuvaxovid 5 ml"
 * group[=].element[=].target[+].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
@@ -474,6 +475,69 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product containing only Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
+
+//69123	01	Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze	Moderna Switzerland GmbH	B	11.11.2022	11.11.2022	25.08.2024	J07BX03
+// added 2023-02-21
+* group[=].element[+].code = #69123
+* group[=].element[=].display = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+
+//69010	01	Spikevax, Fertigspritze	Moderna Switzerland GmbH	B	13.10.2022	13.10.2022	26.09.2023	J07BX03
+// added 2023-02-21
+* group[=].element[+].code = #69010
+* group[=].element[=].display = "Spikevax, Fertigspritze"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//69047	01	Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis gebrauchsfertige Injektionsdispersion für Personen ab 18 Jahren	Pfizer AG	B	10.10.2022	10.10.2022	09.10.2024	J07BX03
+// added 2023-02-21
+* group[=].element[+].code = #69047
+* group[=].element[=].display = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+
+//69127	01	Comirnaty Original/Omicron BA. 4-5 0.225 mg, Injektionsdispersion	Pfizer AG	B	06.04.2023	06.04.2023	05.04.2028	J07BX03
+// added 2023-05-19
+* group[=].element[+].code = #69127
+* group[=].element[=].display = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//69189	01	Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection	Moderna Switzerland GmbH	B	03.03.2023	03.03.2023	02.03.2028	J07BX03
+// added 2023-05-19
+* group[=].element[+].code = #69189
+* group[=].element[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//69211	01	Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze	Moderna Switzerland GmbH	B	21.03.2023	21.03.2023	20.03.2028	J07BX03
+// added 2023-05-19
+* group[=].element[+].code = #69211
+* group[=].element[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//68752	01	Vaxneuvance, Injektionssuspension	MSD Merck Sharp & Dohme AG	B	14.02.2023	14.02.2023	13.02.2028	J07AL02
+// added 2023-05-19
+* group[=].element[+].code = #68752
+* group[=].element[=].display = "Vaxneuvance, Injektionssuspension"
+* group[=].element[=].target[+].code = #1252708008
+* group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F capsular polysaccharide conjugated antigens (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+
+// //////////////////////////////////////////////////////////////////////////////////////////
+// Old vaccines, missing swiss medic number                                               ///
+// //////////////////////////////////////////////////////////////////////////////////////////
 * group[+].source = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[+].code = #17
@@ -788,28 +852,3 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product containing only Vibrio cholerae antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
-
-//69123	01	Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze	Moderna Switzerland GmbH	B	11.11.2022	11.11.2022	25.08.2024	J07BX03
-// added 2023-02-21
-* group[=].element[+].code = #69123
-* group[=].element[=].display = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
-* group[=].element[=].target[+].code = #1119349007
-* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
-
-
-//69010	01	Spikevax, Fertigspritze	Moderna Switzerland GmbH	B	13.10.2022	13.10.2022	26.09.2023	J07BX03
-// added 2023-02-21
-* group[=].element[+].code = #69010
-* group[=].element[=].display = "Spikevax, Fertigspritze"
-* group[=].element[=].target[+].code = #1119349007
-* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
-
-//69047	01	Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis gebrauchsfertige Injektionsdispersion für Personen ab 18 Jahren	Pfizer AG	B	10.10.2022	10.10.2022	09.10.2024	J07BX03
-// added 2023-02-21
-* group[=].element[+].code = #69047
-* group[=].element[=].display = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
-* group[=].element[=].target[+].code = #1119349007
-* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent

@@ -651,7 +651,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #711-02 ^designation[+].language = #it-CH
 * #711-02 ^designation[=].value = "Difterite e tetano vaccino adsorbito per adulti e bambini dai 7 anni in su"
 * #711-02 ^designation[+].language = #rm-CH
-* #711-02 ^designation[=].value = "Difteria e tetanus vaccin d’asorbat per persunas creschidas e per uffants a partir da 7 onns "
+* #711-02 ^designation[=].value = "Difteria e tetanus vaccin d’asorbat per persunas creschidas e per uffants a partir da 7 onns"
 * #711-02 ^designation[+].language = #en-US
 * #711-02 ^designation[=].value = "Diphtheria and tetanus adsorbate vaccine for adults and children over 7 years old"
 
@@ -1117,10 +1117,10 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #66156 ^designation[=].value = "Foclivia (pre-filled syringe)"
 
 
-//68473	01	Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	12.04.2024	J07BX03	X		X	X
+//68473	01	Nuvaxovid 5 ml	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	12.04.2024	J07BX03	X		X	X
 // added 2021-11-19
 * #68473 "Nuvaxovid 5 ml"
-* #68473 ^definition = "Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH"
+* #68473 ^definition = "Nuvaxovid 5 ml	Future Health Pharma GmbH"
 * #68473 ^designation[0].language = #de-CH
 * #68473 ^designation[=].value = "Nuvaxovid 5 ml"
 * #68473 ^designation[+].language = #fr-CH
@@ -1301,3 +1301,64 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro dosis"
 * #69047 ^designation[+].language = #en-US
 * #69047 ^designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg per dose"
+
+
+//69127	01	Comirnaty Original/Omicron BA. 4-5 0.225 mg, Injektionsdispersion	Pfizer AG	B	06.04.2023	06.04.2023	05.04.2028	J07BX03
+// added 2023-05-19
+* #69127 "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* #69127 ^definition = "Comirnaty Original/Omicron BA. 4-5 0.225 mg, Injektionsdispersion,	Pfizer AG"
+* #69127 ^designation[0].language = #de-CH
+* #69127 ^designation[=].value = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* #69127 ^designation[+].language = #fr-CH
+* #69127 ^designation[=].value = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* #69127 ^designation[+].language = #it-CH
+* #69127 ^designation[=].value = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* #69127 ^designation[+].language = #rm-CH
+* #69127 ^designation[=].value = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* #69127 ^designation[+].language = #en-US
+* #69127 ^designation[=].value = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+
+//69189	01	Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection	Moderna Switzerland GmbH	B	03.03.2023	03.03.2023	02.03.2028	J07BX03
+// added 2023-05-19
+* #69189 "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* #69189 ^definition = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection,	Moderna Switzerland GmbH"
+* #69189 ^designation[0].language = #de-CH
+* #69189 ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* #69189 ^designation[+].language = #fr-CH
+* #69189 ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* #69189 ^designation[+].language = #it-CH
+* #69189 ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* #69189 ^designation[+].language = #rm-CH
+* #69189 ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* #69189 ^designation[+].language = #en-US
+* #69189 ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+
+//69211	01	Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze	Moderna Switzerland GmbH	B	21.03.2023	21.03.2023	20.03.2028	J07BX03
+// added 2023-05-19
+* #69211 "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* #69211 ^definition = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze,	Moderna Switzerland GmbH"
+* #69211 ^designation[0].language = #de-CH
+* #69211 ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* #69211 ^designation[+].language = #fr-CH
+* #69211 ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* #69211 ^designation[+].language = #it-CH
+* #69211 ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* #69211 ^designation[+].language = #rm-CH
+* #69211 ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* #69211 ^designation[+].language = #en-US
+* #69211 ^designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+
+//68752	01	Vaxneuvance, Injektionssuspension	MSD Merck Sharp & Dohme AG	B	14.02.2023	14.02.2023	13.02.2028	J07AL02
+// added 2023-05-19
+* #68752 "Vaxneuvance, Injektionssuspension"
+* #68752 ^definition = "Vaxneuvance, Injektionssuspension,	MSD Merck Sharp & Dohme AG"
+* #68752 ^designation[0].language = #de-CH
+* #68752 ^designation[=].value = "Vaxneuvance, Injektionssuspension"
+* #68752 ^designation[+].language = #fr-CH
+* #68752 ^designation[=].value = "Vaxneuvance, Injektionssuspension"
+* #68752 ^designation[+].language = #it-CH
+* #68752 ^designation[=].value = "Vaxneuvance, Injektionssuspension"
+* #68752 ^designation[+].language = #rm-CH
+* #68752 ^designation[=].value = "Vaxneuvance, Injektionssuspension"
+* #68752 ^designation[+].language = #en-US
+* #68752 ^designation[=].value = "Vaxneuvance, Injektionssuspension"

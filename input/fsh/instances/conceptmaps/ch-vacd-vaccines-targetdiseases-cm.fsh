@@ -10,6 +10,7 @@ Usage: #definition
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.e-health-suisse.ch/"
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
+* experimental = false
 * sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
 * targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs"
 
@@ -171,7 +172,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b infection (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #638
-* group[=].element[=].display = "Infanrix (DTPa-IPV)"
+* group[=].element[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[+].code = #398102009
 * group[=].element[=].target[=].display = "Acute poliomyelitis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -185,7 +186,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #619
-* group[=].element[=].display = "Infanrix (DTPa-IPV+Hib)"
+* group[=].element[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[+].code = #709410003
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b infection (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -202,7 +203,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #640
-* group[=].element[=].display = "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+* group[=].element[=].display = "Infanrix hexa"
 * group[=].element[=].target[+].code = #709410003
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b infection (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -522,7 +523,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Human papillomavirus infection (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #60129
-* group[=].element[=].display = "Prevenar-13"
+* group[=].element[=].display = "Prevenar 13"
 * group[=].element[=].target[+].code = #16814004
 * group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -640,7 +641,7 @@ Usage: #definition
 
 // added 2022-06-08
 * group[=].element[+].code = #68473
-* group[=].element[=].display = "Nuvaxovid 5 ml, Injektionsdispersion"
+* group[=].element[=].display = "Nuvaxovid 5 ml"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -824,6 +825,40 @@ Usage: #definition
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
+
+
+//69127	01	Comirnaty Original/Omicron BA. 4-5 0.225 mg, Injektionsdispersion	Pfizer AG	B	06.04.2023	06.04.2023	05.04.2028	J07BX03
+// added 2023-05-19
+* group[=].element[+].code = #69127
+* group[=].element[=].display = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69189	01	Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection	Moderna Switzerland GmbH	B	03.03.2023	03.03.2023	02.03.2028	J07BX03
+// added 2023-05-19
+* group[=].element[+].code = #69189
+* group[=].element[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69211	01	Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze	Moderna Switzerland GmbH	B	21.03.2023	21.03.2023	20.03.2028	J07BX03
+// added 2023-05-19
+* group[=].element[+].code = #69211
+* group[=].element[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//68752	01	Vaxneuvance, Injektionssuspension	MSD Merck Sharp & Dohme AG	B	14.02.2023	14.02.2023	13.02.2028	J07AL02
+// added 2023-05-19
+* group[=].element[+].code = #68752
+* group[=].element[=].display = "Vaxneuvance, Injektionssuspension"
+* group[=].element[=].target[+].code = #16814004
+* group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
 
 // //////////////////////////////////////////////////////////////////////////////////////////
 // Old vaccines, missing swiss medic number                                               ///

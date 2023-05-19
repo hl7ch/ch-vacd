@@ -10,6 +10,7 @@ Usage: #definition
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.e-health-suisse.ch/"
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
+* experimental = false
 * targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs"
 * sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
 
@@ -129,7 +130,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Kinder unter 8 Jahren"
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #711-02
-* group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH"
+* group[=].element[=].target[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #600
 * group[=].element[=].target[=].display = "DiTe Anatoxal Erwachsene / Adultes"
@@ -243,7 +244,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Prevenar-7"
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #60129
-* group[=].element[=].target[=].display = "Prevenar-13"
+* group[=].element[=].target[=].display = "Prevenar 13"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #871717007
@@ -315,7 +316,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "COVID-19 Vaccine Janssen"
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #68473
-* group[=].element[=].target[=].display = "Nuvaxovid 5 ml, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Nuvaxovid 5 ml"
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #68710-01
 * group[=].element[=].target[=].display = "Comirnaty® 30 Mikrogramm/Dosis"
@@ -329,6 +330,27 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69009
 * group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron"
 * group[=].element[=].target[=].equivalence = #equivalent
+// added 2023-05-19
+* group[=].element[=].target[+].code = #69127
+* group[=].element[=].target[=].display = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* group[=].element[=].target[=].equivalence = #equivalent
+// added 2023-05-19
+* group[=].element[=].target[+].code = #69189
+* group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* group[=].element[=].target[=].equivalence = #equivalent
+// added 2023-05-19
+* group[=].element[=].target[+].code = #69211
+* group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// added 2023-05-19
+* group[=].element[+].code = #1252708008
+* group[=].element[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F capsular polysaccharide conjugated antigens (medicinal product)"
+* group[=].element[=].target[+].code = #68752
+* group[=].element[=].target[=].display = "Vaxneuvance, Injektionssuspension"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+
 
 * group[+].source = "http://snomed.info/sct"
 * group[=].target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-myvaccines-cs"
@@ -547,4 +569,6 @@ Usage: #definition
 * group[=].element[=].target[+].code = #16
 * group[=].element[=].target[=].display = "Orochol E"
 * group[=].element[=].target[=].equivalence = #equivalent
+
+
 
