@@ -19,6 +19,7 @@ Usage: #definition
 * description = "This valueset contains all entries defining target deseases or illnesses undergone for immunization reasons."
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 * compose.include.system = "http://snomed.info/sct"
+* compose.include.version = "http://snomed.info/sct/2011000195101"
 * compose.include.concept[0].code = #38907003
 * compose.include.concept[=].display = "Varicella (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
