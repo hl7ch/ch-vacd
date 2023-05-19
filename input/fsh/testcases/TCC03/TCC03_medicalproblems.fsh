@@ -17,7 +17,8 @@ Usage: #example
 * extension[=].extension[=].valueCode = #replaces
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
 * identifier.value = "30327ea1-6893-4c65-896e-c32c394f1ec6"
-* code = $ch-vacd-exprisk#213001 "Beschäftigte im Gesundheitswesen"
+* language = #en-US
+* code = $ch-vacd-exprisk#213001 "BESCHAEFTIGTE_IM_GESUNDHEITSWESEN"
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * subject = Reference(TC_patient)
 * onsetDateTime = "2021-10-01"

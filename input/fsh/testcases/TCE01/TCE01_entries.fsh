@@ -30,6 +30,7 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "urn:uuid:4386ca26-6866-4322-a203-b488b84ab499"
+* language = #fr-CH
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#450 	"FSME-Immun CC"
 * patient = Reference(TC_patient)
@@ -58,6 +59,7 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_BOOSTRIX)
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "urn:uuid:ebcf6de2-ed9c-463c-8b08-cb487af8ce4e"
+* language = #fr-CH
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#637 "Boostrix"
 * patient = Reference(TC_patient)
@@ -88,6 +90,7 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "urn:uuid:4386ca26-6866-4322-a203-b488b84ab499"
+* language = #de-CH
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#450 	"FSME-Immun CC"
 * patient = Reference(TC_patient)
@@ -116,6 +119,7 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_BOOSTRIX)
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "urn:uuid:ebcf6de2-ed9c-463c-8b08-cb487af8ce4e"
+* language = #de-CH
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#637 "Boostrix"
 * patient = Reference(TC_patient)
