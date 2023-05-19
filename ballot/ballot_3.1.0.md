@@ -9,7 +9,7 @@ Alle open issues from STU4 Ballot (v3.1.0) are resolved
 ## 3 Resolution Categories
 
 ### Open
-Here the resulting issues from STU4 Ballot (v3.1.0)
+Here the resulting issues from STU4 Ballot (v3.1.0) ([Issues](https://github.com/hl7ch/ch-vacd/labels/ballot%20v3.1.0%20-%20STU%204))
 
 
 ### Fixed
