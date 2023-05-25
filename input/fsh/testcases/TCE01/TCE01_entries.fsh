@@ -39,7 +39,8 @@ Usage: #example
 * lotNumber = "12-34244"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
-* protocolApplied.targetDisease[0] = $sct#16901001	"encéphalite à tiques d'Europe centrale"
+* protocolApplied.targetDisease.coding.version = "http://snomed.info/sct/2011000195101"
+* protocolApplied.targetDisease.coding = $sct#16901001 "encéphalite à tiques d'Europe centrale"
 * protocolApplied.doseNumberPositiveInt = 1
 
 
@@ -68,9 +69,12 @@ Usage: #example
 * lotNumber = "AHAVB946A"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
-* protocolApplied.targetDisease[0] = $sct#76902006	"tétanos"
-* protocolApplied.targetDisease[1] = $sct#27836007	"coqueluche"
-* protocolApplied.targetDisease[2] = $sct#397430003	"diphtérie causée par Corynebacterium diphtheriae"
+* protocolApplied.targetDisease[+].coding.version = "http://snomed.info/sct/2011000195101"
+* protocolApplied.targetDisease[=].coding = $sct#76902006 "tétanos"
+* protocolApplied.targetDisease[+].coding.version = "http://snomed.info/sct/2011000195101"
+* protocolApplied.targetDisease[=].coding = $sct#27836007 "coqueluche"
+* protocolApplied.targetDisease[+].coding.version = "http://snomed.info/sct/2011000195101"
+* protocolApplied.targetDisease[=].coding = $sct#397430003 "diphtérie causée par Corynebacterium diphtheriae"
 * protocolApplied.doseNumberPositiveInt = 1
 
 
@@ -99,7 +103,9 @@ Usage: #example
 * lotNumber = "12-34244"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
-* protocolApplied.targetDisease[0] = $sct#16901001	"Frühsommer-Meningoenzephalitis (FSME)"
+* protocolApplied.targetDisease.coding.version = "http://snomed.info/sct/2011000195101"
+* protocolApplied.targetDisease.coding = $sct#16901001 "Frühsommer-Meningoenzephalitis (FSME)"
+// * protocolApplied.targetDisease[0] = $sct#16901001	
 * protocolApplied.doseNumberPositiveInt = 1
 
 
@@ -128,7 +134,10 @@ Usage: #example
 * lotNumber = "AHAVB946A"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
-* protocolApplied.targetDisease[0] = $sct#76902006	"Starrkrampf"
-* protocolApplied.targetDisease[1] = $sct#27836007	"Keuchhusten"
-* protocolApplied.targetDisease[2] = $sct#397430003	"Diphtherie, verursacht durch Corynebacterium diphtheriae"
+* protocolApplied.targetDisease[+].coding.version = "http://snomed.info/sct/2011000195101"
+* protocolApplied.targetDisease[=].coding = $sct#76902006	"Starrkrampf"
+* protocolApplied.targetDisease[=].coding.version = "http://snomed.info/sct/2011000195101"
+* protocolApplied.targetDisease[=].coding = $sct#27836007	"Keuchhusten"
+* protocolApplied.targetDisease[=].coding.version = "http://snomed.info/sct/2011000195101"
+* protocolApplied.targetDisease[=].coding = $sct#397430003	"Diphtherie, verursacht durch Corynebacterium diphtheriae"
 * protocolApplied.doseNumberPositiveInt = 1

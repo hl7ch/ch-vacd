@@ -3,7 +3,7 @@ InstanceOf: CHVACDMedicalProblems
 Title: "8.3 Condition (Medical Problems)"
 Description: "Example Condition for medical problems"
 Usage: #example
-* code = http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-exposure-risks-cs#213006 "FLEDERMAUSFORSCHER_UND_SCHUETZER"
+* code = $sct#265940000 "Animal health occupation (occupation)"
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * subject.reference = "Patient/3-1-Patient"
 * recordedDate = "2009-04-01T00:00:00+02:00"

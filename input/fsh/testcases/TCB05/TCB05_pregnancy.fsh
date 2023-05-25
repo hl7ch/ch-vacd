@@ -7,7 +7,7 @@ Usage: #example
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
 * identifier.value = "b086cf43-f863-4530-853c-f6a721175931"
 * language = #en-US
-* code = $ch-vacd-medrisk#114028 "SCHWANGERSCHAFT_UND_POST_PARTUM_PERIODE"
+* code = $sct#77386006 "Pregnancy (finding)"
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * subject = Reference(TC_patient2)
 * onsetDateTime = "2021-11-30"

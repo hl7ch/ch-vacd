@@ -19,6 +19,7 @@ Usage: #definition
 * description = "The medical and exposision risks used in Switzerland."
 
 * compose.include[+].system = $sct
+* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 * compose.include[=].concept[+].code = #373068000
 * compose.include[=].concept[=].display = "Undetermined (qualifier value)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -35,3 +36,5 @@ Usage: #definition
 * compose.include[0].valueSet = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-medicalrisk-vs"
 * compose.include[0].valueSet = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-social-vs"
 * compose.include[0].valueSet = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-occupation-vs"
+* compose.include[0].valueSet = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-preillness-vs"
+
