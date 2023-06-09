@@ -27,7 +27,7 @@ Usage: #definition
 
 * group[=].element[+].code = #87171900
 * group[=].element[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
-* group[=].element[=].target[+].code = #16901001
+* group[=].element[=].target[+].code = #712986001
 * group[=].element[=].target[=].display =  "Central European encephalitis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 

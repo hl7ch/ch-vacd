@@ -12,6 +12,8 @@ Alle open issues from STU4 Ballot (v3.1.0) are resolved
 Here the resulting issues from STU4 Ballot (v3.1.0) ([Issues](https://github.com/hl7ch/ch-vacd/labels/ballot%20v3.1.0%20-%20STU%204))
 
 
+
+
 ### Fixed
 * [Issue 52](https://github.com/hl7ch/ch-vacd/issues/52): Revision of the code systems
 * [Issue 148](https://github.com/hl7ch/ch-vacd/issues/148): Swiss Complication Risks Codesystem (Marcel Hanselmann, HL7)
@@ -20,6 +22,7 @@ Here the resulting issues from STU4 Ballot (v3.1.0) ([Issues](https://github.com
 * [Issue 167](https://github.com/hl7ch/ch-vacd/issues/167): Define language in instance to be able to validate designation values
 * [Issue 168](https://github.com/hl7ch/ch-vacd/issues/168): Set the Swiss Extension of SNOMED CT as version to the ValueSets (Michaela Ziegler, ahdis ag) 
 * [Issue 169](https://github.com/hl7ch/ch-vacd/issues/169): Must Support (Michaela Ziegler (ahdis ag)) 
+* [Issue 171](https://github.com/hl7ch/ch-vacd/issues/171): ValueSet: ch-vacd-vaccines-vs add "Vaccine unknown"
 
 ### Postponed
 * [Issue 157](https://github.com/hl7ch/ch-vacd/issues/157): New vaccin - monkeypox

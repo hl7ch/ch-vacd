@@ -93,7 +93,6 @@ Usage: #definition
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Viral hepatitis type B"
 
-// former code 16901001
 * compose.include.concept[+].code = #712986001
 * compose.include.concept[=].display = "Encephalitis caused by tick-borne encephalitis virus (disorder)"
 * compose.include.concept[=].designation[0].language = #de-CH
@@ -106,6 +105,20 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "meningoencefalitis da zeccas (FSME)"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "Tickborne encephalitis"
+
+* compose.include.concept[+].code = #16901001
+* compose.include.concept[=].display = "Central European encephalitis (disorder)"
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Frühsommer-Meningoenzephalitis"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "encéphalite d'Europe centrale"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "meningoencefalite verno-estiva"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "meningoencefalitis da zeccas (FSME)"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Central European tick-borne encephalitis"
+
 
 * compose.include.concept[+].code = #16541001
 * compose.include.concept[=].display = "Yellow fever (disorder)"

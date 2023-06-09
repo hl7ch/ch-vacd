@@ -389,7 +389,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "ProQuad"
 * group[=].element[=].target[=].equivalence = #wider
 
-* group[=].element[+].code = #16901001
+* group[=].element[+].code = #712986001
 * group[=].element[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target[0].code = #628
 * group[=].element[=].target[=].display = "Encepur N Kinder / Enfants"
@@ -1031,7 +1031,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #112
 * group[=].element[=].target[=].display = "Rudivax"
 * group[=].element[=].target[=].equivalence = #wider
-* group[=].element[+].code = #16901001
+* group[=].element[+].code = #712986001
 * group[=].element[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target.code = #128
 * group[=].element[=].target.display = "FSME-Immun Injekt"

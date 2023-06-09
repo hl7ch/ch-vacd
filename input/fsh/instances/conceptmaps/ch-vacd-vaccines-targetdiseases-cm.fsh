@@ -21,12 +21,12 @@ Usage: #definition
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[0].code = #683
 * group[=].element[=].display = "FSME-Immun 0.25 ml Junior"
-* group[=].element[=].target[+].code = #16901001
+* group[=].element[=].target[+].code = #712986001
 * group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #450
 * group[=].element[=].display = "FSME-Immun CC"
-* group[=].element[=].target[+].code = #16901001
+* group[=].element[=].target[+].code = #712986001
 * group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #656
@@ -36,12 +36,12 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #627
 * group[=].element[=].display = "Encepur N"
-* group[=].element[=].target[+].code = #16901001
+* group[=].element[=].target[+].code = #712986001
 * group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #628
 * group[=].element[=].display = "Encepur N Kinder / Enfants"
-* group[=].element[=].target[+].code = #16901001
+* group[=].element[=].target[+].code = #712986001
 * group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #572
@@ -560,12 +560,12 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #627
 * group[=].element[=].display = "Encepur N"
-* group[=].element[=].target[+].code = #16901001
+* group[=].element[=].target[+].code = #712986001
 * group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #628
 * group[=].element[=].display = "Encepur N Kinder / Enfants"
-* group[=].element[=].target[+].code = #16901001
+* group[=].element[=].target[+].code = #712986001
 * group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #62961
@@ -1263,7 +1263,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #128
 * group[=].element[=].display = "FSME-Immun Injekt"
-* group[=].element[=].target[+].code = #16901001
+* group[=].element[=].target[+].code = #712986001
 * group[=].element[=].target[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 * group[=].element[+].code = #133

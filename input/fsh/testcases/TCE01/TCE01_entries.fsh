@@ -104,7 +104,7 @@ Usage: #example
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
 * protocolApplied.targetDisease.coding.version = "http://snomed.info/sct/2011000195101"
-* protocolApplied.targetDisease.coding = $sct#16901001 "Frühsommer-Meningoenzephalitis (FSME)"
+* protocolApplied.targetDisease.coding = $sct#16901001 "Frühsommer-Meningoenzephalitis"
 // * protocolApplied.targetDisease[0] = $sct#16901001	
 * protocolApplied.doseNumberPositiveInt = 1
 
@@ -139,5 +139,5 @@ Usage: #example
 * protocolApplied.targetDisease[=].coding.version = "http://snomed.info/sct/2011000195101"
 * protocolApplied.targetDisease[=].coding = $sct#27836007	"Keuchhusten"
 * protocolApplied.targetDisease[=].coding.version = "http://snomed.info/sct/2011000195101"
-* protocolApplied.targetDisease[=].coding = $sct#397430003	"Diphtherie, verursacht durch Corynebacterium diphtheriae"
+* protocolApplied.targetDisease[=].coding = $sct#397430003	"Diphtherie"
 * protocolApplied.doseNumberPositiveInt = 1
