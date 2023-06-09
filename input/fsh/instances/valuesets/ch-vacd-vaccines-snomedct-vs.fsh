@@ -19,6 +19,21 @@ Usage: #definition
 * description = "The list of vaccine products in Snomed CT list."
 
 * compose.include.system = $sct
+
+* compose.include.concept[+].code = #787859002 
+* compose.include.concept[=].display = "Vaccine product (medicinal product) "
+* compose.include.concept[=].designation[0].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Unbekannter Impfstoff"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "vaccin inconnu"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "vaccino sconosciuto"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "vaccin nunenconuschent"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Vaccine unknown"
+
+
 * compose.include.concept[+].code = #871717007
 * compose.include.concept[=].display = "Vaccine product containing only Yellow fever virus antigen (medicinal product)"
 * compose.include.concept[=].designation[0].language = #de-CH
