@@ -4,6 +4,7 @@
 Alle open issues from STU4 Ballot (v3.1.0) are resolved
 
 ## 2 General Comments
+CI Builds can be found until merge to master is done under [ballot_310_stu4_issues](http://build.fhir.org/ig/hl7ch/ch-vacd/branches/ballot_310_stu4_issues/index.html).
 
 
 ## 3 Resolution Categories
