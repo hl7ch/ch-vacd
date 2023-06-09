@@ -18,7 +18,7 @@ Description: "Clinical Decision Support Event"
 * ^caseSensitive = true
 
 * #bi-dtpa "Received all vaccinations against DTPa in childhood."
-* #bi-dtpa ^designation[0].language = #de-CH
+* #bi-dtpa ^designation[+].language = #de-CH
 * #bi-dtpa ^designation[=].value = "Alle Impfungen gegen DTPa in der Kindheit erhalten."
 * #bi-dtpa ^designation[+].language = #fr-CH
 * #bi-dtpa ^designation[=].value = "Avoir reçu tous les vaccins contre le DTPa dans l'enfance."
@@ -30,7 +30,7 @@ Description: "Clinical Decision Support Event"
 * #bi-dtpa ^designation[=].value = "Received all vaccinations against DTPa in childhood."
 
 * #bi-polio "Received all vaccinations against poliomyelitis in childhood."
-* #bi-polio ^designation[0].language = #de-CH
+* #bi-polio ^designation[+].language = #de-CH
 * #bi-polio ^designation[=].value = "Alle Impfungen gegen Poliomyelitis in der Kindheit erhalten."
 * #bi-polio ^designation[+].language = #fr-CH
 * #bi-polio ^designation[=].value = "Avoir reçu tous les vaccins contre la poliomyélite dans l'enfance."
