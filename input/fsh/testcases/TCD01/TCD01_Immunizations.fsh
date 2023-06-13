@@ -22,7 +22,7 @@ Usage: #example
 * lotNumber = "12-34244"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
-* protocolApplied.targetDisease[0] = $sct#16901001	"Central European encephalitis (disorder)"
+* protocolApplied.targetDisease[0] = $sct#712986001	"Tickborne encephalitis"
 * protocolApplied.doseNumberPositiveInt = 1
 
 

@@ -21,7 +21,7 @@ Usage: #definition
 * compose.include.system = $sct
 
 * compose.include.concept[+].code = #787859002 
-* compose.include.concept[=].display = "Vaccine product (medicinal product) "
+* compose.include.concept[=].display = "Vaccine product (medicinal product)"
 * compose.include.concept[=].designation[0].language = #de-CH
 * compose.include.concept[=].designation[=].value = "Unbekannter Impfstoff"
 * compose.include.concept[=].designation[+].language = #fr-CH

@@ -40,7 +40,7 @@ Usage: #example
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
 * protocolApplied.targetDisease.coding.version = "http://snomed.info/sct/2011000195101"
-* protocolApplied.targetDisease.coding = $sct#16901001 "encéphalite à tiques d'Europe centrale"
+* protocolApplied.targetDisease.coding = $sct#712986001 "encéphalite à tiques"
 * protocolApplied.doseNumberPositiveInt = 1
 
 
@@ -104,8 +104,7 @@ Usage: #example
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
 * protocolApplied.targetDisease.coding.version = "http://snomed.info/sct/2011000195101"
-* protocolApplied.targetDisease.coding = $sct#16901001 "Frühsommer-Meningoenzephalitis"
-// * protocolApplied.targetDisease[0] = $sct#16901001	
+* protocolApplied.targetDisease.coding = $sct#712986001 "Frühsommer-Meningoenzephalitis"
 * protocolApplied.doseNumberPositiveInt = 1
 
 

@@ -12,7 +12,8 @@ Usage: #example
 * identifier.value = "85b0d0dc-200b-4f8c-9583-900802e88783"
 * language = #de-CH
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
-* code = $sct#265940000	"Beschäftigt im Veterinärwesen"
+* code.coding.version = "http://snomed.info/sct/2011000195101"
+* code.coding = $sct#265940000	"Beschäftigt im Veterinärwesen"
 * subject = Reference(TC_patient)
 * onsetDateTime = "2021-10-01"
 * recordedDate = "2021-10-20"
