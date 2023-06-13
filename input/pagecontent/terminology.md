@@ -1,5 +1,4 @@
-Note:   
-The translations of the CodeSystems and ValueSets is not yet finished. The relevant language at the moment is **English**.
+
 
 ### ValueSets
 

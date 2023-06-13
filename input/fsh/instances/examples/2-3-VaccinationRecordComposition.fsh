@@ -153,7 +153,7 @@ Usage: #example
   <div class=\"medicalproblems hiddensection\">
     <div style=\"margin-left: 30px; border-bottom: gray; border-bottom-style: dotted; border-bottom-width: thin;\">
       <h3>8-2-Condition</h3><div style=\"display: table;\"><div style=\"display: table-row; border-spacing: 5px;\"><div style=\"display: table-cell; font-weight: bold; width: 200px;\">Code</div><div style=\"display: table-cell;\"><span>ANDERE_LEBERERKRANKUNG
-          (<a href=\"http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-complication-risks-cs#ch-vacd-complication-risks-cs-114036\">114036</a>)
+          (<a href=\"http://snomed.info/id/235856003\">235856003</a>)
         </span><br/></div></div><div style=\"display: table-row; border-spacing: 5px;\"><div style=\"display: table-cell; font-weight: bold; width: 200px;\">Documentation Date</div><div style=\"display: table-cell;\"><span>01.04.2019</span></div></div><div style=\"display: table-row; border-spacing: 5px;\"><div style=\"display: table-cell; font-weight: bold; width: 200px;\">Documenter</div><div style=\"display: table-cell;\">
       <div class=\"practitionerrole\" style=\"background-color: #f7fdf7;\">
           

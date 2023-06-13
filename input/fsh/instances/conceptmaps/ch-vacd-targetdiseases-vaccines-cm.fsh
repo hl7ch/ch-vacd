@@ -9,6 +9,7 @@ Usage: #definition
 * contact.name = "eHealth Suisse"
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.e-health-suisse.ch/"
+* experimental = false
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 * sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs"
 * targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
@@ -21,10 +22,10 @@ Usage: #definition
 * group[=].element[0].code = #397430003
 * group[=].element[=].display = "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * group[=].element[=].target[0].code = #619
-* group[=].element[=].target[=].display = "Infanrix (DTPa-IPV+Hib)"
+* group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #638
-* group[=].element[=].target[=].display = "Infanrix (DTPa-IPV)"
+* group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
@@ -48,7 +49,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #640
-* group[=].element[=].target[=].display = "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+* group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #646
 * group[=].element[=].target[=].display = "Revaxis"
@@ -89,10 +90,10 @@ Usage: #definition
 * group[=].element[+].code = #76902006
 * group[=].element[=].display = "Tetanus (disorder)"
 * group[=].element[=].target[0].code = #619
-* group[=].element[=].target[=].display = "Infanrix (DTPa-IPV+Hib)"
+* group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #638
-* group[=].element[=].target[=].display = "Infanrix (DTPa-IPV)"
+* group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
@@ -116,7 +117,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Hexavac"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #640
-* group[=].element[=].target[=].display = "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+* group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #707
 * group[=].element[=].target[=].display = "Tetanol pur"
@@ -148,7 +149,6 @@ Usage: #definition
 * group[=].element[=].target[+].code = #66940
 * group[=].element[=].target[=].display = "Vaxelis"
 * group[=].element[=].target[=].equivalence = #wider
-
 // added 2022-11-03
 * group[=].element[=].target[+].code = #68317
 * group[=].element[=].target[=].display = "Adacel 0.5 ml"
@@ -157,18 +157,21 @@ Usage: #definition
 * group[=].element[=].target[+].code = #68110
 * group[=].element[=].target[=].display = "Adacel-Polio 0.5 ml"
 * group[=].element[=].target[=].equivalence = #wider
-
+// added 2022-12-01
+* group[=].element[=].target[+].code = #66940
+* group[=].element[=].target[=].display = "Vaxelis"
+* group[=].element[=].target[=].equivalence = #wider
 
 * group[=].element[+].code = #27836007
 * group[=].element[=].display = "Pertussis (disorder)"
 * group[=].element[=].target[0].code = #619
-* group[=].element[=].target[=].display = "Infanrix (DTPa-IPV+Hib)"
+* group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #640
-* group[=].element[=].target[=].display = "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+* group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #638
-* group[=].element[=].target[=].display = "Infanrix (DTPa-IPV)"
+* group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #612
 * group[=].element[=].target[=].display = "Tetravac"
@@ -201,13 +204,13 @@ Usage: #definition
 * group[=].element[+].code = #398102009
 * group[=].element[=].display = "Acute poliomyelitis (disorder)"
 * group[=].element[=].target[0].code = #619
-* group[=].element[=].target[=].display = "Infanrix (DTPa-IPV+Hib)"
+* group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #640
-* group[=].element[=].target[=].display = "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+* group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #638
-* group[=].element[=].target[=].display = "Infanrix (DTPa-IPV)"
+* group[=].element[=].target[=].display = "Infanrix DTPa-IPV"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #669
 * group[=].element[=].target[=].display = "Poliorix"
@@ -243,10 +246,10 @@ Usage: #definition
 * group[=].element[+].code = #709410003
 * group[=].element[=].display = "Haemophilus influenzae type b infection (disorder)"
 * group[=].element[=].target[0].code = #619
-* group[=].element[=].target[=].display = "Infanrix (DTPa-IPV+Hib)"
+* group[=].element[=].target[=].display = "Infanrix DTPa-IPV+Hib"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #640
-* group[=].element[=].target[=].display = "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+* group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #603
 * group[=].element[=].target[=].display = "Hiberix"
@@ -280,7 +283,7 @@ Usage: #definition
 * group[=].element[+].code = #66071002
 * group[=].element[=].display = "Viral hepatitis type B (disorder)"
 * group[=].element[=].target[0].code = #640
-* group[=].element[=].target[=].display = "Infanrix hexa (DTPa-HBV-IPV+Hib)"
+* group[=].element[=].target[=].display = "Infanrix hexa"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #528
 * group[=].element[=].target[=].display = "Gen H-B-Vax 10"
@@ -386,7 +389,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "ProQuad"
 * group[=].element[=].target[=].equivalence = #wider
 
-* group[=].element[+].code = #16901001
+* group[=].element[+].code = #712986001
 * group[=].element[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target[0].code = #628
 * group[=].element[=].target[=].display = "Encepur N Kinder / Enfants"
@@ -544,7 +547,7 @@ Usage: #definition
 * group[=].element[+].code = #16814004
 * group[=].element[=].display = "Pneumococcal infectious disease (disorder)"
 * group[=].element[=].target[0].code = #60129
-* group[=].element[=].target[=].display = "Prevenar-13"
+* group[=].element[=].target[=].display = "Prevenar 13"
 * group[=].element[=].target[=].equivalence = #wider
 * group[=].element[=].target[+].code = #643
 * group[=].element[=].target[=].display = "Prevenar-7"
@@ -610,7 +613,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #wider
 // added 2022-06-27
 * group[=].element[=].target[+].code = #68473
-* group[=].element[=].target[=].display = "Nuvaxovid 5 ml, Injektionsdispersion"
+* group[=].element[=].target[=].display = "Nuvaxovid 5 ml"
 * group[=].element[=].target[=].equivalence = #wider
 // added 2022-11-03
 * group[=].element[=].target[+].code = #68710-01
@@ -651,6 +654,8 @@ Usage: #definition
 * group[=].element[=].target[+].code = #66037	
 * group[=].element[=].target[=].display = "Menjugate liquid"
 * group[=].element[=].target[=].equivalence = #wider
+
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////
@@ -780,10 +785,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #155
 * group[=].element[=].target[=].display = "DiTePer Anatoxal"
 * group[=].element[=].target[=].equivalence = #wider
-// added 2022-12-01
-* group[=].element[=].target[+].code = #66940
-* group[=].element[=].target[=].display = "Vaxelis"
-* group[=].element[=].target[=].equivalence = #wider
+
 
 * group[=].element[+].code = #27836007
 * group[=].element[=].display = "Pertussis (disorder)"
@@ -1029,7 +1031,7 @@ Usage: #definition
 * group[=].element[=].target[+].code = #112
 * group[=].element[=].target[=].display = "Rudivax"
 * group[=].element[=].target[=].equivalence = #wider
-* group[=].element[+].code = #16901001
+* group[=].element[+].code = #712986001
 * group[=].element[=].display = "Central European encephalitis (disorder)"
 * group[=].element[=].target.code = #128
 * group[=].element[=].target.display = "FSME-Immun Injekt"

@@ -20,7 +20,6 @@ Alias: $condition-clinical-status =             http://terminology.hl7.org/CodeS
 
 Alias: $absent-unknown-uv-ips =                 http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
 
-Alias: $ch-vacd-medrisk =                       http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-complication-risks-cs
 Alias: $ch-vacd-exprisk =                       http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-exposure-risks-cs
 
 Alias: $ch-vacd-swissmedic-cs =                                         http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs

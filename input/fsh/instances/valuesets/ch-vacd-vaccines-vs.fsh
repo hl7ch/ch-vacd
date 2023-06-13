@@ -726,7 +726,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Diphtheria and tetanus adsorbate vaccine for children under 8 years of age"
 
 * compose.include[=].concept[+].code = #711-02
-* compose.include[=].concept[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren, Injektionssuspension, Emergent BioSolutions Berna GmbH"
+* compose.include[=].concept[=].display = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Diphtherie- und Tetanus-Adsorbatimpfstoff für Erwachsene und Kinder ab 7 Jahren"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
@@ -923,17 +923,17 @@ Usage: #definition
 
 //60129	01	Prevenar 13, Injektionssuspension in einer Fertigspritze	Pfizer AG	B	12.08.2010	12.08.2010	unbegrenzt	J07AL02
 * compose.include[=].concept[+].code = #60129
-* compose.include[=].concept[=].display = "Prevenar-13"
+* compose.include[=].concept[=].display = "Prevenar 13"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Prevenar-13"
+* compose.include[=].concept[=].designation[=].value = "Prevenar 13"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Prevenar-13"
+* compose.include[=].concept[=].designation[=].value = "Prevenar 13"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Prevenar-13"
+* compose.include[=].concept[=].designation[=].value = "Prevenar 13"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Prevenar-13"
+* compose.include[=].concept[=].designation[=].value = "Prevenar 13"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Prevenar-13"
+* compose.include[=].concept[=].designation[=].value = "Prevenar 13"
 
 * compose.include[=].concept[+].code = #59147
 * compose.include[=].concept[=].display = "Ixiaro"
@@ -1237,12 +1237,12 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Foclivia (pre-filled syringe)"
 
-// 68473	01	Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	12.04.2024	J07BX03
+// 68473	01	Nuvaxovid 5 ml	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	12.04.2024	J07BX03
 // added 2022-06-08
 * compose.include[=].concept[+].code = #68473 
-* compose.include[=].concept[=].display = "Nuvaxovid 5 ml, Injektionsdispersion"
+* compose.include[=].concept[=].display = "Nuvaxovid 5 ml"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, Injektionsdispersion"
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml, dispersion injectable"
 * compose.include[=].concept[=].designation[+].language = #it-CH
@@ -1299,7 +1299,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 microgram/dose"
 
-//68473	01	Nuvaxovid 5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	4/12/2022	4/12/2022	4/12/2024	J07BX03
+//68473	01	Nuvaxovid 5 ml	Future Health Pharma GmbH	B	4/12/2022	4/12/2022	4/12/2024	J07BX03
 // added 2022-11-03
 * compose.include[=].concept[+].code = #68473
 * compose.include[=].concept[=].display = "Nuvaxovid 5 ml"
@@ -1436,6 +1436,66 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg pro dosis"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Comirnaty® Original/Omicron BA.1 15/15 µg per dose"
+
+//69127	01	Comirnaty Original/Omicron BA. 4-5 0.225 mg, Injektionsdispersion	Pfizer AG	B	06.04.2023	06.04.2023	05.04.2028	J07BX03
+// added 2023-05-19
+* compose.include[=].concept[+].code = #69127
+* compose.include[=].concept[=].display = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* compose.include[=].concept[=].designation[+].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+
+//69189	01	Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection	Moderna Switzerland GmbH	B	03.03.2023	03.03.2023	02.03.2028	J07BX03
+// added 2023-05-19
+* compose.include[=].concept[+].code = #69189
+* compose.include[=].concept[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+
+//69211	01	Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze	Moderna Switzerland GmbH	B	21.03.2023	21.03.2023	20.03.2028	J07BX03
+// added 2023-05-19
+* compose.include[=].concept[+].code = #69211
+* compose.include[=].concept[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+
+//68752	01	Vaxneuvance, Injektionssuspension	MSD Merck Sharp & Dohme AG	B	14.02.2023	14.02.2023	13.02.2028	J07AL02
+// added 2023-05-19
+* compose.include[=].concept[+].code = #68752
+* compose.include[=].concept[=].display = "Vaxneuvance, Injektionssuspension"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Vaxneuvance, Injektionssuspension"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Vaxneuvance, Injektionssuspension"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Vaxneuvance, Injektionssuspension"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Vaxneuvance, Injektionssuspension"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Vaxneuvance, Injektionssuspension"
 
 
 

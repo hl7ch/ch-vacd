@@ -78,7 +78,7 @@ Usage: #example
 * lotNumber = "12-34244"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP2_ORG2_ROLE_performer)
-* protocolApplied.targetDisease[0] = $sct#16901001	"Central European encephalitis (disorder)"
+* protocolApplied.targetDisease[0] = $sct#712986001	"Tickborne encephalitis"
 * protocolApplied.doseNumberPositiveInt = 1
 * note.authorReference = Reference(TC_HCP2_C2)
 * note.time = "2021-08-01"

@@ -10,6 +10,7 @@ Usage: #definition
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.e-health-suisse.ch/"
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
+* experimental = false
 * sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs"
 * targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs"
 
@@ -26,7 +27,7 @@ Usage: #definition
 
 * group[=].element[+].code = #87171900
 * group[=].element[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
-* group[=].element[=].target[+].code = #16901001
+* group[=].element[=].target[+].code = #712986001
 * group[=].element[=].target[=].display =  "Central European encephalitis (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 

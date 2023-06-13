@@ -13,8 +13,8 @@ version: 3.1.0
 date: 2022-12-21
 fhirVersion: 4.0.1
 copyrightYear: 2021+
-#releaseLabel: CI build
-releaseLabel: STU3
+releaseLabel: ci-build
+#releaseLabel: STU4
 publisher:
   name: HL7 Switzerland
   url: https://www.hl7.ch/
@@ -38,7 +38,7 @@ jurisdiction: urn:iso:std:iso:3166#CHE
 
 dependencies:
   ch.fhir.ig.ch-core:
-    version: 3.0.0
+    version: current
     uri: http://fhir.ch/ig/ch-core/ImplementationGuide/ch.fhir.ig.ch-core
     id: chcore
   hl7.fhir.uv.ips:
