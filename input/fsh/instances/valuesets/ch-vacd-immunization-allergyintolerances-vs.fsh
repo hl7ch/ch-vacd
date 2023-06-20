@@ -9,7 +9,7 @@ Usage: #definition
 * identifier.value = "2.16.756.5.30.1.1.11.76"
 * version = "2018-04-19T00:00:00"
 * name = "AllergiesAndIntolerancesForImmunization"
-* title = "Allergies and Intolerance values for immunization"
+* title = "Allergies and Intolerance values for Immunization"
 * status = #draft
 * experimental = false
 * publisher = "eHealth Suisse"

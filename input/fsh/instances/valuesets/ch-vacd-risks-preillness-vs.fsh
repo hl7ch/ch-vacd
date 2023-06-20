@@ -8,8 +8,8 @@ Usage: #definition
 * identifier.use = #official
 * identifier.system = "http://e-health-suisse.ch/ns/vs"
 * identifier.value = "ch-vacd-risks-preillness-vs"
-* name = "SwissMedicalRisksForImmunizations"
-* title = "Swiss Medical Risks For Immunizations"
+* name = "SwissPreillnessRisksForImmunizations"
+* title = "Swiss Preillness Risks For Immunizations"
 * status = #active
 * experimental = false
 * publisher = "eHealth Suisse"
