@@ -1,7 +1,6 @@
 
 
 ### ValueSets
-#### Risks
 * [Swiss Risks For Immunizations](ValueSet-ch-vacd-risks-vs.html)
 * [Swiss Medical Risks For Immunizations](ValueSet-ch-vacd-risks-medical-vs.html)
 * [Swiss Preillness Risks For Immunizations](ValueSet-ch-vacd-risks-preillness-vs.html)
