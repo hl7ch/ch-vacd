@@ -18,10 +18,25 @@ Usage: #definition
 * contact.telecom.value = "www.e-health-suisse.ch"
 * description = "The list of vaccines available (Swissmedic authorized) or earlier available in Switzerland."
 
+* compose.include[0].system = $sct
+* compose.include[=].concept[+].code = #787859002 
+* compose.include[=].concept[=].display = "Vaccine product (medicinal product)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Unbekannter Impfstoff"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "vaccin inconnu"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "vaccino sconosciuto"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "vaccin nunenconuschent"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Vaccine unknown"
+
+
 // //////////////////////////////////////////////////////////////////////////////////////////
 // vaccines with swiss medic number                                                       ///
 // //////////////////////////////////////////////////////////////////////////////////////////
-* compose.include[0].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
+* compose.include[+].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
 * compose.include[=].concept[+].code = #683
 * compose.include[=].concept[=].display = "FSME-Immun 0.25 ml Junior"
 * compose.include[=].concept[=].designation[0].language = #de-CH
