@@ -19,6 +19,7 @@ Usage: #definition
 * description = "The list of vaccines available (Swissmedic authorized) or earlier available in Switzerland."
 
 * compose.include[0].system = $sct
+* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 * compose.include[=].concept[+].code = #787859002 
 * compose.include[=].concept[=].display = "Vaccine product (medicinal product)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
