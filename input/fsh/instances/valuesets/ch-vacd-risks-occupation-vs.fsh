@@ -103,7 +103,7 @@ Usage: #definition
 
 
 * compose.include[+].system = $ch-vacd-exprisk
-* compose.include[=].concept[+].code = #213022
+* compose.include[=].concept[+].code = #100002
 * compose.include[=].concept[=].display = "Social workers, prison staff, police with frequent contact with drug users"
 * compose.include[=].concept[=].designation[+].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Sozialarbeiter, Gefängnispersonal, Polizei mit häufigem Kontakt zu Drogenkonsumenten"

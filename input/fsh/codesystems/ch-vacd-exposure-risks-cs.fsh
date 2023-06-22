@@ -17,14 +17,14 @@ Description: "Exposure risks codes available in Switzerland."
 * ^content = #complete
 * ^caseSensitive = true
 
-* #213022 "Social workers, prison staff, police with frequent contact with drug users"
-* #213022 ^designation[0].language = #de-CH
-* #213022 ^designation[=].value = "Sozialarbeiter, Gefängnispersonal, Polizei mit häufigem Kontakt zu Drogenkonsumenten"
-* #213022 ^designation[+].language = #fr-CH
-* #213022 ^designation[=].value = "Travailleurs sociaux, personnel des prisons et de la police en contact fréquent avec des consommateurs de drogues"
-* #213022 ^designation[+].language = #it-CH
-* #213022 ^designation[=].value = "Social workers, prison staff, police with frequent contact with drug users"
-* #213022 ^designation[+].language = #rm-CH
-* #213022 ^designation[=].value = "Social workers, prison staff, police with frequent contact with drug users"
-* #213022 ^designation[+].language = #en-US
-* #213022 ^designation[=].value = "Social workers, prison staff, police with frequent contact with drug users"
+* #100002 "Social workers, prison staff, police with frequent contact with drug users"
+* #100002 ^designation[0].language = #de-CH
+* #100002 ^designation[=].value = "Sozialarbeiter, Gefängnispersonal, Polizei mit häufigem Kontakt zu Drogenkonsumenten"
+* #100002 ^designation[+].language = #fr-CH
+* #100002 ^designation[=].value = "Travailleurs sociaux, personnel des prisons et de la police en contact fréquent avec des consommateurs de drogues"
+* #100002 ^designation[+].language = #it-CH
+* #100002 ^designation[=].value = "Social workers, prison staff, police with frequent contact with drug users"
+* #100002 ^designation[+].language = #rm-CH
+* #100002 ^designation[=].value = "Social workers, prison staff, police with frequent contact with drug users"
+* #100002 ^designation[+].language = #en-US
+* #100002 ^designation[=].value = "Social workers, prison staff, police with frequent contact with drug users"
