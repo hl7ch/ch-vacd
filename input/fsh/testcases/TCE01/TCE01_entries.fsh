@@ -94,6 +94,7 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "urn:uuid:4386ca26-6866-4322-a203-b488b84ab499"
+//* language = #en-US
 * language = #de-CH
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#450 	"FSME-Immun CC"
@@ -104,6 +105,7 @@ Usage: #example
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
 * protocolApplied.targetDisease.coding.version = "http://snomed.info/sct/2011000195101"
+//* protocolApplied.targetDisease.coding = $sct#712986001 "Tickborne encephalitis"
 * protocolApplied.targetDisease.coding = $sct#712986001 "Frühsommer-Meningoenzephalitis"
 * protocolApplied.doseNumberPositiveInt = 1
 

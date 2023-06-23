@@ -8,12 +8,14 @@ Title: "Exposition Risk Worker in Healthcare (Condition)"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCD03-EXPRISK1"
+//* language = #en-US
+* language = #de-CH
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
 * identifier.value = "85b0d0dc-200b-4f8c-9583-900802e88783"
-* language = #de-CH
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * code.coding.version = "http://snomed.info/sct/2011000195101"
-* code.coding = $sct#265940000	"Beschäftigt im Veterinärwesen"
+//* code.coding = $sct#265940000	"Animal health occupation"
+* code.coding = $sct#265940000 "Beschäftigt im Veterinärwesen"
 * subject = Reference(TC_patient)
 * onsetDateTime = "2021-10-01"
 * recordedDate = "2021-10-20"
