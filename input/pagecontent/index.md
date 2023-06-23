@@ -35,8 +35,8 @@ The following documents and messages have been defined:
 **Download**: You can download this implementation guide in [NPM format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
 ### MustSupport
-Labeling an element MustSupport means that implementations that produce or consume resources SHALL provide «support» for the element in some meaningful way. The purpose of Must Support is for
-use in situations such as national program created profiles where they want to leave an element as «optional», but want to state that implementers must support that element (See [EPD Anhang 4 Austauschformate](https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/oce/2022/38/de/pdf-a/fedlex-data-admin-ch-eli-oce-2022-38-de-pdf-a.pdf#page=5)).
+The flag [mustSupport](https://www.hl7.org/fhir/profiling.html#mustsupport) demands that the content creator must support these elements if they are known. If the sending application has data for the element, it is required to populate the element with a non-empty value. If the value is not known, the element may be omitted. A receiving application may ignore the information conveyed by the element. A receiving application shall not raise an error solely due to the presence or absence of the element.
+For more informations about the exchange format see [EPD Anhang 4 Austauschformate](https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/oce/2022/38/de/pdf-a/fedlex-data-admin-ch-eli-oce-2022-38-de-pdf-a.pdf#page=5).
 
 
 ### Narrative Text Generation
