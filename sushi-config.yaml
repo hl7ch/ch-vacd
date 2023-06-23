@@ -36,6 +36,12 @@ jurisdiction: urn:iso:std:iso:3166#CHE
 #   Artifacts: artifacts.html
 #   Test Cases: TestCases.html
 
+parameters:
+  excludettl: true
+  display-warnings: true
+  allow-extensible-warnings: true
+
+
 dependencies:
   ch.fhir.ig.ch-core:
     version: current
