@@ -48,9 +48,7 @@ Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "B-D1-HCP1-C1-Composition"
 * language = #en-US
-* extension.id = "versionNumber"
-* extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber"
-* extension.valueUnsignedInt = 1
+
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:0b2c85af-aea2-4052-8cc2-09ce6e11bf24"
 * status = #final

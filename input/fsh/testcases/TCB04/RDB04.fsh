@@ -50,9 +50,7 @@ Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDB04-Composition"
 * language = #en-US
-* extension.id = "versionNumber"
-* extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber"
-* extension.valueUnsignedInt = 1
+
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:f9a26a92-662e-4601-b1ae-183c8f19d3e2"
 * status = #final
