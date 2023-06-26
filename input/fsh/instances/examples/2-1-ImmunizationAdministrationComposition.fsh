@@ -4,9 +4,7 @@ Title: "2.1 Composition Immunization Administration"
 Description: "Example for Composition Immunization Administration"
 Usage: #example
 * language = #en-US
-* extension.id = "versionNumber"
-* extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber"
-* extension.valueUnsignedInt = 1
+
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">
   <div style=\"display: table;\">
