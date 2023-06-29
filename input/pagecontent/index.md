@@ -1,7 +1,9 @@
-<!--<div markdown="1" class="stu-note">
-This implementation guide is under STU ballot by [HL7 Switzerland](http://hl7.ch/) until September 24th, 2021 midnight. 
+<div markdown="1" class="stu-note">
+This implementation guide is under STU ballot by [HL7 Switzerland](https://www.hl7.ch/) until September 30th, 2023 midnight.
 Please add your feedback via the ‘Propose a change’-link in the footer on the page where you have comments.
-</div>-->
+
+[Significant Changes, Open and Closed Issues](changelog.html)
+</div>
 
 ### Introduction
 The CH-VACD implementation guide describes the FHIR representation of the defined **documents for the exchange of vaccination and immunization information**. 
@@ -25,12 +27,6 @@ The following documents and messages have been defined:
 - [Vaccination Record document](vaccination-record-document.html)
 - [Immunization Recommendation Request message](immunization-recommendation-request-message.html)
 - [Immunization Recommendation Response message](immunization-recommendation-response-message.html)
-
-<div markdown="1" class="stu-note">
-
-[Significant changes, open and closed issues](changelog.html)
-
-</div>
 
 **Download**: You can download this implementation guide in [NPM format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
