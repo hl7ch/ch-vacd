@@ -21,6 +21,18 @@ Usage: #definition
 * compose.include[+].system = $sct
 * compose.include[=].version = "http://snomed.info/sct/2011000195101"
 
+* compose.include[=].concept[+].code = #373068000
+* compose.include[=].concept[=].display = "Undetermined (qualifier value)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Keine Angabe"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Pas de données"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Nessun dato"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Undetermined (qualifier value)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Undetermined (qualifier value)"
 
 * compose.include[=].concept[+].code = #61246008
 * compose.include[=].concept[=].display = "Laboratory medicine specialist (occupation)"
