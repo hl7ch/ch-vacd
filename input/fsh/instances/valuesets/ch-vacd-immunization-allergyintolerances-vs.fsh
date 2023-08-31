@@ -425,7 +425,7 @@ Usage: #definition
 
 
 
-* compose.include[+].system = "http://fhir.ch/ig/ch-vacd/cs/ch-vacd-allergyintolerance-cs"
+* compose.include[+].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-allergyintolerance-cs"
 // missing varizellen
 * compose.include[=].concept[+].code = #allergyvaccinevarizella
 * compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing varicella antigen"
