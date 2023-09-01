@@ -423,6 +423,31 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Smallpox vaccine adverse reactionerse reaction"
 
+* compose.include[=].concept[+].code = #294657002
+* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Vaccinia virus antigen (finding)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pockenimpfstoff"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie au vaccin contre la variole"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Allergia al vaccino contro il vaiolo"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pockenimpfstoff"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Allergy to smallpox vaccine"
+
+* compose.include[=].concept[+].code = #294641002
+* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Bacillus anthracis antigen (finding)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie au vaccin contre le charbon"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Allergia al vaccino contro l'antrace"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Allergy to anthrax vaccine"
 
 
 * compose.include[+].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-allergyintolerance-cs"
@@ -481,5 +506,4 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines FSME-Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing tick-borne encephalitis virus antigen"
-
 
