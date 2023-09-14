@@ -651,7 +651,7 @@ Usage: #definition
 // added 2022-12-01
 * group[=].element[+].code = #860805006
 * group[=].element[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
-* group[=].element[=].target[+].code = #66037	
+* group[=].element[=].target[0].code = #66037	
 * group[=].element[=].target[=].display = "Menjugate liquid"
 * group[=].element[=].target[=].equivalence = #wider
 

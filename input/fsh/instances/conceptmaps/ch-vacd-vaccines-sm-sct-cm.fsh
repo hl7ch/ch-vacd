@@ -18,13 +18,13 @@ Usage: #definition
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[+].code = #683
 * group[=].element[=].display = "FSME-Immun 0.25 ml Junior"
-* group[=].element[=].target[+].code = #87171900
+* group[=].element[=].target[+].code = #871719005
 * group[=].element[=].target[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #450
 * group[=].element[=].display = "FSME-Immun CC"
-* group[=].element[=].target[+].code = #87171900
+* group[=].element[=].target[+].code = #871719005
 * group[=].element[=].target[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
@@ -36,13 +36,13 @@ Usage: #definition
 
 * group[=].element[+].code = #627
 * group[=].element[=].display = "Encepur N"
-* group[=].element[=].target[+].code = #87171900
+* group[=].element[=].target[+].code = #871719005
 * group[=].element[=].target[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #628
 * group[=].element[=].display = "Encepur N Kinder / Enfants"
-* group[=].element[=].target[+].code = #87171900
+* group[=].element[=].target[+].code = #871719005
 * group[=].element[=].target[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
@@ -740,7 +740,7 @@ Usage: #definition
 
 * group[=].element[+].code = #128
 * group[=].element[=].display = "FSME-Immun Injekt"
-* group[=].element[=].target[+].code = #87171900
+* group[=].element[=].target[+].code = #871719005
 * group[=].element[=].target[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 

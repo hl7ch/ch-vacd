@@ -25,7 +25,7 @@ Usage: #definition
 * group[=].element[=].target[=].display =  "Yellow fever (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
-* group[=].element[+].code = #87171900
+* group[=].element[+].code = #871719005
 * group[=].element[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[+].code = #712986001
 * group[=].element[=].target[=].display =  "Central European encephalitis (disorder)"

@@ -11,12 +11,12 @@ Usage: #definition
 * contact.telecom.value = "https://www.e-health-suisse.ch/"
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 * experimental = false
-* targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs"
-* sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
+* targetUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs"
+* sourceUri = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-snomedct-vs"
 
 * group[+].source = "http://snomed.info/sct"
 * group[=].target = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs"
-* group[=].element[+].code = #87171900
+* group[=].element[0].code = #871719005
 * group[=].element[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[+].code = #683
 * group[=].element[=].target[=].display = "FSME-Immun 0.25 ml Junior"
@@ -558,7 +558,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Havrix junior"
 * group[=].element[=].target[=].equivalence = #equivalent
 
-* group[=].element[+].code = #87171900
+* group[=].element[+].code = #871719005
 * group[=].element[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[+].code = #128
 * group[=].element[=].target[=].display = "FSME-Immun Injekt"

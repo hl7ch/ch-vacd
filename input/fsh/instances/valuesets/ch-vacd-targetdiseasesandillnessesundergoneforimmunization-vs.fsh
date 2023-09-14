@@ -387,3 +387,17 @@ Usage: #definition
 * compose.include.concept[=].designation[=].value = "EVD – ebola virus disease"
 * compose.include.concept[=].designation[+].language = #en-US
 * compose.include.concept[=].designation[=].value = "EVD - Ebola virus disease"
+
+// added missing 2023-09-14
+* compose.include.concept[+].code = #860805006
+* compose.include.concept[=].display = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* compose.include.concept[=].designation[+].language = #de-CH
+* compose.include.concept[=].designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* compose.include.concept[=].designation[+].language = #fr-CH
+* compose.include.concept[=].designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* compose.include.concept[=].designation[+].language = #it-CH
+* compose.include.concept[=].designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* compose.include.concept[=].designation[+].language = #rm-CH
+* compose.include.concept[=].designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
+* compose.include.concept[=].designation[+].language = #en-US
+* compose.include.concept[=].designation[=].value = "Encephalomyelitis caused by Neisseria meningitidis (disorder)"
