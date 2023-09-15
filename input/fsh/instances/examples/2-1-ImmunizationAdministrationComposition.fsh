@@ -6,7 +6,7 @@ Usage: #example
 * language = #en-US
 
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-US\">
   <div style=\"display: table;\">
     <div style=\"display: table-row; border-spacing: 5px;\">
       <div style=\"display: table-cell; font-weight: bold; width: 200px;\">Patient</div>
@@ -86,10 +86,10 @@ Usage: #example
 * section[=].title = "Immunization Administration"
 * section[=].code = $loinc#11369-6 "Hx of Immunization"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing all immunization entries.</div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"  lang=\"en-US\">This is the section containing all immunization entries.</div>"
 * section[=].entry.reference = "Immunization/7-1-Immunization"
 * section[+].id = "Annotation"
 * section[=].title = "Comments"
 * section[=].code = $loinc#48767-8 "Annotation comment Imp"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\">This is the section containing all immunization entries.</div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" >This is the section containing all immunization entries.</div>"

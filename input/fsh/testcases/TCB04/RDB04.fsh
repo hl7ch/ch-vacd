@@ -64,13 +64,13 @@ Usage: #example
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><h3>Vaccination Record</h3><p><b>Id: </b>RDB04-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:f9a26a92-662e-4601-b1ae-183c8f19d3e2</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>October 28, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Immunization Administration</td></tr><tr><td>Laboratory-Serology</td></tr></table></div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"  lang=\"en-US\"><h3>Vaccination Record</h3><p><b>Id: </b>RDB04-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:f9a26a92-662e-4601-b1ae-183c8f19d3e2</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>October 28, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Immunization Administration</td></tr><tr><td>Laboratory-Serology</td></tr></table></div>"
 
 * section[0].id = "administration"
 * section[=].title = "Immunization Administration"
 * section[=].code = $loinc#11369-6 "Hx of Immunization"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Code: </b><span>Hx of Immunization (http://loinc.org#11369-6)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Immunization-TCB01-IMMUN1.html\">Immunization/TCB01-IMMUN1</a></td></tr><tr><td><a href=\"Immunization-TCB01-IMMUN2.html\">Immunization/TCB01-IMMUN2</a></td></tr></table></div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"  lang=\"en-US\"><p><b>Code: </b><span>Hx of Immunization (http://loinc.org#11369-6)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Immunization-TCB01-IMMUN1.html\">Immunization/TCB01-IMMUN1</a></td></tr><tr><td><a href=\"Immunization-TCB01-IMMUN2.html\">Immunization/TCB01-IMMUN2</a></td></tr></table></div>"
 * section[=].entry[+] = Reference(TCB01_IMMUN1)
 * section[=].entry[+] = Reference(TCB01_IMMUN2)
 
@@ -78,6 +78,6 @@ Usage: #example
 * section[=].title = "Laboratory-Serology"
 * section[=].code = $loinc#18727-8 "Serology studies (set)"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Code: </b><span>Serology studies (set) (http://loinc.org#18727-8)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Observation-TCB04-LABRES1.html\">Observation/TCB04-LABRES1</a></td></tr></table></div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"  lang=\"en-US\"><p><b>Code: </b><span>Serology studies (set) (http://loinc.org#18727-8)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Observation-TCB04-LABRES1.html\">Observation/TCB04-LABRES1</a></td></tr></table></div>"
 * section[=].entry = Reference(TCB04_LABRES1)
 
