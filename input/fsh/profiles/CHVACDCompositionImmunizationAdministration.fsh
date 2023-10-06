@@ -25,9 +25,9 @@ Description: "Definition of the composition for the  immunization administration
 * author.extension only EPRTime
 * author.extension ^short = "Timestamp of the authorship/data input"
 * title ^short = "'Verabreichte Impfung' in german or 'Vaccin administré' in french or 'Vaccinazione somministrata' in italian or 'Immunization Administration' in english\n                        or titles in other languages are also allowed"
-* confidentiality.extension ^slicing.discriminator.type = #value
-* confidentiality.extension ^slicing.discriminator.path = "url"
-* confidentiality.extension ^slicing.rules = #open
+// * confidentiality.extension ^slicing.discriminator.type = #value
+// * confidentiality.extension ^slicing.discriminator.path = "url"
+// * confidentiality.extension ^slicing.rules = #open
 * confidentiality.extension[confidentialityCode] ^short = "Swiss realm of confidentiality code according to the Swiss EPR regulation"
 * custodian ^short = "The organization in whose name the document has been created"
 * relatesTo ^short = "Relationships to other compositions in order to replace other documents or fix/correct elements of an other document."
