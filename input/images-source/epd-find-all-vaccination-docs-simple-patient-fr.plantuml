@@ -5,7 +5,7 @@ skinparam responseMessageBelowArrow true
 scale max 800 width
 
 actor Patient #red
-participant "GFPP/PIS" #00CC00
+participant "Portal" #00CC00
 participant "Propre communauté\nA" #00CC00
 
 participant "agrégateur de vaccins"
@@ -14,18 +14,18 @@ participant "Autre communauté\nN" #00aaff
 
 
 autonumber "<b>[00]"
-Patient -> "GFPP/PIS": Rechercher les documents de vaccination
-"GFPP/PIS" -> "Propre communauté\nA": Rechercher les documents de vaccination
-"Propre communauté\nA" -> "GFPP/PIS": Tous les documents de vaccination trouvés (Com A)
+Patient -> "Portal": Rechercher les documents de vaccination
+"Portal" -> "Propre communauté\nA": Rechercher les documents de vaccination
+"Propre communauté\nA" -> "Portal": Tous les documents de vaccination trouvés (Com A)
 loop "Toutes les autres communautés"
-"GFPP/PIS" -> "Autre communauté\nB": Rechercher les documents de vaccination
-"Autre communauté\nB" -> "GFPP/PIS": Tous les documents de vaccination trouvés (Com B)
+"Portal" -> "Autre communauté\nB": Rechercher les documents de vaccination
+"Autre communauté\nB" -> "Portal": Tous les documents de vaccination trouvés (Com B)
 
-"GFPP/PIS" -> "Autre communauté\nN": Rechercher les documents de vaccination
-"Autre communauté\nN" -> "GFPP/PIS": Tous les documents de vaccination trouvés (Com N)
+"Portal" -> "Autre communauté\nN": Rechercher les documents de vaccination
+"Autre communauté\nN" -> "Portal": Tous les documents de vaccination trouvés (Com N)
 end
-"GFPP/PIS" -> "agrégateur de vaccins": Résumer les documents de vaccination
-"agrégateur de vaccins" ->  "GFPP/PIS": Un carnet de vaccination agrégé
-"GFPP/PIS" -> patient: Afficher l'agrégat\nDates de vaccination
+"Portal" -> "agrégateur de vaccins": Résumer les documents de vaccination
+"agrégateur de vaccins" ->  "Portal": Un carnet de vaccination agrégé
+"Portal" -> patient: Afficher l'agrégat\nDates de vaccination
 
 @enduml

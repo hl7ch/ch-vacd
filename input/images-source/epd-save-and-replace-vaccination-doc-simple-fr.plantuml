@@ -15,13 +15,13 @@ Docteur -> "GFPP/PIS": Ajuster les données de vaccination agrégées,\créer un
 "GFPP/PIS" -> "Propre communauté\nA": Enregistrez le nouveau document de vaccination\net remplacez les "anciens" documents
 "Propre communauté\nA" -> "GFPP/PIS": OK
 
-loop
-"GFPP/PIS" -> "Autre communauté\nB": Définissez les "anciens" Documents de vaccination sur "OBSOLETE"
-"Autre communauté\nB" -> "GFPP/PIS": OK
+' loop
+' "GFPP/PIS" -> "Autre communauté\nB": Définissez les "anciens" Documents de vaccination sur "OBSOLETE"
+' "Autre communauté\nB" -> "GFPP/PIS": OK
 
-"GFPP/PIS" -> "Autre communauté\nN": Définissez les "anciens" Documents de vaccination sur "OBSOLETE"
-"Autre communauté\nN" -> "GFPP/PIS": OK
-end
+' "GFPP/PIS" -> "Autre communauté\nN": Définissez les "anciens" Documents de vaccination sur "OBSOLETE"
+' "Autre communauté\nN" -> "GFPP/PIS": OK
+' end
 "GFPP/PIS" -> Docteur: Confirmation d'enregistration
 
 @enduml

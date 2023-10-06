@@ -5,7 +5,7 @@ skinparam responseMessageBelowArrow true
 scale max 800 width
 
 actor Patient #red
-participant "GFPP/PIS" #00CC00
+participant "Portal" #00CC00
 participant "Eigene Gemeinschaft\nA" #00CC00
 
 participant "Impfaggregator"
@@ -14,18 +14,18 @@ participant "Andere Gemeinschaft\nN" #00aaff
 
 
 autonumber "<b>[00]"
-Patient -> "GFPP/PIS": Suche alle Impfdokumente
-"GFPP/PIS" -> "Eigene Gemeinschaft\nA": Suche nach Impfdokumenten
-"Eigene Gemeinschaft\nA" -> "GFPP/PIS": Alle gefundenen Impfdokumente (Gem A)
+Patient -> "Portal": Suche alle Impfdokumente
+"Portal" -> "Eigene Gemeinschaft\nA": Suche nach Impfdokumenten
+"Eigene Gemeinschaft\nA" -> "Portal": Alle gefundenen Impfdokumente (Gem A)
 loop "Alle anderen Gemeinschaften"
-"GFPP/PIS" -> "Andere Gemeinschaft\nB": Suche nach Impfdokumenten
-"Andere Gemeinschaft\nB" -> "GFPP/PIS": Alle gefundenen Impfdokumente (Gem. B)
+"Portal" -> "Andere Gemeinschaft\nB": Suche nach Impfdokumenten
+"Andere Gemeinschaft\nB" -> "Portal": Alle gefundenen Impfdokumente (Gem. B)
 
-"GFPP/PIS" -> "Andere Gemeinschaft\nN": Suche nach Impfdokumenten
-"Andere Gemeinschaft\nN" -> "GFPP/PIS": Alle gefundenen Impfdokumente (Gem. N)
+"Portal" -> "Andere Gemeinschaft\nN": Suche nach Impfdokumenten
+"Andere Gemeinschaft\nN" -> "Portal": Alle gefundenen Impfdokumente (Gem. N)
 end
-"GFPP/PIS" -> "Impfaggregator": Zusammenfassen aller strukturierten Daten
-"Impfaggregator" ->  "GFPP/PIS": Ein aggregiertes Impfdokument
-"GFPP/PIS" -> Patient: Anzeigen der aggregierten\nImpfdaten
+"Portal" -> "Impfaggregator": Zusammenfassen aller strukturierten Daten
+"Impfaggregator" ->  "Portal": Ein aggregiertes Impfdokument
+"Portal" -> Patient: Anzeigen der aggregierten\nImpfdaten
 
 @enduml

@@ -19,8 +19,8 @@ loop "Abfrage aller Gemeinschaften"
 end
 "GFPP/PIS" -> "Impfaggregator": Zusammenfassen aller strukturierten Daten
 "Impfaggregator" ->  "GFPP/PIS": Ein aggregiertes Impfdokument
-"GFPP/PIS" -> "GFPP/PIS": Pseudonymisieren
-"GFPP/PIS" ->  "Impfcheck": aggregiertes, pseudonymisiertes Impfdokument
+' "GFPP/PIS" -> "GFPP/PIS": Pseudonymisieren
+"GFPP/PIS" ->  "Impfcheck": aggregiertes Impfdokument
 "Impfcheck" -> "GFPP/PIS": Impfempfehlung
 "GFPP/PIS" -> Arzt: Anzeigen der aggregierten\nImpfdaten
 
