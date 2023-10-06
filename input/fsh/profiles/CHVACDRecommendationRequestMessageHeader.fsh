@@ -31,7 +31,7 @@ Description: "Definition of the MessageHeader for the immunization recommendatio
 * reason ^short = "Recommendation regarding vaccination (procedure)"
 
 * focus only Reference(
-    CHCorePatient or
+    CHCorePatientEPR or
     CHCorePractitionerRole or 
     CHCorePractitioner or
     CHCoreOrganization or
