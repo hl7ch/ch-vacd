@@ -1,15 +1,15 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
-### STU 4
+### STU 4 
+See [Resolution Desk STU 4](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_4.0.0.md)
+
+### STU 4 Ballot
 See [Resolution Desk STU 4 Ballot](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_3.1.0.md)
 
 ### STU 3
-
 See [Resolution Desk STU 3 Ballot](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_2.1.0.md)
 
-
 ### STU 3 Ballot
-
 The issues in an overview for this ballot can be found [here](https://github.com/hl7ch/ch-vacd/issues?q=is%3Aissue+-label%3Abacklog+milestone%3A%22Ballot+2.1.0%22)
 
 #### ValueSet issues
