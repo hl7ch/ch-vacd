@@ -16,15 +16,31 @@ participant "Result\nRecord" as RES #lightgreen
 end box
 
 PAT -> Doc1: PAT creates document with an entry\nfor past illness "Measles"
+PAT <-- Doc1
 
 HCP1_C1 -> Doc2: HCP1 (C1) creates document with refuted\n entry past illness "Measles"
+HCP1_C1 <-- Doc2
 
-Doc2 o<-->o Doc1: Has entered-in-error relation
+Doc2 o<-[#red]->o Doc1: Has entered-in-error relation
 
-Doc1 --> AGG: aggregation
-Doc2 --> AGG: aggregation
-AGG -> RES: creates document\nVaccination Record 
-PAT -> RES: Patient sees immunization status
+PAT -> AGG: get Vaccination Record
+activate AGG
+
+AGG -> Doc1: get doc
+AGG <-- Doc1
+
+AGG -> Doc2: get doc
+AGG <-- Doc2
+ 
+AGG -> AGG: aggregate documents 
+activate AGG
+AGG -> AGG: add document author (Patient or Device)
+AGG -> RES: create Vaccination Record
+deactivate AGG
+AGG <-- RES
+
+PAT <-- AGG: show Vaccination Record
+deactivate AGG
 
 
 @enduml

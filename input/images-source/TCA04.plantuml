@@ -18,22 +18,44 @@ end box
 
 
 HCP1_C1 -> Doc6: HCP1 validates the TBE vaccination of the patient \n and creates a document so that the vaccination with FSME-Immun CC\nagainst TBE (2nd dose) is validated
-Doc6 --> Doc5 : relatesTo
+HCP1_C1 <-- Doc6
+Doc6 o<-[#red]->o Doc5: relatesTo 
 
 box "Community (C2)"
 participant "Doc3\nAdmin" as Doc3 #orange
 participant "Doc4\nAdmin" as Doc4 #orange
 end box
 
+PAT -> AGG: get Vaccination Record
+activate AGG
 
-Doc1 --> AGG: aggregation
-Doc2 --> AGG: aggregation
-Doc3 --> AGG: aggregation
-Doc4 --> AGG: aggregation
-Doc5 --> AGG: aggregation
-Doc6 --> AGG: aggregation
-AGG -> RES: creates document\nVaccination Record 
-PAT -> RES: Patient sees immunization status
+AGG -> Doc1: get doc
+AGG <-- Doc1
+
+AGG -> Doc2: get doc
+AGG <-- Doc2
+
+AGG -> Doc3: get doc
+AGG <-- Doc3
+
+AGG -> Doc4: get doc
+AGG <-- Doc4
+
+AGG -> Doc3: get doc
+AGG <-- Doc5
+
+AGG -> Doc3: get doc
+AGG <-- Doc6
+
+AGG -> AGG: aggregate documents 
+activate AGG
+AGG -> AGG: add document author (Patient or Device)
+AGG -> RES: create Vaccination Record
+deactivate AGG
+AGG <-- RES
+
+PAT <-- AGG: show Vaccination Record
+deactivate AGG
 
 
 @enduml

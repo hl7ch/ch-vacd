@@ -16,15 +16,31 @@ participant "Result\nRecord" as RES #lightgreen
 end box
 
 HCP1_C1 -> Doc1: Practitoner (HCP1_C1) creates document\nwith condition pastillness entry.
+HCP1_C1 <-- Doc1
 
 HCP1_C1 -> Doc2: Practitoner (HCP1_C1) creates document\nadding a comment (note) to the condition pastillness entry Havrix 1440.
+HCP1_C1 <-- Doc2
 
-Doc2 o<-->o Doc1: Has replacement relation
+Doc2 o<-[#red]->o Doc1: Has replacement relation
 
-Doc1 --> AGG: aggregation
-Doc2 --> AGG: aggregation
-AGG -> RES: creates document\nVaccination Record 
-PAT -> RES: Patient sees immunization status
+PAT -> AGG: get Vaccination Record
+activate AGG
+
+AGG -> Doc1: get doc
+AGG <-- Doc1
+
+AGG -> Doc2: get doc
+AGG <-- Doc2
+ 
+AGG -> AGG: aggregate documents 
+activate AGG
+AGG -> AGG: add document author (Patient or Device)
+AGG -> RES: create Vaccination Record
+deactivate AGG
+AGG <-- RES
+
+PAT <-- AGG: show Vaccination Record
+deactivate AGG
 
 
 @enduml
