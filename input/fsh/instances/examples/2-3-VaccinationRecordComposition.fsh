@@ -6,7 +6,7 @@ Usage: #example
 * language = #en-US
 
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"  lang=\"en-US\">
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">
   <div style=\"display: table;\">
     <div style=\"display: table-row; border-spacing: 5px;\">
       <div style=\"display: table-cell; font-weight: bold; width: 200px;\">Patient</div>
@@ -290,7 +290,7 @@ Usage: #example
 * section[=].title = "Immunization Administration"
 * section[=].code = $loinc#11369-6 "Hx of Immunization"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"  lang=\"en-US\">This is the section containing all immunization entries.</div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing all immunization entries.</div>"
 * section[=].entry[0].reference = "Immunization/7-2-Immunization"
 * section[=].entry[+].reference = "Immunization/7-3-Immunization"
 * section[=].entry[+].reference = "Immunization/7-4-Immunization"
@@ -300,27 +300,27 @@ Usage: #example
 * section[=].title = "Other Relevant Observations"
 * section[=].code = $loinc#11450-4 "Problem list Reported"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"  lang=\"en-US\">This is the section containing the medical problem entries.</div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing the medical problem entries.</div>"
 * section[=].entry[0].reference = "Condition/8-2-Condition"
 * section[=].entry[+].reference = "Condition/8-3-Condition"
 * section[+].id = "sectionIlnessesUndergondeForImmunization1"
 * section[=].title = "Undergone illnesses for immunization"
 * section[=].code = $loinc#11348-0 "Hx of Past illness"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"  lang=\"en-US\">This is the section containing the undergone illnesses for immunization entries.</div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing the undergone illnesses for immunization entries.</div>"
 * section[=].entry.reference = "Condition/8-4-Condition"
 * section[+].id = "allergies"
 * section[=].title = "Allergies"
 * section[=].code = $loinc#48765-2 "Allergies and adverse reactions Document"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"  lang=\"en-US\">This is the section containing the allergy entries.</div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing the allergy entries.</div>"
 * section[=].entry[0].reference = "AllergyIntolerance/11-1-AllergyIntolerance"
 * section[=].entry[+].reference = "AllergyIntolerance/11-2-AllergyIntolerance"
 * section[+].id = "sectionLab1"
 * section[=].title = "Lab"
 * section[=].code = $loinc#18727-8 "Serology studies (set)"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"  lang=\"en-US\">This is the section containing the lab entries.</div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing the lab entries.</div>"
 * section[=].entry.reference = "Observation/9-1-Observation"
 * section[+].id = "Annotation"
 * section[=].title = "Comments"

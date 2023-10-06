@@ -1,5 +1,5 @@
 Instance: 3-2-Patient
-InstanceOf: CHCorePatient
+InstanceOf: CHCorePatientEPR
 Title: "3.2 Patient"
 Description: "Example for Patient in Immunization Recommendation Request/Response"
 Usage: #example

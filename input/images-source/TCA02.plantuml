@@ -21,13 +21,30 @@ actor "Health Care Professional 2 (C2)" as HCP2_C2 #orange
 end box
 
 HCP2_C2 -> Doc4: HCP2 (G2) creates document\nwith vaccination Havrix 1440 against viral heaptite A (2nd dose)
+HCP2_C2 <-- Doc4
 
-Doc1 --> AGG: aggregation
-Doc2 --> AGG: aggregation
-Doc3 --> AGG: aggregation
-Doc4 --> AGG: aggregation
-AGG -> RES: creates document\nVaccination Record 
-PAT -> RES: Patient sees immunization status
+PAT -> AGG: get Vaccination Record
+activate AGG
 
+AGG -> Doc1: get doc
+AGG <-- Doc1
+
+AGG -> Doc2: get doc
+AGG <-- Doc2
+
+AGG -> Doc3: get doc
+AGG <-- Doc3
+
+AGG -> Doc4: get doc
+AGG <-- Doc4
+
+AGG -> AGG: aggregate
+activate AGG
+AGG -> AGG: add author (Patient or Device)
+AGG -> RES: creates document\nVaccination Record
+deactivate AGG
+AGG <-- RES
+PAT <-- AGG: show Vaccination Record
+deactivate AGG
 
 @enduml

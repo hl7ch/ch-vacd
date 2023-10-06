@@ -46,13 +46,13 @@ Usage: #example
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"  lang=\"en-US\"><h3>Vaccination Record</h3><p><b>Id: </b>RDC04-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:09cb062b-ae01-44c8-9814-eca4c8e1b90c</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient2.html\">Patient/TC-patient2</a> Knecht Lea</p><p><b>Date: </b>September 11, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient2.html\">Patient/TC-patient2</a> Knecht Lea</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Medical Problems</td></tr></table></div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><h3>Vaccination Record</h3><p><b>Id: </b>RDC04-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:09cb062b-ae01-44c8-9814-eca4c8e1b90c</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient2.html\">Patient/TC-patient2</a> Knecht Lea</p><p><b>Date: </b>September 11, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient2.html\">Patient/TC-patient2</a> Knecht Lea</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Medical Problems</td></tr></table></div>"
 
 * section[+].id = "medicalproblems"
 * section[=].title = "Medical Problems"
 * section[=].code = $loinc#11450-4 "Problem list Reported"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"  lang=\"en-US\"><p><b>Code: </b><span>Problem list Reported (http://loinc.org#11450-4)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Condition-TCC04-EXPRISK3.html\">Condition/TCC04-EXPRISK3</a></td></tr></table></div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Code: </b><span>Problem list Reported (http://loinc.org#11450-4)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Condition-TCC04-EXPRISK3.html\">Condition/TCC04-EXPRISK3</a></td></tr></table></div>"
 * section[=].entry = Reference(TCC04_EXPRISK3)
 
 
