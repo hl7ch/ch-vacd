@@ -437,7 +437,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #68473
-* group[=].element[=].display = "Nuvaxovid 5 ml"
+* group[=].element[=].display = "Nuvaxovid 0.5 ml"
 * group[=].element[=].target[+].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
@@ -533,6 +533,31 @@ Usage: #definition
 * group[=].element[=].target[+].code = #1252708008
 * group[=].element[=].target[=].display = "Vaccine product containing only Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F capsular polysaccharide conjugated antigens (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
+
+//69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
+// added 2023-10-10
+* group[=].element[+].code = #69465
+* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
+// added 2023-10-10
+* group[=].element[+].code = #69484
+* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
+// added 2023-10-10
+* group[=].element[+].code = #69488
+* group[=].element[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
 
 
 // //////////////////////////////////////////////////////////////////////////////////////////

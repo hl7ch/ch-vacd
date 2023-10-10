@@ -1122,15 +1122,15 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #68473 "Nuvaxovid 0.5 ml, Injektionsdispersion"
 * #68473 ^definition = "Nuvaxovid 0.5 ml, Injektionsdispersion,	Future Health Pharma GmbH"
 * #68473 ^designation[0].language = #de-CH
-* #68473 ^designation[=].value = "Nuvaxovid 5 ml"
+* #68473 ^designation[=].value = "Nuvaxovid 0.5 ml, Injektionsdispersion"
 * #68473 ^designation[+].language = #fr-CH
-* #68473 ^designation[=].value = "Nuvaxovid 5 ml"
+* #68473 ^designation[=].value = "Nuvaxovid 0.5 ml, dispersion injectable"
 * #68473 ^designation[+].language = #it-CH
-* #68473 ^designation[=].value = "Nuvaxovid 5 ml"
+* #68473 ^designation[=].value = "Nuvaxovid 0.5 ml, dispersione per iniezione"
 * #68473 ^designation[+].language = #rm-CH
-* #68473 ^designation[=].value = "Nuvaxovid 5 ml"
+* #68473 ^designation[=].value = "Nuvaxovid 0.5 ml, dispersiun d’injecziun"
 * #68473 ^designation[+].language = #en-US
-* #68473 ^designation[=].value = "Nuvaxovid 5 ml"
+* #68473 ^designation[=].value = "Nuvaxovid 0.5 ml, injection dispersion"
 
 
 // added data by list of 20221031 from Swissmedic
@@ -1371,14 +1371,13 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #68752 ^designation[0].language = #de-CH
 * #68752 ^designation[=].value = "Vaxneuvance, Injektionssuspension"
 * #68752 ^designation[+].language = #fr-CH
-* #68752 ^designation[=].value = "Vaxneuvance, Injektionssuspension"
+* #68752 ^designation[=].value = "Vaxneuvance, dispersion injectable"
 * #68752 ^designation[+].language = #it-CH
-* #68752 ^designation[=].value = "Vaxneuvance, Injektionssuspension"
+* #68752 ^designation[=].value = "Vaxneuvance, dispersione per iniezione"
 * #68752 ^designation[+].language = #rm-CH
-* #68752 ^designation[=].value = "Vaxneuvance, Injektionssuspension"
+* #68752 ^designation[=].value = "Vaxneuvance, dispersiun d’injecziun"
 * #68752 ^designation[+].language = #en-US
-* #68752 ^designation[=].value = "Vaxneuvance, Injektionssuspension"
-
+* #68752 ^designation[=].value = "Vaxneuvance, injection dispersion"
 
 //69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
@@ -1387,13 +1386,13 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #69465 ^designation[0].language = #de-CH
 * #69465 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
 * #69465 ^designation[+].language = #fr-CH
-* #69465 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* #69465 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, dispersion injectable"
 * #69465 ^designation[+].language = #it-CH
-* #69465 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* #69465 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, dispersione per iniezione"
 * #69465 ^designation[+].language = #rm-CH
-* #69465 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* #69465 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, dispersiun d’injecziun"
 * #69465 ^designation[+].language = #en-US
-* #69465 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* #69465 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, injection dispersion"
 
 //69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
 // added 2023-10-10
@@ -1402,13 +1401,13 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #69484 ^designation[0].language = #de-CH
 * #69484 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
 * #69484 ^designation[+].language = #fr-CH
-* #69484 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* #69484 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, dispersion injectable"
 * #69484 ^designation[+].language = #it-CH
-* #69484 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* #69484 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, dispersione per iniezione"
 * #69484 ^designation[+].language = #rm-CH
-* #69484 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* #69484 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, dispersiun d’injecziun"
 * #69484 ^designation[+].language = #en-US
-* #69484 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* #69484 ^designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, injection dispersion"
 
 //69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
 // added 2023-10-10
@@ -1417,10 +1416,10 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #69488 ^designation[0].language = #de-CH
 * #69488 ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
 * #69488 ^designation[+].language = #fr-CH
-* #69488 ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* #69488 ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, dispersion injectable"
 * #69488 ^designation[+].language = #it-CH
-* #69488 ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* #69488 ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, dispersione per iniezione"
 * #69488 ^designation[+].language = #rm-CH
-* #69488 ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* #69488 ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, dispersiun d’injecziun"
 * #69488 ^designation[+].language = #en-US
-* #69488 ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* #69488 ^designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, injection dispersion"
