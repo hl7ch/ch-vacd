@@ -555,6 +555,11 @@ Usage: #definition
 * group[=].element[=].target[+].code = #509
 * group[=].element[=].target[=].display = "Pneumovax-23"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2023-05-19
+* group[=].element[=].target[+].code = #68752
+* group[=].element[=].target[=].display = "Vaxneuvance, Injektionssuspension"
+* group[=].element[=].target[=].equivalence = #wider
+
 
 * group[=].element[+].code = #23511006	
 * group[=].element[=].display = "Meningococcal infectious disease (disorder)"
@@ -599,6 +604,7 @@ Usage: #definition
 * group[=].element[=].target.code = #59147
 * group[=].element[=].target.display = "Ixiaro"
 * group[=].element[=].target.equivalence = #wider
+
 * group[=].element[+].code = #840539006
 * group[=].element[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[0].code = #68225
@@ -613,7 +619,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #wider
 // added 2022-06-27
 * group[=].element[=].target[+].code = #68473
-* group[=].element[=].target[=].display = "Nuvaxovid 5 ml"
+* group[=].element[=].target[=].display = "Nuvaxovid 0.5 ml, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #wider
 // added 2022-11-03
 * group[=].element[=].target[+].code = #68710-01
@@ -623,9 +629,69 @@ Usage: #definition
 * group[=].element[=].target[+].code = #68710-02
 * group[=].element[=].target[=].display = "Comirnaty® 10 Mikrogramm/Dosis"
 * group[=].element[=].target[=].equivalence = #wider
+// added 2023-10-10
+* group[=].element[=].target[+].code = #68710-03
+* group[=].element[=].target[=].display = "Comirnaty® 3 Mikrogramm/Dosis"
+* group[=].element[=].target[=].equivalence = #wider
 // added 2022-11-03
 * group[=].element[=].target[+].code = #69009
 * group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron"
+* group[=].element[=].target[=].equivalence = #wider
+
+//69123	01	Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze	Moderna Switzerland GmbH	B	11.11.2022	11.11.2022	25.08.2024	J07BX03
+// added 2023-02-21
+* group[=].element[=].target[+].code = #69123
+* group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron 10 mg/ml, Fertigspritze"
+* group[=].element[=].target[=].equivalence = #wider
+
+//69010	01	Spikevax, Fertigspritze	Moderna Switzerland GmbH	B	13.10.2022	13.10.2022	26.09.2023	J07BX03
+// added 2023-02-21
+* group[=].element[=].target[+].code = #69010
+* group[=].element[=].target[=].display = "Spikevax, Fertigspritze"
+* group[=].element[=].target[=].equivalence = #wider
+
+//69047	01	Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis gebrauchsfertige Injektionsdispersion für Personen ab 18 Jahren	Pfizer AG	B	10.10.2022	10.10.2022	09.10.2024	J07BX03
+// added 2023-02-21
+* group[=].element[=].target[+].code = #69047
+* group[=].element[=].target[=].display = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
+* group[=].element[=].target[=].equivalence = #wider
+
+
+//69127	01	Comirnaty Original/Omicron BA. 4-5 0.225 mg, Injektionsdispersion	Pfizer AG	B	06.04.2023	06.04.2023	05.04.2028	J07BX03
+// added 2023-05-19
+* group[=].element[=].target[+].code = #69127
+* group[=].element[=].target[=].display = "Comirnaty Original/Omicron BA. 4-5 0.225 mg"
+* group[=].element[=].target[=].equivalence = #wider
+
+//69189	01	Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection	Moderna Switzerland GmbH	B	03.03.2023	03.03.2023	02.03.2028	J07BX03
+// added 2023-05-19
+* group[=].element[=].target[+].code = #69189
+* group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, dispersion for injection"
+* group[=].element[=].target[=].equivalence = #wider
+
+//69211	01	Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze	Moderna Switzerland GmbH	B	21.03.2023	21.03.2023	20.03.2028	J07BX03
+// added 2023-05-19
+* group[=].element[=].target[+].code = #69211
+* group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
+* group[=].element[=].target[=].equivalence = #wider
+
+
+//69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
+// added 2023-10-10
+* group[=].element[=].target[+].code = #69465
+* group[=].element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].target[=].equivalence = #wider
+
+//69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
+// added 2023-10-10
+* group[=].element[=].target[+].code = #69484
+* group[=].element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].target[=].equivalence = #wider
+
+//69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
+// added 2023-10-10
+* group[=].element[=].target[+].code = #69488
+* group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #wider
 
 
@@ -1067,11 +1133,13 @@ Usage: #definition
 * group[=].element[=].target.code = #86
 * group[=].element[=].target.display = "Arilvax"
 * group[=].element[=].target.equivalence = #wider
+
 * group[=].element[+].code = #16814004
 * group[=].element[=].display = "Pneumococcal infectious disease (disorder)"
 * group[=].element[=].target.code = #100
 * group[=].element[=].target.display = "Pnu-Immune"
 * group[=].element[=].target.equivalence = #wider
+
 * group[=].element[+].code = #23511006
 * group[=].element[=].display = "Meningococcal infectious disease (disorder)"
 * group[=].element[=].target.code = #55

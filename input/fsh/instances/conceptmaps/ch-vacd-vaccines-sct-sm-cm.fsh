@@ -316,7 +316,7 @@ Usage: #definition
 * group[=].element[=].target[=].display = "COVID-19 Vaccine Janssen"
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #68473
-* group[=].element[=].target[=].display = "Nuvaxovid 5 ml"
+* group[=].element[=].target[=].display = "Nuvaxovid 0.5 ml"
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #68710-01
 * group[=].element[=].target[=].display = "Comirnaty® 30 Mikrogramm/Dosis"
@@ -324,8 +324,8 @@ Usage: #definition
 * group[=].element[=].target[+].code = #68710-02
 * group[=].element[=].target[=].display = "Comirnaty® 10 Mikrogramm/Dosis"
 * group[=].element[=].target[=].equivalence = #equivalent
-* group[=].element[=].target[+].code = #68473
-* group[=].element[=].target[=].display = "Nuvaxovid 5 ml"
+* group[=].element[=].target[+].code = #68710-03
+* group[=].element[=].target[=].display = "Comirnaty® 3 Mikrogramm/Dosis"
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #69009
 * group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron"
@@ -342,6 +342,25 @@ Usage: #definition
 * group[=].element[=].target[+].code = #69211
 * group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron BA.4-5, Fertigspritze"
 * group[=].element[=].target[=].equivalence = #equivalent
+
+//69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
+// added 2023-10-10
+* group[=].element[=].target[+].code = #69465
+* group[=].element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
+// added 2023-10-10
+* group[=].element[=].target[+].code = #69484
+* group[=].element[=].target[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+//69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
+// added 2023-10-10
+* group[=].element[=].target[+].code = #69488
+* group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* group[=].element[=].target[=].equivalence = #equivalent
+
 
 // added 2023-05-19
 * group[=].element[+].code = #1252708008
