@@ -639,13 +639,13 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Influenza caused by pandemic influenza virus (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+//68473	01	Nuvaxovid 0.5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	20.09.2028	J07BX03
 // added 2022-06-08
 * group[=].element[+].code = #68473
-* group[=].element[=].display = "Nuvaxovid 5 ml"
+* group[=].element[=].display = "Nuvaxovid 0.5 ml, Injektionsdispersion"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
-
 
 //68358	01	Ervebo, Injektionslösung	MSD Merck Sharp & Dohme AG	B	11/10/2021	11/10/2021	11/9/2026	J07BX02
 // added 2022-11-03
@@ -668,6 +668,14 @@ Usage: #definition
 // added 2022-11-03
 * group[=].element[+].code = #68710-02
 * group[=].element[=].display = "Comirnaty® 10 Mikrogramm/Dosis"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//68710	03	Comirnaty 3 Mikrogramm/Dosis Konzentrat zur Herstellung einer Injektionsdispersion	Pfizer AG	B	10.12.2021	04.09.2023	16.03.2028	J07BN01
+// added 2023-10-10
+* group[=].element[+].code = #68710-03
+* group[=].element[=].display = "Comirnaty® 3 Mikrogramm/Dosis"
 * group[=].element[=].target[+].code = #840539006
 * group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
@@ -857,6 +865,31 @@ Usage: #definition
 * group[=].element[=].display = "Vaxneuvance, Injektionssuspension"
 * group[=].element[=].target[+].code = #16814004
 * group[=].element[=].target[=].display = "Pneumococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
+//69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
+// added 2023-10-10
+* group[=].element[+].code = #69465
+* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
+// added 2023-10-10
+* group[=].element[+].code = #69484
+* group[=].element[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+//69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
+// added 2023-10-10
+* group[=].element[+].code = #69488
+* group[=].element[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* group[=].element[=].target[+].code = #840539006
+* group[=].element[=].target[=].display = "Disease caused by Severe acute respiratory syndrome coronavirus 2 (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
 

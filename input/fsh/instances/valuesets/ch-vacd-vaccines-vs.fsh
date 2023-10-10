@@ -1315,20 +1315,35 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Comirnaty® 10 microgram/dose"
 
-//68473	01	Nuvaxovid 5 ml	Future Health Pharma GmbH	B	4/12/2022	4/12/2022	4/12/2024	J07BX03
+//68710	03	Comirnaty 3 Mikrogramm/Dosis Konzentrat zur Herstellung einer Injektionsdispersion	Pfizer AG	B	10.12.2021	04.09.2023	16.03.2028	J07BN01
+// added 2023-10-10
+* compose.include[=].concept[+].code = #68710-03
+* compose.include[=].concept[=].display = "Comirnaty® 3 Mikrogramm/Dosis"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 3 Mikrogramm/Dosis"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 3 microgrammes/dose"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 3 microgrammi/dose"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 3 microgram/dosa"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Comirnaty® 3 microgram/dose"
+
+//68473	01	Nuvaxovid 0.5 ml, Injektionsdispersion	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	20.09.2028	J07BX03
 // added 2022-11-03
 * compose.include[=].concept[+].code = #68473
-* compose.include[=].concept[=].display = "Nuvaxovid 5 ml"
+* compose.include[=].concept[=].display = "Nuvaxovid 0.5 ml, Injektionsdispersion"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml"
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 0.5 ml, Injektionsdispersion"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml"
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 0.5 ml, Injektionsdispersion"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml"
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 0.5 ml, Injektionsdispersion"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml"
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 0.5 ml, Injektionsdispersion"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 5 ml"
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 0.5 ml, Injektionsdispersion"
 
 //68462	01	Fluenz Tetra, Nasenspray, Suspension	AstraZeneca AG	B	5/11/2022	5/11/2022	5/10/2027	J07BB03
 // added 2022-11-03
@@ -1512,6 +1527,53 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Vaxneuvance, Injektionssuspension"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Vaxneuvance, Injektionssuspension"
+
+//69465	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
+// added 2023-10-10
+* compose.include[=].concept[+].code = #69465
+* compose.include[=].concept[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+
+
+//69484	01	Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion	Moderna Switzerland GmbH	B	26.09.2023	26.09.2023	25.09.2028	J07BX
+// added 2023-10-10
+* compose.include[=].concept[+].code = #69484
+* compose.include[=].concept[=].display = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Spikevax XBB.1.5 0.10 mg/ml, Dispersion zur Injektion"
+
+
+//69488	01	Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion	Pfizer AG	B	20.09.2023	20.09.2023	19.09.2028	J07BN01
+// added 2023-10-10
+* compose.include[=].concept[+].code = #69488
+* compose.include[=].concept[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
 
 
 
