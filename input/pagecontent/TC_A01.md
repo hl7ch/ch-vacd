@@ -13,6 +13,8 @@ Specialist HCP2 is connected to another community and has created and uploaded a
 ### Sequence
 <div>{% include TCA01.svg %}</div>
 
+<div>{% include TCA01_GP.svg %}</div>
+
 ### Result
 The aggregated view ([Result. Dokument 01](Bundle-RDA02.html)) of patient's vaccination documents should be displayed in the vaccination module.
 

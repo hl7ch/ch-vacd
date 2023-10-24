@@ -9,6 +9,8 @@ He is entered as the patient as the author and creator of the document [Composit
 
 <div>{% include TCA03.svg %}</div>
 
+<div>{% include TCA03_GP.svg %}</div>
+
 ### Result
 The second dose of the TBE vaccination is entered in the patient's documentation.
 
