@@ -24,13 +24,13 @@ Usage: #definition
 * compose.include[=].concept[+].code = #373068000
 * compose.include[=].concept[=].display = "Undetermined (qualifier value)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Keine Angabe"
+* compose.include[=].concept[=].designation[=].value = "Nicht bekannt"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Pas de données"
+* compose.include[=].concept[=].designation[=].value = "Indéterminé"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Nessun dato"
+* compose.include[=].concept[=].designation[=].value = "Indeterminato"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Undetermined (qualifier value)"
+* compose.include[=].concept[=].designation[=].value = "Nunenconuschent"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Undetermined (qualifier value)"
 
