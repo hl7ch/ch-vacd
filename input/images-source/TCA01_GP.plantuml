@@ -6,7 +6,7 @@ skinparam style strictuml
 scale max 800 width
 
 
-box "Reference Community (C1)"
+box "eHealth Record Repository 1"
 actor "Health Care Professional 1 (C1)" as HCP1_C1 #red
 actor "Patient" as PAT #blue
 participant "Doc1\nAdmin" as Doc1 #lightblue
@@ -15,7 +15,7 @@ participant Aggregator as AGG
 participant "Result\nRecord" as RES #lightgreen
 end box
 
-box "Community (C2)"
+box "eHealth Record Repository 2"
 participant "Doc3\nAdmin" as Doc3 #orange
 actor "Health Care Professional 2 (C2)" as HCP2_C2 #orange
 end box

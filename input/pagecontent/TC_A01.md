@@ -1,13 +1,13 @@
 ## Test Case A 01: Patient has three vaccination documents in two different communities (one of them recorded by the patient himself)
 
 ### Precondition
-The patient has an EPR. There are three vaccination administration documents for him on the respositories of the communities.
-He created a [Document A-D1-P-C1](Bundle-A-D1-P-C1.html) himself and uploaded it to the repository of his home community.
-The other two documents were created and uploaded by two experts [HCP1](Practitioner-TC-HCP1-C1.html) and [HCP2](Practitioner-TC-HCP2-C2.html).
+The patient has multiple vaccination documents in the ehealth ecosystem. There are three vaccination administration documents for him in different locations and they are all accessible.
+He created a [Document A-D1-P-C1](Bundle-A-D1-P-C1.html) himself and uploaded it to his electronic record.
+The other two documents were created and uploaded by two experts [HCP1](Practitioner-TC-HCP1-C1.html) and [HCP2](Practitioner-TC-HCP2-C2.html) in different repositories.
 
-Specialist HCP1 is connected to the same community as the patient and has created and uploaded a document [Dokument A-D2-HCP1-C1](Bundle-A-D2-HCP1-C1.html).
+Specialist HCP1 is connected to the same repository as the patient and has created and uploaded a document [Dokument A-D2-HCP1-C1](Bundle-A-D2-HCP1-C1.html).
 
-Specialist HCP2 is connected to another community and has created and uploaded a [Dokument A-D3-HCP2-C2](Bundle-A-D3-HCP2-C2.html) for the patient there.
+Specialist HCP2 is connected to another repository and has created and uploaded a [Dokument A-D3-HCP2-C2](Bundle-A-D3-HCP2-C2.html) for the patient there.
 
 
 ### Sequence
@@ -16,7 +16,7 @@ Specialist HCP2 is connected to another community and has created and uploaded a
 <div>{% include TCA01_GP.svg %}</div>
 
 ### Result
-The aggregated view ([Result. Dokument 01](Bundle-RDA02.html)) of patient's vaccination documents should be displayed in the vaccination module.
+The aggregated view ([Result. Dokument 01](Bundle-RDA02.html)) of patient's vaccination documents should be displayed in the used application.
 
 
 ### Documents
