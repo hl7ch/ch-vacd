@@ -10,8 +10,8 @@ The test cases are tailored to use in the electronic patient record (EPR), but c
 |#|Case|Doc1          |Doc2          |Doc3          |Doc4          |Doc5          |Doc6          |Resultat      |
 |-|----|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
 |[A01](TC_A01.html)|Patient has three vaccination documents in two different communities (one of them recorded by the patient himself)|[A_D1_P_C1](Bundle-A-D1-P-C1.html)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.html)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)|-|-|-|[Result. Document A 01](Bundle-RDA01.html)|
-|[A02](TC_A02.html)|HCP from G2 applies and records second dose of vaccination (hepatitis A). Doc4 (dose 2) refers to the vaccination entry in Doc1 (dose 1)|[A_D1_P_C1](Bundle-A-D1-P-C1.html)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.html)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)|[A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.html)|-|-|[Result. Document A 02](Bundle-RDA02.html)|
-|[A03](TC_A03.html)|Patient enters second dose of vaccination (TBE). Doc5 refers to the vaccination entry in Doc3|[A_D1_P_C1](Bundle-A-D1-P-C1.html)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.html)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)|[A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.html) |[A_D5_P_C1](Bundle-A-D5-P-C1.html)|-|[Result. Document A 03](Bundle-RDA03.html)|
+|[A02](TC_A02.html)|HCP from G2 applies and records second dose of vaccination (hepatitis A)|[A_D1_P_C1](Bundle-A-D1-P-C1.html)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.html)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)|[A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.html)|-|-|[Result. Document A 02](Bundle-RDA02.html)|
+|[A03](TC_A03.html)|Patient enters second dose of vaccination (TBE)|[A_D1_P_C1](Bundle-A-D1-P-C1.html)|[A_D2_HCP1_C1](Bundle-A-D2-HCP1-C1.html)|[A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)|[A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.html) |[A_D5_P_C1](Bundle-A-D5-P-C1.html)|-|[Result. Document A 03](Bundle-RDA03.html)|
 |[A04](TC_A04.html)|HCP validates the vaccination (TBE) (Doc6) which was entered by the patient (Doc5)|…|…|…|…|[D5_P_C1](Bundle-A-D5-P-C1.html)|[A_D6_HCP1_C1](Bundle-A-D6-HCP1-C1.html)|[Result. Document A 04](Bundle-RDA04.html)|
 
 

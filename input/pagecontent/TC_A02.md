@@ -1,4 +1,4 @@
-## Test Case A 02: HCP from G2 applies and records second dose of vaccination (hepatitis A). Doc4 (2nd dose) refers to the vaccination entry in Doc1 (1st dose)
+## Test Case A 02: HCP from G2 applies and records second dose of vaccination (hepatitis A).
 
 ### Precondition
 A vaccination for hepatitis A is already found in the patient's vaccination documentation which is stored in the EPR.
