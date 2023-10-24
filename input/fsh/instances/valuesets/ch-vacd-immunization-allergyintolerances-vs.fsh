@@ -450,6 +450,23 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Allergy to anthrax vaccine"
 
 
+// added 2023-10-24
+//700468006 Allergy to component of vaccine product containing Rotavirus antigen (finding)
+* compose.include[=].concept[+].code = #700468006
+* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Rotavirus antigen (finding)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Impfstoff gegen Rotavirus"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie au vaccin contre le rotavirus"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Allergia al vaccino contro il Rotavirus"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Impfstoff gegen Rotavirus"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Allergy to Rotavirus vaccine"
+
+
+
 * compose.include[+].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-allergyintolerance-cs"
 // missing varizellen
 * compose.include[=].concept[+].code = #allergyvaccinevarizella
