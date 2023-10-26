@@ -312,9 +312,6 @@ Usage: #definition
 * group[=].element[=].target[+].code = #68225
 * group[=].element[=].target[=].display = "Comirnaty (COVID-19 Vaccine, Pfizer)"
 * group[=].element[=].target[=].equivalence = #equivalent
-* group[=].element[=].target[+].code = #68235
-* group[=].element[=].target[=].display = "COVID-19 Vaccine Janssen"
-* group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #68710-01
 * group[=].element[=].target[=].display = "Comirnaty® 30 Mikrogramm/Dosis"
 * group[=].element[=].target[=].equivalence = #equivalent
@@ -364,10 +361,17 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equivalent
 
 
-* group[=].element[+].code = #29061000087103
-* group[=].element[=].display = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
+* group[=].element[+].code = #1162643001
+* group[=].element[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
 * group[=].element[=].target[+].code = #68473
 * group[=].element[=].target[=].display = "Nuvaxovid 0.5 ml"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+
+* group[=].element[+].code = #29061000087103
+* group[=].element[=].display = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
+* group[=].element[=].target[+].code = #68235
+* group[=].element[=].target[=].display = "COVID-19 Vaccine Janssen"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 
