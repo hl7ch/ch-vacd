@@ -19,7 +19,6 @@ Usage: #definition
 * description = "The preillness risks used in Switzerland."
 
 * compose.include[+].system = $sct
-* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 
 * compose.include[=].concept[+].code = #373068000
 * compose.include[=].concept[=].display = "Undetermined (qualifier value)"
@@ -229,6 +228,11 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "malsogna dal sistem che producescha sang"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Disorder of hematopoietic structure (disorder)"
+
+
+// swiss extension
+* compose.include[+].system = $sct
+* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 
 * compose.include[=].concept[+].code = #42251000195104
 * compose.include[=].concept[=].display = "Disorder of nervous system with systemic manifestations (disorder)"

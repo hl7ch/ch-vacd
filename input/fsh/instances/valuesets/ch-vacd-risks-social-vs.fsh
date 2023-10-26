@@ -20,7 +20,6 @@ Usage: #definition
 
 
 * compose.include[+].system = $sct
-* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 
 * compose.include[=].concept[+].code = #373068000
 * compose.include[=].concept[=].display = "Undetermined (qualifier value)"
@@ -99,6 +98,10 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "contact cun consuments da drogas"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Has contact with injecting drug user (situation)"
+
+// swiss extension
+* compose.include[+].system = $sct
+* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 
 * compose.include[=].concept[+].code = #72281000195108
 * compose.include[=].concept[=].display = "Contact with human alphaherpesvirus 3 risk patient (finding)"

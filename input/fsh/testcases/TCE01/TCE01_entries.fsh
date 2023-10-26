@@ -39,7 +39,6 @@ Usage: #example
 * lotNumber = "12-34244"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
-* protocolApplied.targetDisease.coding.version = "http://snomed.info/sct/2011000195101"
 * protocolApplied.targetDisease.coding = $sct#712986001 "encéphalite à tiques"
 * protocolApplied.doseNumberPositiveInt = 1
 
@@ -69,12 +68,9 @@ Usage: #example
 * lotNumber = "AHAVB946A"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
-* protocolApplied.targetDisease[+].coding.version = "http://snomed.info/sct/2011000195101"
-* protocolApplied.targetDisease[=].coding = $sct#76902006 "tétanos"
-* protocolApplied.targetDisease[+].coding.version = "http://snomed.info/sct/2011000195101"
-* protocolApplied.targetDisease[=].coding = $sct#27836007 "coqueluche"
-* protocolApplied.targetDisease[+].coding.version = "http://snomed.info/sct/2011000195101"
-* protocolApplied.targetDisease[=].coding = $sct#397430003 "diphtérie causée par Corynebacterium diphtheriae"
+* protocolApplied.targetDisease[+] = $sct#76902006 "tétanos"
+* protocolApplied.targetDisease[+] = $sct#27836007 "coqueluche"
+* protocolApplied.targetDisease[+] = $sct#397430003 "diphtérie causée par Corynebacterium diphtheriae"
 * protocolApplied.doseNumberPositiveInt = 1
 
 
@@ -104,7 +100,6 @@ Usage: #example
 * lotNumber = "12-34244"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
-* protocolApplied.targetDisease.coding.version = "http://snomed.info/sct/2011000195101"
 //* protocolApplied.targetDisease.coding = $sct#712986001 "Tickborne encephalitis"
 * protocolApplied.targetDisease.coding = $sct#712986001 "Frühsommer-Meningoenzephalitis"
 * protocolApplied.doseNumberPositiveInt = 1
@@ -135,10 +130,7 @@ Usage: #example
 * lotNumber = "AHAVB946A"
 * route = $standardterms#20035000 "Intramuscular use"
 * performer.actor = Reference(TC_HCP1_ORG1_ROLE_performer)
-* protocolApplied.targetDisease[+].coding.version = "http://snomed.info/sct/2011000195101"
-* protocolApplied.targetDisease[=].coding = $sct#76902006	"Starrkrampf"
-* protocolApplied.targetDisease[=].coding.version = "http://snomed.info/sct/2011000195101"
-* protocolApplied.targetDisease[=].coding = $sct#27836007	"Keuchhusten"
-* protocolApplied.targetDisease[=].coding.version = "http://snomed.info/sct/2011000195101"
-* protocolApplied.targetDisease[=].coding = $sct#397430003	"Diphtherie"
+* protocolApplied.targetDisease[+] = $sct#76902006	"Starrkrampf"
+* protocolApplied.targetDisease[+] = $sct#27836007	"Keuchhusten"
+* protocolApplied.targetDisease[+] = $sct#397430003	"Diphtherie"
 * protocolApplied.doseNumberPositiveInt = 1

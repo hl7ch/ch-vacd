@@ -21,7 +21,6 @@ Usage: #definition
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 
 * compose.include[+].system = $sct
-* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 * compose.include[=].concept[+].code = #716186003
 * compose.include[=].concept[=].display = "No known allergy (situation)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -36,7 +35,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "No known allergy"
 
 * compose.include[+].system = "http://snomed.info/sct"
-* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 * compose.include[=].concept[+].code = #213020009
 * compose.include[=].concept[=].display = "Allergy to egg protein (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -78,7 +76,6 @@ Usage: #definition
 
 
 * compose.include[+].system = "http://snomed.info/sct"
-* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 * compose.include[=].concept[+].code = #863903001
 * compose.include[=].concept[=].display = "Allergy to component of vaccine product (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH

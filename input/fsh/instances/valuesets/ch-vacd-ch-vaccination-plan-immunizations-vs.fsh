@@ -18,7 +18,6 @@ Usage: #definition
 * contact.telecom.value = "www.e-health-suisse.ch"
 * description = "Immunization procedures for recommendations according to the vaccination plan."
 * compose.include[+].system = $sct
-* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 * compose.include[=].concept[0].code = #42284007
 * compose.include[=].concept[=].display = "Administration of vaccine product containing only live attenuated Mycobacterium bovis antigen (procedure)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -232,7 +231,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "vaccinaziun cunter pneumococcus cun vaccin fusiunà valenza 23"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Pneumococcal 23-valent conjugate vaccination"
-
 
 
 * compose.include[=].concept[+].code = #72093006

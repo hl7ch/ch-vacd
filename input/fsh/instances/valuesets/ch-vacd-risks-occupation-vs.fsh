@@ -19,7 +19,6 @@ Usage: #definition
 * description = "The occupation exposision risks used in Switzerland."
 
 * compose.include[+].system = $sct
-* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 
 * compose.include[=].concept[+].code = #373068000
 * compose.include[=].concept[=].display = "Undetermined (qualifier value)"
