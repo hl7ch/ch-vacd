@@ -315,9 +315,6 @@ Usage: #definition
 * group[=].element[=].target[+].code = #68235
 * group[=].element[=].target[=].display = "COVID-19 Vaccine Janssen"
 * group[=].element[=].target[=].equivalence = #equivalent
-* group[=].element[=].target[+].code = #68473
-* group[=].element[=].target[=].display = "Nuvaxovid 0.5 ml"
-* group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #68710-01
 * group[=].element[=].target[=].display = "Comirnaty® 30 Mikrogramm/Dosis"
 * group[=].element[=].target[=].equivalence = #equivalent
@@ -329,6 +326,11 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[+].code = #69009
 * group[=].element[=].target[=].display = "Spikevax Bivalent Original / Omicron"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+// added 2023-02-21
+* group[=].element[=].target[+].code = #69047
+* group[=].element[=].target[=].display = "Comirnaty® Original/Omicron BA.1 15/15 µg pro Dosis"
 * group[=].element[=].target[=].equivalence = #equivalent
 // added 2023-05-19
 * group[=].element[=].target[+].code = #69127
@@ -359,6 +361,13 @@ Usage: #definition
 // added 2023-10-10
 * group[=].element[=].target[+].code = #69488
 * group[=].element[=].target[=].display = "Comirnaty Omicron XBB.1.5 (30 Mikrogramm)/Dosis, Injektionsdispersion"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+
+* group[=].element[+].code = #29061000087103
+* group[=].element[=].display = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
+* group[=].element[=].target[+].code = #68473
+* group[=].element[=].target[=].display = "Nuvaxovid 0.5 ml"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 

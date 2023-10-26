@@ -424,25 +424,12 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
-* group[=].element[+].code = #68235
-* group[=].element[=].display = "COVID-19 Vaccine Janssen"
-* group[=].element[=].target[+].code = #1119349007
-* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+
 
 * group[=].element[+].code = #67987
 * group[=].element[=].display = "Shingrix"
 * group[=].element[=].target[+].code = #1156183006
 * group[=].element[=].target[=].display = "Vaccine product containing only Human alphaherpesvirus 3 recombinant surface glycoprotein E antigen (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
-
-* group[=].element[+].code = #68473
-* group[=].element[=].display = "Nuvaxovid 0.5 ml"
-* group[=].element[=].target[+].code = #1119349007
-* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
-* group[=].element[=].target[+].code = #1119349007
-* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #68710-01
@@ -457,11 +444,31 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
+* group[=].element[+].code = #68710-03
+* group[=].element[=].display = "Comirnaty® 3 Mikrogramm/Dosis"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
 * group[=].element[+].code = #69009
 * group[=].element[=].display = "Spikevax Bivalent Original / Omicron"
 * group[=].element[=].target[+].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
+
+
+* group[=].element[+].code = #68235
+* group[=].element[=].display = "COVID-19 Vaccine Janssen"
+* group[=].element[=].target[+].code = #29061000087103
+* group[=].element[=].target[=].display = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+* group[=].element[+].code = #68473
+* group[=].element[=].display = "Nuvaxovid 0.5 ml"
+* group[=].element[=].target[+].code = #29061000087103
+* group[=].element[=].target[=].display = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
 
 * group[=].element[+].code = #68110
 * group[=].element[=].display = "Adacel-Polio 0.5 ml"
