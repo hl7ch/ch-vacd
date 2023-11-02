@@ -24,5 +24,5 @@ Two or more [Observation](StructureDefinition-ch-vacd-laboratory-serology.html)r
 #### PastIllness, MedicalProblems, BasicImmunization (Condition)
 
 Two or more [CH VACD Condition Profile (Abstract)](StructureDefinition-ch-vacd-condition.html) (and the derivations [CH VACD Past Illness](StructureDefinition-ch-vacd-pastillnesses.html), [CH VACD Medical Problems](StructureDefinition-ch-vacd-medical-problems.html) and [CH VACD Basic Immunization](StructureDefinition-ch-vacd-basic-immunization.html)) resources can be declared as duplicate if following criteria is fullfilled:
-*
+* tbd
 
