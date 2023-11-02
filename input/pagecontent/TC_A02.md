@@ -1,13 +1,13 @@
 ## Test Case A 02: HCP from G2 applies and records second dose of vaccination (hepatitis A).
 
 ### Precondition
-A vaccination for hepatitis A is already found in the patient's vaccination documentation which is stored in the EPR.
+A vaccination for hepatitis A is already found in the patient's vaccination documentation which is stored in the ehealth ecosystem.
 The documents of [Test case A 01](TC_A01.html) are a prerequisite.
 Any vaccination check carried out with the available data indicates a second dose of hepatitis A.
 
 
 ### Sequence
-The HCP who administered the vaccination for hepatitis A to the patient creates an ImmunizationAdministration document [A-D4-HCP2-C2](Bundle-A-D4-HCP2-C2.html) with the data on the applied immunization and loads it up to EPR of the patient.
+The HCP who administered the vaccination for hepatitis A to the patient creates an ImmunizationAdministration document [A-D4-HCP2-C2](Bundle-A-D4-HCP2-C2.html) with the data on the applied immunization and loads it up to the ehealth ecosystem of the patient.
 
 <div>{% include TCA02.svg %}</div>
 

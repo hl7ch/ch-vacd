@@ -5,7 +5,7 @@ skinparam responseMessageBelowArrow true
 skinparam style strictuml
 scale max 800 width
 
-box "Reference Community (C1)"
+box "eHealth Record Repository 1"
 actor "Practitioner" as PAT #red
 participant "Doc1\nAdmin" as Doc1 #lightblue
 participant "Doc2\nAdmin" as Doc2 #lightblue
@@ -17,7 +17,7 @@ end box
 PAT -> Doc5: Patient (C1) creates document\nwith vaccination FSME-Immun CC against TBE (2nd dose)
 PAT <-- Doc5
 
-box "Community (C2)"
+box "eHealth Record Repository 2"
 participant "Doc3\nAdmin" as Doc3 #orange
 participant "Doc4\nAdmin" as Doc4 #orange
 end box

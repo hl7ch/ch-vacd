@@ -6,7 +6,7 @@ skinparam style strictuml
 scale max 800 width
 
 
-box "Reference Community (C1)"
+box "eHealth Record Repository 1"
 actor "Patient" as PAT #blue
 participant "Doc1\nAdmin" as Doc1 #lightblue
 participant "Doc2\nAdmin" as Doc2  #lightblue
@@ -14,10 +14,10 @@ participant Aggregator as AGG
 participant "Resultat\nRecord" as RES #lightgreen
 end box
 
-box "Community (C2)"
+box "eHealth Record Repository 2"
 participant "Doc3\nAdmin" as Doc3 #orange
 participant "Doc4\nAdmin" as Doc4 #orange
-actor "Health Care Professional 2 (C2)" as HCP2_C2 #orange
+actor "Health Care Professional 2 (R2)" as HCP2_C2 #orange
 end box
 
 HCP2_C2 -> Doc4: HCP2 (G2) creates document\nwith vaccination Havrix 1440 against viral heaptite A (2nd dose)

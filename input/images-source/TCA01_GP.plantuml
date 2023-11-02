@@ -7,7 +7,7 @@ scale max 800 width
 
 
 box "eHealth Record Repository 1"
-actor "Health Care Professional 1 (C1)" as HCP1_C1 #red
+actor "Health Care Professional 1 (R1)" as HCP1_C1 #red
 actor "Patient" as PAT #blue
 participant "Doc1\nAdmin" as Doc1 #lightblue
 participant "Doc2\nAdmin" as Doc2 #lightblue
@@ -17,7 +17,7 @@ end box
 
 box "eHealth Record Repository 2"
 participant "Doc3\nAdmin" as Doc3 #orange
-actor "Health Care Professional 2 (C2)" as HCP2_C2 #orange
+actor "Health Care Professional 2 (R2)" as HCP2_C2 #orange
 end box
 
 PAT -> Doc1: Patient (C1) creates document\nwith vaccination Havrix 1440 against viral heaptite A

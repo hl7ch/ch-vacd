@@ -5,7 +5,7 @@ skinparam responseMessageBelowArrow true
 skinparam style strictuml
 scale max 800 width
 
-box "Reference Community (C1)"
+box "eHealth Record Repository 1"
 actor "Patient" as PAT #blue
 participant "Doc1\nAdmin" as Doc1 #lightblue
 participant "Doc2\nAdmin" as Doc2 #lightblue
@@ -13,7 +13,7 @@ participant Aggregator as AGG
 participant "Result\nRecord" as RES #lightgreen
 end box
 
-box "Community (C2)"
+box "eHealth Record Repository 2"
 participant "Doc3\nAdmin" as Doc3 #orange
 end box
 

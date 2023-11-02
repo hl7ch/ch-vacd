@@ -6,17 +6,17 @@ skinparam style strictuml
 scale max 800 width
 
 
-box "Reference Community (C1)"
+box "eHealth Record Repository 1"
 actor "Patient" as PAT #blue
-actor "Health Care Professional 1 (C1)" as HCP1_C1 #lightblue
+actor "Health Care Professional 1 (R1)" as HCP1_C1 #lightblue
 participant "Doc2\nAdmin" as Doc2 #lightblue
 participant Aggregator as AGG
 participant "Result\nRecord" as RES #lightgreen
 end box
 
-box "Community (C2)"
+box "eHealth Record Repository 2"
 participant "Doc1\nAdmin" as Doc1 #orange
-actor "Health Care Professional 2 (C2)" as HCP2_C2 #orange
+actor "Health Care Professional 2 (R2)" as HCP2_C2 #orange
 end box
 
 HCP2_C2 -> Doc1: HCP2 (C2) creates document\nwith vaccination FSME-Immun CC\nagainst TBE
