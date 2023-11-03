@@ -34,7 +34,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "No known allergy"
 
-* compose.include[+].system = "http://snomed.info/sct"
 * compose.include[=].concept[+].code = #213020009
 * compose.include[=].concept[=].display = "Allergy to egg protein (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -47,19 +46,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "allergia cunter alv d'ov da giaglina"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to egg protein"
-
-* compose.include[=].concept[+].code = #24079001
-* compose.include[=].concept[=].display = "Atopic dermatitis (disorder)"
-* compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Atopische Dermatitis"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "dermite atopique"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "dermatite atopica"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "dermatitis atopica"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Atopic dermatitis"
 
 * compose.include[=].concept[+].code = #416098002
 * compose.include[=].concept[=].display = "Allergy to drug (finding)"
@@ -74,8 +60,33 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to drug"
 
+* compose.include[=].concept[+].code = #39579001
+* compose.include[=].concept[=].display = "Anaphylaxis (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Anaphylaktische Reaktion"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "réaction anaphylactique"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "reazione anafilattica"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Anaphylaktische Reaktion"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Anaphylactic reaction"
 
-* compose.include[+].system = "http://snomed.info/sct"
+* compose.include[=].concept[+].code = #24079001
+* compose.include[=].concept[=].display = "Atopic dermatitis (disorder)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Atopische Dermatitis"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "dermite atopique"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "dermatite atopica"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "dermatitis atopica"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Atopic dermatitis"
+
+
 * compose.include[=].concept[+].code = #863903001
 * compose.include[=].concept[=].display = "Allergy to component of vaccine product (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
