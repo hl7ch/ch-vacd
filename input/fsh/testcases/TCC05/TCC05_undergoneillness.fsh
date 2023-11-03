@@ -31,11 +31,21 @@ Usage: #example
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
 * identifier.value = "f9b92bd3-e9d7-4604-9a8a-723b1f7a5292"
 
-* extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-cross-reference"
+// TCC05_UNDILL1
+// C_D6_P_C1_Composition
+* extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
-* extension[=].extension[=].valueReference = Reference(TCC05_UNDILL1)
-* extension[=].extension[+].url = "document"
-* extension[=].extension[=].valueReference = Reference(C_D6_P_C1_Composition)
+* extension[=].extension[=].extension[0].url = "identifier"
+* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* extension[=].extension[=].extension[=].valueIdentifier.value = "b594b7fb-4fb1-466d-b7bc-66216338a727"
+* extension[=].extension[=].extension[+].url = "resource"
+* extension[=].extension[=].extension[=].valueCode = ResourceType#Condition
+* extension[=].extension[+].url = "container"
+* extension[=].extension[=].extension[0].url = "identifier"
+* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:ietf:rfc:3986"
+* extension[=].extension[=].extension[=].valueIdentifier.value = "urn:uuid:73d0abee-843e-437f-9f52-aeeff8ba758d"
+* extension[=].extension[=].extension[+].url = "resource"
+* extension[=].extension[=].extension[=].valueCode = ResourceType#Composition
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
 

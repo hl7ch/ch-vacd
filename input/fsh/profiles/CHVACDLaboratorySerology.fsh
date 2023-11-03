@@ -10,7 +10,7 @@ Description: "Definition of the labor and serology part for all documents, excep
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
-* extension contains CHVACDExtensionCrossReference named relatesTo 0..1 and 
+* extension contains EntryResourceCrossReferences named relatesTo 0..1 and 
                      CHVACDExtensionMergingConflictEntryReference named conflict 0..* 
 * extension[relatesTo] ^definition = "The definition of a relation of this laboratory entry in this document to an laboratory entry in an other document."
 * extension[conflict] ^definition = "The definition of a conflict on merging different documents."

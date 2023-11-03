@@ -29,13 +29,25 @@ Title: "Exposition Risk \"Bat researcher or guard\" (Condition)"
 Description: "Example Condition for canceling expositionrisk \"FLEDERMAUSFORSCHER_UND_SCHUETZER'\""
 Usage: #example
 * id = "TCC04-EXPRISK2"
-* extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-cross-reference"
+
+// TCC04_EXPRISK1
+// C_D4_HCP2_C2_Composition
+* extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
-* extension[=].extension[=].valueReference = Reference(TCC04_EXPRISK1)
-* extension[=].extension[+].url = "document"
-* extension[=].extension[=].valueReference = Reference(C_D4_HCP2_C2_Composition)
+* extension[=].extension[=].extension[0].url = "identifier"
+* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* extension[=].extension[=].extension[=].valueIdentifier.value = "dc168f1f-967c-4ff2-95ef-f8c468d67b45"
+* extension[=].extension[=].extension[+].url = "resource"
+* extension[=].extension[=].extension[=].valueCode = ResourceType#Condition
+* extension[=].extension[+].url = "container"
+* extension[=].extension[=].extension[0].url = "identifier"
+* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:ietf:rfc:3986"
+* extension[=].extension[=].extension[=].valueIdentifier.value = "urn:uuid:9686dae0-448c-49f8-9c78-2db1aa95b921"
+* extension[=].extension[=].extension[+].url = "resource"
+* extension[=].extension[=].extension[=].valueCode = ResourceType#Composition
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
+
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
 * identifier.value = "dc168f1f-967c-4ff2-95ef-f8c468d67b45"
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"

@@ -25,13 +25,25 @@ Title: "TCF02 AllergyIntollerance 2"
 Description: "Testcase F 2: Add comment (note) to an existing AllergyIntolerance"
 Usage: #example
 * id = "TCF02-ALLINTO2"
-* extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-cross-reference"
+
+// TCF02_ALLINTO1
+// F_D3_HCP1_C1_Composition
+* extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
-* extension[=].extension[=].valueReference = Reference(TCF02_ALLINTO1)
-* extension[=].extension[+].url = "document"
-* extension[=].extension[=].valueReference = Reference(F_D3_HCP1_C1_Composition)
+* extension[=].extension[=].extension[0].url = "identifier"
+* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* extension[=].extension[=].extension[=].valueIdentifier.value = "cbc8c8c1-4f47-4ec3-99a7-ae775b75c621"
+* extension[=].extension[=].extension[+].url = "resource"
+* extension[=].extension[=].extension[=].valueCode = ResourceType#AllergyIntolerance
+* extension[=].extension[+].url = "container"
+* extension[=].extension[=].extension[0].url = "identifier"
+* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:ietf:rfc:3986"
+* extension[=].extension[=].extension[=].valueIdentifier.value = "urn:uuid:98dbfa14-1b2e-40f8-8110-932c631db1df"
+* extension[=].extension[=].extension[+].url = "resource"
+* extension[=].extension[=].extension[=].valueCode = ResourceType#Composition
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
+
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
 * identifier.value = "e6e14c17-b468-4ecb-a4d7-8dfd5ddb36d8"
 * clinicalStatus = $allergyintolerance-clinical#active

@@ -16,7 +16,7 @@ Description: "Definition of the immunization part for all documents, except reco
 * extension contains
     $ch-ext-author named recorder 0..1 and
     CHVACDExtensionImmunizationMedicationReference named medication 0..1 and
-    CHVACDExtensionCrossReference named relatesTo 0..1 and 
+    EntryResourceCrossReferences named relatesTo 0..1 and 
     CHVACDExtensionMergingConflictEntryReference named conflict 0..* 
 * extension[recorder] MS
 * extension[recorder] ^definition = "The recorder Reference of the immunization. May be a Practitioner or a Patient"
