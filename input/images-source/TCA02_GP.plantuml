@@ -1,51 +1,49 @@
 @startuml
-title Test Case A 03
-footer Version 1.0
+title Test Case A 02
+footer Version 2.0
 skinparam responseMessageBelowArrow true
 skinparam style strictuml
 scale max 800 width
 
+
 box "eHealth Record Repository 1"
-actor "Patient" as PAT #blue
+actor "Health Care Professional 1 (R1)" as PAT #red
 participant "Doc1\nAdmin" as Doc1 #lightblue
-participant "Doc2\nAdmin" as Doc2 #lightblue
-participant "Doc5\nAdmin" as Doc5 #lightblue
+participant "Doc2\nAdmin" as Doc2  #lightblue
 participant Aggregator as AGG
 participant "Resultat\nRecord" as RES #lightgreen
 end box
 
-PAT -> Doc5: Patient (C1) creates document\nwith vaccination FSME-Immun CC against TBE (2nd dose)
-PAT <-- Doc5
-
 box "eHealth Record Repository 2"
 participant "Doc3\nAdmin" as Doc3 #orange
 participant "Doc4\nAdmin" as Doc4 #orange
+actor "Health Care Professional 2 (R2)" as HCP2_C2 #orange
 end box
+
+HCP2_C2 -> Doc4: HCP2 (G2) creates document\nwith vaccination Havrix 1440 against viral heaptite A (2nd dose)
+HCP2_C2 <-- Doc4
 
 PAT -> AGG: get Vaccination Record
 activate AGG
 
-AGG -> Doc1: get Doc1
+AGG -> Doc1: get doc
 AGG <-- Doc1
 
-AGG -> Doc2: get Doc2
+AGG -> Doc2: get doc
 AGG <-- Doc2
 
-AGG -> Doc3: get Doc3
+AGG -> Doc3: get doc
 AGG <-- Doc3
-AGG -> Doc4: get Doc4
+
+AGG -> Doc4: get doc
 AGG <-- Doc4
 
-AGG -> Doc5: get Doc5
-AGG <-- Doc5
-
-AGG -> AGG: aggregate documents 
+AGG -> AGG: aggregate
 activate AGG
-AGG -> AGG: add document author (Patient or Device)
-AGG -> RES: create Vaccination Record
+AGG -> AGG: add author (Practitioner or Device)
+AGG -> RES: creates document\nVaccination Record
 deactivate AGG
 AGG <-- RES
-
 PAT <-- AGG: show Vaccination Record
 deactivate AGG
 

@@ -1,0 +1,29 @@
+@startuml
+title Aggregation of Immunization Administration Documents with duplicate
+
+'left to right direction
+
+
+object "Immunization Administration\nDocument 1" as Doc1 #lightblue
+Doc1 : entry "Immunization1"
+
+object "Immunization Administration\nDocument 2" as Doc2 #lightblue
+Doc2 : entry "Immunization 1"
+
+object "Immunization Administration\nDocument 3" as Doc3 #lightblue
+Doc3 : entry "Immunization 2"
+
+object "Aggregator" as AGG
+
+object "Vaccination Record\nDocument" as RES #lightgreen
+RES : entry "Immunization 1 - duplicate error reference"
+RES : entry "Immunization 1 - duplicate error reference"
+RES : entry "Immunization 2"
+
+
+Doc1 -down-> AGG
+Doc2 -down-> AGG
+Doc3 -down-> AGG
+AGG -down-> RES
+
+@enduml

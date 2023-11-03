@@ -92,4 +92,4 @@ Usage: #example
 * section[=].title = "Comments"
 * section[=].code = $loinc#48767-8 "Annotation comment Imp"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\">This is the section containing all immunization entries.</div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" >This is the section containing all immunization entries.</div>"

@@ -1,12 +1,12 @@
 @startuml
 title Test Case A 03
-footer Version 1.0
+footer Version 2.0
 skinparam responseMessageBelowArrow true
 skinparam style strictuml
 scale max 800 width
 
 box "eHealth Record Repository 1"
-actor "Patient" as PAT #blue
+actor "Practitioner" as PAT #red
 participant "Doc1\nAdmin" as Doc1 #lightblue
 participant "Doc2\nAdmin" as Doc2 #lightblue
 participant "Doc5\nAdmin" as Doc5 #lightblue
@@ -40,13 +40,13 @@ AGG -> Doc5: get Doc5
 AGG <-- Doc5
 
 AGG -> AGG: aggregate documents 
+AGG -> AGG: add document author (Practitioner or Device)
 activate AGG
-AGG -> AGG: add document author (Patient or Device)
 AGG -> RES: create Vaccination Record
 deactivate AGG
 AGG <-- RES
 
-PAT <-- AGG: show Vaccination Record
+PAT <-- AGG: Show Vaccination Record
 deactivate AGG
 
 @enduml

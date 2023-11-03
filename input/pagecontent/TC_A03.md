@@ -1,13 +1,15 @@
-## Test Case 03: Patient enters second dose of vaccination (TBE). Dok5 refers to the vaccination entry in Dok3
+## Test Case 03: Patient enters second dose of vaccination (TBE).
 
 ### Precondition
-The patient has already entered a dose of the TBE vaccination in his vaccination documentation. He has now received a second dose of the TBE vaccination from his doctor. Since his doctor did not document the vaccination in the EPR, the patient now wants to enter this himself.
+The patient has already entered a dose of the TBE vaccination in his vaccination documentation. He has now received a second dose of the TBE vaccination from his doctor. Since his doctor did not document the vaccination in the ehealth ecosystem, the patient now wants to enter this himself.
 
 ### Sequence
-The patient creates the corresponding vaccination administration document for the second dose of the TBE vaccination with the vaccination module of the patient portal.
+The patient creates the corresponding vaccination administration document for the second dose of the TBE vaccination with the his vaccination application.
 He is entered as the patient as the author and creator of the document [Composition.author](StructureDefinition-ch-vacd-composition-immunization-administration-definitions.html#Composition.author) and the Immunization
 
 <div>{% include TCA03.svg %}</div>
+
+<div>{% include TCA03_GP.svg %}</div>
 
 ### Result
 The second dose of the TBE vaccination is entered in the patient's documentation.

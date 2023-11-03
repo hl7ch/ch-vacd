@@ -7,8 +7,8 @@ scale max 800 width
 
 
 box "eHealth Record Repository 1"
-actor "Patient" as PAT #blue
 actor "Health Care Professional 1 (R1)" as HCP1_C1 #red
+actor "Patient" as PAT #blue
 participant "Doc1\nAdmin" as Doc1 #lightblue
 participant "Doc2\nAdmin" as Doc2 #lightblue
 participant Aggregator as AGG
@@ -29,7 +29,7 @@ HCP1_C1 <-- Doc2
 HCP2_C2 -> Doc3: HCP2 (G2) creates document\nwith vaccination FSME-Immun CC\nagainst TBE (1. Dosis)
 HCP2_C2 <-- Doc3:
 
-PAT -> AGG: get Vaccination Record
+HCP1_C1 -> AGG: get Vaccination Record
 activate AGG
 AGG -> Doc1: get doc
 AGG <-- Doc1
@@ -40,11 +40,11 @@ AGG <-- Doc3
 
 AGG -> AGG: aggregate
 activate AGG
-AGG -> AGG: add document author (Patient or Device)
+AGG -> AGG: add document author (Practitioner or Device)
 AGG -> RES: creates document\nVaccination Record 
 deactivate AGG
 AGG <-- RES
-PAT <-- AGG: show Vaccination Record
+HCP1_C1 <-- AGG: show Vaccination Record
 deactivate AGG
 
 

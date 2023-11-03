@@ -69,11 +69,14 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_HCP1_ORG1_ROLE_author)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_BOOSTRIX)
+
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-merging-conflict-entry-reference"
 * extension[=].extension[0].url = "entry"
 * extension[=].extension[=].valueReference = Reference(TCD01_IMMUN3_2)
 * extension[=].extension[1].url = "conflict"
 * extension[=].extension[=].valueCode = #duplicate
+
+
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "urn:uuid:ebcf6de2-ed9c-463c-8b08-cb487af8ce4e"
 * status = #completed

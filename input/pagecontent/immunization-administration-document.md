@@ -2,6 +2,9 @@ The **Immunization Administration document** describes the content and format of
 
 This document is allowed to be used in context of the Swiss EPR but can also used in context of data exchange next to the Swiss EPR.
 
+### Aggregation
+Immunization Administration document have one to multiple entries documenting actions on a patient around vaccination. An Immunization Administration document can, but does normally not document the complete immunization status of a patient. Therefor we have defined the document [Vaccination Record](vaccination-record-document.html) which can be created by the the aggregation of Immunization Administration documents and is described [here](aggregator.html).
+
 
 ### FHIR document (Bundle)
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 

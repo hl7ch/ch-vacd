@@ -31,21 +31,21 @@ deactivate "CO-Repository"
 
 "GFPP/PIS" -> "GFPP/PIS": set all old documents to deprecated
 activate "GFPP/PIS"
-loop "all other communities"
-"GFPP/PIS" -> "CO-IGW": Restricted Metadata Update Request [ITI-92]
-activate "CO-IGW"
+' loop "all other communities"
+' "GFPP/PIS" -> "CO-IGW": Restricted Metadata Update Request [ITI-92]
+' activate "CO-IGW"
 
-"CO-IGW" -> "OC-RGW": Restricted Metadata Update\nRequest [ITI-92]
-activate "OC-RGW"
-"OC-RGW" -> "OC-Registry": Restricted Metadata Update\nRequest [ITI-92]
-activate "OC-Registry"
-"OC-Registry" -> "OC-RGW": Restricted Metadata Update\nResponse [ITI-92]
-deactivate "OC-Registry"
-"OC-RGW" -> "CO-IGW": Restricted Metadata Update\nResponse [ITI-92]
-deactivate "OC-RGW"
-"CO-IGW" -> "GFPP/PIS": Restricted Metadata Update Response [ITI-92]
-deactivate "CO-IGW"
-end
+' "CO-IGW" -> "OC-RGW": Restricted Metadata Update\nRequest [ITI-92]
+' activate "OC-RGW"
+' "OC-RGW" -> "OC-Registry": Restricted Metadata Update\nRequest [ITI-92]
+' activate "OC-Registry"
+' "OC-Registry" -> "OC-RGW": Restricted Metadata Update\nResponse [ITI-92]
+' deactivate "OC-Registry"
+' "OC-RGW" -> "CO-IGW": Restricted Metadata Update\nResponse [ITI-92]
+' deactivate "OC-RGW"
+' "CO-IGW" -> "GFPP/PIS": Restricted Metadata Update Response [ITI-92]
+' deactivate "CO-IGW"
+' end
 "GFPP/PIS" -> "GFPP/PIS": OK
 deactivate "GFPP/PIS"
 

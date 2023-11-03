@@ -1,7 +1,7 @@
-# Resolution Desk STU 4 Ballot - v3.1.0 (2023)
+# Resolution Desk STU 4 Ballot - v4.0.0-ballot (2023)
 
 ## 1 Resolution Summary
-Alle open issues from STU4 Ballot (v3.1.0) are resolved
+Alle open issues from STU4 Ballot (v4.0.0-ballot) are resolved
 
 ## 2 General Comments
 CI Builds can be found until merge to master is done under [ballot_310_stu4_issues](http://build.fhir.org/ig/hl7ch/ch-vacd/branches/ballot_310_stu4_issues/index.html).

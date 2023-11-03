@@ -19,8 +19,8 @@ loop "Interrogation de toutes les communautés"
 end
 "GFPP/PIS" -> "Agrégateur de vaccins": Résumer toutes les données structurées
 "Agrégateur de vaccins" ->  "GFPP/PIS": Un carnet de vaccination agrégé
-"GFPP/PIS" -> "GFPP/PIS": pseudonymiser
-"GFPP/PIS" ->  "Contrôle de vaccination": document de vaccination agrégé et pseudonymisé
+' "GFPP/PIS" -> "GFPP/PIS": pseudonymiser
+"GFPP/PIS" ->  "Contrôle de vaccination": document de vaccination agrégé
 "Impfcheck" -> "GFPP/PIS": recommandation de vaccination
 "GFPP/PIS" -> Docteur: Afficher les données de\nvaccination agrégées
 

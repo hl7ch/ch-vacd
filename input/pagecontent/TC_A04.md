@@ -7,8 +7,8 @@ The documents of the [Test Cases A01](TC_A01.html), [A02](TC_A02.html), [A03](TC
 
 
 ### Sequence
-The healthcare professional creates a new [Document] (Bundle-A-D6-HCP1-C1.html) which refers  to the [Document](Bundle-A-D5-P-C1.html) created by the patient ([Compositions.realtesTo](StructureDefinition-ch-vacd-composition-immunization-administration-definitions.html#Composition.relatesTo)),
-as well as using the extension [Extension](StructureDefinition-ch-vacd-ext-cross-reference.html) to set the two immunization entries in relation to one another and the date [Immunization.recorded](StructureDefinition-ch-vacd-immunization-definitions.html#Immunization.recorded) are set as new.
+The healthcare professional creates a new [Document A-D6-HCP1-C1](Bundle-A-D6-HCP1-C1.html) which refers  to the [Document A-D5-P-C1](Bundle-A-D5-P-C1.html) created by the patient ([Compositions.relatesTo](StructureDefinition-ch-vacd-composition-immunization-administration-definitions.html#Composition.relatesTo)),
+as well as using the extension [Extension ch-vacd-ext-cross-reference](StructureDefinition-ch-vacd-ext-cross-reference.html) to set the two immunization entries in relation to one another and the date [Immunization.recorded](StructureDefinition-ch-vacd-immunization-definitions.html#Immunization.recorded) are set as new.
 
 
 <div>{% include TCA04.svg %}</div>

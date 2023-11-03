@@ -313,7 +313,7 @@ Usage: #example
 * section[=].title = "Allergies"
 * section[=].code = $loinc#48765-2 "Allergies and adverse reactions Document"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\">This is the section containing the allergy entries.</div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing the allergy entries.</div>"
 * section[=].entry[0].reference = "AllergyIntolerance/11-1-AllergyIntolerance"
 * section[=].entry[+].reference = "AllergyIntolerance/11-2-AllergyIntolerance"
 * section[+].id = "sectionLab1"
@@ -326,4 +326,4 @@ Usage: #example
 * section[=].title = "Comments"
 * section[=].code = $loinc#48767-8 "Annotation comment Imp"
 * section[=].text.status = #generated
-* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\">This is the section containing all immunization entries.</div>"
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" >This is the section containing all immunization entries.</div>"

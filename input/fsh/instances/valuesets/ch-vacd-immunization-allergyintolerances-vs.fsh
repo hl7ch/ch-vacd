@@ -21,7 +21,6 @@ Usage: #definition
 * copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these artefacts must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/getsnomed-ct or info@snomed.org."
 
 * compose.include[+].system = $sct
-* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 * compose.include[=].concept[+].code = #716186003
 * compose.include[=].concept[=].display = "No known allergy (situation)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -36,7 +35,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "No known allergy"
 
 * compose.include[+].system = "http://snomed.info/sct"
-* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 * compose.include[=].concept[+].code = #213020009
 * compose.include[=].concept[=].display = "Allergy to egg protein (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -78,7 +76,6 @@ Usage: #definition
 
 
 * compose.include[+].system = "http://snomed.info/sct"
-* compose.include[=].version = "http://snomed.info/sct/2011000195101"
 * compose.include[=].concept[+].code = #863903001
 * compose.include[=].concept[=].display = "Allergy to component of vaccine product (finding)"
 * compose.include[=].concept[=].designation[0].language = #de-CH
@@ -448,6 +445,23 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to anthrax vaccine"
+
+
+// added 2023-10-24
+//700468006 Allergy to component of vaccine product containing Rotavirus antigen (finding)
+* compose.include[=].concept[+].code = #700468006
+* compose.include[=].concept[=].display = "Allergy to component of vaccine product containing Rotavirus antigen (finding)"
+* compose.include[=].concept[=].designation[0].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Impfstoff gegen Rotavirus"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie au vaccin contre le rotavirus"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Allergia al vaccino contro il Rotavirus"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Allergie gegen Impfstoff gegen Rotavirus"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Allergy to Rotavirus vaccine"
+
 
 
 * compose.include[+].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-allergyintolerance-cs"

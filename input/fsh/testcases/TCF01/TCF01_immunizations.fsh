@@ -36,13 +36,25 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
-* extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-cross-reference"
+
+// TCF01_IMMUN1
+// F_D1_HCP1_C1_Composition
+* extension[2].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
-* extension[=].extension[=].valueReference = Reference(TCF01_IMMUN1)
-* extension[=].extension[+].url = "document"
-* extension[=].extension[=].valueReference = Reference(F_D1_HCP1_C1_Composition)
+* extension[=].extension[=].extension[0].url = "identifier"
+* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* extension[=].extension[=].extension[=].valueIdentifier.value = "855bdd69-0a39-4241-b208-9b248a62fb76"
+* extension[=].extension[=].extension[+].url = "resource"
+* extension[=].extension[=].extension[=].valueCode = ResourceType#Immunization
+* extension[=].extension[+].url = "container"
+* extension[=].extension[=].extension[0].url = "identifier"
+* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:ietf:rfc:3986"
+* extension[=].extension[=].extension[=].valueIdentifier.value = "urn:uuid:e2233a2f-d1c2-459d-b4fe-4920c35339e7"
+* extension[=].extension[=].extension[+].url = "resource"
+* extension[=].extension[=].extension[=].valueCode = ResourceType#Composition
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
+
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "e2233a2f-d1c2-459d-b4fe-4920c35339e7"
 * status = #completed

@@ -5,7 +5,7 @@ skinparam responseMessageBelowArrow true
 skinparam style strictuml
 scale max 800 width
 
-box "Reference Community (C1)"
+box "eHealth Record Repository 1"
 actor "Patient" as PAT #blue
 participant "Doc1\nAdmin" as Doc1 #lightblue
 participant "Doc2\nAdmin" as Doc2 #lightblue
@@ -13,20 +13,35 @@ participant Aggregator as AGG
 participant "Result\nRecord" as RES #lightgreen
 end box
 
-box "Community (C2)"
+box "eHealth Record Repository 2"
 participant "Doc3\nAdmin" as Doc3 #orange
 end box
 
-Doc1 --> AGG: aggregation
-Doc2 --> AGG: aggregation
-Doc3 --> AGG: aggregation
 
-Doc1 o<-->o Doc2: Same MedicalRisk entry detected
-Doc2 o<-->o Doc3: Same MedicalRisk entry detected
-Doc1 o<-->o Doc3: Same MedicalRisk entry detected
+PAT -> AGG: get Vaccination Record
+activate AGG
 
-AGG -> RES: creates document\nVaccination Record 
-PAT -> RES: Patient sees immunization status
+AGG -> Doc1: get doc
+AGG <-- Doc1
+
+AGG -> Doc2: get doc
+AGG <-- Doc2
+ 
+AGG -> AGG: aggregate documents 
+activate AGG
+
+Doc1 o<-[#red]->o Doc2: Same MedicalRisk entry detected
+Doc2 o<-[#red]->o Doc3: Same MedicalRisk entry detected
+Doc1 o<-[#red]->o Doc3: Same MedicalRisk entry detected
+
+AGG -> AGG: add double entries error
+AGG -> AGG: add document author (Patient or Device)
+AGG -> RES: create Vaccination Record
+deactivate AGG
+AGG <-- RES
+
+PAT <-- AGG: show Vaccination Record
+deactivate AGG
 
 
 @enduml

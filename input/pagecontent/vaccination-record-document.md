@@ -2,6 +2,12 @@ The **Vaccination Record document** describes the content and format of a vaccin
 
 This document is allowed to be used in context of the Swiss EPR but can also be used in context of data exchange next to the Swiss EPR.
 
+
+### Aggregation
+A vaccination record document can be an aggregation of multiple immunization administration documents.
+The process of the aggregation and its criterias and problems is described [here](aggregator.html)
+
+
 ### FHIR document (Bundle)
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 
 A Bundle has a list of entries. The first entry is the Composition, in which all contained entries are then referenced.

@@ -58,6 +58,6 @@ dependencies:
     uri: http://fhir.ch/ig/ch-emed/ImplementationGuide/ch.fhir.ig.ch-emed
     id: chemed
   ch.fhir.ig.ch-allergyintolerance:
-    version: 2.0.0-ballot
+    version: current
     uri: http://fhir.ch/ig/ch-allergyintolerance/ImplementationGuide/ch.fhir.ig.ch-allergyintolerance
     id: challergy

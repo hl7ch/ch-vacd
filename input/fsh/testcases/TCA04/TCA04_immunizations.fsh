@@ -12,13 +12,30 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_HCP1_ORG1_ROLE_author)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)
-* extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-cross-reference"
+
+// TCA03_IMMUN5_patient
+// A_D5_P_C1_Composition
+* extension[2].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
-* extension[=].extension[=].valueReference = Reference(TCA03_IMMUN5_patient)
-* extension[=].extension[+].url = "document"
-* extension[=].extension[=].valueReference = Reference(A_D5_P_C1_Composition)
+* extension[=].extension[=].extension[0].url = "identifier"
+* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* extension[=].extension[=].extension[=].valueIdentifier.value = "74b1e856-c0fb-47da-aab1-08541eacc21c"
+* extension[=].extension[=].extension[+].url = "resource"
+* extension[=].extension[=].extension[=].valueCode = ResourceType#Immunization
+* extension[=].extension[+].url = "container"
+* extension[=].extension[=].extension[0].url = "identifier"
+* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:ietf:rfc:3986"
+* extension[=].extension[=].extension[=].valueIdentifier.value = "urn:uuid:c2e1d265-f3fa-4023-92a3-2e9efe1ca192"
+* extension[=].extension[=].extension[+].url = "resource"
+* extension[=].extension[=].extension[=].valueCode = ResourceType#Composition
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
+
+// * extension[=].extension[=].valueReference = Reference(TCA03_IMMUN5_patient)
+// * extension[=].extension[+].url = "document"
+// * extension[=].extension[=].valueReference = Reference(A_D5_P_C1_Composition)
+
+
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "a2976ff9-0697-457f-9efc-96156a2b3a94"
 * status = #completed

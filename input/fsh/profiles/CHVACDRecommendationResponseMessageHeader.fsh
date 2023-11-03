@@ -8,7 +8,8 @@ Description: "Definition of the MessageHeader for the immunization recommendatio
 * ^publisher = "eHealth Suisse"
 * . ^short = "CH VACD Immunization Recommendation Response MessageHeader"
 
-* eventCoding = $ch-vacd-cdss-cs#immunrecoresponse "Immunization Recommendation Response"
+* eventCoding = $ch-vacd-cdss-cs#immunrecoresponse
+* eventCoding ^short = "Immunization Recommendation Response"
 
 * destination 1..1
 * destination.name 1..
@@ -19,7 +20,9 @@ Description: "Definition of the MessageHeader for the immunization recommendatio
 * responsible only Reference(CHCoreOrganization)
 
 * reason 1..
-* reason = $sct#830152006 "Recommendation regarding vaccination (procedure)"
+* reason = $sct#830152006
+* reason ^short = "Recommendation regarding vaccination (procedure)"
+
 
 * response 1..
 

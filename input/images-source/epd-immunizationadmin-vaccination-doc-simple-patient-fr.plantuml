@@ -5,14 +5,14 @@ skinparam responseMessageBelowArrow true
 scale max 800 width
 
 actor Patient #red
-participant "GFPP/PIS" #00CC00
+participant "Portal" #00CC00
 participant "Propre communauté\nA" #00CC00
 
 autonumber "<b>[00]"
-Patient -> "GFPP/PIS": Enregistrez et sauvegardez\nla vaccination délivrée
-"GFPP/PIS" -> "Propre communauté\nA": Enregistrez le document\n"Documentation de vaccination"
-"Propre communauté\nA" -> "GFPP/PIS": OK
+Patient -> "Portal": Enregistrez et sauvegardez\nla vaccination délivrée
+"Portal" -> "Propre communauté\nA": Enregistrez le document\n"Documentation de vaccination"
+"Propre communauté\nA" -> "Portal": OK
 
-"GFPP/PIS" -> Patient: Confirmation d'enregistration
+"Portal" -> Patient: Confirmation d'enregistration
 
 @enduml

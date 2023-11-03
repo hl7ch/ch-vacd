@@ -12,8 +12,7 @@ Usage: #example
 * identifier.value = "00476f5f-f3b7-4e49-9b52-5ec88d65c18e"
 * clinicalStatus = $allergyintolerance-clinical#active
 * verificationStatus = $allergyintolerance-verification#confirmed
-* code.coding.version = "http://snomed.info/sct/2011000195101"
-* code.coding = $sct#294659004 "Allergy to component of vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (finding)"
+* code = $sct#293122006 "Allergy to component of vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (finding)"
 * patient = Reference(TC_patient)
 * onsetDateTime = "2021-10-06"
 * lastOccurrence = "2021-10-06"

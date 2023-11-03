@@ -10,7 +10,7 @@ Description: "Generic definition (abstract profile) of the condition for all doc
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
-* extension contains CHVACDExtensionCrossReference named relatesTo 0..1 and 
+* extension contains EntryResourceCrossReferences named relatesTo 0..1 and 
                      CHVACDExtensionMergingConflictEntryReference named conflict 0..*
 * extension[relatesTo] MS
 * extension[relatesTo] ^definition = "The definition of a relation of this immunization entry in this document to an immunization entry in an other document."

@@ -18,13 +18,13 @@ Usage: #definition
 * group[=].target = "http://snomed.info/sct"
 * group[=].element[+].code = #683
 * group[=].element[=].display = "FSME-Immun 0.25 ml Junior"
-* group[=].element[=].target[+].code = #87171900
+* group[=].element[=].target[+].code = #871719005
 * group[=].element[=].target[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #450
 * group[=].element[=].display = "FSME-Immun CC"
-* group[=].element[=].target[+].code = #87171900
+* group[=].element[=].target[+].code = #871719005
 * group[=].element[=].target[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
@@ -36,13 +36,13 @@ Usage: #definition
 
 * group[=].element[+].code = #627
 * group[=].element[=].display = "Encepur N"
-* group[=].element[=].target[+].code = #87171900
+* group[=].element[=].target[+].code = #871719005
 * group[=].element[=].target[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #628
 * group[=].element[=].display = "Encepur N Kinder / Enfants"
-* group[=].element[=].target[+].code = #87171900
+* group[=].element[=].target[+].code = #871719005
 * group[=].element[=].target[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
@@ -424,25 +424,12 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
-* group[=].element[+].code = #68235
-* group[=].element[=].display = "COVID-19 Vaccine Janssen"
-* group[=].element[=].target[+].code = #1119349007
-* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
+
 
 * group[=].element[+].code = #67987
 * group[=].element[=].display = "Shingrix"
 * group[=].element[=].target[+].code = #1156183006
 * group[=].element[=].target[=].display = "Vaccine product containing only Human alphaherpesvirus 3 recombinant surface glycoprotein E antigen (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
-
-* group[=].element[+].code = #68473
-* group[=].element[=].display = "Nuvaxovid 0.5 ml"
-* group[=].element[=].target[+].code = #1119349007
-* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
-* group[=].element[=].target[=].equivalence = #equivalent
-* group[=].element[=].target[+].code = #1119349007
-* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 * group[=].element[+].code = #68710-01
@@ -457,11 +444,31 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 
+* group[=].element[+].code = #68710-03
+* group[=].element[=].display = "Comirnaty® 3 Mikrogramm/Dosis"
+* group[=].element[=].target[+].code = #1119349007
+* group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
 * group[=].element[+].code = #69009
 * group[=].element[=].display = "Spikevax Bivalent Original / Omicron"
 * group[=].element[=].target[+].code = #1119349007
 * group[=].element[=].target[=].display = "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
+
+
+* group[=].element[+].code = #68235
+* group[=].element[=].display = "COVID-19 Vaccine Janssen"
+* group[=].element[=].target[+].code = #29061000087103
+* group[=].element[=].target[=].display = "Vaccine product containing only recombinant non-replicating viral vector encoding Severe acute respiratory syndrome coronavirus 2 spike protein (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
+* group[=].element[+].code = #68473
+* group[=].element[=].display = "Nuvaxovid 0.5 ml"
+* group[=].element[=].target[+].code = #1162643001
+* group[=].element[=].target[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
+* group[=].element[=].target[=].equivalence = #equivalent
+
 
 * group[=].element[+].code = #68110
 * group[=].element[=].display = "Adacel-Polio 0.5 ml"
@@ -765,7 +772,7 @@ Usage: #definition
 
 * group[=].element[+].code = #128
 * group[=].element[=].display = "FSME-Immun Injekt"
-* group[=].element[=].target[+].code = #87171900
+* group[=].element[=].target[+].code = #871719005
 * group[=].element[=].target[=].display = "Vaccine product containing only Tick-borne encephalitis virus antigen (medicinal product)"
 * group[=].element[=].target[=].equivalence = #equivalent
 

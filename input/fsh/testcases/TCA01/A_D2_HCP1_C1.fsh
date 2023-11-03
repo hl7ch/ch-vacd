@@ -28,7 +28,7 @@ Usage: #example
 
 Instance: A_D2_HCP1_C1_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration
-Title: "Document 2 GFP Stammgemeinschaft Composition"
+Title: "Document 2 GFP Gemeinschaft Composition"
 Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "A-D2-HCP1-C1-Composition"

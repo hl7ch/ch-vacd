@@ -27,10 +27,11 @@ Description: "Definition of the MessageHeader for the immunization recommendatio
 * responsible only Reference(CHCorePractitionerRole or CHCoreOrganization)
 
 * reason 1..
-* reason = $sct#830152006 "Recommendation regarding vaccination (procedure)"
+* reason = $sct#830152006
+* reason ^short = "Recommendation regarding vaccination (procedure)"
 
 * focus only Reference(
-    CHCorePatient or
+    CHCorePatientEPR or
     CHCorePractitionerRole or 
     CHCorePractitioner or
     CHCoreOrganization or
