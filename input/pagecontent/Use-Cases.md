@@ -1,11 +1,10 @@
-There will be a lot of scenarios around the documentation of vaccinations and other immunization relevant documentation.
-The mechanics and processes behind the described exchange formats described in this implementation guide will be the same, independent of the basic infrastructure the data (as document) will be stored to.
+There are many scenarios surrounding the documentation of vaccine-relevant information. The mechanisms and processes in connection with the described documents of the exchange format always remain the same, regardless of the storage, be it via XDS repositories, file systems or others. It is always about merging elements in different documents into one document.
 
 
 ### The Use Cases for Swiss EPR (IHE XDS)
-The following use cases will describe **possible** scenarios for the vaccination/immunization in context of the Swiss EPR.
-
-The Swiss EPR is based on an IHE XDS infrastructure. The problem of document referencing on the XDS and the FHIR document level and the synchronisation is known, but not part of this exchange format.
+The use cases listed below describe the possible scenarios relating to vaccination documentation in the context of the EPD.
+The EPD is based on an IHE environment and the health data is stored as documents in an XDS repository.
+The problem of synchronizing the metadata in the XDS and FHIR exchange format is known, but is not part of this IG, which describes the exchange format.
 
 * [Use Case 1 (DE): Impfdokumentation sichten](Use-Case-1-Impfdokumentation-sichten.html)
 * [Use Case 1 (FR): Consulter les données de vaccination](Use-Case-1-Consulter-les-donnees-de-vaccination.html)
@@ -25,5 +24,6 @@ The Swiss EPR is based on an IHE XDS infrastructure. The problem of document ref
 
 
 ### Other Use Cases
+Use cases that cannot occur in the context of the EPD are listed below.
 
-tbd.
+* tbd.

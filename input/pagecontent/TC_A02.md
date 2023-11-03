@@ -7,7 +7,7 @@ Any vaccination check carried out with the available data indicates a second dos
 
 
 ### Sequence
-The HCP who administered the vaccination for hepatitis A to the patient creates an ImmunizationAdministration document [A-D4-HCP2-C2](Bundle-A-D4-HCP2-C2.html) with the data on the applied immunization and loads it up to the ehealth ecosystem of the patient.
+The practitioner HCP1 who administered the vaccination for hepatitis A to the patient creates an ImmunizationAdministration document [A-D4-HCP2-C2](Bundle-A-D4-HCP2-C2.html) with the data on the applied immunization and loads it up to the ehealth ecosystem of the patient.
 
 <div>{% include TCA02.svg %}</div>
 
@@ -23,6 +23,7 @@ The newly delivered second dose of the hepatitis A vaccination can be found in t
 * [A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html)
 * [A_D4_HCP2_C2](Bundle-A-D4-HCP2-C2.html)
 * [Result. Dokument A 02](Bundle-RDA02.html)
+* [Result. Dokument A 02b](Bundle-RDA02b.html)
 
 ### Entries
 * [Immunization TCA02_IMMUN4_HCP2_ORG2_ROLE](Immunization-TCA02-IMMUN4-HCP2-ORG2-ROLE.html)

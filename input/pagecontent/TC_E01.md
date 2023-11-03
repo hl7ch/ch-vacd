@@ -1,7 +1,7 @@
 ## Test Case E 01: Mergin documents with different language settings
 
 ### Precondition
-In the EPR of the patient there are several ImmunizationAdministration documents with different languages set.
+In the ehealth ecosystem of the patient there are several ImmunizationAdministration documents with different languages set.
 
 ### Sequence
 The patient likes to see his immunization status. The aggergator process merges all document together to an VaccinationRecord.
@@ -10,12 +10,13 @@ The language of the resulting document should be in the language the patient has
 <div>{% include TCE01.svg %}</div>
 
 ### Result
-The patient requesting for the document sees the document with the merge result in his language (de-CH) which is set in his settings on the portal.
+The patient requesting for the document sees the document with the merge result in his language (de-CH) which is set in his settings on the application.
 
 ### Documents
 * [E_D1_HCP1_C1](Bundle-E-D1-HCP1-C1.html)
 * [E_D2_HCP1_C1](Bundle-E-D2-HCP1-C1.html)
 * [Result. Document E 01](Bundle-RDE01.html)
+* [Result. Document E 01b](Bundle-RDE01b.html)
 
 ### Entries
 * [Immunization (TCE01_IMMUN1-fr)](Immunization-TCE01-IMMUN1-fr.html)

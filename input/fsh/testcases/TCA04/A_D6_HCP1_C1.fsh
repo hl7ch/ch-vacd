@@ -31,8 +31,8 @@ Usage: #example
 * entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP2-ORG2-ROLE-performer"
 * entry[=].resource = TC_HCP2_ORG2_ROLE_performer
 
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCA03-IMMUN5-patient"
-* entry[=].resource = TCA03-IMMUN5-patient
+// * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCA03-IMMUN5-patient"
+// * entry[=].resource = TCA03-IMMUN5_patient
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCA04-IMMUN5-patient-val-gfp"
 * entry[=].resource = TCA04_IMMUN5_patient_val_GFP
 

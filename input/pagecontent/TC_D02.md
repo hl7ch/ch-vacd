@@ -1,7 +1,7 @@
 ## Test Case D 02: Merging conflicts for immunization, medicalproblems and past illness
 
 ### Precondition
-In the EPR of the patient there are several ImmunizationAdministration documents. In two documents the same Immunization, PastIllness and MedicalProblem entries are entered.
+In the ehealth ecosystem of the patient there are several ImmunizationAdministration documents. In two documents the same Immunization, PastIllness and MedicalProblem entries are entered.
 
 ### Sequence
 
@@ -9,12 +9,13 @@ In the EPR of the patient there are several ImmunizationAdministration documents
 
 
 ### Result
-A Vaccination Record Document is created with the merging result. The duplicated entries are all in the list, but on all duplicated entries the extension is added to make the duplicate entry visible by  reference.
+A Vaccination Record Document is created with the merging result. The duplicated entries are all in the list, but on all duplicated entries the extension is added to make the duplicate entry visible by reference.
 
 ### Documents
 * [D_D3_HCP1_C1](Bundle-D-D3-HCP1-C1.html)
 * [D_D4_HCP2_C2](Bundle-D-D4-HCP2-C2.html)
 * [Result. Document D 02](Bundle-RDD02.html)
+* [Result. Document D 02b](Bundle-RDD02b.html)
 
 ### Entries
 * [Immunization (TCD01_IMMUN1)](Immunization-TCD01-IMMUN1.html)

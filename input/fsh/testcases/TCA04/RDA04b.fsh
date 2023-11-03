@@ -1,16 +1,16 @@
-Instance: RDA04
+Instance: RDA04b
 InstanceOf: CHVACDDocumentVaccinationRecord
 Title: "Test Case A 04: Aggregated Dokument (RDA04)"
 Description: "Test Case A 04: GFP validiert die Impfung (FSME)(Dok6) welche vom Patienten eingetragen wurde (Dok5)"
 Usage: #example
-* id = "RDA04"
+* id = "RDA04b"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:73db3d03-5289-4e12-945e-5bdf3bdc3fa4"
 * type = #document
 * timestamp = "2021-10-06T00:00:00.390+02:00"
 
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Composition/RDA02-Composition"
-* entry[=].resource = RDA04_Composition
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Composition/RDA02-Composition-b"
+* entry[=].resource = RDA04_Composition_b
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/TC-patient"
 * entry[=].resource = TC_patient
 
@@ -31,6 +31,11 @@ Usage: #example
 * entry[=].resource = TC_HCP2_ORG2_ROLE_performer
 * entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP2-ORG2-ROLE-author"
 * entry[=].resource = TC_HCP2_ORG2_ROLE_author
+
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Device/TC-Device-Aggregator"
+* entry[=].resource = TC_Device_Aggregator
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Location/TC-Device-Aggregator-Location"
+* entry[=].resource = TC_Device_Aggregator_Location
 
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCA01-IMMUN1-patient"
 * entry[=].resource = TCA01_IMMUN1_patient
@@ -55,12 +60,12 @@ Usage: #example
 * entry[=].resource = TC_ORG_PFIZER
 
 
-Instance: RDA04_Composition
+Instance: RDA04_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
 Title: "Aggregated Document Composition"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
-* id = "RDA04-Composition"
+* id = "RDA04-Composition-b"
 * language = #en-US
 
 * identifier.system = "urn:ietf:rfc:3986"
@@ -69,7 +74,7 @@ Usage: #example
 * type = $sct#41000179103 "Immunization record"
 * subject = Reference(TC_patient)
 * date = "2021-10-06T00:00:00.390+02:00"
-* author = Reference(TC_patient)
+* author = Reference(TC_Device_Aggregator)
 * title = "Vaccination Record"
 * confidentiality.extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode"
 * confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal (qualifier value)"

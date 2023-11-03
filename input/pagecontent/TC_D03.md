@@ -1,7 +1,7 @@
 ## Test Case D 03: Merging conflict for medicalproblem in three documents
 
 ### Precondition
-In the EPR of the patient there are several ImmunizationAdministration documents. In three documents the same MedicalProblem entry is entered.
+In the ehealth ecosystem of the patient there are several ImmunizationAdministration documents. In three documents the same MedicalProblem entry is entered.
 
 ### Sequence
 
@@ -9,13 +9,14 @@ In the EPR of the patient there are several ImmunizationAdministration documents
 
 
 ### Result
-A Vaccination Record Document is created with the merging result. The duplicated entries are all in the list, but on all duplicated entries the extension is added to make the duplicate entry visible by  reference.
+A Vaccination Record Document is created with the merging result. The duplicated entries are all in the list, but on all duplicated entries the extension is added to make the duplicate entry visible by reference.
 
 ### Documents
 * [D_D5_HCP1_C1](Bundle-D-D5-HCP1-C1.html)
 * [D_D6_HCP2_C2](Bundle-D-D6-HCP2-C2.html)
 * [D_D7_HCP3_C1](Bundle-D-D7-HCP3-C1.html)
 * [Result. Document D 03](Bundle-RDD03.html)
+* [Result. Document D 03b](Bundle-RDD03b.html)
 
 ### Entries
 * [TCD03_EXPRISK1](Condition-TCD03-EXPRISK1.html)

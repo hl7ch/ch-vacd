@@ -4,7 +4,7 @@
 The patient has created a ImmunizationAdministration document with a past illness entry for Measles.
 
 ### Sequence
-The HCP1 of the reference community C1 checks the immunization status of the patient and sees the entry for past illness. He will not confirm the entry.
+The practitioner HCP1 of the reference community C1 checks the immunization status of the patient and sees the entry for past illness. He will not confirm the entry.
 
 <div>{% include TCC05.svg %}</div>
 
