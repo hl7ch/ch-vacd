@@ -364,7 +364,7 @@ Usage: #definition
 * group[=].element[+].code = #1162643001
 * group[=].element[=].display = "Vaccine product containing only severe acute respiratory syndrome coronavirus 2 recombinant spike protein antigen (medicinal product)"
 * group[=].element[=].target[+].code = #68473
-* group[=].element[=].target[=].display = "Nuvaxovid 0.5 ml"
+* group[=].element[=].target[=].display = "Nuvaxovid 0.5 ml, Injektionsdispersion"
 * group[=].element[=].target[=].equivalence = #equivalent
 
 

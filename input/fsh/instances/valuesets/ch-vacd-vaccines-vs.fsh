@@ -1255,9 +1255,9 @@ Usage: #definition
 // 68473	01	Nuvaxovid 0.5 ml	Future Health Pharma GmbH	B	12.04.2022	12.04.2022	12.04.2024	J07BX03
 // added 2022-06-08
 * compose.include[=].concept[+].code = #68473 
-* compose.include[=].concept[=].display = "Nuvaxovid 0.5 ml"
+* compose.include[=].concept[=].display = "Nuvaxovid 0.5 ml, Injektionsdispersion"
 * compose.include[=].concept[=].designation[0].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 0.5 ml"
+* compose.include[=].concept[=].designation[=].value = "Nuvaxovid 0.5 ml, Injektionsdispersion"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "Nuvaxovid 0.5 ml, dispersion injectable"
 * compose.include[=].concept[=].designation[+].language = #it-CH

@@ -39,7 +39,7 @@ Description: "Definition of the composition for the vaccination record document.
 * custodian ^short = "The organization in whose name the document has been created"
 * relatesTo ^short = "Relationships to other compositions in order to replace other documents or fix/correct elements of an other document."
 * relatesTo ^definition = "Relationships to other compositions in order to replace other documents or fix/correct elements of an other document."
-* relatesTo ^comment = "See also the [extension Entry Cross Reference](http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references.html) for more details."
+* relatesTo ^comment = "See also the [extension Entry Cross Reference](http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references) for more details."
 * section ^slicing.discriminator.type = #pattern
 * section ^slicing.discriminator.path = "code"
 * section ^slicing.ordered = false
