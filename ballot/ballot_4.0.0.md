@@ -14,9 +14,6 @@ Here the resulting issues from STU4 Ballot (v4.0.0) ([Issues](https://github.com
 ### Open
 * [Issue 198](https://github.com/hl7ch/ch-vacd/issues/198): Merge conflict criteria for different resource types
 
-### Discussion
-* [Issue 183](https://github.com/hl7ch/ch-vacd/issues/183): Move vaccine allergies to CH AllergyIntolerance exchange format
-* [Issue 184](https://github.com/hl7ch/ch-vacd/issues/184): Redundant codeSystem SwissAllergyIntoleranceCodesystem
 
 ### Fixed && Missing Translation
 * [Issue 196](https://github.com/hl7ch/ch-vacd/issues/196): Missing Allergy against rotavirus antigen vaccine product
@@ -43,7 +40,8 @@ Here the resulting issues from STU4 Ballot (v4.0.0) ([Issues](https://github.com
 
 
 ### Postponed
-
+* [Issue 183](https://github.com/hl7ch/ch-vacd/issues/183): Move vaccine allergies to CH AllergyIntolerance exchange format
+* [Issue 184](https://github.com/hl7ch/ch-vacd/issues/184): Redundant codeSystem SwissAllergyIntoleranceCodesystem
 
 ### No Fix
 
