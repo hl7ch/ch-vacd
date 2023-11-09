@@ -9,7 +9,8 @@ Description: "Condition to declare Basic Immunization done by one single conditi
 * ^publisher = "eHealth Suisse"
 * . ^short = "CH VACD Basic Immunization Conditions"
 * category 1..1
-* category = 	http://terminology.hl7.org/CodeSystem/condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category = 	http://terminology.hl7.org/CodeSystem/condition-category#encounter-diagnosis 
+* category ^short = "Encounter Diagnosis"
 * code from $ch-vacd-basic-immunization-vs (extensible)
 * code ^short = "Basic immunization code"
 * code ^binding.extension[0].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"

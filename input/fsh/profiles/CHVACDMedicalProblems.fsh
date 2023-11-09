@@ -12,7 +12,8 @@ Description: "Definition of the medical problems part for all documents, except 
 * verificationStatus MS
 * category MS
 * category 1..1
-* category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
+* category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item 
+* category ^short = "Problem List Item"
 * severity MS
 * onset[x] MS
 * abatement[x] MS

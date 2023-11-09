@@ -10,7 +10,8 @@ Description: "Definition of the past illness part for all documents, except reco
 * . ^short = "CH VACD Past Illness Conditions"
 * category 0..0
 * clinicalStatus 1..1
-* clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#resolved 	"Resolved"
+* clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#resolved
+* clinicalStatus ^short = "Resolved"
 * verificationStatus MS
 * severity MS
 * code MS
