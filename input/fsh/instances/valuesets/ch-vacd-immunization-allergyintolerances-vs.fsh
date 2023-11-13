@@ -436,9 +436,9 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen Pockenimpfstoff"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie au vaccin contre la variole"
+* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre la variole"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Allergia al vaccino contro il vaiolo"
+* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro il vaiolo"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen Pockenimpfstoff"
 * compose.include[=].concept[=].designation[+].language = #en-US
@@ -449,9 +449,9 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie au vaccin contre le charbon"
+* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre le charbon"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Allergia al vaccino contro l'antrace"
+* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro l'antrace"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
 * compose.include[=].concept[=].designation[+].language = #en-US
@@ -465,9 +465,9 @@ Usage: #definition
 * compose.include[=].concept[=].designation[0].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen Impfstoff gegen Rotavirus"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie au vaccin contre le rotavirus"
+* compose.include[=].concept[=].designation[=].value = "allergie au vaccin contre le rotavirus"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Allergia al vaccino contro il Rotavirus"
+* compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro il Rotavirus"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
 * compose.include[=].concept[=].designation[=].value = "Allergie gegen Impfstoff gegen Rotavirus"
 * compose.include[=].concept[=].designation[+].language = #en-US
