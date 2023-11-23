@@ -6,7 +6,7 @@ scale max 800 width
 
 actor Arzt #blue
 participant "GFPP/PIS" #00CC00
-participant "Impfaggregator"
+participant "Aggregator"
 participant "Impfcheck" #red
 
 participant "Gemeinschaften\nA..N" #00CC00
@@ -17,8 +17,8 @@ loop "Abfrage aller Gemeinschaften"
 "GFPP/PIS" -> "Gemeinschaften\nA..N": Suche nach Impfdokumenten
 "Gemeinschaften\nA..N" -> "GFPP/PIS": Alle gefundenen Impfdokumente (Gem A)
 end
-"GFPP/PIS" -> "Impfaggregator": Zusammenfassen aller strukturierten Daten
-"Impfaggregator" ->  "GFPP/PIS": Ein aggregiertes Impfdokument
+"GFPP/PIS" -> "Aggregator": Zusammenfassen aller strukturierten Daten
+"Aggregator" ->  "GFPP/PIS": Ein aggregiertes Impfdokument
 ' "GFPP/PIS" -> "GFPP/PIS": Pseudonymisieren
 "GFPP/PIS" ->  "Impfcheck": aggregiertes Impfdokument
 "Impfcheck" -> "GFPP/PIS": Impfempfehlung
