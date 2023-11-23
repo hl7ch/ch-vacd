@@ -3,6 +3,8 @@ InstanceOf: CHVACDMedicalProblems
 Title: "8.3 Condition (Medical Problems)"
 Description: "Example Condition for medical problems"
 Usage: #example
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:917147db-fce9-49e9-af20-aa25dd25e283"
 * code = $sct#265940000 "Animal health occupation (occupation)"
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * subject.reference = "Patient/3-1-Patient"
