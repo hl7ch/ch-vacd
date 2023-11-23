@@ -14,6 +14,7 @@ Description: "Definition of the labor and serology part for all documents, excep
                      CHVACDExtensionMergingConflictEntryReference named conflict 0..* 
 * extension[relatesTo] ^definition = "The definition of a relation of this laboratory entry in this document to an laboratory entry in an other document."
 * extension[conflict] ^definition = "The definition of a conflict on merging different documents."
+* identifier 1..
 * identifier ^short = "Observation item ID"
 * code from $ch-vacd-laboratory-serology-vs (extensible)
 * code ^short = "Observation code"

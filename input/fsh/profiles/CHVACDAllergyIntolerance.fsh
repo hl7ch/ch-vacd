@@ -15,6 +15,7 @@ Description: "Definition of the AllergyIntolerance part for vaccination record d
                      CHVACDExtensionMergingConflictEntryReference named conflict 0..* 
 * extension[relatesTo] ^definition = "The definition of a relation of this immunization entry in this document to an immunization entry in an other document."
 * extension[conflict] ^definition = "The definition of a conflict on merging different documents."
+* identifier 1..
 * identifier ^short = "AllergyIntolerance item ID"
 * code MS
 * code from $ch-vacd-immunization-allergyintolerances-vs (extensible)

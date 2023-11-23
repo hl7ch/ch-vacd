@@ -16,6 +16,7 @@ Description: "Generic definition (abstract profile) of the condition for all doc
 * extension[relatesTo] ^definition = "The definition of a relation of this immunization entry in this document to an immunization entry in an other document."
 * extension[conflict] MS
 * extension[conflict] ^definition = "The definition of a conflict on merging different documents."
+* identifier 1..
 * code 1.. MS
 * code ^short = "Condition code"
 * subject MS
