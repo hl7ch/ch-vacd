@@ -30,17 +30,13 @@ Usage: #example
 // F_D3_HCP1_C1_Composition
 * extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
-* extension[=].extension[=].extension[0].url = "identifier"
-* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
-* extension[=].extension[=].extension[=].valueIdentifier.value = "cbc8c8c1-4f47-4ec3-99a7-ae775b75c621"
-* extension[=].extension[=].extension[+].url = "resource"
-* extension[=].extension[=].extension[=].valueCode = ResourceType#AllergyIntolerance
+* extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* extension[=].extension[=].valueReference.identifier.value = "cbc8c8c1-4f47-4ec3-99a7-ae775b75c621"
+* extension[=].extension[=].valueReference.type = ResourceType#Immunization
 * extension[=].extension[+].url = "container"
-* extension[=].extension[=].extension[0].url = "identifier"
-* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:ietf:rfc:3986"
-* extension[=].extension[=].extension[=].valueIdentifier.value = "urn:uuid:98dbfa14-1b2e-40f8-8110-932c631db1df"
-* extension[=].extension[=].extension[+].url = "resource"
-* extension[=].extension[=].extension[=].valueCode = ResourceType#Composition
+* extension[=].extension[=].valueReference.identifier.system = "urn:ietf:rfc:3986"
+* extension[=].extension[=].valueReference.identifier.value = "urn:uuid:98dbfa14-1b2e-40f8-8110-932c631db1df"
+* extension[=].extension[=].valueReference.type = ResourceType#Composition
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
 

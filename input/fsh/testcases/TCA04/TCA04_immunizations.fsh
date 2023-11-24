@@ -17,23 +17,15 @@ Usage: #example
 // A_D5_P_C1_Composition
 * extension[2].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
-* extension[=].extension[=].extension[0].url = "identifier"
-* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
-* extension[=].extension[=].extension[=].valueIdentifier.value = "74b1e856-c0fb-47da-aab1-08541eacc21c"
-* extension[=].extension[=].extension[+].url = "resource"
-* extension[=].extension[=].extension[=].valueCode = ResourceType#Immunization
+* extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* extension[=].extension[=].valueReference.identifier.value = "74b1e856-c0fb-47da-aab1-08541eacc21c"
+* extension[=].extension[=].valueReference.type = ResourceType#Immunization
 * extension[=].extension[+].url = "container"
-* extension[=].extension[=].extension[0].url = "identifier"
-* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:ietf:rfc:3986"
-* extension[=].extension[=].extension[=].valueIdentifier.value = "urn:uuid:c2e1d265-f3fa-4023-92a3-2e9efe1ca192"
-* extension[=].extension[=].extension[+].url = "resource"
-* extension[=].extension[=].extension[=].valueCode = ResourceType#Composition
+* extension[=].extension[=].valueReference.identifier.system = "urn:ietf:rfc:3986"
+* extension[=].extension[=].valueReference.identifier.value = "urn:uuid:c2e1d265-f3fa-4023-92a3-2e9efe1ca192"
+* extension[=].extension[=].valueReference.type = ResourceType#Composition
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
-
-// * extension[=].extension[=].valueReference = Reference(TCA03_IMMUN5_patient)
-// * extension[=].extension[+].url = "document"
-// * extension[=].extension[=].valueReference = Reference(A_D5_P_C1_Composition)
 
 
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"

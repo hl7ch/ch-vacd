@@ -34,17 +34,13 @@ Usage: #example
 // C_D4_HCP2_C2_Composition
 * extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
-* extension[=].extension[=].extension[0].url = "identifier"
-* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
-* extension[=].extension[=].extension[=].valueIdentifier.value = "dc168f1f-967c-4ff2-95ef-f8c468d67b45"
-* extension[=].extension[=].extension[+].url = "resource"
-* extension[=].extension[=].extension[=].valueCode = ResourceType#Condition
+* extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* extension[=].extension[=].valueReference.identifier.value = "dc168f1f-967c-4ff2-95ef-f8c468d67b45"
+* extension[=].extension[=].valueReference.type = ResourceType#Immunization
 * extension[=].extension[+].url = "container"
-* extension[=].extension[=].extension[0].url = "identifier"
-* extension[=].extension[=].extension[=].valueIdentifier.system = "urn:ietf:rfc:3986"
-* extension[=].extension[=].extension[=].valueIdentifier.value = "urn:uuid:9686dae0-448c-49f8-9c78-2db1aa95b921"
-* extension[=].extension[=].extension[+].url = "resource"
-* extension[=].extension[=].extension[=].valueCode = ResourceType#Composition
+* extension[=].extension[=].valueReference.identifier.system = "urn:ietf:rfc:3986"
+* extension[=].extension[=].valueReference.identifier.value = "urn:uuid:9686dae0-448c-49f8-9c78-2db1aa95b921"
+* extension[=].extension[=].valueReference.type = ResourceType#Composition
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
 
