@@ -12,9 +12,7 @@ Here the resulting issues from STU4 Ballot (v4.0.0) ([Issues](https://github.com
 
 
 ### Open
-* [Issue 194](https://github.com/hl7ch/ch-vacd/issues/194): UseCases
-* [Issue 203](https://github.com/hl7ch/ch-vacd/issues/203): ch-vacd-risks-vs
-* [Issue 204](ttps://github.com/hl7ch/ch-vacd/issues/204): Cardinality Identifier AllergyIntolerance, PastIllness...
+
 
 ### Fixed in review
 * [Issue 176](https://github.com/hl7ch/ch-vacd/issues/176): TC A 02: markdown instead of html
@@ -22,11 +20,14 @@ Here the resulting issues from STU4 Ballot (v4.0.0) ([Issues](https://github.com
 * [Issue 185](https://github.com/hl7ch/ch-vacd/issues/185): fixedValue for coding.display
 * [Issue 187](https://github.com/hl7ch/ch-vacd/issues/187): TC A 03
 * [Issue 192](https://github.com/hl7ch/ch-vacd/issues/192): Clarification regarding Cross Reference 
+* [Issue 194](https://github.com/hl7ch/ch-vacd/issues/194): UseCases
 * [Issue 195](https://github.com/hl7ch/ch-vacd/issues/195): Feedback KSW
 * [Issue 196](https://github.com/hl7ch/ch-vacd/issues/196): Missing Allergy against rotavirus antigen vaccine product
 * [Issue 197](https://github.com/hl7ch/ch-vacd/issues/197): Missing Allergies in Valueset / resolving redundance with CH-AllergyIntolerance 
 * [Issue 198](https://github.com/hl7ch/ch-vacd/issues/198): Merge conflict criteria for different resource types
 * [Issue 199](https://github.com/hl7ch/ch-vacd/issues/199): Aggregation implemented by each primary system due to usage of XDS infrastructure
+* [Issue 203](https://github.com/hl7ch/ch-vacd/issues/203): ch-vacd-risks-vs
+* [Issue 204](ttps://github.com/hl7ch/ch-vacd/issues/204): Cardinality Identifier AllergyIntolerance, PastIllness...
 
 ### Fixed
 * [Issue 177](https://github.com/hl7ch/ch-vacd/issues/177): Use Case 1 Impfdokumentation Sichten
