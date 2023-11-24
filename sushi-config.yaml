@@ -9,7 +9,7 @@ title: Implementation Guide CH VACD
 # FSHOnly: true
 # applyExtensionMetadataToRoot: false
 status: active
-version: 4.0.0-ci-build
+version: 4.0.0
 date: 2023-06-29
 fhirVersion: 4.0.1
 copyrightYear: 2021+
