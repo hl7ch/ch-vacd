@@ -16,7 +16,7 @@ Usage: #definition
 * contact.name = "eHealth Suisse"
 * contact.telecom.system = #url
 * contact.telecom.value = "www.e-health-suisse.ch"
-* description = "The social exposision risks used in Switzerland."
+* description = "The social exposition risks used in Switzerland."
 
 
 * compose.include[+].system = $sct

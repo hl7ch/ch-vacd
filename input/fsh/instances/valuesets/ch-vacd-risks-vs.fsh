@@ -16,7 +16,7 @@ Usage: #definition
 * contact.name = "eHealth Suisse"
 * contact.telecom.system = #url
 * contact.telecom.value = "www.e-health-suisse.ch"
-* description = "The medical and exposision risks used in Switzerland."
+* description = "The medical and exposition risks used in Switzerland."
 
 * compose.include[+].valueSet = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-medical-vs"
 * compose.include[+].valueSet = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-social-vs"
