@@ -4,24 +4,24 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor Arzt #blue
-participant "GFPP/PIS" #00CC00
+actor Gesundheitsfachperson AS Arzt #blue
+participant "Portal" #00CC00
 participant "Aggregator"
 participant "Impfcheck" #red
 
 participant "Gemeinschaften\nA..N" #00CC00
 
 autonumber "<b>[00]"
-Arzt -> "GFPP/PIS": Suche alle Impfdokumente
+Arzt -> "Portal": Suche alle Impfdokumente
 loop "Abfrage aller Gemeinschaften"
-"GFPP/PIS" -> "Gemeinschaften\nA..N": Suche nach Impfdokumenten
-"Gemeinschaften\nA..N" -> "GFPP/PIS": Alle gefundenen Impfdokumente (Gem A)
+"Portal" -> "Gemeinschaften\nA..N": Suche nach Impfdokumenten
+"Gemeinschaften\nA..N" -> "Portal": Alle gefundenen Impfdokumente (Gem A)
 end
-"GFPP/PIS" -> "Aggregator": Zusammenfassen aller strukturierten Daten
-"Aggregator" ->  "GFPP/PIS": Ein aggregiertes Impfdokument
-' "GFPP/PIS" -> "GFPP/PIS": Pseudonymisieren
-"GFPP/PIS" ->  "Impfcheck": aggregiertes Impfdokument
-"Impfcheck" -> "GFPP/PIS": Impfempfehlung
-"GFPP/PIS" -> Arzt: Anzeigen der aggregierten\nImpfdaten
+"Portal" -> "Aggregator": Zusammenfassen aller strukturierten Daten
+"Aggregator" ->  "Portal": Ein aggregiertes Impfdokument
+' "Portal" -> "Portal": Pseudonymisieren
+"Portal" ->  "Impfcheck": aggregiertes Impfdokument
+"Impfcheck" -> "Portal": Impfempfehlung
+"Portal" -> Arzt: Anzeigen der aggregierten\nImpfdaten
 
 @enduml

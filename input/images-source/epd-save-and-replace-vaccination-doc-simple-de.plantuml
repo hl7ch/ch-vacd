@@ -4,16 +4,16 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor Arzt #blue
-participant "GFPP/PIS" #00CC00
+actor Gesundheitsfachperson AS Arzt #blue
+participant "Portal" #00CC00
 participant "Eigene Gemeinschaft\nA" #00CC00
-participant "Andere Gemeinschaft\nB" #00aaff
-participant "Andere Gemeinschaft\nN" #00aaff
+' participant "Andere Gemeinschaft\nB" #00aaff
+' participant "Andere Gemeinschaft\nN" #00aaff
 
 autonumber "<b>[00]"
-Arzt -> "GFPP/PIS": Anpassen der aggregierten Impfdaten,\nerstellen Impfdokument
-"GFPP/PIS" -> "Eigene Gemeinschaft\nA": Speichern des neuen Impfdokument\nund ersetzen der "alten" Dokumente
-"Eigene Gemeinschaft\nA" -> "GFPP/PIS": OK
+Arzt -> "Portal": Anpassen der aggregierten Impfdaten,\nerstellen Impfdokument
+"Portal" -> "Eigene Gemeinschaft\nA": Speichern des neuen Impfdokument
+"Eigene Gemeinschaft\nA" -> "Portal": OK
 
 ' loop
 ' "GFPP/PIS" -> "Andere Gemeinschaft\nB": Setzen der "alten" Impfdokumente auf "VERALTET"
@@ -22,6 +22,6 @@ Arzt -> "GFPP/PIS": Anpassen der aggregierten Impfdaten,\nerstellen Impfdokument
 ' "GFPP/PIS" -> "Andere Gemeinschaft\nN": Setzen der "alten" Impfdokumente auf "VERALTET"
 ' "Andere Gemeinschaft\nN" -> "GFPP/PIS": OK
 ' end
-"GFPP/PIS" -> Arzt: Bestätigung der Speicherung
+"Portal" -> Arzt: Bestätigung der Speicherung
 
 @enduml

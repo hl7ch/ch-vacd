@@ -4,28 +4,28 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor Docteur #blue
-participant "GFPP/PIS" #00CC00
+actor "Professionnel de la santé" AS Docteur #blue
+participant "Portal" #00CC00
 participant "Propre communauté\nA" #00CC00
 participant "Autre communauté\nN" #00aaff
 participant "Certificate Service" #00aa00
 
 autonumber "<b>[00]"
-Docteur -> "GFPP/PIS": Ajuster les données de vaccination agrégées,\ncréer un document de vaccination
-"GFPP/PIS" -> "Propre communauté\nA": Enregistrez le nouveau document de vaccination\net remplacez les "anciens" documents
-"Propre communauté\nA" -> "GFPP/PIS": OK
+Docteur -> "Portal": Ajuster les données de vaccination agrégées,\ncréer un document de vaccination
+"Portal" -> "Propre communauté\nA": Enregistrez le nouveau document de vaccination\net remplacez les "anciens" documents
+"Propre communauté\nA" -> "Portal": OK
 
 loop
-"GFPP/PIS" -> "Autre communauté\nN": Définissez les "anciens" documents de vaccination sur "OBSOLETE"
-"Autre communauté\nN" -> "GFPP/PIS": OK
+"Portal" -> "Autre communauté\nN": Définissez les "anciens" documents de vaccination sur "OBSOLETE"
+"Autre communauté\nN" -> "Portal": OK
 end
 
-Docteur -> "GFPP/PIS": Création du carnet de vaccination
-"GFPP/PIS" -> "GFPP/PIS": Collecte des données pour le certificat
-"GFPP/PIS" -> "Certificate Service": envoyer les données
+Docteur -> "Portal": Création du carnet de vaccination
+"Portal" -> "Portal": Collecte des données pour le certificat
+"Portal" -> "Certificate Service": envoyer les données
 "Certificate Service" -> "Certificate Service": Créer un certificat
-"Certificate Service" -> "GFPP/PIS": Certificat de vaccination délivré
-"GFPP/PIS" -> "GFPP/PIS": Enregistrement du certificat de vaccination
-"GFPP/PIS" -> Docteur: Confirmation d'enregistration
+"Certificate Service" -> "Portal": Certificat de vaccination délivré
+"Portal" -> "Portal": Enregistrement du certificat de vaccination
+"Portal" -> Docteur: Confirmation d'enregistration
 
 @enduml

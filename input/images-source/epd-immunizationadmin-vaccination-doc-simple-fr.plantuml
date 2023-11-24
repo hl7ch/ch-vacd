@@ -4,15 +4,15 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor Docteur #blue
-participant "GFPP/PIS" #00CC00
+actor "Professionnel de la santé" AS Docteur #blue
+participant "Portal" #00CC00
 participant "Propre communauté\nA" #00CC00
 
 autonumber "<b>[00]"
-Docteur -> "GFPP/PIS": Enregistrez et sauvegardez\nla vaccination délivrée
-"GFPP/PIS" -> "Propre communauté\nA": Enregistrez le document\n"Documentation de vaccination"
-"Propre communauté\nA" -> "GFPP/PIS": OK
+Docteur -> "Portal": Enregistrez et sauvegardez\nla vaccination délivrée
+"Portal" -> "Propre communauté\nA": Enregistrez le document\n"Documentation de vaccination"
+"Propre communauté\nA" -> "Portal": OK
 
-"GFPP/PIS" -> Docteur: Confirmation d'enregistration
+"Portal" -> Docteur: Confirmation d'enregistration
 
 @enduml

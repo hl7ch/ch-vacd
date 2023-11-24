@@ -4,8 +4,8 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor Docteur #blue
-participant "PIS/Portal" #00CC00
+actor "Professionnel de la santé" AS Docteur #blue
+participant "Portal" #00CC00
 participant "Agrégateur de vaccins"
 
 participant "Propre communauté\nA" #00CC00
@@ -14,19 +14,19 @@ participant "Autre communauté\nN" #00aaff
 
 
 autonumber "<b>[00]"
-Docteur -> "PIS/Portal": Rechercher les documents de vaccination
-"PIS/Portal" -> "Propre communauté\nA": Rechercher dans les métadonnées
-"Propre communauté\nA" -> "PIS/Portal": Métadonnées de tous les documents de vaccination
-"PIS/Portal" -> "Propre communauté\nA": Consultation des documents de vaccination
-"Propre communauté\nA" -> "PIS/Portal": Documents de vaccination
+Docteur -> "Portal": Rechercher les documents de vaccination
+"Portal" -> "Propre communauté\nA": Rechercher dans les métadonnées
+"Propre communauté\nA" -> "Portal": Métadonnées de tous les documents de vaccination
+"Portal" -> "Propre communauté\nA": Consultation des documents de vaccination
+"Propre communauté\nA" -> "Portal": Documents de vaccination
 
 loop "Tous autres communautés"
-"PIS/Portal" -> "Autre communauté\nN": Consultation des documents de vaccination
-"Autre communauté\nN" -> "PIS/Portal": Documents de vaccination
+"Portal" -> "Autre communauté\nN": Consultation des documents de vaccination
+"Autre communauté\nN" -> "Portal": Documents de vaccination
 end
 
-"PIS/Portal" -> "Agrégateur de vaccins": Résumer les documents de vaccination
-"Agrégateur de vaccins" ->  "PIS/Portal": Un carnet de vaccination agrégé
-"PIS/Portal" -> Docteur: Afficher les données de vaccination agrégées
+"Portal" -> "Agrégateur de vaccins": Résumer les documents de vaccination
+"Agrégateur de vaccins" ->  "Portal": Un carnet de vaccination agrégé
+"Portal" -> Docteur: Afficher les données de vaccination agrégées
 
 @enduml

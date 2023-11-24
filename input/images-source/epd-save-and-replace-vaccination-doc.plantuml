@@ -9,12 +9,12 @@ box "Community A"
 participant "GFPP/PIS" #00CC00
 participant "CO-Repository" #00CC00
 participant "CO-Registry" #00CC00
-participant "CO-IGW" #00CC00
+' participant "CO-IGW" #00CC00
 end box
-box "Community X"
-participant "OC-RGW" #00aaff
-participant "OC-Registry" #00aaff
-end box
+'box "Community X"
+'participant "OC-RGW" #00aaff
+'participant "OC-Registry" #00aaff
+'end box
 
 autonumber "<b>[00]"
 HCP -> "GFPP/PIS": Change data and store it
@@ -29,8 +29,8 @@ deactivate "CO-Registry"
 "CO-Repository" -> "GFPP/PIS": Provide and Register Document\nSet Response [ITI-41]
 deactivate "CO-Repository"
 
-"GFPP/PIS" -> "GFPP/PIS": set all old documents to deprecated
-activate "GFPP/PIS"
+' "GFPP/PIS" -> "GFPP/PIS": set all old documents to deprecated
+' activate "GFPP/PIS"
 ' loop "all other communities"
 ' "GFPP/PIS" -> "CO-IGW": Restricted Metadata Update Request [ITI-92]
 ' activate "CO-IGW"
@@ -46,8 +46,8 @@ activate "GFPP/PIS"
 ' "CO-IGW" -> "GFPP/PIS": Restricted Metadata Update Response [ITI-92]
 ' deactivate "CO-IGW"
 ' end
-"GFPP/PIS" -> "GFPP/PIS": OK
-deactivate "GFPP/PIS"
+' "GFPP/PIS" -> "GFPP/PIS": OK
+' deactivate "GFPP/PIS"
 
 "GFPP/PIS" -> HCP: Show success message
 deactivate "GFPP/PIS"

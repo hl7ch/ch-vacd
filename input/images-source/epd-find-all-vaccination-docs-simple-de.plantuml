@@ -4,8 +4,8 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor Arzt #blue
-participant "PIS/Portal" #00CC00
+actor Gesundheitsfachperson #blue
+participant "Portal" #00CC00
 participant "Aggregator"
 
 participant "Eigene Gemeinschaft\nA" #00CC00
@@ -14,19 +14,19 @@ participant "Andere Gemeinschaft\nN" #00aaff
 
 
 autonumber "<b>[00]"
-Arzt -> "PIS/Portal": Abfrage der Impfdokumente
-"PIS/Portal" -> "Eigene Gemeinschaft\nA": Suche in den Metadaten
-"Eigene Gemeinschaft\nA" -> "PIS/Portal": Metadaten aller Impfdokumente
-"PIS/Portal" -> "Eigene Gemeinschaft\nA": Abfrage der Impfdokumente
-"Eigene Gemeinschaft\nA" -> "PIS/Portal": Impfdokumente
+Gesundheitsfachperson -> "Portal": Abfrage der Impfdokumente
+"Portal" -> "Eigene Gemeinschaft\nA": Suche in den Metadaten
+"Eigene Gemeinschaft\nA" -> "Portal": Metadaten aller Impfdokumente
+"Portal" -> "Eigene Gemeinschaft\nA": Abfrage der Impfdokumente
+"Eigene Gemeinschaft\nA" -> "Portal": Impfdokumente
 
 loop "Alle anderen Gemeinschaften"
-"PIS/Portal" -> "Andere Gemeinschaft\nN": Abfrage der Impfdokumente
-"Andere Gemeinschaft\nN" -> "PIS/Portal": Impfdokumente
+"Portal" -> "Andere Gemeinschaft\nN": Abfrage der Impfdokumente
+"Andere Gemeinschaft\nN" -> "Portal": Impfdokumente
 end
 
-"PIS/Portal" -> "Aggregator": Zusammenfassen der Daten
-"Aggregator" ->  "PIS/Portal": Ein aggregiertes Impfdokument
-"PIS/Portal" -> Arzt: Anzeigen der aggregierten\nImpfdaten
+"Portal" -> "Aggregator": Zusammenfassen der Daten
+"Aggregator" ->  "Portal": Ein aggregiertes Impfdokument
+"Portal" -> Gesundheitsfachperson: Anzeigen der aggregierten\nImpfdaten
 
 @enduml

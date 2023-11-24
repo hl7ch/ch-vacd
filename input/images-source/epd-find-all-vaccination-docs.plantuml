@@ -4,9 +4,9 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor HCP #blue
+actor "Health Care Professional" AS HCP #blue
 box "Community A"
-participant "GFPP/PIS" #00CC00
+participant "Portal" #00CC00
 participant "Aggregator" #00CC00
 participant "CO-Registry" #00CC00
 participant "CO-Repository" #00CC00
@@ -19,11 +19,11 @@ participant "OC-Repository" #00aaff
 end box
 
 autonumber "<b>[00]"
-HCP -> "GFPP/PIS": Get all immunization data
-activate "GFPP/PIS"
-"GFPP/PIS" -> "GFPP/PIS": query all registries
-activate "GFPP/PIS"
-"GFPP/PIS" -> "CO-IGW":  Registry Stored Query Request [ITI-18]
+HCP -> "Portal": Get all immunization data
+activate "Portal"
+"Portal" -> "Portal": query all registries
+activate "Portal"
+"Portal" -> "CO-IGW":  Registry Stored Query Request [ITI-18]
 activate "CO-IGW"
 "CO-IGW" -> "CO-Registry": Registry Stored Query Request [ITI-18]
 activate "CO-Registry"
@@ -41,13 +41,13 @@ activate "CO-IGW"
 deactivate "CO-IGW"
 
 "CO-IGW" -> "CO-IGW": Assemble Query Responses
-"CO-IGW" -> "GFPP/PIS": Registry Stored Query Response [ITI-18]
+"CO-IGW" -> "Portal": Registry Stored Query Response [ITI-18]
 deactivate "CO-IGW"
-"GFPP/PIS" -> "GFPP/PIS": list of document info
-deactivate "GFPP/PIS"
-"GFPP/PIS" -> "GFPP/PIS": retrieve all documents
-activate "GFPP/PIS"
-"GFPP/PIS" -> "CO-IGW": Retrieve Document Request [ITI-43]
+"Portal" -> "Portal": list of document info
+deactivate "Portal"
+"Portal" -> "Portal": retrieve all documents
+activate "Portal"
+"Portal" -> "CO-IGW": Retrieve Document Request [ITI-43]
 "CO-IGW" -> "CO-Repository": Retrieve Document Request [ITI-43]
 "CO-Repository" -> "CO-Repository": allocate document data
 "CO-Repository" -> "CO-IGW": Retrieve Document Response [ITI-43]
@@ -57,10 +57,10 @@ activate "GFPP/PIS"
 "OC-Repository" -> "OC-RGW": Retrieve Document Response [ITI-43]
 "OC-RGW" -> "CO-IGW": Retrieve Document Response [ITI-39]
 "CO-IGW" -> "CO-IGW": Assemble Retrieve Responses
-"CO-IGW" -> "GFPP/PIS": Retrieve Document Response [ITI-43]
-"GFPP/PIS" -> "Aggregator": Aggregate documents
-"Aggregator" -> "GFPP/PIS": one FHIR ch-vacd document
-deactivate "GFPP/PIS"
-"GFPP/PIS" -> HCP: Show immunization data
-deactivate "GFPP/PIS"
+"CO-IGW" -> "Portal": Retrieve Document Response [ITI-43]
+"Portal" -> "Aggregator": Aggregate documents
+"Aggregator" -> "Portal": one FHIR ch-vacd document
+deactivate "Portal"
+"Portal" -> HCP: Show immunization data
+deactivate "Portal"
 @enduml

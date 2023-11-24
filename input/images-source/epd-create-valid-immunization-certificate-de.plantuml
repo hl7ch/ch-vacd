@@ -4,28 +4,28 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor Arzt #blue
-participant "GFPP/PIS" #00CC00
+actor Gesundheitsfachperson AS Arzt #blue
+participant "Portal" #00CC00
 participant "Eigene Gemeinschaft\nA" #00CC00
 participant "Andere Gemeinschaft\nN" #00aaff
 participant "Certificate Service" #00aa00
 
 autonumber "<b>[00]"
-Arzt -> "GFPP/PIS": Anpassen der aggregierten Impfdaten,\nerstellen Impfdokument
-"GFPP/PIS" -> "Eigene Gemeinschaft\nA": Speichern des neuen Impfdokument\nund ersetzen der "alten" Dokumente
-"Eigene Gemeinschaft\nA" -> "GFPP/PIS": OK
+Arzt -> "Portal": Anpassen der aggregierten Impfdaten,\nerstellen Impfdokument
+"Portal" -> "Eigene Gemeinschaft\nA": Speichern des neuen Impfdokument\nund ersetzen der "alten" Dokumente
+"Eigene Gemeinschaft\nA" -> "Portal": OK
 
 loop
-"GFPP/PIS" -> "Andere Gemeinschaft\nN": Setzen der "alten" Impfdokumente auf "VERALTET"
-"Andere Gemeinschaft\nN" -> "GFPP/PIS": OK
+"Portal" -> "Andere Gemeinschaft\nN": Setzen der "alten" Impfdokumente auf "VERALTET"
+"Andere Gemeinschaft\nN" -> "Portal": OK
 end
 
-Arzt -> "GFPP/PIS": Erstellen des Impfzertifikats
-"GFPP/PIS" -> "GFPP/PIS": Zusammenstellen der Daten für das Zertifikat
-"GFPP/PIS" -> "Certificate Service": Senden der Daten
+Arzt -> "Portal": Erstellen des Impfzertifikats
+"Portal" -> "Portal": Zusammenstellen der Daten für das Zertifikat
+"Portal" -> "Certificate Service": Senden der Daten
 "Certificate Service" -> "Certificate Service": Erstellen Zertifikat
-"Certificate Service" -> "GFPP/PIS": Erstelltes Impfzertifikat
-"GFPP/PIS" -> "GFPP/PIS": Speichern des Impfzertifikats
-"GFPP/PIS" -> Arzt: Bestätigung der Speicherung
+"Certificate Service" -> "Portal": Erstelltes Impfzertifikat
+"Portal" -> "Portal": Speichern des Impfzertifikats
+"Portal" -> Arzt: Bestätigung der Speicherung
 
 @enduml
