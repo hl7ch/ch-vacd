@@ -26,6 +26,14 @@ Usage: #example
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/TCD03-EXPRISK3"
 * entry[=].resource = TCD03_EXPRISK3
 
+* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP2-ORG2-ROLE-author"
+* entry[=].resource = TC_HCP2_ORG2_ROLE_author
+
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-HCP2-C2"
+* entry[=].resource = TC_HCP2_C2
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG2"
+* entry[=].resource = TC_ORG2
+
 
 Instance: D_D7_HCP3_C1_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration

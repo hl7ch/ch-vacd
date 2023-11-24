@@ -11,13 +11,16 @@ Usage: #example
 
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Composition/D-D6-HCP2-C2-Composition"
 * entry[=].resource = D_D6_HCP2_C2_Composition
+
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/TC-patient"
 * entry[=].resource = TC_patient
+
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG1"
 * entry[=].resource = TC_ORG1
 
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-HCP2-C2"
 * entry[=].resource = TC_HCP2_C2
+
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG2"
 * entry[=].resource = TC_ORG2
 //* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP2-ORG2-ROLE-performer"
@@ -27,6 +30,13 @@ Usage: #example
 
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/TCD03-EXPRISK2"
 * entry[=].resource = TCD03_EXPRISK2
+
+* entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP3-ORG1-ROLE-author"
+* entry[=].resource = TC_HCP3_ORG1_ROLE_author
+
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Practitioner/TC-HCP3-C1"
+* entry[=].resource = TC_HCP3_C1
+
 
 
 Instance: D_D6_HCP2_C2_Composition

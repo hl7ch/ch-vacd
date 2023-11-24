@@ -65,7 +65,9 @@ Usage: #example
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><h3>Immunization Administration</h3><p><b>Id: </b>A-D6-HCP1-C1-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:5737b486-075d-4b2b-946c-87e638a1f133</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>October 5, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Practitioner-TC-HCP1-C1.html\">Practitioner/TC-HCP1-C1</a> Bereit Allzeit</p><p><a href=\"Organization-TC-ORG1.html\">Organization/TC-ORG1</a> Gruppenpraxis CH</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Immunization Administration</td></tr><tr><td>Comments</td></tr></table></div>"
 
 * relatesTo.code = #replaces
-* relatesTo.targetReference = Reference(A_D5_P_C1_Composition)
+* relatesTo.targetReference.type = ResourceType#Composition // http://test.fhir.ch/r4/Composition/A-D5-P-C1-Composition)
+* relatesTo.targetReference.identifier.system = "urn:ietf:rfc:3986"
+* relatesTo.targetReference.identifier.value = "urn:uuid:c2e1d265-f3fa-4023-92a3-2e9efe1ca192"
 * section[0].id = "administration"
 * section[=].title = "Immunization Administration"
 * section[=].code = $loinc#11369-6 "Hx of Immunization"

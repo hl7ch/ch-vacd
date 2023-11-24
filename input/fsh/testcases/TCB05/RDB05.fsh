@@ -24,16 +24,16 @@ Usage: #example
 * entry[=].resource = TC_HCP1_ORG1_ROLE_author
 
 // FSME CC
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCB01-IMMUN1"
-* entry[=].resource = TCB01_IMMUN1
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCB05-IMMUN1"
+* entry[=].resource = TCB05_IMMUN1
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-FSMEIMMCC"
 * entry[=].resource = TC_IMMUN_MEDIC_FSMEIMMCC
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-PFIZER"
 * entry[=].resource = TC_ORG_PFIZER
 
 // BOOSTRIX (in conflict with D_D2)
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCB01-IMMUN2"
-* entry[=].resource = TCB01_IMMUN2
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCB05-IMMUN2"
+* entry[=].resource = TCB05_IMMUN2
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Medication/TC-IMMUN-MEDIC-BOOSTRIX"
 * entry[=].resource = TC_IMMUN_MEDIC_BOOSTRIX
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG-GSK"
@@ -71,8 +71,8 @@ Usage: #example
 * section[=].code = $loinc#11369-6 "Hx of Immunization"
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Code: </b><span>Hx of Immunization (http://loinc.org#11369-6)</span></p><p><b>Entries:</b></p><table><tr><td><a href=\"Immunization-TCB01-IMMUN1.html\">Immunization/TCB01-IMMUN1</a></td></tr><tr><td><a href=\"Immunization-TCB01-IMMUN2.html\">Immunization/TCB01-IMMUN2</a></td></tr></table></div>"
-* section[=].entry[+] = Reference(TCB01_IMMUN1)
-* section[=].entry[+] = Reference(TCB01_IMMUN2)
+* section[=].entry[+] = Reference(TCB05_IMMUN1)
+* section[=].entry[+] = Reference(TCB05_IMMUN2)
 
 * section[+].id = "medicalproblems"
 * section[=].title = "Medical Problems"

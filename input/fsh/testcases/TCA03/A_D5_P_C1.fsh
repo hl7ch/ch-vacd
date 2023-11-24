@@ -38,7 +38,6 @@ Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "A-D5-P-C1-Composition"
 * language = #en-US
-
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:c2e1d265-f3fa-4023-92a3-2e9efe1ca192"
 * status = #final

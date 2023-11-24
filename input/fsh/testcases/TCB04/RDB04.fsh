@@ -23,6 +23,9 @@ Usage: #example
 * entry[+].fullUrl = "http://test.fhir.ch/r4/PractitionerRole/TC-HCP1-ORG1-ROLE-author"
 * entry[=].resource = TC_HCP1_ORG1_ROLE_author
 
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG3"
+* entry[=].resource = TC_ORG3
+
 // FSME CC
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/TCB01-IMMUN1"
 * entry[=].resource = TCB01_IMMUN1

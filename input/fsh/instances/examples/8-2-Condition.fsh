@@ -7,6 +7,7 @@ Usage: #example
 * identifier.value = "urn:uuid:6a756da6-f849-4e73-a30a-bcaa8dc13ebd"
 * code = $sct#235856003 "Disorder of liver (disorder)"
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
+* clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active "Active"
 * subject.reference = "Patient/3-1-Patient"
 * recordedDate = "2019-04-01T00:00:00+02:00"
 * recorder.reference = "PractitionerRole/6-1-PractitionerRole"

@@ -26,6 +26,8 @@ Usage: #example
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/TCB04-LABRES1"
 * entry[=].resource = TCB04_LABRES1
 
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Organization/TC-ORG3"
+* entry[=].resource = TC_ORG3
 
 
 Instance: B_D5_HCP1_C1_Composition

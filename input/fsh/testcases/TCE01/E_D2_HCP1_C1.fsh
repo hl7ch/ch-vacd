@@ -9,7 +9,7 @@ Usage: #example
 * type = #document
 * timestamp = "2021-10-06T00:00:00.390+02:00"
 
-* entry[+].fullUrl = "http://test.fhir.ch/r4/Composition/B-D3-HCP1-C1-Composition"
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Composition/E-D2-HCP1-C1-Composition"
 * entry[=].resource = E_D2_HCP1_C1_Composition
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Patient/TC-patient"
 * entry[=].resource = TC_patient
