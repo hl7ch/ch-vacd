@@ -8,3 +8,5 @@ Description: "Definition of the medication for immunization."
 * ^experimental = false
 * ^publisher = "eHealth Suisse"
 * . ^short = "CH VACD Medication"
+* identifier 1..
+* identifier ^short = "Observation item ID"
