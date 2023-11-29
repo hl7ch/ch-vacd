@@ -36,7 +36,7 @@ Usage: #example
 * extension[=].extension[+].url = "entry"
 * extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * extension[=].extension[=].valueReference.identifier.value = "dc168f1f-967c-4ff2-95ef-f8c468d67b45"
-* extension[=].extension[=].valueReference.type = ResourceType#Immunization
+* extension[=].extension[=].valueReference.type = ResourceType#Condition
 * extension[=].extension[+].url = "container"
 * extension[=].extension[=].valueReference.identifier.system = "urn:ietf:rfc:3986"
 * extension[=].extension[=].valueReference.identifier.value = "urn:uuid:9686dae0-448c-49f8-9c78-2db1aa95b921"
