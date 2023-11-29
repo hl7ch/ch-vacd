@@ -1,11 +1,11 @@
 // ////////////////////////////////////////////////
-// Definitions AllergyIntollerance
+// Definitions AllergyIntolerance
 // ////////////////////////////////////////////////
 // 
 Instance: TCB01_ALLINTO1
 InstanceOf: CHVACDAllergyIntolerance
-Title: "TCB01 AllergyIntollerance"
-Description: "Testcase B 1 example of allergyintollerance to typhoid vaccine."
+Title: "TCB01 AllergyIntolerance"
+Description: "Testcase B 1 example of allergyintolerance to typhoid vaccine."
 Usage: #example
 * id = "TCB01-ALLINTO1"
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"

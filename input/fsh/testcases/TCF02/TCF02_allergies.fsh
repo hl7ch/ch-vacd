@@ -1,10 +1,10 @@
 // ////////////////////////////////////////////////
-// Definitions AllergyIntollerance
+// Definitions AllergyIntolerance
 // ////////////////////////////////////////////////
 // 
 Instance: TCF02_ALLINTO1
 InstanceOf: CHVACDAllergyIntolerance
-Title: "TCF02 AllergyIntollerance 1"
+Title: "TCF02 AllergyIntolerance 1"
 Description: "Testcase F2: Add comment (note) to an existing AllergyIntolerance"
 Usage: #example
 * id = "TCF02-ALLINTO1"
@@ -21,7 +21,7 @@ Usage: #example
 
 Instance: TCF02_ALLINTO2
 InstanceOf: CHVACDAllergyIntolerance
-Title: "TCF02 AllergyIntollerance 2"
+Title: "TCF02 AllergyIntolerance 2"
 Description: "Testcase F 2: Add comment (note) to an existing AllergyIntolerance"
 Usage: #example
 * id = "TCF02-ALLINTO2"
@@ -32,7 +32,7 @@ Usage: #example
 * extension[=].extension[+].url = "entry"
 * extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * extension[=].extension[=].valueReference.identifier.value = "cbc8c8c1-4f47-4ec3-99a7-ae775b75c621"
-* extension[=].extension[=].valueReference.type = ResourceType#AllergyIntollerance
+* extension[=].extension[=].valueReference.type = ResourceType#AllergyIntolerance
 * extension[=].extension[+].url = "container"
 * extension[=].extension[=].valueReference.identifier.system = "urn:ietf:rfc:3986"
 * extension[=].extension[=].valueReference.identifier.value = "urn:uuid:98dbfa14-1b2e-40f8-8110-932c631db1df"
@@ -56,7 +56,7 @@ Usage: #example
 
 Instance: TCF02_ALLINTO3
 InstanceOf: CHVACDAllergyIntolerance
-Title: "TCF02 AllergyIntollerance 3"
+Title: "TCF02 AllergyIntolerance 3"
 Description: "Testcase F 2: Add comment (note) to an existing AllergyIntolerance"
 Usage: #example
 * id = "TCF02-ALLINTO3"

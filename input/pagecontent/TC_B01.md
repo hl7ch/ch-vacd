@@ -10,7 +10,7 @@ The practitioner HCP1, creates a ImmunizationAdministration document with the ea
 
 
 ### Result
-Rhe AllergyIntollerance entry can be found in the vaccination status of the patient in the ehealth ecosystem by aggregation of all Immunization Administration documents available in the ehealth ecosystem.
+The AllergyIntolerance entry can be found in the vaccination status of the patient in the ehealth ecosystem by aggregation of all Immunization Administration documents available in the ehealth ecosystem.
 
 ### Documents
 * [B_D1_HCP1_C1](Bundle-B-D1-HCP1-C1.html)

@@ -1,23 +1,6 @@
 == Suppressed Messages ==
 
-# the language code
-The value provided ('rm-CH') is not in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The provided code http://hl7.org/fhir/ValueSet/languages is not in the value set ''
-
-# the following display code
-The display "Frühsommer-Meningoenzephalitis (FSME)" is not a valid display for the code {http://snomed.info/sct}16901001 - should be one of ['Central European encephalitis', 'Diphasic meningoencephalitis', 'Biundulant meningoencephalitis', 'Central European tick-borne encephalitis', 'Diphasic milk fever', 'Central European encephalitis (disorder)', 'CEE - Central European encephalitis', 'TBE - Central European tick-borne encephalitis', 'Encephalitis due to European subtype of tick-borne encephalitis virus', 'Western European tick-borne encephalitis'] (from http://tx.fhir.org/r4)
-The display "encéphalite à tiques d'Europe centrale" is not a valid display for the code {http://snomed.info/sct}16901001 - should be one of ['Central European encephalitis', 'Diphasic meningoencephalitis', 'Biundulant meningoencephalitis', 'Central European tick-borne encephalitis', 'Diphasic milk fever', 'Central European encephalitis (disorder)', 'CEE - Central European encephalitis', 'TBE - Central European tick-borne encephalitis', 'Encephalitis due to European subtype of tick-borne encephalitis virus', 'Western European tick-borne encephalitis'] (from http://tx.fhir.org/r4)
-
-Display Name for urn:oid:2.16.756.5.30.1.127.3.3.2#213006 should be one of 'FLEDERMAUSFORSCHER_UND_SCHUETZER, Fledermausforscher und -schützer, Scientifiques effectuant des recherches sur les chiroptères, protecteurs ou amateurs de chauves-souris, Ricercatori che svolgono ricerche sui chirotteri, protettori o appassionati di pipistrelli, FLEDERMAUSFORSCHER_UND_SCHUETZER, FLEDERMAUSFORSCHER_UND_SCHUETZER' instead of 'Bat researcher or guard' for 'urn:oid:2.16.756.5.30.1.127.3.3.2#213006'
-Display Name for urn:oid:2.16.756.5.30.1.127.3.3.2#213006 should be one of 'FLEDERMAUSFORSCHER_UND_SCHUETZER, Fledermausforscher und -schützer, Scientifiques effectuant des recherches sur les chiroptères, protecteurs ou amateurs de chauves-souris, Ricercatori che svolgono ricerche sui chirotteri, protettori o appassionati di pipistrelli, FLEDERMAUSFORSCHER_UND_SCHUETZER, FLEDERMAUSFORSCHER_UND_SCHUETZER, FLEDERMAUSFORSCHER_UND_SCHUETZER, Fledermausforscher und -schützer, Scientifiques effectuant des recherches sur les chiroptères, protecteurs ou amateurs de chauves-souris, Ricercatori che svolgono ricerche sui chirotteri, protettori o appassionati di pipistrelli, FLEDERMAUSFORSCHER_UND_SCHUETZER, FLEDERMAUSFORSCHER_UND_SCHUETZER' instead of 'Bat researcher or guard'
-
-# the following valuesets can not be resolved
-The code J07BC03 is not valid in the system http://www.whocc.no/atc
-The code J07BX03 is not valid in the system http://www.whocc.no/atc
-The code J07BN01 is not valid in the system http://www.whocc.no/atc
-The code J07BN02 is not valid in the system http://www.whocc.no/atc
-The code J07BN03 is not valid in the system http://www.whocc.no/atc
-Error from server: Unable to provide support for code system http://www.whocc.no/atc
-
-Code System URI 'urn:oid:2.51.1.1' is unknown so the code cannot be validated
+# induced by IG Publisher 
+The modifier extension http://hl7.org/fhir/1.0/StructureDefinition/extension-ConceptMap.element.target.equivalence from FHIR version {3} is not allowed to be used at this point (allowed = e:ConceptMap.element.target; this element is [[BackboneElement, ConceptMap.group.element.target]; this is a warning since contexts may be renamed between FHIR versions)
 
 # All important examples are included
