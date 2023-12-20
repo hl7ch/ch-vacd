@@ -5,7 +5,7 @@ An immunization can be recorded by an Practitioner or a Patient ([Extension: Aut
 Recorder == Patient means not validated<br/>
 Recorder == PractitionerRole means validated<br/>
 
-This can be done by changing the recorder of the immunization. This will be done by an Immunization Administration document which will replace the existing entry using the [Extension ch-core-ext-entry-resource-cross-references](http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references.html).
+This can be done by changing the recorder of the immunization. This will be done by an Immunization Administration document which will replace the existing entry using the [Extension ch-core-ext-entry-resource-cross-references](http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references).
 
 
 ### Duplicate Conflict
