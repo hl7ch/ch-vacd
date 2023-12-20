@@ -9,11 +9,11 @@ title: Implementation Guide CH VACD
 # FSHOnly: true
 # applyExtensionMetadataToRoot: false
 status: active
-version: 4.0.0
+version: 5.0.0-ci-build
 date: 2023-12-20
 fhirVersion: 4.0.1
 copyrightYear: 2021+
-releaseLabel: trial-use
+releaseLabel: ci-build
 publisher:
   name: HL7 Switzerland
   url: https://www.hl7.ch/
