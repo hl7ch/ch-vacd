@@ -1,9 +1,9 @@
 {
   "package-id" : "ch.fhir.ig.ch-vacd",
-  "version" : "4.0.0-ballot",
-  "path" : "http://fhir.ch/ig/ch-vacd/4.0.0-ballot",
+  "version" : "4.0.0",
+  "path" : "http://fhir.ch/ig/ch-vacd/4.0.0",
   "mode" : "milestone",
-  "status" : "ballot",
+  "status" : "trial-use",
   "sequence" : "STU 4",
   "desc" : "HL7 Switzerland STU 4",
   "changes" : "changelog.html",
