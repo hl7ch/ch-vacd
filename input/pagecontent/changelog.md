@@ -1,6 +1,9 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
 ### STU 4 
+
+* [#270](https://github.com/hl7ch/ch-core/issues/270): 4.0.1 Technical correction for invalid package
+
 See [Resolution Desk STU 4](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_4.0.0.md)
 
 ### STU 4 Ballot
