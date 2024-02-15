@@ -1,5 +1,10 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
+### STU 5 Ballot
+
+* [#206](https://github.com/hl7ch/ch-core/issues/270): Typo german text
+
+
 ### STU 4 
 
 * [#270](https://github.com/hl7ch/ch-core/issues/270): 4.0.1 Technical correction for invalid package
