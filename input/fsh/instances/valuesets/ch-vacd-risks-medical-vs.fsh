@@ -62,7 +62,7 @@ Usage: #definition
 * compose.include[=].concept[+].code = #226034001
 * compose.include[=].concept[=].display = "Injecting drug user (finding)"
 * compose.include[=].concept[=].designation[+].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Konsument / Kunsumentin von injizierbaren Drogen"
+* compose.include[=].concept[=].designation[=].value = "Konsument / Konsumentin von injizierbaren Drogen"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
 * compose.include[=].concept[=].designation[=].value = "consommateurs de drogue par injection"
 * compose.include[=].concept[=].designation[+].language = #it-CH
