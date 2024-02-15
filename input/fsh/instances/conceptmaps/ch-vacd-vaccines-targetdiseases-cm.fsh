@@ -777,6 +777,13 @@ Usage: #definition
 * group[=].element[=].target[=].display = "Haemophilus influenzae type b infection (disorder)"
 * group[=].element[=].target[=].equivalence = #relatedto
 
+// added 2024-02-15, issue 208
+* group[=].element[+].code = #65730	
+* group[=].element[=].display = "Bexsero"
+* group[=].element[=].target[+].code = #23511006
+* group[=].element[=].target[=].display = "Meningococcal infectious disease (disorder)"
+* group[=].element[=].target[=].equivalence = #relatedto
+
 // added 2022-12-01
 * group[=].element[+].code = #68087	
 * group[=].element[=].display = "Influvac Tetra"

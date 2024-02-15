@@ -427,6 +427,12 @@ Usage: #definition
 * group[=].element[=].target[+].code = #657
 * group[=].element[=].target[=].display = "Menjugate"
 * group[=].element[=].target[=].equivalence = #relatedto
+// added 2024-02-15, issue 208
+* group[=].element[=].target[+].code = #65730
+* group[=].element[=].target[=].display = "Bexsero"
+* group[=].element[=].target[=].equivalence = #relatedto
+
+
 // added 2022-11-03
 * group[=].element[=].target[+].code = #68221
 * group[=].element[=].target[=].display = "MenQuadfi"
@@ -561,14 +567,7 @@ Usage: #definition
 * group[=].element[=].target[=].equivalence = #relatedto
 
 
-* group[=].element[+].code = #23511006	
-* group[=].element[=].display = "Meningococcal infectious disease (disorder)"
-* group[=].element[=].target[+].code = #62502
-* group[=].element[=].target[=].display = "Menveo"
-* group[=].element[=].target[=].equivalence = #relatedto
-* group[=].element[=].target[+].code = #652
-* group[=].element[=].target[=].display = "Mencevax ACWY"
-* group[=].element[=].target[=].equivalence = #relatedto
+
 
 
 * group[=].element[+].code = #240532009

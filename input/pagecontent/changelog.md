@@ -2,7 +2,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 5 Ballot
 
-* [#206](https://github.com/hl7ch/ch-core/issues/270): Typo german text
+* [#208](https://github.com/hl7ch/ch-vacd/issues/208): Bexsero vaccine missing in concept-map
+* [#206](https://github.com/hl7ch/ch-vacd/issues/206): Typo german text
 
 
 ### STU 4 
