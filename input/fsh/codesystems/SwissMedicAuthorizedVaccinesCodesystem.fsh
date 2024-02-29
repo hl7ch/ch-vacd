@@ -32,7 +32,7 @@ Description: "The vaccines swissmedic has given an autorization number."
 * #683 ^designation[=].value = "FSME-Immun 0.25 ml Junior"
 //450	02	FSME-Immun CC, Suspension zur intramuskulären Injektion	Pfizer AG	B	06.08.1979	05.11.2001	unbegrenzt	J07BA01
 * #450 "FSME-Immun CC"
-* #683 ^definition = "FSME-Immun CC, Suspension zur intramuskulären Injektion	Pfizer AG"
+* #450 ^definition = "FSME-Immun CC, Suspension zur intramuskulären Injektion	Pfizer AG"
 * #450 ^designation[0].language = #de-CH
 * #450 ^designation[=].value = "FSME-Immun CC"
 * #450 ^designation[+].language = #fr-CH
