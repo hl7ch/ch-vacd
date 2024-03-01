@@ -47,7 +47,7 @@ Usage: #example
   <div class=\"administration hiddensection\">
     <div style=\"display: table;\"><div style=\"display: table-row; border-spacing: 5px;\"><div style=\"display: table-cell; font-weight: bold; width: 200px; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\">ID</div><div style=\"display: table-cell; font-weight: bold; width: 200px; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\">Vaccination Date</div><div style=\"display: table-cell; font-weight: bold; width: 200px; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\">Vaccine</div><div style=\"display: table-cell; font-weight: bold; width: 200px; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\">Lot</div><div style=\"display: table-cell; font-weight: bold; width: 200px; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\">Route</div><div style=\"display: table-cell; font-weight: bold; width: 200px; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\">Target</div><div style=\"display: table-cell; font-weight: bold; width: 200px; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\">Doc Date</div><div style=\"display: table-cell; font-weight: bold; width: 200px; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\">Performer</div><div style=\"display: table-cell; font-weight: bold; width: 200px; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\">Identifier</div></div>
       <div style=\"display: table-row; border-spacing: 5px;\"><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\">7-1-Immunization</div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>15.09.2017</span></div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span style=\"font-weight: bold;\"><span>Boostrix
-          (<a href=\"http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-swissmedic-cs#ch-vacd-swissmedic-cs-637\">637</a>)
+          (<a href=\"https://fhir.ch/ig/ch-vacd/CodeSystem-ch-vacd-swissmedic-cs.html#ch-vacd-swissmedic-cs-637\">637</a>)
         </span><br/></span></div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>12-34244</span></div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>20035000: Intramuscular use</span><br/></div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>Diphtheria caused by Corynebacterium diphtheriae (disorder)</span><br/><span>Tetanus (disorder)</span><br/><span>Pertussis (disorder)</span><br/></div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>15.09.2017</span></div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\">
       <div class=\"practitionerrole\" style=\"background-color: #f7fdf7;\">
           
@@ -88,6 +88,12 @@ Usage: #example
 * section[=].text.status = #generated
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing all immunization entries.</div>"
 * section[=].entry.reference = "Immunization/7-1-Immunization"
+* section[+].id = "originalRepresentation"
+* section[=].title = "Original representation"
+* section[=].code = $loinc#55108-5 "Clinical presentation Document"
+* section[=].text.status = #generated
+* section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">This is the section containing the original representation.</div>"
+* section[=].entry.reference = "Binary/1-1-ImmunizationAdministration-Binary"
 * section[+].id = "Annotation"
 * section[=].title = "Comments"
 * section[=].code = $loinc#48767-8 "Annotation comment Imp"

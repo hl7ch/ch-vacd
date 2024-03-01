@@ -4,7 +4,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 * [#208](https://github.com/hl7ch/ch-vacd/issues/208): Bexsero vaccine missing in concept-map
 * [#206](https://github.com/hl7ch/ch-vacd/issues/206): Typo german text
-
+* [#184](https://github.com/hl7ch/ch-vacd/issues/284): Redundant codeSystem SwissAllergyIntoleranceCodesystem, replace by snomed-ct codes
 
 ### STU 4 
 
