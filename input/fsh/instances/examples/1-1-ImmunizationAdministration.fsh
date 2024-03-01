@@ -20,3 +20,5 @@ Usage: #example
 * entry[=].resource = 6-1-PractitionerRole
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Immunization/7-1-Immunization"
 * entry[=].resource = 7-1-Immunization
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Binary/1-1-ImmunizationAdministration-Binary"
+* entry[=].resource = 1-1-ImmunizationAdministration-Binary
