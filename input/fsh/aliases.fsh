@@ -26,6 +26,7 @@ Alias: $ch-vacd-swissmedic-cs =                                         http://f
 Alias: $ch-vacd-cdss-cs =                                               http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-clinical-decision-support-event-cs
 Alias: $ch-vacd-recommendation-forecast-status-cs =                     http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-forecast-status-cs
 
+
 Alias: $ch-vacd-ch-vaccination-plan-immunizations-vs =                  http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs
 Alias: $ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs = http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs
 Alias: $ch-vacd-recommendation-categories-vs =                          http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-recommendation-categories-vs
@@ -40,4 +41,5 @@ Alias: $ch-vacd-conflict-vs =                                           http://f
 Alias: $ch-vacd-immunization-allergyintolerances-vs =                   http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-immunization-allergyintolerances-vs
 Alias: $ch-vacd-basic-immunization-vs =                                 http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-basic-immunization-vs
 Alias: $ch-ext-author =                                                 http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author
-
+Alias: $documententry-formatcode-vs =                                   http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.formatCode
+Alias: $DocumentEntry.formatCode =                                      http://fhir.ch/ig/ch-term/ValueSet/DocumentEntry.formatCode
