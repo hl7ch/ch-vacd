@@ -2,6 +2,9 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 5 Ballot
 
+* [#218](https://github.com/hl7ch/ch-vacd/issues/218): Depend on ch core profiles (Michaela Ziegler, ahdis ag
+* [#217](https://github.com/hl7ch/ch-vacd/issues/217): Define fix value for category on compositon
+* [#212](https://github.com/hl7ch/ch-vacd/issues/212): move terminology to ch-term
 * [#208](https://github.com/hl7ch/ch-vacd/issues/208): Bexsero vaccine missing in concept-map
 * [#206](https://github.com/hl7ch/ch-vacd/issues/206): Typo german text
 * [#184](https://github.com/hl7ch/ch-vacd/issues/284): Redundant codeSystem SwissAllergyIntoleranceCodesystem, replace by snomed-ct codes
