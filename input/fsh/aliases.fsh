@@ -43,3 +43,5 @@ Alias: $ch-vacd-basic-immunization-vs =                                 http://f
 Alias: $ch-ext-author =                                                 http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author
 Alias: $documententry-formatcode-vs =                                   http://fhir.ch/ig/ch-epr-term/ValueSet/DocumentEntry.formatCode
 Alias: $DocumentEntry.formatCode =                                      http://fhir.ch/ig/ch-term/ValueSet/DocumentEntry.formatCode
+Alias: $absent-or-unknown-immunizations-uv-ips =                   http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-immunizations-uv-ips
+

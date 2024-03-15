@@ -46,11 +46,13 @@ parameters:
 
 dependencies:
   hl7.terminology: 5.4.0
+  ch.fhir.ig.ch-core: current
   ch.fhir.ig.ch-term: current
-  ch.fhir.ig.ch-core: 4.0.1
+
   hl7.fhir.uv.ips:
     version: 1.0.0
     uri: http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips
     id: ips
-  ch.fhir.ig.ch-emed: 4.0.1
-  ch.fhir.ig.ch-allergyintolerance: 2.0.1
+  ch.fhir.ig.ch-emed: current
+  ch.fhir.ig.ch-allergyintolerance: current
+

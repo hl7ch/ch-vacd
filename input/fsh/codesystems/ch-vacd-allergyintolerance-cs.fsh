@@ -7,7 +7,7 @@ Description: "AllergyIntolerance codes in Switzerland."
 * ^identifier.use = #official
 * ^identifier.system = "http://fhir.ch/ig/ch-vacd/cs/ch-vacd-allergyintolerance-cs"
 * ^identifier.value = "ch-vacd-allergyintolerance-cs"
-* ^status = #active
+* ^status = #retired
 * ^experimental = false
 * ^publisher = "eHealth Suisse"
 * ^contact.name = "eHealth Suisse"
