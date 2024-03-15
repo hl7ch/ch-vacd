@@ -41,3 +41,4 @@ Alias: $ch-vacd-immunization-allergyintolerances-vs =                   http://f
 Alias: $ch-vacd-basic-immunization-vs =                                 http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-basic-immunization-vs
 Alias: $ch-ext-author =                                                 http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author
 
+Alias: $absent-or-unknown-immunizations-uv-ips =                   http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-immunizations-uv-ips
