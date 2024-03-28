@@ -29,3 +29,5 @@ Description: "Generic definition (abstract profile) of the condition for all doc
 * recorder only Reference(CHCorePractitionerRole or CHCorePatient or RelatedPerson)
 * asserter MS
 * asserter only Reference(CHCorePractitionerRole)
+
+* note.author[x] only Reference(CHCorePractitioner or CHCorePatient or RelatedPerson or CHCoreOrganization)
