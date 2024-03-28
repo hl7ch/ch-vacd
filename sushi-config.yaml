@@ -54,4 +54,4 @@ dependencies:
     version: 1.0.0
     uri: http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips
     id: ips
-  ch.fhir.ig.ch-allergyintolerance: current
+
