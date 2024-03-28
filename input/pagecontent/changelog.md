@@ -1,7 +1,10 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
 ### STU 5 Ballot
-
+* [#228](https://github.com/hl7ch/ch-vacd/issues/228): Base CHVACDAllergyIntolerance on CHCoreAllergyIntolerance in place of CHAllergyIntolerance 
+* [#226](https://github.com/hl7ch/ch-vacd/issues/226): Base CHVACDMedication on ChCoreMedication in place of CHEMED
+* [#226](https://github.com/hl7ch/ch-vacd/issues/222): Redundancy issues with ConceptMap-ch-vacd-targetdiseases-vaccines
+* [#216](https://github.com/hl7ch/ch-vacd/issues/216): Referencing to the core profiles
 * [#218](https://github.com/hl7ch/ch-vacd/issues/218): Depend on ch core profiles (Michaela Ziegler, ahdis ag
 * [#217](https://github.com/hl7ch/ch-vacd/issues/217): Define fix value for category on compositon
 * [#212](https://github.com/hl7ch/ch-vacd/issues/212): move terminology to ch-term
