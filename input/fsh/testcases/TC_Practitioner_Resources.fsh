@@ -7,8 +7,8 @@ Title: "TC HCP1 C1"
 Description: "Testcase practitioner HCP1 of C1"
 Usage: #example
 * id = "TC-HCP1-C1"
-* identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7601888888884"
+* identifier[GLN].system = "urn:oid:2.51.1.3"
+* identifier[GLN].value = "7601888888884"
 * active = true
 * name.family = "Müller"
 * name.given = "Peter"
@@ -40,8 +40,8 @@ Title: "TC HCP2 G2"
 Description: "Testcase practitione HCP2 of C2"
 Usage: #example
 * id = "TC-HCP2-C2"
-* identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7601999999998"
+* identifier[GLN].system = "urn:oid:2.51.1.3"
+* identifier[GLN].value = "7601999999998"
 * active = true
 * name.family = "Meier"
 * name.given = "Gabriela"
@@ -75,8 +75,8 @@ Title: "TC HCP3 C1"
 Description: "Testcase practitioner HCP3 of C1"
 Usage: #example
 * id = "TC-HCP3-C1"
-* identifier.system = "urn:oid:2.51.1.3"
-* identifier.value = "7601077777777"
+* identifier[GLN].system = "urn:oid:2.51.1.3"
+* identifier[GLN].value = "7601077777777"
 * active = true
 * name.family = "Gesund"
 * name.given = "Macht"
