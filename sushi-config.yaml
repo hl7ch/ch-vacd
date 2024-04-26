@@ -51,7 +51,7 @@ dependencies:
   ch.fhir.ig.ch-core: current
   ch.fhir.ig.ch-term: current
   hl7.fhir.uv.ips:
-    version: 1.0.0
+    version: 1.1.0
     uri: http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips
     id: ips
 
