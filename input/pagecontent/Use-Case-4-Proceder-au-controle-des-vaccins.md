@@ -17,7 +17,7 @@ Un patient consulte les données de vaccination et sélectionne sur le portail d
 
 Le patient exécute le contrôle des vaccins automatisé et examine les recommandations de vaccination. 
 
-Le cas échéant, le patient complète son dossier de vaccination avec les recommandations de vaccination et sauvegarde le dossier de vaccination à jour au format d’échange *dossier de vaccination* dans le DEP. Les nouveaux documents contiennent une indication sur les anciens documents remplacés ou complétés par les nouveaux. L’élément de données *relatesTo* du format d’échange CH-VACD est utilisé à cet effet.
+Le cas échéant, le patient complète son dossier de vaccination avec les recommandations de vaccination et sauvegarde le dossier de vaccination à jour au format d’échange *dossier de vaccination* dans le DEP. Les nouveaux documents contiennent une indication sur les anciens documents remplacés ou complétés par les nouveaux. L’élément de données *relatesTo* du format d’échange CH VACD est utilisé à cet effet.
 
 
 
