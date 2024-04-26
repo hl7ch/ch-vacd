@@ -7,7 +7,7 @@ Please add your feedback via the ‘Propose a change’-link in the footer on th
 -->
 
 ### Introduction
-The CH-VACD implementation guide describes the FHIR representation of the defined **documents for the exchange of vaccination and immunization information**. 
+The CH VACD implementation guide describes the FHIR representation of the defined **documents for the exchange of vaccination and immunization information**. 
 This implementation guide is dependent on the CH Core Profiles [CH Core](http://fhir.ch/ig/ch-core/index.html) which describes the Swiss specific resources.
 
 Initially the implementation guide was build up based on the [CDA-CH-VACD - Immunization Content (eVACDOC)](https://art-decor.org/art-decor/decor-project--cdachvacd)
