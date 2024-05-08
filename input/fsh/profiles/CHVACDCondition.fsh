@@ -1,5 +1,5 @@
 Profile: CHVACDCondition
-Parent: Condition
+Parent: CHCoreCondition
 Id: ch-vacd-condition
 Title: "CH VACD Condition Profile (Abstract)"
 Description: "Generic definition (abstract profile) of the condition for all documents except recommendation request or response."
@@ -29,3 +29,5 @@ Description: "Generic definition (abstract profile) of the condition for all doc
 * recorder only Reference(CHCorePractitionerRole or CHCorePatient or RelatedPerson)
 * asserter MS
 * asserter only Reference(CHCorePractitionerRole)
+
+* note.author[x] only Reference(CHCorePractitioner or CHCorePatient or RelatedPerson or CHCoreOrganization)

@@ -8,7 +8,7 @@ Die Gesundheitsfachperson prüft die Impfdaten, dabei insbesondere die vom Patie
 
 *Technische Umsetzung im EPD*: Das Portal oder Primärsystem richtet eine Abfrage von Dokumenten zur Impfdokumentation an den Zugangspunkt der Gemeinschaft, der die Abfrage an andere Gemeinschaften weiterleitet, in denen Dokumente des Patienten abgelegt sind. Das Portal oder Primärsystem analysiert das Ergebnis der Registry Abfrage und fragt die Dokumente zur Impfdokumentation aus allen Gemeinschaften ab, welche Dokumente mit dem entsprechenden Dokumententyp bzw. Dokumentklasse gespeichert haben. Dazu führt das Portal je eine Abfrage für alle Dokumente pro Gemeinschaft durch, welche Impfdaten für den ausgewählten Patienten gespeichert haben. Das Portal führt die Ergebnisse zusammen und zeigt dem Patienten die kumulierten Daten (Impfausweis und Impfdokumentation) in einer Benutzeroberfläche an. 
 
-Von der Gesundheitsfachperson eingegeben bzw. korrigierte Daten werden im Primärsystem bzw. dem Portal erfasst und nach Abschluss der Verifikation als ein Dokument im Austauschformat Impfausweis oder mehrere Dokumente im Austauschformat Impfdokumentation im EPD gespeichert. In den neuen Dokumenten wird vermerkt, welche älteren Dokumente durch die neuen Dokumente ersetzt bzw. ergänzt werden. Dazu wird das Datenelement relatesTo der CH-VACD Austauschformate verwendet.
+Von der Gesundheitsfachperson eingegeben bzw. korrigierte Daten werden im Primärsystem bzw. dem Portal erfasst und nach Abschluss der Verifikation als ein Dokument im Austauschformat Impfausweis oder mehrere Dokumente im Austauschformat Impfdokumentation im EPD gespeichert. In den neuen Dokumenten wird vermerkt, welche älteren Dokumente durch die neuen Dokumente ersetzt bzw. ergänzt werden. Dazu wird das Datenelement relatesTo der CH VACD Austauschformate verwendet.
 
 ### Impfdossier aktualisieren
 
@@ -18,7 +18,7 @@ Die Gesundheitsfachperson stellt die zusätzlichen und für das Impfdossier ben�
 
 Die Gesundheitsfachperson ruft ggf. den automatischen Impfcheck auf.   
 
-*Technische Umsetzung im EPD*: Das Primärsystem bzw. das Portal erstellt ein Dokument im Austauschformat Impfdossier mit den eingegebenen Daten und speichert es im EPD des Patienten. Im neuen Dokument wird vermerkt, welche älteren Dokumente im Austauschformat Impfdossier durch das neue Dokument ersetzt werden. Dazu wird das Datenelement relatesTo der CH-VACD Austauschformate verwendet.
+*Technische Umsetzung im EPD*: Das Primärsystem bzw. das Portal erstellt ein Dokument im Austauschformat Impfdossier mit den eingegebenen Daten und speichert es im EPD des Patienten. Im neuen Dokument wird vermerkt, welche älteren Dokumente im Austauschformat Impfdossier durch das neue Dokument ersetzt werden. Dazu wird das Datenelement relatesTo der CH VACD Austauschformate verwendet.
 
 
 ### Technische Details

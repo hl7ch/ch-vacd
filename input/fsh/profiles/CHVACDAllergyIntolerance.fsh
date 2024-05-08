@@ -1,5 +1,5 @@
 Profile: CHVACDAllergyIntolerance
-Parent: CHAllergyIntolerance
+Parent: CHCoreAllergyIntolerance
 Id: ch-vacd-allergyintolerances
 Title: "CH VACD AllergyIntolerance"
 Description: "Definition of the AllergyIntolerance part for vaccination record documents."
@@ -26,8 +26,8 @@ Description: "Definition of the AllergyIntolerance part for vaccination record d
 * code ^binding.extension[=].valueBoolean = true
 * code ^binding.description = "The code for allergy."
 * patient MS
-* patient only Reference(CHCorePatient)
-* patient ^short = "Patient"
+// * patient only Reference(CHCorePatient)
+// * patient ^short = "Patient"
 * recorder MS
-* recorder only Reference(CHCorePractitionerRole or CHCorePatient or RelatedPerson)
-* recorder ^short = "Recorder"
+// * recorder only Reference(CHCorePractitionerRole or CHCorePatient or RelatedPerson)
+// * recorder ^short = "Recorder"
