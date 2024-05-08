@@ -69,7 +69,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "reazione anafilattica"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Anaphylaktische Reaktion"
+* compose.include[=].concept[=].designation[=].value = "reacziun anafilactica"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Anaphylactic reaction"
 
@@ -440,7 +440,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro il vaiolo"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Pockenimpfstoff"
+* compose.include[=].concept[=].designation[=].value = "allergia cunter in vaccin en virola"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to smallpox vaccine"
 
@@ -453,7 +453,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro l'antrace"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Anthrax-Impfstoff"
+* compose.include[=].concept[=].designation[=].value = "allergia cunter in vaccin cunter antrax"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to anthrax vaccine"
 
@@ -469,7 +469,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #it-CH
 * compose.include[=].concept[=].designation[=].value = "allergia al vaccino contro il Rotavirus"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Allergie gegen Impfstoff gegen Rotavirus"
+* compose.include[=].concept[=].designation[=].value = "allergia cunter il vaccin cunter Rotavirus"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Allergy to Rotavirus vaccine"
 
@@ -480,11 +480,11 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines FSME-Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Effet indésirable du vaccin contre la FSME"
+* compose.include[=].concept[=].designation[=].value = "effet indésirable du vaccin contre la FSME"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing tick-borne encephalitis virus antigen"
+* compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro la TBE"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines FSME-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin FSME"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Tick-borne encephalitis virus antigen"
 
@@ -495,11 +495,11 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Humanen-Papillomaviren-Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Effet indésirable du vaccin contre le papillomavirus humain"
+* compose.include[=].concept[=].designation[=].value = "effet indésirable du vaccin contre le papillomavirus humain"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Human papillomavirus antigen"
+* compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro il papillomavirus umano"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Humanen-Papillomaviren-Impfstoffs"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin da pirlas da l'uman"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Human papillomavirus antigen"
 
@@ -509,70 +509,13 @@ Usage: #definition
 * compose.include[=].concept[+].code = #1303852006
 * compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Human alphaherpesvirus 3 antigen (disorder)"
 * compose.include[=].concept[=].designation[+].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Human alphaherpesvirus 3 antigen"
+* compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Varizellen-Impfstoffs"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Human alphaherpesvirus 3 antigen"
+* compose.include[=].concept[=].designation[=].value = "effet indésirable du vaccin contre la varicelle"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Human alphaherpesvirus 3 antigen"
+* compose.include[=].concept[=].designation[=].value = "reazione avversa al vaccino contro la varicella"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Human alphaherpesvirus 3 antigen"
+* compose.include[=].concept[=].designation[=].value = "effect nungiavischà d'in vaccin cunter varizellas"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Human alphaherpesvirus 3 antigen"
-
-// * compose.include[+].system = "http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-allergyintolerance-cs"
-// missing varizellen
-// * compose.include[=].concept[+].code = #allergyvaccinevarizella
-// * compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing varicella antigen"
-// * compose.include[=].concept[=].designation[+].language = #de-CH
-// * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Varizellen-Impfstoffs"
-// * compose.include[=].concept[=].designation[+].language = #fr-CH
-// * compose.include[=].concept[=].designation[=].value = "Effet indésirable du vaccin contre la varicelle"
-// * compose.include[=].concept[=].designation[+].language = #it-CH
-// * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing varicella antigen"
-// * compose.include[=].concept[=].designation[+].language = #rm-CH
-// * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Varizellen-Impfstoffs"
-// * compose.include[=].concept[=].designation[+].language = #en-US
-// * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing varicella antigen"
-
-// missing hpv
-// * compose.include[=].concept[+].code = #allergyvaccinehpv
-// * compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing human papillomavirus antigen"
-// * compose.include[=].concept[=].designation[+].language = #de-CH
-// * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Humanen-Papillomaviren-Impfstoffs"
-// * compose.include[=].concept[=].designation[+].language = #fr-CH
-// * compose.include[=].concept[=].designation[=].value = "Effet indésirable du vaccin contre le papillomavirus humain"
-// * compose.include[=].concept[=].designation[+].language = #it-CH
-// * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing human papillomavirus antigen"
-// * compose.include[=].concept[=].designation[+].language = #rm-CH
-// * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Humanen-Papillomaviren-Impfstoffs"
-// * compose.include[=].concept[=].designation[+].language = #en-US
-// * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing human papillomavirus antigen"
-
-// missing herpes zoster
-// * compose.include[=].concept[+].code = #allergyvaccineherpeszoster
-// * compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing Herpes zoster"
-// * compose.include[=].concept[=].designation[+].language = #de-CH
-// * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Herpes-Zoster-Impfstoffs"
-// * compose.include[=].concept[=].designation[+].language = #fr-CH
-// * compose.include[=].concept[=].designation[=].value = "Effet indésirable du vaccin contre le zona"
-// * compose.include[=].concept[=].designation[+].language = #it-CH
-// * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Herpes zoster"
-// * compose.include[=].concept[=].designation[+].language = #rm-CH
-// * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines Herpes-Zoster-Impfstoffs"
-// * compose.include[=].concept[=].designation[+].language = #en-US
-// * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing Herpes zoster"
-
-// missing fsme
-// * compose.include[=].concept[+].code = #allergyvaccinefsme
-// * compose.include[=].concept[=].display = "Adverse reaction to component of vaccine product containing tick-borne encephalitis virus antigen"
-// * compose.include[=].concept[=].designation[+].language = #de-CH
-// * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines FSME-Impfstoffs"
-// * compose.include[=].concept[=].designation[+].language = #fr-CH
-// * compose.include[=].concept[=].designation[=].value = "Effet indésirable du vaccin contre la FSME"
-// * compose.include[=].concept[=].designation[+].language = #it-CH
-// * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing tick-borne encephalitis virus antigen"
-// * compose.include[=].concept[=].designation[+].language = #rm-CH
-// * compose.include[=].concept[=].designation[=].value = "Unerwünschte Wirkung eines FSME-Impfstoffs"
-// * compose.include[=].concept[=].designation[+].language = #en-US
-// * compose.include[=].concept[=].designation[=].value = "Adverse reaction to component of vaccine product containing tick-borne encephalitis virus antigen"
 
