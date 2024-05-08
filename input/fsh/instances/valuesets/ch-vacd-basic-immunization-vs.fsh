@@ -10,9 +10,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen DTPa in der Kindheit erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Avoir reçu tous les vaccins contre le DTPa dans l'enfance."
+  * ^designation[=].value = "Vaccination de base contre le DTPa effectuée durant l’enfance."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Ha ricevuto tutte le vaccinazioni contro la DTPa durante l'infanzia."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro DTPa durante l’infanzia."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Ha obtegnì tut las vaccinaziuns cunter la DTPa durant l'uffanza."
   * ^designation[+].language = #en-US
@@ -22,9 +22,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen Poliomyelitis in der Kindheit erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Avoir reçu tous les vaccins contre la poliomyélite dans l'enfance."
+  * ^designation[=].value = "Vaccination de base contre la poliomyélite effectuée durant l’enfance."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Ha ricevuto tutte le vaccinazioni contro la poliomelite durante l'infanzia."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro la poliomielite durante l’infanzia."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Ha obtegnì tut las vaccinaziuns cunter la poliomielitis durant l'uffanza."
   * ^designation[+].language = #en-US
@@ -34,9 +34,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen die Frühsommer-Meningoenzephalitis erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Grundimmunisierung gegen die Frühsommer-Meningoenzephalitis erhalten."
+  * ^designation[=].value = "Vaccination de base contre la méningo-encéphalite verno-estivale effectuée."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Grundimmunisierung gegen die Frühsommer-Meningoenzephalitis erhalten."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro la meningoencefalite verno-estiva."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Grundimmunisierung gegen die Frühsommer-Meningoenzephalitis erhalten."
   * ^designation[+].language = #en-US
@@ -46,9 +46,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen Hämophilus influenzae Typ b erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Hämophilus influenzae Typ b erhalten."
+  * ^designation[=].value = "Vaccination de base contre l’Haemophilus influenzae de type b effectuée."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Hämophilus influenzae Typ b erhalten."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro l’Haemophilus influenzae di tipo b."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Grundimmunisierung gegen Hämophilus influenzae Typ b erhalten."
   * ^designation[+].language = #en-US
@@ -58,9 +58,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen Humanes Papillomavirus erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Humanes Papillomavirus erhalten."
+  * ^designation[=].value = "Vaccination de base contre le papillomavirus humain effectuée."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Humanes Papillomavirus erhalten."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro i papillomavirus umani."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Grundimmunisierung gegen Humanes Papillomavirus erhalten."
   * ^designation[+].language = #en-US
@@ -71,9 +71,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen Windpocken erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Windpocken erhalten."
+  * ^designation[=].value = "Vaccination de base contre la varicelle effectuée."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Windpocken erhalten."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro la varicella."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Grundimmunisierung gegen Windpocken erhalten."
   * ^designation[+].language = #en-US
@@ -84,9 +84,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen Masern, Mumps, Röteln erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Masern, Mumps, Röteln erhalten."
+  * ^designation[=].value = "Vaccination de base contre la rougeole, les oreillons et la rubéole effectuée."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Masern, Mumps, Röteln erhalten."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro morbillo, orecchioni e rosolia."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Grundimmunisierung gegen Masern, Mumps, Röteln erhalten."
   * ^designation[+].language = #en-US
@@ -96,9 +96,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen Pneumokokken-Erkrankung erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Pneumokokken-Erkrankung erhalten."
+  * ^designation[=].value = "Vaccination de base contre la maladie à pneumocoques effectuée."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Pneumokokken-Erkrankung erhalten."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro la malattia invasiva da pneumococchi."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Grundimmunisierung gegen Pneumokokken-Erkrankung erhalten."
   * ^designation[+].language = #en-US
@@ -108,9 +108,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen virale Hepatitis Typ B erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Grundimmunisierung gegen virale Hepatitis Typ B erhalten."
+  * ^designation[=].value = "Vaccination de base contre l’hépatite virale de type B."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Grundimmunisierung gegen virale Hepatitis Typ B erhalten."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro l’epatite virale B."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Grundimmunisierung gegen virale Hepatitis Typ B erhalten."
   * ^designation[+].language = #en-US
@@ -120,9 +120,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen virale Hepatitis Typ A erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Grundimmunisierung gegen virale Hepatitis Typ A erhalten."
+  * ^designation[=].value = "Vaccination de base contre l’hépatite virale de type A effectuée."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Grundimmunisierung gegen virale Hepatitis Typ A erhalten."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro l’epatite virale A."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Grundimmunisierung gegen virale Hepatitis Typ A erhalten."
   * ^designation[+].language = #en-US
@@ -132,9 +132,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen Herpes zoster erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Herpes zoster erhalten."
+  * ^designation[=].value = "Vaccination de base contre l’herpès zoster effectuée."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Herpes zoster erhalten."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro l’herpes zoster."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Grundimmunisierung gegen Herpes zoster erhalten."
   * ^designation[+].language = #en-US
@@ -144,9 +144,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen Meningokokken-Erkrankung erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Meningokokken-Erkrankung erhalten."
+  * ^designation[=].value = "Vaccination de base contre la maladie à méningocoque effectuée."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Meningokokken-Erkrankung erhalten."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro la malattia invasiva da meningococchi."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Grundimmunisierung gegen Meningokokken-Erkrankung erhalten."
   * ^designation[+].language = #en-US
@@ -156,9 +156,9 @@ Description: "The codes for declaring basic immunization."
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Grundimmunisierung gegen Tollwut erhalten."
   * ^designation[+].language = #fr-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Tollwut erhalten."
+  * ^designation[=].value = "Vaccination de base contre la rage effectuée."
   * ^designation[+].language = #it-CH
-  * ^designation[=].value = "Grundimmunisierung gegen Tollwut erhalten."
+  * ^designation[=].value = "Completamento dell’immunizzazione di base contro la rabbia."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Grundimmunisierung gegen Tollwut erhalten."
   * ^designation[+].language = #en-US
