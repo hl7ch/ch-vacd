@@ -8,7 +8,7 @@ Le professionnel de la santé vérifie les données de vaccination, en particuli
 
 *Mise en œuvre technique dans le DEP*: le portail ou le système primaire adresse une demande de documents de vaccination au point d’accès de la communauté, qui transmet la demande à d’autres communautés où sont stockés les documents du patient. Le portail ou le système primaire analyse le résultat de la requête au registre et récupère les documents de vaccination auprès de toutes les communautés de référence qui ont sauvegardé des documents dont le type ou la classe correspond. Par conséquent, le portail fait *une* demande pour tous les documents à chaque communauté qui a sauvegardé des données de vaccination concernant le patient sélectionné. Le portail centralise les résultats et affiche les données compilées (*dossier de vaccination*) à l’intention du professionnel de la santé dans une interface utilisateur. 
 
-Les données indiquées ou corrigées par le professionnel de la santé sont enregistrées dans le système primaire ou sur le portail et sauvegardées dans le DEP après vérification, soit sous la forme d’un document unique, soit sous la forme de documents multiples au format documentation de vaccination. Les nouveaux documents contiennent une indication sur les anciens documents remplacés ou complétés par les nouveaux. On utilise à cet effet l’élément de données relatesTo associé à la valeur replaces des formats d’échange CH-VACD.
+Les données indiquées ou corrigées par le professionnel de la santé sont enregistrées dans le système primaire ou sur le portail et sauvegardées dans le DEP après vérification, soit sous la forme d’un document unique, soit sous la forme de documents multiples au format documentation de vaccination. Les nouveaux documents contiennent une indication sur les anciens documents remplacés ou complétés par les nouveaux. On utilise à cet effet l’élément de données relatesTo associé à la valeur replaces des formats d’échange CH VACD.
 
 ### Mettre à jour le dossier de vaccination
 
@@ -18,7 +18,7 @@ Le professionnel de la santé rassemble dans le système primaire les informatio
 
 Le professionnel de la santé fait appel à la nouvelle compilation du *dossier de vaccination* et, au besoin, au contrôle des vaccins automatisé.
 
-*Mise en œuvre technique dans le DEP*: le système primaire ou le portail établit un document au format d’échange documentation de vaccination avec les données indiquées et le sauvegarde dans le DEP du patient. Le nouveau document contient une indication sur les anciens documents au format d’échange *documentation de vaccination* remplacés par le nouveau document. On utilise à cet effet l’élément de données relatesTo associé à la valeur *replaces* ou *appends* des formats d’échange CH-VACD.
+*Mise en œuvre technique dans le DEP*: le système primaire ou le portail établit un document au format d’échange documentation de vaccination avec les données indiquées et le sauvegarde dans le DEP du patient. Le nouveau document contient une indication sur les anciens documents au format d’échange *documentation de vaccination* remplacés par le nouveau document. On utilise à cet effet l’élément de données relatesTo associé à la valeur *replaces* ou *appends* des formats d’échange CH VACD.
 
 
 ### Mise en œuvre technique
