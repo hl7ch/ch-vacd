@@ -138,18 +138,6 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "At increased risk of exposure to hepatitis B virus (finding)"
 
 
-* compose.include[=].concept[+].code = #1237020006
-* compose.include[=].concept[=].display = "At increased risk of exposure to hepatitis B virus (finding)"
-* compose.include[=].concept[=].designation[+].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Erhöhtes Expositionsrisiko gegenüber Hepatitis-B-Virus"
-* compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "risque accru d'exposition au virus de l'hépatite B"
-* compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "maggiore rischio d'esposizione al virus dell'epatite B"
-* compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "pli gronda ristga d'esser expost al virus da hepatitis B"
-* compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "At increased risk of exposure to hepatitis B virus (finding)"
 
 * compose.include[=].concept[+].code = #1237021005
 * compose.include[=].concept[=].display = "At increased risk of exposure to European tick-borne encephalitis virus (finding)"
