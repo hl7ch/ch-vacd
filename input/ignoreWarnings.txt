@@ -1,5 +1,15 @@
 == Suppressed Messages ==
 
-# induced by IG Publisher 
+# https://github.com/HL7/fhir-ig-publisher/issues/898
+The link 'StructureDefinition-originalText.html' for "originalText extension" cannot be resolved
 
-# All important examples are included
+# Display warnings
+Wrong Display Name%
+Der Displayname%
+
+# Swiss specific values
+The value provided ('rm-CH') was not found in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The System URI could not be determined for the code 'rm-CH' in the ValueSet 'http://hl7.org/fhir/ValueSet/languages|4.0.1'; The provided code '#rm-CH' was not found in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1')
+None of the codings provided are in the value set 'CH VACD Swissmedic code for vaccine code' (http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs|3.0.0), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips#no-known-immunizations)
+
+# Reference to draft code system
+Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|1.0.0

@@ -1,11 +1,3 @@
-<!--
-<div markdown="1" class="stu-note">
-This implementation guide is under STU ballot by [HL7 Switzerland](https://www.hl7.ch/) until September 30th, 2023 midnight.
-Please add your feedback via the ‘Propose a change’-link in the footer on the page where you have comments.
-[Significant Changes, Open and Closed Issues](changelog.html)
-</div>
--->
-
 ### Introduction
 The CH VACD implementation guide describes the FHIR representation of the defined **documents for the exchange of vaccination and immunization information**. 
 This implementation guide is dependent on the CH Core Profiles [CH Core](http://fhir.ch/ig/ch-core/index.html) which describes the Swiss specific resources.
@@ -30,19 +22,22 @@ The following documents and messages have been defined:
 - [Immunization Recommendation Response message](immunization-recommendation-response-message.html)
 
 <div markdown="1" class="stu-note">
-[Significant Changes, Open and Closed Issues](changelog.html)
+This implementation guide is under STU ballot by [HL7 Switzerland](https://www.hl7.ch/) until September 30th, 2024 midnight.   
+Please add your feedback via the ‘Propose a change’-link in the footer on the page where you have comments. 
+
+[Significant changes, open and closed issues.](changelog.html)
 </div>
 
 
 **Download**: You can download this implementation guide in [NPM format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
 
 ### Scope
-This implementation guide describes mainly the exchange formats and handlings around vaccination. It can be used in different ehealth ecosystems and is not only resticted to the Swiss EPR.
+This implementation guide describes mainly the exchange formats and handlings around vaccination. It can be used in different ehealth ecosystems and is not only restricted to the Swiss EPR.
 
 
 ### MustSupport
 The flag [mustSupport](https://www.hl7.org/fhir/profiling.html#mustsupport) demands that the content creator must support these elements if they are known. If the sending application has data for the element, it is required to populate the element with a non-empty value. If the value is not known, the element may be omitted. A receiving application may ignore the information conveyed by the element. A receiving application shall not raise an error solely due to the presence or absence of the element.
-For more informations about the exchange format see [EPD Anhang 4 Austauschformate](https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/oce/2022/38/de/pdf-a/fedlex-data-admin-ch-eli-oce-2022-38-de-pdf-a.pdf#page=5).
+For more information about the exchange format see [EPD Anhang 4 Austauschformate](https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/oce/2022/38/de/pdf-a/fedlex-data-admin-ch-eli-oce-2022-38-de-pdf-a.pdf#page=5).
 
 
 ### Narrative Text Generation

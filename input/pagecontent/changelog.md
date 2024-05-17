@@ -6,7 +6,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#234](https://github.com/hl7ch/ch-vacd/issues/234): Dependency IPS (Michaela Ziegler, ahdis ag)
 * [#233](https://github.com/hl7ch/ch-vacd/issues/233): Spelling CH VACD (vs. CH-VACD) (Michaela Ziegler, ahdis ag)
 * [#218](https://github.com/hl7ch/ch-vacd/issues/218): Depend on ch core profiles (Michaela Ziegler, ahdis ag
-* [#217](https://github.com/hl7ch/ch-vacd/issues/217): Define fix value for category on compositon
+* [#217](https://github.com/hl7ch/ch-vacd/issues/217): Define fix value for category on composition
 * [#212](https://github.com/hl7ch/ch-vacd/issues/212): move terminology to ch-term
 * [#210](https://github.com/hl7ch/ch-vacd/issues/210): Changes according to EKIF 2024
 * [#208](https://github.com/hl7ch/ch-vacd/issues/208): Bexsero vaccine missing in concept-map
@@ -72,19 +72,19 @@ The issues in an overview for this ballot can be found [here](https://github.com
    * [Les cas d’utilisation DEP](Use-Cases-Francais.html)
 
 * [Issue 72](https://github.com/hl7ch/ch-vacd/issues/72): Add ConceptMap's (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 85](https://github.com/hl7ch/ch-vacd/issues/85))
-   * [TargetDisease To VaccineCode Mapping](ConceptMap-ch-vacd-targetdiseases-vaccines-cm.html)
-   * [VaccineCode To TargetDisease Mapping](ConceptMap-ch-vacd-vaccines-targetdiseases-cm.html)
+   * TargetDisease To VaccineCode Mapping
+   * VaccineCode To TargetDisease Mapping
 
 * [Issue 87](https://github.com/hl7ch/ch-vacd/issues/87): Extension for Reference to Practitioner as Validator of Immunization entry (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 94](https://github.com/hl7ch/ch-vacd/issues/94)): Not validator but recorder.
    * [CH VACD Extension Immunization Recorder Reference](https://fhir.ch/ig/ch-vacd/2.0.0/StructureDefinition-ch-vacd-ext-immunization-recorder-reference.html)
 
 * [Issue 84](https://github.com/hl7ch/ch-vacd/issues/84): ValueSet missing information COVID test Laboratory Serology for Immunization (eHealth Suisse)
-   * [Laboratory Serology Immunization](ValueSet-ch-vacd-laboratory-serology-vs.html)
+   * Laboratory Serology Immunization
 
 * [Issue 91](https://github.com/hl7ch/ch-vacd/issues/91): Value SUB-set of Allergy value set CH:AllergyInt -- Allergies and Intolerance values for immunization (Annatina Foppa, eHealth Suisse)
-   * [Allergies And Intolerances For Immunization](ValueSet-ch-vacd-immunization-allergyintolerances-vs.html)
+   * Allergies And Intolerances For Immunization
 * [Issue 86](https://github.com/hl7ch/ch-vacd/issues/86): Reactions to immunizations (Annatina Foppa, eHealth Suisse)
-   * [Allergies And Intolerances For Immunization](ValueSet-ch-vacd-immunization-allergyintolerances-vs.html)
+   * Allergies And Intolerances For Immunization
 
 
 
@@ -96,7 +96,7 @@ The issues in an overview for this ballot can be found [here](https://github.com
    * [Immunization Administration Document](immunization-administration-document.html)
 
 * [Issue 78](https://github.com/hl7ch/ch-vacd/issues/78): Target disease and illnesses undergone for immunization, falsche Übersetzung rm für Windpocken (Roeland Luykx, RALY GmbH) (Duplicate: [Issue 83](https://github.com/hl7ch/ch-vacd/issues/83))
-   * [Target Diseases And Illnesses Undergone For Immunization](ValueSet-ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs.html)
+   * Target Diseases And Illnesses Undergone For Immunization
 
 * [Issue 79](https://github.com/hl7ch/ch-vacd/issues/79): CH VACD Immunization Recommendations Profile cardinality of dateCriterion (Roeland Luykx, RALY GmbH)
    * [CH VACD Immunization Recommendations](StructureDefinition-ch-vacd-immunization-recommendation.html)
@@ -108,7 +108,7 @@ The issues in an overview for this ballot can be found [here](https://github.com
 * [Issue 89](https://github.com/hl7ch/ch-vacd/issues/89): slicing vaccine codes -- CH VACD Immunization Profile (Annatina Foppa, eHealth Suisse)
    * [CH VACD Immunization](StructureDefinition-ch-vacd-immunization.html)
    * [ATC Codes for Vaccination](https://fhir.ch/ig/ch-vacd/2.0.0/ValueSet-ch-vacd-vaccines-atc-vs.html)
-   * [Vaccines by SNOMED CT](ValueSet-ch-vacd-vaccines-snomedct-vs.html)
+   * Vaccines by SNOMED CT
 
 
 #### Changed and Updates
@@ -116,7 +116,7 @@ The issues in an overview for this ballot can be found [here](https://github.com
    * [CH VACD AllergyIntolerance](StructureDefinition-ch-vacd-allergyintolerances.html)
 
 * [Issue 73](https://github.com/hl7ch/ch-vacd/issues/73): Complete TargetDisease VS (Roeland Luykx, RALY GmbH)
-   * [Target Diseases And Illnesses Undergone For Immunization](ValueSet-ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs.html)
+   * Target Diseases And Illnesses Undergone For Immunization
 
 * [Issue 76](https://github.com/hl7ch/ch-vacd/issues/76): References (to CH Core AND CH Core EPR?) (Michaela Ziegler, ahdis ag)
 
@@ -128,14 +128,14 @@ The issues in an overview for this ballot can be found [here](https://github.com
    * [CH VACD VaccinationRecord Composition](StructureDefinition-ch-vacd-composition-vaccination-record.html)
 
 * [Issue 99](https://github.com/hl7ch/ch-vacd/issues/99): Expert review of valuesets
-   * [ATC Codes for Vaccination](https://fhir.ch/ig/ch-vacd/2.0.0/ValueSet-ch-vacd-vaccines-atc-vs.html)
-   * [Vaccines by SNOMED CT](ValueSet-ch-vacd-vaccines-snomedct-vs.html)
-   * [Route of Administration for Immunization](ValueSet-ch-vacd-route-of-administration-vs.html)
-   * [Swiss Vaccination Plan Immunizations](ValueSet-ch-vacd-ch-vaccination-plan-immunizations-vs.html)
-   * [Allergies and Intolerance values for immunization](ValueSet-ch-vacd-immunization-allergyintolerances-vs.html)
-   * [Laboratory Serology for Immunization](ValueSet-ch-vacd-laboratory-serology-vs.html)
-   * [Target disease and illnesses undergone for immunization](ValueSet-ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs.html)
-   * [Swiss Vaccines](ValueSet-ch-vacd-vaccines-vs.html)
+   * ATC Codes for Vaccination
+   * Vaccines by SNOMED CT
+   * Route of Administration for Immunization
+   * Swiss Vaccination Plan Immunizations
+   * Allergies and Intolerance values for immunization
+   * Laboratory Serology for Immunization
+   * Target disease and illnesses undergone for immunization
+   * Swiss Vaccines
 
 
 

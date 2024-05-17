@@ -9,11 +9,11 @@ title: Implementation Guide CH VACD
 # FSHOnly: true
 # applyExtensionMetadataToRoot: false
 status: active
-version: 5.0.0-ci-build
-date: 2023-12-28
+version: 5.0.0-ballot
+date: 2024-05-17
 fhirVersion: 4.0.1
 copyrightYear: 2021+
-releaseLabel: ci-build
+releaseLabel: ballot
 publisher:
   name: HL7 Switzerland
   url: https://www.hl7.ch/
@@ -47,9 +47,9 @@ parameters:
 
 
 dependencies:
-  hl7.terminology: 5.4.0
-  ch.fhir.ig.ch-core: current
-  ch.fhir.ig.ch-term: current
+  hl7.terminology: 5.5.0
+  ch.fhir.ig.ch-core: 5.0.0-ballot
+  ch.fhir.ig.ch-term: 3.0.x
   hl7.fhir.uv.ips:
     version: 1.1.0
     uri: http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips
