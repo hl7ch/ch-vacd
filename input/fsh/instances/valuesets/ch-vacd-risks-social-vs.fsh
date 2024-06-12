@@ -129,3 +129,17 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Residence or stay in Switzerland except Geneva and Ticino (finding)"
 
+* compose.include[=].concept[+].code = #102311000195108
+* compose.include[=].concept[=].display = "Residence or stay in Switzerland except Ticino (finding)"
+* compose.include[=].concept[=].designation[+].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Wohnort oder Aufenthalt in Schweiz ausser Tessin"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "domicile ou séjour en Suisse sauf Tessin"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "residenza o soggiorno in Svizzera eccezione di Ticino"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "lieu da domicil u da dimora en Svizra senza Tessin"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Residence or stay in Switzerland except Ticino (finding)"
+
+

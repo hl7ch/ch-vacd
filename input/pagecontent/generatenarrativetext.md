@@ -2,7 +2,7 @@
 
 #### XML to HTML Transform
 
-To transform FHIR XML CH-VACD document to html you can use [ChVacdDocumentToHTML](xslt/ChVacdDocumentToHTML.xslt) XSL transformer.
+To transform FHIR XML CH VACD document to html you can use [ChVacdDocumentToHTML](xslt/ChVacdDocumentToHTML.xslt) XSL transformer.
 
 use i.e. the following command to do so:
 ```

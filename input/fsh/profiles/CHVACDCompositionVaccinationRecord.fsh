@@ -18,6 +18,10 @@ Description: "Definition of the composition for the vaccination record document.
 * status = #final (exactly)
 * type = $sct#41000179103
 * type ^short = "Document type Immunization record"
+* category from $DocumentEntry.formatCode
+* category 1..1
+* category = urn:oid:2.16.756.5.30.1.127.3.10.10#urn:che:epr:ch-vacd:vaccination-record:2022
+* category ^short = "Category or format Immunization Administration"
 * subject ^short = "A patient for whom this document instance was created"
 * date ^short = "The document's creation date and time"
 * author ^short = "The author of the document (person or device)"

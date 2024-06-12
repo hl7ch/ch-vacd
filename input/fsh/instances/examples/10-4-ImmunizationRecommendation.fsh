@@ -7,7 +7,7 @@ Usage: #example
 * identifier.value = "1"
 * patient = Reference(3-2-Patient)
 * date = "2021-06-01T00:00:00+02:00"
-* recommendation.vaccineCode = $ch-vacd-swissmedic-cs#681 "Boostrix Polio"
+* recommendation.vaccineCode = $sct#72093006 "Poliomyelitis vaccination"
 * recommendation.targetDisease = $sct#398102009 "Acute poliomyelitis (disorder)"
 * recommendation.forecastStatus = $ch-vacd-recommendation-forecast-status-cs#due "Due"
 * recommendation.forecastReason = http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-categories-cs#41501 "Empfohlene Basisimpfungen"

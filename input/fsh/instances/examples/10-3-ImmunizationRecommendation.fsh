@@ -7,7 +7,7 @@ Usage: #example
 * identifier.value = "2"
 * patient = Reference(3-2-Patient)
 * date = "2021-06-01T00:00:00+02:00"
-* recommendation.vaccineCode = $ch-vacd-swissmedic-cs#58317 "Fluad"
+* recommendation.vaccineCode = $sct#86198006 "Influenza vaccination"
 * recommendation.targetDisease = $sct#63650001 "Cholera (disorder)"
 * recommendation.forecastStatus = $ch-vacd-recommendation-forecast-status-cs#due "Due"
 * recommendation.forecastReason = http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-categories-cs#41503 "Empfohlene Impfungen für Risikogruppen"
