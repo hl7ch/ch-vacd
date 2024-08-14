@@ -99,6 +99,37 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Has contact with injecting drug user (situation)"
 
+// 1342377006 Has contact with wild bird (situation)
+// added 2024-08-09
+* compose.include[=].concept[+].code = #1342377006
+* compose.include[=].concept[=].display = "Has contact with wild bird (situation)"
+* compose.include[=].concept[=].designation[+].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Has contact with wild bird (situation)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Has contact with wild bird (situation)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Has contact with wild bird (situation)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Has contact with wild bird (situation)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Has contact with wild bird (situation)"
+
+// 1342378001 Has contact with poultry bird (situation)
+// added 2024-08-09
+* compose.include[=].concept[+].code = #1342378001
+* compose.include[=].concept[=].display = "Has contact with poultry bird (situation)"
+* compose.include[=].concept[=].designation[+].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Has contact with poultry bird (situation)"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "Has contact with poultry bird (situation)"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "Has contact with poultry bird (situation)"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "Has contact with poultry bird (situation)"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "Has contact with poultry bird (situation)"
+
+
 // swiss extension
 * compose.include[+].system = $sct
 * compose.include[=].version = "http://snomed.info/sct/2011000195101"
