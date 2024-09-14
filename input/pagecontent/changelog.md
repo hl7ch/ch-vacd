@@ -3,6 +3,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 ### STU 5
 
 * [#246](https://github.com/hl7ch/ch-vacd/issues/246):  ValueSet "Swiss Occupation Risks For Immunizations"
+* [#244](https://github.com/hl7ch/ch-vacd/issues/244):Duplicate entry in VS ch-vacd-risks-medical-vs
 
 ### STU 5 Ballot
 
