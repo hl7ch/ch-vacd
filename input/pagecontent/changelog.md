@@ -1,5 +1,9 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
+### STU 5
+
+* [#248](https://github.com/hl7ch/ch-vacd/issues/248): Covid (new recommendation for autumn 2024)
+
 ### STU 5 Ballot
 
 * [#235](https://github.com/hl7ch/ch-vacd/issues/235): Use Cases Deutsch: div. typos (Michaela Ziegler, ahdis ag)
