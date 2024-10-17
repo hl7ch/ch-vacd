@@ -104,28 +104,28 @@ Usage: #definition
 * compose.include[=].concept[+].code = #1342377006
 * compose.include[=].concept[=].display = "Has contact with wild bird (situation)"
 * compose.include[=].concept[=].designation[+].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Has contact with wild bird (situation)"
+* compose.include[=].concept[=].designation[=].value = "Hat Kontakt mit Wildvögeln"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Has contact with wild bird (situation)"
+* compose.include[=].concept[=].designation[=].value = "contact avec un oiseau sauvage"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Has contact with wild bird (situation)"
+* compose.include[=].concept[=].designation[=].value = "ha contatti con uccelli selvatici"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Has contact with wild bird (situation)"
+* compose.include[=].concept[=].designation[=].value = "Hat Kontakt mit Wildvögeln"
 * compose.include[=].concept[=].designation[+].language = #en-US
-* compose.include[=].concept[=].designation[=].value = "Has contact with wild bird (situation)"
+* compose.include[=].concept[=].designation[=].value = "Has contact with wild bird"
 
 // 1342378001 Has contact with poultry bird (situation)
 // added 2024-08-09
 * compose.include[=].concept[+].code = #1342378001
 * compose.include[=].concept[=].display = "Has contact with poultry bird (situation)"
 * compose.include[=].concept[=].designation[+].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Has contact with poultry bird (situation)"
+* compose.include[=].concept[=].designation[=].value = "Hat Kontakt mit Geflügelvögeln"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "Has contact with poultry bird (situation)"
+* compose.include[=].concept[=].designation[=].value = "contact avec des oiseaux de basse-cour"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "Has contact with poultry bird (situation)"
+* compose.include[=].concept[=].designation[=].value = "ha contatti con volatili da cortile"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Has contact with poultry bird (situation)"
+* compose.include[=].concept[=].designation[=].value = "Hat Kontakt mit Geflügelvögeln"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Has contact with poultry bird (situation)"
 
