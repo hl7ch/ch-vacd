@@ -14,10 +14,6 @@ During the ballot, 22 issues were reported for CH VACD:
 * [Issue #264](https://github.com/hl7ch/ch-vacd/issues/264): Explanantions or guidance on deprecated SNOMED CT values
 Response Message"
   
-### Terminology / Value Set
-* [Issue 248](https://github.com/hl7ch/ch-vacd/issues/248): Covid (new recommendation for autumn 2024)
-* [Issue 254](https://github.com/hl7ch/ch-vacd/issues/254): Rename monkeypox as mpox
-  
 ### Others
 * [Issue 267](https://github.com/hl7ch/ch-vacd/issues/267): Changelog: add date to the versions
 
@@ -32,8 +28,10 @@ Response Message"
 * [Issue #266](https://github.com/hl7ch/ch-vacd/issues/266): Dublicate bug in example "Immunization Recommendation 
 
 ### Terminology / Value Set
+* [Issue 248](https://github.com/hl7ch/ch-vacd/issues/248): Covid (new recommendation for autumn 2024)
 * [Issue 246](https://github.com/hl7ch/ch-vacd/issues/246): New risk group for the influenza recommendation
 * [Issue 253](https://github.com/hl7ch/ch-vacd/issues/253): Vaccine product containing only Streptococcus pneumoniae Danish serotype - Missing translations
+* [Issue 254](https://github.com/hl7ch/ch-vacd/issues/254): Rename monkeypox as mpox
 * [Issue 270](https://github.com/hl7ch/ch-vacd/issues/270): Missing translations ([ch-term#52](https://github.com/hl7ch/ch-term/issues/52))
 
 
@@ -50,7 +48,6 @@ Response Message"
 
 ### Terminology / Value Set
 * [Issue 157](https://github.com/hl7ch/ch-vacd/issues/157): New vaccin - monkeypox ([ch-term#38](https://github.com/hl7ch/ch-term/issues/38))
-
 * [Issue 269](https://github.com/hl7ch/ch-vacd/issues/269): Exchange data of non-label vaccines - explanation/wontfix
 
 ### Others
