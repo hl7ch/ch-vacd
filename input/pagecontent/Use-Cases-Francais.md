@@ -16,4 +16,4 @@ Le problème de la synchronisation des métadonnées dans le format d'échange X
 ### Cas d'application en général
 Les cas d'utilisation qui ne peuvent pas se présenter dans le contexte du DEP sont énumérés ci-dessous.
 
-* tbd
+* [Use Case 14 (FR): Procéder au contrôle des vaccins](Use-Case-14-Proceder-au-controle-des-vaccins.html)
