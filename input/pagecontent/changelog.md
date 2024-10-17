@@ -2,6 +2,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 5 Ballot
 
+* [#262](https://github.com/hl7ch/ch-vacd/issues/262): Immunization Administration Document - typos (Michaela Ziegler, ahdis ag)
 * [#235](https://github.com/hl7ch/ch-vacd/issues/235): Use Cases Deutsch: div. typos (Michaela Ziegler, ahdis ag)
 * [#234](https://github.com/hl7ch/ch-vacd/issues/234): Dependency IPS (Michaela Ziegler, ahdis ag)
 * [#233](https://github.com/hl7ch/ch-vacd/issues/233): Spelling CH VACD (vs. CH-VACD) (Michaela Ziegler, ahdis ag)
