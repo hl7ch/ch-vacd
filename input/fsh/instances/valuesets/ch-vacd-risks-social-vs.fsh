@@ -118,7 +118,6 @@ Usage: #definition
 
 * compose.include[=].concept[+].code = #72291000195105
 * compose.include[=].concept[=].display = "Residence or stay in Switzerland except Geneva and Ticino (finding)"
-* compose.include[=].concept[=].definition = "DEPRECATED" 
 * compose.include[=].concept[=].designation[+].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Wohnort oder Aufenthalt in Schweiz ausser Genf und Tessin"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
@@ -132,7 +131,6 @@ Usage: #definition
 
 * compose.include[=].concept[+].code = #102311000195108
 * compose.include[=].concept[=].display = "Residence or stay in Switzerland except Ticino (finding)"
-* compose.include[=].concept[=].definition = "Replaces SCT#72291000195105" 
 * compose.include[=].concept[=].designation[+].language = #de-CH
 * compose.include[=].concept[=].designation[=].value = "Wohnort oder Aufenthalt in Schweiz ausser Tessin"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
