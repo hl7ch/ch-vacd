@@ -6,6 +6,8 @@ Description: "Definition of the bundle for the immunization recommendation reque
 //* ^version = "0.1.0"
 * ^experimental = false
 * ^publisher = "eHealth Suisse"
+* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension[=].valueInteger = 3
 * . ^short = "CH VACD Immunization Recommendation Request Message"
 * identifier 1..
 * identifier ^short = "Identification number of the document"
