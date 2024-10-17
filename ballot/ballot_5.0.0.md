@@ -15,7 +15,6 @@ During the ballot, 22 issues were reported for CH VACD:
 Response Message"
   
 ### Terminology / Value Set
-* [Issue 246](https://github.com/hl7ch/ch-vacd/issues/246): New risk group for the influenza recommendation
 * [Issue 248](https://github.com/hl7ch/ch-vacd/issues/248): Covid (new recommendation for autumn 2024)
 * [Issue 254](https://github.com/hl7ch/ch-vacd/issues/254): Rename monkeypox as mpox
   
@@ -33,6 +32,7 @@ Response Message"
 * [Issue #266](https://github.com/hl7ch/ch-vacd/issues/266): Dublicate bug in example "Immunization Recommendation 
 
 ### Terminology / Value Set
+* [Issue 246](https://github.com/hl7ch/ch-vacd/issues/246): New risk group for the influenza recommendation
 * [Issue 253](https://github.com/hl7ch/ch-vacd/issues/253): Vaccine product containing only Streptococcus pneumoniae Danish serotype - Missing translations
 * [Issue 270](https://github.com/hl7ch/ch-vacd/issues/270): Missing translations ([ch-term#52](https://github.com/hl7ch/ch-term/issues/52))
 
