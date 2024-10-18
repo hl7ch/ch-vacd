@@ -14,7 +14,7 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 
 ### Narrative Text Generation
 The narrative text in the composition of the bundle of type document can be generated using the FHIR XML representation and the defined xslt transformer defined in this implementation guide.
-for further details see [Narrative Text Generation](generatenarrativetext.html)
+For further details see [Narrative Text Generation](generatenarrativetext.html).
   
 #### Examples
 * 1.1 Example Immunization Administration document: [XML](Bundle-1-1-ImmunizationAdministration.xml.html), [JSON](Bundle-1-1-ImmunizationAdministration.json.html)
