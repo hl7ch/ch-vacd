@@ -12,7 +12,7 @@ Description: "Definition of the immunization part for all documents, except reco
 * contained ^short = "Immunization inline resource"
 * extension contains
     // $ch-ext-author named recorder 0..1 and
-    // EntryResourceCrossReferences named relatesTo 0..1 and 
+    EntryResourceCrossReferences named relatesTo 0..1 and 
     CHVACDExtensionImmunizationMedicationReference named medication 0..1 and
     CHVACDExtensionMergingConflictEntryReference named conflict 0..* 
 * extension[recorder] MS
