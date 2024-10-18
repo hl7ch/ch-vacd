@@ -2,17 +2,22 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 5, v5.0.0 (2024-12-31) 
 
+* [#235](https://github.com/hl7ch/ch-vacd/issues/235): Use Cases Deutsch: div. typos (Michaela Ziegler, ahdis ag)
+* [#261](https://github.com/hl7ch/ch-vacd/issues/261): Use Cases Deutsch, tbd (Michaela Ziegler, ahdis ag)
+* [#262](https://github.com/hl7ch/ch-vacd/issues/262): Immunization Administration Document - typos (Michaela Ziegler, ahdis ag)
+* [#263](https://github.com/hl7ch/ch-vacd/issues/263): Immunization Recommendation Request Message, linebreaks (Michaela Ziegler, ahdis ag)
+
 
 ### STU 5 Ballot, v5.0.0-ballot (2024-05-17)
 
-* [#263](https://github.com/hl7ch/ch-vacd/issues/263): Immunization Recommendation Request Message, linebreaks (Michaela Ziegler, ahdis ag)
-* [#262](https://github.com/hl7ch/ch-vacd/issues/262): Immunization Administration Document - typos (Michaela Ziegler, ahdis ag)
-* [#261](https://github.com/hl7ch/ch-vacd/issues/261): Use Cases Deutsch, tbd (Michaela Ziegler, ahdis ag)
-* [#235](https://github.com/hl7ch/ch-vacd/issues/235): Use Cases Deutsch: div. typos (Michaela Ziegler, ahdis ag)
 * [#234](https://github.com/hl7ch/ch-vacd/issues/234): Dependency IPS (Michaela Ziegler, ahdis ag)
 * [#233](https://github.com/hl7ch/ch-vacd/issues/233): Spelling CH VACD (vs. CH-VACD) (Michaela Ziegler, ahdis ag)
+* [#228](https://github.com/hl7ch/ch-vacd/issues/228): Base CHVACDAllergyIntolerance on CHCoreAllergyIntolerance in place of CHAllergyIntolerance 
+* [#226](https://github.com/hl7ch/ch-vacd/issues/226): Base CHVACDMedication on ChCoreMedication in place of CHEMED
+* [#226](https://github.com/hl7ch/ch-vacd/issues/222): Redundancy issues with ConceptMap-ch-vacd-targetdiseases-vaccines
 * [#218](https://github.com/hl7ch/ch-vacd/issues/218): Depend on ch core profiles (Michaela Ziegler, ahdis ag
 * [#217](https://github.com/hl7ch/ch-vacd/issues/217): Define fix value for category on composition
+* [#216](https://github.com/hl7ch/ch-vacd/issues/216): Referencing to the core profiles
 * [#212](https://github.com/hl7ch/ch-vacd/issues/212): move terminology to ch-term
 * [#210](https://github.com/hl7ch/ch-vacd/issues/210): Changes according to EKIF 2024
 * [#208](https://github.com/hl7ch/ch-vacd/issues/208): Bexsero vaccine missing in concept-map
