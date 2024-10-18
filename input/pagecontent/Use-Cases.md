@@ -26,4 +26,5 @@ The problem of synchronizing the metadata in the XDS and FHIR exchange format is
 ### Other Use Cases
 Use cases that cannot occur in the context of the EPD are listed below.
 
-* tbd.
+* [Use Case 14 (DE): Impfcheck ausführen](Use-Case-14-Impfcheck-ausfuehren.html)
+* [Use Case 14 (FR): Procéder au contrôle des vaccins](Use-Case-14-Proceder-au-controle-des-vaccins.html)
