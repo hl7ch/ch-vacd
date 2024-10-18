@@ -1,10 +1,15 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
-### STU 5 Ballot
-
-* [#260](https://github.com/hl7ch/ch-vacd/issues/260): Immunization Recommendation Response (Marcel Hanselmann)
-* [#258](https://github.com/hl7ch/ch-vacd/issues/258): ImmunizationRecommendation (Recommendation Request/Response) (Marcel Hanselmann)
+### STU 5, v5.0.0 (2024-12-31) 
 * [#235](https://github.com/hl7ch/ch-vacd/issues/235): Use Cases Deutsch: div. typos (Michaela Ziegler, ahdis ag)
+* [#258](https://github.com/hl7ch/ch-vacd/issues/258): ImmunizationRecommendation (Recommendation Request/Response) (Marcel Hanselmann)
+* [#260](https://github.com/hl7ch/ch-vacd/issues/260): Immunization Recommendation Response (Marcel Hanselmann)
+* [#261](https://github.com/hl7ch/ch-vacd/issues/261): Use Cases Deutsch, tbd (Michaela Ziegler, ahdis ag)
+* [#262](https://github.com/hl7ch/ch-vacd/issues/262): Immunization Administration Document - typos (Michaela Ziegler, ahdis ag)
+* [#263](https://github.com/hl7ch/ch-vacd/issues/263): Immunization Recommendation Request Message, linebreaks (Michaela Ziegler, ahdis ag)
+
+
+### STU 5 Ballot, v5.0.0-ballot (2024-05-17)
 * [#234](https://github.com/hl7ch/ch-vacd/issues/234): Dependency IPS (Michaela Ziegler, ahdis ag)
 * [#233](https://github.com/hl7ch/ch-vacd/issues/233): Spelling CH VACD (vs. CH-VACD) (Michaela Ziegler, ahdis ag)
 * [#218](https://github.com/hl7ch/ch-vacd/issues/218): Depend on ch core profiles (Michaela Ziegler, ahdis ag
@@ -15,19 +20,20 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#206](https://github.com/hl7ch/ch-vacd/issues/206): Typo german text
 * [#184](https://github.com/hl7ch/ch-vacd/issues/284): Redundant codeSystem SwissAllergyIntoleranceCodesystem, replace by snomed-ct codes
 
-### STU 4 
+
+### STU 4, v4.0.1 (2023-12-28)
 
 * [#270](https://github.com/hl7ch/ch-core/issues/270): 4.0.1 Technical correction for invalid package
 
 See [Resolution Desk STU 4](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_4.0.0.md)
 
-### STU 4 Ballot
+### STU 4 Ballot, v4.0.0-ballot (2023-06-29)
 See [Resolution Desk STU 4 Ballot](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_3.1.0.md)
 
-### STU 3
+### STU 3, v3.0.0 (2022-12-21)
 See [Resolution Desk STU 3 Ballot](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_2.1.0.md)
 
-### STU 3 Ballot
+### STU 3 Ballot, v2.1.0 (2022-07-07)
 The issues in an overview for this ballot can be found [here](https://github.com/hl7ch/ch-vacd/issues?q=is%3Aissue+-label%3Abacklog+milestone%3A%22Ballot+2.1.0%22)
 
 #### ValueSet issues
@@ -66,7 +72,7 @@ The issues in an overview for this ballot can be found [here](https://github.com
 
 
 
-### STU 2 Ballot
+### STU 2 Ballot, v2.0.0 (2022-02-11)
 
 #### Added Missing Parts
 * [Issue 71](https://github.com/hl7ch/ch-vacd/issues/71): Provide Use Cases in IG (Annatina Foppa, eHealth Suisse) (Duplicate: [Issue 75](https://github.com/hl7ch/ch-vacd/issues/75))
