@@ -128,6 +128,8 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "lieu da domicil u da dimora en Svizra senza Genevra e Tessin"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Residence or stay in Switzerland except Geneva and Ticino (finding)"
+* compose.include[=].concept[=].extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-deprecated"
+* compose.include[=].concept[=].extension[=].valueBoolean = true
 
 * compose.include[=].concept[+].code = #102311000195108
 * compose.include[=].concept[=].display = "Residence or stay in Switzerland except Ticino (finding)"
