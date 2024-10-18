@@ -13,10 +13,6 @@ During the ballot, 22 issues were reported for CH VACD:
 * [Issue #249](https://github.com/hl7ch/ch-vacd/issues/249): Describe relatesTo Extension - fix examples
 * [Issue #264](https://github.com/hl7ch/ch-vacd/issues/264): Explanantions or guidance on deprecated SNOMED CT values
 Response Message"
-  
-### Others
-* [Issue 267](https://github.com/hl7ch/ch-vacd/issues/267): Changelog: add date to the versions
-
 
 
 ## Fixed in Review
@@ -38,7 +34,7 @@ Response Message"
 ### Others
 * [Issue 251](https://github.com/hl7ch/ch-vacd/issues/251): StructureDefinition-ch-vacd-immunization - Typo
 * [Issue 252](https://github.com/hl7ch/ch-vacd/issues/252): Changelog - Broken link
-
+* [Issue 267](https://github.com/hl7ch/ch-vacd/issues/267): Changelog: add date to the versions
 
 ## Fixed/Closed
 
