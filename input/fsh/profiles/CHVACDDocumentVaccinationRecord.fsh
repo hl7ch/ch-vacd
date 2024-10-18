@@ -6,6 +6,8 @@ Description: "Definition of the bundle for the vaccination record document. This
 * ^version = "0.2.0"
 * ^experimental = false
 * ^publisher = "eHealth Suisse"
+* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension[=].valueInteger = 5
 * . ^short = "CH VACD Vaccination Record Document"
 * identifier 1..
 * identifier ^short = "Identification number of the document"

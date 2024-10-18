@@ -15,4 +15,4 @@ Das Problem Synchronisierung der Metadaten im XDS und im FHIR Austauschformat is
 ### Anwendungsfälle generell
 Nachfolgend werden Use Cases aufgeführt, welche nicht im Kontext des EPD vorkommen können.
 
-* tbd
+* [Use Case 14 (DE): Impfcheck ausführen](Use-Case-14-Impfcheck-ausfuehren.html)
