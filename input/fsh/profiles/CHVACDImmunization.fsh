@@ -16,6 +16,7 @@ Description: "Definition of the immunization part for all documents, except reco
     CHVACDExtensionImmunizationMedicationReference named medication 0..1 and
     CHVACDExtensionMergingConflictEntryReference named conflict 0..* 
 * extension[recorder] MS
+* extension[relatesTo] ^definition = "The relatesTo extension is used to identify the replaced/corrected entry in an other document. The extension references the identifier and resource type of the entry and the identifier and resource type of the container i.e. Composition."
 * extension[medication] ^definition = "The Reference to the Medication resource defining the vaccination material."
 * extension[conflict] ^definition = "Indicator for merging conflicts."
 * vaccineCode from $ch-vacd-vaccines-vs (extensible)
