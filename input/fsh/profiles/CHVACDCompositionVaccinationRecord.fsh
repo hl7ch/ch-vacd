@@ -15,6 +15,9 @@ Description: "Definition of the composition for the vaccination record document.
 * extension[informationRecipient] ^min = 0
 * extension[dataEnterer] ^short = "Person who entered information into this document if it is a person other than the author"
 * extension[dataEnterer] ^min = 0
+* identifier ^short = "Identification number of the document. Should be identical to the Identifier of the Bundle."
+* identifier ^example.label = "CH VACD"
+* identifier ^example.valueString = "urn:uuid:0c918c47-561e-4689-bc1b-ba2775d6f04c"
 * status = #final (exactly)
 * type = $sct#41000179103
 * type ^short = "Document type Immunization record"

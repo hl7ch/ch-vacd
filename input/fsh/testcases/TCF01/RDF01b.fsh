@@ -5,7 +5,7 @@ Description: "Test Case F 01: Arzt fügt ein Kommentar (note) zur impfung hinzu.
 Usage: #example
 * id = "RDF01b"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:70988e7b-9b76-44d0-a82f-5ae7ccbd8f2f"
+* identifier.value = "urn:uuid:0b84853f-fdcf-4549-b78f-9d4616c19379"
 * type = #document
 * timestamp = "2021-12-08T10:00:00.390+02:00"
 
@@ -42,7 +42,7 @@ Usage: #example
 * language = #en-US
 
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:ca0e8e1f-f032-4234-a351-914cf79ed910"
+* identifier.value = "urn:uuid:0b84853f-fdcf-4549-b78f-9d4616c19379"
 * status = #final
 * type = $sct#41000179103 "Immunization record"
 * subject = Reference(TC_patient)
@@ -54,7 +54,7 @@ Usage: #example
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><h3>Vaccination Record</h3><p><b>Id: </b>RDC01-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:20609dba-9f6a-4b94-bafa-0bad6839bf67</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>December 8, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Immunization Administration</td></tr></table></div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><h3>Vaccination Record</h3><p><b>Id: </b>RDC01-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:0b84853f-fdcf-4549-b78f-9d4616c19379</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>December 8, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Immunization Administration</td></tr></table></div>"
 
 * section[0].id = "administration"
 * section[=].title = "Immunization Administration"

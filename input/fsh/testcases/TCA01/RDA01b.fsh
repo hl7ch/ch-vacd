@@ -62,7 +62,7 @@ Usage: #example
 * id = "RDA01-Composition-b"
 * language = #en-US
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:bed3782e-a64c-422d-bc29-ae517071fdea"
+* identifier.value = "urn:uuid:9aba4e33-12e0-46b3-958b-b856861d67f2"
 * status = #final
 * type = $sct#41000179103 "Immunization record"
 * subject = Reference(TC_patient)

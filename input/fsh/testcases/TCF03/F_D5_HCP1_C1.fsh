@@ -5,7 +5,7 @@ Description: "Test Case F 03: Add comment (note) to an existing Condition(PastIl
 Usage: #example
 * id = "F-D5-HCP1-C1"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:d582a340-c183-4a07-9706-4a6bdd7441f1"
+* identifier.value = "urn:uuid:fb253a1b-7e26-48db-a9c8-d605875bcdc4"
 * type = #document
 * timestamp = "2015-05-30T00:00:00.390+02:00"
 

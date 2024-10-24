@@ -35,7 +35,7 @@ Usage: #example
 * language = #en-US
 
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:ab0add6e-0049-4567-8609-8d3ffdd84af0"
+* identifier.value = "urn:uuid:bef441e1-58b1-48e3-aa51-61237a3c20cd"
 * status = #final
 * type = $sct#41000179103 "Immunization record"
 * subject = Reference(TC_patient)

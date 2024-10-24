@@ -5,7 +5,7 @@ Description: "Test Case D 03: ImmunizationAdministration document created by HCP
 Usage: #example
 * id = "D-D7-HCP3-C1"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:d861bbfb-9ad9-4992-930d-a93ef5c7b98e"
+* identifier.value = "urn:uuid:4a1c3982-c263-4154-9ee6-229752348461"
 * type = #document
 * timestamp = "2021-10-22T10:00:00.390+02:00"
 

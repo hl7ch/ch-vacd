@@ -5,7 +5,7 @@ Description: "Test Case F 01: Arzt fügt ein Kommentar (note) zur impfung hinzu.
 Usage: #example
 * id = "F-D2-HCP1-C1"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:53a978dc-3d4a-4f41-9f26-3bc834524b38"
+* identifier.value = "urn:uuid:78579e77-2c10-4404-9693-b77adbedba41"
 * type = #document
 * timestamp = "2021-05-27T00:00:00.390+02:00"
 

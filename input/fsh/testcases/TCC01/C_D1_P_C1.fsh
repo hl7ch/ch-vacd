@@ -5,7 +5,7 @@ Description: "Test Case C 01: patient corrects an entry of its own document"
 Usage: #example
 * id = "C-D1-P-C1"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:6379e0da-49cc-4b29-a5ba-45810bb46fb0"
+* identifier.value = "urn:uuid:fc215e64-c4f4-4e39-b751-f967b84cf106"
 * type = #document
 * timestamp = "2021-06-15T00:00:00.390+02:00"
 

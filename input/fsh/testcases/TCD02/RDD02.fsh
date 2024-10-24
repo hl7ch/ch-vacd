@@ -5,7 +5,7 @@ Description: "Test Case D 01: Error aggregating documents due to dupplicated ent
 Usage: #example
 * id = "RDD02"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:c9772f65-f4c7-4446-b7cd-14e784427186"
+* identifier.value = "urn:uuid:aa87184e-a12f-43b6-a32d-cf3bcac2b665"
 * type = #document
 * timestamp = "2021-12-20T10:00:00.390+02:00"
 

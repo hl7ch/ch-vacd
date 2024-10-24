@@ -5,7 +5,7 @@ Description: "Example for Bundle Vaccination Record"
 Usage: #example
 * meta.lastUpdated = "2021-06-01T00:00:00.568+02:00"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"
+* identifier.value = "urn:uuid:00ae697d-3635-4c21-af13-4eaa8018c135"
 * type = #document
 * timestamp = "2021-06-01T00:00:00.568+02:00"
 * entry[0].fullUrl = "http://test.fhir.ch/r4/Composition/2-3-VaccinationRecordComposition"
