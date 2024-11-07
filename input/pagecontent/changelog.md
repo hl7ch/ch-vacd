@@ -1,12 +1,14 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
 ### STU 5, v5.0.0 (2024-12-31) 
-
 * [#235](https://github.com/hl7ch/ch-vacd/issues/235): Use Cases Deutsch: div. typos (Michaela Ziegler, ahdis ag)
 * [#244](https://github.com/hl7ch/ch-vacd/issues/244):Duplicate entry in VS ch-vacd-risks-medical-vs
 * [#246](https://github.com/hl7ch/ch-vacd/issues/246):  ValueSet "Swiss Occupation Risks For Immunizations"
+* [#249](https://github.com/hl7ch/ch-vacd/issues/249): Describe relatesTo Extension - fix examples
 * [#251](https://github.com/hl7ch/ch-vacd/issues/251): CH VACD Immunization, typo (Gabriel Hess, BFH)
 * [#252](https://github.com/hl7ch/ch-vacd/issues/252): Changelog, dead/wrong link (Gabriel Hess, BFH)
+* [#258](https://github.com/hl7ch/ch-vacd/issues/258): ImmunizationRecommendation (Recommendation Request/Response) (Marcel Hanselmann)
+* [#260](https://github.com/hl7ch/ch-vacd/issues/260): Immunization Recommendation Response (Marcel Hanselmann)
 * [#261](https://github.com/hl7ch/ch-vacd/issues/261): Use Cases Deutsch, tbd (Michaela Ziegler, ahdis ag)
 * [#262](https://github.com/hl7ch/ch-vacd/issues/262): Immunization Administration Document - typos (Michaela Ziegler, ahdis ag)
 * [#263](https://github.com/hl7ch/ch-vacd/issues/263): Immunization Recommendation Request Message, linebreaks (Michaela Ziegler, ahdis ag)
