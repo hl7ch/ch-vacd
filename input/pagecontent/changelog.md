@@ -1,18 +1,19 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
 ### STU 5, v5.0.0 (2024-12-31) 
-
 * [#235](https://github.com/hl7ch/ch-vacd/issues/235): Use Cases Deutsch: div. typos (Michaela Ziegler, ahdis ag)
 * [#248](https://github.com/hl7ch/ch-vacd/issues/248): Covid (new recommendation for autumn 2024)
+* [#249](https://github.com/hl7ch/ch-vacd/issues/249): Describe relatesTo Extension - fix examples
 * [#251](https://github.com/hl7ch/ch-vacd/issues/251): CH VACD Immunization, typo (Gabriel Hess, BFH)
 * [#252](https://github.com/hl7ch/ch-vacd/issues/252): Changelog, dead/wrong link (Gabriel Hess, BFH)
+* [#258](https://github.com/hl7ch/ch-vacd/issues/258): ImmunizationRecommendation (Recommendation Request/Response) (Marcel Hanselmann)
+* [#260](https://github.com/hl7ch/ch-vacd/issues/260): Immunization Recommendation Response (Marcel Hanselmann)
 * [#261](https://github.com/hl7ch/ch-vacd/issues/261): Use Cases Deutsch, tbd (Michaela Ziegler, ahdis ag)
 * [#262](https://github.com/hl7ch/ch-vacd/issues/262): Immunization Administration Document - typos (Michaela Ziegler, ahdis ag)
 * [#263](https://github.com/hl7ch/ch-vacd/issues/263): Immunization Recommendation Request Message, linebreaks (Michaela Ziegler, ahdis ag)
 
 
 ### STU 5 Ballot, v5.0.0-ballot (2024-05-17)
-
 * [#234](https://github.com/hl7ch/ch-vacd/issues/234): Dependency IPS (Michaela Ziegler, ahdis ag)
 * [#233](https://github.com/hl7ch/ch-vacd/issues/233): Spelling CH VACD (vs. CH-VACD) (Michaela Ziegler, ahdis ag)
 * [#228](https://github.com/hl7ch/ch-vacd/issues/228): Base CHVACDAllergyIntolerance on CHCoreAllergyIntolerance in place of CHAllergyIntolerance 
