@@ -375,3 +375,16 @@ Usage: #definition
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "Childbirth within last 4 weeks (finding)"
 
+// added 2024-08-09
+* compose.include[=].concept[+].code = #870577009
+* compose.include[=].concept[=].display = "At increased risk of exposure to severe acute respiratory syndrome coronavirus 2 (finding)"
+* compose.include[=].concept[=].designation[+].language = #de-CH
+* compose.include[=].concept[=].designation[=].value = "Erhöhtes Expositionsrisiko für das schwere akute respiratorische Syndrom Coronavirus 2"
+* compose.include[=].concept[=].designation[+].language = #fr-CH
+* compose.include[=].concept[=].designation[=].value = "risque accru d'exposition aux syndromes respiratoires aigus sévères coronavirus 2"
+* compose.include[=].concept[=].designation[+].language = #it-CH
+* compose.include[=].concept[=].designation[=].value = "maggiore rischio d'esposizione a sindrome respiratoria acuta grave coronavirus 2"
+* compose.include[=].concept[=].designation[+].language = #rm-CH
+* compose.include[=].concept[=].designation[=].value = "pli gronda ristga d'esser expost a la situaziun dal grev sindrom respiratoric acut coronavirus 2"
+* compose.include[=].concept[=].designation[+].language = #en-US
+* compose.include[=].concept[=].designation[=].value = "At increased risk of exposure to severe acute respiratory syndrome coronavirus 2"
