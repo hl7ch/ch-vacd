@@ -12,7 +12,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#261](https://github.com/hl7ch/ch-vacd/issues/261): Use Cases Deutsch, tbd (Michaela Ziegler, ahdis ag)
 * [#262](https://github.com/hl7ch/ch-vacd/issues/262): Immunization Administration Document - typos (Michaela Ziegler, ahdis ag)
 * [#263](https://github.com/hl7ch/ch-vacd/issues/263): Immunization Recommendation Request Message, linebreaks (Michaela Ziegler, ahdis ag)
-
+* [#264](https://github.com/hl7ch/ch-vacd/issues/264): Explanantions or guidance on deprecated SNOMED CT values
+Response Message"
 
 ### STU 5 Ballot, v5.0.0-ballot (2024-05-17)
 
