@@ -379,12 +379,12 @@ Usage: #definition
 * compose.include[=].concept[+].code = #870577009
 * compose.include[=].concept[=].display = "At increased risk of exposure to severe acute respiratory syndrome coronavirus 2 (finding)"
 * compose.include[=].concept[=].designation[+].language = #de-CH
-* compose.include[=].concept[=].designation[=].value = "Erhöhtes Risiko einer Exposition gegenüber dem Coronavirus 2 des schweren akuten respiratorischen Syndroms"
+* compose.include[=].concept[=].designation[=].value = "Erhöhtes Expositionsrisiko für das schwere akute respiratorische Syndrom Coronavirus 2"
 * compose.include[=].concept[=].designation[+].language = #fr-CH
-* compose.include[=].concept[=].designation[=].value = "risque accru d'exposition au coronavirus du syndrome respiratoire aigu sévère 2"
+* compose.include[=].concept[=].designation[=].value = "risque accru d'exposition aux syndromes respiratoires aigus sévères coronavirus 2"
 * compose.include[=].concept[=].designation[+].language = #it-CH
-* compose.include[=].concept[=].designation[=].value = "ad aumentato rischio di esposizione alla sindrome respiratoria acuta grave da coronavirus 2"
+* compose.include[=].concept[=].designation[=].value = "maggiore rischio d'esposizione a sindrome respiratoria acuta grave coronavirus 2"
 * compose.include[=].concept[=].designation[+].language = #rm-CH
-* compose.include[=].concept[=].designation[=].value = "Erhöhtes Risiko einer Exposition gegenüber dem Coronavirus 2 des schweren akuten respiratorischen Syndroms"
+* compose.include[=].concept[=].designation[=].value = "pli gronda ristga d'esser expost a la situaziun dal grev sindrom respiratoric acut coronavirus 2"
 * compose.include[=].concept[=].designation[+].language = #en-US
 * compose.include[=].concept[=].designation[=].value = "At increased risk of exposure to severe acute respiratory syndrome coronavirus 2"
