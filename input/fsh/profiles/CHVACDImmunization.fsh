@@ -2,7 +2,7 @@ Profile: CHVACDImmunization
 Parent: CHCoreImmunization
 Id: ch-vacd-immunization
 Title: "CH VACD Immunization"
-Description: "Definition of the immunization part for all documents, except recommendation request and response documents."
+Description: "Definition of the immunization part for all documents."
 * ^version = "0.2.0"
 * ^status = #active
 * ^experimental = false
@@ -20,7 +20,7 @@ Description: "Definition of the immunization part for all documents, except reco
 * extension[medication] ^definition = "The Reference to the Medication resource defining the vaccination material."
 * extension[conflict] ^definition = "Indicator for merging conflicts."
 * vaccineCode from $ch-vacd-vaccines-vs (extensible)
-* vaccineCode.coding ^slicing.discriminator.type = #pattern
+* vaccineCode.coding ^slicing.discriminator.type = #value
 * vaccineCode.coding ^slicing.discriminator.path = "$this"
 * vaccineCode.coding ^slicing.description = "Slice based on code value"
 * vaccineCode.coding ^slicing.rules = #open

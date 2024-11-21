@@ -10,7 +10,7 @@ Description: "Definition of the bundle for the vaccination record document. This
 * ^extension[=].valueInteger = 5
 * . ^short = "CH VACD Vaccination Record Document"
 * identifier 1..
-* identifier ^short = "Identification number of the document"
+* identifier ^short = "Unique identification number"
 * identifier.system 1..
 * identifier.value 1..
 * type = #document (exactly)

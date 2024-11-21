@@ -48,8 +48,8 @@ parameters:
 
 dependencies:
   hl7.terminology: 5.5.0
-  ch.fhir.ig.ch-core: 5.0.0-ballot
-  ch.fhir.ig.ch-term: 3.0.x
+  ch.fhir.ig.ch-core: current
+  ch.fhir.ig.ch-term: current
   hl7.fhir.uv.ips:
     version: 1.1.0
     uri: http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips

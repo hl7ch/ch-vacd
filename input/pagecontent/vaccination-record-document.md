@@ -23,7 +23,7 @@ For representing UUIDs the system needs to be urn:ietf:rfc:3986 as described her
 
 #### Document Identifier
 Document identifier in [1.3 Vaccination Record](Bundle-1-3-VaccinationRecord.html):   
-`Bundle.identifier`/`Composition.identifier`
+`Bundle.identifier`/`Composition.identifier`. In first version of the document the both are equal. On updates of the document they differ.
 
 ``` json
   "identifier" : {
