@@ -5,7 +5,7 @@ Description: "Test Case C 02: Example for Document Immunization Administration t
 Usage: #example
 * id = "C-D2-HCP1-C1"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:46e75d87-7ce4-4167-900f-7a66457d11a7"
+* identifier.value = "urn:uuid:f9433823-f08a-4ccb-a3cb-b62011c72489"
 * type = #document
 * timestamp = "2021-08-21T00:00:00.390+02:00"
 

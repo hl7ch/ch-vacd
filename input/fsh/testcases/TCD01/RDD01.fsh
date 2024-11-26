@@ -5,7 +5,7 @@ Description: "Test Case D 01: Error aggregating documents due to dupplicated Imm
 Usage: #example
 * id = "RDD01"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:41d7166e-239d-4873-856d-dd3c220c06eb"
+* identifier.value = "urn:uuid:07335736-7c2e-4fb4-8203-0b331862b7b6"
 * type = #document
 * timestamp = "2021-12-08T10:00:00.390+02:00"
 

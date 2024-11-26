@@ -5,7 +5,7 @@ Description: "Test Case F 01: Add comment (note) to an existing AllergyIntoleran
 Usage: #example
 * id = "F-D3-HCP1-C1"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:d94f0be6-4899-4aa3-90f0-46e567ba8af5"
+* identifier.value = "urn:uuid:98dbfa14-1b2e-40f8-8110-932c631db1df"
 * type = #document
 * timestamp = "2021-10-06T00:00:00.390+02:00"
 

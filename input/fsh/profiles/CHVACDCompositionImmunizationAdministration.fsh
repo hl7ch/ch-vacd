@@ -14,7 +14,9 @@ Description: "Definition of the composition for the  immunization administration
 * extension[informationRecipient] ^short = "A recipient of this document (person or organization)"
 * extension[informationRecipient] ^min = 0
 * extension[dataEnterer] ^short = "Person who entered information into this document if it is a person other than the author"
-* identifier ^short = "Identification number of the document"
+* identifier ^short = "Unique identification number"
+* identifier ^example.label = "CH VACD"
+* identifier ^example.valueString = "urn:uuid:0c918c47-561e-4689-bc1b-ba2775d6f04c"
 * status = #final (exactly)
 * type = $sct#41000179103
 * type ^short = "Document type Immunization record"
@@ -37,7 +39,7 @@ Description: "Definition of the composition for the  immunization administration
 * relatesTo ^short = "Relationships to other compositions in order to replace other documents or fix/correct elements of an other document."
 * relatesTo ^definition = "Relationships to other compositions in order to replace other documents or fix/correct elements of an other document."
 * relatesTo ^comment = "See also the [extension Entry Cross Reference](http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references) for more details."
-* section ^slicing.discriminator.type = #pattern
+* section ^slicing.discriminator.type = #value
 * section ^slicing.discriminator.path = "code"
 * section ^slicing.ordered = false
 * section ^slicing.rules = #open

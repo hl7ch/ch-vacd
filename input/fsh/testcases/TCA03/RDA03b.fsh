@@ -5,7 +5,7 @@ Description: "Test Case A 03:  Patient trägt zweite Dosis einer Impfung (FSME) 
 Usage: #example
 * id = "RDA03b"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:ccbe83f4-af43-4ce7-b52e-cf0323537114"
+* identifier.value = "urn:uuid:8c845f76-eadc-4472-9d89-ad5e313a7b19"
 * type = #document
 * timestamp = "2021-09-05T00:00:00.390+02:00"
 

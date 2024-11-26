@@ -5,7 +5,7 @@ Description: "Test Case E 01: Aggregating documents with different languages mer
 Usage: #example
 * id = "RDE01"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:664efd1d-3480-455b-bb5e-0258c5bb3a62"
+* identifier.value = "urn:uuid:bd70b715-a6cd-4855-b1be-e7a38ddf5775"
 * type = #document
 * timestamp = "2021-11-20T14:00:00.390+02:00"
 

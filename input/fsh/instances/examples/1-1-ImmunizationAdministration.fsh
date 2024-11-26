@@ -5,7 +5,7 @@ Description: "Example for Bundle Immunization Administration"
 Usage: #example
 * meta.lastUpdated = "2021-06-01T00:00:00.374+02:00"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:5b8a26b2-dd6d-4c04-acaf-e4a44b7bcf47"
+* identifier.value = "urn:uuid:5bca53b2-0973-4b91-961e-b1e93474c9c2"
 * type = #document
 * timestamp = "2021-06-01T00:00:00.390+02:00"
 * entry[0].fullUrl = "http://test.fhir.ch/r4/Composition/2-1-ImmunizationAdministrationComposition"

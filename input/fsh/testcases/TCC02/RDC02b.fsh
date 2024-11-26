@@ -5,7 +5,7 @@ Description: "Test Case C 02: Correction of foreign Immunization entry."
 Usage: #example
 * id = "RDC02b"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:b006fbc2-df85-4e3a-adc1-21aeff29e6d0"
+* identifier.value = "urn:uuid:e1bc4b68-7579-4c81-b47b-e41816ed09ed"
 * type = #document
 * timestamp = "2021-12-08T10:00:00.390+02:00"
 
@@ -51,7 +51,7 @@ Usage: #example
 * language = #en-US
 
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:b006fbc2-df85-4e3a-adc1-21aeff29e6d0"
+* identifier.value = "urn:uuid:e1bc4b68-7579-4c81-b47b-e41816ed09ed"
 * status = #final
 * type = $sct#41000179103 "Immunization record"
 * subject = Reference(TC_patient)

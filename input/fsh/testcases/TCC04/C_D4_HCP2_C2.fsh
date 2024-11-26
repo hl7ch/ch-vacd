@@ -5,7 +5,7 @@ Description: "Test Case C 04: HCP2 enters medical problem (exposition risk) \"Ba
 Usage: #example
 * id = "C-D4-HCP2-C2"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:6f3f58c8-ee24-46fe-8fe6-33b84351c825"
+* identifier.value = "urn:uuid:9686dae0-448c-49f8-9c78-2db1aa95b921"
 * type = #document
 * timestamp = "2021-08-20T00:00:00.390+02:00"
 

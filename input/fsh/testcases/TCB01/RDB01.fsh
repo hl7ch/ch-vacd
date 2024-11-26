@@ -5,7 +5,7 @@ Description: "Test Case B 01: VaccinationRecord document created as merging resu
 Usage: #example
 * id = "RDB01"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:RDB01"
+* identifier.value = "urn:uuid:df06d24d-2f22-4315-a610-b780539fb627"
 * type = #document
 * timestamp = "2021-12-10T14:00:00.390+02:00"
 

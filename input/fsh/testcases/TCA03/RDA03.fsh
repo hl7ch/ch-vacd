@@ -62,7 +62,7 @@ Usage: #example
 * language = #en-US
 
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:8c845f76-eadc-4472-9d89-ad5e313a7b19"
+* identifier.value = "urn:uuid:ccbe83f4-af43-4ce7-b52e-cf0323537114"
 * status = #final
 * type = $sct#41000179103 "Immunization record"
 * subject = Reference(TC_patient)

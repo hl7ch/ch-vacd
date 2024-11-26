@@ -5,7 +5,7 @@ Description: "Test Case D 03: Error aggregating documents due to dupplicated ent
 Usage: #example
 * id = "RDD03b"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:1a06acd4-2f3d-4eb2-a473-d48a3ef0af39"
+* identifier.value = "urn:uuid:080ab372-6084-448a-9604-589a547070b2"
 * type = #document
 * timestamp = "2021-11-20T14:00:00.390+02:00"
 
@@ -60,7 +60,7 @@ Usage: #example
 * language = #en-US
 
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:0f870b05-098b-43d1-a5ca-506b9f1169ef"
+* identifier.value = "urn:uuid:080ab372-6084-448a-9604-589a547070b2"
 * status = #final
 * type = $sct#41000179103 "Immunization record"
 * subject = Reference(TC_patient)
@@ -72,7 +72,7 @@ Usage: #example
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><h3>Vaccination Record</h3><p><b>Id: </b>RDD03-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:0f870b05-098b-43d1-a5ca-506b9f1169ef</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>November 20, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Medical Problems</td></tr></table></div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><h3>Vaccination Record</h3><p><b>Id: </b>RDD03-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:080ab372-6084-448a-9604-589a547070b2</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>November 20, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Medical Problems</td></tr></table></div>"
 
 * section[+].id = "medicalproblems"
 * section[=].title = "Medical Problems"

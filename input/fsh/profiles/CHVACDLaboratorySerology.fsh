@@ -2,7 +2,7 @@ Profile: CHVACDLaboratorySerology
 Parent: Observation
 Id: ch-vacd-laboratory-serology
 Title: "CH VACD Laboratory And Serology"
-Description: "Definition of the labor and serology part for all documents, except recommendation request and response documents."
+Description: "Definition of the labor and serology part for all documents."
 * ^version = "0.1.0"
 * ^experimental = false
 * ^publisher = "eHealth Suisse"

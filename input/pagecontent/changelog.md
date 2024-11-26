@@ -15,7 +15,10 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#262](https://github.com/hl7ch/ch-vacd/issues/262): Immunization Administration Document - typos (Michaela Ziegler, ahdis ag)
 * [#263](https://github.com/hl7ch/ch-vacd/issues/263): Immunization Recommendation Request Message, linebreaks (Michaela Ziegler, ahdis ag)
 * [#264](https://github.com/hl7ch/ch-vacd/issues/264): Explanantions or guidance on deprecated SNOMED CT values
-Response Message"
+* [#290](https://github.com/hl7ch/ch-vacd/issues/290): Identifier in Bundle and Composition (Michaela Ziegler, ahdis ag)
+* [#292](https://github.com/hl7ch/ch-vacd/issues/292): CH VACD Immunization (Oleksiy CDM)
+* [#293](https://github.com/hl7ch/ch-vacd/issues/293): deprecated discriminator type 'pattern' 
+
 
 ### STU 5 Ballot, v5.0.0-ballot (2024-05-17)
 

@@ -5,7 +5,7 @@ Description: "Test Case A 01: Patient hat drei Impfdokumente in zwei unterschied
 Usage: #example
 * id = "A-D3-HCP2-C2"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:fee18799-eb66-41b2-a98f-72ff2e374147"
+* identifier.value = "urn:uuid:9686dae0-448c-49f8-9c78-2db1aa95b921"
 * type = #document
 * timestamp = "2021-08-01T00:00:00.390+02:00"
 

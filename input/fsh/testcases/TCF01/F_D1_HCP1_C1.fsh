@@ -5,7 +5,7 @@ Description: "Test Case F 01: Patient hat ein Impfdokumente mit einer Impfung Ha
 Usage: #example
 * id = "F-D1-HCP1-C1"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:1ae12ba0-b85c-4ffb-af66-a75b0e50c88e"
+* identifier.value = "urn:uuid:e2233a2f-d1c2-459d-b4fe-4920c35339e7"
 * type = #document
 * timestamp = "2021-05-27T00:00:00.390+02:00"
 

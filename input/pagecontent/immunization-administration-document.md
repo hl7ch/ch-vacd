@@ -12,6 +12,24 @@ A Bundle has a list of entries. The first entry is the Composition, in which all
 
 {% include img.html img="immunization-administration-document.png" caption="Fig.: Immunization Administration document" width="40%" %}
 
+### Identifiers
+
+#### Identifier Format
+In CH VACD it is specified to use an [UUID](https://hl7.org/fhir/R4/datatypes.html#uuid) as identifier, for both the document and resource identifiers.
+For representing UUIDs the system needs to be urn:ietf:rfc:3986 as described here. The value has to start with urn:uuid:.
+
+#### Document Identifier
+Document identifier in [1.1 Immunization Administration](Bundle-1-1-ImmunizationAdministration.html):   
+`Bundle.identifier`/`Composition.identifier`. In first version of the document the both are equal. On updates of the document they differ.
+
+``` json
+  "identifier" : {
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:uuid:5bca53b2-0973-4b91-961e-b1e93474c9c2"
+  }
+```
+
+
 ### Narrative Text Generation
 The narrative text in the composition of the bundle of type document can be generated using the FHIR XML representation and the defined xslt transformer defined in this implementation guide.
 For further details see [Narrative Text Generation](generatenarrativetext.html).

@@ -5,7 +5,7 @@ Description: "Test Case C 04: VaccinationRecord document created as merging resu
 Usage: #example
 * id = "RDC04b"
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:RDC04"
+* identifier.value = "urn:uuid:38c4fbd6-a083-4718-9566-da2c810c9b17"
 * type = #document
 * timestamp = "2021-09-11T00:00:00.390+02:00"
 
@@ -40,7 +40,7 @@ Usage: #example
 * language = #en-US
 
 * identifier.system = "urn:ietf:rfc:3986"
-* identifier.value = "urn:uuid:09cb062b-ae01-44c8-9814-eca4c8e1b90c"
+* identifier.value = "urn:uuid:38c4fbd6-a083-4718-9566-da2c810c9b17"
 * status = #final
 * type = $sct#41000179103 "Immunization record"
 * subject = Reference(TC_patient2)
