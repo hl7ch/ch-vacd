@@ -1,6 +1,6 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
-### STU 5, v5.0.0 (2024-12-31) 
+### STU 5, v5.0.0 (2024-12-17) 
 
 * [#235](https://github.com/hl7ch/ch-vacd/issues/235): Use Cases Deutsch: div. typos (Michaela Ziegler, ahdis ag)
 * [#244](https://github.com/hl7ch/ch-vacd/issues/244):Duplicate entry in VS ch-vacd-risks-medical-vs
@@ -14,7 +14,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#261](https://github.com/hl7ch/ch-vacd/issues/261): Use Cases Deutsch, tbd (Michaela Ziegler, ahdis ag)
 * [#262](https://github.com/hl7ch/ch-vacd/issues/262): Immunization Administration Document - typos (Michaela Ziegler, ahdis ag)
 * [#263](https://github.com/hl7ch/ch-vacd/issues/263): Immunization Recommendation Request Message, linebreaks (Michaela Ziegler, ahdis ag)
-* [#264](https://github.com/hl7ch/ch-vacd/issues/264): Explanantions or guidance on deprecated SNOMED CT values
+* [#264](https://github.com/hl7ch/ch-vacd/issues/264): Explanations or guidance on deprecated SNOMED CT values
 * [#290](https://github.com/hl7ch/ch-vacd/issues/290): Identifier in Bundle and Composition (Michaela Ziegler, ahdis ag)
 * [#292](https://github.com/hl7ch/ch-vacd/issues/292): CH VACD Immunization (Oleksiy CDM)
 * [#293](https://github.com/hl7ch/ch-vacd/issues/293): deprecated discriminator type 'pattern' 

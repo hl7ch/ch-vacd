@@ -12,7 +12,7 @@ The IHE PCC himself references the HL7 Clinical Document Architecture (CDA).
 During the development of the IG a lot of issues popped up which had to be resolved. The fact that the version 2.1 of the CDA was not really in use led to the cut of the reverse compatibility to the CDA in order to be able to set up a proper and usable exchange format based on FHIR.
 
 The circumstance to be able to exchange the information across borders had his influence on the specification. The [International Patient Summary Implementation Guide (IPS)](http://hl7.org/fhir/uv/ips/) gave some support (i.e. [Immunization Profile](http://hl7.org/fhir/uv/ips/StructureDefinition-Immunization-uv-ips.html)).
-Using as much as possible international codesystems like SNOMED CT®, LOINC, EDQM UCUM will increase the compatibility across borders.
+Using as much as possible international code systems like SNOMED CT®, LOINC, EDQM UCUM will increase the compatibility across borders.
 
 
 The following documents and messages have been defined:
@@ -22,10 +22,9 @@ The following documents and messages have been defined:
 - [Immunization Recommendation Response message](immunization-recommendation-response-message.html)
 
 <div markdown="1" class="stu-note">
-This implementation guide is under STU ballot by [HL7 Switzerland](https://www.hl7.ch/) until September 30th, 2024 midnight.   
-Please add your feedback via the ‘Propose a change’-link in the footer on the page where you have comments. 
 
 [Significant changes, open and closed issues.](changelog.html)
+
 </div>
 
 

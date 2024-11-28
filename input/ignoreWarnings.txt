@@ -1,15 +1,17 @@
 == Suppressed Messages ==
 
-# https://github.com/HL7/fhir-ig-publisher/issues/898
-The link 'StructureDefinition-originalText.html' for "originalText extension" cannot be resolved
-
 # Display warnings
 Wrong Display Name%
 Der Displayname%
 
 # Swiss specific values
-The value provided ('rm-CH') was not found in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set) (error message = The System URI could not be determined for the code 'rm-CH' in the ValueSet 'http://hl7.org/fhir/ValueSet/languages|4.0.1'; The provided code '#rm-CH' was not found in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1')
-None of the codings provided are in the value set 'CH VACD Swissmedic code for vaccine code' (http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs|3.0.0), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips#no-known-immunizations)
+The value provided ('rm-CH') was not found in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set (error message = The System URI could not be determined for the code 'rm-CH' in the ValueSet 'http://hl7.org/fhir/ValueSet/languages|4.0.1'; The provided code '#rm-CH' was not found in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1')
+None of the codings provided are in the value set 'CH VACD Swissmedic code for vaccine code' (http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs|%
+None of the codings provided are in the value set 'CH VACD Swiss Vaccination Plan Immunizations' (http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs|%
+
+# External code system
+A definition for CodeSystem 'urn:oid:2.51.1.1' could not be found, so the code cannot be validated
+A definition for CodeSystem 'urn:oid:0.4.0.127.0.16.1.1.2.1' could not be found, so the code cannot be validated
 
 # Reference to draft code system
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|1.0.0
