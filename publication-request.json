@@ -3,7 +3,7 @@
   "version" : "5.0.0",
   "path" : "http://fhir.ch/ig/ch-vacd/5.0.0",
   "mode" : "milestone",
-  "status" : "trial-uses",
+  "status" : "trial-use",
   "sequence" : "STU 5",
   "desc" : "HL7 Switzerland STU 5",
   "changes" : "changelog.html",
