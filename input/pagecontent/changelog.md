@@ -2,7 +2,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 ### STU 6, v6.0.0-ballot (2025)
 
 * [#297](https://github.com/hl7ch/ch-vacd/issues/297): CH VACD Swissmedic code for vaccine code (Patrick Tobler (CISTEC))
-
+* [#294](https://github.com/hl7ch/ch-vacd/issues/294): Adaption to IPS (2.0.0)
 
 ### STU 5, v5.0.0 (2024-12-17) 
 
