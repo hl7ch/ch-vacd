@@ -22,6 +22,9 @@ Description: "Definition of the immunization part for all documents."
 * status MS
 * vaccineCode 1..1 MS
 * occurrenceDateTime MS
+* occurrenceString.extension contains $data-absent-reason named data-absent-reason 0..1 MS
+* occurrenceString.extension[data-absent-reason] ^short = "occurrence[x] absence reason"
+* occurrenceString.extension[data-absent-reason] ^definition = "Provides a reason why the occurrence is missing."
 * lotNumber MS
 * site MS
 * route MS

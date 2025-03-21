@@ -15,3 +15,6 @@ A definition for CodeSystem 'urn:oid:0.4.0.127.0.16.1.1.2.1' could not be found,
 
 # Reference to draft code system
 Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|1.0.0
+
+# Swiss Extension of SNOMED-CT not in tx.fhir.org
+The code '102311000195108' is not valid in the system http://snomed.info/sct version http://snomed.info/sct/2011000195101 (102311000195108)
