@@ -1,5 +1,11 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
+
+### STU 6, v6.0.0-ballot
+
+* [#296](https://github.com/hl7ch/ch-vacd/issues/296): add expansion parameter for sct swiss extension (Michaela Ziegler, Roeland Luykx)
+* [#307](https://github.com/hl7ch/ch-vacd/issues/307): Fix dependency to hl7.terminology (Michaela Ziegler, Roeland Luykx)
+
 ### STU 5, v5.0.0 (2024-12-17) 
 
 * [#235](https://github.com/hl7ch/ch-vacd/issues/235): Use Cases Deutsch: div. typos (Michaela Ziegler, ahdis ag)
