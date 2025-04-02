@@ -48,3 +48,5 @@ Alias: $absent-or-unknown-immunizations-uv-ips =                        http://h
 
 Alias: $edqm-pharmaceuticaldoseform =                                   http://fhir.ch/ig/ch-term/ValueSet/edqm-pharmaceuticaldoseform
 Alias: $ActivePharmaceuticalIngredient =                                http://fhir.ch/ig/ch-term/ValueSet/ActivePharmaceuticalIngredient
+
+Alias: $data-absent-reason =                                            http://hl7.org/fhir/StructureDefinition/data-absent-reason|4.0.1
