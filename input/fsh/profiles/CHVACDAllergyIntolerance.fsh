@@ -25,6 +25,8 @@ Description: "Definition of the AllergyIntolerance part for vaccination record d
 * code ^binding.extension[+].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"
 * code ^binding.extension[=].valueBoolean = true
 * code ^binding.description = "The code for allergy."
+* verificationStatus 0..1
+* verificationStatus ^definition = "Status of verification by a practitioner"
 * patient MS
 // * patient only Reference(CHCorePatient)
 // * patient ^short = "Patient"

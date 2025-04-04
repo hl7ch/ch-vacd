@@ -1,6 +1,7 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 ### STU 6, v6.0.0-ballot (2025)
 
+* [#300](https://github.com/hl7ch/ch-vacd/issues/300): CH VACD Immunization - verificationStatus (Carole Kaiser eHealth Suisse) and subtasks [#302](https://github.com/hl7ch/ch-vacd/issues/302), [#303](https://github.com/hl7ch/ch-vacd/issues/303),[#304](https://github.com/hl7ch/ch-vacd/issues/304), [#305](https://github.com/hl7ch/ch-vacd/issues/305) and [#309](https://github.com/hl7ch/ch-vacd/issues/309)
 * [#297](https://github.com/hl7ch/ch-vacd/issues/297): CH VACD Swissmedic code for vaccine code (Patrick Tobler (CISTEC))
 * [#294](https://github.com/hl7ch/ch-vacd/issues/294): Adaption to IPS (2.0.0)
 
