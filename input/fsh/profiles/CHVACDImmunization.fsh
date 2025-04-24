@@ -15,7 +15,7 @@ Description: "Definition of the immunization part for all documents."
     EntryResourceCrossReferences named relatesTo 0..1 and 
     CHVACDExtensionImmunizationMedicationReference named medication 0..1 and
     CHVACDExtensionMergingConflictEntryReference named conflict 0..* and
-    CHVACDExtensionVerificationStatus named verificationStatus 0..1
+    CHVACDExtensionVerificationStatus named verificationStatus 1..1
 * extension[recorder] MS
 * extension[relatesTo] ^definition = "The relatesTo extension is used to identify the replaced/corrected entry in an other document. The extension references the identifier and resource type of the entry and the identifier and resource type of the container i.e. Composition."
 * extension[medication] ^definition = "The Reference to the Medication resource defining the vaccination material."

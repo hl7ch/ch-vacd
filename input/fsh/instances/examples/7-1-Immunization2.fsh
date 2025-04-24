@@ -3,6 +3,11 @@ InstanceOf: CHVACDImmunization
 Title: "7.1 Immunization"
 Description: "Example for Immunization with absent reason"
 Usage: #example
+* extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
+* extension[=].valueReference = Reference(3-1-Patient)
+* extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
+* extension[=].extension[0].url = "status"
+* extension[=].extension[=].valueCoding = $sct#76104008 "Not confirmed"
 * identifier
   * system = "urn:oid:2.16.756.5.30.1.147.1.3.1"
   * value = "1829774"
