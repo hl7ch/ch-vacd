@@ -12,11 +12,11 @@ Usage: #example
 * identifier.value = "12345"
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#637 "Boostrix"
-* patient.reference = "Patient/3-2-Patient"
+* patient = Reference(3-2-Patient)
 * occurrenceDateTime = "2013-09-15T00:00:00+02:00"
 * recorded = "2013-09-15T00:00:00+02:00"
 * lotNumber = "12345"
-* performer.actor.reference = "PractitionerRole/6-5-PractitionerRole"
+* performer.actor = Reference(6-5-PractitionerRole)
 * reasonCode = $v3-ActCode#IMMUNIZ "Immunization"
 * protocolApplied.targetDisease[0] = $sct#397430003 "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * protocolApplied.targetDisease[+] = $sct#76902006 "Tetanus (disorder)"

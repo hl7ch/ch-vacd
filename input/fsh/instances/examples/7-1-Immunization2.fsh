@@ -13,7 +13,7 @@ Usage: #example
   * value = "1829774"
 * status = #completed
 * vaccineCode = $sct#787482006
-* patient.reference = "Patient/3-1-Patient"
+* patient = Reference(3-1-Patient)
 * occurrenceDateTime = "2017-09-15T09:12:56+02:00"
 * occurrenceDateTime.extension
 //* occurrenceString.extension
@@ -22,7 +22,7 @@ Usage: #example
 * recorded = "2017-09-15T09:12:56+02:00"
 * lotNumber = "12-34244"
 * route = $standardterms#20035000 "Intramuscular use"
-* performer.actor.reference = "PractitionerRole/6-1-PractitionerRole"
+* performer.actor = Reference(6-1-PractitionerRole)
 * protocolApplied
   * targetDisease[0] = $sct#397430003 "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
   * targetDisease[+] = $sct#76902006 "Tetanus (disorder)"

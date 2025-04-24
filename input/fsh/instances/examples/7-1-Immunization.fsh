@@ -17,7 +17,7 @@ Usage: #example
 * recorded = "2017-09-15T09:12:56+02:00"
 * lotNumber = "12-34244"
 * route = $standardterms#20035000 "Intramuscular use"
-* performer.actor.reference = "PractitionerRole/6-1-PractitionerRole"
+* performer.actor = Reference(6-1-PractitionerRole)
 * protocolApplied.targetDisease[0] = $sct#397430003 "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
 * protocolApplied.targetDisease[+] = $sct#76902006 "Tetanus (disorder)"
 * protocolApplied.targetDisease[+] = $sct#27836007 "Pertussis (disorder)"

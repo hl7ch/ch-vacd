@@ -10,6 +10,6 @@ Usage: #example
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#active "Active"
 * verificationStatus = $condition-verification-status#confirmed "Confirmed"
-* subject.reference = "Patient/3-2-Patient"
+* subject = Reference(3-2-Patient)
 * recordedDate = "2019-04-01T00:00:00+02:00"
-* recorder.reference = "PractitionerRole/6-4-PractitionerRole"
+* recorder = Reference(6-4-PractitionerRole)
