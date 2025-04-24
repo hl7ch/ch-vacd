@@ -22,7 +22,7 @@ Description: "Generic definition (abstract profile) of the condition for all doc
 * subject MS
 * subject only Reference(CHCorePatient)
 * subject ^short = "Patient"
-* verificationStatus 0..1
+* verificationStatus 1..1
 * verificationStatus ^definition = "Status of verification by a practitioner"
 * encounter only Reference(CHCoreEncounter)
 * recordedDate 1..1 MS
