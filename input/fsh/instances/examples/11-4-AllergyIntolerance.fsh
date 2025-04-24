@@ -8,6 +8,6 @@ Usage: #example
 * clinicalStatus = $allergyintolerance-clinical#active
 * verificationStatus = $allergyintolerance-verification#confirmed "Confirmed"
 * code = $sct#24079001 "Atopic dermatitis (disorder)"
-* patient.reference = "Patient/3-2-Patient"
+* patient = Reference(3-2-Patient)
 * recordedDate = "1996-07-11T00:00:00+02:00"
-* recorder.reference = "PractitionerRole/6-4-PractitionerRole"
+* recorder = Reference(6-4-PractitionerRole)

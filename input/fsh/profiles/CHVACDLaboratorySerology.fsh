@@ -10,9 +10,11 @@ Description: "Definition of the labor and serology part for all documents."
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
-* extension contains EntryResourceCrossReferences named relatesTo 0..1 and 
+* extension contains Author named recorder 0..1 and
+                     EntryResourceCrossReferences named relatesTo 0..1 and 
                      CHVACDExtensionMergingConflictEntryReference named conflict 0..* and
-                     CHVACDExtensionVerificationStatus named verificationStatus 0..1
+                     CHVACDExtensionVerificationStatus named verificationStatus 1..1
+* extension[recorder] ^definition = "The recorder Reference of the immunization. May be a Practitioner or a Patient"
 * extension[relatesTo] ^definition = "The definition of a relation of this laboratory entry in this document to an laboratory entry in an other document."
 * extension[conflict] ^definition = "The definition of a conflict on merging different documents."
 * extension[verificationStatus] ^definition = "Status of verification by a practitioner"
