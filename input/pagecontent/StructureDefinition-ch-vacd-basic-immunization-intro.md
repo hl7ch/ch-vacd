@@ -7,7 +7,7 @@ With this profile, this information can be documented in the electronic records.
 The corresponding value set with the possible codes can be found [here](ValueSet-ch-vacd-basic-immunization-vs.html)
 
 
-### Validation
+### Validation and VerificationStatus
 
 An *Basic Immunization* entry can be recorded by an Practitioner or a Patient ([Extension: Author of the content](http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author)).<br>
 
@@ -15,8 +15,7 @@ a) In the case a practitioner is recorder, the entry is directly validated defin
 
 b) In the case a patient is recording an entry the verificationStatus has to be [Unconfirmed](https://hl7.org/fhir/R4/codesystem-condition-ver-status.html#condition-ver-status-unconfirmed), a practitioner has to validate the entry.
 
-This can be done by changing the verification status to [Comfirmed](http://snomed.info/id/59156000). This will be done by an Immunization Administration document which will replace the existing entry using the [Extension ch-core-ext-entry-resource-cross-references](http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references).
-
+see more about the [Validation and VerificationStatus](verification-status.html)
 
 ### Duplicate Conflict
 
