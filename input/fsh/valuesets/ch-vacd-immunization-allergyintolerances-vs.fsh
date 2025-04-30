@@ -427,7 +427,7 @@ Description: "The allergies and adverse reactions which have an influence on the
 
 // replaces http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-allergyintolerance-cs#allergyvaccinefsme, 2024-02-29
 // 1303850003 |Adverse reaction to component of vaccine product containing Tick-borne encephalitis virus antigen (disorder)|
-* $sct#1303850003 "Adverse reaction to component of vaccine product containing Tick-borne encephalitis virus antigen (disorder)"
+* $sctch#1303850003 "Adverse reaction to component of vaccine product containing Tick-borne encephalitis virus antigen (disorder)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Unerwünschte Wirkung eines FSME-Impfstoffs"
   * ^designation[+].language = #fr-CH
@@ -441,7 +441,7 @@ Description: "The allergies and adverse reactions which have an influence on the
 
 // replaces http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-allergyintolerance-cs#allergyvaccinehpv, 2024-02-29
 // 1303851004 |Adverse reaction to component of vaccine product containing Human papillomavirus antigen (disorder)|
-* $sct#1303851004 "Adverse reaction to component of vaccine product containing Human papillomavirus antigen (disorder)"
+* $sctch#1303851004 "Adverse reaction to component of vaccine product containing Human papillomavirus antigen (disorder)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Unerwünschte Wirkung eines Humanen-Papillomaviren-Impfstoffs"
   * ^designation[+].language = #fr-CH
@@ -456,7 +456,7 @@ Description: "The allergies and adverse reactions which have an influence on the
 // replaces http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-allergyintolerance-cs#allergyvaccineherpeszoster, 2024-02-29
 // replaces http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-allergyintolerance-cs#allergyvaccinevarizella, 2024-02-29
 // 1303852006 |Adverse reaction to component of vaccine product containing Human alphaherpesvirus 3 antigen (disorder)| --> combined code for varicella antigen & Herpes zoster since those are synonyms
-* $sct#1303852006 "Adverse reaction to component of vaccine product containing Human alphaherpesvirus 3 antigen (disorder)"
+* $sctch#1303852006 "Adverse reaction to component of vaccine product containing Human alphaherpesvirus 3 antigen (disorder)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Unerwünschte Wirkung eines Varizellen-Impfstoffs"
   * ^designation[+].language = #fr-CH

@@ -78,9 +78,10 @@ Description: "The social exposition risks used in Switzerland."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Has contact with injecting drug user (situation)"
 
+// swiss extension "http://snomed.info/sct/2011000195101"
 // 1342377006 Has contact with wild bird (situation)
 // added 2024-08-09
-* $sct#1342377006 "Has contact with wild bird (situation)"
+* $sctch#1342377006 "Has contact with wild bird (situation)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Kontakt zu Wildvögeln"
   * ^designation[+].language = #fr-CH
@@ -94,7 +95,7 @@ Description: "The social exposition risks used in Switzerland."
 
 // 1342378001 Has contact with poultry bird (situation)
 // added 2024-08-09
-* $sct#1342378001 "Has contact with poultry bird (situation)"
+* $sctch#1342378001 "Has contact with poultry bird (situation)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Kontakt zu Geflügelvögeln"
   * ^designation[+].language = #fr-CH
@@ -106,7 +107,7 @@ Description: "The social exposition risks used in Switzerland."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Has contact with poultry bird (situation)"
 
-// swiss extension "http://snomed.info/sct/2011000195101"
+
 * $sctch#72281000195108 "Contact with human alphaherpesvirus 3 risk patient (finding)"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Kontakt zu Varizella-Zoster-Risikopatienten"

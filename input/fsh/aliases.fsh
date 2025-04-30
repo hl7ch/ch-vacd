@@ -1,5 +1,5 @@
 Alias: $sct =                                   http://snomed.info/sct
-Alias: $sctch =                                 http://snomed.info/sct|http://snomed.info/sct/2011000195101
+Alias: $sctch =                                 http://snomed.info/sct|http://snomed.info/sct/2011000195101/version/20241207
 Alias: $loinc =                                 http://loinc.org
 Alias: $standardterms =                         http://standardterms.edqm.eu
 Alias: $atc =                                   http://www.whocc.no/atc
