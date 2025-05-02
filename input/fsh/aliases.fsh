@@ -1,4 +1,5 @@
 Alias: $sct =                                   http://snomed.info/sct
+Alias: $sctch =                                 http://snomed.info/sct|http://snomed.info/sct/2011000195101/version/20241207
 Alias: $loinc =                                 http://loinc.org
 Alias: $standardterms =                         http://standardterms.edqm.eu
 Alias: $atc =                                   http://www.whocc.no/atc
@@ -26,6 +27,7 @@ Alias: $ch-vacd-swissmedic-cs =                                         http://f
 Alias: $ch-vacd-cdss-cs =                                               http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-clinical-decision-support-event-cs
 Alias: $ch-vacd-recommendation-forecast-status-cs =                     http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-recommendation-forecast-status-cs
 Alias: $ch-vacd-basic-immunization-cs =                                 http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-basic-immunization-cs
+Alias: $ch-vacd-entry-conflict-cs =                                     http://fhir.ch/ig/ch-vacd/CodeSystem/ch-vacd-entry-conflict-cs
 
 
 Alias: $ch-vacd-ch-vaccination-plan-immunizations-vs =                  http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs
@@ -38,6 +40,10 @@ Alias: $ch-vacd-vaccines-atc-vs =                                       http://f
 Alias: $ch-vacd-route-of-administration-vs =                            http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-route-of-administration-vs
 Alias: $ch-vacd-laboratory-serology-vs =                                http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-laboratory-serology-vs
 Alias: $ch-vacd-risks-vs =                                              http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-vs
+Alias: $ch-vacd-risks-medical-vs =                                      http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-medical-vs
+Alias: $ch-vacd-risks-social-vs =                                       http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-social-vs
+Alias: $ch-vacd-risks-occupation-vs =                                   http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-occupation-vs
+Alias: $ch-vacd-risks-preillness-vs =                                   http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-risks-preillness-vs
 Alias: $ch-vacd-conflict-vs =                                           http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-entry-conflict-vs
 Alias: $ch-vacd-immunization-allergyintolerances-vs =                   http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-immunization-allergyintolerances-vs
 Alias: $ch-vacd-basic-immunization-vs =                                 http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-basic-immunization-vs
@@ -50,3 +56,6 @@ Alias: $edqm-pharmaceuticaldoseform =                                   http://f
 Alias: $ActivePharmaceuticalIngredient =                                http://fhir.ch/ig/ch-term/ValueSet/ActivePharmaceuticalIngredient
 
 Alias: $data-absent-reason =                                            http://hl7.org/fhir/StructureDefinition/data-absent-reason|4.0.1
+
+
+
