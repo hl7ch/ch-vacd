@@ -88,7 +88,7 @@ Usage: #example
 * source.name = "Example Portal EPR"
 * source.software = "EPR-Portal-VacModule"
 * source.version = "V1.1"
-* source.endpoint = "urn:oid:1.2.3.4.5"
+* source.endpoint = "urn:oid:2.999.1.2.3.4.5"
 * responsible = Reference(6-4-PractitionerRole)
 * reason.coding = $sct#830152006 "Recommendation regarding vaccination (procedure)"
 * focus[+] = Reference(7-7-Immunization)

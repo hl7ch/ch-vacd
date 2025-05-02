@@ -13,7 +13,7 @@ Usage: #example
 // B_D4_HCP1_C1_Composition
 * extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
-* extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.999.1.2.3.4"
 * extension[=].extension[=].valueReference.identifier.value = "30327ea1-6893-4c65-896e-c32c394f1ec6"
 * extension[=].extension[=].valueReference.type = ResourceType#Condition
 * extension[=].extension[+].url = "container"
@@ -23,7 +23,7 @@ Usage: #example
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
 
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "30327ea1-6893-4c65-896e-c32c394f1ec6"
 * language = #en-US
 * code = $sct#223366009 "Healthcare professional (occupation)"

@@ -8,7 +8,7 @@ Title: "Exposition Risk Worker in Healthcare (Condition)"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCB03-EXPRISK1"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "30327ea1-6893-4c65-896e-c32c394f1ec6"
 * language = #en-US
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
