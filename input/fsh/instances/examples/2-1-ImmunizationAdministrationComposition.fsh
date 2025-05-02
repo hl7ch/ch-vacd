@@ -62,7 +62,7 @@ Usage: #example
     </span>)</span></div></div><div style=\"display: table-row; border-spacing: 5px;\"><div style=\"display: table-cell; font-weight: bold; width: 200px;\"> </div><div style=\"display: table-cell;\"><div class=\"address\" style=\"\"><span>Doktorgasse 2</span><br/><span>CH - </span><span>8888 </span><span>Musterhausen </span><span>ZH </span></div></div></div></div></div>
     
         </div>
-    </div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>urn:oid:2.16.756.5.30.1.147.1.3.1:
+    </div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>urn:oid:2.999.1.2.3.4:
       1829774; 
     </span></div></div>
     </div>

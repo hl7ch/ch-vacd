@@ -62,7 +62,7 @@ Usage: #example
     </span>)</span></div></div><div style=\"display: table-row; border-spacing: 5px;\"><div style=\"display: table-cell; font-weight: bold; width: 200px;\"> </div><div style=\"display: table-cell;\"><div class=\"address\" style=\"\"><span>Hilfgasse 7</span><br/><span>CH - </span><span>3456 </span><span>Hilferswil </span><span>BE </span></div></div></div></div></div>
     
         </div>
-    </div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>urn:oid:2.16.756.5.30.1.147.1.3.1:
+    </div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>urn:oid:2.999.1.2.3.4:
       12345; 
     </span></div></div>
     
@@ -82,7 +82,7 @@ Usage: #example
     </span>)</span></div></div><div style=\"display: table-row; border-spacing: 5px;\"><div style=\"display: table-cell; font-weight: bold; width: 200px;\"> </div><div style=\"display: table-cell;\"><div class=\"address\" style=\"\"><span>Hilfgasse 7</span><br/><span>CH - </span><span>3456 </span><span>Hilferswil </span><span>BE </span></div></div></div></div></div>
     
         </div>
-    </div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>urn:oid:2.16.756.5.30.1.147.1.3.1:
+    </div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>urn:oid:2.999.1.2.3.4:
       23456; 
     </span></div></div>
     
@@ -102,7 +102,7 @@ Usage: #example
     </span>)</span></div></div><div style=\"display: table-row; border-spacing: 5px;\"><div style=\"display: table-cell; font-weight: bold; width: 200px;\"> </div><div style=\"display: table-cell;\"><div class=\"address\" style=\"\"><span>Hilfgasse 7</span><br/><span>CH - </span><span>3456 </span><span>Hilferswil </span><span>BE </span></div></div></div></div></div>
     
         </div>
-    </div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>urn:oid:2.16.756.5.30.1.147.1.3.1:
+    </div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>urn:oid:2.999.1.2.3.4:
       34567; 
     </span></div></div>
     
@@ -122,7 +122,7 @@ Usage: #example
     </span>)</span></div></div><div style=\"display: table-row; border-spacing: 5px;\"><div style=\"display: table-cell; font-weight: bold; width: 200px;\"> </div><div style=\"display: table-cell;\"><div class=\"address\" style=\"\"><span>Mustergasse 99</span><br/><span>CH - </span><span>9876 </span><span>Beispielen </span><span>SG </span></div></div></div></div></div>
     
         </div>
-    </div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>urn:oid:2.16.756.5.30.1.147.1.3.1:
+    </div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>urn:oid:2.999.1.2.3.4:
       45678; 
     </span></div></div>
     
@@ -142,7 +142,7 @@ Usage: #example
     </span>)</span></div></div><div style=\"display: table-row; border-spacing: 5px;\"><div style=\"display: table-cell; font-weight: bold; width: 200px;\"> </div><div style=\"display: table-cell;\"><div class=\"address\" style=\"\"><span>Mustergasse 99</span><br/><span>CH - </span><span>9876 </span><span>Beispielen </span><span>SG </span></div></div></div></div></div>
     
         </div>
-    </div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>urn:oid:2.16.756.5.30.1.147.1.3.1:
+    </div><div style=\"display: table-cell; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: black;\"><span>urn:oid:2.999.1.2.3.4:
       12312; 
     </span></div></div>
     </div>

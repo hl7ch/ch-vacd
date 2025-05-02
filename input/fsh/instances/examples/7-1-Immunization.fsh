@@ -7,7 +7,7 @@ Usage: #example
 * extension[=].valueReference = Reference(3-1-Patient)
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
 * extension[=].valueCoding = $sct#76104008 "Not confirmed"
-* identifier.system = "urn:oid:2.16.756.5.30.1.147.1.3.1"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "1829774"
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#637 "Boostrix"
