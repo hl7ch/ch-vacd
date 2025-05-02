@@ -5,7 +5,7 @@ Description: "Example ImmunizationRecommendation"
 Usage: #example
 * identifier.system = "urn:oid:2.16.756.5.30.1.147.1.3.1"
 * identifier.value = "2"
-* patient.reference = "Patient/3-1-Patient"
+* patient = Reference(3-1-Patient)
 * date = "2021-06-01T00:00:00+02:00"
 * recommendation.vaccineCode = $sct#86198006 "Influenza vaccination"
 * recommendation.targetDisease = $sct#63650001 "Cholera (disorder)"

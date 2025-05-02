@@ -49,6 +49,8 @@ This guide is created by [RALY GmbH](https://www.raly.ch) as a mandate of [eHeal
 There was also support from
 * [HL7 Switzerland](https://www.hl7.ch)
 * [Swiss FHIR Implementers Community](https://www.fhir.ch/)
+* [HCI Solutions](https://www.hcisolutions.ch)
+* [CISTEC](https://www.cistec.com)
 
 especially during the executed ballots.
 

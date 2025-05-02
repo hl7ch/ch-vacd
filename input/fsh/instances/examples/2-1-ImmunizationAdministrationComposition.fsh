@@ -74,9 +74,9 @@ Usage: #example
 * identifier.value = "urn:uuid:5bca53b2-0973-4b91-961e-b1e93474c9c2"
 * status = #final
 * type = $sct#41000179103 "Immunization record"
-* subject.reference = "Patient/3-1-Patient"
+* subject = Reference(3-1-Patient)
 * date = "2021-06-01T00:00:00+02:00"
-* author.reference = "PractitionerRole/6-1-PractitionerRole"
+* author = Reference(6-1-PractitionerRole)
 * title = "Immunization Administration"
 * confidentiality.extension.url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-confidentialitycode"
 * confidentiality.extension.valueCodeableConcept = $sct#17621005 "Normal (qualifier value)"

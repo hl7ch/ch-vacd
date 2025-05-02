@@ -14,10 +14,12 @@
 
 * [Entry Conflict Codes](ValueSet-ch-vacd-entry-conflict-vs.html)
 
+* [Verification Status Codes](ValueSet-ch-vacd-verification-status-vs.html)
+
 <!--
 {% include list-simple-valuesets.xhtml %}
 -->
 ### CodeSystems
   
-{% include list-simple-codesystems.xhtml %}
+ {% include list-simple-codesystems.xhtml %}
 

@@ -1,12 +1,13 @@
 
-### Immunization validation
+### Validation and VerificationStatus
 
-An immunization can be recorded by an Practitioner or a Patient ([Extension: Author of the content](http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author)) . In the case a practitioner is recorder, the immunization entry is directly validated. In the case a patient is recording an immunization, a practitioner has to validate the immunization entry.<br>
-Recorder == Patient means not validated<br/>
-Recorder == PractitionerRole means validated<br/>
+An *Immunization* entry can be recorded by an Practitioner or a Patient ([Extension: Author of the content](http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author)).<br>
 
-This can be done by changing the recorder of the immunization. This will be done by an Immunization Administration document which will replace the existing entry using the [Extension ch-core-ext-entry-resource-cross-references](http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references).
+a) In the case a practitioner is recorder, the entry is directly validated defining the verificationStatus ([extension](StructureDefinition-ch-vacd-ext-verification-status)) to [Comfirmed](http://snomed.info/id/59156000)<br>
 
+b) In the case a patient is recording an entry the verificationStatus ([extension](StructureDefinition-ch-vacd-ext-verification-status)) has to be [Not confirmed](http://snomed.info/id/76104008), a practitioner has to validate the entry.
+
+see more about the [Validation and VerificationStatus](verification-status.html)
 
 ### Duplicate Conflict
 
