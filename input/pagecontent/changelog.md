@@ -1,6 +1,7 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 ### STU 6, v6.0.0-ballot (2025)
 
+* [#308](https://github.com/hl7ch/ch-vacd/issues/308): Refactor fsh definitions of ValueSet (instanceof)
 * [#297](https://github.com/hl7ch/ch-vacd/issues/297): CH VACD Swissmedic code for vaccine code (Patrick Tobler (CISTEC))
 * [#294](https://github.com/hl7ch/ch-vacd/issues/294): Adaption to IPS (2.0.0)
 
