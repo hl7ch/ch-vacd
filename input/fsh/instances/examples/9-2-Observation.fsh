@@ -6,8 +6,7 @@ Usage: #example
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(6-4-PractitionerRole)
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].extension[0].url = "status"
-* extension[=].extension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[=].valueCoding = $sct#59156000 "Confirmed"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:2c4d07e4-d978-4a1f-88de-440920f4913f"
 * status = #final

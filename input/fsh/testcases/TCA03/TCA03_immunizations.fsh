@@ -13,9 +13,7 @@ Usage: #example
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)
 * extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].extension[0].url = "status"
-* extension[=].extension[=].valueCoding = $sct#76104008 "Not confirmed"
-
+* extension[=].valueCoding = $sct#76104008 "Not confirmed"
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "74b1e856-c0fb-47da-aab1-08541eacc21c"
 * status = #completed

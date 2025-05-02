@@ -10,8 +10,7 @@ Usage: #example
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)
 * extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].extension[0].url = "status"
-* extension[=].extension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[=].valueCoding = $sct#59156000 "Confirmed"
 
 // TCA01_IMMUN3_HCP2_ORG2_ROLE
 // A_D3_HCP2_C2_Composition
@@ -52,8 +51,7 @@ Usage: #example
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].extension[0].url = "status"
-* extension[=].extension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[=].valueCoding = $sct#59156000 "Confirmed"
 * identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
 * identifier.value = "fe53381d-ade3-4a95-8bd1-033b76eadec2"
 * status = #completed

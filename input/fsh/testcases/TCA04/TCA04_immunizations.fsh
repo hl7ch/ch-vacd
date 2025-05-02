@@ -13,12 +13,8 @@ Usage: #example
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)
 * extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].extension[0].url = "status"
-* extension[=].extension[=].valueCoding = $sct#59156000 "Confirmed"
-* extension[=].extension[1].url = "date"
-* extension[=].extension[=].valueDateTime = "2021-10-05T00:00:00.390+02:00"
-* extension[=].extension[2].url = "verifier"
-* extension[=].extension[=].valueReference = Reference(TC_HCP1_C1)
+* extension[=].valueCoding = $sct#59156000 "Confirmed"
+
 
 
 // TCA03_IMMUN5_patient
