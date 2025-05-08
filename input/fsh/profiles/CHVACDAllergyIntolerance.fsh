@@ -31,5 +31,5 @@ Description: "Definition of the AllergyIntolerance part for vaccination record d
 // * patient only Reference(CHCorePatient)
 // * patient ^short = "Patient"
 * recorder MS
-// * recorder only Reference(CHCorePractitionerRole or CHCorePatient or RelatedPerson)
+// * recorder only Reference(CHCorePractitionerRole or CHCorePatient or CHCoreRelatedPerson)
 // * recorder ^short = "Recorder"

@@ -61,7 +61,7 @@ Description: "Definition of the composition for the  immunization administration
 * section[administration].code     1..
 * section[administration].code     = $loinc#11369-6
 * section[administration].code ^short = "Hx of Immunization"
-* section[administration].author     only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or RelatedPerson)
+* section[administration].author     only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or CHCoreRelatedPerson)
 * section[administration].author     ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
 * section[administration].author.extension 0..1
 * section[administration].author.extension only EPRTime
@@ -85,7 +85,7 @@ Description: "Definition of the composition for the  immunization administration
 * section[medicalproblems].code 1..
 * section[medicalproblems].code = $loinc#11450-4
 * section[medicalproblems].code ^short = "Problem list Reported"
-* section[medicalproblems].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or RelatedPerson)
+* section[medicalproblems].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or CHCoreRelatedPerson)
 * section[medicalproblems].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
 * section[medicalproblems].author.extension 0..1
 * section[medicalproblems].author.extension only EPRTime
@@ -109,7 +109,7 @@ Description: "Definition of the composition for the  immunization administration
 * section[pastillnesses].code 1..
 * section[pastillnesses].code = $loinc#11348-0
 * section[pastillnesses].code ^short = "Hx of Past illness"
-* section[pastillnesses].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or RelatedPerson)
+* section[pastillnesses].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or CHCoreRelatedPerson)
 * section[pastillnesses].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
 * section[pastillnesses].author.extension 0..1
 * section[pastillnesses].author.extension only EPRTime
@@ -133,7 +133,7 @@ Description: "Definition of the composition for the  immunization administration
 * section[allergyintolerances].code 1..
 * section[allergyintolerances].code = $loinc#48765-2 
 * section[allergyintolerances].code ^short = "Allergies and adverse reactions Document"
-* section[allergyintolerances].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or RelatedPerson)
+* section[allergyintolerances].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or CHCoreRelatedPerson)
 * section[allergyintolerances].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
 * section[allergyintolerances].author.extension 0..1
 * section[allergyintolerances].author.extension only EPRTime
@@ -154,7 +154,7 @@ Description: "Definition of the composition for the  immunization administration
 * section[laboratory-serology].code 1..
 * section[laboratory-serology].code = $loinc#18727-8 
 * section[laboratory-serology].code ^short = "Serology studies (set)"
-* section[laboratory-serology].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or RelatedPerson)
+* section[laboratory-serology].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or CHCoreRelatedPerson)
 * section[laboratory-serology].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
 * section[laboratory-serology].author.extension 0..1
 * section[laboratory-serology].author.extension only EPRTime
