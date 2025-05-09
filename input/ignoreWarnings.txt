@@ -9,11 +9,3 @@ None of the codings provided are in the value set 'CH VACD Swiss Vaccination Pla
 
 # External code system
 A definition for CodeSystem 'urn:oid:2.51.1.1' could not be found, so the code cannot be validated
-
-# External identifier system
-URL value 'urn:oid:2.51.1.1' does not resolve
-URL value 'urn:oid:2.51.1.3' does not resolve
-URL value 'urn:oid:2.999.1.2.3.4' does not resolve
-
-# SCT Version Mismatch
-A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/2011000195101/version/20241207' could not be found, so the code cannot be validated. %
