@@ -3,15 +3,11 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 * [#312](https://github.com/hl7ch/ch-vacd/issues/312): Fix broken links, fix identifier oids
 * [#308](https://github.com/hl7ch/ch-vacd/issues/308): Refactor fsh definitions of ValueSet (instanceof)
+* [#307](https://github.com/hl7ch/ch-vacd/issues/307): Fix dependency to hl7.terminology (Michaela Ziegler, Roeland Luykx)
 * [#300](https://github.com/hl7ch/ch-vacd/issues/300): CH VACD Immunization - verificationStatus (Carole Kaiser eHealth Suisse) and subtasks [#302](https://github.com/hl7ch/ch-vacd/issues/302), [#303](https://github.com/hl7ch/ch-vacd/issues/303),[#304](https://github.com/hl7ch/ch-vacd/issues/304), [#305](https://github.com/hl7ch/ch-vacd/issues/305) and [#309](https://github.com/hl7ch/ch-vacd/issues/309)
 * [#297](https://github.com/hl7ch/ch-vacd/issues/297): CH VACD Swissmedic code for vaccine code (Patrick Tobler (CISTEC))
-* [#294](https://github.com/hl7ch/ch-vacd/issues/294): Adaption to IPS (2.0.0)
-
-
-### STU 6, v6.0.0-ballot
-
 * [#296](https://github.com/hl7ch/ch-vacd/issues/296): add expansion parameter for sct swiss extension (Michaela Ziegler, Roeland Luykx)
-* [#307](https://github.com/hl7ch/ch-vacd/issues/307): Fix dependency to hl7.terminology (Michaela Ziegler, Roeland Luykx)
+* [#294](https://github.com/hl7ch/ch-vacd/issues/294): Adaption to IPS (2.0.0)
 
 ### STU 5, v5.0.0 (2024-12-17) 
 
