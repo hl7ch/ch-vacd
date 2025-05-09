@@ -4,7 +4,7 @@ Title: "Undergone Illness Chickenpox (Past Illnesses)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCE01-UNDILL1-de"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "5f727b7b-87ae-464f-85ac-1a45d23f0897"
 * code = $sct#38907003 "Varicella"
 * subject = Reference(TC_patient)
@@ -31,7 +31,7 @@ Usage: #example
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
 * extension[=].valueCoding = $sct#59156000 "confirmé"
 
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "urn:uuid:4386ca26-6866-4322-a203-b488b84ab499"
 * language = #fr-CH
 * status = #completed
@@ -63,7 +63,7 @@ Usage: #example
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
 * extension[=].valueCoding = $sct#59156000 "confirmé"
 
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "urn:uuid:ebcf6de2-ed9c-463c-8b08-cb487af8ce4e"
 * language = #fr-CH
 * status = #completed
@@ -96,7 +96,7 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
 * extension[=].valueCoding = $sct#59156000 "Bestätigt"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "urn:uuid:4386ca26-6866-4322-a203-b488b84ab499"
 //* language = #en-US
 * language = #de-CH
@@ -129,7 +129,7 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_BOOSTRIX)
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
 * extension[=].valueCoding = $sct#59156000 "Bestätigt"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "urn:uuid:ebcf6de2-ed9c-463c-8b08-cb487af8ce4e"
 * language = #de-CH
 * status = #completed

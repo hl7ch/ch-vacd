@@ -30,7 +30,7 @@ Usage: #example
 * meta.lastUpdated = "2021-06-01T00:00:00.394+02:00"
 * eventCoding = $ch-vacd-cdss-cs#immunrecoresponse "Immunization Recommendation Response"
 * destination.name = "Example Portal EPR"
-* destination.endpoint = "urn:oid:1.2.3.4.5"
+* destination.endpoint = "urn:oid:2.999.1.2.3.4.5"
 * sender =  Reference(CDSS_Organization)
 * source.name = "Example Vaccination Clinical Decision Support System"
 * source.endpoint = "https://example.com/cds/immunization/ws"

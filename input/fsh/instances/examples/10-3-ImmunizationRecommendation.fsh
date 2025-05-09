@@ -3,7 +3,7 @@ InstanceOf: CHVACDImmunizationRecommendation
 Title: "10.3 ImmunizationRecommendation (Recommendation Request/Response)"
 Description: "Example ImmunizationRecommendation for Recommendation Request/Response"
 Usage: #example
-* identifier.system = "urn:oid:2.16.756.5.30.1.147.1.3.1"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "2"
 * patient = Reference(3-2-Patient)
 * date = "2021-06-01T00:00:00+02:00"

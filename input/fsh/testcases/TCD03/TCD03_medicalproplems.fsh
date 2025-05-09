@@ -10,7 +10,7 @@ Usage: #example
 * id = "TCD03-EXPRISK1"
 //* language = #en-US
 * language = #de-CH
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "85b0d0dc-200b-4f8c-9583-900802e88783"
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * code.coding = $sct#265940000 "Beschäftigt im Veterinärwesen"
@@ -27,7 +27,7 @@ Title: "Exposition Risk Worker in Healthcare (Condition)"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCD03-EXPRISK2"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "60f7b06c-b960-4a21-b596-5b149832ed9f"
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * code = $sct#1186914001 "Intellectual disability nurse (occupation)"
@@ -44,7 +44,7 @@ Title: "Exposition Risk Worker in Healthcare (Condition)"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCD03-EXPRISK3"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "f9c5a902-42e6-4ac1-a623-70c75634f162"
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * code = $sct#1186914001 "Intellectual disability nurse (occupation)"
@@ -76,7 +76,7 @@ Usage: #example
 * extension[=].extension[=].valueReference = Reference(TCD03_EXPRISK3_2)
 * extension[=].extension[1].url = "conflict"
 * extension[=].extension[=].valueCode = #duplicate
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "85b0d0dc-200b-4f8c-9583-900802e88783"
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
 * code = $sct#1186914001 "Intellectual disability nurse (occupation)"
@@ -105,7 +105,7 @@ Usage: #example
 * extension[=].extension[=].valueReference = Reference(TCD03_EXPRISK3_2)
 * extension[=].extension[1].url = "conflict"
 * extension[=].extension[=].valueCode = #duplicate
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "60f7b06c-b960-4a21-b596-5b149832ed9f"
 * code = $sct#1186914001 "Intellectual disability nurse (occupation)"
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"
@@ -133,7 +133,7 @@ Usage: #example
 * extension[=].extension[=].valueReference = Reference(TCD03_EXPRISK2_2)
 * extension[=].extension[1].url = "conflict"
 * extension[=].extension[=].valueCode = #duplicate
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "f9c5a902-42e6-4ac1-a623-70c75634f162"
 * code = $sct#1186914001 "Intellectual disability nurse (occupation)"
 * category = 	http://terminology.hl7.org/CodeSystem/condition-category#problem-list-item "Problem List Item"

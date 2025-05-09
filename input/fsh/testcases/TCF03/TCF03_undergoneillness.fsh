@@ -8,7 +8,7 @@ Title: "Undergone Illness Chickenpox (Past Illnesses)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCF03-UNDILL1"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "14802b84-6b1d-4545-930d-17ce5ca7443c"
 * code = $sct#38907003 "Varicella (disorder)"
 * subject = Reference(TC_patient)
@@ -30,7 +30,7 @@ Usage: #example
 // F_D5_HCP1_C1_Composition
 * extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
-* extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.999.1.2.3.4"
 * extension[=].extension[=].valueReference.identifier.value = "14802b84-6b1d-4545-930d-17ce5ca7443c"
 * extension[=].extension[=].valueReference.type = ResourceType#Condition
 * extension[=].extension[+].url = "container"
@@ -40,7 +40,7 @@ Usage: #example
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
 
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "70cd36a7-5bd5-41fa-bbb9-5e3d10ca43ef"
 * code = $sct#38907003 "Varicella (disorder)"
 * subject = Reference(TC_patient)
@@ -59,7 +59,7 @@ Title: "Undergone Illness Chickenpox (Past Illnesses)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCF03-UNDILL3"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "61358f4e-7121-4dd3-903a-caa5bf26d87c"
 * code = $sct#38907003 "Varicella (disorder)"
 * subject = Reference(TC_patient)

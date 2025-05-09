@@ -19,7 +19,7 @@ Usage: #example
 // A_D1_P_C1_Composition
 * extension[3].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
-* extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.999.1.2.3.4"
 * extension[=].extension[=].valueReference.identifier.value = "acc1f090-5e0c-45ae-b283-521d57c3aa2f"
 * extension[=].extension[=].valueReference.type = ResourceType#Immunization
 * extension[=].extension[+].url = "container"
@@ -29,7 +29,7 @@ Usage: #example
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
 
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "375532dc-7e74-40dd-8564-3261e8d26603"
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#558 "Havrix 1440"
@@ -60,7 +60,7 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
 * extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
 * extension[=].valueCoding = $sct#76104008 "Not confirmed"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "375532dc-7e74-40dd-8564-3261e8d26603"
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#558 "Havrix 1440"

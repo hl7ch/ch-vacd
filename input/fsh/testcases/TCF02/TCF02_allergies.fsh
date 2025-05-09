@@ -8,7 +8,7 @@ Title: "TCF02 AllergyIntolerance 1"
 Description: "Testcase F2: Add comment (note) to an existing AllergyIntolerance"
 Usage: #example
 * id = "TCF02-ALLINTO1"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "cbc8c8c1-4f47-4ec3-99a7-ae775b75c621"
 * clinicalStatus = $allergyintolerance-clinical#active
 * verificationStatus = $allergyintolerance-verification#confirmed
@@ -30,7 +30,7 @@ Usage: #example
 // F_D3_HCP1_C1_Composition
 * extension[+].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
-* extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.999.1.2.3.4"
 * extension[=].extension[=].valueReference.identifier.value = "cbc8c8c1-4f47-4ec3-99a7-ae775b75c621"
 * extension[=].extension[=].valueReference.type = ResourceType#AllergyIntolerance
 * extension[=].extension[+].url = "container"
@@ -40,7 +40,7 @@ Usage: #example
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
 
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "e6e14c17-b468-4ecb-a4d7-8dfd5ddb36d8"
 * clinicalStatus = $allergyintolerance-clinical#active
 * verificationStatus = $allergyintolerance-verification#confirmed
@@ -60,7 +60,7 @@ Title: "TCF02 AllergyIntolerance 3"
 Description: "Testcase F 2: Add comment (note) to an existing AllergyIntolerance"
 Usage: #example
 * id = "TCF02-ALLINTO3"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "f93c106e-fb6b-4864-8639-81c0b21b6b08"
 * clinicalStatus = $allergyintolerance-clinical#active
 * verificationStatus = $allergyintolerance-verification#confirmed

@@ -14,7 +14,7 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
 * extension[=].valueCoding = $sct#59156000 "Confirmed"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.1"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "1829245678"
 * status = #completed
 * vaccineCode = $ch-vacd-swissmedic-cs#558 "Havrix 1440"

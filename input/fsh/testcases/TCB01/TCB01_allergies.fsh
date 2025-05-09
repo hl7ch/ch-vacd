@@ -8,7 +8,7 @@ Title: "TCB01 AllergyIntolerance"
 Description: "Testcase B 1 example of allergyintolerance to typhoid vaccine."
 Usage: #example
 * id = "TCB01-ALLINTO1"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "00476f5f-f3b7-4e49-9b52-5ec88d65c18e"
 * clinicalStatus = $allergyintolerance-clinical#active
 * verificationStatus = $allergyintolerance-verification#confirmed

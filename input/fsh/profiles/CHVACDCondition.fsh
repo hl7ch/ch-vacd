@@ -28,8 +28,8 @@ Description: "Generic definition (abstract profile) of the condition for all doc
 * recordedDate 1..1 MS
 * recordedDate ^short = "Condition recordedDate"
 * recorder MS
-* recorder only Reference(CHCorePractitionerRole or CHCorePatient or RelatedPerson)
+* recorder only Reference(CHCorePractitionerRole or CHCorePatient or CHCoreRelatedPerson)
 * asserter MS
 * asserter only Reference(CHCorePractitionerRole)
 
-* note.author[x] only Reference(CHCorePractitioner or CHCorePatient or RelatedPerson or CHCoreOrganization)
+* note.author[x] only Reference(CHCorePractitioner or CHCorePatient or CHCoreRelatedPerson or CHCoreOrganization)

@@ -4,17 +4,8 @@ Title: "Basic Immunization codes"
 Description: "Clinical Decision Support Event"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-06-17T00:00:00+01:00"
-* ^identifier.use = #official
-* ^identifier.system = "http://fhir.ch/ig/ch-vacd/cs/entry-conflict"
-* ^identifier.value = "entry-conflict"
-* ^version = "2022-06-17T00:00:00+01:00"
 * ^status = #active
 * ^experimental = false
-* ^publisher = "eHealth Suisse"
-* ^contact.name = "eHealth Suisse"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "www.e-health-suisse.ch"
-* ^content = #complete
 * ^caseSensitive = true
 
 * #bi-dtpa "Received basic immunization against DTPa in childhood."

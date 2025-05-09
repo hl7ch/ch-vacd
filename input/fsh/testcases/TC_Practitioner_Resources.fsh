@@ -16,9 +16,6 @@ Usage: #example
 * telecom[0].system = #phone
 * telecom[=].value = "tel:+41.32.234.55.66"
 * telecom[=].use = #work
-* telecom[+].system = #fax
-* telecom[=].value = "fax:+41.32.234.55.67"
-* telecom[=].use = #work
 * telecom[+].system = #email
 * telecom[=].value = "mailto:allzeit.bereit@gruppenpraxis.ch"
 * telecom[=].use = #work
@@ -50,9 +47,6 @@ Usage: #example
 * telecom[0].system = #phone
 * telecom[=].value = "tel:+41.32.234.77.88"
 * telecom[=].use = #work
-* telecom[+].system = #fax
-* telecom[=].value = "fax:+41.32.234.77.89"
-* telecom[=].use = #work
 * telecom[+].system = #email
 * telecom[=].value = "mailto:leitung@praxis-gesund.ch"
 * telecom[=].use = #work
@@ -83,9 +77,6 @@ Usage: #example
 * name.prefix = "Dr. med."
 * telecom[0].system = #phone
 * telecom[=].value = "tel:+41.11.222.55.66"
-* telecom[=].use = #work
-* telecom[+].system = #fax
-* telecom[=].value = "fax:+41.11.222.55.67"
 * telecom[=].use = #work
 * telecom[+].system = #email
 * telecom[=].value = "mailto:macht.gesund@gruppenpraxis.ch"

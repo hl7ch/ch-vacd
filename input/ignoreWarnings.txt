@@ -2,19 +2,10 @@
 
 # Display warnings
 Wrong Display Name%
-Der Displayname%
 
 # Swiss specific values
 The value provided ('rm-CH') was not found in the value set 'Common Languages' (http://hl7.org/fhir/ValueSet/languages|4.0.1), and a code is recommended to come from this value set (error message = The System URI could not be determined for the code 'rm-CH' in the ValueSet 'http://hl7.org/fhir/ValueSet/languages|4.0.1'; The provided code '#rm-CH' was not found in the value set 'http://hl7.org/fhir/ValueSet/languages|4.0.1')
-None of the codings provided are in the value set 'CH VACD Swissmedic code for vaccine code' (http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-vaccines-vs|%
 None of the codings provided are in the value set 'CH VACD Swiss Vaccination Plan Immunizations' (http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-ch-vaccination-plan-immunizations-vs|%
 
 # External code system
 A definition for CodeSystem 'urn:oid:2.51.1.1' could not be found, so the code cannot be validated
-A definition for CodeSystem 'urn:oid:0.4.0.127.0.16.1.1.2.1' could not be found, so the code cannot be validated
-
-# Reference to draft code system
-Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/condition-category|1.0.0
-
-# Swiss Extension of SNOMED-CT not in tx.fhir.org
-The code '102311000195108' is not valid in the system http://snomed.info/sct version http://snomed.info/sct/2011000195101 (102311000195108)

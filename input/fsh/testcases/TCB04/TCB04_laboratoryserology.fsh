@@ -11,7 +11,7 @@ Usage: #example
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
 * extension[=].valueCoding = $sct#59156000 "Confirmed"
 * status = #final
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "135f604f-f5c8-4e9b-a49b-5f34cdb9cf60"
 * code = $loinc#16935-9 "Hepatitis B virus surface Ab [Units/volume] in Serum"
 * subject = Reference(TC_patient)

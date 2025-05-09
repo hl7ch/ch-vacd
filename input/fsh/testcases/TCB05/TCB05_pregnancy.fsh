@@ -4,7 +4,7 @@ Title: "Medical Risk Pregnancy (Condition)"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCB05-EXPRISK2"
-* identifier.system = "urn:oid:2.16.756.5.30.1.402.1.3.1.1.2"
+* identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "b086cf43-f863-4530-853c-f6a721175931"
 * language = #en-US
 * code = $sct#77386006 "Pregnancy (finding)"
