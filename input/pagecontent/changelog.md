@@ -8,6 +8,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#297](https://github.com/hl7ch/ch-vacd/issues/297): CH VACD Swissmedic code for vaccine code (Patrick Tobler (CISTEC))
 * [#296](https://github.com/hl7ch/ch-vacd/issues/296): add expansion parameter for sct swiss extension (Michaela Ziegler, Roeland Luykx)
 * [#294](https://github.com/hl7ch/ch-vacd/issues/294): Adaption to IPS (2.0.0)
+* [#264](https://github.com/hl7ch/ch-vacd/issues/264): Swiss Social Risks For Immunizations
+* [#225](https://github.com/hl7ch/ch-vacd/issues/255): Artifacts Summary
 
 ### STU 5, v5.0.0 (2024-12-17) 
 
