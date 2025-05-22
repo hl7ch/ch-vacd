@@ -1,5 +1,6 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
-### STU 6, v6.0.0-ballot (2025)
+
+### STU 6, v6.0.0-ballot (2025-05-22)
 
 * [#312](https://github.com/hl7ch/ch-vacd/issues/312): Fix broken links, fix identifier oids
 * [#308](https://github.com/hl7ch/ch-vacd/issues/308): Refactor fsh definitions of ValueSet (instanceof)
@@ -31,7 +32,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#293](https://github.com/hl7ch/ch-vacd/issues/293): deprecated discriminator type 'pattern' 
 
 
-### STU 5 Ballot, v5.0.0-ballot (2024-05-17)
+### STU 5, v5.0.0-ballot (2024-05-17)
 
 * [#234](https://github.com/hl7ch/ch-vacd/issues/234): Dependency IPS (Michaela Ziegler, ahdis ag)
 * [#233](https://github.com/hl7ch/ch-vacd/issues/233): Spelling CH VACD (vs. CH-VACD) (Michaela Ziegler, ahdis ag)
@@ -54,13 +55,13 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 See [Resolution Desk STU 4](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_4.0.0.md)
 
-### STU 4 Ballot, v4.0.0-ballot (2023-06-29)
+### STU 4, v4.0.0-ballot (2023-06-29)
 See [Resolution Desk STU 4 Ballot](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_3.1.0.md)
 
 ### STU 3, v3.0.0 (2022-12-21)
 See [Resolution Desk STU 3 Ballot](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_2.1.0.md)
 
-### STU 3 Ballot, v2.1.0 (2022-07-07)
+### STU 3, v2.1.0 (2022-07-07)
 The issues in an overview for this ballot can be found [here](https://github.com/hl7ch/ch-vacd/issues?q=is%3Aissue+-label%3Abacklog+milestone%3A%22Ballot+2.1.0%22)
 
 #### ValueSet issues
@@ -99,7 +100,7 @@ The issues in an overview for this ballot can be found [here](https://github.com
 
 
 
-### STU 2 Ballot, v2.0.0 (2022-02-11)
+### STU 2, v2.0.0 (2022-02-11)
 
 #### Added Missing Parts
 * [Issue 71](https://github.com/hl7ch/ch-vacd/issues/71): Provide Use Cases in IG (Annatina Foppa, eHealth Suisse) (Duplicate: [Issue 75](https://github.com/hl7ch/ch-vacd/issues/75))
