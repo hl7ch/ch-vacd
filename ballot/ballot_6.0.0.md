@@ -16,6 +16,7 @@ During the ballot, 9 issues were reported for CH VACD:
 ## Documentation (profiles/texts/examples)
 * [Issues 325](https://github.com/hl7ch/ch-vacd/issues/325): Add Validation Rule: Keeping the status for patient comments.
 * [Issues 322](https://github.com/hl7ch/ch-vacd/issues/322): Typos
+* [Issues 332](https://github.com/hl7ch/ch-vacd/issues/332): Role of the EHR/KIS regarding Immunization Recommendation
     
 ## Terminology
 * [Issues 323](https://github.com/hl7ch/ch-vacd/issues/323): Remove the semantic tag from Allergy and Intolerance ValueSet entries used for Immunization resources.
