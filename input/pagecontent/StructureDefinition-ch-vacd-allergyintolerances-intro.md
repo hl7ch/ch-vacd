@@ -1,7 +1,7 @@
 
 ### Validation and VerificationStatus
 
-An *Allergy Intollerance* entry can be recorded by an Practitioner or a Patient ([Extension: Author of the content](http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author)).<br>
+An *Allergy Intolerance* entry can be recorded by an Practitioner or a Patient ([Extension: Author of the content](http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author)).<br>
 
 a) In the case a practitioner is recorder, the entry is directly validated defining the verificationStatus to [Confirmed](https://hl7.org/fhir/R4/codesystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed)<br>
 
