@@ -20,8 +20,9 @@ During the ballot, 9 issues were reported for CH VACD:
 * [Isssue 339](https://github.com/hl7ch/ch-vacd/issues/339): CH VACD Extension verificationStatus (Gabriel Hess, BFH)
 * [Isssue 338](https://github.com/hl7ch/ch-vacd/issues/338): CH VACD Extension Merging Conflict Entry Reference - Duplicate Detection and Merging (Will Schaefermeier, Epic)
 * [Isssue 337](https://github.com/hl7ch/ch-vacd/issues/337): Immunization Administration Document - REST API/Resource-based exchange option (Will Schaefermeier, Epic)
-* [Isssue 336](https://github.com/hl7ch/ch-vacd/issues/336): CH VACD Immunization - occurence[x]occurrenceString support (Will Schaefermeier, Epic)ballot v6.0.0 - STU 6
-* [Isssue 335](https://github.com/hl7ch/ch-vacd/issues/335): CH VACD Message Immunization Recommendation Request - What is the use case for optional elements? (Will Schaefermeier, * [Isssue 333](https://github.com/hl7ch/ch-vacd/issues/333): Various typosballot v6.0.0 - STU 6
+* [Isssue 336](https://github.com/hl7ch/ch-vacd/issues/336): CH VACD Immunization - occurence[x]occurrenceString support (Will Schaefermeier, Epic)
+* [Isssue 335](https://github.com/hl7ch/ch-vacd/issues/335): CH VACD Message Immunization Recommendation Request - What is the use case for optional elements? (Will Schaefermeier, Epic)
+* [Isssue 333](https://github.com/hl7ch/ch-vacd/issues/333): Various typos
 * [Issues 332](https://github.com/hl7ch/ch-vacd/issues/332): Role of the EHR/KIS regarding Immunization Recommendation
 * [Issues 325](https://github.com/hl7ch/ch-vacd/issues/325): Add Validation Rule: Keeping the status for patient comments.
 * [Issues 322](https://github.com/hl7ch/ch-vacd/issues/322): Typos
