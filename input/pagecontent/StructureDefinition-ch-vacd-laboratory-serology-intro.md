@@ -3,7 +3,7 @@
 
 An *Laboratory & Serologie* can be recorded by an Practitioner or a Patient ([Extension: Author of the content](http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author)).<br>
 
-a) In the case a practitioner is recorder, the entry is directly validated defining the verificationStatus ([extension](StructureDefinition-ch-vacd-ext-verification-status.html)) to [Comfirmed](http://snomed.info/id/59156000)<br>
+a) In the case a practitioner is recorder, the entry is directly validated defining the verificationStatus ([extension](StructureDefinition-ch-vacd-ext-verification-status.html)) to [Confirmed](http://snomed.info/id/59156000)<br>
 
 b) In the case a patient is recording an entry the verificationStatus ([extension](StructureDefinition-ch-vacd-ext-verification-status.html)) has to be [Not confirmed](http://snomed.info/id/76104008), a practitioner has to validate the entry.
 

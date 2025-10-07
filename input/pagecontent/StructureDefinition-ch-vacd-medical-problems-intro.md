@@ -3,7 +3,7 @@
 
 An *Medical Problems* can be recorded by an Practitioner or a Patient ([Extension: Author of the content](http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author)).<br>
 
-a) In the case a practitioner is recorder, the entry is directly validated defining the verificationStatus to [Comfirmed](https://hl7.org/fhir/R4/codesystem-condition-ver-status.html#condition-ver-status-confirmed)<br>
+a) In the case a practitioner is recorder, the entry is directly validated defining the verificationStatus to [Confirmed](https://hl7.org/fhir/R4/codesystem-condition-ver-status.html#condition-ver-status-confirmed)<br>
 
 b) In the case a patient is recording an entry the verificationStatus has to be [Unconfirmed](https://hl7.org/fhir/R4/codesystem-condition-ver-status.html#condition-ver-status-unconfirmed), a practitioner has to validate the entry.
 

@@ -1,6 +1,7 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
 ### STU 6, v6.0.0 (2025-12)
+* [#333](https://github.com/hl7ch/ch-vacd/issues/333): Fix various typos
 
 ### STU 6, v6.0.0-ballot (2025-05-22)
 
