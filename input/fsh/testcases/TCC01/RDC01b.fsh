@@ -1,7 +1,7 @@
 Instance: RDC01b
 InstanceOf: CHVACDDocumentVaccinationRecord
 Title: "Test Case C 01: Aggregated Dokument (RDD01)"
-Description: "Test Case C 01: Correctzion of own Immunization entry."
+Description: "Test Case C 01: Correction of own Immunization entry."
 Usage: #example
 * id = "RDC01b"
 * identifier.system = "urn:ietf:rfc:3986"
