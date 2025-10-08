@@ -17,7 +17,7 @@ Description: "Condition to declare Basic Immunization done by one single conditi
 * code ^binding.extension[=].valueString = "BasicImmunizationCode"
 * code ^binding.extension[+].url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding"
 * code ^binding.extension[=].valueBoolean = true
-* code ^binding.description = "The code declaring the status of basi immunization for DTPa and/or Polio."
+* code ^binding.description = "The code declaring the status of basic immunization for DTPa and/or Polio."
 * onsetDateTime 1..1
 * onsetDateTime ^short = "Condition onset DateTime to declare the date where the basic immunization is declared as done."
 * onsetDateTime ^comment = "Condition onset DateTime to declare the date where the basic immunization is declared as done."

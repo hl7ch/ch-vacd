@@ -88,7 +88,7 @@ Description: "Definition of the composition for the vaccination record document.
 * section[medicalproblems].extension ^slicing.discriminator.path = "url"
 * section[medicalproblems].extension ^slicing.rules = #open
 * section[medicalproblems].title 1..1
-* section[medicalproblems].title ^short = "'Liste der Medizinischen Problemen' in german or 'Liste Vaccin administré' in french or 'Lista Vaccinazione somministrata' in italian or 'List Immunization Administration' in english\n                        or titles in other languages are also allowed"
+* section[medicalproblems].title ^short = "'Liste der Medizinischen Probleme' in german or 'Liste Vaccin administré' in french or 'Lista Vaccinazione somministrata' in italian or 'List Immunization Administration' in english\n                        or titles in other languages are also allowed"
 * section[medicalproblems].code 1..
 * section[medicalproblems].code = $loinc#11450-4 
 * section[medicalproblems].code ^short = "Problem list Reported"
