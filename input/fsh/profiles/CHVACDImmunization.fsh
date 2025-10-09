@@ -35,3 +35,5 @@ Description: "Definition of the immunization part for all documents."
 * performer.actor ^short = "The performer who applied the vaccine"
 * reasonCode MS
 * protocolApplied.doseNumberPositiveInt MS
+
+* note.author[x] only Reference(CHCorePractitioner or CHCorePatient or CHCoreRelatedPerson or CHCoreOrganization)
