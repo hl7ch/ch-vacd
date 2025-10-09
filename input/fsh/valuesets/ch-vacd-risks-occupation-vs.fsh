@@ -28,7 +28,7 @@ Description: "The occupation exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "spezialista u spezialist per medischina da labor"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Laboratory medicine specialist (occupation)"
+  * ^designation[=].value = "Laboratory medicine specialist"
 
 * $sct#159653008 "Trainee - armed forces (occupation)"
   * ^designation[0].language = #de-CH
@@ -40,7 +40,7 @@ Description: "The occupation exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "recruta u recrut"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Trainee - armed forces (occupation)"
+  * ^designation[=].value = "Trainee - armed forces"
 
 * $sct#160157004 "Sewerman (occupation)"
   * ^designation[0].language = #de-CH
@@ -52,7 +52,7 @@ Description: "The occupation exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "lavuranta u lavurant da chanalisaziun"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Sewerman (occupation)"
+  * ^designation[=].value = "Sewerman"
 
 * $sct#265940000 "Animal health occupation (occupation)"
   * ^designation[0].language = #de-CH
@@ -64,7 +64,7 @@ Description: "The occupation exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "occupada u occupà en ils fatgs veterinars"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Animal health occupation (occupation)"
+  * ^designation[=].value = "Animal health occupation"
 
 * $sct#1186914001 "Intellectual disability nurse (occupation)"
   * ^designation[0].language = #de-CH
@@ -76,7 +76,7 @@ Description: "The occupation exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "persuna che assitsa persunas cun impediments spiertals"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Intellectual disability nurse (occupation)"
+  * ^designation[=].value = "Intellectual disability nurse"
 
 * $sct#223366009 "Healthcare professional (occupation)"
   * ^designation[0].language = #de-CH
@@ -88,7 +88,7 @@ Description: "The occupation exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "persuna spezialisada dal sectur da sanadad"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Healthcare professional (occupation)"
+  * ^designation[=].value = "Healthcare professional"
 
 
 
