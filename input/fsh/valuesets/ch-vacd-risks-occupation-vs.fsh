@@ -16,7 +16,7 @@ Description: "The occupation exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Nunenconuschent"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Undetermined (qualifier value)"
+  * ^designation[=].value = "Undetermined"
 
 * $sct#61246008 "Laboratory medicine specialist (occupation)"
   * ^designation[0].language = #de-CH
