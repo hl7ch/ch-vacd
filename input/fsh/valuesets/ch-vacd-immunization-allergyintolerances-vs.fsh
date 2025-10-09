@@ -318,7 +318,7 @@ Description: "The allergies and adverse reactions which have an influence on the
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "effect nungiavischà d'in vaccin cunter tuberculosa"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Adverse reaction to component of vaccine product containing Bacillus Calmette-Guerin antigen (disorder)"
+  * ^designation[=].value = "Adverse reaction to component of vaccine product containing Bacillus Calmette-Guerin antigen"
 
 * $sct#293122006 "Adverse reaction to component of vaccine product containing Salmonella enterica subspecies enterica serovar Typhi antigen (disorder)"
   * ^designation[0].language = #de-CH

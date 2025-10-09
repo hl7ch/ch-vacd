@@ -16,7 +16,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Nunenconuschent"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Undetermined (qualifier value)"
+  * ^designation[=].value = "Undetermined"
 
 * $sct#24063002 "Fracture of base of skull (disorder)"
   * ^designation[0].language = #de-CH
@@ -28,7 +28,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "fractura da la basa da la chavazza"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Fracture of base of skull (disorder)"
+  * ^designation[=].value = "Fracture of base of skull"
 
 * $sct#51244008 "Disorder of spleen (disorder)"
   * ^designation[0].language = #de-CH
@@ -40,7 +40,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "malsogna da la spletga"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Disorder of spleen (disorder)"
+  * ^designation[=].value = "Disorder of spleen"
 
 * $sct#51655004 "Congenital anomaly of skull (disorder)"
   * ^designation[0].language = #de-CH
@@ -52,7 +52,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "defurmaziun congenitala dal la chavazza"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Congenital anomaly of skull (disorder)"
+  * ^designation[=].value = "Congenital anomaly of skull"
 
 * $sct#56265001 "Heart disease (disorder)"
   * ^designation[0].language = #de-CH
@@ -64,7 +64,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "malsogna dal cor"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Heart disease (disorder)"
+  * ^designation[=].value = "Heart disease"
 
 
 * $sct#75934005 "Metabolic disease (disorder)"
@@ -77,7 +77,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "malsogna dal metabolissem"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Metabolic disease (disorder)"
+  * ^designation[=].value = "Metabolic disease"
 
 * $sct#90708001 "Kidney disease (disorder)"
   * ^designation[0].language = #de-CH
@@ -89,7 +89,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "malsogna dals gnirunchels"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Kidney disease (disorder)"
+  * ^designation[=].value = "Kidney disease"
 
 * $sct#230744007 "Cerebrospinal fluid leak (disorder)"
   * ^designation[0].language = #de-CH
@@ -101,7 +101,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "fistla da liquor cerebrospinal"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Cerebrospinal fluid leak (disorder)"
+  * ^designation[=].value = "Cerebrospinal fluid leak"
 
 * $sct#235856003 "Disorder of liver (disorder)"
   * ^designation[0].language = #de-CH
@@ -113,7 +113,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "malsogna dal gnirom"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Disorder of liver (disorder)"
+  * ^designation[=].value = "Disorder of liver"
 
 * $sct#363346000 "Malignant neoplastic disease (disorder)"
   * ^designation[0].language = #de-CH
@@ -125,7 +125,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "giomber"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Malignant neoplastic disease (disorder)"
+  * ^designation[=].value = "Malignant neoplastic disease"
 
 * $sct#402196005 "Childhood atopic dermatitis (disorder)"
   * ^designation[0].language = #de-CH
@@ -137,7 +137,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "dermatitis atopica durant l'uffanza"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Childhood atopic dermatitis (disorder)"
+  * ^designation[=].value = "Childhood atopic dermatitis"
 
 * $sct#414029004 "Disorder of immune function (disorder)"
   * ^designation[0].language = #de-CH
@@ -149,7 +149,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "disturbi da la funcziun d'immunitad"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Disorder of immune function (disorder)"
+  * ^designation[=].value = "Disorder of immune function"
 
 * $sct#449840001 "Cochlear prosthesis in situ (finding)"
   * ^designation[0].language = #de-CH
@@ -161,7 +161,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "implantat d'udida in situ"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Cochlear prosthesis in situ (finding)"
+  * ^designation[=].value = "Cochlear prosthesis in situ"
 
 * $sct#737294004 "Transplant present (finding)"
   * ^designation[0].language = #de-CH
@@ -173,7 +173,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "transplantaziun avant maun"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Transplant present (finding)"
+  * ^designation[=].value = "Transplant present"
 
 * $sct#19829001 "Disorder of lung (disorder)"
   * ^designation[0].language = #de-CH
@@ -185,7 +185,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "malsogna dal pulmun"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Disorder of lung (disorder)"
+  * ^designation[=].value = "Disorder of lung"
 
 * $sct#414027002 "Disorder of hematopoietic structure (disorder)"
   * ^designation[0].language = #de-CH
@@ -197,7 +197,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "malsogna dal sistem che producescha sang"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Disorder of hematopoietic structure (disorder)"
+  * ^designation[=].value = "Disorder of hematopoietic structure"
 
 // swiss extension "http://snomed.info/sct/2011000195101"
 * $sctch#42251000195104 "Disorder of nervous system with systemic manifestations (disorder)"
@@ -210,7 +210,7 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "malsogna dal sistem da la gnerva cun manifestaziuns sistemicas"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Disorder of nervous system with systemic manifestations (disorder)"
+  * ^designation[=].value = "Disorder of nervous system with systemic manifestations"
 
 * $sctch#42261000195101 "Disorder of musculoskeletal system with systemic manifestations (disorder)"
   * ^designation[0].language = #de-CH
@@ -222,6 +222,6 @@ Description: "The preillness risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "malsogna dal sistem dals musculs e dal skelet cun manifestaziuns sistemicas"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Disorder of musculoskeletal system with systemic manifestations (disorder)"
+  * ^designation[=].value = "Disorder of musculoskeletal system with systemic manifestations"
 
 

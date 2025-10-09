@@ -16,7 +16,7 @@ Description: "The social exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Nunenconuschent"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Undetermined (qualifier value)"
+  * ^designation[=].value = "Undetermined"
 
 * $sct#105568001 "In prison (finding)"
   * ^designation[0].language = #de-CH
@@ -28,7 +28,7 @@ Description: "The social exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "en praschun"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "In prison (finding)"
+  * ^designation[=].value = "In prison"
 
 * $sct#169449001 "Trying to conceive (finding)"
   * ^designation[0].language = #de-CH
@@ -40,7 +40,7 @@ Description: "The social exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "emprova da vegnir en speranza"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Trying to conceive (finding)"
+  * ^designation[=].value = "Trying to conceive"
 
 * $sct#224224003 "Lives in staffed home (finding)"
   * ^designation[0].language = #de-CH
@@ -52,7 +52,7 @@ Description: "The social exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "abitanta u abitant d'instituziuns communablas"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Lives in staffed home (finding)"
+  * ^designation[=].value = "Lives in staffed home"
 
 * $sct#1237572006 "Lives in home for intellectually disabled people (finding)"
   * ^designation[0].language = #de-CH
@@ -64,7 +64,7 @@ Description: "The social exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "viva en ina chasa per persunas cun impediments spiertals"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Lives in home for intellectually disabled people (finding)"
+  * ^designation[=].value = "Lives in home for intellectually disabled people"
 
 * $sct#1255626009 "Has contact with injecting drug user (situation)"
   * ^designation[0].language = #de-CH
@@ -76,7 +76,7 @@ Description: "The social exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "contact cun consuments da drogas"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Has contact with injecting drug user (situation)"
+  * ^designation[=].value = "Has contact with injecting drug user"
 
 // swiss extension "http://snomed.info/sct/2011000195101"
 // 1342377006 Has contact with wild bird (situation)
@@ -105,7 +105,7 @@ Description: "The social exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "contact cun utschels da giaglinom"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Has contact with poultry bird (situation)"
+  * ^designation[=].value = "Has contact with poultry bird"
 
 
 * $sctch#72281000195108 "Contact with human alphaherpesvirus 3 risk patient (finding)"
@@ -118,7 +118,7 @@ Description: "The social exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "contact cun pazients periclitads da la virola selvadia"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Contact with human alphaherpesvirus 3 risk patient (finding)"
+  * ^designation[=].value = "Contact with human alphaherpesvirus 3 risk patient"
 
 * $sctch#72291000195105 "Residence or stay in Switzerland except Geneva and Ticino (finding)"
   * ^designation[0].language = #de-CH
@@ -130,7 +130,7 @@ Description: "The social exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "lieu da domicil u da dimora en Svizra senza Genevra e Tessin"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Residence or stay in Switzerland except Geneva and Ticino (finding)"
+  * ^designation[=].value = "Residence or stay in Switzerland except Geneva and Ticino"
   * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/valueset-deprecated"
   * ^extension[=].valueBoolean = true
 
@@ -144,6 +144,6 @@ Description: "The social exposition risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "lieu da domicil u da dimora en Svizra senza Tessin"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Residence or stay in Switzerland except Ticino (finding)"
+  * ^designation[=].value = "Residence or stay in Switzerland except Ticino"
 
 
