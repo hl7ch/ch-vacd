@@ -174,9 +174,9 @@ Description: "Definition of the composition for the  immunization administration
 * section[annotation].code 1..
 * section[annotation].code = $loinc#48767-8
 * section[annotation].code ^short = "Annotation comment Imp"
-//* section[annotation].text 1..1
+* section[annotation].text 1..1
 * section[annotation].text ^short = "Human readable text of this section"
-* section[annotation].entry 0..*
-* section[annotation].entry ^short = "General comments"
-* section[annotation].entry.reference 1..1
+* section[annotation].entry 0..0
+//* section[annotation].entry ^short = "General comments"
+//* section[annotation].entry.reference 1..1
 * section[annotation].section 0..0

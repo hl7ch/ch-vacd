@@ -1,0 +1,71 @@
+@startuml
+left to right direction
+
+card "[[StructureDefinition-ch-vacd-document-vaccination-record.html Bundle: Vaccination Record Document]]" as document #Orange {
+ card "[[StructureDefinition-ch-vacd-composition-vaccination-record.html Entry: Composition]]" as composition #Lightblue  {
+    card subject
+    card author
+    
+    card "Section: Immunization Administration" #LightGreen {
+        card entry as entry1.1
+        card entry as entry1.2
+    }
+    card "Section: Medical Problems" #LightGreen {
+        card entry as entry2.1
+    }
+    card "Section: Past Illnesses" #LightGreen {
+        card entry as entry3.1
+    }
+    card "Section: Allergies and Intolerances" #LightGreen {
+        card entry as entry4.1
+    }
+    card "Section: Laboratory Serology" #LightGreen {
+        card entry as entry5.1
+    }
+    card "Section: Annotation" #LightGreen {
+        card "text"
+    }
+
+ }
+ card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr Entry: Patient]]" as patient #ec4d4dff {
+ }
+ card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr Entry: PractitionerRole]]" as practitionerrole #ec4d4dff {
+   card practitioner as practitioner1
+   card organization as organization1
+ }
+ card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr Entry: Practitioner]]" as practitioner #ec4d4dff {
+ }
+ card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr Entry: Organization]]" as organization #ec4d4dff {
+ }
+ card "[[StructureDefinition-ch-vacd-immunization.html Entry: Immunization]]" as immunization1 #ec4d4dff {
+    card "extension: medication" as extimmunmedi
+ }
+ card "[[StructureDefinition-ch-vacd-medication-for-immunization.html Entry: Medication For Immunization]]" as mediforimmun #ec4d4dff {
+ }
+ card "[[StructureDefinition-ch-vacd-basic-immunization.html Entry: BasicImmunization]]" as basicimmunization #ec4d4dff {
+ }
+ card "[[StructureDefinition-ch-vacd-medical-problems.html Entry: MedicalProblem]]" as medicalproblem #ec4d4dff {
+ }
+ card "[[StructureDefinition-ch-vacd-pastillnesses.html Entry: PastIllness]]" as pastillness #ec4d4dff {
+ }
+ card "[[StructureDefinition-ch-vacd-allergyintolerances.html Entry: AllergyIntolerance]]" as allergyintolerance #ec4d4dff {
+ }
+ card "[[StructureDefinition-ch-vacd-laboratory-serology.html Entry: LaborAndSerology]]" as laborandserology #ec4d4dff {
+ }
+
+practitioner1 "Reference"..> practitioner
+organization1 "Reference"..> organization
+
+
+subject "Reference"..> patient
+author "Reference"..> practitionerrole
+entry1.1 "Reference"..> immunization1
+extimmunmedi "Reference"..> mediforimmun
+entry1.2 "Reference"..> basicimmunization
+entry2.1 "Reference"..> medicalproblem
+entry3.1 "Reference"..> pastillness
+entry4.1 "Reference"..> allergyintolerance
+entry5.1 "Reference"..> laborandserology
+
+}
+@enduml
