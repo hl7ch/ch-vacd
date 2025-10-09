@@ -10,7 +10,7 @@ box "eHealth Record Repository 1"
 actor "Patient" as PAT #blue
 actor "Health Care Professional 1 (R1)" as HCP1_C1 #lightblue
 participant "Doc2\nAdmin" as Doc2 #lightblue
-participant Aggregator as AGG
+participant "[[aggregator.html Aggregator]]" as AGG
 participant "Result\nRecord" as RES #lightgreen
 end box
 

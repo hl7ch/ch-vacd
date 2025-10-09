@@ -7,7 +7,7 @@ scale max 800 width
 actor "Health Care Professional" AS HCP #blue
 box "Community A"
 participant "Portal" #00CC00
-participant "Aggregator" #00CC00
+participant "[[aggregator.html Aggregator]]" as aggr #00CC00
 participant "CO-Registry" #00CC00
 participant "CO-Repository" #00CC00
 participant "CO-IGW" #00CC00
@@ -58,8 +58,8 @@ activate "Portal"
 "OC-RGW" -> "CO-IGW": Retrieve Document Response [ITI-39]
 "CO-IGW" -> "CO-IGW": Assemble Retrieve Responses
 "CO-IGW" -> "Portal": Retrieve Document Response [ITI-43]
-"Portal" -> "Aggregator": Aggregate documents
-"Aggregator" -> "Portal": one FHIR ch-vacd document
+"Portal" -> aggr: Aggregate documents
+aggr -> "Portal": one FHIR ch-vacd document
 deactivate "Portal"
 "Portal" -> HCP: Show immunization data
 deactivate "Portal"
