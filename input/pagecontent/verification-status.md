@@ -12,3 +12,5 @@ The verificationStatus of an entry can be changed from **Not Confirmed** to *Con
 document and adding all entries to be verified with the verification status changed to **Confirmed** and if the extension (Immunization and Observation) is used, the date of verification and the verifier can be set optionally.
 On each changed entry the extension [Entry Resource Cross References](http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references) should be added and the references to the original composition and entry should be set.
 
+
+<div>{% include verification-status-flow.svg %}</div>
