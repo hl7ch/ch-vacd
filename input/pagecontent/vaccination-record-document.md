@@ -5,7 +5,8 @@ This document is allowed to be used in context of the Swiss EPR but can also be 
 
 ### Aggregation
 A vaccination record document can be an aggregation of multiple immunization administration documents.
-The process of the aggregation and its criterias and problems is described [here](aggregator.html)
+The process of the aggregation and its criterias and problems is described [here](aggregator.html).
+For more and detailed informations, please have a look at the different [Test Cases](TestCases.html).
 
 
 ### FHIR document (Bundle)

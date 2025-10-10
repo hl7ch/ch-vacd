@@ -8,22 +8,21 @@ scale max 800 width
 box "eHealth Record Repository 1"
 actor "Patient" as PAT #blue
 actor "Health Care Professional 1 (R1)" as HCP1_C1 #lightblue
-participant "Doc1\nAdmin" as Doc1 #lightblue
-participant "Doc2\nAdmin" as Doc2 #lightblue
-participant "Doc5\nAdmin" as Doc5 #lightblue
-participant "Doc6\nAdmin" as Doc6 #lightblue
-participant Aggregator as AGG
-participant "Resultat\nRecord" as RES #lightgreen
+participant "[[Bundle-A-D1-P-C1.html Doc1\nAdmin\nA-D1-P-C1]]" as Doc1 #lightblue
+participant "[[Bundle-A-D2-HCP1-C1.html Doc2\nAdmin\nA-D2-HCP1-C1]]" as Doc2 #lightblue
+participant "[[Bundle-A-D5-P-C1.html Doc5\nAdmin\nA-D5-P-C1]]" as Doc5 #lightblue
+participant "[[Bundle-A-D6-HCP1-C1.html Doc6\nAdmin\nA-D6-HCP1-C1]]" as Doc6 #lightblue
+participant "[[aggregator.html Aggregator]]" as AGG
+participant "[[Bundle-RDA04.html Resultat\nRecord\nRDA04]]" as RES #lightgreen
 end box
-
 
 HCP1_C1 -> Doc6: HCP1 validates the TBE vaccination of the patient \n and creates a document so that the vaccination with FSME-Immun CC\nagainst TBE (2nd dose) is validated
 HCP1_C1 <-- Doc6
 Doc6 o<-[#red]->o Doc5: relatesTo 
 
 box "eHealth Record Repository 2"
-participant "Doc3\nAdmin" as Doc3 #orange
-participant "Doc4\nAdmin" as Doc4 #orange
+participant "[[Bundle-A-D3-HCP2-C2.html Doc3\nAdmin\nA-D3-HCP2-C2]]" as Doc3 #orange
+participant "[[Bundle-A-D4-HCP2-C2.html Doc4\nAdmin\nA-D4-HCP2-C2]]" as Doc4 #orange
 end box
 
 PAT -> AGG: get Vaccination Record

@@ -6,7 +6,7 @@ scale max 800 width
 
 actor Patient #red
 participant "Portal" #00CC00
-participant "Aggregator"
+participant "[[aggregator.html Aggregator]]" as aggr
 participant "Impfcheck" #red
 
 participant "Gemeinschaften\nA..N" #00CC00
@@ -17,8 +17,8 @@ loop "Abfrage aller Gemeinschaften"
 "Portal" -> "Gemeinschaften\nA..N": Suche nach Impfdokumenten
 "Gemeinschaften\nA..N" -> "Portal": Alle gefundenen Impfdokumente (Gem A)
 end
-"Portal" -> "Aggregator": Zusammenfassen aller strukturierten Daten
-"Aggregator" ->  "Portal": Ein aggregiertes Impfdokument
+"Portal" -> aggr: Zusammenfassen aller strukturierten Daten
+aggr ->  "Portal": Ein aggregiertes Impfdokument
 ' "Portal" -> "Portal": Pseudonymisieren
 "Portal" ->  "Impfcheck": aggregiertes Impfdokument
 "Impfcheck" -> "Portal": Impfempfehlung

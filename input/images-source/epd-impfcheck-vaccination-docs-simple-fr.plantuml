@@ -6,7 +6,7 @@ scale max 800 width
 
 actor "Professionnel de la santé" AS Docteur #blue
 participant "Portal" #00CC00
-participant "Agrégateur de vaccins"
+participant "[[aggregator.html Agrégateur de vaccins]]" as aggr
 participant "Contrôle de vaccination" #red
 
 participant "Communauté\nA..N" #00CC00
@@ -17,8 +17,8 @@ loop "Interrogation de toutes les communautés"
 "Portal" -> "Communauté\nA..N": Rechercher documents de vaccination
 "Communauté\nA..N" -> "Portal": Tous les documents de vaccination trouvés (Com A)
 end
-"Portal" -> "Agrégateur de vaccins": Résumer toutes les données structurées
-"Agrégateur de vaccins" ->  "Portal": Un carnet de vaccination agrégé
+"Portal" -> aggr: Résumer toutes les données structurées
+aggr ->  "Portal": Un carnet de vaccination agrégé
 ' "Portal" -> "Portal": pseudonymiser
 "Portal" ->  "Contrôle de vaccination": document de vaccination agrégé
 "Impfcheck" -> "Portal": recommandation de vaccination
