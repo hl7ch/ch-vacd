@@ -7,16 +7,14 @@ scale max 800 width
 
 box "eHealth Record Repository 1"
 actor "Patient" as PAT #blue
-participant "Doc1\nAdmin" as Doc1 #lightblue
+participant "[[Bundle-D-D1-HCP1-C1.html Doc1\nAdmin\nD-D1-HCP1-C1" as Doc1 #lightblue
 participant "[[aggregator.html Aggregator]]" as AGG
-participant "Result\nRecord" as RES #lightgreen
+participant "[[Bundle-RDD01.html Result\nRecord\nRDD01]]" as RES #lightgreen
 end box
 
 box "eHealth Record Repository 2"
-participant "Doc2\nAdmin" as Doc2 #orange
+participant "[[Bundle-D-D2-HCP2-C2.html Doc2\nAdmin\nD-D2-HCP2-C2]]" as Doc2 #orange
 end box
-
-
 
 PAT -> AGG: get Vaccination Record
 activate AGG

@@ -4,6 +4,7 @@ This document is allowed to be used in context of the Swiss EPR but can also use
 
 ### Aggregation
 Immunization Administration document have one to multiple entries documenting actions on a patient around vaccination. An Immunization Administration document can, but does normally not document the complete immunization status of a patient. Therefor we have defined the document [Vaccination Record](vaccination-record-document.html) which can be created by the the aggregation of Immunization Administration documents and is described [here](aggregator.html).
+For more and detailed informations, please have a look at the different [Test Cases](TestCases.html).
 
 
 ### FHIR document (Bundle)

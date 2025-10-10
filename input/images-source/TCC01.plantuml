@@ -5,14 +5,13 @@ skinparam responseMessageBelowArrow true
 skinparam style strictuml
 scale max 800 width
 
-
 box "eHealth Record Repository 1"
 actor "Patient" as PAT #blue
 actor "Health Care Professional 1 (R1)" as HCP1_C1 #lightblue
-participant "Doc1\nAdmin" as Doc1 #lightblue
-participant "Doc2\nAdmin" as Doc2 #lightblue
+participant "[[Bundle-A-D1-P-C1.html Doc1\nAdmin\nA-D1-P-C1]]" as Doc1 #lightblue
+participant "[[Bundle-C-D1-P-C1.html Doc2\nAdmin\nC-D1-P-C1]]" as Doc2 #lightblue
 participant "[[aggregator.html Aggregator]]" as AGG
-participant "Result\nRecord" as RES #lightgreen
+participant "[[Bundle-RDC01.html Result\nRecord\nRDC01]]" as RES #lightgreen
 end box
 
 PAT -> Doc1: Patient (C1) creates document\nwith vaccination Havrix 1440 against viral heaptite A

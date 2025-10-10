@@ -5,33 +5,32 @@ skinparam responseMessageBelowArrow true
 skinparam style strictuml
 scale max 800 width
 
-
 box "eHealth Record Repository 1"
 actor "Patient" as PAT #blue
 actor "Health Care Professional 1 (R1)" as HCP1_C1 #lightblue
-participant "Doc2\nAdmin" as Doc2 #lightblue
+participant "[[Bundle-C-D2-HCP1-C1.html Doc2\nAdmin\nC-D2-HCP1-C1]]" as Doc2 #lightblue
 participant "[[aggregator.html Aggregator]]" as AGG
-participant "Result\nRecord" as RES #lightgreen
+participant "[[Bundle-RDC02.html Result\nRecord\nRDC02]]" as RES #lightgreen
 end box
 
 box "eHealth Record Repository 2"
-participant "Doc1\nAdmin" as Doc1 #orange
+participant "[[Bundle-A-D3-HCP2-C2.html Doc3\nAdmin\nA-D3-HCP2-C2]]" as Doc3 #orange
 actor "Health Care Professional 2 (R2)" as HCP2_C2 #orange
 end box
 
-HCP2_C2 -> Doc1: HCP2 (C2) creates document\nwith vaccination FSME-Immun CC\nagainst TBE
-HCP1_C1 <-- Doc1
+HCP2_C2 -> Doc3: HCP2 (C2) creates document\nwith vaccination FSME-Immun CC\nagainst TBE
+HCP1_C1 <-- Doc3
 
 HCP1_C1 -> Doc2: HCP1 (C1) creates document\nchanging some parameters of the vaccination entry TBE.
 HCP1_C1 <-- Doc2
 
-Doc2 o<-[#red]->o Doc1: Has replacement relation
+Doc2 o<-[#red]->o Doc3: Has replacement relation
 
 PAT -> AGG: get Vaccination Record
 activate AGG
 
-AGG -> Doc1: get doc
-AGG <-- Doc1
+AGG -> Doc3: get doc
+AGG <-- Doc3
 
 AGG -> Doc2: get doc
 AGG <-- Doc2
