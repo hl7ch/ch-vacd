@@ -10,7 +10,7 @@ Immunization Administration document have one to multiple entries documenting ac
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 
 A Bundle has a list of entries. The first entry is the Composition, in which all contained entries are then referenced.
 
-{% include img.html img="immunization-administration-document.png" caption="Fig.: Immunization Administration document" width="40%" %}
+{% include immunization-administration-document-elements.svg %}
 
 ### Identifiers
 
@@ -43,7 +43,9 @@ For further details see [Narrative Text Generation](generatenarrativetext.html).
 * [CH VACD Immunization Administration Document](StructureDefinition-ch-vacd-document-immunization-administration.html): Definition of the bundle for the immunization administration document.
 * [CH VACD Immunization Administration Composition](StructureDefinition-ch-vacd-composition-immunization-administration.html): Definition of the composition for the immunization administration document.
 * [CH VACD Immunization](StructureDefinition-ch-vacd-immunization.html): Definition of the immunization part for all documents.
+* [CH VACD Basic Immunization](StructureDefinition-ch-vacd-basic-immunization.html) Condition to declare Basic Immunization done by one single condition i.e. for DTPa or Polio.
 * [CH VACD Medical Problems](StructureDefinition-ch-vacd-medical-problems.html): Definition of the medical problems part for all documents.
 * [CH VACD Past Illness](StructureDefinition-ch-vacd-pastillnesses.html): Definition of the past illness part for all documents.
 * [CH VACD AllergyIntolerance](StructureDefinition-ch-vacd-allergyintolerances.html): Definition of the AllergyIntolerance part for all documents.
 * [CH VACD Laboratory And Serology](StructureDefinition-ch-vacd-laboratory-serology.html): Definition of the labor and serology part for all documents.
+* [CH VACD Medication For Immunization](StructureDefinition-ch-vacd-medication-for-immunization.html) Definition of the medication for immunization.

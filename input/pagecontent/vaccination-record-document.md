@@ -12,8 +12,7 @@ The process of the aggregation and its criterias and problems is described [here
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 
 A Bundle has a list of entries. The first entry is the Composition, in which all contained entries are then referenced.
 
-{% include img.html img="vaccination-record-document.png" caption="Fig.: Vaccination Record document" width="40%" %}
-
+{% include vaccination-record-document-elements.svg %}
 
 ### Identifiers
 
@@ -46,8 +45,10 @@ for further details see [Narrative Text Generation](generatenarrativetext.html)
 * [CH VACD Vaccination Record Document](StructureDefinition-ch-vacd-document-vaccination-record.html): Definition of the bundle for the vaccination record document.
 * [CH VACD VaccinationRecord Composition](StructureDefinition-ch-vacd-composition-vaccination-record.html): Definition of the composition for the vaccination record document.
 * [CH VACD Immunization](StructureDefinition-ch-vacd-immunization.html): Definition of the immunization part for all documents, except recommendation request and response documents.
+* [CH VACD Basic Immunization](StructureDefinition-ch-vacd-basic-immunization.html) Condition to declare Basic Immunization done by one single condition i.e. for DTPa or Polio.
 * [CH VACD Medical Problems](StructureDefinition-ch-vacd-medical-problems.html): Definition of the medical problems part for all documents, except recommendation request and response documents.
 * [CH VACD Past Illness](StructureDefinition-ch-vacd-pastillnesses.html): Definition of the past illness part for all documents, except recommendation request and response documents.
 * [CH VACD AllergyIntolerance](StructureDefinition-ch-vacd-allergyintolerances.html): Definition of the AllergyIntolerance part for vaccination record documents.
 * [CH VACD Laboratory And Serology](StructureDefinition-ch-vacd-laboratory-serology.html): Definition of the labor and serology part for all documents, except recommendation request and response documents.
+* [CH VACD Medication For Immunization](StructureDefinition-ch-vacd-medication-for-immunization.html) Definition of the medication for immunization.
 
