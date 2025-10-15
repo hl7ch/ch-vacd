@@ -21,7 +21,6 @@ During the ballot, 28 issues were reported for CH VACD:
 * [Issue 322](https://github.com/hl7ch/ch-vacd/issues/322): Typos
 * [Issue 318](https://github.com/hl7ch/ch-vacd/issues/318): 
 
-
 ### Terminology
 * [Issue 323](https://github.com/hl7ch/ch-vacd/issues/323): Remove the semantic tag from Allergy and Intolerance ValueSet entries used for Immunization resources.
  
