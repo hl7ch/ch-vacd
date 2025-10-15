@@ -8,7 +8,7 @@ actor Patient #red
 participant "Portal" #00CC00
 participant "Eigene Gemeinschaft\nA" #00CC00
 
-participant "Aggregator"
+participant "[[aggregator.html Aggregator]]" as aggr
 participant "Andere Gemeinschaft\nB" #00aaff
 participant "Andere Gemeinschaft\nN" #00aaff
 
@@ -24,8 +24,8 @@ loop "Alle anderen Gemeinschaften"
 "Portal" -> "Andere Gemeinschaft\nN": Suche nach Impfdokumenten
 "Andere Gemeinschaft\nN" -> "Portal": Alle gefundenen Impfdokumente (Gem. N)
 end
-"Portal" -> "Aggregator": Zusammenfassen aller strukturierten Daten
-"Aggregator" ->  "Portal": Ein aggregiertes Impfdokument
+"Portal" -> aggr: Zusammenfassen aller strukturierten Daten
+aggr ->  "Portal": Ein aggregiertes Impfdokument
 "Portal" -> Patient: Anzeigen der aggregierten\nImpfdaten
 
 @enduml

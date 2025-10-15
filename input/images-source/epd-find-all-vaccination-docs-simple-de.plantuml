@@ -6,7 +6,7 @@ scale max 800 width
 
 actor Gesundheitsfachperson #blue
 participant "Portal" #00CC00
-participant "Aggregator"
+participant "[[aggregator.html Aggregator]]" as aggr
 
 participant "Eigene Gemeinschaft\nA" #00CC00
 
@@ -25,8 +25,8 @@ loop "Alle anderen Gemeinschaften"
 "Andere Gemeinschaft\nN" -> "Portal": Impfdokumente
 end
 
-"Portal" -> "Aggregator": Zusammenfassen der Daten
-"Aggregator" ->  "Portal": Ein aggregiertes Impfdokument
+"Portal" -> aggr: Zusammenfassen der Daten
+aggr ->  "Portal": Ein aggregiertes Impfdokument
 "Portal" -> Gesundheitsfachperson: Anzeigen der aggregierten\nImpfdaten
 
 @enduml

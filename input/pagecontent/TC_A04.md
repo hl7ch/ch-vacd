@@ -12,6 +12,8 @@ The healthcare professional creates a new [Document A-D6-HCP1-C1](Bundle-A-D6-HC
 
 <div>{% include TCA04.svg %}</div>
 
+<div>{% include TCA04_GP.svg %}</div>
+
 ### Result
 The 2nd dose of the TBE vaccination has now been validated by a health professional.
 

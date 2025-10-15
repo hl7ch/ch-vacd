@@ -1,6 +1,7 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
 ### STU 6, v6.0.0 (2025-12)
+* [#354](https://github.com/hl7ch/ch-vacd/issues/354): Add URL's to Diagrams for easier interactions
 * [#333](https://github.com/hl7ch/ch-vacd/issues/333): Fix various typos
 * [#333](https://github.com/hl7ch/ch-vacd/issues/330): Immunization Administration Document - missing Profiles
 * [#329](https://github.com/hl7ch/ch-vacd/issues/329): CH VACD Laboratory And Serology - note.Author
