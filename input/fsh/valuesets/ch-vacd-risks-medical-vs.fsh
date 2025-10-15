@@ -16,7 +16,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "Nunenconuschent"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Undetermined (qualifier value)"
+  * ^designation[=].value = "Undetermined"
 
 * $sct#77386006 "Pregnancy (finding)"
   * ^designation[0].language = #de-CH
@@ -28,7 +28,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "gravidanza"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Pregnancy (finding)"
+  * ^designation[=].value = "Pregnancy"
 
 * $sct#102947004 "High risk sexual behavior (finding)"
   * ^designation[0].language = #de-CH
@@ -40,7 +40,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "cumportament sexual privlus"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "High risk sexual behavior (finding)"
+  * ^designation[=].value = "High risk sexual behavior"
 
 * $sct#226034001 "Injecting drug user (finding)"
   * ^designation[0].language = #de-CH
@@ -52,7 +52,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "consumenta u consument da drogas injectablas"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Injecting drug user (finding)"
+  * ^designation[=].value = "Injecting drug user"
 
 * $sct#1237016007 "At increased risk of exposure to Measles virus (finding)"
   * ^designation[0].language = #de-CH
@@ -64,7 +64,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost al virustgel"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to Measles virus (finding)"
+  * ^designation[=].value = "At increased risk of exposure to Measles virus"
 
 * $sct#1237017003 "At increased risk of exposure to Mumps virus (finding)"
   * ^designation[0].language = #de-CH
@@ -76,7 +76,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost al glandun"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to Mumps virus (finding)"
+  * ^designation[=].value = "At increased risk of exposure to Mumps virus"
 
 * $sct#1237018008 "At increased risk of exposure to Rubella virus (finding)"
   * ^designation[0].language = #de-CH
@@ -88,7 +88,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost la rubella"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to Rubella virus (finding)"
+  * ^designation[=].value = "At increased risk of exposure to Rubella virus"
 
 * $sct#1237019000 "At increased risk of exposure to Haemophilus influenzae type b (finding)"
   * ^designation[0].language = #de-CH
@@ -100,7 +100,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost a la hemofilus influenza tip B"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to Haemophilus influenzae type b (finding)"
+  * ^designation[=].value = "At increased risk of exposure to Haemophilus influenzae type b"
 
 * $sct#1237020006 "At increased risk of exposure to hepatitis B virus (finding)"
   * ^designation[0].language = #de-CH
@@ -112,7 +112,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost a hepatitis B"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to hepatitis B virus (finding)"
+  * ^designation[=].value = "At increased risk of exposure to hepatitis B virus"
 
 
 
@@ -126,7 +126,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost a la meningoencefalitis da zeccas"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to European tick-borne encephalitis virus (finding)"
+  * ^designation[=].value = "At increased risk of exposure to European tick-borne encephalitis virus"
 
 * $sct#1237022003 "At increased risk of exposure to human poliovirus (finding)"
   * ^designation[0].language = #de-CH
@@ -138,7 +138,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost a la poliomielitis"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to human poliovirus (finding)"
+  * ^designation[=].value = "At increased risk of exposure to human poliovirus"
 
 * $sct#1237023008 "At increased risk of exposure to Neisseria meningitidis (finding)"
   * ^designation[0].language = #de-CH
@@ -150,7 +150,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost a meningococcus"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to Neisseria meningitidis (finding)"
+  * ^designation[=].value = "At increased risk of exposure to Neisseria meningitidis"
 
 * $sct#1237024002 "At increased risk of exposure to rabies virus (finding)"
   * ^designation[0].language = #de-CH
@@ -162,7 +162,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost a la frenesia"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to rabies virus (finding)"
+  * ^designation[=].value = "At increased risk of exposure to rabies virus"
 
 * $sct#1237025001 "At increased risk of exposure to Mycobacterium tuberculosis complex (finding)"
   * ^designation[0].language = #de-CH
@@ -174,7 +174,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost a tuberculosa"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to Mycobacterium tuberculosis complex (finding)"
+  * ^designation[=].value = "At increased risk of exposure to Mycobacterium tuberculosis complex"
 
 * $sct#1237026000 "At increased risk of exposure to hepatitis A virus (finding)"
   * ^designation[0].language = #de-CH
@@ -186,7 +186,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost a hepatitis A"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to hepatitis A virus (finding)"
+  * ^designation[=].value = "At increased risk of exposure to hepatitis A virus"
 
 * $sct#1237027009 "At increased risk of exposure to Human alphaherpesvirus 3 (finding)"
   * ^designation[0].language = #de-CH
@@ -198,7 +198,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost a la virola selvadia"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to Human alphaherpesvirus 3 (finding)"
+  * ^designation[=].value = "At increased risk of exposure to Human alphaherpesvirus 3"
 
 * $sct#1237028004 "At increased risk of exposure to Influenza virus (finding)"
   * ^designation[0].language = #de-CH
@@ -210,7 +210,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost a l'influenza"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to Influenza virus (finding)"
+  * ^designation[=].value = "At increased risk of exposure to Influenza virus"
 
 * $sct#1237029007 "At increased risk of exposure to Streptococcus pneumoniae (finding)"
   * ^designation[0].language = #de-CH
@@ -222,7 +222,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost a pneumococcus"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to Streptococcus pneumoniae (finding)"
+  * ^designation[=].value = "At increased risk of exposure to Streptococcus pneumoniae"
 
 * $sct#1237030002 "At increased risk of exposure to Bordetella pertussis (finding)"
   * ^designation[0].language = #de-CH
@@ -234,7 +234,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pli gronda ristga d'esser expost a la tuss chanina"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "At increased risk of exposure to Bordetella pertussis (finding)"
+  * ^designation[=].value = "At increased risk of exposure to Bordetella pertussis"
 
 * $sct#1237443008 "Birth weight 1.5 kilogram or less (finding)"
   * ^designation[0].language = #de-CH
@@ -246,7 +246,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pais da naschientscha 1,5 kilograms u damain"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Birth weight 1.5 kilogram or less (finding)"
+  * ^designation[=].value = "Birth weight 1.5 kilogram or less"
 
 * $sct#1237570003 "Maternal history of viral hepatitis B (situation)"
   * ^designation[0].language = #de-CH
@@ -258,7 +258,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "anamnesa materna d'ina hepatitis virala B"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Maternal history of viral hepatitis B (situation)"
+  * ^designation[=].value = "Maternal history of viral hepatitis B"
 
 
 * $sct#1237576009 "Baby premature at delivery less than 32 weeks (finding)"
@@ -271,7 +271,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "naschientscha prematura en cas d'ina gravidanza da main che 32 emnas"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Baby premature at delivery less than 32 weeks (finding)"
+  * ^designation[=].value = "Baby premature at delivery less than 32 weeks"
 
 * $sct#1251534000 "Exposure to invasive meningococcal disease (event)"
   * ^designation[0].language = #de-CH
@@ -283,7 +283,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "expost ad ina infecziun invasiva cun meningococcus"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Exposure to invasive meningococcal disease (event)"
+  * ^designation[=].value = "Exposure to invasive meningococcal disease"
 
 
 * $sct#1254737008 "Has contact with infant (finding)"
@@ -296,7 +296,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "contact cun in poppin"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Has contact with infant (finding)"
+  * ^designation[=].value = "Has contact with infant"
 
 * $sct#1254738003 "In contact with infant younger than 6 months (finding)"
   * ^designation[0].language = #de-CH
@@ -308,7 +308,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "contact cun in poppin da main che 6 mais"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "In contact with infant younger than 6 months (finding)"
+  * ^designation[=].value = "In contact with infant younger than 6 months"
 
 * $sct#1254739006 "Has contact with premature infant (finding)"
   * ^designation[0].language = #de-CH
@@ -320,7 +320,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "contact cun in uffant naschì permaturamain"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Has contact with premature infant (finding)"
+  * ^designation[=].value = "Has contact with premature infant"
 
 * $sct#1255625008 "Childbirth within last 4 weeks (finding)"
   * ^designation[0].language = #de-CH
@@ -332,7 +332,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #rm-CH
   * ^designation[=].value = "pagliola entaifer las ultimas 4 emnas"
   * ^designation[+].language = #en-US
-  * ^designation[=].value = "Childbirth within last 4 weeks (finding)"
+  * ^designation[=].value = "Childbirth within last 4 weeks"
 
 // added 2024-08-09
 * $sct#870577009 "At increased risk of exposure to severe acute respiratory syndrome coronavirus 2 (finding)"
