@@ -23,7 +23,7 @@ Description: "Generic definition (abstract profile) of the condition for all doc
 * subject only Reference(CHCorePatient)
 * subject ^short = "Patient"
 * verificationStatus 1..1
-* verificationStatus ^definition = "Status of verification by a practitioner"
+* verificationStatus ^definition = "Status of verification.\nWith the verificationStatus, practitioners can express that they verified the data added by a patient or related person."
 * encounter only Reference(CHCoreEncounter)
 * recordedDate 1..1 MS
 * recordedDate ^short = "Condition recordedDate"
