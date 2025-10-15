@@ -4,7 +4,7 @@
 The STU6 ballot was held from August 4 to September 30. From September 16 to 18, 
 the annual Projectathon took place, where there was the opportunity to test the 
 eVaccination exchange format and provide feedback.   
-During the ballot, 9 issues were reported for CH VACD:
+During the ballot, 28 issues were reported for CH VACD:
 * [Issues CH VACD](https://github.com/hl7ch/ch-vacd/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22ballot%20v6.0.0%20-%20STU%206%22)
 
 ## Profiling
@@ -18,12 +18,12 @@ During the ballot, 9 issues were reported for CH VACD:
 * [Isssue 342](https://github.com/hl7ch/ch-vacd/issues/342): Use Case 2 Impfung Dokumentieren (Sang-Il Kim, BFH)
 * [Isssue 341](https://github.com/hl7ch/ch-vacd/issues/341): Use Case 1 Impfdokumentation Sichten (Sang-Il Kim, BFH)
 * [Isssue 339](https://github.com/hl7ch/ch-vacd/issues/339): CH VACD Extension verificationStatus (Gabriel Hess, BFH)
-* [Isssue 338](https://github.com/hl7ch/ch-vacd/issues/338): CH VACD Extension Merging Conflict Entry Reference - Duplicate Detection and Merging (Will Schaefermeier, Epic)
+
 * [Isssue 337](https://github.com/hl7ch/ch-vacd/issues/337): Immunization Administration Document - REST API/Resource-based exchange option (Will Schaefermeier, Epic)
 * [Isssue 336](https://github.com/hl7ch/ch-vacd/issues/336): CH VACD Immunization - occurence[x]occurrenceString support (Will Schaefermeier, Epic)
-* [Isssue 335](https://github.com/hl7ch/ch-vacd/issues/335): CH VACD Message Immunization Recommendation Request - What is the use case for optional elements? (Will Schaefermeier, Epic)
+
 * [Isssue 333](https://github.com/hl7ch/ch-vacd/issues/333): Various typos
-* [Issues 332](https://github.com/hl7ch/ch-vacd/issues/332): Role of the EHR/KIS regarding Immunization Recommendation
+
 * [Issues 325](https://github.com/hl7ch/ch-vacd/issues/325): Add Validation Rule: Keeping the status for patient comments.
 * [Issues 322](https://github.com/hl7ch/ch-vacd/issues/322): Typos
     
@@ -34,3 +34,18 @@ During the ballot, 9 issues were reported for CH VACD:
 * [Isssue 340](https://github.com/hl7ch/ch-vacd/issues/340): Wording "Immunization Administration document" (Sang-Il Kim, BFH)
 * [Issues 326](https://github.com/hl7ch/ch-vacd/issues/326): Question regarding the restriction of the composition to EPR
 * [Issues 324](https://github.com/hl7ch/ch-vacd/issues/324): Harmonize the verificationStatus ValueSets.
+
+## Issues opened in CH TERM  
+* [Issues 121](https://github.com/hl7ch/ch-term/issues/121): CH VACD Swissmedic code for VaccineCode - Split SM and Old Codes into separate VS and include in this valueset.  
+* [Issues 120](https://github.com/hl7ch/ch-term/issues/120): Concept Maps VaccineCode - Improvement of the description
+* [Issues 118](https://github.com/hl7ch/ch-term/issues/118): CH VACD Swissmedic Authorized Immunglobuline Codes - Typo
+* [Issues 117](https://github.com/hl7ch/ch-term/issues/117): CH VACD Target disease and illnesses undergone for immunization - Remove SNOMED CT semantic tags  
+* [Issues 115](https://github.com/hl7ch/ch-term/issues/115): CH VACD Target disease and illnesses undergone for immunization - Missing translations
+* [Issues 114](https://github.com/hl7ch/ch-term/issues/114): CH VACD Swissmedic code for VaccineCode - Missing translations
+* [Issues 113](https://github.com/hl7ch/ch-term/issues/113): CH VACD Swissmedic Authorized Immunglobuline Codes - mapping missing
+* [Issues 109](https://github.com/hl7ch/ch-term/issues/109): CH VACD Target disease and illnesses undergone for immunization - mapping issues
+
+## Negative comments
+* [Issues 332](https://github.com/hl7ch/ch-vacd/issues/332): Role of the EHR/KIS regarding Immunization Recommendation
+* [Isssue 335](https://github.com/hl7ch/ch-vacd/issues/335): CH VACD Message Immunization Recommendation Request - What is the use case for optional elements?
+* [Isssue 338](https://github.com/hl7ch/ch-vacd/issues/338): CH VACD Extension Merging Conflict Entry Reference - Duplicate Detection and Merging
