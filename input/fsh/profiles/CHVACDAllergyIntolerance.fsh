@@ -33,3 +33,5 @@ Description: "Definition of the AllergyIntolerance part for vaccination record d
 * recorder MS
 // * recorder only Reference(CHCorePractitionerRole or CHCorePatient or CHCoreRelatedPerson)
 // * recorder ^short = "Recorder"
+
+* note.author[x] only Reference(CHCorePractitioner or CHCorePatient or CHCoreRelatedPerson or CHCoreOrganization)

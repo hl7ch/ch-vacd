@@ -1,0 +1,20 @@
+@startuml
+title Workflow Verification Status
+
+(*) -->[created by Patient]  "Entry Not Confirmed" #FFFF00
+(*) -->[created by Practitioner]  "Entry Confirmed"
+"Entry Not Confirmed" -->[validated by Practitioner] "Entry Confirmed" #00FF00
+
+"Entry Confirmed" -->[changed by Patient*] "Entry Not Confirmed"
+note bottom
+  * i.e. adding a note to an Entry does 
+  not imply a change of the status. 
+  The status will only be changed on 
+  mandatory fields.
+end note
+
+"Entry Confirmed" --> (*)
+
+
+
+@enduml

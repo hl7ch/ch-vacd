@@ -33,8 +33,9 @@ Description: "Definition of the labor and serology part for all documents."
 * encounter only Reference(CHCoreEncounter)
 * encounter ^short = "Encounter"
 * performer only Reference(CHCorePractitionerRole or CHCoreOrganization)
-* performer ^short = "Patient"
+* performer ^short = "The performer executing the laboratory analysis."
 * performer MS
 * value[x] 1..1 MS
 * value[x] only Quantity or CodeableConcept
 
+* note.author[x] only Reference(CHCorePractitioner or CHCorePatient or CHCoreRelatedPerson or CHCoreOrganization)

@@ -7,6 +7,8 @@ a) In the case a practitioner is recorder, the entry is directly validated defin
 
 b) In the case a patient is recording an entry the verificationStatus ([extension](StructureDefinition-ch-vacd-ext-verification-status.html)) has to be [Not confirmed](http://snomed.info/id/76104008), a practitioner has to validate the entry.
 
+c) In the event that an entry has been validated by a healthcare professional and a patient only adds a comment, the status remains confirmed, as all information is available in the note section.
+
 see more about the [Validation and VerificationStatus](verification-status.html)
 
 ### Duplicate Conflict
