@@ -38,3 +38,4 @@ Description: "Definition of the labor and serology part for all documents."
 * value[x] 1..1 MS
 * value[x] only Quantity or CodeableConcept
 
+* note.author[x] only Reference(CHCorePractitioner or CHCorePatient or CHCoreRelatedPerson or CHCoreOrganization)
