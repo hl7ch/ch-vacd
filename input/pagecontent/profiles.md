@@ -18,4 +18,4 @@
 * [CH VACD Laboratory And Serology](StructureDefinition-ch-vacd-laboratory-serology.html) Definition of the labor and serology part for all documents, except recommendation request and response documents.
 * [CH VACD Immunization Recommendations](StructureDefinition-ch-vacd-immunization-recommendation.html) Definition of the immunization recommendation part for all documents, except recommendation request and response documents.
 * [CH VACD Medication For Immunization](StructureDefinition-ch-vacd-medication-for-immunization.html) Definition of the medication for immunization.
-* [CH VACD Basic Immunization](StructureDefinition-ch-vacd-basic-immunization.html) Condition to declare Basic Immunization done by one single condition for DTPa or Polio. This is for cases the patient does not have a vaccination certificate to declare it, but knows that it is done.
+* [CH VACD Basic Immunization](StructureDefinition-ch-vacd-basic-immunization.html) Condition to declare Basic Immunization done by one single condition i.e. for DTPa or Polio. This is for cases the patient does not have a vaccination certificate to declare it, but knows that it is done.

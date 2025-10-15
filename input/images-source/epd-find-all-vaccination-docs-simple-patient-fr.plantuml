@@ -8,7 +8,7 @@ actor Patient #red
 participant "Portal" #00CC00
 participant "Propre communauté\nA" #00CC00
 
-participant "agrégateur de vaccins"
+participant "[[aggregator.html Agrégateur de vaccins]]" as aggr
 participant "Autre communauté\nB" #00aaff
 participant "Autre communauté\nN" #00aaff
 
@@ -24,8 +24,8 @@ loop "Toutes les autres communautés"
 "Portal" -> "Autre communauté\nN": Rechercher les documents de vaccination
 "Autre communauté\nN" -> "Portal": Tous les documents de vaccination trouvés (Com N)
 end
-"Portal" -> "agrégateur de vaccins": Résumer les documents de vaccination
-"agrégateur de vaccins" ->  "Portal": Un carnet de vaccination agrégé
+"Portal" -> aggr: Résumer les documents de vaccination
+aggr ->  "Portal": Un carnet de vaccination agrégé
 "Portal" -> Patient: Afficher l'agrégat\nDates de vaccination
 
 @enduml
