@@ -18,12 +18,9 @@ During the ballot, 28 issues were reported for CH VACD:
 * [Isssue 342](https://github.com/hl7ch/ch-vacd/issues/342): Use Case 2 Impfung Dokumentieren (Sang-Il Kim, BFH)
 * [Isssue 341](https://github.com/hl7ch/ch-vacd/issues/341): Use Case 1 Impfdokumentation Sichten (Sang-Il Kim, BFH)
 * [Isssue 339](https://github.com/hl7ch/ch-vacd/issues/339): CH VACD Extension verificationStatus (Gabriel Hess, BFH)
-
 * [Isssue 337](https://github.com/hl7ch/ch-vacd/issues/337): Immunization Administration Document - REST API/Resource-based exchange option (Will Schaefermeier, Epic)
 * [Isssue 336](https://github.com/hl7ch/ch-vacd/issues/336): CH VACD Immunization - occurence[x]occurrenceString support (Will Schaefermeier, Epic)
-
 * [Isssue 333](https://github.com/hl7ch/ch-vacd/issues/333): Various typos
-
 * [Issues 325](https://github.com/hl7ch/ch-vacd/issues/325): Add Validation Rule: Keeping the status for patient comments.
 * [Issues 322](https://github.com/hl7ch/ch-vacd/issues/322): Typos
     
