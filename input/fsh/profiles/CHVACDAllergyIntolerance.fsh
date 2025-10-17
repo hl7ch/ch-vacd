@@ -26,7 +26,7 @@ Description: "Definition of the AllergyIntolerance part for vaccination record d
 * code ^binding.extension[=].valueBoolean = true
 * code ^binding.description = "The code for allergy."
 * verificationStatus 1..1
-* verificationStatus ^definition = "Status of verification by a practitioner"
+* verificationStatus ^definition = "Status of verification.\nWith the verificationStatus, practitioners can express that they verified the data added by a patient or related person."
 * patient MS
 // * patient only Reference(CHCorePatient)
 // * patient ^short = "Patient"
