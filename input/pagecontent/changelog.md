@@ -12,6 +12,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#326](https://github.com/hl7ch/ch-vacd/issues/326): CH VACD Immunization Administration Composition - EPR?
 * [#325](https://github.com/hl7ch/ch-vacd/issues/325): CH VACD Immunization
 * [#323](https://github.com/hl7ch/ch-vacd/issues/323): Allergies and Intolerance values for Immunization
+* [#322](https://github.com/hl7ch/ch-vacd/issues/322): Typos
 * [#318](https://github.com/hl7ch/ch-vacd/issues/318): CH VACD Laboratory And Serology (Performer)
 
 ### STU 6, v6.0.0-ballot (2025-05-22)
