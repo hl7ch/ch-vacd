@@ -27,6 +27,8 @@ Description: "Definition of the immunization part for all documents."
 * occurrenceDateTime.extension contains $data-absent-reason named data-absent-reason 0..1 MS
 * occurrenceDateTime.extension[data-absent-reason] ^short = "occurrence[x] absence reason"
 * occurrenceDateTime.extension[data-absent-reason] ^definition = "Provides a reason why the occurrence is missing."
+* occurrenceString ^short = "Possibility to declare textual description - not structured"
+* occurrenceString ^definition = "Use this field as less as possible and only in cases you may really not declare structured information within the field occurrenceDateTime.  \nUsing occurrenceString without occurrenceDateTime breaks automated structured processing. This means i.e. decision support systems (CDS) may not make real evaluations for immunization recommendations.  \nFor some vaccinations where basic immunization templates exists, the declaration of fully vaccination according to the basic immunization plans can be done using the profile [CH VACD Basic Immunization](StructureDefinition-ch-vacd-basic-immunization.html)."
 * lotNumber MS
 * site MS
 * route MS
