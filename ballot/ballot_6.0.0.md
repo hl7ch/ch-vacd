@@ -25,7 +25,10 @@ During the ballot, 28 issues were reported for CH VACD:
 ### Terminology
 #### Issues
 * [Issue 323](https://github.com/hl7ch/ch-vacd/issues/323): Remove the semantic tag from Allergy and Intolerance ValueSet entries used for Immunization resources.
-#### Issue opened in CH TERM  
+#### Issue opened in CH TERM 
+* [Issue 118](https://github.com/hl7ch/ch-term/issues/118): CH VACD Swissmedic Authorized Immunglobuline Codes - Typo
+* [Issue 117](https://github.com/hl7ch/ch-term/issues/117): CH VACD Target disease and illnesses undergone for immunization - Remove SNOMED CT semantic tags 
+* [Issue 113](https://github.com/hl7ch/ch-term/issues/113): CH VACD Swissmedic Authorized Immunglobuline Codes - mapping missing
 * [Issue 109](https://github.com/hl7ch/ch-term/issues/109): CH VACD Target disease and illnesses undergone for immunization - mapping issues
 * [Issue 120](https://github.com/hl7ch/ch-term/issues/120): Concept Maps VaccineCode - Improvement of the description
 
@@ -39,6 +42,7 @@ During the ballot, 28 issues were reported for CH VACD:
 * [Issue 343](https://github.com/hl7ch/ch-vacd/issues/343): Use Case 3 Impfdossier Verifizieren Und Aktualisieren (Sang-Il Kim, BFH)
 * [Issue 342](https://github.com/hl7ch/ch-vacd/issues/342): Use Case 2 Impfung Dokumentieren (Sang-Il Kim, BFH)
 * [Issue 341](https://github.com/hl7ch/ch-vacd/issues/341): Use Case 1 Impfdokumentation Sichten (Sang-Il Kim, BFH)
+* [Issue 338](https://github.com/hl7ch/ch-vacd/issues/338): CH VACD Extension Merging Conflict Entry Reference - Duplicate Detection and Merging
 * [Issue 337](https://github.com/hl7ch/ch-vacd/issues/337): Immunization Administration Document - REST API/Resource-based exchange option (Will Schaefermeier, Epic)
 * [Issue 336](https://github.com/hl7ch/ch-vacd/issues/336): CH VACD Immunization - occurence[x]occurrenceString support (Will Schaefermeier, Epic)
 * [Issue 335](https://github.com/hl7ch/ch-vacd/issues/335): CH VACD Message Immunization Recommendation Request - What is the use case for optional elements? (Will Schaefermeier, Epic)
@@ -47,11 +51,8 @@ During the ballot, 28 issues were reported for CH VACD:
 ### Terminology
 ## Issue opened in CH TERM  
 * [Issue 121](https://github.com/hl7ch/ch-term/issues/121): CH VACD Swissmedic code for VaccineCode - Split SM and Old Codes into separate VS and include in this valueset.  
-* [Issue 118](https://github.com/hl7ch/ch-term/issues/118): CH VACD Swissmedic Authorized Immunglobuline Codes - Typo
-* [Issue 117](https://github.com/hl7ch/ch-term/issues/117): CH VACD Target disease and illnesses undergone for immunization - Remove SNOMED CT semantic tags  
 * [Issue 115](https://github.com/hl7ch/ch-term/issues/115): CH VACD Target disease and illnesses undergone for immunization - Missing translations
 * [Issue 114](https://github.com/hl7ch/ch-term/issues/114): CH VACD Swissmedic code for VaccineCode - Missing translations
-* [Issue 113](https://github.com/hl7ch/ch-term/issues/113): CH VACD Swissmedic Authorized Immunglobuline Codes - mapping missing
 
 ### Question
 * [Issue 340](https://github.com/hl7ch/ch-vacd/issues/340): Wording "Immunization Administration document" (Sang-Il Kim, BFH)
