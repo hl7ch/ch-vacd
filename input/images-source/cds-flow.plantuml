@@ -1,0 +1,25 @@
+@startuml
+title Clinical Decision Support Flow
+
+box "Source/Consumer" #fff36e
+participant "CDS Consumer" as CDC 
+end box
+
+box "Clinical Decision Support System" #e2ffbd
+participant "CDS Hoocks API" as CDSA
+participant "CDS RuleEngine" as CDSR
+end box
+
+activate CDC
+CDC -> CDSA: [[https://cds-hooks.hl7.org/ CDS Hoocks call]] with\n[[immunization-recommendation-request-message.html Immunization Recommendation Request Message]]
+activate CDSA
+CDSA -> CDSR: Execute rules on the data\nand build recommendation response
+activate CDSR
+CDSR --> CDSA: Rules Response
+deactivate CDSR
+CDSA -> CDSA: Build response
+CDSA --> CDC: [[https://cds-hooks.hl7.org/ CDS Hoocks response]] with\n[[immunization-recommendation-response-message.html Immunization Recommendation Response Message]]
+deactivate CDSA
+deactivate CDC
+
+@enduml
