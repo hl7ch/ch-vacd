@@ -298,7 +298,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Has contact with infant"
 
-* $sct#1254738003 "In contact with infant younger than 6 months (finding)"
+* $sct#1254738003 "Has contact with infant younger than 6 months"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Kontakt zu Säugling jünger als 6 Monate"
   * ^designation[+].language = #fr-CH
