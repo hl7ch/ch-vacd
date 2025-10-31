@@ -23,10 +23,10 @@ The following documents and messages have been defined:
 - [Immunization Recommendation Request message](immunization-recommendation-request-message.html)
 - [Immunization Recommendation Response message](immunization-recommendation-response-message.html)
 
-### FHIR Rest API
-Since this IG was created as a specification for a document-based exchange format, it does not contain any specific documentation on the FHIR Rest API.
+### FHIR RESTful API
+Since this IG was created as a specification for a document-based exchange format, it does not contain any specific documentation on the [FHIR RESTful API](https://hl7.org/fhir/http.html).
 
-Nevertheless, the resource profiles defined in this IG can be used in the context of a server with FHIR Rest API. This also includes uploading and downloading a ch-vacd document.
+Nevertheless, the resource profiles defined in this IG can be used in the context of a server with FHIR RESTful API. This also includes uploading and downloading a ch-vacd document.
 
 
 ### MustSupport
