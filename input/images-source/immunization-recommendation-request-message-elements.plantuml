@@ -1,0 +1,83 @@
+@startuml
+left to right direction
+
+card "[[StructureDefinition-ch-vacd-recommendation-request-message.html Bundle: Immunization Recommendation Request Message]]" as document #Orange {
+    
+    card "[[StructureDefinition-ch-vacd-recommendation-request-messageheader.html Entry: Immunization Recommendation Request MessageHeader]]" as composition #Lightblue  {
+
+        card focus {
+            card focus7
+            card focus6
+            card focus5
+            card focus4
+            card focus3
+            card focus2
+            card focus1
+        }
+        card sender
+        card destination.receiver
+        card responsible
+        card source
+
+    }
+
+    
+    card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr Entry: PractitionerRole]]" as practitionerrole #ec4d4dff {
+        card practitioner as practitioner1
+        card organization as organization1
+    }
+    card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr Entry: Practitioner]]" as practitioner #ec4d4dff {
+        card name1 [
+            ----
+            dr. med. hausarzt
+        ]
+    }
+    card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr Entry: Organization]]" as organization #ec4d4dff {
+        card name2 [
+            ----
+            praxis
+        ]
+    }
+    card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr Entry: Organization]]" as labor1 #ec4d4dff {
+        card name3 [
+            ----
+            labor
+        ]
+    }
+
+    card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr Entry: Patient]]" as patient #ec4d4dff {
+    }
+
+    card "[[StructureDefinition-ch-vacd-laboratory-serology.html Entry: LaborAndSerology]]" as laborandserology #ec4d4dff {
+    }
+
+
+    card "[[StructureDefinition-ch-vacd-immunization.html Entry: Immunization]]" as immunization1 #ec4d4dff {
+    }
+    card "[[StructureDefinition-ch-vacd-basic-immunization.html Entry: BasicImmunization]]" as basicimmunization #ec4d4dff {
+    }
+    card "[[StructureDefinition-ch-vacd-medical-problems.html Entry: MedicalProblem]]" as medicalproblem #ec4d4dff {
+    }
+    card "[[StructureDefinition-ch-vacd-pastillnesses.html Entry: PastIllness]]" as pastillness #ec4d4dff {
+    }
+    card "[[StructureDefinition-ch-vacd-allergyintolerances.html Entry: AllergyIntolerance]]" as allergyintolerance #ec4d4dff {
+    }
+    
+
+    sender "Reference"..> organization
+    responsible "Reference"..> practitionerrole
+    practitioner1 "Reference"..> practitioner
+    organization1 "Reference"..> organization
+
+    focus1 "Reference"..> patient
+    focus2 "Reference"..> immunization1
+    focus3 "Reference"..> basicimmunization
+    focus4 "Reference"..> medicalproblem
+    focus5 "Reference"..> pastillness
+    focus6 "Reference"..> allergyintolerance
+    focus7 "Reference"..> laborandserology
+
+    destination.receiver "Reference"..> labor1
+}
+
+@enduml
