@@ -4,11 +4,8 @@ The response may include all data of the request in addition to the Immunization
 
 
 ### Immunization Recommendation workflow
-Have a look at the 
-
-[CDS for immunization recommendation](CDS-immunization-recommendation.html) page
-
-for more details about the recommendations in the context of the vaccination/immunization process/workflow.
+Have a look at the [CDS for immunization recommendation](CDS-immunization-recommendation.html) page for more details about 
+the recommendations in the context of the vaccination/immunization process/workflow.
 
 
 ### FHIR message (Bundle)
