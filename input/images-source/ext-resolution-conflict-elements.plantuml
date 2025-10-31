@@ -1,0 +1,95 @@
+@startuml
+'left to right direction
+
+card "Document resolving conflicting entries\n[[Bundle-RDC03.html i.e. RDC03]]" as doc2 #LightBlue {
+    card "Entry: Immunization 2" as immun4 #LightGreen {
+        card attributes4 [
+        attributes:
+        ----
+        FSME-Immun CC
+        2023-01-01
+        entered-in-error
+        ]
+        card "extension:\n[[https://fhir.ch/ig/ch-core/StructureDefinition-ch-core-ext-entry-resource-cross-references.html Entry Resource Cross References]]" as crossreference1 #LightCoral {
+            card ext2url1 [
+            entry
+            container
+            relationcode
+            ]
+        }
+
+    }
+    card "Entry: Immunization 3" as immun5 #LightGreen {
+        card attributes5 [
+        attributes:
+        ----
+        FSME-Immun CC
+        2023-01-01
+        entered-in-error
+        ]
+        card "extension:\n[[https://fhir.ch/ig/ch-core/StructureDefinition-ch-core-ext-entry-resource-cross-references.html Entry Resource Cross References]]" as crossreference2 #LightCoral {
+            card ext2url2 [
+            entry
+            container
+            relationcode
+            ]
+        }
+    }
+}
+
+
+card "Document with conflicting entries\n[[Bundle-RDD03.html i.e. RDD03]]" as doc1 #LightBlue {
+
+
+    card "Entry: Immunization 3" as immun3 #LightGreen {
+        card attributes3 [
+        attributes:
+        ----
+        FSME-Immun CC
+        2023-01-01
+        completed
+        ]
+        card "extension:\n[[StructureDefinition-ch-vacd-ext-merging-conflict-entry-reference.html Merging Conflict Entry Reference]]" as extconflict3 #LightCoral {
+            card ext1url2 [
+            entry
+            conflict
+            ]
+        }
+        card "extension:\n[[StructureDefinition-ch-vacd-ext-merging-conflict-entry-reference.html Merging Conflict Entry Reference]]" as extconflict4 #LightCoral{
+            card ext1url3 [
+            entry
+            conflict
+            ]
+        }
+    }
+    card "Entry: Immunization 2" as immun2 #LightGreen {
+        card attributes2 [
+        FSME-Immun CC
+        2023-01-01
+        completed
+        ]
+        card "extension:\n[[StructureDefinition-ch-vacd-ext-merging-conflict-entry-reference.html Merging Conflict Entry Reference]]" as extconflict2 #LightCoral {
+            card ext1url1 [
+            entry
+            conflict
+            ]
+        }
+    }
+    card "Entry: Immunization 1" as immun1 #LightGreen {
+        card attributes1 [
+        attributes:
+        ----
+        FSME-Immun CC
+        2023-01-01
+        completed
+        ]
+    }
+
+    extconflict2 "Reference".> immun1 #Green
+    extconflict3 "Reference".> immun1 #Red
+    extconflict4 "Reference".> immun2 #Blue
+}
+
+doc1 --> doc2 : "<color:red><b>HCP resolves the conflicts by creating a new document</b></color>\n<color:red><b>with all corrective entries</b></color>" 
+
+@enduml

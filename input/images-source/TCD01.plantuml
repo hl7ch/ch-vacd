@@ -7,7 +7,7 @@ scale max 800 width
 
 box "eHealth Record Repository 1"
 actor "Patient" as PAT #blue
-participant "[[Bundle-D-D1-HCP1-C1.html Doc1\nAdmin\nD-D1-HCP1-C1" as Doc1 #lightblue
+participant "[[Bundle-D-D1-HCP1-C1.html Doc1\nAdmin\nD-D1-HCP1-C1]]" as Doc1 #lightblue
 participant "[[aggregator.html Aggregator]]" as AGG
 participant "[[Bundle-RDD01.html Result\nRecord\nRDD01]]" as RES #lightgreen
 end box

@@ -4,6 +4,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#354](https://github.com/hl7ch/ch-vacd/issues/354): Add URL's to Diagrams for easier interactions
 * [#346](https://github.com/hl7ch/ch-vacd/issues/346): Reorganize source structure
 * [#339](https://github.com/hl7ch/ch-vacd/issues/339): CH VACD Extension verificationStatus - textual change
+* [#338](https://github.com/hl7ch/ch-vacd/issues/338): CH VACD Extension Merging Conflict Entry Reference - Duplicate Detection and Merging
 * [#336](https://github.com/hl7ch/ch-vacd/issues/336): CH VACD Immunization - occurence[x]occurrenceString support 
 * [#333](https://github.com/hl7ch/ch-vacd/issues/333): Fix various typos
 * [#330](https://github.com/hl7ch/ch-vacd/issues/330): Immunization Administration Document - missing Profiles
