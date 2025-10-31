@@ -17,6 +17,8 @@ During the ballot, 28 issues were reported for CH VACD:
 
 ### Documentation (profiles/texts/examples)
 * [Issue 339](https://github.com/hl7ch/ch-vacd/issues/339): CH VACD Extension verificationStatus (Gabriel Hess, BFH)
+* [Issue 338](https://github.com/hl7ch/ch-vacd/issues/338): CH VACD Extension Merging Conflict Entry Reference - Duplicate Detection and Merging
+* [Issue 336](https://github.com/hl7ch/ch-vacd/issues/336): CH VACD Immunization - occurence[x]occurrenceString support (Will Schaefermeier, Epic)
 * [Issue 333](https://github.com/hl7ch/ch-vacd/issues/333): Various typos
 * [Issue 325](https://github.com/hl7ch/ch-vacd/issues/325): Add Validation Rule: Keeping the status for patient comments.
 * [Issue 322](https://github.com/hl7ch/ch-vacd/issues/322): Typos
@@ -36,15 +38,16 @@ During the ballot, 28 issues were reported for CH VACD:
 * [Issue 326](https://github.com/hl7ch/ch-vacd/issues/326): Question regarding the restriction of the composition to EPR
 * [Issue 324](https://github.com/hl7ch/ch-vacd/issues/324): Harmonize the verificationStatus ValueSets.
 
+
+
 ## Open
 ### Profiling
 ### Documentation (profiles/texts/examples)
 * [Issue 343](https://github.com/hl7ch/ch-vacd/issues/343): Use Case 3 Impfdossier Verifizieren Und Aktualisieren (Sang-Il Kim, BFH)
 * [Issue 342](https://github.com/hl7ch/ch-vacd/issues/342): Use Case 2 Impfung Dokumentieren (Sang-Il Kim, BFH)
 * [Issue 341](https://github.com/hl7ch/ch-vacd/issues/341): Use Case 1 Impfdokumentation Sichten (Sang-Il Kim, BFH)
-* [Issue 338](https://github.com/hl7ch/ch-vacd/issues/338): CH VACD Extension Merging Conflict Entry Reference - Duplicate Detection and Merging
 * [Issue 337](https://github.com/hl7ch/ch-vacd/issues/337): Immunization Administration Document - REST API/Resource-based exchange option (Will Schaefermeier, Epic)
-* [Issue 336](https://github.com/hl7ch/ch-vacd/issues/336): CH VACD Immunization - occurence[x]occurrenceString support (Will Schaefermeier, Epic)
+
 * [Issue 335](https://github.com/hl7ch/ch-vacd/issues/335): CH VACD Message Immunization Recommendation Request - What is the use case for optional elements? (Will Schaefermeier, Epic)
 * [Issue 332](https://github.com/hl7ch/ch-vacd/issues/332): Role of the EHR/KIS regarding Immunization Recommendation
 
