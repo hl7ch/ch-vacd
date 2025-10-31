@@ -40,7 +40,7 @@ Description: "Laboratory Serology for immunization"
   * ^designation[=].value = "virus da la rubella IgG Ab [titer] en il serum"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "Rubella virus IgG Ab [Titer] in Serum"
-* $loinc#22313-1 "Hepatitis A virus IgG Ab [Units/volume] in SerumActive"
+* $loinc#22313-1 "Hepatitis A virus IgG Ab [Units/volume] in Serum"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Hepatitis-A-Virus IgG Ab [Einheiten/Volumen] in SerumAktiv"
   * ^designation[+].language = #fr-CH

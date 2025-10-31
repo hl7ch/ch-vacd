@@ -1,0 +1,67 @@
+@startuml
+left to right direction
+
+card "[[StructureDefinition-ch-vacd-recommendation-response-message.html Bundle: Immunization Recommendation Response Message]]" as document #Orange {
+    card "[[StructureDefinition-ch-vacd-recommendation-response-messageheader.html Entry: Immunization Recommendation Response MessageHeader]]" as composition #Lightblue  {
+        card sender
+        card destination.receiver
+        card responsible
+        
+        card focus {
+            card focus3
+            card focus2
+            card focus1
+        }
+       
+
+    }
+
+    card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr Entry: Organization]]" as labor1 #ec4d4dff {
+        card name1 [
+            ----
+            labor
+        ]
+    }
+
+    card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr Entry: PractitionerRole]]" as practitionerrole #ec4d4dff {
+        card practitioner as practitioner1
+        card organization as organization1
+    }
+    card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr Entry: Practitioner]]" as practitioner #ec4d4dff {
+        card name2 [
+            ----
+            dr. med. hausarzt
+        ]
+    }
+    card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr Entry: Organization]]" as organization #ec4d4dff {
+        card name3 [
+            ----
+            praxis
+        ]
+    }
+
+    card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr Entry: Patient]]" as patient #ec4d4dff {
+    }
+
+    card "[[StructureDefinition-ch-vacd-immunization-recommendation.html Entry: ImmunizationRecommendation]]" as immunizationrecommendation1 #ec4d4dff {
+    }
+    card "[[StructureDefinition-ch-vacd-immunization-recommendation.html Entry: ImmunizationRecommendation]]" as immunizationrecommendation2 #ec4d4dff {
+    }
+    card "[[StructureDefinition-ch-vacd-immunization-recommendation.html Entry: ImmunizationRecommendation]]" as immunizationrecommendation3 #ec4d4dff {
+    }
+
+}
+
+focus1 "Reference"..> immunizationrecommendation1
+focus2 "Reference"..> immunizationrecommendation2
+focus3 "Reference"..> immunizationrecommendation3
+
+sender "Reference"..> labor1
+responsible "Reference"..> labor1
+
+
+destination.receiver "Reference"..> practitionerrole
+practitioner1 "Reference"..> practitioner
+organization1 "Reference"..> organization
+
+@enduml
