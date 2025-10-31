@@ -1,0 +1,28 @@
+@startuml
+
+title Resolution of conflicting entries
+skinparam responseMessageBelowArrow true
+
+actor "Healthcare Provider" as HCP #blue
+
+participant "[[aggregator.html Aggregation]] Result\nwith conflicts\ni.e.[[Bundle-RDD03.html Result Record RDD03]]" as RES #lightgreen
+participant "Corrective Document\n[[immunization-administration-document.html Immunization Administration]]" as COR #orange
+
+participant "Data Repository" as repo #lightblue
+
+
+HCP -> RES : Reviews document
+activate RES
+HCP <-- RES : identifies conflicting entries
+deactivate RES
+HCP -> COR : Create new [[immunization-administration-document.html Immunization Administration]] document
+activate COR
+HCP -> COR : add entries for resolving conflicts\n(e.g. setting status entered-in-error)
+HCP <-- COR : new document created
+deactivate
+HCP -> repo : submits corrective document
+activate repo
+HCP <-- repo : stores corrective document
+deactivate repo
+
+@enduml
