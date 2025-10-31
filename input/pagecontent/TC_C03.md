@@ -22,4 +22,4 @@ In the [resulting document](Bundle-RDC03.html) only the new/corrected immunizati
 * [Result. Document C 03b](Bundle-RDC03b.html)
 
 ### Entries
-* [Medical Risk Condition](TCC03_EXPRISK1)(Condition-TCC03-EXPRISK1.html)
+* [Medical Risk Condition](Condition-TCC03-EXPRISK1.html)
