@@ -2,7 +2,7 @@ Profile: CHVACDBasicImmunization
 Parent: CHVACDCondition
 Id: ch-vacd-basic-immunization
 Title: "CH VACD Basic Immunization"
-Description: "Condition to declare Basic Immunization done by one single condition for DTPa or Polio. This is for cases the patient does not have a vaccination certificate to declare it, but knows that it is done."
+Description: "Condition to declare Basic Immunization done by one single condition for the declared vaccinations according to the ValueSet [Basic Immunization Codes](ValueSet-ch-vacd-basic-immunization-vs.html).  \nThis is for cases the patient does not have a vaccination certificate to declare, but knows that it is done."
 * ^version = "0.1.0"
 * ^status = #draft
 * ^experimental = false
