@@ -18,6 +18,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#323](https://github.com/hl7ch/ch-vacd/issues/323): Allergies and Intolerance values for Immunization
 * [#322](https://github.com/hl7ch/ch-vacd/issues/322): Typos
 * [#318](https://github.com/hl7ch/ch-vacd/issues/318): CH VACD Laboratory And Serology (Performer)
+* [#341](https://github.com/hl7ch/ch-vacd/issues/341): Use Case 1 Impfdokumentation Sichten
 
 ### STU 6, v6.0.0-ballot (2025-05-22)
 
