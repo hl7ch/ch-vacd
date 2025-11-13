@@ -4,6 +4,9 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 * [#354](https://github.com/hl7ch/ch-vacd/issues/354): Add URL's to Diagrams for easier interactions
 * [#346](https://github.com/hl7ch/ch-vacd/issues/346): Reorganize source structure
+* [#343](https://github.com/hl7ch/ch-vacd/issues/343): Use Case 3 Impfdossier Verifizieren Und Aktualisieren
+* [#342](https://github.com/hl7ch/ch-vacd/issues/342): Use Case 2 Impfung Dokumentieren
+* [#341](https://github.com/hl7ch/ch-vacd/issues/341): Use Case 1 Impfdokumentation Sichten
 * [#339](https://github.com/hl7ch/ch-vacd/issues/339): CH VACD Extension verificationStatus - textual change
 * [#338](https://github.com/hl7ch/ch-vacd/issues/338): CH VACD Extension Merging Conflict Entry Reference - Duplicate Detection and Merging
 * [#336](https://github.com/hl7ch/ch-vacd/issues/336): CH VACD Immunization - occurence[x]occurrenceString support 
@@ -18,7 +21,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#323](https://github.com/hl7ch/ch-vacd/issues/323): Allergies and Intolerance values for Immunization
 * [#322](https://github.com/hl7ch/ch-vacd/issues/322): Typos
 * [#318](https://github.com/hl7ch/ch-vacd/issues/318): CH VACD Laboratory And Serology (Performer)
-* [#341](https://github.com/hl7ch/ch-vacd/issues/341): Use Case 1 Impfdokumentation Sichten
+
 
 ### STU 6, v6.0.0-ballot (2025-05-22)
 
