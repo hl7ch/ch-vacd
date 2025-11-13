@@ -16,6 +16,9 @@ During the ballot, 28 issues were reported for CH VACD:
 * [Issue 327](https://github.com/hl7ch/ch-vacd/issues/327): The note section "Immunization " should follow the "PastIllness" specification,as the author does not refer to CH CORE.
 
 ### Documentation (profiles/texts/examples)
+* [Issue 343](https://github.com/hl7ch/ch-vacd/issues/343): Use Case 3 Impfdossier Verifizieren Und Aktualisieren (Sang-Il Kim, BFH)
+* [Issue 342](https://github.com/hl7ch/ch-vacd/issues/342): Use Case 2 Impfung Dokumentieren (Sang-Il Kim, BFH)
+* [Issue 341](https://github.com/hl7ch/ch-vacd/issues/341): Use Case 1 Impfdokumentation Sichten (Sang-Il Kim, BFH)
 * [Issue 339](https://github.com/hl7ch/ch-vacd/issues/339): CH VACD Extension verificationStatus (Gabriel Hess, BFH)
 * [Issue 338](https://github.com/hl7ch/ch-vacd/issues/338): CH VACD Extension Merging Conflict Entry Reference - Duplicate Detection and Merging
 * [Issue 337](https://github.com/hl7ch/ch-vacd/issues/337): Immunization Administration Document - REST API/Resource-based exchange option (Will Schaefermeier, Epic)
@@ -40,6 +43,7 @@ During the ballot, 28 issues were reported for CH VACD:
 * [Issue 109](https://github.com/hl7ch/ch-term/issues/109): CH VACD Target disease and illnesses undergone for immunization - mapping issues
 
 ### Question
+* [Issue 340](https://github.com/hl7ch/ch-vacd/issues/340): Wording "Immunization Administration document" (Sang-Il Kim, BFH)
 * [Issue 326](https://github.com/hl7ch/ch-vacd/issues/326): Question regarding the restriction of the composition to EPR
 * [Issue 324](https://github.com/hl7ch/ch-vacd/issues/324): Harmonize the verificationStatus ValueSets.
 
@@ -47,17 +51,12 @@ During the ballot, 28 issues were reported for CH VACD:
 ## Open
 ### Profiling
 ### Documentation (profiles/texts/examples)
-* [Issue 343](https://github.com/hl7ch/ch-vacd/issues/343): Use Case 3 Impfdossier Verifizieren Und Aktualisieren (Sang-Il Kim, BFH)
-* [Issue 342](https://github.com/hl7ch/ch-vacd/issues/342): Use Case 2 Impfung Dokumentieren (Sang-Il Kim, BFH)
-* [Issue 341](https://github.com/hl7ch/ch-vacd/issues/341): Use Case 1 Impfdokumentation Sichten (Sang-Il Kim, BFH)
 
 ### Terminology
 ## Issue opened in CH TERM  
 * [Issue 121](https://github.com/hl7ch/ch-term/issues/121): CH VACD Swissmedic code for VaccineCode - Split SM and Old Codes into separate VS and include in this valueset.  
 
 ### Question
-* [Issue 340](https://github.com/hl7ch/ch-vacd/issues/340): Wording "Immunization Administration document" (Sang-Il Kim, BFH)
-
 
 ## Negative comments
 * [Issue 332](https://github.com/hl7ch/ch-vacd/issues/332): Role of the EHR/KIS regarding Immunization Recommendation
