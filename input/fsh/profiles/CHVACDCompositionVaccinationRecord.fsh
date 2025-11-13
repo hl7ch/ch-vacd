@@ -36,13 +36,7 @@ Description: "Definition of the composition for the vaccination record document.
 * confidentiality.extension ^slicing.discriminator.path = "url"
 * confidentiality.extension ^slicing.rules = #open
 * confidentiality.extension[confidentialityCode] ^short = "Swiss realm of confidentiality code according to the Swiss EPR regulation"
-* attester ^slicing.discriminator.type = #value
-* attester ^slicing.discriminator.path = "mode"
-* attester ^slicing.rules = #open
 * attester ^short = "The authenticator of the document (person)"
-* attester[legalAuthenticator] ^short = "The legal authenticator of the document (person)"
-* attester[legalAuthenticator].time ^short = "Timestamp of the signature"
-* attester[legalAuthenticator].party ^short = "Who attested the composition"
 * custodian ^short = "The organization in whose name the document has been created"
 * relatesTo ^short = "Relationships to other compositions in order to replace other documents or fix/correct elements of an other document."
 * relatesTo ^definition = "Relationships to other compositions in order to replace other documents or fix/correct elements of an other document."
