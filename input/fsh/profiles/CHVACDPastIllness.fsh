@@ -9,7 +9,7 @@ Description: "Definition of the past illness part for all documents."
 * ^publisher = "eHealth Suisse"
 * . ^short = "CH VACD Past Illness Conditions"
 * category 0..0
-* clinicalStatus 1..1
+//* clinicalStatus 1..1
 * clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#resolved
 * clinicalStatus ^short = "Resolved"
 * verificationStatus MS
@@ -29,3 +29,10 @@ Description: "Definition of the past illness part for all documents."
 * evidence.code MS
 * note MS
 * note.author[x] MS
+
+//* obeys ch-vacd-pastillnesses-1
+//
+//Invariant: ch-vacd-pastillnesses-1
+//Description: ""
+//Severity: #warning
+//Expression: "verificationStatus"
