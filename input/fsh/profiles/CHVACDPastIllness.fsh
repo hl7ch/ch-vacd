@@ -10,8 +10,8 @@ Description: "Definition of the past illness part for all documents."
 * . ^short = "CH VACD Past Illness Conditions"
 * category 0..0
 //* clinicalStatus 1..1
-* clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#resolved
-* clinicalStatus ^short = "Resolved"
+//* clinicalStatus = http://terminology.hl7.org/CodeSystem/condition-clinical#resolved
+//* clinicalStatus ^short = "Resolved"
 * verificationStatus MS
 * severity MS
 * code MS
@@ -29,10 +29,9 @@ Description: "Definition of the past illness part for all documents."
 * evidence.code MS
 * note MS
 * note.author[x] MS
+* obeys ch-vacd-pastillnesses-1
 
-//* obeys ch-vacd-pastillnesses-1
-//
-//Invariant: ch-vacd-pastillnesses-1
-//Description: ""
-//Severity: #warning
-//Expression: "verificationStatus"
+Invariant: ch-vacd-pastillnesses-1
+Description: "If Condition.clinicalStatus is present the code SHALL be set to resolved"
+Severity: #error
+Expression: "(clinicalStatus.exists() and clinicalStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-clinical' and code = 'resolved').exists()) or verificationStatus.coding.where(system='http://terminology.hl7.org/CodeSystem/condition-ver-status'and code = 'entered-in-error').exists()"
