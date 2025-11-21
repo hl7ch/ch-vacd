@@ -2,6 +2,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 6, v6.0.0 (2025-12)
 
+* [#367](https://github.com/hl7ch/ch-vacd/issues/367): Conflict between verificationStatus “entered-in-error” and clinicalStatus in CH VACD Past Illness Profile
 * [#354](https://github.com/hl7ch/ch-vacd/issues/354): Add URL's to Diagrams for easier interactions
 * [#346](https://github.com/hl7ch/ch-vacd/issues/346): Reorganize source structure
 * [#343](https://github.com/hl7ch/ch-vacd/issues/343): Use Case 3 Impfdossier Verifizieren Und Aktualisieren
