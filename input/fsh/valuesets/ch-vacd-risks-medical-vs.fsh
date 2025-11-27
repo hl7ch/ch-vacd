@@ -152,7 +152,7 @@ Description: "The medical risks used in Switzerland."
   * ^designation[+].language = #en-US
   * ^designation[=].value = "At increased risk of exposure to Neisseria meningitidis"
 
-* $sct#1237024002 "At increased risk of exposure to rabies virus (finding)"
+* $sct#1237024002 "At increased risk of exposure to Rabies virus"
   * ^designation[0].language = #de-CH
   * ^designation[=].value = "Erhöhtes Expositionsrisiko für Tollwut"
   * ^designation[+].language = #fr-CH
