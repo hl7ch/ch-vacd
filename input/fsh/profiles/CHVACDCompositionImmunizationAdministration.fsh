@@ -11,8 +11,6 @@ Description: "Definition of the composition for the  immunization administration
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
-* extension[informationRecipient] ^short = "A recipient of this document (person or organization)"
-* extension[informationRecipient] ^min = 0
 * extension[dataEnterer] ^short = "Person who entered information into this document if it is a person other than the author"
 * identifier ^short = "Unique identification number"
 * identifier ^example.label = "CH VACD"
@@ -27,9 +25,9 @@ Description: "Definition of the composition for the  immunization administration
 * subject ^short = "A patient for whom this document instance was created"
 * date ^short = "The document's creation date and time"
 * author ^short = "The author of the document (person or device)"
-* author.extension 0..1
-* author.extension only EPRTime
-* author.extension ^short = "Timestamp of the authorship/data input"
+//* author.extension 0..1
+//* author.extension only EPRTime
+//* author.extension ^short = "Timestamp of the authorship/data input"
 * title ^short = "'Verabreichte Impfung' in german or 'Vaccin administré' in french or 'Vaccinazione somministrata' in italian or 'Immunization Administration' in english\n                        or titles in other languages are also allowed"
 // * confidentiality.extension ^slicing.discriminator.type = #value
 // * confidentiality.extension ^slicing.discriminator.path = "url"
