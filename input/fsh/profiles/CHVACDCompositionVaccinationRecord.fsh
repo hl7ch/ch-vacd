@@ -11,8 +11,6 @@ Description: "Definition of the composition for the vaccination record document.
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
-* extension[informationRecipient] ^short = "A recipient of this document (person or organization)"
-* extension[informationRecipient] ^min = 0
 * extension[dataEnterer] ^short = "Person who entered information into this document if it is a person other than the author"
 * extension[dataEnterer] ^min = 0
 * identifier ^short = "Unique identification number"
