@@ -10,7 +10,7 @@ participant "HIS/EMR/EPR" as EHR
 end box
 
 box "Clinical Decision Support System" #e2ffbd
-participant "CDS Hoocks API" as CDSA
+participant "CDS Hooks API" as CDSA
 participant "CDS RuleEngine" as CDSR
 end box
 
@@ -20,14 +20,14 @@ activate EHR
 EHR --> CDC: Patient data
 deactivate EHR
 CDC -> CDC: Build\n[[immunization-recommendation-request-message.html Immunization Recommendation\nRequest Message]]
-CDC -> CDSA: [[https://cds-hooks.hl7.org/ CDS Hoocks call]] with\n[[immunization-recommendation-request-message.html Immunization Recommendation Request Message]]
+CDC -> CDSA: [[https://cds-hooks.hl7.org/ CDS Hooks call]] with\n[[immunization-recommendation-request-message.html Immunization Recommendation Request Message]]
 activate CDSA
 CDSA -> CDSR: Execute rules on the data\nand build recommendation response
 activate CDSR
 CDSR --> CDSA: Rules Response
 deactivate CDSR
 CDSA -> CDSA: Build response
-CDSA --> CDC: [[https://cds-hooks.hl7.org/ CDS Hoocks response]] with\n[[immunization-recommendation-response-message.html Immunization Recommendation Response Message]]\n and readable representation as text/PDF
+CDSA --> CDC: [[https://cds-hooks.hl7.org/ CDS Hooks response]] with\n[[immunization-recommendation-response-message.html Immunization Recommendation Response Message]]\n and readable representation as text/PDF
 deactivate CDSA
 deactivate CDC
 
