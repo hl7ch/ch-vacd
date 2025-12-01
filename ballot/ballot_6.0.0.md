@@ -33,7 +33,8 @@ During the ballot, 28 issues were reported for CH VACD:
 ### Terminology
 #### Issues
 * [Issue 323](https://github.com/hl7ch/ch-vacd/issues/323): Remove the semantic tag from Allergy and Intolerance ValueSet entries used for Immunization resources.
-#### Issue opened in CH TERM 
+#### Issue opened in CH TERM
+* [Issue 121](https://github.com/hl7ch/ch-term/issues/121): CH VACD Swissmedic code for VaccineCode - Split SM and Old Codes into separate VS and include in this valueset.  
 * [Issue 120](https://github.com/hl7ch/ch-term/issues/120): Concept Maps VaccineCode - Improvement of the description
 * [Issue 118](https://github.com/hl7ch/ch-term/issues/118): CH VACD Swissmedic Authorized Immunglobuline Codes - Typo
 * [Issue 117](https://github.com/hl7ch/ch-term/issues/117): CH VACD Target disease and illnesses undergone for immunization - Remove SNOMED CT semantic tags 
@@ -51,11 +52,8 @@ During the ballot, 28 issues were reported for CH VACD:
 ## Open
 ### Profiling
 ### Documentation (profiles/texts/examples)
-
 ### Terminology
-## Issue opened in CH TERM  
-* [Issue 121](https://github.com/hl7ch/ch-term/issues/121): CH VACD Swissmedic code for VaccineCode - Split SM and Old Codes into separate VS and include in this valueset.  
-
+## Issue opened in CH TERM
 ### Question
 
 ## Negative comments
