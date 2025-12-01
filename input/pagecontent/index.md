@@ -7,11 +7,7 @@ Using as much as possible international code systems like SNOMED CT®, LOINC, ED
 
 <div markdown="1" class="stu-note">
 
-This implementation guide is under ballot resolution. The [resolution desk](https://github.com/hl7ch/ch-vacd/blob/master/ballot/ballot_6.0.0.md) shows the progress of the resolution process.
-
 [Changelog](changelog.html) with significant changes, open and closed issues.
-
-Please add your feedback via the ‘Propose a change’-link in the footer on the page where you have comments.
 
 </div>
 
