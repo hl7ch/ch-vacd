@@ -1,6 +1,6 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
-### STU 6, v6.0.0 (2025-12-15)
+### STU 6, v6.0.0 (2025-12-16)
 
 * [#373](https://github.com/hl7ch/ch-vacd/issues/373): Fix latest errors
 * [#367](https://github.com/hl7ch/ch-vacd/issues/367): Conflict between verificationStatus “entered-in-error” and clinicalStatus in CH VACD Past Illness Profile
