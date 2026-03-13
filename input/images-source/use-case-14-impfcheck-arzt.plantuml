@@ -1,0 +1,34 @@
+@startuml
+scale max 800 width
+<style>
+element {MinimumWidth 200}
+</style>
+
+|Arzt in Interaktion mit Patient|
+start
+|#LightBlue|PIS|
+:Arzt aktualisiert Impfdaten; 
+:Arzt ruft Impfcheck auf;
+
+|#AntiqueWhite|Impfcheck|
+:Impfcheck zeigt Impfstatus an;
+:Impfcheck zeigt Empfehlungen an;
+
+|Arzt in Interaktion mit Patient|
+:Arzt bespricht Empfehlungen mit Patient;
+if (Patient möchte Impfung durchführen) then (Ja)
+  :Arzt führt Impfung durch;
+  |#LightBlue|PIS|
+  :Arzt dokumentiert Impfung;
+  |Arzt in Interaktion mit Patient|
+else (Nein)
+  |PIS|
+  :Arzt dokumentiert Ablehnungsgrund;
+  |Arzt in Interaktion mit Patient|
+endif
+
+stop
+
+
+@enduml
+
