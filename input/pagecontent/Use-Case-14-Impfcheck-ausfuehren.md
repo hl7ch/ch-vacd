@@ -13,7 +13,7 @@ Falls eine Impfempfehlung besteht und der Patient die Impfung wünscht, führt d
 
 Falls eine Impfempfehlung besteht und der Patient die Impfung ablehnt, dokumentiert die Gesundheitsfachperson dies ebenfalls im System.
 
-Abschliessend stellt die Gesundheitsfachpersondem Patienten das aktualisierte Impfdossier im Austauschformat Impfdossier zur verfügung.
+
 
 ### Impfcheck ausführen (Patient)
 
