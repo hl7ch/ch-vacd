@@ -1,0 +1,16 @@
+@startuml
+
+'left to right direction
+
+card "[[StructureDefinition-ch-vacd-immunization.html Immunization]]" as Immunization #LightYellow {
+  card "[[StructureDefinition-ch-vacd-ext-immunization-medication-reference.html extension:medication]]" as medication #LightBlue
+  card "vaccineCode"
+}
+
+card "[[StructureDefinition-ch-vacd-medication-for-immunization.html Medication for Immunization]]" as MedicationImmunization #LightBlue {
+  card "coding:GTIN"
+}
+
+medication "Reference"..> MedicationImmunization
+
+@enduml
