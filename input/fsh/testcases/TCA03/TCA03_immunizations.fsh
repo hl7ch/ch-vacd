@@ -12,8 +12,8 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)
-* extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].valueCoding = $sct#76104008 "Not confirmed"
+* modifierExtension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
+* modifierExtension[=].valueCoding = $sct#59156000 "Confirmed"
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "74b1e856-c0fb-47da-aab1-08541eacc21c"
 * status = #completed

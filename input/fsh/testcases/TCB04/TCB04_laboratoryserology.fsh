@@ -8,8 +8,8 @@ Title: "Laboratory And Serology Labresult"
 Description: "Example Observation for Hepatitis B virus surface Ab"
 Usage: #example
 * id = "TCB04-LABRES1"
-* extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].valueCoding = $sct#59156000 "Confirmed"
+* modifierExtension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
+* modifierExtension[=].valueCoding = $sct#59156000 "Confirmed"
 * status = #final
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "135f604f-f5c8-4e9b-a49b-5f34cdb9cf60"

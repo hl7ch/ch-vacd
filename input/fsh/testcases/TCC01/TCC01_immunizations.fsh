@@ -12,12 +12,9 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
-* extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].valueCoding = $sct#76104008 "Not confirmed"
-
 // TCA01_IMMUN1_patient
 // A_D1_P_C1_Composition
-* extension[3].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
+* extension[2].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-ext-entry-resource-cross-references"
 * extension[=].extension[+].url = "entry"
 * extension[=].extension[=].valueReference.identifier.system = "urn:oid:2.999.1.2.3.4"
 * extension[=].extension[=].valueReference.identifier.value = "acc1f090-5e0c-45ae-b283-521d57c3aa2f"
@@ -28,6 +25,8 @@ Usage: #example
 * extension[=].extension[=].valueReference.type = ResourceType#Composition
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
+* modifierExtension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
+* modifierExtension[=].valueCoding = $sct#59156000 "Confirmed"
 
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "375532dc-7e74-40dd-8564-3261e8d26603"
@@ -58,8 +57,8 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
-* extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].valueCoding = $sct#76104008 "Not confirmed"
+* modifierExtension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
+* modifierExtension[=].valueCoding = $sct#59156000 "Confirmed"
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "375532dc-7e74-40dd-8564-3261e8d26603"
 * status = #completed
