@@ -1,6 +1,6 @@
 @startuml
 
-scale max 600 width
+scale max 800 width
 
 rectangle "[[https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-swissmedic-cs.html SwissMedic VaccineCode]]" as SMVC #LightBlue
 rectangle "[[https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-old-swiss-cs.html Old Swiss VaccineCode]]" as OSVC #LightBlue
