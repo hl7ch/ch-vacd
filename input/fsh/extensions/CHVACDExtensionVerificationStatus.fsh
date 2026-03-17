@@ -5,6 +5,7 @@ Description: "Extension to define the verificationStatus on resources not defini
 * . ^short = "Verification Status"
 * . ^definition = "Extension to define the verificationStatus on resources not defining this field like Immunization and Observation.  \nWith the verificationStatus, practitioners can express that they verified the data added by a patient or related person."
 * . ^isModifier = true
+* . ^isModifierReason = "The status \"Confirmed by\" or \"Not Confirmed by\" changes the meaning of the resource. On Status \"Not Confirmed by\" the information in this resource instance is not confirmed by a health professional."
 * ^context[+].type = #element
 * ^context[=].expression = "Immunization"
 * ^context[+].type = #element
