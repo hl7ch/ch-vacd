@@ -19,6 +19,9 @@ The criterias of duplicate detection can be found [here](StructureDefinition-ch-
 
 ### Medication resource
 
-To document the vaccine product, the medication profile [CH VACD Medication For Immunization](StructureDefinition-ch-vacd-medication-for-immunization.html) may be used and the resource can be referenced here by using the  [CH VACD Extension Immunization Medication Reference ](StructureDefinition-ch-vacd-ext-immunization-medication-reference.html).
+To document the specific vaccine product (for example, identified by a GTIN), the [CH VACD Medication For Immunization](StructureDefinition-ch-vacd-medication-for-immunization.html) profile can be used.
+
+The resulting Medication resource can then be referenced here using the extendsion [CH VACD Extension Immunization Medication Reference ](StructureDefinition-ch-vacd-ext-immunization-medication-reference.html).
 
 <div>{% include ext-immunization-medication-reference.svg %}</div>
+
