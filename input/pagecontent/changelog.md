@@ -1,6 +1,7 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
 ### STU 7, v7.0.0-ballot (unreleased)
+* [#384](https://github.com/hl7ch/ch-vacd/issues/384): CH VACD Extension verificationStatus - extend scope&usage
 
 ### STU 6, v6.0.0 (2025-12-16)
 
