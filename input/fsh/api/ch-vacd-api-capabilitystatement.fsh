@@ -1,4 +1,4 @@
-Instance: CHVACDApiCapabilityStatement
+Instance: ch-vacd-api-capability-statement
 InstanceOf: CapabilityStatement
 Usage: #definition
 * name = "CHVACDApiCapabilityStatement"
@@ -9,13 +9,12 @@ Usage: #definition
 * fhirVersion = #4.0.1
 * format[0] = #application/fhir+xml
 * format[+] = #application/fhir+json
+* description = "CapabilityStatement for CH VACD API (server)."
 * rest.mode = #server
-* implementationGuide = "ch.fhir.ig.ch-vacd"
 
 * rest.documentation = "The server will handle all resources and also complete vaccination documents"
 
 * rest.resource[0].type = #AllergyIntolerance
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance"
 * rest.resource[=].supportedProfile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances"
 * rest.resource[=].interaction[0].code = #update
 * rest.resource[=].interaction[+].code = #search-type
@@ -30,7 +29,6 @@ Usage: #definition
 * rest.resource[=].searchParam[=].documentation = "Who the sensitivity is for"
 
 * rest.resource[+].type = #Condition
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Condition"
 * rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-basic-immunization"
 * rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems"
 * rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-pastillnesses"
@@ -47,7 +45,6 @@ Usage: #definition
 * rest.resource[=].searchParam[=].documentation = "Who has the condition?"
 
 * rest.resource[+].type = #Immunization
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Immunization"
 * rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"
 * rest.resource[=].interaction[0].code = #update
 * rest.resource[=].interaction[+].code = #search-type
@@ -62,7 +59,6 @@ Usage: #definition
 * rest.resource[=].searchParam[=].documentation = "Vaccine Product Administered"
 
 * rest.resource[+].type = #Observation
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Observation"
 * rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology"
 * rest.resource[=].interaction[0].code = #update
 * rest.resource[=].interaction[+].code = #search-type
@@ -81,7 +77,6 @@ Usage: #definition
 * rest.resource[=].searchInclude = "*"
 
 * rest.resource[+].type = #Organization
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Organization"
 * rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr"
 * rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"
 * rest.resource[=].interaction[0].code = #update
@@ -94,7 +89,6 @@ Usage: #definition
 * rest.resource[=].searchParam.documentation = "A portion of the organization's name or alias"
 
 * rest.resource[+].type = #Patient
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Patient"
 * rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr"
 * rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"
 * rest.resource[=].interaction[0].code = #update
@@ -109,14 +103,13 @@ Usage: #definition
 * rest.resource[=].searchParam[=].type = #string
 * rest.resource[=].searchParam[=].documentation = "A portion of the given name of the patient"
 * rest.resource[=].operation[0].name = "vaccination-record"
-* rest.resource[=].operation[=].definition = "Patient.VaccinationRecord"
+* rest.resource[=].operation[=].definition = "http://fhir.ch/ig/ch-vacd/OperationDefinition/ch-vacd-operation-vaccination-record"
 * rest.resource[=].operation[=].documentation = "Generate a Vaccination Record document"
 * rest.resource[=].operation[+].name = "immunization-recommendation-request"
-* rest.resource[=].operation[=].definition = "Patient.ImmunizationRecommendationRequest"
+* rest.resource[=].operation[=].definition = "http://fhir.ch/ig/ch-vacd/OperationDefinition/ch-vacd-operation-immunization-recommendation-request"
 * rest.resource[=].operation[=].documentation = "Generate a Immunization Request message"
 
 * rest.resource[+].type = #Practitioner
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Practitioner"
 * rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr"
 * rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"
 * rest.resource[=].interaction[0].code = #update
@@ -129,7 +122,6 @@ Usage: #definition
 * rest.resource[=].searchParam.documentation = "A portion of the family name"
 
 * rest.resource[+].type = #PractitionerRole
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/PractitionerRole"
 * rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr"
 * rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole"
 * rest.resource[=].interaction[0].code = #update
@@ -141,7 +133,6 @@ Usage: #definition
 * rest.resource[=].searchParam.type = #string
 
 * rest.resource[+].type = #RelatedPerson
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/RelatedPerson"
 * rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-relatedperson"
 * rest.resource[=].interaction[0].code = #update
 * rest.resource[=].interaction[+].code = #search-type
@@ -152,7 +143,6 @@ Usage: #definition
 * rest.resource[=].searchParam.type = #string
 
 * rest.resource[+].type = #Binary
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Binary"
 * rest.resource[=].interaction[0].code = #update
 * rest.resource[=].interaction[+].code = #search-type
 * rest.resource[=].interaction[+].code = #read
@@ -162,7 +152,6 @@ Usage: #definition
 * rest.resource[=].searchParam.type = #string
 
 * rest.resource[+].type = #Device
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Device"
 * rest.resource[=].interaction[0].code = #update
 * rest.resource[=].interaction[+].code = #search-type
 * rest.resource[=].interaction[+].code = #read
@@ -175,7 +164,7 @@ Usage: #definition
 * rest.interaction.documentation = "see [Immunization Administration Document](immunization-administration-document.html) or [Vaccination Record Document](vaccination-record-document.html)"
 
 
-Instance: Patient.VaccinationRecord
+Instance: ch-vacd-operation-vaccination-record
 InstanceOf: OperationDefinition
 Title: "Generate Vaccination Record"
 Usage: #definition
@@ -201,7 +190,7 @@ Generate Vaccination Record
 
 
 
-Instance: Patient.ImmunizationRecommendationRequest
+Instance: ch-vacd-operation-immunization-recommendation-request
 InstanceOf: OperationDefinition
 Title: "Generate Patient Immunization Recommendation Request"
 Usage: #definition
