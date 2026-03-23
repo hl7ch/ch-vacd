@@ -1,7 +1,6 @@
 ### Impfcheck ausführen (Gesundheitsfachperson)
 
-<div>{% include use-case-14-impfcheck-arzt.svg %}</div>
-
+<div>{% include use-case-14-impfcheck-arzt-de.svg %}</div>
 
 Eine Gesundheitsfachperson aktualisiert die Impfdaten ihrer Patientin bzw. ihres Patienten in seinem Primärsystem.
 
@@ -17,7 +16,7 @@ Falls eine Impfempfehlung besteht und der Patient die Impfung ablehnt, dokumenti
 
 ### Impfcheck ausführen (Patient)
 
-<div>{% include use-case-14-impfcheck-patient.svg %}</div>
+<div>{% include use-case-14-impfcheck-patient-de.svg %}</div>
 
 Eine Patientin bzw. ein Patient sichtet die Impfdaten und wählt die zusätzlichen und für den Impfcheck benötigten medizinischen Informationen mit Bezug zum Immunitätsstatus in ihrer bzw. seiner Impf-App.
 

@@ -1,0 +1,33 @@
+@startuml
+scale max 800 width
+<style>
+element {MinimumWidth 200}
+</style>
+
+|Médecin en interaction avec le patient|
+start
+|#LightBlue|PIS|
+:Le médecin met à jour les données vaccinales;
+:Le médecin lance le contrôle vaccinal;
+
+|#AntiqueWhite|Contrôle vaccinal|
+:Le contrôle vaccinal affiche le statut vaccinal;
+:Le contrôle vaccinal affiche les recommandations vaccinales;
+
+|Médecin en interaction avec le patient|
+:Le médecin discute des recommandations avec le patient;
+if (Le patient souhaite se faire vacciner) then (Oui)
+  :Le médecin effectue la vaccination;
+  |#LightBlue|PIS|
+  :Le médecin documente la vaccination;
+  |Médecin en interaction avec le patient|
+else (Non)
+  |PIS|
+  :Le médecin documente le motif du refus;
+  |Médecin en interaction avec le patient|
+endif
+
+stop
+
+@enduml
+
