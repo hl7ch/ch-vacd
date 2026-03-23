@@ -2,6 +2,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 7, v7.0.0-ballot (unreleased)
 
+* [#383](https://github.com/hl7ch/ch-vacd/issues/383): FHIR API - enhanced description
+
 ### STU 6, v6.0.0 (2025-12-16)
 
 * [#373](https://github.com/hl7ch/ch-vacd/issues/373): Fix latest errors
