@@ -2,29 +2,225 @@ Instance: CHVACDApiCapabilityStatement
 InstanceOf: CapabilityStatement
 Usage: #definition
 * name = "CHVACDApiCapabilityStatement"
-* title = "CH VACD API CapabilityStatement"
+* title = "CH VACD FHIR API CapabilityStatement"
 * status = #active
-* experimental = false
-* date = "2027-03-18"
-* publisher = "HL7 Switzerland"
-* contact.name = "HL7 Switzerland"
-* contact.telecom.system = #url
-* contact.telecom.value = "https://www.hl7.ch/"
-* description = "CapabilityStatement for CH VACD API describing supported resources and interactions."
-* kind = #instance
-* implementation.description = "CH VACD Immunization API"
+* date = "2026-03-23T09:43:45.742+01:00"
+* kind = #requirements
 * fhirVersion = #4.0.1
-* format = #json
-* format = #xml
+* format[0] = #application/fhir+xml
+* format[+] = #application/fhir+json
 * rest.mode = #server
-* rest.documentation = "Immunization data exchange following CH VACD Implementation Guide"
-* rest.resource[0].type = #Immunization
-* rest.resource[0].interaction[0].code = #read
-* rest.resource[0].interaction[1].code = #search-type
-* rest.resource[1].type = #Patient
-* rest.resource[1].interaction[0].code = #read
-* rest.resource[1].interaction[1].code = #search-type
-* rest.resource[2].type = #Organization
-* rest.resource[2].interaction[0].code = #read
-* rest.resource[3].type = #Practitioner
-* rest.resource[3].interaction[0].code = #read
+* implementationGuide = "ch.fhir.ig.ch-vacd"
+
+* rest.documentation = "The server will handle all resources and also complete vaccination documents"
+
+* rest.resource[0].type = #AllergyIntolerance
+* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance"
+* rest.resource[=].supportedProfile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances"
+* rest.resource[=].interaction[0].code = #update
+* rest.resource[=].interaction[+].code = #search-type
+* rest.resource[=].interaction[+].code = #read
+* rest.resource[=].interaction[+].code = #create
+* rest.resource[=].searchInclude = "*"
+* rest.resource[=].searchParam[0].name = "code"
+* rest.resource[=].searchParam[=].type = #token
+* rest.resource[=].searchParam[=].documentation = "Code that identifies the allergy or intolerance"
+* rest.resource[=].searchParam[+].name = "patient"
+* rest.resource[=].searchParam[=].type = #string
+* rest.resource[=].searchParam[=].documentation = "Who the sensitivity is for"
+
+* rest.resource[+].type = #Condition
+* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Condition"
+* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-basic-immunization"
+* rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems"
+* rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-pastillnesses"
+* rest.resource[=].interaction[0].code = #update
+* rest.resource[=].interaction[+].code = #search-type
+* rest.resource[=].interaction[+].code = #read
+* rest.resource[=].interaction[+].code = #create
+* rest.resource[=].searchInclude = "*"
+* rest.resource[=].searchParam[0].name = "code"
+* rest.resource[=].searchParam[=].type = #token
+* rest.resource[=].searchParam[=].documentation = "Code for the condition"
+* rest.resource[=].searchParam[+].name = "patient"
+* rest.resource[=].searchParam[=].type = #string
+* rest.resource[=].searchParam[=].documentation = "Who has the condition?"
+
+* rest.resource[+].type = #Immunization
+* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Immunization"
+* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"
+* rest.resource[=].interaction[0].code = #update
+* rest.resource[=].interaction[+].code = #search-type
+* rest.resource[=].interaction[+].code = #read
+* rest.resource[=].interaction[+].code = #create
+* rest.resource[=].searchInclude = "*"
+* rest.resource[=].searchParam[0].name = "patient"
+* rest.resource[=].searchParam[=].type = #string
+* rest.resource[=].searchParam[=].documentation = "The patient for the vaccination record"
+* rest.resource[=].searchParam[+].name = "vaccine-code"
+* rest.resource[=].searchParam[=].type = #token
+* rest.resource[=].searchParam[=].documentation = "Vaccine Product Administered"
+
+* rest.resource[+].type = #Observation
+* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Observation"
+* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology"
+* rest.resource[=].interaction[0].code = #update
+* rest.resource[=].interaction[+].code = #search-type
+* rest.resource[=].interaction[+].code = #read
+* rest.resource[=].interaction[+].code = #create
+* rest.resource[=].searchInclude = "*"
+* rest.resource[=].searchParam[0].name = "code"
+* rest.resource[=].searchParam[=].type = #token
+* rest.resource[=].searchParam[=].documentation = "The code of the observation type"
+* rest.resource[=].searchParam[+].name = "subject"
+* rest.resource[=].searchParam[=].type = #string
+* rest.resource[=].searchParam[=].documentation = "The subject that the observation is about"
+* rest.resource[+].type = #OperationDefinition
+* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/OperationDefinition"
+* rest.resource[=].interaction.code = #read
+* rest.resource[=].searchInclude = "*"
+
+* rest.resource[+].type = #Organization
+* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Organization"
+* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr"
+* rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"
+* rest.resource[=].interaction[0].code = #update
+* rest.resource[=].interaction[+].code = #search-type
+* rest.resource[=].interaction[+].code = #read
+* rest.resource[=].interaction[+].code = #create
+* rest.resource[=].searchInclude = "*"
+* rest.resource[=].searchParam.name = "name"
+* rest.resource[=].searchParam.type = #string
+* rest.resource[=].searchParam.documentation = "A portion of the organization's name or alias"
+
+* rest.resource[+].type = #Patient
+* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Patient"
+* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr"
+* rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"
+* rest.resource[=].interaction[0].code = #update
+* rest.resource[=].interaction[+].code = #search-type
+* rest.resource[=].interaction[+].code = #read
+* rest.resource[=].interaction[+].code = #create
+* rest.resource[=].searchInclude = "*"
+* rest.resource[=].searchParam[0].name = "family"
+* rest.resource[=].searchParam[=].type = #string
+* rest.resource[=].searchParam[=].documentation = "A portion of the family name of the patient"
+* rest.resource[=].searchParam[+].name = "given"
+* rest.resource[=].searchParam[=].type = #string
+* rest.resource[=].searchParam[=].documentation = "A portion of the given name of the patient"
+* rest.resource[=].operation[0].name = "vaccination-record"
+* rest.resource[=].operation[=].definition = "Patient.VaccinationRecord"
+* rest.resource[=].operation[=].documentation = "Generate a Vaccination Record document"
+* rest.resource[=].operation[+].name = "immunization-recommendation-request"
+* rest.resource[=].operation[=].definition = "Patient.ImmunizationRecommendationRequest"
+* rest.resource[=].operation[=].documentation = "Generate a Immunization Request message"
+
+* rest.resource[+].type = #Practitioner
+* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Practitioner"
+* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr"
+* rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"
+* rest.resource[=].interaction[0].code = #update
+* rest.resource[=].interaction[+].code = #search-type
+* rest.resource[=].interaction[+].code = #read
+* rest.resource[=].interaction[+].code = #create
+* rest.resource[=].searchInclude = "*"
+* rest.resource[=].searchParam.name = "family"
+* rest.resource[=].searchParam.type = #string
+* rest.resource[=].searchParam.documentation = "A portion of the family name"
+
+* rest.resource[+].type = #PractitionerRole
+* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/PractitionerRole"
+* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr"
+* rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole"
+* rest.resource[=].interaction[0].code = #update
+* rest.resource[=].interaction[+].code = #search-type
+* rest.resource[=].interaction[+].code = #read
+* rest.resource[=].interaction[+].code = #create
+* rest.resource[=].searchInclude = "*"
+* rest.resource[=].searchParam.name = "code"
+* rest.resource[=].searchParam.type = #string
+
+* rest.resource[+].type = #RelatedPerson
+* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/RelatedPerson"
+* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-relatedperson"
+* rest.resource[=].interaction[0].code = #update
+* rest.resource[=].interaction[+].code = #search-type
+* rest.resource[=].interaction[+].code = #read
+* rest.resource[=].interaction[+].code = #create
+* rest.resource[=].searchInclude = "*"
+* rest.resource[=].searchParam.name = "code"
+* rest.resource[=].searchParam.type = #string
+
+* rest.resource[+].type = #Binary
+* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Binary"
+* rest.resource[=].interaction[0].code = #update
+* rest.resource[=].interaction[+].code = #search-type
+* rest.resource[=].interaction[+].code = #read
+* rest.resource[=].interaction[+].code = #create
+* rest.resource[=].searchInclude = "*"
+* rest.resource[=].searchParam.name = "code"
+* rest.resource[=].searchParam.type = #string
+
+* rest.resource[+].type = #Device
+* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/Device"
+* rest.resource[=].interaction[0].code = #update
+* rest.resource[=].interaction[+].code = #search-type
+* rest.resource[=].interaction[+].code = #read
+* rest.resource[=].interaction[+].code = #create
+* rest.resource[=].searchInclude = "*"
+* rest.resource[=].searchParam.name = "code"
+* rest.resource[=].searchParam.type = #string
+
+* rest.interaction.code = #transaction
+* rest.interaction.documentation = "see [Immunization Administration Document](immunization-administration-document.html) or [Vaccination Record Document](vaccination-record-document.html)"
+
+
+Instance: Patient.VaccinationRecord
+InstanceOf: OperationDefinition
+Title: "Generate Vaccination Record"
+Usage: #definition
+Description: """
+Generate Vaccination Record 
+"""
+* name = "GeneratePatientVaccinationRecord"
+* status = #active
+* kind = #operation
+* affectsState = false
+* resource = #Patient
+* system = false
+* type = true
+* instance = false
+* code = #vaccination-record
+
+* parameter[0].name = #document
+* parameter[=].use = #out
+* parameter[=].min = 1
+* parameter[=].max = "1"
+* parameter[=].type = #Bundle
+* parameter[=].targetProfile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"
+
+
+
+Instance: Patient.ImmunizationRecommendationRequest
+InstanceOf: OperationDefinition
+Title: "Generate Patient Immunization Recommendation Request"
+Usage: #definition
+Description: """
+Generate Recommendation Request
+"""
+* name = "GenerateImmunizationPatientRecommendationRequest"
+* status = #active
+* kind = #operation
+* affectsState = false
+* resource = #Patient
+* system = false
+* type = true
+* instance = false
+* code = #immunization-recommendation-request
+
+* parameter[0].name = #message
+* parameter[=].use = #out
+* parameter[=].min = 1
+* parameter[=].max = "1"
+* parameter[=].type = #Bundle
+* parameter[=].targetProfile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"
