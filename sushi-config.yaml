@@ -54,7 +54,7 @@ dependencies:
   ch.fhir.ig.ch-term: 3.3.x
 
 resources:
-  CapabilityStatement/ch-vacd-api-capability-statement:
+  CapabilityStatement/ch-vacd-api-capstmt-srv:
     exampleBoolean: false
 
 FSHOnly: false

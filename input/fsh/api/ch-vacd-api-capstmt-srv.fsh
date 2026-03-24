@@ -1,8 +1,8 @@
-Instance: ch-vacd-api-capability-statement
+Instance: ch-vacd-api-capstmt-srv
 InstanceOf: CapabilityStatement
 Usage: #definition
-* name = "CHVACDApiCapabilityStatement"
-* title = "CH VACD FHIR API CapabilityStatement"
+* name = "CHVACDApiCapabilityStatementServer"
+* title = "CH VACD FHIR API CapabilityStatement for server"
 * status = #active
 * date = "2026-03-23T09:43:45.742+01:00"
 * kind = #requirements
