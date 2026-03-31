@@ -1,7 +1,7 @@
 @startuml
 scale max 800 width
 <style>
-element {MinimumWidth 200}
+element {MinimumWidth 150}
 </style>
 
 |Médecin en interaction\navec le patient|
@@ -11,11 +11,11 @@ start
 :Le médecin lance le\ncontrôle vaccinal;
 
 |#AntiqueWhite|Contrôle vaccinal|
-:Le contrôle vaccinal affiche\nle statut vaccinal;
-:Le contrôle vaccinal affiche\nles recommandations vaccinales;
+:Le contrôle vaccinal\naffiche le statut\nvaccinal;
+:Le contrôle vaccinal\naffiche les\nrecommandations vaccinales;
 
 |Médecin en interaction\navec le patient|
-:Le médecin discute des\nrecommandations avec le patient;
+:Le médecin discute des\nrecommandations\navec le patient;
 if (Le patient souhaite\nse faire vacciner) then (Oui)
   :Le médecin effectue\nla vaccination;
   |#LightBlue|PIS|

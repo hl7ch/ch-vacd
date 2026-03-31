@@ -1,29 +1,29 @@
 @startuml
 scale max 800 width
 <style>
-element {MinimumWidth 200}
+element {MinimumWidth 150}
 </style>
 
 |Patient bzw. Patientin|
 start
 |#LightBlue|Impf-APP|
 :Zeigt den aktuellen\nImpfstatus an;
-:Patient aktualisiert\ndie Impfdaten; 
-:Patient ruft\nImpfcheck auf;
+:Patient bzw. Patientin\naktualisiert\ndie Impfdaten; 
+:Patient bzw. Patientin\nruft Impfcheck auf;
 
 |#AntiqueWhite|Impfcheck|
 :Impfcheck zeigt\nImpfstatus an;
 :Impfcheck zeigt\nEmpfehlungen an;
 
 |Patient bzw. Patientin|
-if (Patient möchte Impfung durchführen) then (Ja)
-  :Patient macht einen\nTermin beim Arzt aus;
+if (Patient bzw. Patientin\nmöchte Impfung\ndurchführen) then (Ja)
+  :Patient bzw. Patientin\nmacht einen Termin\nbeim Arzt aus;
   |#LightSalmon|Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
   :Gesundheitsfachperson\nführt Impfung durch;
   |#LightBlue|PIS|
   :Gesundheitsfachperson\ndokumentiert Impfung;
   |Patient bzw. Patientin|
-  :Patient überprüft die\naktualisierten Impfdaten\nin der Impf-APP;
+  :Patient bzw. Patientin\nüberprüft die\naktualisierte\nImpfdaten in der\nImpf-APP;
   |Impf-APP|
   :Zeigt den aktualisierten\nImpfstatus an;
 else (Nein)
