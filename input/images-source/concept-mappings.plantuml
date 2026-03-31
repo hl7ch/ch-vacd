@@ -1,0 +1,21 @@
+@startuml
+
+scale max 800 width
+
+rectangle "[[https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-swissmedic-cs.html SwissMedic VaccineCode]]" as SMVC #LightBlue
+rectangle "[[https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-old-swiss-cs.html Old Swiss VaccineCode]]" as OSVC #LightBlue
+rectangle "[[https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-vaccines-snomedct-vs.html Snomed CT for VaccineCode]]" as SCTVC #LightBlue
+rectangle "[[https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs.html Target disease and illnesses\nundergone for immunization]]" as TD #LightBlue
+rectangle "[[https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-immunoglobulin-cs.html Swissmedic Immunoglobulin Codes]]" as SMIG #LightBlue
+
+
+SMVC --> TD : "[[https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-vaccines-targetdiseases-cm.html VaccineCode\nTo\nTargetDisease Mapping]]"
+OSVC --> TD : "[[https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-vaccines-targetdiseases-cm.html VaccineCode\nTo\nTargetDisease Mapping]]"    
+SCTVC --> TD : "[[https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-snomedct-vaccines-targetdiseases-cm.html Snomed CT VaccineCode\nTo\nTargetDisease Mapping]]"
+SMIG --> TD : "[[https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-immunoglobulin-targetdiseases-cm.html Immunoglobulin Code\nTo\nTargetDisease Mapping]]"
+
+TD --> SMVC : "[[https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-targetdiseases-vaccines-cm.html TargetDisease\nTo\nVaccineCode Mapping]]"
+TD --> OSVC : "[[https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-targetdiseases-vaccines-cm.html TargetDisease\nTo\nVaccineCode Mapping]]"
+SMVC --> SCTVC : "[[https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-swissmedic-snomedct-vaccines-cm.html SwissMedic VaccineCode\nTo\nSnomed CT VaccineCode Mapping]]"
+SCTVC --> SMVC : "[[https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-swissmedic-snomedct-vaccines-cm.html Snomed CT VaccineCode\nTo\nVaccineCode Mapping]]"
+@enduml
