@@ -4,7 +4,7 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor "Professionnel de la santé" AS Docteur #blue
+actor "Professionnel\nde la santé" AS Docteur #blue
 participant "Portal" #00CC00
 participant "Propre communauté\nA" #00CC00
 participant "Autre communauté\nN" #00aaff
