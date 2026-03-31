@@ -5,8 +5,8 @@ Description: "Example Observation for labor and serology"
 Usage: #example
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(6-1-PractitionerRole)
-* modifierExtension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* modifierExtension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
+* extension[=].valueCoding = $sct#59156000 "Confirmed"
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:e12a5c59-8785-4ecc-90f5-39b39bced95f"
 * status = #final

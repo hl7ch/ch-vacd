@@ -12,8 +12,8 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
-* modifierExtension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* modifierExtension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
+* extension[=].valueCoding = $sct#59156000 "Confirmed"
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "855bdd69-0a39-4241-b208-9b248a62fb76"
 * status = #completed
@@ -51,8 +51,8 @@ Usage: #example
 * extension[=].extension[=].valueReference.type = ResourceType#Composition
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
-* modifierExtension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* modifierExtension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
+* extension[=].valueCoding = $sct#59156000 "Confirmed"
 
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "e2233a2f-d1c2-459d-b4fe-4920c35339e7"
@@ -80,8 +80,8 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_patient)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
-* modifierExtension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* modifierExtension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
+* extension[=].valueCoding = $sct#59156000 "Confirmed"
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "94bdf3b1-0c04-42d3-9901-7e68f124f5ff"
 * status = #completed

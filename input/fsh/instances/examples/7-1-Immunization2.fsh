@@ -5,8 +5,8 @@ Description: "Example for Immunization with absent reason"
 Usage: #example
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(3-1-Patient)
-* modifierExtension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* modifierExtension[=].valueCoding = $sct#76104008 "Not confirmed"
+* extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
+* extension[=].valueCoding = $sct#76104008 "Not confirmed"
 * identifier
   * system = "urn:oid:2.999.1.2.3.4"
   * value = "1829774"

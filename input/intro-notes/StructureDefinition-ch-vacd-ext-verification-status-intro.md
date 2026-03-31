@@ -6,3 +6,8 @@ With the verificationStatus, practitioners can express that they verified the da
 See also the definition on [AllergyIntolerance.verificationStatus](https://hl7.org/fhir/R4/allergyintolerance-definitions.html#AllergyIntolerance.verificationStatus) or [Condition.verificationStatus](https://hl7.org/fhir/R4/condition-definitions.html#Condition.verificationStatus).
 
 For further details how to use handle the verificationStatus please refer to the following description [Validation and VerificationStatus](verification-status.html).
+
+
+<div class="dragon">
+This extension is defined as a normal extension, but the meaning of the verification status has an impact on the interpretation of the content of the resource. It's meant to be an isModifier extension. Due to backward compatibility issues - the extension is required as of v6.0.0 - the decision was not to change to a modifier extension.
+</div>

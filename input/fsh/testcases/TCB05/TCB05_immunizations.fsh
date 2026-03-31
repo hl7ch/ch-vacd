@@ -12,8 +12,8 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_HCP1_ORG1_ROLE_author)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_FSMEIMMCC)
-* modifierExtension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* modifierExtension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
+* extension[=].valueCoding = $sct#59156000 "Confirmed"
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "urn:uuid:4386ca26-6866-4322-a203-b488b84ab499"
 * status = #completed
@@ -42,8 +42,8 @@ Usage: #example
 * extension[=].valueReference = Reference(TC_HCP1_ORG1_ROLE_author)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_BOOSTRIX)
-* modifierExtension[0].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* modifierExtension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
+* extension[=].valueCoding = $sct#59156000 "Confirmed"
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "urn:uuid:ebcf6de2-ed9c-463c-8b08-cb487af8ce4e"
 * status = #completed

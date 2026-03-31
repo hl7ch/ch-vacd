@@ -12,13 +12,12 @@ Description: "Definition of the labor and serology part for all documents."
 * extension ^slicing.rules = #open
 * extension contains Author named recorder 0..1 and
                      EntryResourceCrossReferences named relatesTo 0..1 and 
-                     CHVACDExtensionMergingConflictEntryReference named conflict 0..*
+                     CHVACDExtensionMergingConflictEntryReference named conflict 0..* and
+                     CHVACDExtensionVerificationStatus named verificationStatus 1..1
 * extension[recorder] ^definition = "The recorder Reference of the immunization. May be a Practitioner or a Patient"
 * extension[relatesTo] ^definition = "The definition of a relation of this laboratory entry in this document to an laboratory entry in an other document."
 * extension[conflict] ^definition = "The definition of a conflict on merging different documents."
-* modifierExtension contains
-    CHVACDExtensionVerificationStatus named verificationStatus 1..1
-* modifierExtension[verificationStatus] ^definition = "Status of verification by a practitioner"
+* extension[verificationStatus] ^definition = "Status of verification by a practitioner. Attention: changes the interpretation of the content of the resource!"
 * identifier 1..
 * identifier ^short = "Observation item ID"
 * code from $ch-vacd-laboratory-serology-vs (extensible)
