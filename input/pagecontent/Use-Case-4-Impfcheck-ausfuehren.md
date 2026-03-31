@@ -18,5 +18,5 @@ Die Patientin bzw. der Patient ruft den automatischen Impfcheck auf und sichtet 
 
 Die Patientin bzw. der Patient ergänzt ggf. ihr bzw. sein Impfdossier um die die Impfempfehlungen und speichert das aktualisierte Impfdossier im Austauschformat Impfdossier im EPD ab. Im neuen Dokument wird vermerkt, welche älteren Dokumente durch die neuen Dokumente ersetzt bzw. ergänzt werden. Dazu wird das Datenelement relatesTo der CH VACD Austauschformate verwendet.
 
-
+<div>{% include epd-impfcheck-vaccination-docs-simple-patient-de.svg %}</div>
 

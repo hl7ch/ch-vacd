@@ -4,7 +4,7 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor Patient #red
+actor "Patient ou Patiente" as pat #red
 participant "Portal" #00CC00
 participant "[[aggregator.html Agrégateur de vaccins]]" as aggr
 participant "Contrôle de vaccination" #red
@@ -12,7 +12,7 @@ participant "Contrôle de vaccination" #red
 participant "Communauté\nA..N" #00CC00
 
 autonumber "<b>[00]"
-Patient -> "Portal": Rechercher tous les documents de vaccination
+pat -> "Portal": Rechercher tous les documents de vaccination
 loop "Interrogation de toutes les communautés"
 "Portal" -> "Communauté\nA..N": Rechercher documents de vaccination
 "Communauté\nA..N" -> "Portal": Tous les documents de vaccination trouvés (Com A)
@@ -22,6 +22,6 @@ aggr ->  "Portal": Un carnet de vaccination agrégé
 ' "Portal" -> "Portal": pseudonymiser
 "Portal" ->  "Contrôle de vaccination": document de vaccination agrégé
 "Contrôle de vaccination" -> "Portal": recommandation de vaccination
-"Portal" -> Patient: Afficher les données de\nvaccination agrégées
+"Portal" -> pat: Afficher les données de\nvaccination agrégées
 
 @enduml

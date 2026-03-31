@@ -4,7 +4,7 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor Patient #red
+actor "Patient ou Patiente" as pat #red
 participant "Portal" #00CC00
 participant "Propre communauté\nA" #00CC00
 
@@ -14,7 +14,7 @@ participant "Autre communauté\nN" #00aaff
 
 
 autonumber "<b>[00]"
-Patient -> "Portal": Rechercher les documents de vaccination
+pat -> "Portal": Rechercher les documents de vaccination
 "Portal" -> "Propre communauté\nA": Rechercher les documents de vaccination
 "Propre communauté\nA" -> "Portal": Tous les documents de vaccination trouvés (Com A)
 loop "Toutes les autres communautés"
@@ -26,6 +26,6 @@ loop "Toutes les autres communautés"
 end
 "Portal" -> aggr: Résumer les documents de vaccination
 aggr ->  "Portal": Un carnet de vaccination agrégé
-"Portal" -> Patient: Afficher l'agrégat\nDates de vaccination
+"Portal" -> pat: Afficher l'agrégat\nDates de vaccination
 
 @enduml
