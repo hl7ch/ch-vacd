@@ -7,25 +7,25 @@ element {MinimumWidth 200}
 |Patient|
 start
 |#LightBlue|App de vaccination|
-:Affiche le statut vaccinal actuel;
-:Le patient met à jour les données vaccinales;
-:Le patient lance le contrôle vaccinal;
+:Affiche le statut\nvaccinal actuel;
+:Le patient met à jour\nles données vaccinales;
+:Le patient lance le\ncontrôle vaccinal;
 
 |#AntiqueWhite|Contrôle vaccinal|
-:Le contrôle vaccinal affiche le statut vaccinal;
-:Le contrôle vaccinal affiche les recommandations vaccinales;
+:Le contrôle vaccinal\naffiche le statut vaccinal;
+:Le contrôle vaccinal affiche\nles recommandations vaccinales;
 
 |Patient|
 if (Le patient souhaite se faire vacciner) then (Oui)
-  :Le patient prend rendez-vous chez le médecin;
-  |#LightSalmon|Médecin en interaction avec le patient|
-  :Le médecin effectue la vaccination;
+  :Le patient prend rendez-vous\nchez le médecin;
+  |#LightSalmon|Médecin en interaction\navec le patient|
+  :Le médecin effectue\nla vaccination;
   |#LightBlue|PIS|
-  :Le médecin documente la vaccination;
+  :Le médecin documente\nla vaccination;
   |Patient|
-  :Le patient vérifie les données vaccinales mises à jour dans l’app de vaccination;
+  :Le patient vérifie les données\nvaccinales mises à jour\ndans l’app de vaccination;
   |App de vaccination|
-  :Affiche le statut vaccinal mis à jour;
+  :Affiche le statut\nvaccinal mis à jour;
 else (Non)
 
 endif

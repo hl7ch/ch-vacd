@@ -4,32 +4,32 @@ scale max 800 width
 element {MinimumWidth 200}
 </style>
 
-|Patient|
+|Patient bzw. Patientin|
 start
 |#LightBlue|Impf-APP|
-:Zeigt den aktuellen Impfstatus an;
-:Patient aktualisiert die Impfdaten; 
-:Patient ruft Impfcheck auf;
+:Zeigt den aktuellen\nImpfstatus an;
+:Patient aktualisiert\ndie Impfdaten; 
+:Patient ruft\nImpfcheck auf;
 
 |#AntiqueWhite|Impfcheck|
-:Impfcheck zeigt Impfstatus an;
-:Impfcheck zeigt Empfehlungen an;
+:Impfcheck zeigt\nImpfstatus an;
+:Impfcheck zeigt\nEmpfehlungen an;
 
-|Patient|
+|Patient bzw. Patientin|
 if (Patient möchte Impfung durchführen) then (Ja)
-  :Patient macht einen Termin beim Arzt aus;
-  |#LightSalmon|Arzt in Interaktion mit Patient|
-  :Arzt führt Impfung durch;
+  :Patient macht einen\nTermin beim Arzt aus;
+  |#LightSalmon|Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
+  :Gesundheitsfachperson\nführt Impfung durch;
   |#LightBlue|PIS|
-  :Arzt dokumentiert Impfung;
-  |Patient|
-  :Patient überprüft die aktualisierten Impfdaten in der Impf-APP;
+  :Gesundheitsfachperson\ndokumentiert Impfung;
+  |Patient bzw. Patientin|
+  :Patient überprüft die\naktualisierten Impfdaten\nin der Impf-APP;
   |Impf-APP|
-  :Zeigt den aktualisierten Impfstatus an;
+  :Zeigt den aktualisierten\nImpfstatus an;
 else (Nein)
 
 endif
-|Patient|
+|Patient bzw. Patientin|
 stop
 
 

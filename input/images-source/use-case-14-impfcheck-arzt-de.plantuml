@@ -4,27 +4,27 @@ scale max 800 width
 element {MinimumWidth 200}
 </style>
 
-|Arzt in Interaktion mit Patient|
+|Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
 start
 |#LightBlue|PIS|
-:Arzt aktualisiert Impfdaten; 
-:Arzt ruft Impfcheck auf;
+:Gesundheitsfachperson aktualisiert\nImpfdaten; 
+:Gesundheitsfachperson ruft\nImpfcheck auf;
 
 |#AntiqueWhite|Impfcheck|
-:Impfcheck zeigt Impfstatus an;
-:Impfcheck zeigt Empfehlungen an;
+:Impfcheck zeigt\nImpfstatus an;
+:Impfcheck zeigt\nEmpfehlungen an;
 
-|Arzt in Interaktion mit Patient|
-:Arzt bespricht Empfehlungen mit Patient;
-if (Patient möchte Impfung durchführen) then (Ja)
-  :Arzt führt Impfung durch;
+|Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
+:Gesundheitsfachperson bespricht Empfehlungen\nmit Patient bzw. Patientin;
+if (Patient bzw. Patientin möchte\nImpfung durchführen) then (Ja)
+  :Gesundheitsfachperson führt\nImpfung durch;
   |#LightBlue|PIS|
-  :Arzt dokumentiert Impfung;
-  |Arzt in Interaktion mit Patient|
+  :Gesundheitsfachperson\ndokumentiert Impfung;
+  |Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
 else (Nein)
   |PIS|
-  :Arzt dokumentiert Ablehnungsgrund;
-  |Arzt in Interaktion mit Patient|
+  :Gesundheitsfachperson dokumentiert\nAblehnungsgrund;
+  |Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
 endif
 
 stop
