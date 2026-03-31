@@ -4,7 +4,7 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor "Patient ou Patiente" as pat #red
+actor "Patient ou\nPatiente" as pat #red
 participant "Portal" #00CC00
 participant "[[aggregator.html Agrégateur de vaccins]]" as aggr
 participant "Contrôle de vaccination" #red
