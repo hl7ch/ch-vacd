@@ -17,6 +17,8 @@ InstanceOf: CHVACDTravelLocation
 Title: "8.10 Travel Location (TravelInformation)"
 Description: "Example for travel location"
 Usage: #example
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:373b5e89-5590-4216-8bce-78258ac8922e"
 * status = #active
 * name = "Mein Traumziel"
 * address
