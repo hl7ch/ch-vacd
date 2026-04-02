@@ -1,0 +1,29 @@
+@startjson
+
+{
+
+    "Condition": "[[StructureDefinition-ch-vacd-travel-information.html TravelInformation]]",
+    "verificationStatus.coding": "[[https://hl7.org/fhir/R4/codesystem-condition-ver-status.html#condition-ver-status-confirmed Confirmed]]",
+    "code.coding": "[[http://snomed.info/id/129018004 Traveling]]",
+    "subject": {
+        "Patient": "[[https://fhir.ch/ig/ch-core/StructureDefinition-ch-core-patient.html CH Core Patient]]",
+        "id": "example-patient"
+    },
+    "onsetPeriod": {
+        "Period": "",
+        "start": "2024-01-01T00:00:00Z",
+        "end": "2024-12-31T23:59:59Z"
+    },
+    "evidence.detail": {
+        "Location": "[[StructureDefinition-ch-vacd-travel-location.html Travel Location]]",
+        "status": "active",
+        "address": {
+            "Address": "[[StructureDefinition-ch-vacd-travel-location-address.html Travel Location Address]]",
+            "use": "[[https://hl7.org/fhir/R4/codesystem-address-use.html#address-use-temp temp]]",
+            "type": "[[https://hl7.org/fhir/R4/codesystem-address-type.html#address-type-physical physical]]",
+            "country": "Tohuwabohu"
+        }
+    }
+}
+
+@endjson
