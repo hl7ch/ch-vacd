@@ -7,5 +7,7 @@ The [CH VACD Immunization](StructureDefinition-ch-vacd-immunization.html) resour
 
 The [CH VACD Medication For Immunization resource](StructureDefinition-ch-vacd-medication-for-immunization.html) documents the exact product used - such as a specific vaccine identified by its GTIN code.
 
+### Model
+
 <div>{% include ext-immunization-medication-reference.svg %}</div>
 
