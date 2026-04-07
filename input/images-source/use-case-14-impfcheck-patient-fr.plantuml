@@ -1,0 +1,36 @@
+@startuml
+scale max 800 width
+<style>
+element {MinimumWidth 150}
+</style>
+
+|Patient|
+start
+|#LightBlue|App de vaccination|
+:Affiche le statut\nvaccinal actuel;
+:Le patient met à jour\nles données vaccinales;
+:Le patient lance le\ncontrôle vaccinal;
+
+|#AntiqueWhite|Contrôle vaccinal|
+:Le contrôle vaccinal\naffiche le statut\nvaccinal;
+:Le contrôle vaccinal\naffiche les\nrecommandations\nvaccinales;
+
+|Patient|
+if (Le patient souhait\nse faire vacciner) then (Oui)
+  :Le patient prend\nrendez-vous\nchez le médecin;
+  |#LightSalmon|Médecin en interaction\navec le patient|
+  :Le médecin effectue\nla vaccination;
+  |#LightBlue|PIS|
+  :Le médecin\ndocumente\nla vaccination;
+  |Patient|
+  :Le patient vérifie les données\nvaccinales mises à jour\ndans l’app de vaccination;
+  |App de vaccination|
+  :Affiche le statut\nvaccinal mis à jour;
+else (Non)
+
+endif
+|Patient|
+stop
+
+@enduml
+

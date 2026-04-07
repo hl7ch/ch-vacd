@@ -1,7 +1,10 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
 ### STU 7, v7.0.0-ballot (unreleased)
+
 * [#380](https://github.com/hl7ch/ch-vacd/issues/380): Terminology - add links to CH-TERM CS/VS
+* [#379](https://github.com/hl7ch/ch-vacd/issues/379): UseCase 14 Impfecheck add diagram and change text
+
 
 ### STU 6, v6.0.0 (2025-12-16)
 
