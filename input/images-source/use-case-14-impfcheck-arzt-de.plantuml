@@ -1,0 +1,34 @@
+@startuml
+scale max 800 width
+<style>
+element {MinimumWidth 150}
+</style>
+
+|Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
+start
+|#LightBlue|PIS|
+:Gesundheitsfachperson\naktualisiertImpfdaten; 
+:Gesundheitsfachperson\nruft Impfcheck auf;
+
+|#AntiqueWhite|Impfcheck|
+:Impfcheck zeigt\nImpfstatus an;
+:Impfcheck zeigt\nEmpfehlungen an;
+
+|Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
+:Gesundheitsfachperson\nbespricht Empfehlungen\nmit Patient bzw. Patientin;
+if (Patient bzw. Patientin\nmöchte Impfung\ndurchführen) then (Ja)
+  :Gesundheitsfachperson\nführt Impfung durch;
+  |#LightBlue|PIS|
+  :Gesundheitsfachperson\ndokumentiert Impfung;
+  |Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
+else (Nein)
+  |PIS|
+  :Gesundheitsfachperson\ndokumentiert\nAblehnungsgrund;
+  |Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
+endif
+
+stop
+
+
+@enduml
+
