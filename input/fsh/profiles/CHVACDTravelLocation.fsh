@@ -9,7 +9,7 @@ Description: "Travel Location for ImmunizationRecommendation for travel vaccinat
 * type 0..0
 * telecom 0..0
 * address 1..1
-* address only CHVACDTravelAddress
+* address only CHVACDTravelLocationAddress
 * physicalType 0..0
 * managingOrganization 0..0
 * partOf 0..0
