@@ -102,12 +102,10 @@ Usage: #definition
 * rest.resource[=].searchParam[+].name = "given"
 * rest.resource[=].searchParam[=].type = #string
 * rest.resource[=].searchParam[=].documentation = "A portion of the given name of the patient"
-* rest.resource[=].operation[0].name = "vaccination-record"
-* rest.resource[=].operation[=].definition = "http://fhir.ch/ig/ch-vacd/OperationDefinition/ch-vacd-operation-vaccination-record"
-* rest.resource[=].operation[=].documentation = "Generate a Vaccination Record document"
-* rest.resource[=].operation[+].name = "immunization-recommendation-request"
-* rest.resource[=].operation[=].definition = "http://fhir.ch/ig/ch-vacd/OperationDefinition/ch-vacd-operation-immunization-recommendation-request"
-* rest.resource[=].operation[=].documentation = "Generate a Immunization Request message"
+* rest.resource[=].operation[0].name = "export-document"
+* rest.resource[=].operation[=].definition = "http://fhir.ch/ig/ch-vacd/OperationDefinition/ch-vacd-patient-export-operation"
+* rest.resource[=].operation[=].documentation = "Generate export document according to the selected export type"
+
 
 * rest.resource[+].type = #Practitioner
 * rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr"
@@ -164,52 +162,3 @@ Usage: #definition
 * rest.interaction.documentation = "see [Immunization Administration Document](immunization-administration-document.html) or [Vaccination Record Document](vaccination-record-document.html)"
 
 
-Instance: ch-vacd-operation-vaccination-record
-InstanceOf: OperationDefinition
-Title: "Generate Vaccination Record"
-Usage: #definition
-Description: """
-Generate Vaccination Record 
-"""
-* name = "GeneratePatientVaccinationRecord"
-* status = #active
-* kind = #operation
-* affectsState = false
-* resource = #Patient
-* system = false
-* type = true
-* instance = false
-* code = #vaccination-record
-
-* parameter[0].name = #document
-* parameter[=].use = #out
-* parameter[=].min = 1
-* parameter[=].max = "1"
-* parameter[=].type = #Bundle
-* parameter[=].targetProfile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"
-
-
-
-Instance: ch-vacd-operation-immunization-recommendation-request
-InstanceOf: OperationDefinition
-Title: "Generate Patient Immunization Recommendation Request"
-Usage: #definition
-Description: """
-Generate Recommendation Request
-"""
-* name = "GenerateImmunizationPatientRecommendationRequest"
-* status = #active
-* kind = #operation
-* affectsState = false
-* resource = #Patient
-* system = false
-* type = true
-* instance = false
-* code = #immunization-recommendation-request
-
-* parameter[0].name = #message
-* parameter[=].use = #out
-* parameter[=].min = 1
-* parameter[=].max = "1"
-* parameter[=].type = #Bundle
-* parameter[=].targetProfile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"
