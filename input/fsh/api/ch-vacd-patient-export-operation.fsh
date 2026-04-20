@@ -32,12 +32,4 @@ Generate export document according to the selected export type
 * parameter[=].targetProfile[1] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-request-messageheader"
 * parameter[=].targetProfile[2] = "http://fhir.ch/ig/ch-allergyintolerance/StructureDefinition/ch-allergyintolerance-document-epr"
 
-ValueSet: CHVACDPatientExportOperationVS
-Id: ch-vacd-patient-export-operation-vs
-Title: "Export document type"
-Description: "The codes for declaring document entry conflicts"
-* ^url = "http://fhir.ch/ig/ch-vacd/ValueSet/ch-vacd-patient-export-operation-vs"
-* ^status = #active
-* ^experimental = false
-
 
