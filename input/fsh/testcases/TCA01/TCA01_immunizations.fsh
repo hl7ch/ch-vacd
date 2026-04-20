@@ -34,7 +34,7 @@ Usage: #example
 // DTP Vaccination, Boostrix, 1st dose, D2
 Instance: TCA01_IMMUN2_HCP1_ORG1_ROLE
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP1"
+Title: "TCA01 Immunization by HCP1"
 Description: "Testcase 1 example of immunization from HCP1"
 Usage: #example
 * id = "TCA01-IMMUN2-HCP1-ORG1-ROLE"
@@ -64,7 +64,7 @@ Usage: #example
 // FSME Vaccination, 1st dose, D3
 Instance: TCA01_IMMUN3_HCP2_ORG2_ROLE
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP2"
+Title: "TCA01 Immunization by HCP2"
 Description: "Testcase 1 example of immunization from HCP2"
 Usage: #example
 * id = "TCA01-IMMUN3-HCP2-ORG2-ROLE"

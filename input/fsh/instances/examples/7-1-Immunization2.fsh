@@ -1,6 +1,6 @@
 Instance: 7-1-Immunization2
 InstanceOf: CHVACDImmunization
-Title: "7.1 Immunization"
+Title: "7.1 Immunization 2"
 Description: "Example for Immunization with absent reason"
 Usage: #example
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"

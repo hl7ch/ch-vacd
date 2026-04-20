@@ -4,7 +4,7 @@
 // Viral hepatitis, type A Vaccination, Havrix 1440, 2nd dose, D4
 Instance: TCA02_IMMUN4_HCP2_ORG2_ROLE
 InstanceOf: CHVACDImmunization
-Title: "TC02 Immunization by GFP"
+Title: "TCA02 Immunization by HCP2"
 Description: "Testcase 2 example of immunization from GFP for second dose hepatite A"
 Usage: #example
 * id = "TCA02-IMMUN4-HCP2-ORG2-ROLE"

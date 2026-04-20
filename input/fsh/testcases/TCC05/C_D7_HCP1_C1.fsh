@@ -28,7 +28,7 @@ Usage: #example
 
 Instance: C_D7_HCP1_C1_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration
-Title: "Administration Document Composition"
+Title: "Administration Document Composition C_D7_HCP1_C1"
 Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "C-D7-HCP1-C1-Composition"

@@ -48,7 +48,7 @@ Usage: #example
 
 Instance: RDB04_Composition
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDB04"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDB04-Composition"

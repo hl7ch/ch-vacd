@@ -39,7 +39,7 @@ Usage: #example
 
 Instance: RDC02_Composition
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDC02"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDC02-Composition"
