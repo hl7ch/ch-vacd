@@ -20,7 +20,7 @@ Description: "Definition of the immunization part for all documents."
 * extension[relatesTo] ^definition = "The relatesTo extension is used to identify the replaced/corrected entry in an other document. The extension references the identifier and resource type of the entry and the identifier and resource type of the container i.e. Composition."
 * extension[medication] ^definition = "The Reference to the Medication resource defining the vaccination material."
 * extension[conflict] ^definition = "Indicator for merging conflicts."
-* extension[verificationStatus] ^definition = "Status of verification by a practitioner"
+* extension[verificationStatus] ^definition = "Status of verification by a practitioner. Attention: changes the interpretation of the content of the resource!"
 * status MS
 * vaccineCode 1..1 MS
 //* occurrenceString obeys ch-vacd-occurrence-1
