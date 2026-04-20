@@ -30,6 +30,6 @@ Generate export document according to the selected export type
 * parameter[=].type = #Bundle
 * parameter[=].targetProfile[0] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"
 * parameter[=].targetProfile[1] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-recommendation-request-messageheader"
-* parameter[=].targetProfile[2] = "http://fhir.ch/ig/ch-allergyintolerance/StructureDefinition/ch-allergyintolerance-document-epr"
-
+//* parameter[=].targetProfile[2] = "http://fhir.ch/ig/ch-allergyintolerance/StructureDefinition/ch-allergyintolerance-document-epr"
+//* parameter[=].targetProfile[3] = "http://fhir.ch/ig/ch-emed/StructureDefinition/ch-emed-document-medicationlist"
 
