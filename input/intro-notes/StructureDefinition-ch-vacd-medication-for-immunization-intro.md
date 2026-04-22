@@ -6,4 +6,3 @@ The [Immunization](StructureDefinition-ch-vacd-immunization.html) profile record
 
 To document the specific product (e.g., identified by a GTIN), this Medication profile should be used. It is then referenced from the Immunization resource using the [CH VACD Extension Immunization Medication Reference ](StructureDefinition-ch-vacd-ext-immunization-medication-reference.html).
 
-<div>{% include ext-immunization-medication-reference.svg %}</div>
