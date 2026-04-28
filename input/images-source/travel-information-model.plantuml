@@ -21,7 +21,7 @@
             "Address": "[[StructureDefinition-ch-vacd-travel-location-address.html Travel Location Address]]",
             "use": "[[https://hl7.org/fhir/R4/codesystem-address-use.html#address-use-temp temp]]",
             "type": "[[https://hl7.org/fhir/R4/codesystem-address-type.html#address-type-physical physical]]",
-            "country": "Tohuwabohu"
+            "country": "PAN"
         }
     }
 }

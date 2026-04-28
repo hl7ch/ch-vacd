@@ -24,6 +24,8 @@ Usage: #example
 * address
   * use = #temp
   * type = #physical
-  * country = "Tohuwabohu"
+  * country = "PAN"
+  * country.extension[0].url = "http://hl7.org/fhir/StructureDefinition/iso21090-codedString"
+  * country.extension[0].valueCoding = urn:iso:std:iso:3166#PAN "Panama"
 
 

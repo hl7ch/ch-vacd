@@ -1,5 +1,5 @@
 Profile: CHVACDTravelLocationAddress
-Parent: Address
+Parent: CHCoreAddress
 Id: ch-vacd-travel-location-address
 Title: "CH VACD Travel Location Address"
 Description: "Datatype for travel location address"
