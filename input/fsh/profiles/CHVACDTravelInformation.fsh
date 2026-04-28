@@ -4,12 +4,12 @@ Id: ch-vacd-travel-information
 Title: "CH VACD Travel Information"
 Description: "Travel Information for ImmunizationRecommendation for travel vaccinations."
 * code 1..1
-* code from CHVACDTravelCodeVS (extensible)
-* code = $sct#129018004 "Traveling"
-* code ^short = "Fix value for indication of travel information"
+* code = $sct#129018004 
+* code ^short = "Fix value \"Traveling\" for indication of travel information."
 * onsetPeriod 1..1
 * clinicalStatus 0..0
-* verificationStatus = $condition-verification-status#confirmed "Confirmed"
+* verificationStatus = $condition-verification-status#confirmed
+* verificationStatus ^short = "The fix verification status \"Confirmed\"."
 * category 0..0
 * severity 0..0
 * subject only Reference(CHCorePatient)
