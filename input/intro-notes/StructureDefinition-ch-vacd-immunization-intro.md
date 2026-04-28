@@ -16,3 +16,12 @@ see more about the [Validation and VerificationStatus](verification-status.html)
 By aggregation of different [Immunization Administration](immunization-administration-document.html) documents, duplicates could be detected. If so, the entries in the [Vaccination Record](vaccination-record-document.html) document (as result of the aggregation) should be completed with the extension [CH VACD Extension Merging Conflict Entry Reference](StructureDefinition-ch-vacd-ext-merging-conflict-entry-reference.html).
 The criterias of duplicate detection can be found [here](StructureDefinition-ch-vacd-ext-merging-conflict-entry-reference.html#immunization).
 
+
+### Medication resource
+
+To document the specific vaccine product (for example, identified by a GTIN), the [CH VACD Medication For Immunization](StructureDefinition-ch-vacd-medication-for-immunization.html) profile can be used.
+
+The resulting Medication resource can then be referenced here using the extendsion [CH VACD Extension Immunization Medication Reference ](StructureDefinition-ch-vacd-ext-immunization-medication-reference.html).
+
+<div>{% include ext-immunization-medication-reference.svg %}</div>
+

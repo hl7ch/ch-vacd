@@ -1,0 +1,15 @@
+@startjson
+{
+   "Immunization": "[[StructureDefinition-ch-vacd-immunization.html CH VACD Immunization]]",
+   "extension: [[StructureDefinition-ch-vacd-ext-immunization-medication-reference.html medication]]": {
+      "Medication": "[[StructureDefinition-ch-vacd-medication-for-immunization.html Medication for Immunization]]",
+      "code.coding:": {
+          "slice": "GTIN",
+          "system": "urn:oid:2.51.1.1",
+          "code": "<gtin of medication product>"
+      }
+   }
+}
+
+
+@endjson
