@@ -4,15 +4,15 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor Patient #red
+actor "Patient bzw.\nPatientin" as pat #red
 participant "Portal" #00CC00
 participant "Eigene Gemeinschaft\nA" #00CC00
 
 autonumber "<b>[00]"
-Patient -> "Portal": Erfassen der abgegebenen \nImpfung und speichern.
+pat -> "Portal": Erfassen der abgegebenen \nImpfung und speichern.
 "Portal" -> "Eigene Gemeinschaft\nA": Speichern des Dokumentes\n"Impfdokumentation"
 "Eigene Gemeinschaft\nA" -> "Portal": OK
 
-"Portal" -> Patient: Bestätigung der Speicherung
+"Portal" -> pat: Bestätigung der Speicherung
 
 @enduml
