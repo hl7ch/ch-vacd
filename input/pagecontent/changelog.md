@@ -2,6 +2,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 7, v7.0.0-ballot (unreleased)
 
+* [#394](https://github.com/hl7ch/ch-vacd/issues/394): CH VACD Laboratory And Serology - valueQuantity
 * [#384](https://github.com/hl7ch/ch-vacd/issues/384): CH VACD Extension verificationStatus - extend scope&usage
 * [#380](https://github.com/hl7ch/ch-vacd/issues/380): Terminology - add links to CH-TERM CS/VS
 * [#379](https://github.com/hl7ch/ch-vacd/issues/379): UseCase 14 Impfecheck add diagram and change text
