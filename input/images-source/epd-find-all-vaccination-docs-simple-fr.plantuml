@@ -4,7 +4,7 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor "Professionnel de la santé" AS Docteur #blue
+actor "Professionnel\nde la santé" AS Docteur #blue
 participant "Portal" #00CC00
 participant "[[aggregator.html Agrégateur de vaccins]]" as aggr
 

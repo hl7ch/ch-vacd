@@ -6,6 +6,7 @@ card "[[StructureDefinition-ch-vacd-recommendation-request-message.html Bundle: 
     card "[[StructureDefinition-ch-vacd-recommendation-request-messageheader.html Entry: Immunization Recommendation Request MessageHeader]]" as composition #Lightblue  {
 
         card focus {
+            card focus8
             card focus7
             card focus6
             card focus5
@@ -48,6 +49,9 @@ card "[[StructureDefinition-ch-vacd-recommendation-request-message.html Bundle: 
     card "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr Entry: Patient]]" as patient #ec4d4dff {
     }
 
+    card "[[StructureDefinition-ch-vacd-travel-information.html Entry: TravelInformation]]" as travelinfo #ec4d4dff {
+    }
+
     card "[[StructureDefinition-ch-vacd-laboratory-serology.html Entry: LaborAndSerology]]" as laborandserology #ec4d4dff {
     }
 
@@ -62,6 +66,7 @@ card "[[StructureDefinition-ch-vacd-recommendation-request-message.html Bundle: 
     }
     card "[[StructureDefinition-ch-vacd-allergyintolerances.html Entry: AllergyIntolerance]]" as allergyintolerance #ec4d4dff {
     }
+   
     
 
     sender "Reference"..> organization
@@ -76,6 +81,7 @@ card "[[StructureDefinition-ch-vacd-recommendation-request-message.html Bundle: 
     focus5 "Reference"..> pastillness
     focus6 "Reference"..> allergyintolerance
     focus7 "Reference"..> laborandserology
+    focus8 "Reference"..> travelinfo
 
     destination.receiver "Reference"..> labor1
 }

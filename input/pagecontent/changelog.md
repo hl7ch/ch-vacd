@@ -2,10 +2,14 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 7, v7.0.0-ballot (unreleased)
 
-* [#383](https://github.com/hl7ch/ch-vacd/issues/383): FHIR API - enhanced description
+* [#394](https://github.com/hl7ch/ch-vacd/issues/394): CH VACD Laboratory And Serology - valueQuantity
+* [#390](https://github.com/hl7ch/ch-vacd/issues/390): Gendering in Diagrams
 * [#384](https://github.com/hl7ch/ch-vacd/issues/384): CH VACD Extension verificationStatus - extend scope&usage
+* [#383](https://github.com/hl7ch/ch-vacd/issues/383): FHIR API - enhanced description
+* [#381](https://github.com/hl7ch/ch-vacd/issues/381): CH VACD Extension Immunization Medication Reference - Scope&Usage
 * [#380](https://github.com/hl7ch/ch-vacd/issues/380): Terminology - add links to CH-TERM CS/VS
 * [#379](https://github.com/hl7ch/ch-vacd/issues/379): UseCase 14 Impfecheck add diagram and change text
+* [#69](https://github.com/hl7ch/ch-vacd/issues/69): Travel information - Immunization Recommendation Request
 
 
 ### STU 6, v6.0.0 (2025-12-16)

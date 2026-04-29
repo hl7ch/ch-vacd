@@ -4,7 +4,7 @@ footer Version 1.0
 skinparam responseMessageBelowArrow true
 scale max 800 width
 
-actor Patient #red
+actor "Patient bzw.\nPatientin" as pat #red
 participant "Portal" #00CC00
 participant "[[aggregator.html Aggregator]]" as aggr
 participant "Impfcheck" #red
@@ -12,7 +12,7 @@ participant "Impfcheck" #red
 participant "Gemeinschaften\nA..N" #00CC00
 
 autonumber "<b>[00]"
-Patient -> "Portal": Suche alle Impfdokumente
+pat -> "Portal": Suche alle Impfdokumente
 loop "Abfrage aller Gemeinschaften"
 "Portal" -> "Gemeinschaften\nA..N": Suche nach Impfdokumenten
 "Gemeinschaften\nA..N" -> "Portal": Alle gefundenen Impfdokumente (Gem A)
@@ -22,6 +22,6 @@ aggr ->  "Portal": Ein aggregiertes Impfdokument
 ' "Portal" -> "Portal": Pseudonymisieren
 "Portal" ->  "Impfcheck": aggregiertes Impfdokument
 "Impfcheck" -> "Portal": Impfempfehlung
-"Portal" -> Patient: Anzeigen der aggregierten\nImpfdaten
+"Portal" -> pat: Anzeigen der aggregierten\nImpfdaten
 
 @enduml

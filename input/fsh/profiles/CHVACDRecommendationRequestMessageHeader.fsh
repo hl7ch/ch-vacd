@@ -41,5 +41,6 @@ Description: "Definition of the MessageHeader for the immunization recommendatio
     CHVACDMedicalProblems or
     CHVACDPastIllness or
     CHVACDBasicImmunization or
+    CHVACDTravelInformation or
     Consent
 )
