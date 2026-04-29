@@ -53,6 +53,10 @@ dependencies:
   ch.fhir.ig.ch-core: 6.0.0
   ch.fhir.ig.ch-term: 3.3.x
 
+resources:
+  CapabilityStatement/ch-vacd-api-capstmt-srv:
+    exampleBoolean: false
+
 FSHOnly: false
 applyExtensionMetadataToRoot: false
 instanceOptions:
