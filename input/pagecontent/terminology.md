@@ -30,6 +30,7 @@
 * [Entry Conflict Codes](ValueSet-ch-vacd-entry-conflict-vs.html)
 * [Verification Status Codes](ValueSet-ch-vacd-verification-status-vs.html)
 
+* [CH VACD Travel Information Code](ValueSet-ch-vacd-travel-code-vs.html)
 
 #### Defined in CH-TERM
 

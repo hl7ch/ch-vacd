@@ -27,3 +27,4 @@ A Bundle has a list of entries. The first entry is the MessageHeader, in which a
 * [CH VACD Past Illness](StructureDefinition-ch-vacd-pastillnesses.html): Definition of the past illness part for all documents.
 * [CH VACD AllergyIntolerance](StructureDefinition-ch-vacd-allergyintolerances.html): Definition of the AllergyIntolerance part for all documents.
 * [CH VACD Laboratory And Serology](StructureDefinition-ch-vacd-laboratory-serology.html): Definition of the labor and serology part for all documents.
+* [CH VACD Travel Information](StructureDefinition-ch-vacd-travel-information.html) Travel Information for ImmunizationRecommendation for travel vaccinations.

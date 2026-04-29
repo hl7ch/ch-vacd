@@ -55,6 +55,9 @@ Usage: #example
 * entry[=].resource = 11-4-AllergyIntolerance
 * entry[+].fullUrl = "http://test.fhir.ch/r4/Observation/9-2-Observation"
 * entry[=].resource = 9-2-Observation
+* entry[+].fullUrl = "http://test.fhir.ch/r4/Condition/8-10-Condition"
+* entry[=].resource = 8-10-Condition
+
 
 
 Instance: CDSS_Organization
@@ -102,3 +105,4 @@ Usage: #example
 * focus[+] = Reference(11-3-AllergyIntolerance)
 * focus[+] = Reference(11-4-AllergyIntolerance)
 * focus[+] = Reference(9-2-Observation)
+* focus[+] = Reference(8-10-Condition)

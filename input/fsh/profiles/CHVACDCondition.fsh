@@ -7,6 +7,7 @@ Description: "Generic definition (abstract profile) of the condition for all doc
 * ^status = #draft
 * ^experimental = false
 * ^publisher = "eHealth Suisse"
+* ^abstract = true
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
 * extension ^slicing.rules = #open
