@@ -24,7 +24,7 @@ The following documents and messages have been defined:
 
 ### FHIR RESTful API
 
-See [REST API](rest-api.html).
+See [REST API](REST-API.html).
 
 
 ### MustSupport
