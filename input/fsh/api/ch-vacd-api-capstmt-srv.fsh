@@ -30,7 +30,7 @@ Usage: #definition
 * rest.resource[=].searchParam[=].documentation = "Who the sensitivity is for"
 * rest.resource[=].searchParam[+].name = "identifier"
 * rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Any identifier for the organization (not the accreditation issuer's identifier)"
+* rest.resource[=].searchParam[=].documentation = "Any identifier for the AllergyIntolerance."
 
 * rest.resource[+].type = #Condition
 * rest.resource[=].profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-condition"
@@ -50,7 +50,7 @@ Usage: #definition
 * rest.resource[=].searchParam[=].documentation = "Who has the condition?"
 * rest.resource[=].searchParam[+].name = "identifier"
 * rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Any identifier for the organization (not the accreditation issuer's identifier)"
+* rest.resource[=].searchParam[=].documentation = "Any identifier for the Condition."
 
 * rest.resource[+].type = #Immunization
 * rest.resource[=].profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"
@@ -74,7 +74,7 @@ Usage: #definition
 * rest.resource[=].searchParam[=].documentation = "Vaccination (non)-Administration Date"
 * rest.resource[=].searchParam[+].name = "identifier"
 * rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Any identifier for the organization (not the accreditation issuer's identifier)"
+* rest.resource[=].searchParam[=].documentation = "Any identifier for the Immunization."
 
 * rest.resource[+].type = #Observation
 * rest.resource[=].profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology"
@@ -91,7 +91,7 @@ Usage: #definition
 * rest.resource[=].searchParam[=].documentation = "The subject that the observation is about (if patient)"
 * rest.resource[=].searchParam[+].name = "identifier"
 * rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Any identifier for the organization (not the accreditation issuer's identifier)"
+* rest.resource[=].searchParam[=].documentation = "Any identifier for the Observation."
 
 * rest.resource[+].type = #Medication
 * rest.resource[=].profile =  "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medication-for-immunization"
@@ -157,7 +157,7 @@ Usage: #definition
 * rest.resource[=].searchParam[=].documentation = "A portion of the organization's name or alias"
 * rest.resource[=].searchParam[+].name = "identifier"
 * rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Any identifier for the organization (not the accreditation issuer's identifier)"
+* rest.resource[=].searchParam[=].documentation = "Any identifier for the Organization."
 
 * rest.resource[+].type = #Patient
 * rest.resource[=].profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"
