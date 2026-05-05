@@ -17,4 +17,3 @@ Description: "The codes for declaring document entry conflicts"
   * ^designation[=].value = "duplicat"
   * ^designation[+].language = #en-US
   * ^designation[=].value = "duplicate"
-

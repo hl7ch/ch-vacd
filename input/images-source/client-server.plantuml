@@ -1,0 +1,22 @@
+@startuml
+
+left to right direction
+
+card "Health Provider System" as Client #LightCyan {
+    card "FHIR Client" as fclt #Orange
+}
+
+card "Patient APP" as PatApp #LightGreen {
+    card "FHIR Client" as fcltp #Orange
+}
+
+card "Server" as Server #LightBlue {
+    card "[[CapabilityStatement-ch-vacd-api-capstmt-srv.html FHIR API]]" as fapi #Orange {
+    }
+}
+
+fclt <--> fapi
+fcltp <--> fapi
+
+
+@enduml
