@@ -2,6 +2,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 7, v7.0.0-ballot (unreleased)
 
+* [#398](https://github.com/hl7ch/ch-vacd/issues/398): Relax Organization cardinality from 1..* to 0..* in Immunization Administration and Vaccination Record Document
 * [#396](https://github.com/hl7ch/ch-vacd/issues/396): Typo in use case 14
 * [#394](https://github.com/hl7ch/ch-vacd/issues/394): CH VACD Laboratory And Serology - valueQuantity
 * [#390](https://github.com/hl7ch/ch-vacd/issues/390): Gendering in Diagrams
