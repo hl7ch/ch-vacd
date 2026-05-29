@@ -34,9 +34,6 @@ Description: "Definition of the bundle for the vaccination record document. This
 * entry[Patient] 1..*
 * entry[Patient].resource 1..1
 
-* entry[Organization] 1..*
-* entry[Organization].resource 1..1
-
 * entry[Immunization] ^short = "Immunization"
 * entry[Immunization].resource 1..1
 * entry[Immunization].resource only CHVACDImmunization
