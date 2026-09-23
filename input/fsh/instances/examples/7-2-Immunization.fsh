@@ -1,7 +1,7 @@
 Instance: 7-2-Immunization
 InstanceOf: CHVACDImmunization
 Title: "7.2 Immunization"
-Description: "Example forImmunization for all documents except Recommendation Request/Response"
+Description: "Example for Immunization for all documents except Recommendation Request/Response"
 Usage: #example
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(6-2-PractitionerRole)

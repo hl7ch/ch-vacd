@@ -15,7 +15,7 @@ Description: "Definition of the composition for the vaccination record document.
 * extension[dataEnterer] ^min = 0
 * identifier ^short = "Unique identification number"
 * identifier ^example.label = "CH VACD"
-* identifier ^example.valueString = "urn:uuid:0c918c47-561e-4689-bc1b-ba2775d6f04c"
+* identifier ^example.valueIdentifier = "urn:uuid:0c918c47-561e-4689-bc1b-ba2775d6f04c"
 * status = #final (exactly)
 * type = $sct#41000179103
 * type ^short = "Document type Immunization record"

@@ -49,7 +49,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#296](https://github.com/hl7ch/ch-vacd/issues/296): add expansion parameter for sct swiss extension (Michaela Ziegler, Roeland Luykx)
 * [#294](https://github.com/hl7ch/ch-vacd/issues/294): Adaption to IPS (2.0.0)
 * [#264](https://github.com/hl7ch/ch-vacd/issues/264): Swiss Social Risks For Immunizations
-* [#225](https://github.com/hl7ch/ch-vacd/issues/255): Artifacts Summary
+* [#255](https://github.com/hl7ch/ch-vacd/issues/255): Artifacts Summary
 
 ### STU 5, v5.0.0 (2024-12-17) 
 
@@ -77,7 +77,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#233](https://github.com/hl7ch/ch-vacd/issues/233): Spelling CH VACD (vs. CH-VACD) (Michaela Ziegler, ahdis ag)
 * [#228](https://github.com/hl7ch/ch-vacd/issues/228): Base CHVACDAllergyIntolerance on CHCoreAllergyIntolerance in place of CHAllergyIntolerance 
 * [#226](https://github.com/hl7ch/ch-vacd/issues/226): Base CHVACDMedication on ChCoreMedication in place of CHEMED
-* [#226](https://github.com/hl7ch/ch-vacd/issues/222): Redundancy issues with ConceptMap-ch-vacd-targetdiseases-vaccines
+* [#222](https://github.com/hl7ch/ch-vacd/issues/222): Redundancy issues with ConceptMap-ch-vacd-targetdiseases-vaccines
 * [#218](https://github.com/hl7ch/ch-vacd/issues/218): Depend on ch core profiles (Michaela Ziegler, ahdis ag
 * [#217](https://github.com/hl7ch/ch-vacd/issues/217): Define fix value for category on composition
 * [#216](https://github.com/hl7ch/ch-vacd/issues/216): Referencing to the core profiles

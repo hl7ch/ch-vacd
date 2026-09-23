@@ -14,7 +14,7 @@ Description: "Definition of the composition for the  immunization administration
 * extension[dataEnterer] ^short = "Person who entered information into this document if it is a person other than the author"
 * identifier ^short = "Unique identification number"
 * identifier ^example.label = "CH VACD"
-* identifier ^example.valueString = "urn:uuid:0c918c47-561e-4689-bc1b-ba2775d6f04c"
+* identifier ^example.valueIdentifier = "urn:uuid:0c918c47-561e-4689-bc1b-ba2775d6f04c"
 * status = #final (exactly)
 * type = $sct#41000179103
 * type ^short = "Document type Immunization record"

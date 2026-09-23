@@ -1,7 +1,7 @@
 Instance: 7-12-Immunization
 InstanceOf: CHVACDImmunization
 Title: "7.12 Immunization"
-Description: "Example forImmunization for occurrenceString"
+Description: "Example for Immunization for occurrenceString"
 Usage: #example
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
 * extension[=].valueReference = Reference(6-6-PractitionerRole)

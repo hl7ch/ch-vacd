@@ -1,10 +1,10 @@
-## Test Case E 01: Mergin documents with different language settings
+## Test Case E 01: Merging documents with different language settings
 
 ### Precondition
 In the ehealth ecosystem of the patient there are several ImmunizationAdministration documents with different languages set.
 
 ### Sequence
-The patient likes to see his immunization status. The aggergator process merges all document together to an VaccinationRecord.
+The patient likes to see his immunization status. The aggregator process merges all document together to an VaccinationRecord.
 The language of the resulting document should be in the language the patient has set in his portal.
 
 <div>{% include TCE01.svg %}</div>
