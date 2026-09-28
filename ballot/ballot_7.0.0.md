@@ -38,6 +38,7 @@ During the ballot, 34 issues were reported for CH VACD:
 * [Issue #416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
 * [Issue #430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
 * [Issue #432](https://github.com/hl7ch/ch-vacd/issues/432): Patient profiling – inconsistent Patient profile constraints
+* [Issue #437](https://github.com/hl7ch/ch-vacd/issues/437): 3.1 Patient - JSON Representation – "tel:" prefix in patient.telecom.value
 
 ## Use Cases
 * [Issue #408](https://github.com/hl7ch/ch-vacd/issues/408): verificationStatus "Confirmed" on patient-recorded immunizations
@@ -54,6 +55,7 @@ During the ballot, 34 issues were reported for CH VACD:
 ## Typos
 * [Issue #404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
 * [Issue #415](https://github.com/hl7ch/ch-vacd/issues/415): Editorial corrections
+* [Issue #436](https://github.com/hl7ch/ch-vacd/issues/436): CDS Immunization Recommendation – typos in workflow/CDSS 
 
 ## Question
 * [Issue #429](https://github.com/hl7ch/ch-vacd/issues/429): Why isn't CHVACDExtensionVerificationStatus a modifier extension?
