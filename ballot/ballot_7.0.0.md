@@ -4,7 +4,7 @@
 The STU7 ballot was held from August 7 to September 30. From September 22 to 23, 
 the annual Projectathon took place, where there was the opportunity to test the 
  eVaccination exchange format and provide feedback.   
-During the ballot, 34 issues were reported for CH VACD:
+During the ballot, 37 issues were reported for CH VACD:
 * [Issues CH VACD](https://github.com/hl7ch/ch-vacd/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22ballot%20v7.0.0%20-%20STU%207%22)
 * [Issue CH TERM](https://github.com/hl7ch/ch-term/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22CH%20VACD%22)
 
@@ -28,6 +28,7 @@ During the ballot, 34 issues were reported for CH VACD:
 * [Issue #413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
 * [Issue #418](https://github.com/hl7ch/ch-vacd/issues/418): Relation to CH IPS
 * [Issue #419](https://github.com/hl7ch/ch-vacd/issues/419): Terminology - graphic
+* [Issue #423](https://github.com/hl7ch/ch-vacd/issues/423): REST API – missing security/authorization/consent/audit section
 * [Issue #424](https://github.com/hl7ch/ch-vacd/issues/424): Verification Status – impact on query/aggregator logic
 * [Issue #425](https://github.com/hl7ch/ch-vacd/issues/425): Verification Status – handling of unverified patient-reported immunizations
 * [Issue #426](https://github.com/hl7ch/ch-vacd/issues/426): CH VACD Travel Information
@@ -55,7 +56,7 @@ During the ballot, 34 issues were reported for CH VACD:
 ## Typos
 * [Issue #404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
 * [Issue #415](https://github.com/hl7ch/ch-vacd/issues/415): Editorial corrections
-* [Issue #436](https://github.com/hl7ch/ch-vacd/issues/436): CDS Immunization Recommendation – typos in workflow/CDSS 
+* [Issue #436](https://github.com/hl7ch/ch-vacd/issues/436): CDS Immunization Recommendation – typos in workflow/CDSS paragraphs
 
 ## Question
 * [Issue #429](https://github.com/hl7ch/ch-vacd/issues/429): Why isn't CHVACDExtensionVerificationStatus a modifier extension?
