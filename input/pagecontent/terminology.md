@@ -49,7 +49,7 @@
 
 * [CH VACD Swiss Vaccination Plan Immunizations](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-ch-vaccination-plan-immunizations-vs.html){:target="_blank"}
 * [CH VACD Recommendation Categories for Immunizations](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-recommendation-categories-vs.html){:target="_blank"}
-* [CH VACD Swiss Recommendation Forecast Status](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-route-of-administration-vs.html){:target="_blank"}
+* [CH VACD Swiss Recommendation Forecast Status](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-recommendation-forecast-status-vs.html){:target="_blank"}
 
 
 ### ConceptMaps

@@ -69,7 +69,7 @@ Description: "Definition of the bundle for the immunization recommendation reque
 * entry[PastIllness].resource only CHVACDPastIllness
 
 * entry[AllergyIntolerance] ^short = "AllergyIntolerances"
-* entry[Patient].resource 1..1
+* entry[AllergyIntolerance].resource 1..1
 * entry[AllergyIntolerance].resource only CHVACDAllergyIntolerance
 
 * entry[Observation] ^short = "Observations"

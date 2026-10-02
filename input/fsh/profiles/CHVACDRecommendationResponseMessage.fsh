@@ -26,11 +26,11 @@ Description: "Definition of the bundle for the immunization recommendation respo
         Organizations 1..* and
         ImmunizationRecommendations 1..*
 * entry[MessageHeader] 1..1
-* entry[MessageHeader] ^short = "Immunization Recommendation Request MessageHeader"
+* entry[MessageHeader] ^short = "Immunization Recommendation Response MessageHeader"
 * entry[MessageHeader].resource 1..
 * entry[MessageHeader].resource only CHVACDRecommendationResponseMessageHeader
 
-* entry[Patient] ^short = "Immunization Recommendation Request Patient"
+* entry[Patient] ^short = "Immunization Recommendation Patient"
 * entry[Patient].resource 1..
 * entry[Patient].resource only CHCorePatient
 

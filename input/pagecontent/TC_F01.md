@@ -5,8 +5,8 @@ In the ehealth ecosystem  of the patient there are several ImmunizationAdministr
 
 
 ### Sequence
-The practitioner HCP1 add a comment (note) to an existing Immunization in an exitsting ImmunizationAdministration document.
-Therefor a new ImmunizationAdministration document will be created.
+The practitioner HCP1 add a comment (note) to an existing Immunization in an existing ImmunizationAdministration document.
+Therefore a new ImmunizationAdministration document will be created.
 
 
 <div>{% include TCF01.svg %}</div>

@@ -4,19 +4,19 @@
 -tbd-
 
 ## 2 General Comments
-It was decided to cut of the link to the CDA specification eVACDOC, to gain the freedom to fix alle problems and missing information to be actual and more compatible to other use cases like information exchange accross borders.
-Therefor the International Patient Summary Profile (IPS) was consultet.
-Other informations and experiences made in other profiles like ch-emed was also included.
+It was decided to cut of the link to the CDA specification eVACDOC, to gain the freedom to fix all problems and missing information to be actual and more compatible to other use cases like information exchange across borders.
+Therefore the International Patient Summary Profile (IPS) was consulted.
+Other information and experiences made in other profiles like ch-emed was also included.
 
 ## 3 Resolution Categories
 
 ### 3.1 Bugs/Typos/Cardinality
-This is the categorie to list and resolve the bugs and typos found in the IG during the ballot.
+This is the category to list and resolve the bugs and typos found in the IG during the ballot.
 #### 3.1.1 Issues
 --
 
 ### 3.2 Missing Parts
-This is the categorie to list issues with additional features brought up during the ballot.
+This is the category to list issues with additional features brought up during the ballot.
 #### 3.2.1 Issues
 --
 
@@ -26,7 +26,7 @@ This is the categorie to list issues with questions for discussion
 --
 
 ### 3.4 Structural/Concept
-This is the categorie to list issues with fundamental diskussion topics of the structure or concept
+This is the category to list issues with fundamental discussion topics of the structure or concept
 #### 3.4.1 Issues
 --
 
