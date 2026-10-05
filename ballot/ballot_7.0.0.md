@@ -66,7 +66,7 @@ During the ballot, 44 issues were reported for CH VACD:
 ## Typos
 * [x] [Issue #404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
 * [ ] [Issue #415](https://github.com/hl7ch/ch-vacd/issues/415): Editorial corrections
-* [ ] [Issue #436](https://github.com/hl7ch/ch-vacd/issues/436): CDS Immunization Recommendation – typos in workflow/CDSS paragraphs
+* [x] [Issue #436](https://github.com/hl7ch/ch-vacd/issues/436): CDS Immunization Recommendation – typos in workflow/CDSS paragraphs
 
 ## Question
 * [ ] [Issue #429](https://github.com/hl7ch/ch-vacd/issues/429): Why isn't CHVACDExtensionVerificationStatus a modifier extension?
