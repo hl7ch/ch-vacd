@@ -19,7 +19,7 @@ Eine Patientin bzw. ein Patient sichtet die Impfdaten und wählt die zusätzlich
 
 Die Patientin bzw. der Patient ruft den automatischen Impfcheck auf und sichtet die Impfempfehlungen. 
 
-Falls der Impfcheck eine Empfehlung ausgibt und die Patientin bzw. der Patient diese wünscht macht er einen Termin beim seiner Gesundheitsfachperson aus.
+Falls der Impfcheck eine Empfehlung ausgibt und die Patientin bzw. der Patient diese wünscht macht er einen Termin bei seiner Gesundheitsfachperson aus.
 
 Die Gesundheitsfachperson führt die Impfung durch und dokumentiert diese in ihrem System.
 

@@ -2,7 +2,7 @@ Es gibt viele Szenarien rund um die Dokumentation von impfrelevanten Angaben. Di
 
 ### Anwendungsfälle im Zusammenhang mit dem EPD
 Die nachfolgend aufgeführten Use Cases beschreiben die möglichen Szenarien rund um die Impf-Dokumentation im Kontext zum EPD.
-Das EPD basiert auf eine IHE Umgebung und die Gesundheitsdaten sind als Dokumente in einem XDS Repository gespeichert.
+Das EPD basiert auf einer IHE Umgebung und die Gesundheitsdaten sind als Dokumente in einem XDS Repository gespeichert.
 Das Problem Synchronisierung der Metadaten im XDS und im FHIR Austauschformat ist bekannt, ist aber nicht Bestandteil dieses IG, der das Austauschformat beschreibt.
 
 * [Use Case 1 (DE): Impfdokumentation sichten](Use-Case-1-Impfdokumentation-sichten.html)
