@@ -19,7 +19,7 @@ Technische Umsetzung im EPD: Das Portal richtet eine Abfrage von Dokumenten der 
 
 ### Technische Umsetzung
 
-Im nachfolgenden Diagram werden alle für den Use Case nötigen IHE Transaktionen aufgezeigt.
+Im nachfolgenden Diagramm werden alle für den Use Case nötigen IHE Transaktionen aufgezeigt.
 
 <div>{% include epd-find-all-vaccination-docs.svg %}</div>
 
