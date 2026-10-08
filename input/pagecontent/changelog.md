@@ -1,5 +1,10 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
+### STU 7, v7.0.0 (2026-12-xx)
+
+* [#402](https://github.com/hl7ch/ch-vacd/issues/402): Links in the ConceptMaps diagram do not work
+* [#419](https://github.com/hl7ch/ch-vacd/issues/419): Terminology
+
 ### STU 7, v7.0.0-ballot (2026-06-10)
 
 * [#398](https://github.com/hl7ch/ch-vacd/issues/398): Relax Organization cardinality from 1..* to 0..* in Immunization Administration and Vaccination Record Document

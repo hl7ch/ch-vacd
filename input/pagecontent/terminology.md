@@ -54,12 +54,14 @@
 
 ### ConceptMaps
 #### Defined in CH-TERM
+The following diagramm shows the conversions of Codes from source ValueSet to target ValueSet defined by the corresponding ConceptMap
+<div>{% include concept-mappings.svg %}</div>
+
 * [VaccineCode To TargetDisease Mapping](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-vaccines-targetdiseases-cm.html){:target="_blank"}
 * [TargetDisease To VaccineCode Mapping](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-targetdiseases-vaccines-cm.html){:target="_blank"}
 * [Snomed CT VaccineCode To TargetDisease Mapping](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-vaccines-sct-targetdiseases-cm.html){:target="_blank"}
 * [ImmunGlobuline To TargetDisease Mapping](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-immunoglobulin-targetdiseases-cm.html){:target="_blank"}
-
 * [Swiss VaccineCode To Snomed CT VaccineCode](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-vaccines-sm-sct-cm.html){:target="_blank"}
 * [Snomed CT VaccineCode To Swiss VaccineCode](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-vaccines-sct-sm-cm.html){:target="_blank"}
 
-<div style="float: right; position: relative; top: -150px;">{% include concept-mappings.svg %}</div>
+
