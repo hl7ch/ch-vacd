@@ -49,7 +49,7 @@ During the ballot, 44 issues were reported for CH VACD:
 * [ ] [Issue #416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
 * [ ] [Issue #430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
 * [ ] [Issue #432](https://github.com/hl7ch/ch-vacd/issues/432): Patient profiling – inconsistent Patient profile constraints
-* [ ] [Issue #437](https://github.com/hl7ch/ch-vacd/issues/437): 3.1 Patient - JSON Representation – "tel:" prefix in patient.telecom.value
+* [x] [Issue #437](https://github.com/hl7ch/ch-vacd/issues/437): 3.1 Patient - JSON Representation – "tel:" prefix in patient.telecom.value
 
 ## Use Cases
 * [ ] [Issue #408](https://github.com/hl7ch/ch-vacd/issues/408): verificationStatus "Confirmed" on patient-recorded immunizations
