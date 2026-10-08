@@ -13,8 +13,8 @@ rectangle "[[StructureDefinition-ch-vacd-recommendation-request-message.html Bun
 
     rectangle "[[StructureDefinition-ch-vacd-recommendation-request-messageheader.html Entry: Immunization Recommendation Request MessageHeader]]" as composition #Lightblue  {
         together {
-            rectangle responsible
             rectangle destination.receiver
+            rectangle responsible
             rectangle sender
             rectangle source
         }
@@ -96,7 +96,7 @@ rectangle "[[StructureDefinition-ch-vacd-recommendation-request-message.html Bun
 sender "Reference"..> organization
 responsible "Reference"..> practitionerrole
 practitionerrole ..>"practitioner: Reference" practitioner
-practitionerrole "organization: Reference"..> organization
+practitionerrole ..>"organization: Reference" organization
 
 
 focus1 "Reference"..> patient
