@@ -40,9 +40,9 @@ The narrative text in the composition of the bundle of type document can be gene
 For further details see [Narrative Text Generation](generatenarrativetext.html).
 
 ### History
-Initially the implementation guide was build up based on the [CDA-CH-VACD - Immunization Content (eVACDOC)](https://art-decor.org/art-decor/decor-project--cdachvacd)
-[ART-DECOR®](https://www.art-decor.org/mediawiki/index.php/Main_Page) specification which has been [published by eHealth Suisse](http://ehealthsuisse.art-decor.org/). 
-[CDA-CH-VACD - Immunization Content (eVACDOC)](https://art-decor.org/art-decor/decor-project--cdachvacd) defines the documents for the exchange of 
+Initially the implementation guide was build up based on the [CDA-CH-VACD - Immunization Content (eVACDOC)](https://ehealthsuisse.art-decor.org/cdachvacd-html-20200819T145048/index.html)
+[ART-DECOR®](https://docs.art-decor.org/) specification which has been [published by eHealth Suisse](http://ehealthsuisse.art-decor.org/). 
+[CDA-CH-VACD - Immunization Content (eVACDOC)](https://ehealthsuisse.art-decor.org/cdachvacd-html-20200819T145048/index.html) defines the documents for the exchange of 
 immunization and vaccination information.
 The documents are based on the IHE Technical Framework „Patient Care Coordination (PCC)“ with the profile „Immunization Content (IC)“. 
 The IHE PCC himself references the HL7 Clinical Document Architecture (CDA).
