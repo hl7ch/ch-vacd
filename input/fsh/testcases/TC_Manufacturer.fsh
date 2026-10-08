@@ -5,7 +5,7 @@ Instance: TC_ORG_PFIZER
 InstanceOf: CHCoreOrganization
 Title: "Manufacturer Pfizer AG"
 Description: "Manufacturer Pfizer AG"
-Usage: #definition
+Usage: #example
 * id = "TC-ORG-PFIZER"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601001010604"
@@ -36,7 +36,7 @@ Instance: TC_ORG_GSK
 InstanceOf: CHCoreOrganization
 Title: "Manufacturer GlaxoSmithKline AG"
 Description: "Manufacturer GlaxoSmithKline AG"
-Usage: #definition
+Usage: #example
 * id = "TC-ORG-GSK"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601001000674"
@@ -66,7 +66,7 @@ Instance: TC_ORG_MSD
 InstanceOf: CHCoreOrganization
 Title: "Manufacturer GlaxoSmithKline AG"
 Description: "Manufacturer GlaxoSmithKline AG"
-Usage: #definition
+Usage: #example
 * id = "TC-ORG-MSD"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601001000674"

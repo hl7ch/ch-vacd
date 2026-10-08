@@ -2,7 +2,7 @@ Instance: TC1_patient
 InstanceOf: CHCorePatientEPR
 Title: "TC1 patient"
 Description: "Testcase 1 Example of patient"
-Usage: #definition
+Usage: #example
 * id = "TC1-patient"
 * identifier[0].system = "urn:oid:2.16.756.5.31"
 * identifier[=].value = "123.71.332.115"

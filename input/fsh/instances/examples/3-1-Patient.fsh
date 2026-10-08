@@ -2,7 +2,7 @@ Instance: 3-1-Patient
 InstanceOf: CHCorePatientEPR
 Title: "3.1 Patient"
 Description: "Example for Patient for all document except Recommendation Request/Response"
-Usage: #definition
+Usage: #example
 //* identifier[0].system = "urn:oid:2.16.756.5.31"
 //* identifier[=].value = "123.71.332.115"
 //* identifier[+].system = "urn:oid:2.16.756.5.30.1.123.100.1.1.1"

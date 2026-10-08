@@ -2,7 +2,7 @@ Instance: TC1_organization
 InstanceOf: CHCoreOrganizationEPR
 Title: "TC1 Organization"
 Description: "Testcase 1 example of organization"
-Usage: #definition
+Usage: #example
 * id = "TC1-organization"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7608888888888"

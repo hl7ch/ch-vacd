@@ -5,7 +5,7 @@ Instance: TC_patient
 InstanceOf: CHCorePatientEPR
 Title: "TC patient 1"
 Description: "Testcase: Example of patient"
-Usage: #definition
+Usage: #example
 * id = "TC-patient"
 // * identifier[0].system = "urn:oid:2.16.756.5.31"
 // * identifier[=].value = "123.71.332.115"
@@ -34,7 +34,7 @@ Instance: TC_patient2
 InstanceOf: CHCorePatientEPR
 Title: "TC patient 2"
 Description: "Testcase: Example of patient"
-Usage: #definition
+Usage: #example
 * id = "TC-patient2"
 // * identifier[0].system = "urn:oid:2.16.756.5.31"
 // * identifier[=].value = "123.71.332.456"
