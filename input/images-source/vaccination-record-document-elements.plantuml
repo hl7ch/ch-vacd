@@ -40,7 +40,7 @@ rectangle "[[StructureDefinition-ch-vacd-document-vaccination-record.html Bundle
 
     }
 
-    together {
+    rectangle "entries" as entries {
 
         together {
             rectangle "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr Entry: Patient]]" as patient #ec4d4dff {

@@ -28,7 +28,7 @@ rectangle "[[StructureDefinition-ch-vacd-recommendation-response-message.html Bu
 
     }
 
-    together {
+    rectangle "entries" as entries {
         rectangle "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr Entry: Organization]]" as labor1 #ec4d4dff {
             ''card name1 [
             ''----

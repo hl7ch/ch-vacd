@@ -41,36 +41,38 @@ rectangle "[[StructureDefinition-ch-vacd-document-immunization-administration.ht
         }
     }
 
-    together {
-        rectangle "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr Entry: Patient]]" as patient #ec4d4dff {
-        }
+    rectangle "entries" as entries {
+        together {
+            rectangle "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr Entry: Patient]]" as patient #ec4d4dff {
+            }
 
-        rectangle "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr Entry: PractitionerRole]]" as practitionerrole #ec4d4dff {
-        }
+            rectangle "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr Entry: PractitionerRole]]" as practitionerrole #ec4d4dff {
+            }
 
 
-        rectangle "[[StructureDefinition-ch-vacd-immunization.html Entry: Immunization]]" as immunization1 #ec4d4dff {
-        }
+            rectangle "[[StructureDefinition-ch-vacd-immunization.html Entry: Immunization]]" as immunization1 #ec4d4dff {
+            }
 
-        rectangle "[[StructureDefinition-ch-vacd-basic-immunization.html Entry: BasicImmunization]]" as basicimmunization #ec4d4dff {
-        }
-        rectangle "[[StructureDefinition-ch-vacd-medical-problems.html Entry: MedicalProblem]]" as medicalproblem #ec4d4dff {
-        }
-        rectangle "[[StructureDefinition-ch-vacd-pastillnesses.html Entry: PastIllness]]" as pastillness #ec4d4dff {
-        }
-        rectangle "[[StructureDefinition-ch-vacd-allergyintolerances.html Entry: AllergyIntolerance]]" as allergyintolerance #ec4d4dff {
-        }
-        rectangle "[[StructureDefinition-ch-vacd-laboratory-serology.html Entry: LaborAndSerology]]" as laborandserology #ec4d4dff {
-        }
+            rectangle "[[StructureDefinition-ch-vacd-basic-immunization.html Entry: BasicImmunization]]" as basicimmunization #ec4d4dff {
+            }
+            rectangle "[[StructureDefinition-ch-vacd-medical-problems.html Entry: MedicalProblem]]" as medicalproblem #ec4d4dff {
+            }
+            rectangle "[[StructureDefinition-ch-vacd-pastillnesses.html Entry: PastIllness]]" as pastillness #ec4d4dff {
+            }
+            rectangle "[[StructureDefinition-ch-vacd-allergyintolerances.html Entry: AllergyIntolerance]]" as allergyintolerance #ec4d4dff {
+            }
+            rectangle "[[StructureDefinition-ch-vacd-laboratory-serology.html Entry: LaborAndSerology]]" as laborandserology #ec4d4dff {
+            }
 
-    }
-    together {
-        rectangle "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr Entry: Practitioner]]" as practitioner #ec4d4dff {
         }
-        rectangle "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr Entry: Organization]]" as organization #ec4d4dff {
-        }
+        together {
+            rectangle "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr Entry: Practitioner]]" as practitioner #ec4d4dff {
+            }
+            rectangle "[[http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr Entry: Organization]]" as organization #ec4d4dff {
+            }
 
-        rectangle "[[StructureDefinition-ch-vacd-medication-for-immunization.html Entry: Medication For Immunization]]" as mediforimmun #ec4d4dff {
+            rectangle "[[StructureDefinition-ch-vacd-medication-for-immunization.html Entry: Medication For Immunization]]" as mediforimmun #ec4d4dff {
+            }
         }
     }
 }
