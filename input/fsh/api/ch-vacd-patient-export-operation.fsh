@@ -11,8 +11,8 @@ Generate export document according to the selected export type
 * affectsState = false
 * resource = #Patient
 * system = false
-* type = true
-* instance = false
+* type = false
+* instance = true
 * code = #export-document
 
 * parameter[0].name = #type
