@@ -2,7 +2,7 @@ Instance: 5-3-Organization
 InstanceOf: CHCoreOrganization
 Title: "5.3 Organization"
 Description: "Example for Organization for all documents except  Recommendation Request/Response"
-Usage: #definition
+Usage: #example
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601000000514"
 * name = "Praxis Muster"

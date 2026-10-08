@@ -6,7 +6,7 @@ Instance: TC_ORG1
 InstanceOf: CHCoreOrganizationEPR
 Title: "TC Organization 1"
 Description: "Testcase organization of HCP1"
-Usage: #definition
+Usage: #example
 * id = "TC-ORG1"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601777777718"
@@ -30,7 +30,7 @@ Instance: TC_ORG2
 InstanceOf: CHCoreOrganizationEPR
 Title: "TC Organization 2"
 Description: "Testcase organization of HCP2 in C2"
-Usage: #definition
+Usage: #example
 * id = "TC-ORG2"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601999999912"
@@ -57,7 +57,7 @@ Instance: TC_ORG3
 InstanceOf: CHCoreOrganization
 Title: "TC Labor Organization"
 Description: "Testcase labor organization for lab results"
-Usage: #definition
+Usage: #example
 * id = "TC-ORG3"
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601999999981"
