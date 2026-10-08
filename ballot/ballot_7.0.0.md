@@ -55,13 +55,13 @@ During the ballot, 44 issues were reported for CH VACD:
 * [ ] [Issue #408](https://github.com/hl7ch/ch-vacd/issues/408): verificationStatus "Confirmed" on patient-recorded immunizations
 
 ## REST API
-* [ ] [Issue #410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation
+* [x] [Issue #410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation
 * [ ] [Issue #411](https://github.com/hl7ch/ch-vacd/issues/411): CapabilityStatement
 * [ ] [Issue #420](https://github.com/hl7ch/ch-vacd/issues/420): REST API disclaimer
 * [ ] [Issue #421](https://github.com/hl7ch/ch-vacd/issues/421): CapabilityStatement for server – missing capabilitystatement-expectation extension
 * [ ] [Issue #422](https://github.com/hl7ch/ch-vacd/issues/422): CapabilityStatement for server – two-tier proposal (Query vs. Full Repository server)
 * [ ] [Issue #427](https://github.com/hl7ch/ch-vacd/issues/427): CapabilityStatement for server – mandatory search parameters
-* [ ] [Issue #433](https://github.com/hl7ch/ch-vacd/issues/433): Operation GeneratePatientExportDocument has no patient
+* [x] [Issue #433](https://github.com/hl7ch/ch-vacd/issues/433): Operation GeneratePatientExportDocument has no patient
 
 ## Typos
 * [ ] [Issue #404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
