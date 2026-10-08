@@ -17,7 +17,7 @@ Usage: #definition
 * name.family = "Wegmueller"
 * name.given = "Monika"
 * telecom.system = #phone
-* telecom.value = "tel:+41.32.685.12.34"
+* telecom.value = "+41.32.685.12.34"
 * telecom.use = #home
 * gender = #female
 * birthDate = "1967-02-10"
@@ -46,7 +46,7 @@ Usage: #definition
 * name.family = "Knecht"
 * name.given = "Lea"
 * telecom.system = #phone
-* telecom.value = "tel:+41.32.685.45.67"
+* telecom.value = "+41.32.685.45.67"
 * telecom.use = #home
 * gender = #female
 * birthDate = "1992-05-14"
