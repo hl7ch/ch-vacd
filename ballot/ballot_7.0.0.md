@@ -30,7 +30,7 @@ During the ballot, 44 issues were reported for CH VACD:
 
 ## Documentation
 * [ ] [Issue #402](https://github.com/hl7ch/ch-vacd/issues/402): Links in the ConceptMaps diagram do not work
-* [ ] [Issue #403](https://github.com/hl7ch/ch-vacd/issues/403): URL for CDA-CH-VACD – Immunisation Content
+* [x] [Issue #403](https://github.com/hl7ch/ch-vacd/issues/403): URL for CDA-CH-VACD – Immunisation Content
 * [ ] [Issue #405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
 * [ ] [Issue #406](https://github.com/hl7ch/ch-vacd/issues/406): Clarification on Document bundle ingestion
 * [ ] [Issue #407](https://github.com/hl7ch/ch-vacd/issues/407): Expand acronym meaning in diagrams
