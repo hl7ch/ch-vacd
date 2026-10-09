@@ -32,7 +32,7 @@ Usage: #example
 
 Instance: C_D1_P_C1_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration
-Title: "Patient Document 1 Stammgemeinschaft Composition"
+Title: "Patient Document 1 Stammgemeinschaft Composition C-D1-P-C1"
 Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "C-D1-P-C1-Composition"

@@ -1,6 +1,6 @@
 Instance: RDA03b
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case A 03: Aggregated Dokument (RDA03)"
+Title: "Test Case A 03: Aggregated Dokument (RDA03b)"
 Description: "Test Case A 03:  Patient trägt zweite Dosis einer Impfung (FSME) ein."
 Usage: #example
 * id = "RDA03b"
@@ -60,7 +60,7 @@ Usage: #example
 
 Instance: RDA03_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDA03b"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDA03-Composition-b"

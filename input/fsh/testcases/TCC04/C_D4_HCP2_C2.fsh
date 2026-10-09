@@ -1,6 +1,6 @@
 Instance: C_D4_HCP2_C2
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case C 04: Medical Problem \"Bat researcher or guard\""
+Title: "Test Case C 04: Medical Problem \"Bat researcher or guard\" (C-D4-HCP2-C2)"
 Description: "Test Case C 04: HCP2 enters medical problem (exposition risk) \"Bat researcher or guard\""
 Usage: #example
 * id = "C-D4-HCP2-C2"
@@ -34,7 +34,7 @@ Usage: #example
 
 Instance: C_D4_HCP2_C2_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration
-Title: "Document 4 GFP Gemeinschaft 2 Composition"
+Title: "Document 4 GFP Gemeinschaft 2 Composition C-D4-HCP2-C2"
 Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "C-D4-HCP2-C2-Composition"

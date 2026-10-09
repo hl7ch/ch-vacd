@@ -1,6 +1,6 @@
 Instance: RDF01b
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case F 01: Add comment (note) to an existing Immunization"
+Title: "Test Case F 01: Add comment (note) to an existing Immunization (RDF01b)"
 Description: "Test Case F 01: Arzt fügt ein Kommentar (note) zur impfung hinzu."
 Usage: #example
 * id = "RDF01b"
@@ -35,7 +35,7 @@ Usage: #example
 
 Instance: RDF01_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDF01b"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDF01-Composition-b"

@@ -1,6 +1,6 @@
 Instance: RDF02b
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case F 02: Add comment (note) to an existing AllergyIntolerance"
+Title: "Test Case F 02: Add comment (note) to an existing AllergyIntolerance (RDF02b)"
 Description: "Test Case F 02: Add comment (note) to an existing AllergyIntolerance"
 Usage: #example
 * id = "RDF02b"
@@ -30,7 +30,7 @@ Usage: #example
 
 Instance: RDF02_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDF02b"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDF02-Composition-b"

@@ -1,6 +1,6 @@
 Instance: F_D3_HCP1_C1
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case F 01: Add comment (note) to an existing AllergyIntolerance"
+Title: "Test Case F 01: Add comment (note) to an existing AllergyIntolerance (F-D3-HCP1-C1)"
 Description: "Test Case F 01: Add comment (note) to an existing AllergyIntolerance"
 Usage: #example
 * id = "F-D3-HCP1-C1"
@@ -27,7 +27,7 @@ Usage: #example
 
 Instance: F_D3_HCP1_C1_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration
-Title: "Document 1 GFP Gemeinschaft Composition"
+Title: "Document 1 GFP Gemeinschaft Composition F-D3-HCP1-C1"
 Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "F-D3-HCP1-C1-Composition"

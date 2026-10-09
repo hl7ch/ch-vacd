@@ -1,6 +1,6 @@
 Instance: TCE01_UNDILL1_de
 InstanceOf: CHVACDPastIllness
-Title: "Undergone Illness Chickenpox (Past Illnesses)"
+Title: "Undergone Illness Chickenpox (Past Illnesses) (TCE01 1)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCE01-UNDILL1-de"
@@ -20,7 +20,7 @@ Usage: #example
 // FSME Vaccination, 1st dose, D3
 Instance: TCE01_IMMUN1_fr
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP1"
+Title: "TC1 Immunization by HCP1 TCE01 1fr"
 Description: "Testcase D01 example of immunization against Central European encephalitis (disorder)"
 Usage: #example
 * id = "TCE01-IMMUN1-fr"
@@ -52,7 +52,7 @@ Usage: #example
 // 397430003	Diphtheria caused by Corynebacterium diphtheriae (disorder)
 Instance: TCE01_IMMUN2_fr
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP1"
+Title: "TC1 Immunization by HCP1 TCE01 2fr"
 Description: "Testcase D01 example of immunization against Tetanus, Pertussis, Diphtheria"
 Usage: #example
 * id = "TCE01-IMMUN2-fr"
@@ -86,7 +86,7 @@ Usage: #example
 // FSME Vaccination, 1st dose, D3
 Instance: TCE01_IMMUN1_de
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP1"
+Title: "TC1 Immunization by HCP1 TCE01 1de"
 Description: "Testcase D01 example of immunization against Central European encephalitis (disorder)"
 Usage: #example
 * id = "TCE01-IMMUN1-de"
@@ -119,7 +119,7 @@ Usage: #example
 // 397430003	Diphtheria caused by Corynebacterium diphtheriae (disorder)
 Instance: TCE01_IMMUN2_de
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP1"
+Title: "TC1 Immunization by HCP1 TCE01 2de"
 Description: "Testcase D01 example of immunization against Tetanus, Pertussis, Diphtheria"
 Usage: #example
 * id = "TCE01-IMMUN2-de"

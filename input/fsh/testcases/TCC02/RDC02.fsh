@@ -1,6 +1,6 @@
 Instance: RDC02
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case C 02: Aggregated Dokument (RDD01)"
+Title: "Test Case C 02: Aggregated Dokument (RDC02)"
 Description: "Test Case C 02: Correction of foreign Immunization entry."
 Usage: #example
 * id = "RDC02"
@@ -39,7 +39,7 @@ Usage: #example
 
 Instance: RDC02_Composition
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDC02"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDC02-Composition"

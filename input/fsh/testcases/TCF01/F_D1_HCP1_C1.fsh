@@ -1,6 +1,6 @@
 Instance: F_D1_HCP1_C1
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case F 01: Add comment (note) to an existing Immunization"
+Title: "Test Case F 01: Add comment (note) to an existing Immunization (F-D1-HCP1-C1)"
 Description: "Test Case F 01: Patient hat ein Impfdokumente mit einer Impfung Havrix 1440."
 Usage: #example
 * id = "F-D1-HCP1-C1"
@@ -32,7 +32,7 @@ Usage: #example
 
 Instance: F_D1_HCP1_C1_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration
-Title: "Document 1 GFP Gemeinschaft Composition"
+Title: "Document 1 GFP Gemeinschaft Composition F-D1-HCP1-C1"
 Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "F-D1-HCP1-C1-Composition"

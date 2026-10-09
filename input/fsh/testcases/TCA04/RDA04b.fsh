@@ -1,6 +1,6 @@
 Instance: RDA04b
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case A 04: Aggregated Dokument (RDA04)"
+Title: "Test Case A 04: Aggregated Dokument (RDA04b)"
 Description: "Test Case A 04: GFP validiert die Impfung (FSME)(Dok6) welche vom Patienten eingetragen wurde (Dok5)"
 Usage: #example
 * id = "RDA04b"
@@ -62,7 +62,7 @@ Usage: #example
 
 Instance: RDA04_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDA04b"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDA04-Composition-b"

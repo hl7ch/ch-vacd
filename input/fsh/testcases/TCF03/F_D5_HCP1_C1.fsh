@@ -1,6 +1,6 @@
 Instance: F_D5_HCP1_C1
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case F 03: Add comment (note) to an existing Condition(PastIllness)"
+Title: "Test Case F 03: Add comment (note) to an existing Condition(PastIllness) (F-D5-HCP1-C1)"
 Description: "Test Case F 03: Add comment (note) to an existing Condition(PastIllness)"
 Usage: #example
 * id = "F-D5-HCP1-C1"
@@ -27,7 +27,7 @@ Usage: #example
 
 Instance: F_D5_HCP1_C1_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration
-Title: "Administration Document Composition"
+Title: "Administration Document Composition F-D5-HCP1-C1"
 Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "F-D5-HCP1-C1-Composition"

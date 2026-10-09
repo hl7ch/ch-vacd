@@ -4,7 +4,7 @@
 // 
 Instance: TCB02_UNDILL1
 InstanceOf: CHVACDPastIllness
-Title: "Undergone Illness Chickenpox (Past Illnesses)"
+Title: "Undergone Illness Chickenpox (Past Illnesses) (TCB02 1)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCB02-UNDILL1"

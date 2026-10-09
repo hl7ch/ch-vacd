@@ -1,6 +1,6 @@
 Instance: C_D5_HCP1_C1
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case C 04: Medical Problem \"Bat researcher or guard\""
+Title: "Test Case C 04: Medical Problem \"Bat researcher or guard\" (C-D5-HCP1-C1)"
 Description: "Test Case C 04: HCP2 enters medical problem (exposition risk) \"Bat researcher or guard\""
 Usage: #example
 * id = "C-D5-HCP1-C1"

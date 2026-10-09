@@ -1,6 +1,6 @@
 Instance: RDA01b
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case A 01: Aggregated Dokument (RDA01)"
+Title: "Test Case A 01: Aggregated Dokument (RDA01b)"
 Description: "Test Case A 01: Patient hat drei Impfdokumente in zwei unterschiedlichen Gemeinschaften (eines davon vom Patient selbst erfasst). Dies ist das vom Patienten erstellte Dokument"
 Usage: #example
 * id = "RDA01b"
@@ -56,7 +56,7 @@ Usage: #example
 
 Instance: RDA01_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDA01b"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDA01-Composition-b"

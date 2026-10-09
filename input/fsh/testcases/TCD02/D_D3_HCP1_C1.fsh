@@ -1,6 +1,6 @@
 Instance: D_D3_HCP1_C1
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case D 01: Document HCP1 with Immunization Entries (RDD01)"
+Title: "Test Case D 01: Document HCP1 with Immunization Entries (D-D3-HCP1-C1)"
 Description: "Test Case D 01: ImmunizationAdministration document created by HCP1 for Patient with Immunization Entries."
 Usage: #example
 * id = "D-D3-HCP1-C1"
@@ -51,7 +51,7 @@ Usage: #example
 
 Instance: D_D3_HCP1_C1_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration
-Title: "Administration Document Composition"
+Title: "Administration Document Composition D-D3-HCP1-C1"
 Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "D-D3-HCP1-C1-Composition"

@@ -1,6 +1,6 @@
 Instance: originalRepresentation1
 InstanceOf: Binary
-Title: "13.1 Binary Original Representation (Immunization Certificate)"
+Title: "Original Representation (Immunization Certificate)"
 Description: "Example Binary for original represenation in section immunization certificate."
 Usage: #definition
 * contentType = #application/pdf

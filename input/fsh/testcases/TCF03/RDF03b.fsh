@@ -1,6 +1,6 @@
 Instance: RDF03b
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case F 03: Add comment (note) to an existing Condition(PastIllness)"
+Title: "Test Case F 03: Add comment (note) to an existing Condition(PastIllness) (RDF03b)"
 Description: "Test Case F 03: Add comment (note) to an existing Condition(PastIllness)"
 Usage: #example
 * id = "RDF03b"
@@ -25,7 +25,7 @@ Usage: #example
 
 Instance: RDF03_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDF03b"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDF03-Composition-b"

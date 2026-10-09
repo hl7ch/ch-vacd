@@ -1,6 +1,6 @@
 Instance: RDB05b
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case B 05: Resulting Document TC B 4 (RDB05)"
+Title: "Test Case B 05: Resulting Document TC B 4 (RDB05b)"
 Description: "Test Case B 05: VaccinationRecord document created as merging result with immunization, medical problem and pregnancy entries."
 Usage: #example
 * id = "RDB05b"
@@ -50,7 +50,7 @@ Usage: #example
 
 Instance: RDB05_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDB05b"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDB05-Composition-b"

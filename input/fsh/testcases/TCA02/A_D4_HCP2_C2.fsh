@@ -32,7 +32,7 @@ Usage: #example
 
 Instance: D4_HCP2_C2_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration
-Title: "Document 4 GFP Gemeinschaft 2 Composition"
+Title: "Document 4 GFP Gemeinschaft 2 Composition A-D4-HCP2-C2"
 Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "A-D4-HCP2-C2-Composition"

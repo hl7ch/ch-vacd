@@ -1,6 +1,6 @@
 Instance: RDD02b
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case D 02: Aggregated Dokument (RDD02)"
+Title: "Test Case D 02: Aggregated Dokument (RDD02b)"
 Description: "Test Case D 01: Error aggregating documents due to dupplicated entries for immunization and medical risks."
 Usage: #example
 * id = "RDD02b"
@@ -88,7 +88,7 @@ Usage: #example
 
 Instance: RDD02_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDD02b"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDD02-Composition-b"

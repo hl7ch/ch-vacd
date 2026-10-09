@@ -1,6 +1,6 @@
 Instance: RDA02b
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case A 02: Aggregated Dokument (RDA02)"
+Title: "Test Case A 02: Aggregated Dokument (RDA02b)"
 Description: "Test Case A 02: GFP trägt zweite Dosis einer Impfung (Hepatitis A) ein"
 Usage: #example
 * id = "RDA02b"
@@ -58,7 +58,7 @@ Usage: #example
 
 Instance: RDA02_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDA02b"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDA02-Composition-b"
