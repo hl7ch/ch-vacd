@@ -1,6 +1,6 @@
 Instance: C_D4_HCP2_C2
 InstanceOf: CHVACDDocumentImmunizationAdministration
-Title: "Test Case C 04: Medical Problem \"Bat researcher or guard\""
+Title: "Test Case C 04: Medical Problem \"Bat researcher or guard\" (C-D4-HCP2-C2)"
 Description: "Test Case C 04: HCP2 enters medical problem (exposition risk) \"Bat researcher or guard\""
 Usage: #example
 * id = "C-D4-HCP2-C2"
@@ -34,7 +34,7 @@ Usage: #example
 
 Instance: C_D4_HCP2_C2_Composition
 InstanceOf: CHVACDCompositionImmunizationAdministration
-Title: "Document 4 GFP Gemeinschaft 2 Composition"
+Title: "Document 4 GFP Gemeinschaft 2 Composition C-D4-HCP2-C2"
 Description: "Example for Composition Immunization Administration"
 Usage: #example
 * id = "C-D4-HCP2-C2-Composition"
@@ -53,7 +53,7 @@ Usage: #example
 * confidentiality = #N
 * custodian = Reference(TC_ORG2)
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><h3>Immunization Administration</h3><p><b>Id: </b>C-D4-HCP2-C2-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:9686dae0-448c-49f8-9c78-2db1aa95b921</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient2.html\">Patient/TC-patient2</a> Knecht Lea</p><p><b>Date: </b>August 20, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Practitioner-TC-HCP2-C2.html\">Practitioner/TC-HCP2-C2</a> Gesund Meist</p><p><a href=\"Organization-TC-ORG2.html\">Organization/TC-ORG2</a> Praxis Dr. Gesund</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Medical Problems</td></tr></table></div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Id: </b>C-D4-HCP2-C2-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:9686dae0-448c-49f8-9c78-2db1aa95b921</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient2.html\">Patient/TC-patient2</a> Knecht Lea</p><p><b>Date: </b>August 20, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Practitioner-TC-HCP2-C2.html\">Practitioner/TC-HCP2-C2</a> Gesund Meist</p><p><a href=\"Organization-TC-ORG2.html\">Organization/TC-ORG2</a> Praxis Dr. Gesund</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Medical Problems</td></tr></table></div>"
 
 * section[+].id = "medicalproblems"
 * section[=].title = "Medical Problems"

@@ -1,4 +1,4 @@
-# UC 3: demande de recommandation de vaccination
+### UC 3: demande de recommandation de vaccination
 
 **Désignation détaillée**: recommandation de vaccination / centre de vaccination prestataire de service, par exemple phar-
 macien (pharmacien travaillant avec un portail de vaccination).

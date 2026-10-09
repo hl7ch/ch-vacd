@@ -4,25 +4,26 @@ title Aggregation of Immunization Administration Documents with references
 'left to right direction
 
 
-object "Immunization Administration\nDocument 1" as Doc1 #lightblue
-Doc1 : entry "Immunization 1a"
+object "Immunization Administration\nDocument 1" as Doc1a #lightblue
+Doc1a : entry "Immunization 1a"
 
-object "Immunization Administration\nDocument 2" as Doc2 #lightblue
-Doc2 : entry "Immunization 1b - replace Doc1:Immunization 1a"
+object "Immunization Administration\nDocument 2" as Doc2a #lightblue
+Doc2a : entry "Immunization 1b - replace Doc1a:Immunization 1a"
 
-object "Immunization Administration\nDocument 3" as Doc3 #lightblue
-Doc3 : entry "Immunization 2"
+object "Immunization Administration\nDocument 3" as Doc3a #lightblue
+Doc3a : entry "Immunization 2"
 
-object "Aggregator" as AGG
+object "Aggregator" as AGG2 
 
-object "Vaccination Record\nDocument" as RES #lightgreen
-RES : entry "Immunization 1b"
-RES : entry "Immunization 2"
+object "Vaccination Record\nDocument" as RES2 #lightgreen
+RES2 : entry "Immunization 1a"
+RES2 : entry "Immunization 1b"
+RES2 : entry "Immunization 2"
 
 
-Doc1 -down-> AGG
-Doc2 -down-> AGG
-Doc3 -down-> AGG
-AGG -down-> RES
+Doc1a -down-> AGG2
+Doc2a -down-> AGG2
+Doc3a -down-> AGG2
+AGG2 -down-> RES2
 
 @enduml

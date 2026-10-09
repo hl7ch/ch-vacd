@@ -4,7 +4,7 @@
 // FSME Vaccination, 1st dose, D3
 Instance: TCB01_IMMUN1
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP1"
+Title: "TC1 Immunization by HCP1 TCB01 1"
 Description: "Testcase D01 example of immunization against Central European encephalitis (disorder)"
 Usage: #example
 * id = "TCB01-IMMUN1"
@@ -34,7 +34,7 @@ Usage: #example
 // 397430003	Diphtheria caused by Corynebacterium diphtheriae (disorder)
 Instance: TCB01_IMMUN2
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP1"
+Title: "TC1 Immunization by HCP1 TCB01 2"
 Description: "Testcase D01 example of immunization against Tetanus, Pertussis, Diphtheria"
 Usage: #example
 * id = "TCB01-IMMUN2"

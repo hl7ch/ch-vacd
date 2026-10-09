@@ -8,7 +8,7 @@
 // ////////////////////////////////////////////////
 Instance: TC_IMMUN_MEDIC_HAVRIX1440
 InstanceOf: CHVACDMedicationForImmunization
-Title: "TC1 Medication for Immunization by patient"
+Title: "TC1 Medication for Immunization by patient 1"
 Description: "Testcase 1 example of medication for immunization extension"
 Usage: #example
 * id = "TC-IMMUN-MEDIC-HAVRIX1440"
@@ -32,7 +32,7 @@ Usage: #example
 // ////////////////////////////////////////////////
 Instance: TC_IMMUN_MEDIC_FSMEIMMCC
 InstanceOf: CHVACDMedicationForImmunization
-Title: "TC1 Medication for Immunization by patient"
+Title: "TC1 Medication for Immunization by patient 2"
 Description: "Testcase 1 example of medication for immunization extension"
 Usage: #example
 * id = "TC-IMMUN-MEDIC-FSMEIMMCC"

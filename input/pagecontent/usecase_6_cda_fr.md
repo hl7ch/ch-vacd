@@ -1,4 +1,4 @@
-# UC 6: Déléguer l’administration d’un vaccin
+### UC 6: Déléguer l’administration d’un vaccin
 
 **Désignation détaillée**: délégation de l’administration d’un vaccin à des professionnels de la santé non-médecins dans le
 cadre de l’Association suisse des services d’aide et de soins à domicile ou à une institution (par exemple établissement

@@ -1,4 +1,4 @@
-## Test Case A 01: Patient has three vaccination documents in two different communities (one of them recorded by the patient himself)
+**Test Case A 01: Patient has three vaccination documents in two different communities (one of them recorded by the patient himself)**
 
 ### Precondition
 The patient has multiple vaccination documents in the ehealth ecosystem. There are three vaccination administration documents for him in different locations and they are all accessible.

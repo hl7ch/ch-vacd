@@ -4,7 +4,7 @@
 // 
 Instance: TCD03_EXPRISK1
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk Worker in Healthcare (Condition)"
+Title: "Exposition Risk Worker in Healthcare (Condition) 1"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCD03-EXPRISK1"
@@ -23,7 +23,7 @@ Usage: #example
 
 Instance: TCD03_EXPRISK2
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk Worker in Healthcare (Condition)"
+Title: "Exposition Risk Worker in Healthcare (Condition) 2"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCD03-EXPRISK2"
@@ -40,7 +40,7 @@ Usage: #example
 
 Instance: TCD03_EXPRISK3
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk Worker in Healthcare (Condition)"
+Title: "Exposition Risk Worker in Healthcare (Condition) 3"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCD03-EXPRISK3"
@@ -62,7 +62,7 @@ Usage: #example
 // with duplicate refs
 Instance: TCD03_EXPRISK1_2
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk Worker in Healthcare (Condition)"
+Title: "Exposition Risk Worker in Healthcare (Condition) 1-2"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCD03-EXPRISK1-2"
@@ -91,7 +91,7 @@ Usage: #example
 
 Instance: TCD03_EXPRISK2_2
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk Worker in Healthcare (Condition)"
+Title: "Exposition Risk Worker in Healthcare (Condition) 2-2"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCD03-EXPRISK2-2"
@@ -119,7 +119,7 @@ Usage: #example
 
 Instance: TCD03_EXPRISK3_2
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk Worker in Healthcare (Condition)"
+Title: "Exposition Risk Worker in Healthcare (Condition) 3-2"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCD03-EXPRISK3-2"

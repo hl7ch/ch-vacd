@@ -1,4 +1,4 @@
-## Test Case D 03: Merging conflict for medicalproblem in three documents
+**Test Case D 03: Merging conflict for medicalproblem in three documents**
 
 ### Precondition
 In the ehealth ecosystem of the patient there are several ImmunizationAdministration documents. In three documents the same MedicalProblem entry is entered.

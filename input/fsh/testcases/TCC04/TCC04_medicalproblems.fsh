@@ -4,7 +4,7 @@
 // first entry
 Instance: TCC04_EXPRISK1
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk \"Bat researcher or guard\" (Condition)"
+Title: "Exposition Risk \"Bat researcher or guard\" 1"
 Description: "Example Condition for expositionrisk \"Bat researcher or guard\""
 Usage: #example
 * id = "TCC04-EXPRISK1"
@@ -25,7 +25,7 @@ Usage: #example
 // cancelation entry
 Instance: TCC04_EXPRISK2
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk \"Bat researcher or guard\" (Condition)"
+Title: "Exposition Risk \"Bat researcher or guard\" canceling 2"
 Description: "Example Condition for canceling expositionrisk \"FLEDERMAUSFORSCHER_UND_SCHUETZER'\""
 Usage: #example
 * id = "TCC04-EXPRISK2"
@@ -63,7 +63,7 @@ Usage: #example
 // resulted entry
 Instance: TCC04_EXPRISK3
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk \"Bat researcher or guard\" (Condition)"
+Title: "Exposition Risk \"Bat researcher or guard\" canceling 3"
 Description: "Example Condition for canceling expositionrisk \"Bat researcher or guard\""
 Usage: #example
 * id = "TCC04-EXPRISK3"

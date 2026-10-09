@@ -64,8 +64,8 @@ Usage: #definition
 // ////////////////////////////////////////////////
 Instance: TC_ORG_MSD
 InstanceOf: CHCoreOrganization
-Title: "Manufacturer GlaxoSmithKline AG"
-Description: "Manufacturer GlaxoSmithKline AG"
+Title: "MSD Merck Sharp & Dohme AG"
+Description: "MSD Merck Sharp & Dohme AG"
 Usage: #definition
 * id = "TC-ORG-MSD"
 * identifier.system = "urn:oid:2.51.1.3"

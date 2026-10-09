@@ -1,4 +1,4 @@
-## Test Case C 03:  Cancel entry own community
+**Test Case C 03:  Cancel entry own community**
 
 ### Precondition
 There is a ImmunizationAdministration document with the entry for expositionrisk for the patient in the ehealth ecosystem.

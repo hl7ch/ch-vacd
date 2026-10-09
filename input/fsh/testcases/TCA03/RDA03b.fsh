@@ -1,6 +1,6 @@
 Instance: RDA03b
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case A 03: Aggregated Dokument (RDA03)"
+Title: "Test Case A 03: Aggregated Dokument (RDA03b)"
 Description: "Test Case A 03:  Patient trägt zweite Dosis einer Impfung (FSME) ein."
 Usage: #example
 * id = "RDA03b"
@@ -60,7 +60,7 @@ Usage: #example
 
 Instance: RDA03_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDA03b"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDA03-Composition-b"
@@ -79,7 +79,7 @@ Usage: #example
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><h3>Vaccination Record</h3><p><b>Id: </b>RDA03-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:8c845f76-eadc-4472-9d89-ad5e313a7b19</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>September 5, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Immunization Administration</td></tr><tr><td>Comments</td></tr></table></div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Id: </b>RDA03-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:8c845f76-eadc-4472-9d89-ad5e313a7b19</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>September 5, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Immunization Administration</td></tr><tr><td>Comments</td></tr></table></div>"
 
 * section[0].id = "administration"
 * section[=].title = "Immunization Administration"
