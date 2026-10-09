@@ -1,4 +1,4 @@
-## Test Case F 02: Add comment (note) to an existing AllergyIntolerance
+**Test Case F 02: Add comment (note) to an existing AllergyIntolerance**
 
 ### Precondition
 In the ehealth ecosystem of the patient there are several ImmunizationAdministration documents with AllergyIntolerance set.

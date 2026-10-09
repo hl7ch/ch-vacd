@@ -1,4 +1,4 @@
-## Test Case E 01: Merging documents with different language settings
+**Test Case E 01: Merging documents with different language settings**
 
 ### Precondition
 In the ehealth ecosystem of the patient there are several ImmunizationAdministration documents with different languages set.

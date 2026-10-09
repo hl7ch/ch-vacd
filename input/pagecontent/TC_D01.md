@@ -1,4 +1,4 @@
-## Test Case D 01: HCP or patient would like to see a vaccination status overview. When merging, a conflict is found in the immunization entries (same vaccination, same date)
+**Test Case D 01: HCP or patient would like to see a vaccination status overview. When merging, a conflict is found in the immunization entries (same vaccination, same date)**
 
 ### Precondition
 In the ehealth ecosystem of the patient there are several ImmunizationAdministration documents. In two documents the same Immunization entry is entered (same date, same vaccination).

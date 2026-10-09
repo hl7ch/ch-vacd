@@ -1,4 +1,4 @@
-## Test Case C 05:  DOES NOT validate patient entry for past illness
+**Test Case C 05:  DOES NOT validate patient entry for past illness**
 
 ### Precondition
 The patient has created a ImmunizationAdministration document with a past illness entry for Measles.

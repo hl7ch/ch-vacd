@@ -1,4 +1,4 @@
-## Test Case B 04:  Laboratory and Serology (Hepatitis B virus surface Ab)
+**Test Case B 04:  Laboratory and Serology (Hepatitis B virus surface Ab)**
 
 ### Precondition
 There is a ImmunizationAdministration document for the patient in the ehealth ecosystem.

@@ -1,4 +1,4 @@
-## Test Case D 02: Merging conflicts for immunization, medicalproblems and past illness
+**Test Case D 02: Merging conflicts for immunization, medicalproblems and past illness**
 
 ### Precondition
 In the ehealth ecosystem of the patient there are several ImmunizationAdministration documents. In two documents the same Immunization, PastIllness and MedicalProblem entries are entered.
