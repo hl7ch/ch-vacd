@@ -1069,7 +1069,7 @@
     <xsl:comment>Matched fhir:telecom begin </xsl:comment>
 
     <div class="telecom">
-      <span><xsl:value-of select="./fhir:use/@value"></xsl:value-of>&#160;-&#160;<xsl:value-of select="./fhir:value/@value"></xsl:value-of></span>
+      <span><xsl:value-of select="./fhir:use/@value"></xsl:value-of>:&#160;<xsl:value-of select="./fhir:value/@value"></xsl:value-of></span>
     </div>
     <xsl:comment>Matched fhir:telecom end </xsl:comment>
   </xsl:template>

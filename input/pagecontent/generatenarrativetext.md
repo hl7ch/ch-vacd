@@ -46,9 +46,6 @@ File Bundle-Example.xml
           <profile value="http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-administration"/>
         </meta>
         <language value="en-US"/>
-        <extension id="versionNumber" url="http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-epr-versionnumber">
-          <valueUnsignedInt value="1"/>
-        </extension>
         <identifier>
           <system value="urn:ietf:rfc:3986"/>
           <value value="urn:uuid:5bca53b2-0973-4b91-961e-b1e93474c9c2"/>
@@ -124,7 +121,7 @@ File Bundle-Example.xml
           <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "3-1-Patient" </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/hl7ch/ch-core//StructureDefinition-ch-core-patient-epr.html">CH Core Patient Profile EPR</a></p></div><p><b>identifier</b>: Medical record number: 12345678</p><p><b>name</b>: Monika Wegmueller </p><p><b>telecom</b>: ph: tel:+41.32.685.12.34(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1967-02-10</p><p><b>address</b>: Leidensweg 10 Specimendorf 9876 CH </p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "3-1-Patient" </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/hl7ch/ch-core//StructureDefinition-ch-core-patient-epr.html">CH Core Patient Profile EPR</a></p></div><p><b>identifier</b>: Medical record number: 12345678</p><p><b>name</b>: Monika Wegmueller </p><p><b>telecom</b>: ph: +41.32.685.12.34(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1967-02-10</p><p><b>address</b>: Leidensweg 10 Specimendorf 9876 CH </p></div>
         </text>
         <identifier>
           <type>
@@ -142,7 +139,7 @@ File Bundle-Example.xml
         </name>
         <telecom>
           <system value="phone"/>
-          <value value="tel:+41.32.685.12.34"/>
+          <value value="+41.32.685.12.34"/>
           <use value="home"/>
         </telecom>
         <gender value="female"/>
@@ -166,7 +163,7 @@ File Bundle-Example.xml
           <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "4-1-Practitioner" </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/hl7ch/ch-core//StructureDefinition-ch-core-practitioner-epr.html">CH Core Practitioner Profile EPR</a></p></div><p><b>identifier</b>: id: 7601888888884</p><p><b>active</b>: true</p><p><b>name</b>: Allzeit Bereit </p><p><b>telecom</b>: ph: tel:+41.32.234.55.66(WORK), fax: fax:+41.32.234.55.67(WORK), <a href="mailto:mailto:bereit@gruppenpraxis.ch">mailto:bereit@gruppenpraxis.ch</a>, <a href="http://www.gruppenpraxis.ch">http://www.gruppenpraxis.ch</a></p><p><b>address</b>: Doktorgasse 2 Musterhausen 8888 CH </p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "4-1-Practitioner" </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/hl7ch/ch-core//StructureDefinition-ch-core-practitioner-epr.html">CH Core Practitioner Profile EPR</a></p></div><p><b>identifier</b>: id: 7601888888884</p><p><b>active</b>: true</p><p><b>name</b>: Allzeit Bereit </p><p><b>telecom</b>: ph: +41.32.234.55.66(WORK), fax: fax:+41.32.234.55.67(WORK), <a href="mailto:mailto:bereit@gruppenpraxis.ch">mailto:bereit@gruppenpraxis.ch</a>, <a href="http://www.gruppenpraxis.ch">http://www.gruppenpraxis.ch</a></p><p><b>address</b>: Doktorgasse 2 Musterhausen 8888 CH </p></div>
         </text>
         <identifier>
           <system value="urn:oid:2.51.1.3"/>
@@ -180,12 +177,12 @@ File Bundle-Example.xml
         </name>
         <telecom>
           <system value="phone"/>
-          <value value="tel:+41.32.234.55.66"/>
+          <value value="+41.32.234.55.66"/>
           <use value="work"/>
         </telecom>
         <telecom>
           <system value="fax"/>
-          <value value="fax:+41.32.234.55.67"/>
+          <value value="+41.32.234.55.67"/>
           <use value="work"/>
         </telecom>
         <telecom>
@@ -217,7 +214,7 @@ File Bundle-Example.xml
           <profile value="http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr"/>
         </meta>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "5-1-Organization" </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/hl7ch/ch-core//StructureDefinition-ch-core-organization-epr.html">CH Core Organization Profile EPR</a></p></div><p><b>identifier</b>: id: 7601888888884</p><p><b>name</b>: Gruppenpraxis CH</p><p><b>telecom</b>: ph: tel:+41.32.234.55.66(WORK), fax: fax:+41.32.234.55.67(WORK), <a href="mailto:mailto:bereit@gruppenpraxis.ch">mailto:bereit@gruppenpraxis.ch</a>, <a href="http://www.gruppenpraxis.ch">http://www.gruppenpraxis.ch</a></p><p><b>address</b>: Doktorgasse 2 Musterhausen ZH 8888 CH </p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "5-1-Organization" </p><p style="margin-bottom: 0px">Profile: <a href="https://build.fhir.org/ig/hl7ch/ch-core//StructureDefinition-ch-core-organization-epr.html">CH Core Organization Profile EPR</a></p></div><p><b>identifier</b>: id: 7601888888884</p><p><b>name</b>: Gruppenpraxis CH</p><p><b>telecom</b>: ph: +41.32.234.55.66(WORK), fax: fax:+41.32.234.55.67(WORK), <a href="mailto:mailto:bereit@gruppenpraxis.ch">mailto:bereit@gruppenpraxis.ch</a>, <a href="http://www.gruppenpraxis.ch">http://www.gruppenpraxis.ch</a></p><p><b>address</b>: Doktorgasse 2 Musterhausen ZH 8888 CH </p></div>
         </text>
         <identifier>
           <system value="urn:oid:2.51.1.3"/>
@@ -226,12 +223,12 @@ File Bundle-Example.xml
         <name value="Gruppenpraxis CH"/>
         <telecom>
           <system value="phone"/>
-          <value value="tel:+41.32.234.55.66"/>
+          <value value="+41.32.234.55.66"/>
           <use value="work"/>
         </telecom>
         <telecom>
           <system value="fax"/>
-          <value value="fax:+41.32.234.55.67"/>
+          <value value="+41.32.234.55.67"/>
           <use value="work"/>
         </telecom>
         <telecom>
