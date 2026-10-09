@@ -1,4 +1,4 @@
-# UC 1: Centre de vaccination ambulatoire avec DM sur papier
+### UC 1: Centre de vaccination ambulatoire avec DM sur papier
 
 **Désignation détaillée**: centre de vaccination ambulatoire avec dossier médical sur papier
 **Exemple**: contrôle de vaccination chez le médecin de famille

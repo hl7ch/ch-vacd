@@ -1,4 +1,4 @@
-# UC 7: Vaccinations en série
+### UC 7: Vaccinations en série
 
 **Désignation détaillée**: vaccinations en série, par exemple dans des écoles ou des centres de recrutement militaires
 Dans une école, des vaccins sont administrés à plusieurs enfants par le médecin scolaire. Dans un centre de recrutement,

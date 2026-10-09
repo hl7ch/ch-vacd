@@ -1,4 +1,4 @@
-# UC 5: Centre de vaccination hospitalier avec DM électronique
+### UC 5: Centre de vaccination hospitalier avec DM électronique
 
 **Désignation détaillée**: centre de vaccination dans un hôpital (médecin travaillant avec un dossier médical électronique)
 Cf. chapitre [UC 2](usecase_2_cda_fr.html): centre de vaccination ambulatoire avec DM électronique. Le médecin utilise un système d’information

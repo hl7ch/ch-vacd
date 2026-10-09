@@ -1,4 +1,4 @@
-# UC 1: Ambulante Impfstelle mit Papier KG
+### UC 1: Ambulante Impfstelle mit Papier KG
 
 **Ausführlichere Bezeichnung**: Ambulante Impfstelle mit Papier-Krankengeschichte
 **Beispiel**: Impfkontrolle beim Hausarzt
