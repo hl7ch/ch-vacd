@@ -1,5 +1,10 @@
 All significant changes to this FHIR implementation guide will be documented on this page.
 
+### STU 7, v7.0.0 (2026-12-xx)
+
+* [#409](https://github.com/hl7ch/ch-vacd/issues/409): CapabilityStatement: profiles, search parameters, missing resources and status
+
+
 ### STU 7, v7.0.0-ballot (2026-06-10)
 
 * [#398](https://github.com/hl7ch/ch-vacd/issues/398): Relax Organization cardinality from 1..* to 0..* in Immunization Administration and Vaccination Record Document
