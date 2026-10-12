@@ -26,7 +26,7 @@ Usage: #example
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
 * extension[3].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[=].valueCoding = $sct#76104008 "Not confirmed"
 
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "375532dc-7e74-40dd-8564-3261e8d26603"
