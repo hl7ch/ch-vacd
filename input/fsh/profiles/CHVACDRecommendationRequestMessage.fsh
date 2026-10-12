@@ -38,7 +38,7 @@ Description: "Definition of the bundle for the immunization recommendation reque
 
 * entry[Patient] ^short = "Immunization Recommendation Request Patient"
 * entry[Patient].resource 1..1
-* entry[Patient].resource only CHCorePatientEPR
+* entry[Patient].resource only CHCorePatient
 
 * entry[PractitionerRole] ^short = "PractitionerRoles"
 * entry[PractitionerRole].resource 1..1
