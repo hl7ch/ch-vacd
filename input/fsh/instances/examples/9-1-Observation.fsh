@@ -14,5 +14,9 @@ Usage: #example
 * subject = Reference(3-1-Patient)
 * effectiveDateTime = "1971-10"
 * performer = Reference(6-1-PractitionerRole)
-* valueQuantity = 99.0 '[iU]/L' "[iU]/L"
+* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.value = 99.0
+* valueQuantity.comparator = #<
+* valueQuantity.code = #[iU]/L
+* valueQuantity.unit = "[iU]/L"
 * interpretation = $v3-ObservationInterpretation#POS "Positive"
