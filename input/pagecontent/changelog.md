@@ -9,7 +9,9 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation: how is the patient identified? 
 * [#413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
 * [#414](https://github.com/hl7ch/ch-vacd/issues/414): Retired CH Core extension EPR Time
+* [#416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
 * [#430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
+* [#431](https://github.com/hl7ch/ch-vacd/issues/431): Dubious ValueSet bound to lab result
 * [#433](https://github.com/hl7ch/ch-vacd/issues/433): Operation GeneratePatientExportDocument has no patient
 
 
