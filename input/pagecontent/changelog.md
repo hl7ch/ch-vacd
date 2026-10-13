@@ -2,7 +2,18 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 7, v7.0.0 (2026-12-xx)
 
+* [#403](https://github.com/hl7ch/ch-vacd/issues/403): URL for CDA-CH-VACD – Immunisation Content
+* [#404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
+* [#405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
+* [#409](https://github.com/hl7ch/ch-vacd/issues/409): CapabilityStatement: profiles, search parameters, missing resources and status
+* [#410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation: how is the patient identified? 
+* [#413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
+* [#414](https://github.com/hl7ch/ch-vacd/issues/414): Retired CH Core extension EPR Time
+* [#416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
+* [#430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
+* [#431](https://github.com/hl7ch/ch-vacd/issues/431): Dubious ValueSet bound to lab result
 * [#432](https://github.com/hl7ch/ch-vacd/issues/432): Patient profiling
+* [#433](https://github.com/hl7ch/ch-vacd/issues/433): Operation GeneratePatientExportDocument has no patient
 
 
 ### STU 7, v7.0.0-ballot (2026-06-10)
