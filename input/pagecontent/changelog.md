@@ -2,6 +2,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 7, v7.0.0 (2026-12-xx)
 
+* [#405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
 * [#409](https://github.com/hl7ch/ch-vacd/issues/409): CapabilityStatement: profiles, search parameters, missing resources and status
 
 
