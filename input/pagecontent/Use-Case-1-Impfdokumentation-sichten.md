@@ -9,7 +9,7 @@ Eine Gesundheitsfachperson sichtet die Impfdaten (*Impfausweis* und *Impfdokumen
 
 ### Impfausweis und Impfdokumentation sichten (Patient)
 
-Ein Patient sichtet seine, im EPD gespeicherten Impfdaten (*Impfausweis* und *Impfdokumentation*) im EPD. Er wählt dazu die entsprechenden Benutzeroberflächen aus und fragt den *Impfausweis* bzw. die *Impfdokumentation* aus seinem EPD ab und sichtet die kumulierten Daten in der Benutzeroberfläche des Portals.
+Eine Patientin bzw. ein Patient sichtet die im EPD gespeicherten Impfdaten (Impfausweis und Impfdokumentation) im EPD. Sie bzw. er wählt dazu die entsprechenden Benutzeroberflächen aus und fragt den Impfausweis bzw. die Impfdokumentation aus seinem EPD ab und sichtet die kumulierten Daten in der Benutzeroberfläche des Portals.
 
 Technische Umsetzung im EPD: Das Portal richtet eine Abfrage von Dokumenten der Austauschformate Impfausweis und Impfdokumentation an den Zugangspunkt der Gemeinschaft, welcher die Abfrage an andere Gemeinschaften weiterleitet, in denen Dokumente der Patientin bzw. des Patienten abgelegt sind. Das Portal analysiert das Ergebnis und fragt die Dokumente aus allen Gemeinschaften ab, welche Dokumente mit dem entsprechenden Dokumententyp bzw. Dokumentklasse gespeichert haben. Dazu führt das Portal je eine Abfrage für alle Dokumente pro Gemeinschaft durch, welche Dokumente für die ausgewählte Patientin bzw. den ausgewählten Patienten gespeichert haben. Das Portal führt die Ergebnisse zusammen und zeigt der Patientin bzw. dem Patienten die kumulierten Daten (*Impfausweis* und *Impfdokumentation*) in einer Benutzeroberfläche an.
 

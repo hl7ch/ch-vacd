@@ -2,7 +2,9 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 7, v7.0.0 (2026-12-xx)
 
- [#404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
+* [#404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
+* [#405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
+
 
 ### STU 7, v7.0.0-ballot (2026-06-10)
 
