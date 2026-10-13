@@ -19,6 +19,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#438](https://github.com/hl7ch/ch-vacd/issues/438): CH VACD Condition Profile (Abstract) - abstract double
 * [#456](https://github.com/hl7ch/ch-vacd/issues/456): Fix publisher errors
 
+* [ch-term#187](https://github.com/hl7ch/ch-term/issues/187): Fix CH VACD build errors (CH TERM)
+
 
 ### STU 7, v7.0.0-ballot (2026-06-10)
 

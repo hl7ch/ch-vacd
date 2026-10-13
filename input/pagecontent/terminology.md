@@ -6,11 +6,11 @@
 
 * [CH VACD Swissmedic Authorized Vaccines](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-swissmedic-cs.html){:target="_blank"}
 * [CH VACD Old Swiss Vaccines](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-myvaccines-cs.html){:target="_blank"}
-* [CH VACD Swissmedic Authorized Immunoglobulin Codes](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-swissmedic-immunoglobulin-cs.html){:target="_blank"}
-* [CH VACD Swissmedic Authorized Immunsera Codes](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-swissmedic-immunesera-cs.html){:target="_blank"}
+* [CH VACD Swissmedic Authorized Immunoglobulin Codes CS](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-swissmedic-immunoglobulin-cs.html){:target="_blank"}
+* [CH VACD Swissmedic Authorized Immunsera Codes CS](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-swissmedic-immunesera-cs.html){:target="_blank"}
 
 * [CH VACD Swiss Immunization Recommendation Categories](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-recommendation-categories-cs.html){:target="_blank"}
-* [CH VACD Swiss Recommendation Forecast Status](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-recommendation-forecast-status-cs.html){:target="_blank"}
+* [CH VACD Swiss Recommendation Forecast Status CS](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-recommendation-forecast-status-cs.html){:target="_blank"}
 
 ### ValueSets
 #### Defined in this IG
@@ -40,8 +40,8 @@
 
 * [CH VACD Snomed CT for VaccineCode](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-vaccines-snomedct-vs.html){:target="_blank"}
 
-* [CH VACD Swissmedic Authorized Immunoglobulin Codes](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-swissmedic-immunoglobulin-vs.html){:target="_blank"}
-* [CH VACD Swissmedic Authorized Immunsera Codes](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-swissmedic-immunesera-vs.html){:target="_blank"}
+* [CH VACD Swissmedic Authorized Immunoglobulin Codes VS](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-swissmedic-immunoglobulin-vs.html){:target="_blank"}
+* [CH VACD Swissmedic Authorized Immunsera Codes VS](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-swissmedic-immunesera-vs.html){:target="_blank"}
 
 * [CH VACD Target disease and illnesses undergone for immunization](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs.html){:target="_blank"}
 
@@ -49,7 +49,7 @@
 
 * [CH VACD Swiss Vaccination Plan Immunizations](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-ch-vaccination-plan-immunizations-vs.html){:target="_blank"}
 * [CH VACD Recommendation Categories for Immunizations](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-recommendation-categories-vs.html){:target="_blank"}
-* [CH VACD Swiss Recommendation Forecast Status](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-recommendation-forecast-status-vs.html){:target="_blank"}
+* [CH VACD Swiss Recommendation Forecast Status VS](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-recommendation-forecast-status-vs.html){:target="_blank"}
 
 
 ### ConceptMaps

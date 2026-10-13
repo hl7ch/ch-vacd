@@ -20,6 +20,7 @@ During the ballot, 44 issues were reported for CH VACD:
 * [ ] [Issue 180](https://github.com/hl7ch/ch-term/issues/180): CH VACD All Swiss Vaccine Codes
 * [ ] [Issue 183](https://github.com/hl7ch/ch-term/issues/183): CH VACD All Swiss Vaccine Codes - Update the vaccine list
 * [ ] [Issue #184](https://github.com/hl7ch/ch-term/issues/184): Typo in FR translation of CodeSystem: Swiss Medic Authorized Vaccines Codesystem
+* [x] [Issue #187](https://github.com/hl7ch/ch-term/issues/187): Fix CH VACD build errors
 
 ## Issue opened in CH Core
 * [ ] [Issue #448](https://github.com/hl7ch/ch-core/issues/448): Indication code extension – wrong slicing context
