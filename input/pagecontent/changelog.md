@@ -7,6 +7,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
 * [#409](https://github.com/hl7ch/ch-vacd/issues/409): CapabilityStatement: profiles, search parameters, missing resources and status
 * [#410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation: how is the patient identified? 
+* [#413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
 * [#433](https://github.com/hl7ch/ch-vacd/issues/433): Operation GeneratePatientExportDocument has no patient
 
 
