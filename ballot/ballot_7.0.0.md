@@ -44,9 +44,9 @@ During the ballot, 44 issues were reported for CH VACD:
 
 ## Profiling
 * [x] [Issue #409](https://github.com/hl7ch/ch-vacd/issues/409): Location referenced from the Condition is not part of the request message bundle
-* [ ] [Issue #414](https://github.com/hl7ch/ch-vacd/issues/414): Retired CH Core extension EPR Time
+* [x] [Issue #414](https://github.com/hl7ch/ch-vacd/issues/414): Retired CH Core extension EPR Time
 * [ ] [Issue #416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
-* [ ] [Issue #430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
+* [x] [Issue #430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
 * [ ] [Issue #432](https://github.com/hl7ch/ch-vacd/issues/432): Patient profiling – inconsistent Patient profile constraints
 * [ ] [Issue #437](https://github.com/hl7ch/ch-vacd/issues/437): 3.1 Patient - JSON Representation – "tel:" prefix in patient.telecom.value
 
