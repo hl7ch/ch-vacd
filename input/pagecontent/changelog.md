@@ -16,8 +16,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#433](https://github.com/hl7ch/ch-vacd/issues/433): Operation GeneratePatientExportDocument has no patient
 * [#436](https://github.com/hl7ch/ch-vacd/issues/436): CDS Immunization Recommendation
 * [#437](https://github.com/hl7ch/ch-vacd/issues/437): 3.1 Patient - JSON Representation – "tel:" prefix in patient.telecom.value
-
 * [#438](https://github.com/hl7ch/ch-vacd/issues/438): CH VACD Condition Profile (Abstract) - abstract double
+* [#456](https://github.com/hl7ch/ch-vacd/issues/456): Fix publisher errors
 
 
 ### STU 7, v7.0.0-ballot (2026-06-10)

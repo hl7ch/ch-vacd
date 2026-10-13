@@ -1,4 +1,4 @@
-# UC 7: Reihenimpfungen
+### UC 7: Reihenimpfungen
 
 **Ausführlichere Bezeichnung**: Reihenimpfungen z.B. in Schulen oder militärischen Rekrutierungszentren.
 

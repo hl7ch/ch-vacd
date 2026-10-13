@@ -4,7 +4,7 @@
 // created by patient
 Instance: TCC05_UNDILL1
 InstanceOf: CHVACDPastIllness
-Title: "Undergone Illness Chickenpox (Past Illnesses)"
+Title: "Undergone Illness Chickenpox (Past Illnesses) (TCC05 1)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCC05-UNDILL1"
@@ -24,7 +24,7 @@ Usage: #example
 // not validated by practitioner
 Instance: TCC05_UNDILL2
 InstanceOf: CHVACDPastIllness
-Title: "Undergone Illness Chickenpox (Past Illnesses)"
+Title: "Undergone Illness Chickenpox (Past Illnesses) (TCC05 2)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCC05-UNDILL2"
@@ -60,7 +60,7 @@ Usage: #example
 // resulted entry
 Instance: TCC05_UNDILL3
 InstanceOf: CHVACDPastIllness
-Title: "Undergone Illness Chickenpox (Past Illnesses)"
+Title: "Undergone Illness Chickenpox (Past Illnesses (TCC05-UNDILL3)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCC05-UNDILL3"

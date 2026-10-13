@@ -4,7 +4,7 @@
 // duplicate
 Instance: TCD02_UNDILL1
 InstanceOf: CHVACDPastIllness
-Title: "Undergone Illness Chickenpox (Past Illnesses)"
+Title: "Undergone Illness Chickenpox (Past Illnesses) (TCD02 1)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCD02-UNDILL1"
@@ -25,7 +25,7 @@ Usage: #example
 // 
 Instance: TCD02_EXPRISK1
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk Worker in Healthcare (Condition)"
+Title: "Exposition Risk Worker in Healthcare (Condition) TCD02 1"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCD02-EXPRISK1"
@@ -47,7 +47,7 @@ Usage: #example
 // 
 Instance: TCB02_UNDILL1_2
 InstanceOf: CHVACDPastIllness
-Title: "Undergone Illness Chickenpox (Past Illnesses)"
+Title: "Undergone Illness Chickenpox (Past Illnesses) (TCB02 1-2)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCB02-UNDILL1-2"
@@ -68,7 +68,7 @@ Usage: #example
 
 Instance: TCD02_UNDILL1_2
 InstanceOf: CHVACDPastIllness
-Title: "Undergone Illness Chickenpox (Past Illnesses)"
+Title: "Undergone Illness Chickenpox (Past Illnesses) (TCD02 1-2)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCD02-UNDILL1-2"
@@ -94,7 +94,7 @@ Usage: #example
 // 
 Instance: TCB03_EXPRISK1_2
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk Worker in Healthcare (Condition)"
+Title: "Exposition Risk Worker in Healthcare (Condition) TCB03 1-2"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCB03-EXPRISK1-2"
@@ -117,7 +117,7 @@ Usage: #example
 
 Instance: TCD02_EXPRISK1_2
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk Worker in Healthcare (Condition)"
+Title: "Exposition Risk Worker in Healthcare (Condition) TCD02 1-2"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCD02-EXPRISK1-2"

@@ -14,7 +14,7 @@ Please add your feedback via the 'Propose a change'-link in the footer.
 
 </div>
 
-**Download**: You can download this implementation guide in [NPM format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](package.tgz).
+**Download**: You can download this implementation guide in [NPM format](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) from [here](../package.tgz).
 
 
 ### Scope

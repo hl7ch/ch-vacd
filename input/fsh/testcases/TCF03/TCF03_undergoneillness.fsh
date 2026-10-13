@@ -4,7 +4,7 @@
 // 
 Instance: TCF03_UNDILL1
 InstanceOf: CHVACDPastIllness
-Title: "Undergone Illness Chickenpox (Past Illnesses)"
+Title: "Undergone Illness Chickenpox (Past Illnesses) (CF03 1)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCF03-UNDILL1"
@@ -21,7 +21,7 @@ Usage: #example
 
 Instance: TCF03_UNDILL2
 InstanceOf: CHVACDPastIllness
-Title: "Undergone Illness Chickenpox (Past Illnesses)"
+Title: "Undergone Illness Chickenpox (Past Illnesses) (TCF03 2)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCF03-UNDILL2"
@@ -55,7 +55,7 @@ Usage: #example
 
 Instance: TCF03_UNDILL3
 InstanceOf: CHVACDPastIllness
-Title: "Undergone Illness Chickenpox (Past Illnesses)"
+Title: "Undergone Illness Chickenpox (Past Illnesses) (TCF03 3)"
 Description: "Example Condition for past illnesses chickenpox"
 Usage: #example
 * id = "TCF03-UNDILL3"
