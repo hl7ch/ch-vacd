@@ -12,7 +12,6 @@ During the ballot, 44 issues were reported for CH VACD:
 ## Terminology
 * [ ] [Issue #412](https://github.com/hl7ch/ch-vacd/issues/412): Terminology page: travel value set, Romansh designations and Forecast Status link
 * [ ] [Issue #417](https://github.com/hl7ch/ch-vacd/issues/417): NUVA binding and FOPH indication code
-* [ ] [Issue #431](https://github.com/hl7ch/ch-vacd/issues/431): Dubious ValueSet bound to lab result
 
 #### Issue opened in CH Term
 * [ ] [Issue 178](https://github.com/hl7ch/ch-term/issues/178): CH VACD Target disease and illnesses undergone for immunization 
@@ -31,7 +30,7 @@ During the ballot, 44 issues were reported for CH VACD:
 ## Documentation
 * [ ] [Issue #402](https://github.com/hl7ch/ch-vacd/issues/402): Links in the ConceptMaps diagram do not work
 * [x] [Issue #403](https://github.com/hl7ch/ch-vacd/issues/403): URL for CDA-CH-VACD – Immunisation Content
-* [ ] [Issue #405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
+* [x] [Issue #405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
 * [ ] [Issue #406](https://github.com/hl7ch/ch-vacd/issues/406): Clarification on Document bundle ingestion
 * [ ] [Issue #407](https://github.com/hl7ch/ch-vacd/issues/407): Expand acronym meaning in diagrams
 * [ ] [Issue #413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
@@ -44,7 +43,7 @@ During the ballot, 44 issues were reported for CH VACD:
 * [ ] [Issue #439](https://github.com/hl7ch/ch-vacd/issues/439): Refactor Document graphics
 
 ## Profiling
-* [ ] [Issue #409](https://github.com/hl7ch/ch-vacd/issues/409): CapabilityStatement: profiles, search parameters, missing resources and status
+* [x] [Issue #409](https://github.com/hl7ch/ch-vacd/issues/409): Location referenced from the Condition is not part of the request message bundle
 * [ ] [Issue #414](https://github.com/hl7ch/ch-vacd/issues/414): Retired CH Core extension EPR Time
 * [ ] [Issue #416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
 * [ ] [Issue #430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
@@ -64,7 +63,7 @@ During the ballot, 44 issues were reported for CH VACD:
 * [ ] [Issue #433](https://github.com/hl7ch/ch-vacd/issues/433): Operation GeneratePatientExportDocument has no patient
 
 ## Typos
-* [ ] [Issue #404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
+* [x] [Issue #404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
 * [ ] [Issue #415](https://github.com/hl7ch/ch-vacd/issues/415): Editorial corrections
 * [ ] [Issue #436](https://github.com/hl7ch/ch-vacd/issues/436): CDS Immunization Recommendation – typos in workflow/CDSS paragraphs
 

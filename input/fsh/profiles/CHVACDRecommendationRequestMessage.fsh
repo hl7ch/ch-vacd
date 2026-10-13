@@ -30,7 +30,8 @@ Description: "Definition of the bundle for the immunization recommendation reque
         PastIllness 0..* and
         AllergyIntolerance 0..* and
         Observation 0..* and
-        TravelInformation 0..*
+        TravelInformation 0..* and
+        TravelLocation 0..*
 * entry[MessageHeader] 1..1
 * entry[MessageHeader] ^short = "Immunization Recommendation Request MessageHeader"
 * entry[MessageHeader].resource 1..1
@@ -79,4 +80,8 @@ Description: "Definition of the bundle for the immunization recommendation reque
 * entry[TravelInformation] ^short = "TravelInformation"
 * entry[TravelInformation].resource 1..1
 * entry[TravelInformation].resource only CHVACDTravelInformation
+
+* entry[TravelLocation] ^short = "TravelLocation"
+* entry[TravelLocation].resource 1..1
+* entry[TravelLocation].resource only CHVACDTravelLocation
 
