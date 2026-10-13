@@ -11,7 +11,7 @@ For more and detailed information, please have a look at the different [Test Cas
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 
 A Bundle has a list of entries. The first entry is the Composition, in which all contained entries are then referenced.
 
-{% include immunization-administration-document-elements.svg %}
+<div>{% include immunization-administration-document-elements.svg %}</div>
 
 ### Identifiers
 

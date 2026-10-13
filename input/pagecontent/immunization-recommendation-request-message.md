@@ -10,7 +10,7 @@ the recommendations in the context of the vaccination/immunization process/workf
 This exchange format is defined as a message type that corresponds to a Bundle as a FHIR resource. 
 A Bundle has a list of entries. The first entry is the MessageHeader, in which all contained entries are then referenced.
 
-{% include immunization-recommendation-request-message-elements.svg %}
+<div>{% include immunization-recommendation-request-message-elements.svg %}</div>
 
 
 #### Examples

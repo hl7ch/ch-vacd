@@ -13,7 +13,7 @@ For more and detailed informations, please have a look at the different [Test Ca
 This exchange format is defined as a document type that corresponds to a Bundle as a FHIR resource. 
 A Bundle has a list of entries. The first entry is the Composition, in which all contained entries are then referenced.
 
-{% include vaccination-record-document-elements.svg %}
+<div>{% include vaccination-record-document-elements.svg %}</div>
 
 ### Identifiers
 
