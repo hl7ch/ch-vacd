@@ -4,8 +4,6 @@ Title: "2.3 Composition Vaccination Record"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * language = #en-US
-
-
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:00ae697d-3635-4c21-af13-4eaa8018c135"
 * status = #final
