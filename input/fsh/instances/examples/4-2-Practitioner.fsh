@@ -2,7 +2,7 @@ Instance: 4-2-Practitioner
 InstanceOf: CHCorePractitioner
 Title: "4.2 Practitioner"
 Description: "Example for Practitioner for all documents except Recommendation Request/Response"
-Usage: #definition
+Usage: #example
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601000000309"
 * active = true

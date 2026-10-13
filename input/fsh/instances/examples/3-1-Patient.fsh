@@ -2,7 +2,7 @@ Instance: 3-1-Patient
 InstanceOf: CHCorePatientEPR
 Title: "3.1 Patient"
 Description: "Example for Patient for all document except Recommendation Request/Response"
-Usage: #definition
+Usage: #example
 //* identifier[0].system = "urn:oid:2.16.756.5.31"
 //* identifier[=].value = "123.71.332.115"
 //* identifier[+].system = "urn:oid:2.16.756.5.30.1.123.100.1.1.1"
@@ -13,7 +13,7 @@ Usage: #definition
 * name.family = "Wegmueller"
 * name.given = "Monika"
 * telecom.system = #phone
-* telecom.value = "tel:+41.32.685.12.34"
+* telecom.value = "+41.32.685.12.34"
 * telecom.use = #home
 * gender = #female
 * birthDate = "1967-02-10"
