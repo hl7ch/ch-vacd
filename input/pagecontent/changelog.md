@@ -5,6 +5,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#403](https://github.com/hl7ch/ch-vacd/issues/403): URL for CDA-CH-VACD – Immunisation Content
 * [#404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
 * [#405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
+* [#407](https://github.com/hl7ch/ch-vacd/issues/407): Expand acronym meaning in diagrams
 * [#409](https://github.com/hl7ch/ch-vacd/issues/409): CapabilityStatement: profiles, search parameters, missing resources and status
 * [#410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation: how is the patient identified? 
 * [#413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
