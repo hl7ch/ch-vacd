@@ -10,6 +10,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
 * [#414](https://github.com/hl7ch/ch-vacd/issues/414): Retired CH Core extension EPR Time
 * [#416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
+* [#417](https://github.com/hl7ch/ch-vacd/issues/417): NUVA binding and FOPH indication code inherited from CH Core 7 are not documented
 * [#430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
 * [#431](https://github.com/hl7ch/ch-vacd/issues/431): Dubious ValueSet bound to lab result
 * [#432](https://github.com/hl7ch/ch-vacd/issues/432): Patient profiling
