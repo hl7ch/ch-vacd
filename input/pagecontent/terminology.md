@@ -54,7 +54,7 @@
 
 ### ConceptMaps
 #### Defined in CH-TERM
-The following diagramm shows the conversions of Codes from source ValueSet to target ValueSet defined by the corresponding ConceptMap
+The following diagram shows the conversions of Codes from source ValueSet to target ValueSet defined by the corresponding ConceptMap
 <div>{% include concept-mappings.svg %}</div>
 
 * [VaccineCode To TargetDisease Mapping](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-vaccines-targetdiseases-cm.html){:target="_blank"}
