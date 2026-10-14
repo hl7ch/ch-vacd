@@ -6,7 +6,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
 * [#405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
 * [#409](https://github.com/hl7ch/ch-vacd/issues/409): CapabilityStatement: profiles, search parameters, missing resources and status
-* [#410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation: how is the patient identified? 
+* [#410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation: how is the patient identified?
+* [#412](https://github.com/hl7ch/ch-vacd/issues/412): Terminology page: travel value set not bound, Romansh designations in German, wrong link for Forecast Status
 * [#413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
 * [#414](https://github.com/hl7ch/ch-vacd/issues/414): Retired CH Core extension EPR Time
 * [#416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
