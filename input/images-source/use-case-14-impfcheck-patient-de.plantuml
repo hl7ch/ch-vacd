@@ -20,7 +20,7 @@ if (Patient bzw. Patientin\nmöchte Impfung\ndurchführen) then (Ja)
   :Patient bzw. Patientin\nmacht einen Termin\nbeim Arzt aus;
   |#LightSalmon|Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
   :Gesundheitsfachperson\nführt Impfung durch;
-  |#LightBlue|PIS|
+  |#LightBlue|Praxis Informations System|
   :Gesundheitsfachperson\ndokumentiert Impfung;
   |Patient bzw. Patientin|
   :Patient bzw. Patientin\nüberprüft die\naktualisierte\nImpfdaten in der\nImpf-APP;
