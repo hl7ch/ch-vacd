@@ -11,7 +11,6 @@ Description: "Definition of the immunization part for all documents."
 * contained 0..1
 * contained ^short = "Immunization inline resource"
 * extension contains
-    // $ch-ext-author named recorder 0..1 and
     EntryResourceCrossReferences named relatesTo 0..1 and 
     CHVACDExtensionImmunizationMedicationReference named medication 0..1 and
     CHVACDExtensionMergingConflictEntryReference named conflict 0..* and
@@ -23,7 +22,6 @@ Description: "Definition of the immunization part for all documents."
 * extension[verificationStatus] ^definition = "Status of verification by a practitioner. Attention: changes the interpretation of the content of the resource!"
 * status MS
 * vaccineCode 1..1 MS
-//* occurrenceString obeys ch-vacd-occurrence-1
 * occurrenceDateTime MS
 * occurrenceDateTime.extension contains $data-absent-reason named data-absent-reason 0..1 MS
 * occurrenceDateTime.extension[data-absent-reason] ^short = "occurrence[x] absence reason"
