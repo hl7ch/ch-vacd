@@ -10,7 +10,7 @@ During the ballot, 44 issues were reported for CH VACD:
 * [ ] [Issue CH Core](https://github.com/hl7ch/ch-core/issues?q=is%3Aissue+state%3Aopen+label%3A%22CH+VACD%22)
 
 ## Terminology
-* [ ] [Issue #412](https://github.com/hl7ch/ch-vacd/issues/412): Terminology page: travel value set, Romansh designations and Forecast Status link
+* [x] [Issue #412](https://github.com/hl7ch/ch-vacd/issues/412): Terminology page: travel value set, Romansh designations and Forecast Status link
 * [ ] [Issue #417](https://github.com/hl7ch/ch-vacd/issues/417): NUVA binding and FOPH indication code
 * [x] [Issue #431](https://github.com/hl7ch/ch-vacd/issues/431): Dubious ValueSet bound to lab result
 
