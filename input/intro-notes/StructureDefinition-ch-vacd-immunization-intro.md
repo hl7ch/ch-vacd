@@ -1,3 +1,7 @@
+### Vaccine Code Bindings
+
+This profile is derived from the [CH Core Immunization profile](https://fhir.ch/ig/ch-core/StructureDefinition-ch-core-immunization.html) where the [default binding](https://fhir.ch/ig/ch-core/StructureDefinition-ch-core-immunization.html#default) and the [additional bindings](https://fhir.ch/ig/ch-core/StructureDefinition-ch-core-immunization.html#additional) for the Immunization.vaccineCode are explained in detail.
+
 
 ### Validation and VerificationStatus
 
