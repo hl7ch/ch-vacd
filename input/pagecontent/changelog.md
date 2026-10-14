@@ -18,6 +18,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#437](https://github.com/hl7ch/ch-vacd/issues/437): 3.1 Patient - JSON Representation – "tel:" prefix in patient.telecom.value
 * [#438](https://github.com/hl7ch/ch-vacd/issues/438): CH VACD Condition Profile (Abstract) - abstract double
 * [#456](https://github.com/hl7ch/ch-vacd/issues/456): Fix publisher errors
+* [#466](https://github.com/hl7ch/ch-vacd/issues/466): Update Sushi Config - Project Info
 
 * [ch-term#187](https://github.com/hl7ch/ch-term/issues/187): Fix CH VACD build errors (CH TERM)
 
