@@ -16,6 +16,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
 * [#417](https://github.com/hl7ch/ch-vacd/issues/417): NUVA binding and FOPH indication code inherited from CH Core 7 are not documented
 * [#419](https://github.com/hl7ch/ch-vacd/issues/419): Terminology
+* [#426](https://github.com/hl7ch/ch-vacd/issues/426): CH VACD Travel Information - onsetPeriod
 * [#430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
 * [#431](https://github.com/hl7ch/ch-vacd/issues/431): Dubious ValueSet bound to lab result
 * [#432](https://github.com/hl7ch/ch-vacd/issues/432): Patient profiling
