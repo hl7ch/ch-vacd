@@ -1,4 +1,4 @@
-## Test Case A 04: HCP validates the vaccination (TBE) (Doc6) which was entered by the patient (Doc5)
+**Test Case A 04: HCP validates the vaccination (TBE) (Doc6) which was entered by the patient (Doc5)**
 
 ### Precondition
 In the vaccination documentation of the patient, which is stored in the ehealth ecosystem, there is also the document with a TBE vaccination given by a doctor and entered by the patient.

@@ -6,7 +6,7 @@ Die Gesundheitsfachperson stellt ggf. die zusätzlichen und für den Impfcheck b
 
 Die Gesundheitsfachperson ruft den automatischen Impfcheck auf, sichtet die Impfempfehlungen und berücksichtigt diese in der Planung zukünftiger Impfungen.
 
-Die Gesundheitsfachperson ergänzt ggf. das Impfdossier der Patientin bzw. des Patienten um die Impfempfehlungen und speichert das aktualisierte Impfdossier im Austauschformat Impfdossier im EPD ab. Im neuen Dokument wird vermerkt, welche älteren Dokumente durch das neue Dokument ersetzt bzw. ergänzt werden. Dazu wird das Datenelement relatesTo der Austauschformats Impfdossier verwendet.
+Die Gesundheitsfachperson ergänzt ggf. das Impfdossier der Patientin bzw. des Patienten um die Impfempfehlungen und speichert das aktualisierte Impfdossier im Austauschformat Impfdossier im EPD ab. Im neuen Dokument wird vermerkt, welche älteren Dokumente durch das neue Dokument ersetzt bzw. ergänzt werden. Dazu wird das Datenelement relatesTo der Austauschformates Impfdossier verwendet.
 
 <div>{% include epd-impfcheck-vaccination-docs-simple-de.svg %}</div>
 
@@ -16,7 +16,7 @@ Eine Patientin bzw. ein Patient sichtet die Impfdaten und wählt die zusätzlich
 
 Die Patientin bzw. der Patient ruft den automatischen Impfcheck auf und sichtet die Impfempfehlungen. 
 
-Die Patientin bzw. der Patient ergänzt ggf. ihr bzw. sein Impfdossier um die die Impfempfehlungen und speichert das aktualisierte Impfdossier im Austauschformat Impfdossier im EPD ab. Im neuen Dokument wird vermerkt, welche älteren Dokumente durch die neuen Dokumente ersetzt bzw. ergänzt werden. Dazu wird das Datenelement relatesTo der CH VACD Austauschformate verwendet.
+Die Patientin bzw. der Patient ergänzt ggf. ihr bzw. sein Impfdossier um die Impfempfehlungen und speichert das aktualisierte Impfdossier im Austauschformat Impfdossier im EPD ab. Im neuen Dokument wird vermerkt, welche älteren Dokumente durch die neuen Dokumente ersetzt bzw. ergänzt werden. Dazu wird das Datenelement relatesTo der CH VACD Austauschformate verwendet.
 
 <div>{% include epd-impfcheck-vaccination-docs-simple-patient-de.svg %}</div>
 

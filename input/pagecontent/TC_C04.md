@@ -1,4 +1,4 @@
-## Test Case C 04:  Cancel entry of other community
+**Test Case C 04:  Cancel entry of other community**
 
 ### Precondition
 There is a ImmunizationAdministration document containing a entry for expositionrisk created by the practitioner HCP2 for the patient and stored in the ehealth ecosystem.

@@ -1,7 +1,7 @@
 // FSME Vaccination, 1st dose, D3
 Instance: TCC02_IMMUN3_HCP1_ORG1_ROLE
 InstanceOf: CHVACDImmunization
-Title: "TCC1 Immunization by HCP2 corrected by HCP1"
+Title: "TCC1 Immunization by HCP2 corrected by HCP1 1"
 Description: "Testcase C 02 example of correction of immunization of HCP2 by HCP1"
 Usage: #example
 * id = "TCC02-IMMUN3-HCP1-ORG1-ROLE"
@@ -41,7 +41,7 @@ Usage: #example
 
 Instance: TCC02_IMMUN4_HCP1_ORG1_ROLE
 InstanceOf: CHVACDImmunization
-Title: "TCC1 Immunization by HCP2 corrected by HCP1"
+Title: "TCC1 Immunization by HCP2 corrected by HCP1 2"
 Description: "Testcase C 02 example of correction of immunization of HCP2 by HCP1"
 Usage: #example
 * id = "TCC02-IMMUN4-HCP1-ORG1-ROLE"

@@ -4,7 +4,7 @@
 // FSME Vaccination, 1st dose, D3
 Instance: TCD01_IMMUN1
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP1"
+Title: "TC1 Immunization by HCP1 TCD01 1"
 Description: "Testcase D01 example of immunization against Central European encephalitis (disorder)"
 Usage: #example
 * id = "TCD01-IMMUN1"
@@ -34,7 +34,7 @@ Usage: #example
 // 397430003	Diphtheria caused by Corynebacterium diphtheriae (disorder)
 Instance: TCD01_IMMUN2
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP1"
+Title: "TC1 Immunization by HCP1 TCD01 2"
 Description: "Testcase D01 example of immunization against Tetanus, Pertussis, Diphtheria"
 Usage: #example
 * id = "TCD01-IMMUN2"
@@ -66,7 +66,7 @@ Usage: #example
 // 397430003	Diphtheria caused by Corynebacterium diphtheriae (disorder)
 Instance: TCD01_IMMUN2_2
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP1"
+Title: "TC1 Immunization by HCP1 TCD01 3"
 Description: "Testcase D01 example of immunization against Tetanus, Pertussis, Diphtheria"
 Usage: #example
 * id = "TCD01-IMMUN2-2"
@@ -102,7 +102,7 @@ Usage: #example
 
 Instance: TCD01_IMMUN3
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP2"
+Title: "TC1 Immunization by HCP2 TCD01 3"
 Description: "Testcase D01 example of immunization against Tetanus, Pertussis, Diphtheria"
 Usage: #example
 * id = "TCD01-IMMUN3"
@@ -130,7 +130,7 @@ Usage: #example
 
 Instance: TCD01_IMMUN3_2
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP2"
+Title: "TC1 Immunization by HCP2 TCD01 3-2"
 Description: "Testcase D01 example of immunization against Tetanus, Pertussis, Diphtheria"
 Usage: #example
 * id = "TCD01-IMMUN3-2"
@@ -163,7 +163,7 @@ Usage: #example
 
 Instance: TCD01_IMMUN4
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP2"
+Title: "TC1 Immunization by HCP2 TCD01 4"
 Description: "Testcase D01 example of immunization against MMR"
 Usage: #example
 * id = "TCD01-IMMUN4"
@@ -191,7 +191,7 @@ Usage: #example
 
 Instance: TCD01_IMMUN5
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP2"
+Title: "TC1 Immunization by HCP2 TCD01 5"
 Description: "Testcase D01 example of immunization against HPV"
 Usage: #example
 * id = "TCD01-IMMUN5"

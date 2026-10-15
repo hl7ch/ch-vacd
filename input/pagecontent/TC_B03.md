@@ -1,4 +1,4 @@
-## Test Case B 03: Expositionrisk (Working in healthcare)
+**Test Case B 03: Expositionrisk (Working in healthcare)**
 
 ### Precondition
 There is a ImmunizationAdministration document for the patient in the ehealth ecosystem with different Immunization entries.
