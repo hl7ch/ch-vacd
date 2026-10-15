@@ -10,7 +10,7 @@ During the ballot, 44 issues were reported for CH VACD:
 * [ ] [Issue CH Core](https://github.com/hl7ch/ch-core/issues?q=is%3Aissue+state%3Aopen+label%3A%22CH+VACD%22)
 
 ## Terminology
-* [ ] [Issue #412](https://github.com/hl7ch/ch-vacd/issues/412): Terminology page: travel value set, Romansh designations and Forecast Status link
+* [x] [Issue #412](https://github.com/hl7ch/ch-vacd/issues/412): Terminology page: travel value set, Romansh designations and Forecast Status link
 * [x] [Issue #417](https://github.com/hl7ch/ch-vacd/issues/417): NUVA binding and FOPH indication code
 * [x] [Issue #431](https://github.com/hl7ch/ch-vacd/issues/431): Dubious ValueSet bound to lab result
 
@@ -30,14 +30,14 @@ During the ballot, 44 issues were reported for CH VACD:
 * [ ] [Issue #464](https://github.com/hl7ch/ch-core/issues/464): Swissmedic vs. Immunoglobulin ValueSet – Clarification
 
 ## Documentation
-* [ ] [Issue #402](https://github.com/hl7ch/ch-vacd/issues/402): Links in the ConceptMaps diagram do not work
+* [x] [Issue #402](https://github.com/hl7ch/ch-vacd/issues/402): Links in the ConceptMaps diagram do not work
 * [x] [Issue #403](https://github.com/hl7ch/ch-vacd/issues/403): URL for CDA-CH-VACD – Immunisation Content
 * [x] [Issue #405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
 * [ ] [Issue #406](https://github.com/hl7ch/ch-vacd/issues/406): Clarification on Document bundle ingestion
-* [ ] [Issue #407](https://github.com/hl7ch/ch-vacd/issues/407): Expand acronym meaning in diagrams
+* [x] [Issue #407](https://github.com/hl7ch/ch-vacd/issues/407): Expand acronym meaning in diagrams
 * [x] [Issue #413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
 * [ ] [Issue #418](https://github.com/hl7ch/ch-vacd/issues/418): Relation to CH IPS
-* [ ] [Issue #419](https://github.com/hl7ch/ch-vacd/issues/419): Terminology - graphic
+* [x] [Issue #419](https://github.com/hl7ch/ch-vacd/issues/419): Terminology - graphic
 * [ ] [Issue #423](https://github.com/hl7ch/ch-vacd/issues/423): REST API – missing security/authorization/consent/audit section
 * [ ] [Issue #424](https://github.com/hl7ch/ch-vacd/issues/424): Verification Status – impact on query/aggregator logic
 * [ ] [Issue #425](https://github.com/hl7ch/ch-vacd/issues/425): Verification Status – handling of unverified patient-reported immunizations
@@ -54,7 +54,7 @@ During the ballot, 44 issues were reported for CH VACD:
 * [x] [Issue #437](https://github.com/hl7ch/ch-vacd/issues/437): 3.1 Patient - JSON Representation – "tel:" prefix in patient.telecom.value
 
 ## Use Cases
-* [ ] [Issue #408](https://github.com/hl7ch/ch-vacd/issues/408): verificationStatus "Confirmed" on patient-recorded immunizations
+* [x] [Issue #408](https://github.com/hl7ch/ch-vacd/issues/408): verificationStatus "Confirmed" on patient-recorded immunizations
 
 ## REST API
 * [x] [Issue #410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation
