@@ -33,15 +33,16 @@
 * [CH VACD Travel Information Code](ValueSet-ch-vacd-travel-code-vs.html)
 
 #### Defined in CH-TERM
-
 * [CH VACD All Swiss Vaccine Codes](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-vaccines-vs.html){:target="_blank"}
   * [CH VACD Swissmedic Authorized Vaccine Codes](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-swissmedic-vaccines-vs.html){:target="_blank"}
   * [CH VACD Old Swiss Vaccine Codes](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-oldswiss-vaccines-vs.html){:target="_blank"}
 
 * [CH VACD Snomed CT for VaccineCode](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-vaccines-snomedct-vs.html){:target="_blank"}
+* [NUVA Vaccine Codes](https://smt.esante.gouv.fr/fhir/ValueSet/vs-nuva-all){:target="_blank"}
 
 * [CH VACD Swissmedic Authorized Immunoglobulin Codes VS](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-swissmedic-immunoglobulin-vs.html){:target="_blank"}
 * [CH VACD Swissmedic Authorized Immunsera Codes VS](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-swissmedic-immunesera-vs.html){:target="_blank"}
+
 
 * [CH VACD Target disease and illnesses undergone for immunization](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs.html){:target="_blank"}
 
