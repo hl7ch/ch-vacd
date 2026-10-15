@@ -54,7 +54,7 @@ During the ballot, 44 issues were reported for CH VACD:
 * [x] [Issue #437](https://github.com/hl7ch/ch-vacd/issues/437): 3.1 Patient - JSON Representation – "tel:" prefix in patient.telecom.value
 
 ## Use Cases
-* [ ] [Issue #408](https://github.com/hl7ch/ch-vacd/issues/408): verificationStatus "Confirmed" on patient-recorded immunizations
+* [x] [Issue #408](https://github.com/hl7ch/ch-vacd/issues/408): verificationStatus "Confirmed" on patient-recorded immunizations
 
 ## REST API
 * [x] [Issue #410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation
