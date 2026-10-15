@@ -26,6 +26,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#438](https://github.com/hl7ch/ch-vacd/issues/438): CH VACD Condition Profile (Abstract) - abstract double
 * [#439](https://github.com/hl7ch/ch-vacd/issues/439): Refactor Documen graphics
 * [#456](https://github.com/hl7ch/ch-vacd/issues/456): Fix publisher errors
+* [#466](https://github.com/hl7ch/ch-vacd/issues/466): Update Sushi Config - Project Info
 
 * [ch-term#187](https://github.com/hl7ch/ch-term/issues/187): Fix CH VACD build errors (CH TERM)
 
