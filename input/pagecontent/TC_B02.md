@@ -1,4 +1,4 @@
-## Test Case B 02: Undergone Illness (Varicella)
+**Test Case B 02: Undergone Illness (Varicella)**
 
 ### Precondition
 There is a ImmunizationAdministration document for the patient in his ehealth ecosystem with different Immunization entries.

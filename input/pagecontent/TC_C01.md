@@ -1,4 +1,4 @@
-## Test Case C 01: Correction of own entry
+**Test Case C 01: Correction of own entry**
 
 ### Precondition
 

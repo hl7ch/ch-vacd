@@ -8,10 +8,6 @@ Description: "Definition of the composition for the  immunization administration
 * ^publisher = "eHealth Suisse"
 * . ^short = "CH VACD Immunization Administration Composition"
 * language ^short = "Language of the document"
-* extension ^slicing.discriminator.type = #value
-* extension ^slicing.discriminator.path = "url"
-* extension ^slicing.rules = #open
-* extension[dataEnterer] ^short = "Person who entered information into this document if it is a person other than the author"
 * identifier ^short = "Unique identification number"
 * identifier ^example.label = "CH VACD"
 * identifier ^example.valueIdentifier.system = "urn:ietf:rfc:3986"
@@ -26,9 +22,6 @@ Description: "Definition of the composition for the  immunization administration
 * subject ^short = "A patient for whom this document instance was created"
 * date ^short = "The document's creation date and time"
 * author ^short = "The author of the document (person or device)"
-//* author.extension 0..1
-//* author.extension only EPRTime
-//* author.extension ^short = "Timestamp of the authorship/data input"
 * title ^short = "'Verabreichte Impfung' in german or 'Vaccin administré' in french or 'Vaccinazione somministrata' in italian or 'Immunization Administration' in english\n                        or titles in other languages are also allowed"
 // * confidentiality.extension ^slicing.discriminator.type = #value
 // * confidentiality.extension ^slicing.discriminator.path = "url"
@@ -62,9 +55,6 @@ Description: "Definition of the composition for the  immunization administration
 * section[administration].code ^short = "Hx of Immunization"
 * section[administration].author     only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or CHCoreRelatedPerson)
 * section[administration].author     ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
-* section[administration].author.extension 0..1
-* section[administration].author.extension only EPRTime
-* section[administration].author.extension ^short = "Timestamp of the authorship/data input"
 * section[administration].author.reference 1..
 //* section[administration].text     1..1
 * section[administration].text     ^short = "Human readable text of this section"
@@ -86,9 +76,6 @@ Description: "Definition of the composition for the  immunization administration
 * section[medicalproblems].code ^short = "Problem list Reported"
 * section[medicalproblems].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or CHCoreRelatedPerson)
 * section[medicalproblems].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
-* section[medicalproblems].author.extension 0..1
-* section[medicalproblems].author.extension only EPRTime
-* section[medicalproblems].author.extension ^short = "Timestamp of the authorship/data input"
 * section[medicalproblems].author.reference 1..
 //* section[medicalproblems].text 1..1
 * section[medicalproblems].text ^short = "Human readable text of this section"
@@ -110,9 +97,6 @@ Description: "Definition of the composition for the  immunization administration
 * section[pastillnesses].code ^short = "Hx of Past illness"
 * section[pastillnesses].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or CHCoreRelatedPerson)
 * section[pastillnesses].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
-* section[pastillnesses].author.extension 0..1
-* section[pastillnesses].author.extension only EPRTime
-* section[pastillnesses].author.extension ^short = "Timestamp of the authorship/data input"
 * section[pastillnesses].author.reference 1..
 //* section[pastillnesses].text 1..1
 * section[pastillnesses].text ^short = "Human readable text of this section"
@@ -134,9 +118,6 @@ Description: "Definition of the composition for the  immunization administration
 * section[allergyintolerances].code ^short = "Allergies and adverse reactions Document"
 * section[allergyintolerances].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or CHCoreRelatedPerson)
 * section[allergyintolerances].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
-* section[allergyintolerances].author.extension 0..1
-* section[allergyintolerances].author.extension only EPRTime
-* section[allergyintolerances].author.extension ^short = "Timestamp of the authorship/data input"
 * section[allergyintolerances].author.reference 1..
 //* section[allergyintolerances].text 1..1
 * section[allergyintolerances].text ^short = "Human readable text of this section"
@@ -155,9 +136,6 @@ Description: "Definition of the composition for the  immunization administration
 * section[laboratory-serology].code ^short = "Serology studies (set)"
 * section[laboratory-serology].author only Reference(CHCorePractitionerRoleEpr or Device or CHCorePatientEPR or CHCoreRelatedPerson)
 * section[laboratory-serology].author ^short = "The author of the section (person or device) if different from the author/timestamp of the document"
-* section[laboratory-serology].author.extension 0..1
-* section[laboratory-serology].author.extension only EPRTime
-* section[laboratory-serology].author.extension ^short = "Timestamp of the authorship/data input"
 * section[laboratory-serology].author.reference 1..
 //* section[laboratory-serology].text 1..1
 * section[laboratory-serology].text ^short = "Human readable text of this section"

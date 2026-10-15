@@ -3,6 +3,7 @@ Parent: CHCoreCondition
 Id: ch-vacd-travel-information
 Title: "CH VACD Travel Information"
 Description: "Travel Information for ImmunizationRecommendation for travel vaccinations."
+* code from CHVACDTravelCodeVS
 * code 1..1
 * code = $sct#129018004 
 * code ^short = "Fix value \"Traveling\" for indication of travel information."

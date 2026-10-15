@@ -1,4 +1,4 @@
-# UC 6: Verabreichung einer Impfung delegieren
+### UC 6: Verabreichung einer Impfung delegieren
 
 **Ausführlichere Bezeichnung**: Delegierte Verabreichung einer Impfung an nichtärztliche Gesundheitsfachperson bei Spitex oder einer Institution (z.B. Pflegeheim)
 

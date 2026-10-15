@@ -2,7 +2,7 @@ Instance: 5-1-Organization
 InstanceOf: CHCoreOrganizationEPR
 Title: "5.1 Organization"
 Description: "Example for Organization for all documents except  Recommendation Request/Response"
-Usage: #definition
+Usage: #example
 * identifier.system = "urn:oid:2.51.1.3"
 * identifier.value = "7601888888884"
 * name = "Gruppenpraxis CH"

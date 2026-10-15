@@ -9,7 +9,7 @@ Description: "Testcase F 1 example of immunization"
 Usage: #example
 * id = "TCF01-IMMUN1"
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
-* extension[=].valueReference = Reference(TC_patient)
+* extension[=].valueReference = Reference(TC-HCP1-ORG1-ROLE-author)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
@@ -35,7 +35,7 @@ Description: "Testcase F 1 example of immunization with added note"
 Usage: #example
 * id = "TCF01-IMMUN2"
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
-* extension[=].valueReference = Reference(TC_patient)
+* extension[=].valueReference = Reference(TC-HCP1-ORG1-ROLE-author)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
 // TCF01_IMMUN1
@@ -77,7 +77,7 @@ Description: "Testcase F 1 example of immunization with added note"
 Usage: #example
 * id = "TCF01-IMMUN3"
 * extension[0].url = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-ext-author"
-* extension[=].valueReference = Reference(TC_patient)
+* extension[=].valueReference = Reference(TC-HCP1-ORG1-ROLE-author)
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
 * extension[+].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"

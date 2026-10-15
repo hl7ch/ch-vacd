@@ -20,7 +20,7 @@ if (Le patient souhait\nse faire vacciner) then (Oui)
   :Le patient prend\nrendez-vous\nchez le médecin;
   |#LightSalmon|Médecin en interaction\navec le patient|
   :Le médecin effectue\nla vaccination;
-  |#LightBlue|PIS|
+  |#LightBlue|Système d'information du cabinet|
   :Le médecin\ndocumente\nla vaccination;
   |Patient|
   :Le patient vérifie les données\nvaccinales mises à jour\ndans l’app de vaccination;

@@ -4,7 +4,7 @@
 // FSME Vaccination, 1st dose, D3
 Instance: TCA04_IMMUN5_patient_val_GFP
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by Patient"
+Title: "TC1 Immunization by Patient TCA04 5"
 Description: "Testcase 3 example of immunization against Central European encephalitis (disorder) from patient"
 Usage: #example
 * id = "TCA04-IMMUN5-patient-val-gfp"

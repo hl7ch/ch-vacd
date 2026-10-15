@@ -6,12 +6,12 @@ The Federal Vaccination Commission (FVC) has developed a national vaccination sc
 The EKIF's recommendations are based on the latest scientific evidence and are intended to ensure the best possible protection for the population against diseases that can be prevented by vaccination.
 
 #### Workflow
-The HL7 International workgroup responsible for the Immunization and ImmunizationRecommendation resources have worked out more detailed descriptions for the FHIR R6 release. They defined a diagram wo show the workflow around the vaccination/immunization of patients. See the diagram below.
+The HL7 International workgroup responsible for the Immunization and ImmunizationRecommendation resources has worked out more detailed descriptions for the FHIR R6 release. They defined a diagram to show the workflow around the vaccination/immunization of patients. See the diagram below.
 {% include img.html img="immunizationrecommendation.png" caption="Fig.: Immunization Recommendation" width="40%" %}
 (Source: [FHIR R6 Ballot (3rd Draft)](https://hl7.org/fhir/6.0.0-ballot3/immunizationrecommendation.html))
 
 #### Clinical Decision Support Systems
-Based on this set of rules, corresponding electronic algorithms and rules can be created. With the help of these rule systems (Clinical Decision Support System (CDSS)), automatic recommendations can then be generated on the base of structured inputdata  (e.g. the exchange format defined here).
+Based on this set of rules, corresponding electronic algorithms and rules can be created. With the help of these rule systems (Clinical Decision Support System (CDSS)), automatic recommendations can then be generated on the basis of structured input data (e.g. the exchange format defined here).
 These recommendations can be provided in a language that is understandable to specialists, but also in a language that is suitable for patients.
 The aim is to enable recommendations and leading to the resulting measures to be implemented in the form of vaccination.
 
