@@ -43,7 +43,7 @@ During the ballot, 44 issues were reported for CH VACD:
 * [ ] [Issue #425](https://github.com/hl7ch/ch-vacd/issues/425): Verification Status – handling of unverified patient-reported immunizations
 * [x] [Issue #426](https://github.com/hl7ch/ch-vacd/issues/426): CH VACD Travel Information
 * [x] [Issue #438](https://github.com/hl7ch/ch-vacd/issues/438): CH VACD Condition Profile (Abstract) - abstract double
-* [ ] [Issue #439](https://github.com/hl7ch/ch-vacd/issues/439): Refactor Document graphics
+* [x] [Issue #439](https://github.com/hl7ch/ch-vacd/issues/439): Refactor Document graphics
 
 ## Profiling
 * [x] [Issue #409](https://github.com/hl7ch/ch-vacd/issues/409): Location referenced from the Condition is not part of the request message bundle
