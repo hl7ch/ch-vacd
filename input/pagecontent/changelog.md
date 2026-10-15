@@ -2,6 +2,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 7, v7.0.0 (2026-12-xx)
 
+* [#402](https://github.com/hl7ch/ch-vacd/issues/402): Links in the ConceptMaps diagram do not work
 * [#403](https://github.com/hl7ch/ch-vacd/issues/403): URL for CDA-CH-VACD – Immunisation Content
 * [#404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
 * [#405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
@@ -10,6 +11,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
 * [#414](https://github.com/hl7ch/ch-vacd/issues/414): Retired CH Core extension EPR Time
 * [#416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
+* [#419](https://github.com/hl7ch/ch-vacd/issues/419): Terminology
 * [#430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
 * [#431](https://github.com/hl7ch/ch-vacd/issues/431): Dubious ValueSet bound to lab result
 * [#432](https://github.com/hl7ch/ch-vacd/issues/432): Patient profiling
