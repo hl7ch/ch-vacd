@@ -1,4 +1,4 @@
-## Test Case C 02: Correction of foreign entry
+**Test Case C 02: Correction of foreign entry**
 
 ### Precondition
 There is an ImmunizationAdministration [document A_D3_HCP2_C2](Bundle-A-D3-HCP2-C2.html) created by practitionerHCP2 and stored into the ehealth ecosystem.

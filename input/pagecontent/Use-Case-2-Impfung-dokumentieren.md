@@ -1,6 +1,6 @@
 ### Impfung dokumentieren (Gesundheitsfachperson)
 
-Eine Gesundheitsfachperson erfasst aktuell verabreichte Impfungen in ihrem Primärsystem oder dem Portal der Gemeinschaft. Sie wählt dazu die entsprechenden Benutzeroberflächen aus und sucht die strukturierten Daten der verabreichten Impfung anhand von Suchkriterien und Stichworten.  Die Gesundheitsfachperson speichert die Daten.
+Eine Gesundheitsfachperson erfasst aktuell verabreichte Impfungen in ihrem Primärsystem oder dem Portal der Gemeinschaft. Sie wählt dazu die entsprechenden Benutzeroberflächen aus und sucht die strukturierten Daten der verabreichten Impfung anhand von Suchkriterien und Stichwörtern. Die Gesundheitsfachperson speichert die Daten.
 
 Die Gesundheitsfachperson erfasst eine bei der Patientin bzw. dem Patienten verabreichte Impfung in ihrem Primärsystem bzw. dem Portal der Gemeinschaft. Sie wählt dazu die entsprechenden Benutzeroberflächen aus und sucht die strukturierten Impfdaten anhand von Suchkriterien und Stichwörtern. Die Gesundheitsfachperson speichert die Daten.
 
@@ -17,7 +17,7 @@ Die Gesundheitsfachperson erfasst die Laboruntersuchung einer Patientin bzw. ein
 
 ### Impfung dokumentieren (Patient)
 
-Eine Patientin bzw. ein Patient erfasst aktuell verabreichte Impfungen im Portal der Stammgemeinschaft. Sie bzw. er wählt dazu die entsprechenden Benutzeroberflächen aus und sucht die strukturierten Daten der verabreichten Impfung anhand von Suchkriterien und Stichworten. Die Patientin bzw. der Patient sucht die Gesundheitsfachperson, welche die Impfung verordnet hat anhand von Suchkriterien und Stichwörtern bzw. gibt die Daten manuell ein, wenn diese nicht am EPD teilnimmt. Die Patientin bzw. der Patient speichert die Daten. 
+Eine Patientin bzw. ein Patient erfasst aktuell verabreichte Impfungen im Portal der Stammgemeinschaft. Sie bzw. er wählt dazu die entsprechenden Benutzeroberflächen aus und sucht die strukturierten Daten der verabreichten Impfung anhand von Suchkriterien und Stichwörtern. Die Patientin bzw. der Patient sucht die Gesundheitsfachperson, welche die Impfung verordnet hat anhand von Suchkriterien und Stichwörtern bzw. gibt die Daten manuell ein, wenn diese nicht am EPD teilnimmt. Die Patientin bzw. der Patient speichert die Daten. 
 
 Die Patientin bzw. der Patient erfasst eine durchgemachte Infektionskrankheit mit Relevanz für die Impfungen im Portal der Stammgemeinschaft. Sie bzw. er wählt dazu die entsprechenden Benutzeroberflächen aus, sucht die strukturierten Daten der durchgemachten Infektionskrankheit und speichert die Daten.
 

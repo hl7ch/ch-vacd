@@ -1,4 +1,4 @@
-## Test Case 03: Patient enters second dose of vaccination (TBE).
+**Test Case 03: Patient enters second dose of vaccination (TBE).**
 
 ### Precondition
 The patient has already entered a dose of the TBE vaccination in his vaccination documentation. He has now received a second dose of the TBE vaccination from his doctor. Since his practitioner did not document the vaccination in the ehealth ecosystem, the patient now wants to enter this himself.

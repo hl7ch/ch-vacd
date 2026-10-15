@@ -6,11 +6,11 @@
 
 * [CH VACD Swissmedic Authorized Vaccines](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-swissmedic-cs.html){:target="_blank"}
 * [CH VACD Old Swiss Vaccines](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-myvaccines-cs.html){:target="_blank"}
-* [CH VACD Swissmedic Authorized Immunoglobulin Codes](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-swissmedic-immunoglobulin-cs.html){:target="_blank"}
-* [CH VACD Swissmedic Authorized Immunsera Codes](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-swissmedic-immunesera-cs.html){:target="_blank"}
+* [CH VACD Swissmedic Authorized Immunoglobulin Codes CS](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-swissmedic-immunoglobulin-cs.html){:target="_blank"}
+* [CH VACD Swissmedic Authorized Immunsera Codes CS](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-swissmedic-immunesera-cs.html){:target="_blank"}
 
 * [CH VACD Swiss Immunization Recommendation Categories](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-recommendation-categories-cs.html){:target="_blank"}
-* [CH VACD Swiss Recommendation Forecast Status](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-recommendation-forecast-status-cs.html){:target="_blank"}
+* [CH VACD Swiss Recommendation Forecast Status CS](https://fhir.ch/ig/ch-term/CodeSystem-ch-vacd-recommendation-forecast-status-cs.html){:target="_blank"}
 
 ### ValueSets
 #### Defined in this IG
@@ -40,8 +40,8 @@
 
 * [CH VACD Snomed CT for VaccineCode](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-vaccines-snomedct-vs.html){:target="_blank"}
 
-* [CH VACD Swissmedic Authorized Immunoglobulin Codes](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-swissmedic-immunoglobulin-vs.html){:target="_blank"}
-* [CH VACD Swissmedic Authorized Immunsera Codes](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-swissmedic-immunesera-vs.html){:target="_blank"}
+* [CH VACD Swissmedic Authorized Immunoglobulin Codes VS](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-swissmedic-immunoglobulin-vs.html){:target="_blank"}
+* [CH VACD Swissmedic Authorized Immunsera Codes VS](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-swissmedic-immunesera-vs.html){:target="_blank"}
 
 * [CH VACD Target disease and illnesses undergone for immunization](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-targetdiseasesandillnessesundergoneforimmunization-vs.html){:target="_blank"}
 
@@ -49,17 +49,19 @@
 
 * [CH VACD Swiss Vaccination Plan Immunizations](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-ch-vaccination-plan-immunizations-vs.html){:target="_blank"}
 * [CH VACD Recommendation Categories for Immunizations](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-recommendation-categories-vs.html){:target="_blank"}
-* [CH VACD Swiss Recommendation Forecast Status](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-recommendation-forecast-status-vs.html){:target="_blank"}
+* [CH VACD Swiss Recommendation Forecast Status VS](https://fhir.ch/ig/ch-term/ValueSet-ch-vacd-recommendation-forecast-status-vs.html){:target="_blank"}
 
 
 ### ConceptMaps
 #### Defined in CH-TERM
+The following diagram shows the conversions of Codes from source ValueSet to target ValueSet defined by the corresponding ConceptMap
+<div>{% include concept-mappings.svg %}</div>
+
 * [VaccineCode To TargetDisease Mapping](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-vaccines-targetdiseases-cm.html){:target="_blank"}
 * [TargetDisease To VaccineCode Mapping](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-targetdiseases-vaccines-cm.html){:target="_blank"}
 * [Snomed CT VaccineCode To TargetDisease Mapping](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-vaccines-sct-targetdiseases-cm.html){:target="_blank"}
 * [ImmunGlobuline To TargetDisease Mapping](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-immunoglobulin-targetdiseases-cm.html){:target="_blank"}
-
 * [Swiss VaccineCode To Snomed CT VaccineCode](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-vaccines-sm-sct-cm.html){:target="_blank"}
 * [Snomed CT VaccineCode To Swiss VaccineCode](https://fhir.ch/ig/ch-term/ConceptMap-ch-vacd-vaccines-sct-sm-cm.html){:target="_blank"}
 
-<div style="float: right; position: relative; top: -150px;">{% include concept-mappings.svg %}</div>
+

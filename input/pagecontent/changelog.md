@@ -2,7 +2,28 @@ All significant changes to this FHIR implementation guide will be documented on 
 
 ### STU 7, v7.0.0 (2026-12-xx)
 
-[#408](https://github.com/hl7ch/ch-vacd/issues/408): verificationStatus "Confirmed" on patient-recorded immunizations
+* [#402](https://github.com/hl7ch/ch-vacd/issues/402): Links in the ConceptMaps diagram do not work
+* [#403](https://github.com/hl7ch/ch-vacd/issues/403): URL for CDA-CH-VACD – Immunisation Content
+* [#404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
+* [#405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
+* [#407](https://github.com/hl7ch/ch-vacd/issues/407): Expand acronym meaning in diagrams
+* [#408](https://github.com/hl7ch/ch-vacd/issues/408): verificationStatus "Confirmed" on patient-recorded immunizations
+* [#409](https://github.com/hl7ch/ch-vacd/issues/409): CapabilityStatement: profiles, search parameters, missing resources and status
+* [#410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation: how is the patient identified? 
+* [#413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
+* [#414](https://github.com/hl7ch/ch-vacd/issues/414): Retired CH Core extension EPR Time
+* [#416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
+* [#419](https://github.com/hl7ch/ch-vacd/issues/419): Terminology
+* [#430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
+* [#431](https://github.com/hl7ch/ch-vacd/issues/431): Dubious ValueSet bound to lab result
+* [#432](https://github.com/hl7ch/ch-vacd/issues/432): Patient profiling
+* [#433](https://github.com/hl7ch/ch-vacd/issues/433): Operation GeneratePatientExportDocument has no patient
+* [#436](https://github.com/hl7ch/ch-vacd/issues/436): CDS Immunization Recommendation
+* [#437](https://github.com/hl7ch/ch-vacd/issues/437): 3.1 Patient - JSON Representation – "tel:" prefix in patient.telecom.value
+* [#438](https://github.com/hl7ch/ch-vacd/issues/438): CH VACD Condition Profile (Abstract) - abstract double
+* [#456](https://github.com/hl7ch/ch-vacd/issues/456): Fix publisher errors
+
+* [ch-term#187](https://github.com/hl7ch/ch-term/issues/187): Fix CH VACD build errors (CH TERM)
 
 
 ### STU 7, v7.0.0-ballot (2026-06-10)
