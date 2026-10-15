@@ -4,7 +4,7 @@
 // Viral hepatitis, type A Vaccination, Havrix 1440, 1st dose, D1
 Instance: TCC01_IMMUN1_patient
 InstanceOf: CHVACDImmunization
-Title: "TCC1 Immunization by patient"
+Title: "TCC1 Immunization by patient 1"
 Description: "Testcase C 1 example of immunization"
 Usage: #example
 * id = "TCC01-IMMUN1-patient"
@@ -26,7 +26,7 @@ Usage: #example
 * extension[=].extension[+].url = "relationcode"
 * extension[=].extension[=].valueCode = #replaces
 * extension[3].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[=].valueCoding = $sct#76104008 "Not confirmed"
 
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "375532dc-7e74-40dd-8564-3261e8d26603"
@@ -49,7 +49,7 @@ Usage: #example
 // This is the same as TCC01_IMMUN1_patient but in the resulting document (merge), only more the valid entry is shown without relations.
 Instance: TCC01_IMMUN2_patient
 InstanceOf: CHVACDImmunization
-Title: "TCC1 Immunization by patient"
+Title: "TCC1 Immunization by patient 2"
 Description: "Testcase C 1 example of immunization"
 Usage: #example
 * id = "TCC01-IMMUN2-patient"
@@ -58,7 +58,7 @@ Usage: #example
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
 * extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[=].valueCoding = $sct#76104008 "Not confirmed"
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "375532dc-7e74-40dd-8564-3261e8d26603"
 * status = #completed

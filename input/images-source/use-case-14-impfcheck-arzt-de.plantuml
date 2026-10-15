@@ -6,7 +6,7 @@ element {MinimumWidth 150}
 
 |Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
 start
-|#LightBlue|PIS|
+|#LightBlue|Praxis Informations System|
 :Gesundheitsfachperson\naktualisiertImpfdaten; 
 :Gesundheitsfachperson\nruft Impfcheck auf;
 
@@ -18,11 +18,11 @@ start
 :Gesundheitsfachperson\nbespricht Empfehlungen\nmit Patient bzw. Patientin;
 if (Patient bzw. Patientin\nmöchte Impfung\ndurchführen) then (Ja)
   :Gesundheitsfachperson\nführt Impfung durch;
-  |#LightBlue|PIS|
+  |#LightBlue|Praxis Informations System|
   :Gesundheitsfachperson\ndokumentiert Impfung;
   |Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
 else (Nein)
-  |PIS|
+  |Praxis Informations System|
   :Gesundheitsfachperson\ndokumentiert\nAblehnungsgrund;
   |Gesundheitsfachperson in Interaktion\nmit Patient bzw. Patientin|
 endif

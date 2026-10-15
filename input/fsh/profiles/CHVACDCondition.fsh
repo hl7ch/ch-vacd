@@ -1,7 +1,7 @@
 Profile: CHVACDCondition
 Parent: CHCoreCondition
 Id: ch-vacd-condition
-Title: "CH VACD Condition Profile (Abstract)"
+Title: "CH VACD Condition Profile"
 Description: "Generic definition (abstract profile) of the condition for all documents except recommendation request or response."
 * ^version = "0.1.0"
 * ^status = #draft

@@ -5,7 +5,7 @@ Instance: TC_patient
 InstanceOf: CHCorePatientEPR
 Title: "TC patient 1"
 Description: "Testcase: Example of patient"
-Usage: #definition
+Usage: #example
 * id = "TC-patient"
 // * identifier[0].system = "urn:oid:2.16.756.5.31"
 // * identifier[=].value = "123.71.332.115"
@@ -17,7 +17,7 @@ Usage: #definition
 * name.family = "Wegmueller"
 * name.given = "Monika"
 * telecom.system = #phone
-* telecom.value = "tel:+41.32.685.12.34"
+* telecom.value = "+41.32.685.12.34"
 * telecom.use = #home
 * gender = #female
 * birthDate = "1967-02-10"
@@ -34,7 +34,7 @@ Instance: TC_patient2
 InstanceOf: CHCorePatientEPR
 Title: "TC patient 2"
 Description: "Testcase: Example of patient"
-Usage: #definition
+Usage: #example
 * id = "TC-patient2"
 // * identifier[0].system = "urn:oid:2.16.756.5.31"
 // * identifier[=].value = "123.71.332.456"
@@ -46,7 +46,7 @@ Usage: #definition
 * name.family = "Knecht"
 * name.given = "Lea"
 * telecom.system = #phone
-* telecom.value = "tel:+41.32.685.45.67"
+* telecom.value = "+41.32.685.45.67"
 * telecom.use = #home
 * gender = #female
 * birthDate = "1992-05-14"

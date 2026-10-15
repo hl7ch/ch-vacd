@@ -1,4 +1,4 @@
-## Test Case B 01: Allergy to typhoid vaccine
+**Test Case B 01: Allergy to typhoid vaccine**
 
 ### Precondition
 There is a ImmunizationAdministration document for the patient in the ehealth ecosystem the patient is connceted to.

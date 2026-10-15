@@ -23,7 +23,7 @@ Die Gesundheitsfachperson ruft ggf. den automatischen Impfcheck auf.
 
 ### Technische Details
 
-Im nachfolgenden Diagram werden alle für den Use Case nötigen IHE Transaktionen aufgezeigt.
+Im nachfolgenden Diagramm werden alle für den Use Case nötigen IHE Transaktionen aufgezeigt.
 
 <div>{% include epd-save-and-replace-vaccination-doc.svg %}</div>
 

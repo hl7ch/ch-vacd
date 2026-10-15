@@ -13,7 +13,7 @@ Usage: #example
 * extension[1].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-immunization-medication-reference"
 * extension[=].valueReference = Reference(TC_IMMUN_MEDIC_HAVRIX1440)
 * extension[2].url = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-ext-verification-status"
-* extension[=].valueCoding = $sct#59156000 "Confirmed"
+* extension[=].valueCoding = $sct#76104008 "Not confirmed"
 * identifier.system = "urn:oid:2.999.1.2.3.4"
 * identifier.value = "acc1f090-5e0c-45ae-b283-521d57c3aa2f"
 * status = #completed
@@ -34,7 +34,7 @@ Usage: #example
 // DTP Vaccination, Boostrix, 1st dose, D2
 Instance: TCA01_IMMUN2_HCP1_ORG1_ROLE
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP1"
+Title: "TC1 Immunization by HCP1 TCA01"
 Description: "Testcase 1 example of immunization from HCP1"
 Usage: #example
 * id = "TCA01-IMMUN2-HCP1-ORG1-ROLE"
@@ -64,7 +64,7 @@ Usage: #example
 // FSME Vaccination, 1st dose, D3
 Instance: TCA01_IMMUN3_HCP2_ORG2_ROLE
 InstanceOf: CHVACDImmunization
-Title: "TC1 Immunization by HCP2"
+Title: "TC1 Immunization by HCP2 TCA01"
 Description: "Testcase 1 example of immunization from HCP2"
 Usage: #example
 * id = "TCA01-IMMUN3-HCP2-ORG2-ROLE"

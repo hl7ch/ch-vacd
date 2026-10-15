@@ -1,4 +1,4 @@
-## Test Case F 01: Add comment (note) to an existing Immunization
+**Test Case F 01: Add comment (note) to an existing Immunization**
 
 ### Precondition
 In the ehealth ecosystem  of the patient there are several ImmunizationAdministration documents with Immunizations set.

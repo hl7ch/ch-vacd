@@ -6,7 +6,7 @@
 
 
 	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+		<a data-toggle="dropdown" class="dropdown-toggle">
 			Use Cases
 			<b class="caret"></b>
 		</a>
@@ -20,7 +20,7 @@
 		</ul>
 	</li>
 	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+		<a data-toggle="dropdown" class="dropdown-toggle">
 			Documents/Messages
 			<b class="caret">
 			</b>
@@ -56,7 +56,7 @@
 		<a href="artifacts.html">Artifacts</a>
 	</li>
 	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+		<a data-toggle="dropdown" class="dropdown-toggle">
 			Test Cases
 			<b class="caret"></b>
 		</a>

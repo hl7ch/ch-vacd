@@ -1,6 +1,6 @@
 Instance: RDB01b
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case B 01: Resulting Document TC B 1 (RDB01)"
+Title: "Test Case B 01: Resulting Document TC B 1 (RDB01b)"
 Description: "Test Case B 01: VaccinationRecord document created as merging result with immunization and allergyintolerance entries."
 Usage: #example
 * id = "RDB01b"
@@ -50,7 +50,7 @@ Usage: #example
 
 Instance: RDB01_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDB01b"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDB01-Composition-b"
@@ -69,7 +69,7 @@ Usage: #example
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><h3>Vaccination Record</h3><p><b>Id: </b>RDB01-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:df06d24d-2f22-4315-a610-b780539fb627</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>December 10, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Immunization Administration</td></tr><tr><td>Allergies</td></tr></table></div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Id: </b>RDB01-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:df06d24d-2f22-4315-a610-b780539fb627</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>December 10, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Immunization Administration</td></tr><tr><td>Allergies</td></tr></table></div>"
 
 * section[0].id = "administration"
 * section[=].title = "Immunization Administration"

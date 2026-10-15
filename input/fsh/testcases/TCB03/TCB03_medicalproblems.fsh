@@ -4,7 +4,7 @@
 // 
 Instance: TCB03_EXPRISK1
 InstanceOf: CHVACDMedicalProblems
-Title: "Exposition Risk Worker in Healthcare (Condition)"
+Title: "Exposition Risk Worker in Healthcare (Condition) TCB03 1"
 Description: "Example Condition for expositionrisk Worker in Healthcare"
 Usage: #example
 * id = "TCB03-EXPRISK1"

@@ -1,4 +1,4 @@
-## Test Case F 01: Add comment (note) to an existing Condition(PastIllness)
+**Test Case F 01: Add comment (note) to an existing Condition(PastIllness)**
 
 ### Precondition
 In the ehealth ecosystem of the patient there are several ImmunizationAdministration documents with Condition(PastIllness) set.

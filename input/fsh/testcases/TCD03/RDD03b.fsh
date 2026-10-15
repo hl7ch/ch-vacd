@@ -1,6 +1,6 @@
 Instance: RDD03b
 InstanceOf: CHVACDDocumentVaccinationRecord
-Title: "Test Case D 03: Aggregated Dokument (RDD03)"
+Title: "Test Case D 03: Aggregated Dokument (RDD03b)"
 Description: "Test Case D 03: Error aggregating documents due to dupplicated entries for medical risks."
 Usage: #example
 * id = "RDD03b"
@@ -53,7 +53,7 @@ Usage: #example
 
 Instance: RDD03_Composition_b
 InstanceOf: CHVACDCompositionVaccinationRecord
-Title: "Aggregated Document Composition"
+Title: "Aggregated Document Composition RDD03b"
 Description: "Example for Composition Vaccination Record"
 Usage: #example
 * id = "RDD03-Composition-b"
@@ -72,7 +72,7 @@ Usage: #example
 * confidentiality = #N
 * custodian = Reference(TC_ORG1)
 * text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><h3>Vaccination Record</h3><p><b>Id: </b>RDD03-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:080ab372-6084-448a-9604-589a547070b2</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>November 20, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Medical Problems</td></tr></table></div>"
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Id: </b>RDD03-Composition</p><p><b>Identifier: </b><span>urn:ietf:rfc:3986#urn:uuid:080ab372-6084-448a-9604-589a547070b2</span></p><p><b>Status: </b>Final</p><p><b>Code: </b><span>Immunization record (http://snomed.info/sct#41000179103)</span></p><p><b>Patient: </b><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p><p><b>Date: </b>November 20, 2021</p><p><b>Authors:</b></p><table><tr><td><p><a href=\"Patient-TC-patient.html\">Patient/TC-patient</a> Wegmueller Monika</p></td></tr></table><p><b>Confidentiality: </b> null<span> Normal (qualifier value) (http://snomed.info/sct#17621005)</span></p><p><b>Sections:</b></p><table><tr><td>Medical Problems</td></tr></table></div>"
 
 * section[+].id = "medicalproblems"
 * section[=].title = "Medical Problems"
