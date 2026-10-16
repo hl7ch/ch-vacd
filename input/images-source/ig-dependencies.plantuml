@@ -1,0 +1,45 @@
+@startuml IG_DEPENDENCIES
+skinparam defaultTextAlignment center
+skinparam shadowing false
+skinparam rectangle {
+  roundCorner 0
+}
+skinparam nodesep 40
+skinparam ranksep 60
+
+' Force every box to the same minimum width so column alignment is stable
+skinparam minClassWidth 220
+
+
+' Invisible spacers that lock the grid columns
+rectangle "  \l" as SP_R2C1 #White;line:White
+
+
+
+' Column 2 (IPS in Domain row only)
+rectangle "**[[http://fhir.ch/ig/ch-vacd/index.html CH VACD]]**\nSwiss vaccination profiles,\nVACD concepts" as chvacd #White;line:Red;line.bold;text:Black
+
+' Column 3 (CH Core / CH IPS / CH EMR — vertically aligned)
+rectangle "**[[http://fhir.ch/ig/ch-core/index.html CH Core]]**\nSwiss core profiles,\nEPR concepts" as chcore #White;line:Red;line.bold;text:Black
+rectangle "**[[http://fhir.ch/ig/ch-ips/index.html CH IPS]]**\nSwiss International\nPatient Summary" as chips #White;line:Orange;line.bold;text:Black
+
+' Column 4 (CH Term / CH EMED — vertically aligned)
+rectangle "**[[http://fhir.ch/ig/ch-term/index.html CH Term]]**\nterminology" as chterm #White;line:Red;line.bold;text:Black
+rectangle "**[[http://hl7.org/fhir/uv/ips/index.html IPS]]**\nInternational\nPatient Summary" as ips #White;line:DodgerBlue;line.bold;text:Black
+
+' Vertical layout
+chvacd -[hidden]down- SP_R2C1
+
+' Horizontal layout per row
+SP_R2C1 -[hidden]right- chips : <color:Gray>alignment
+chips -[hidden]right- ips
+
+' Dependency arrows
+chvacd -right-> chcore #Silver : <color:Gray>derived
+chcore -right-> chterm #Silver : <color:Gray>uses
+chips -up-> chcore #Silver : <color:Gray>derived
+chvacd -right-> chips #Silver : <color:Gray>?? imposeProfile\n<color:Gray>Extension ??
+chips -right-> ips #Silver : <color:Gray>imposeProfile\n<color:Gray>Extension
+
+
+@enduml
