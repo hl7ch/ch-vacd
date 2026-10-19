@@ -5,12 +5,12 @@ Nevertheless, the [resource profiles](profiles.html) defined in this IG can be u
 
 <div class="stu-note">
     This is a first version of a possible API description.<br/>
-    Feedback during the Ballot 7.0.0 is very appreciated!
+    Feedback during the 7.0.0 ballot is much appreciated!
 </div>
 
-In a fully based FHIR environment client applications - i.e. patient vaccination app or a healthcare provider system -  will communicate using the FHIR API. The endpoint can be a fully FHIR server incl. a repository for persistance or a FHIR facade connecting to a MR application.
+In a fully FHIR-based environment client applications - e.g. a patient vaccination app or a healthcare provider system - will communicate using the FHIR API. The endpoint can be a full FHIR server incl. a repository for persistence or a FHIR facade connecting to an EMR application.
 
-Next to the endpoints of the resources used in a vaccination context an [export operation $export-document](OperationDefinition-ch-vacd-patient-export-operation.html) can be provided to export the data into an [vaccination record document](vaccination-record-document.html) or an [immunization recommendation request message](immunization-recommendation-request-message.html).
+Next to the endpoints of the resources used in a vaccination context an [export operation $export-document](OperationDefinition-ch-vacd-patient-export-operation.html) can be provided to export the data into a [vaccination record document](vaccination-record-document.html) or an [immunization recommendation request message](immunization-recommendation-request-message.html).
 
 <div>{% include client-server.svg %}</div>
 
