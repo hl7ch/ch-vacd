@@ -6,17 +6,25 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#403](https://github.com/hl7ch/ch-vacd/issues/403): URL for CDA-CH-VACD – Immunisation Content
 * [#404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
 * [#405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
+* [#406](https://github.com/hl7ch/ch-vacd/issues/406): Clarification on Document bundle ingestion
 * [#407](https://github.com/hl7ch/ch-vacd/issues/407): Expand acronym meaning in diagrams
 * [#408](https://github.com/hl7ch/ch-vacd/issues/408): verificationStatus "Confirmed" on patient-recorded immunizations
 * [#409](https://github.com/hl7ch/ch-vacd/issues/409): CapabilityStatement: profiles, search parameters, missing resources and status
 * [#410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation: how is the patient identified?
+* [#411](https://github.com/hl7ch/ch-vacd/issues/411): CapabilityStatement
 * [#412](https://github.com/hl7ch/ch-vacd/issues/412): Terminology page: travel value set not bound, Romansh designations in German, wrong link for Forecast Status
 * [#413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
 * [#414](https://github.com/hl7ch/ch-vacd/issues/414): Retired CH Core extension EPR Time
+* [#415](https://github.com/hl7ch/ch-vacd/issues/415): Editorial corrections
 * [#416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
 * [#417](https://github.com/hl7ch/ch-vacd/issues/417): NUVA binding and FOPH indication code inherited from CH Core 7 are not documented
 * [#419](https://github.com/hl7ch/ch-vacd/issues/419): Terminology
+* [#420](https://github.com/hl7ch/ch-vacd/issues/420): REST API disclaimer
+* [#421](https://github.com/hl7ch/ch-vacd/issues/421): CapabilityStatement for server – missing capabilitystatement-expectation extension
+* [#422](https://github.com/hl7ch/ch-vacd/issues/422): CapabilityStatement for server – two-tier proposal (Query vs. Full Repository server)
+* [#423](https://github.com/hl7ch/ch-vacd/issues/423): REST API – missing security/authorization/consent/audit section
 * [#426](https://github.com/hl7ch/ch-vacd/issues/426): CH VACD Travel Information - onsetPeriod
+* [#427](https://github.com/hl7ch/ch-vacd/issues/427): CapabilityStatement for server – mandatory search parameters
 * [#430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
 * [#431](https://github.com/hl7ch/ch-vacd/issues/431): Dubious ValueSet bound to lab result
 * [#432](https://github.com/hl7ch/ch-vacd/issues/432): Patient profiling
@@ -27,6 +35,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#439](https://github.com/hl7ch/ch-vacd/issues/439): Refactor Documen graphics
 * [#456](https://github.com/hl7ch/ch-vacd/issues/456): Fix publisher errors
 * [#466](https://github.com/hl7ch/ch-vacd/issues/466): Update Sushi Config - Project Info
+
+
 
 * [ch-term#187](https://github.com/hl7ch/ch-term/issues/187): Fix CH VACD build errors (CH TERM)
 
