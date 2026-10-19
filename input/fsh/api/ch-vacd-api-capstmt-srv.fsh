@@ -14,255 +14,482 @@ Usage: #definition
 
 * rest.documentation = "The server will handle all resources and also complete vaccination documents"
 
-* rest.resource[0].type = #AllergyIntolerance
-* rest.resource[=].profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances"
-//* rest.resource[=].supportedProfile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances"
-* rest.resource[=].interaction[0].code = #update
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchInclude = "*"
-* rest.resource[=].searchParam[0].name = "code"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Code that identifies the allergy or intolerance"
-* rest.resource[=].searchParam[+].name = "patient"
-* rest.resource[=].searchParam[=].type = #reference
-* rest.resource[=].searchParam[=].documentation = "Who the sensitivity is for"
-* rest.resource[=].searchParam[+].name = "identifier"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Any identifier for the AllergyIntolerance."
+* rest.resource[0]
+  * type = #Bundle
+  * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-document"
+  * supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-document-epr"
+  * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"
+  * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"
+  * documentation = """
+Executing a create operation with a complete Bundle of the type document with the profiles immunization administration or vaccination record, will process all containing entries of the document.
+New entries not known to the system will be created and existing will be updated.
+"""
+  * interaction[+].code = #read
+  * interaction[+].code = #create
+  * interaction[+].code = #search-type
 
-* rest.resource[+].type = #Condition
-* rest.resource[=].profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-condition"
-* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-basic-immunization"
-* rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems"
-* rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-pastillnesses"
-* rest.resource[=].interaction[0].code = #update
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchInclude = "*"
-* rest.resource[=].searchParam[0].name = "code"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Code for the condition"
-* rest.resource[=].searchParam[+].name = "patient"
-* rest.resource[=].searchParam[=].type = #reference
-* rest.resource[=].searchParam[=].documentation = "Who has the condition?"
-* rest.resource[=].searchParam[+].name = "identifier"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Any identifier for the Condition."
-
-* rest.resource[+].type = #Immunization
-* rest.resource[=].profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"
-//* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"
-* rest.resource[=].interaction[0].code = #update
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchInclude = "*"
-* rest.resource[=].searchParam[0].name = "patient"
-* rest.resource[=].searchParam[=].type = #reference
-* rest.resource[=].searchParam[=].documentation = "The patient for the vaccination record"
-* rest.resource[=].searchParam[+].name = "vaccine-code"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Vaccine Product Administered"
-* rest.resource[=].searchParam[+].name = "target-disease"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "The target disease the dose is being administered against"
-* rest.resource[=].searchParam[+].name = "date"
-* rest.resource[=].searchParam[=].type = #date
-* rest.resource[=].searchParam[=].documentation = "Vaccination (non)-Administration Date"
-* rest.resource[=].searchParam[+].name = "identifier"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Any identifier for the Immunization."
-
-* rest.resource[+].type = #Observation
-* rest.resource[=].profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology"
-* rest.resource[=].interaction[0].code = #update
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchInclude = "*"
-* rest.resource[=].searchParam[0].name = "code"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "The code of the observation type"
-* rest.resource[=].searchParam[+].name = "patient"
-* rest.resource[=].searchParam[=].type = #reference	
-* rest.resource[=].searchParam[=].documentation = "The subject that the observation is about (if patient)"
-* rest.resource[=].searchParam[+].name = "identifier"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Any identifier for the Observation."
-
-* rest.resource[+].type = #Medication
-* rest.resource[=].profile =  "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medication-for-immunization"
-* rest.resource[=].interaction[0].code = #update
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchInclude = "*"
-* rest.resource[=].searchParam[0].name = "code"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Returns medications for a specific code"
-* rest.resource[=].searchParam[+].name = "identifier"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Returns medications with this external identifier"
+  * searchParam[0]
+    * name = "composition"
+    * type = #reference
+    * documentation = "The first resource in the bundle, if the bundle type is \"document\" - this is a composition, and this parameter provides access to search its contents"
+  * searchParam[+]
+    * name = "type"
+    * type = #token
+    * documentation = "document"
 
 
-* rest.resource[+].type = #OperationDefinition
-* rest.resource[=].profile = "http://hl7.org/fhir/StructureDefinition/OperationDefinition"
-* rest.resource[=].interaction.code = #read
-* rest.resource[=].searchInclude = "*"
+* rest.resource[+]
+  * type = #Composition
+  * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition"
+  * supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-epr"
+  * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-administration"
+  * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-vaccination-record"
+  * documentation = """
+Creating a composition and using the operation $document may be usefull to export e.g. an immunization administration document with the last changes"
+"""
+  * interaction[+].code = #read
+  * interaction[+].code = #create
+  * interaction[+].code = #search-type
 
-* rest.resource[+].type = #Composition
-* rest.resource[=].profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-composition-epr"
-* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-administration"
-* rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-vaccination-record"
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].searchParam[0].name = "patient"
-* rest.resource[=].searchParam[=].type = #reference	
-* rest.resource[=].searchParam[=].documentation = "Who and/or what the composition is about"
-* rest.resource[=].searchParam[+].name = "type"
-* rest.resource[=].searchParam[=].type = #token	
-* rest.resource[=].searchParam[=].documentation = "Kind of composition"
-* rest.resource[=].operation[0].name = "document"
-* rest.resource[=].operation[=].definition = "http://hl7.org/fhir/OperationDefinition/Composition-document"
-* rest.resource[=].operation[=].documentation = "Generate export document according to the composition"
+  * searchParam[0]
+    * name = "patient"
+    * type = #reference
+    * documentation = "Who and/or what the composition is about"
 
-* rest.resource[+].type = #Bundle
-* rest.resource[=].profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-document-epr"
-* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"
-* rest.resource[=].supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchParam[0].name = "composition"
-* rest.resource[=].searchParam[=].type = #reference	
-* rest.resource[=].searchParam[=].documentation = "The first resource in the bundle, if the bundle type is \"document\" - this is a composition, and this parameter provides access to search its contents"
-* rest.resource[=].searchParam[+].name = "type"
-* rest.resource[=].searchParam[=].type = #token	
-* rest.resource[=].searchParam[=].documentation = "document"
+  * operation[0]
+    * name = "document"
+    * definition = "http://hl7.org/fhir/OperationDefinition/Composition-document"
+    * documentation = "Generate export document according to the composition"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
 
 
-* rest.resource[+].type = #Organization
-* rest.resource[=].profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"
-* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr"
-* rest.resource[=].interaction[0].code = #update
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchInclude = "*"
-* rest.resource[=].searchParam[0].name = "name"
-* rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "A portion of the organization's name or alias"
-* rest.resource[=].searchParam[+].name = "identifier"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Any identifier for the Organization."
+// ////////////////////////////////////////////////////////////////
+// administrative resources
+// ////////////////////////////////////////////////////////////////
+* rest.resource[+]
+  * type = #Patient
+  * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"
+  * supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr"
+  * interaction[0].code = #update
+  * interaction[+].code = #search-type
+  * interaction[+].code = #read
+  * interaction[+].code = #create
 
-* rest.resource[+].type = #Patient
-* rest.resource[=].profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"
-* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr"
-* rest.resource[=].interaction[0].code = #update
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchInclude = "*"
-* rest.resource[=].searchParam[0].name = "name"
-* rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text"
-* rest.resource[=].searchParam[+].name = "family"
-* rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "A portion of the family name of the patient"
-* rest.resource[=].searchParam[+].name = "given"
-* rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "A portion of the given name of the patient"
-* rest.resource[=].searchParam[+].name = "birthdate"
-* rest.resource[=].searchParam[=].type = #date
-* rest.resource[=].searchParam[=].documentation = "The patient's date of birth"
-* rest.resource[=].searchParam[+].name = "gender"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "Gender of the patient"
-* rest.resource[=].searchParam[+].name = "identifier"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "A patient identifier"
-* rest.resource[=].searchParam[+].name = "address"
-* rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "A server defined search that may match any of the string fields in the Address, including line, city, district, state, country, postalCode, and/or text"
-* rest.resource[=].operation[0].name = "export-document"
-* rest.resource[=].operation[=].definition = "http://fhir.ch/ig/ch-vacd/OperationDefinition/ch-vacd-patient-export-operation"
-* rest.resource[=].operation[=].documentation = "Generate export document according to the selected export type"
+  * searchInclude = "*"
+  * searchParam[0]
+    * name = "name"
+    * type = #string
+    * documentation = "A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
 
+  * searchParam[+]
+    * name = "family"
+    * type = #string
+    * documentation = "A portion of the family name of the patient"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
 
-* rest.resource[+].type = #Practitioner
-* rest.resource[=].profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner"
-* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr"
-* rest.resource[=].interaction[0].code = #update
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchInclude = "*"
-* rest.resource[=].searchParam[0].name = "name"
-* rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text"
-* rest.resource[=].searchParam[+].name = "family"
-* rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "A portion of the family name"
-* rest.resource[=].searchParam[+].name = "given"
-* rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "A portion of the given name of the patient"
-* rest.resource[=].searchParam[+].name = "identifier"
-* rest.resource[=].searchParam[=].type = #token
-* rest.resource[=].searchParam[=].documentation = "A patient identifier"
-* rest.resource[=].searchParam[+].name = "address"
-* rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "A server defined search that may match any of the string fields in the Address, including line, city, district, state, country, postalCode, and/or text"
+  * searchParam[+]
+    * name = "given"
+    * type = #string
+    * documentation = "A portion of the given name of the patient"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
 
-* rest.resource[+].type = #PractitionerRole
-* rest.resource[=].profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole"
-* rest.resource[=].supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr"
-* rest.resource[=].interaction[0].code = #update
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchInclude = "*"
-* rest.resource[=].searchParam.name = "code"
-* rest.resource[=].searchParam.type = #string
+  * searchParam[+]
+    * name = "birthdate"
+    * type = #date
+    * documentation = "The patient's date of birth"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
 
-* rest.resource[+].type = #RelatedPerson
-* rest.resource[=].profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-relatedperson"
-* rest.resource[=].interaction[0].code = #update
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchInclude = "*"
-* rest.resource[=].searchParam[0].name = "code"
-* rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[+].name = "name"
-* rest.resource[=].searchParam[=].type = #string
-* rest.resource[=].searchParam[=].documentation = "A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text"
-* rest.resource[=].searchParam[+].name = "patient"
-* rest.resource[=].searchParam[=].type = #reference
-* rest.resource[=].searchParam[=].documentation = "The patient this related person is related to"
+  * searchParam[+]
+    * name = "gender"
+    * type = #token
+    * documentation = "Gender of the patient"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
 
-* rest.resource[+].type = #Binary
-* rest.resource[=].interaction[0].code = #update
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchInclude = "*"
-* rest.resource[=].searchParam.name = "code"
-* rest.resource[=].searchParam.type = #string
+  * searchParam[+]
+    * name = "identifier"
+    * type = #token
+    * documentation = "A patient identifier"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
 
-* rest.resource[+].type = #Device
-* rest.resource[=].interaction[0].code = #update
-* rest.resource[=].interaction[+].code = #search-type
-* rest.resource[=].interaction[+].code = #read
-* rest.resource[=].interaction[+].code = #create
-* rest.resource[=].searchInclude = "*"
-* rest.resource[=].searchParam.name = "code"
-* rest.resource[=].searchParam.type = #string
+  * searchParam[+]
+    * name = "address"
+    * type = #string
+    * documentation = "A server defined search that may match any of the string fields in the Address, including line, city, district, state, country, postalCode, and/or text"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
 
-* rest.interaction.code = #transaction
-* rest.interaction.documentation = "Create/update resources as Batch or Transaction"
+  * operation[0]
+    * name = "export-document"
+    * definition = "http://fhir.ch/ig/ch-vacd/OperationDefinition/ch-vacd-patient-export-operation"
+    * documentation = "Generate export document according to the selected export type"
 
 
+* rest.resource[+]
+  * type = #RelatedPerson
+  * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-relatedperson"
+  * interaction[0].code = #update
+  * interaction[+].code = #search-type
+  * interaction[+].code = #read
+  * interaction[+].code = #create
+  * searchInclude = "*"
+
+  * searchParam[0]
+    * name = "code"
+    * type = #string
+    * documentation = "tset"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+
+  * searchParam[+]
+    * name = "name"
+    * type = #string
+    * documentation = "A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+
+  * searchParam[+]
+    * name = "patient"
+    * type = #reference
+    * documentation = "The patient this related person is related to"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+
+
+* rest.resource[+]
+  * type = #PractitionerRole
+  * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole"
+  * supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr"
+  * interaction[0].code = #update
+  * interaction[+].code = #search-type
+  * interaction[+].code = #read
+  * interaction[+].code = #create
+  * searchInclude = "*"
+  * searchParam[0]
+    * name = "code"
+    * type = #string
+
+
+* rest.resource[+]
+  * type = #Practitioner
+  * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner"
+  * supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr"
+  * interaction[0].code = #update
+  * interaction[+].code = #search-type
+  * interaction[+].code = #read
+  * interaction[+].code = #create
+  * searchInclude = "*"
+  * searchParam[0]
+    * name = "name"
+    * type = #string
+    * documentation = "A server defined search that may match any of the string fields in the HumanName, including family, give, prefix, suffix, suffix, and/or text"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "family"
+    * type = #string
+    * documentation = "A portion of the family name"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "given"
+    * type = #string
+    * documentation = "A portion of the given name of the patient"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "identifier"
+    * type = #token
+    * documentation = "A patient identifier"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "address"
+    * type = #string
+    * documentation = "A server defined search that may match any of the string fields in the Address, including line, city, district, state, country, postalCode, and/or text"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+
+
+* rest.resource[+]
+  * type = #Organization
+  * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"
+  * supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr"
+  * interaction[0].code = #update
+  * interaction[+].code = #search-type
+  * interaction[+].code = #read
+  * interaction[+].code = #create
+  * searchInclude = "*"
+  * searchParam[0]
+    * name = "name"
+    * type = #string
+    * documentation = "A portion of the organization's name or alias"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "identifier"
+    * type = #token
+    * documentation = "Any identifier for the Organization."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+
+
+
+// ////////////////////////////////////////////////////////////////
+// content resources
+// ////////////////////////////////////////////////////////////////
+
+* rest.resource[+]
+  * type = #Immunization
+  * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"
+  * interaction[0].code = #update
+  * interaction[+].code = #search-type
+  * interaction[+].code = #read
+  * interaction[+].code = #create
+  * searchInclude = "*"
+  * searchParam[0]
+    * name = "patient"
+    * type = #reference
+    * documentation = "The patient for the vaccination record"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "vaccine-code"
+    * type = #token
+    * documentation = "Vaccine Product Administered"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "target-disease"
+    * type = #token
+    * documentation = "The target disease the dose is being administered against"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "date"
+    * type = #date
+    * documentation = "Vaccination (non)-Administration Date"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "identifier"
+    * type = #token
+    * documentation = "Any identifier for the Immunization."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+
+
+* rest.resource[+]
+  * type = #AllergyIntolerance
+  * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances"
+  * interaction[0].code = #update
+  * interaction[+].code = #search-type
+  * interaction[+].code = #read
+  * interaction[+].code = #create
+  * searchInclude = "*"
+  * searchParam[0]
+    * name = "code"
+    * type = #token
+    * documentation = "Code that identifies the allergy or intolerance"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "patient"
+    * type = #reference
+    * documentation = "Who the sensitivity is for"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "identifier"
+    * type = #token
+    * documentation = "Any identifier for the AllergyIntolerance."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+
+
+* rest.resource[+]
+  * type = #Condition
+  * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-condition"
+  * supportedProfile[0] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-basic-immunization"
+  * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems"
+  * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-pastillnesses"
+  * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-travel-information"
+  * interaction[0].code = #update
+  * interaction[+].code = #search-type
+  * interaction[+].code = #read
+  * interaction[+].code = #create
+  * searchInclude = "*"
+  * searchParam[0]
+    * name = "code"
+    * type = #token
+    * documentation = "Code for the condition"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "patient"
+    * type = #reference
+    * documentation = "Who has the condition?"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "identifier"
+    * type = #token
+    * documentation = "Any identifier for the Condition."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+
+
+* rest.resource[+]
+  * type = #Observation
+  * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology"
+  * interaction[0].code = #update
+  * interaction[+].code = #search-type
+  * interaction[+].code = #read
+  * interaction[+].code = #create
+  * searchInclude = "*"
+  * searchParam[0]
+    * name = "code"
+    * type = #token
+    * documentation = "The code of the observation type"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "patient"
+    * type = #reference	
+    * documentation = "The subject that the observation is about (if patient)"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "identifier"
+    * type = #token
+    * documentation = "Any identifier for the Observation."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+
+* rest.resource[+]
+  * type = #Medication
+  * profile =  "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medication-for-immunization"
+  * interaction[0].code = #update
+  * interaction[+].code = #search-type
+  * interaction[+].code = #read
+  * interaction[+].code = #create
+  * searchInclude = "*"
+  * searchParam[0]
+    * name = "code"
+    * type = #token
+    * documentation = "Returns medications for a specific code"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "identifier"
+    * type = #token
+    * documentation = "Returns medications with this external identifier"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+
+
+* rest.resource[+]
+  * type = #Location
+  * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-travel-location"
+  * interaction[0].code = #read
+  * interaction[+].code = #create
+  * interaction[+].code = #update
+//  * interaction[+].code = #search-type
+
+
+* rest.resource[+]
+  * type = #Binary
+  * interaction[0].code = #read
+  * interaction[+].code = #create
+  * interaction[+].code = #update
+//  * interaction[+].code = #search-type
+//  * searchInclude = "*"
+//  * searchParam
+//    * name = "code"
+//    * type = #string
+//    * extension[0]
+//      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+//      * valueCode = #MAY
+
+* rest.resource[+]
+  * type = #Device
+  * interaction[0].code = #read
+  * interaction[+].code = #create
+  * interaction[+].code = #update
+//  * interaction[+].code = #search-type
+//  * searchInclude = "*"
+//  * searchParam
+//    * name = "code"
+//    * type = #string
+//    * extension[0]
+//      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+//      * valueCode = #MAY
+
+// ////////////////////////////////////////////////////////////////
+// system resources/interactions
+// ////////////////////////////////////////////////////////////////
+* rest.interaction
+  * code = #transaction
+  * documentation = "Create/update resources as Batch or Transaction"
+
+* rest.resource[+]
+  * type = #OperationDefinition
+  * profile = "http://hl7.org/fhir/StructureDefinition/OperationDefinition"
+  * interaction.code = #read
+  * searchInclude = "*"
+
+* document[0]
+  * mode = #producer
+  * documentation = "The system produces"
+  * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"
+
+* document[+]
+  * mode = #consumer
+  * documentation = "The system consumes"
+  * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"
+
+* document[+]
+  * mode = #consumer
+  * documentation = "The system consumes"
+  * .profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"
