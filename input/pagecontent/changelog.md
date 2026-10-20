@@ -23,6 +23,8 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#421](https://github.com/hl7ch/ch-vacd/issues/421): CapabilityStatement for server – missing capabilitystatement-expectation extension
 * [#422](https://github.com/hl7ch/ch-vacd/issues/422): CapabilityStatement for server – two-tier proposal (Query vs. Full Repository server)
 * [#423](https://github.com/hl7ch/ch-vacd/issues/423): REST API – missing security/authorization/consent/audit section
+* [#424](https://github.com/hl7ch/ch-vacd/issues/424): Verification Status – impact on query/aggregator logic
+* [#425](https://github.com/hl7ch/ch-vacd/issues/425): Verification Status – handling of unverified patient-reported immunizations
 * [#426](https://github.com/hl7ch/ch-vacd/issues/426): CH VACD Travel Information - onsetPeriod
 * [#427](https://github.com/hl7ch/ch-vacd/issues/427): CapabilityStatement for server – mandatory search parameters
 * [#430](https://github.com/hl7ch/ch-vacd/issues/430): Timestamp of the authorship – redundant slice definition
@@ -35,8 +37,6 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#439](https://github.com/hl7ch/ch-vacd/issues/439): Refactor Documen graphics
 * [#456](https://github.com/hl7ch/ch-vacd/issues/456): Fix publisher errors
 * [#466](https://github.com/hl7ch/ch-vacd/issues/466): Update Sushi Config - Project Info
-
-
 
 * [ch-term#187](https://github.com/hl7ch/ch-term/issues/187): Fix CH VACD build errors (CH TERM)
 

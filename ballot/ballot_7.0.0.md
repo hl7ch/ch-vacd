@@ -39,8 +39,8 @@ During the ballot, 44 issues were reported for CH VACD:
 * [ ] [Issue #418](https://github.com/hl7ch/ch-vacd/issues/418): Relation to CH IPS
 * [x] [Issue #419](https://github.com/hl7ch/ch-vacd/issues/419): Terminology - graphic
 * [x] [Issue #423](https://github.com/hl7ch/ch-vacd/issues/423): REST API – missing security/authorization/consent/audit section
-* [ ] [Issue #424](https://github.com/hl7ch/ch-vacd/issues/424): Verification Status – impact on query/aggregator logic
-* [ ] [Issue #425](https://github.com/hl7ch/ch-vacd/issues/425): Verification Status – handling of unverified patient-reported immunizations
+* [x] [Issue #424](https://github.com/hl7ch/ch-vacd/issues/424): Verification Status – impact on query/aggregator logic
+* [x] [Issue #425](https://github.com/hl7ch/ch-vacd/issues/425): Verification Status – handling of unverified patient-reported immunizations
 * [x] [Issue #426](https://github.com/hl7ch/ch-vacd/issues/426): CH VACD Travel Information
 * [x] [Issue #438](https://github.com/hl7ch/ch-vacd/issues/438): CH VACD Condition Profile (Abstract) - abstract double
 * [x] [Issue #439](https://github.com/hl7ch/ch-vacd/issues/439): Refactor Document graphics
