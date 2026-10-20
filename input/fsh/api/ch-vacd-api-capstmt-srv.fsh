@@ -3,8 +3,8 @@ InstanceOf: CapabilityStatement
 Usage: #definition
 * name = "CHVACDApiCapabilityStatementServer"
 * title = "CH VACD FHIR API CapabilityStatement for server"
-* status = #draft
-* date = "2026-03-23T09:43:45.742+01:00"
+* status = #active
+* date = "2026-10-20T00:00:00.000+01:00"
 * kind = #requirements
 * fhirVersion = #4.0.1
 * format[0] = #application/fhir+xml
@@ -14,6 +14,22 @@ Usage: #definition
 
 * rest.documentation = "The server will handle all resources and also complete vaccination documents"
 
+* rest.security.description = """
+Vaccination data is sensitive personal health data. A system implementing this CapabilityStatement is responsible for protecting it in accordance with the applicable legal requirements (e.g., the Swiss Federal Act on Data Protection) and the security policies of the environment in which it is deployed.
+
+This implementation guide does not define a specific security mechanism. Implementers should at least address the following aspects:
+
+- **Transport security:** All communication should be encrypted using TLS.
+- **Authentication:** Users and client systems must be reliably identified before accessing the API, e.g., using OAuth 2.0 and OpenID Connect, or the [SMART App Launch](https://hl7.org/fhir/smart-app-launch/) framework.
+- **Authorization:** Access should be limited to the data a user or client is entitled to see, for example, restricting a patient app to the patient's own data.
+- **Consent:** Patient consent and access policies must be respected when data is read or shared.
+- **Audit logging:** Access to and changes of data should be logged in a traceable way, e.g., using [AuditEvent](https://hl7.org/fhir/R4/auditevent.html) resources.
+
+If the API is used within the Swiss EPR, the security requirements of the EPR apply.
+
+For further guidance, see [FHIR Security](https://hl7.org/fhir/R4/security.html).
+"""
+
 * rest.resource[0]
   * type = #Bundle
   * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-document"
@@ -21,21 +37,38 @@ Usage: #definition
   * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"
   * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"
   * documentation = """
-Executing a create operation with a complete Bundle of the type document with the profiles immunization administration or vaccination record, will process all containing entries of the document.
-New entries not known to the system will be created and existing will be updated.
+Submitting a complete document Bundle (Immunization Administration or Vaccination Record profile) in a create operation triggers processing of all entries in the document.
+Entries that are not yet known to the system are created, and entries that already exist are updated.
 """
-  * interaction[+].code = #read
-  * interaction[+].code = #create
-  * interaction[+].code = #search-type
+  * interaction[0]
+    * code = #create
+    * documentation = "Create a Bundle resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read a Bundle resource by id."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #search-type
+    * documentation = "Search for Bundle resources."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
 
   * searchParam[0]
     * name = "composition"
     * type = #reference
-    * documentation = "The first resource in the bundle, if the bundle type is \"document\" - this is a composition, and this parameter provides access to search its contents"
+    * documentation = """
+    The first resource in the bundle, if the bundle type is \"document\" - is a composition, and this parameter provides access to search its contents.
+  """
   * searchParam[+]
     * name = "type"
     * type = #token
-    * documentation = "document"
+    * documentation = "The kind of bundle; use document to search for document bundles."
 
 
 * rest.resource[+]
@@ -45,11 +78,32 @@ New entries not known to the system will be created and existing will be updated
   * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-immunization-administration"
   * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-vaccination-record"
   * documentation = """
-Creating a composition and using the operation $document may be usefull to export e.g. an immunization administration document with the last changes"
+Creating a composition and using the operation $document may be usefull to export e.g. an immunization administration document containing the last changes made for the referenced patient."
 """
-  * interaction[+].code = #read
-  * interaction[+].code = #create
-  * interaction[+].code = #search-type
+  * interaction[0]
+    * code = #create
+    * documentation = "Create a Composition resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing Composition resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read a Composition resource by id."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #search-type
+    * documentation = "Search for Composition resources."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
 
   * searchParam[0]
     * name = "patient"
@@ -72,10 +126,27 @@ Creating a composition and using the operation $document may be usefull to expor
   * type = #Patient
   * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"
   * supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient-epr"
-  * interaction[0].code = #update
-  * interaction[+].code = #search-type
-  * interaction[+].code = #read
-  * interaction[+].code = #create
+  * documentation = """
+  The patient vaccination and immunization information will be exchanged for.
+  """
+  * interaction[0]
+    * code = #create
+    * documentation = "Create a Patient resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing Patient resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read a Patient resource by id."
+  * interaction[+]
+    * code = #search-type
+    * documentation = "Search for Patient resources."
 
   * searchInclude = "*"
   * searchParam[0]
@@ -138,21 +209,44 @@ Creating a composition and using the operation $document may be usefull to expor
     * name = "export-document"
     * definition = "http://fhir.ch/ig/ch-vacd/OperationDefinition/ch-vacd-patient-export-operation"
     * documentation = "Generate export document according to the selected export type"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #SHOULD
 
 
 * rest.resource[+]
   * type = #RelatedPerson
   * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-relatedperson"
-  * interaction[0].code = #update
-  * interaction[+].code = #search-type
-  * interaction[+].code = #read
-  * interaction[+].code = #create
+  * interaction[0]
+    * code = #create
+    * documentation = "Create a RelatedPerson resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing RelatedPerson resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read a RelatedPerson resource by id."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #search-type
+    * documentation = "Search for RelatedPerson resources."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
   * searchInclude = "*"
 
   * searchParam[0]
     * name = "code"
     * type = #string
-    * documentation = "tset"
+    * documentation = "The code identifying the RelatedPerson's relationship to the patient."
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #MAY
@@ -178,24 +272,53 @@ Creating a composition and using the operation $document may be usefull to expor
   * type = #PractitionerRole
   * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole"
   * supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitionerrole-epr"
-  * interaction[0].code = #update
-  * interaction[+].code = #search-type
-  * interaction[+].code = #read
-  * interaction[+].code = #create
+  * interaction[0]
+    * code = #create
+    * documentation = "Create a PractitionerRole resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing PractitionerRole resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read a PractitionerRole resource by id."
+  * interaction[+]
+    * code = #search-type
+    * documentation = "Search for PractitionerRole resources."
   * searchInclude = "*"
   * searchParam[0]
     * name = "code"
     * type = #string
+    * documentation = "The code describing the role performed by the practitioner."
 
 
 * rest.resource[+]
   * type = #Practitioner
   * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner"
   * supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-practitioner-epr"
-  * interaction[0].code = #update
-  * interaction[+].code = #search-type
-  * interaction[+].code = #read
-  * interaction[+].code = #create
+  * interaction[0]
+    * code = #create
+    * documentation = "Create a Practitioner resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing Practitioner resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read a Practitioner resource by id."
+  * interaction[+]
+    * code = #search-type
+    * documentation = "Search for Practitioner resources."
   * searchInclude = "*"
   * searchParam[0]
     * name = "name"
@@ -238,10 +361,24 @@ Creating a composition and using the operation $document may be usefull to expor
   * type = #Organization
   * profile = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization"
   * supportedProfile[0] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization-epr"
-  * interaction[0].code = #update
-  * interaction[+].code = #search-type
-  * interaction[+].code = #read
-  * interaction[+].code = #create
+  * interaction[0]
+    * code = #create
+    * documentation = "Create an Organization resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing Organization resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read an Organization resource by id."
+  * interaction[+]
+    * code = #search-type
+    * documentation = "Search for Organization resources."
   * searchInclude = "*"
   * searchParam[0]
     * name = "name"
@@ -267,10 +404,24 @@ Creating a composition and using the operation $document may be usefull to expor
 * rest.resource[+]
   * type = #Immunization
   * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-immunization"
-  * interaction[0].code = #update
-  * interaction[+].code = #search-type
-  * interaction[+].code = #read
-  * interaction[+].code = #create
+  * interaction[0]
+    * code = #create
+    * documentation = "Create an Immunization resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing Immunization resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read an Immunization resource by id."
+  * interaction[+]
+    * code = #search-type
+    * documentation = "Search for Immunization resources."
   * searchInclude = "*"
   * searchParam[0]
     * name = "patient"
@@ -278,7 +429,7 @@ Creating a composition and using the operation $document may be usefull to expor
     * documentation = "The patient for the vaccination record"
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-      * valueCode = #MAY
+      * valueCode = #SHALL
   * searchParam[+]
     * name = "vaccine-code"
     * type = #token
@@ -312,22 +463,36 @@ Creating a composition and using the operation $document may be usefull to expor
 * rest.resource[+]
   * type = #AllergyIntolerance
   * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-allergyintolerances"
-  * interaction[0].code = #update
-  * interaction[+].code = #search-type
-  * interaction[+].code = #read
-  * interaction[+].code = #create
-  * searchInclude = "*"
-  * searchParam[0]
-    * name = "code"
-    * type = #token
-    * documentation = "Code that identifies the allergy or intolerance"
+  * interaction[0]
+    * code = #create
+    * documentation = "Create an AllergyIntolerance resource."
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #MAY
-  * searchParam[+]
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing AllergyIntolerance resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read an AllergyIntolerance resource by id."
+  * interaction[+]
+    * code = #search-type
+    * documentation = "Search for AllergyIntolerance resources."
+  * searchInclude = "*"
+  * searchParam[0]
     * name = "patient"
     * type = #reference
     * documentation = "Who the sensitivity is for"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #SHALL
+  * searchParam[+]
+    * name = "code"
+    * type = #token
+    * documentation = "Code that identifies the allergy or intolerance"
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #MAY
@@ -347,22 +512,36 @@ Creating a composition and using the operation $document may be usefull to expor
   * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medical-problems"
   * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-pastillnesses"
   * supportedProfile[+] = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-travel-information"
-  * interaction[0].code = #update
-  * interaction[+].code = #search-type
-  * interaction[+].code = #read
-  * interaction[+].code = #create
-  * searchInclude = "*"
-  * searchParam[0]
-    * name = "code"
-    * type = #token
-    * documentation = "Code for the condition"
+  * interaction[0]
+    * code = #create
+    * documentation = "Create a Condition resource."
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #MAY
-  * searchParam[+]
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing Condition resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read a Condition resource by id."
+  * interaction[+]
+    * code = #search-type
+    * documentation = "Search for Condition resources."
+  * searchInclude = "*"
+  * searchParam[0]
     * name = "patient"
     * type = #reference
-    * documentation = "Who has the condition?"
+    * documentation = "The patient for the vaccination record"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #SHALL
+  * searchParam[+]
+    * name = "code"
+    * type = #token
+    * documentation = "Code for the condition"
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #MAY
@@ -378,22 +557,36 @@ Creating a composition and using the operation $document may be usefull to expor
 * rest.resource[+]
   * type = #Observation
   * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-laboratory-serology"
-  * interaction[0].code = #update
-  * interaction[+].code = #search-type
-  * interaction[+].code = #read
-  * interaction[+].code = #create
-  * searchInclude = "*"
-  * searchParam[0]
-    * name = "code"
-    * type = #token
-    * documentation = "The code of the observation type"
+  * interaction[0]
+    * code = #create
+    * documentation = "Create an Observation resource."
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #MAY
-  * searchParam[+]
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing Observation resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read an Observation resource by id."
+  * interaction[+]
+    * code = #search-type
+    * documentation = "Search for Observation resources."
+  * searchInclude = "*"
+  * searchParam[0]
     * name = "patient"
-    * type = #reference	
-    * documentation = "The subject that the observation is about (if patient)"
+    * type = #reference
+    * documentation = "The patient for the vaccination record"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #SHALL
+  * searchParam[+]
+    * name = "code"
+    * type = #token
+    * documentation = "The code of the observation type"
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #MAY
@@ -408,10 +601,24 @@ Creating a composition and using the operation $document may be usefull to expor
 * rest.resource[+]
   * type = #Medication
   * profile =  "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-medication-for-immunization"
-  * interaction[0].code = #update
-  * interaction[+].code = #search-type
-  * interaction[+].code = #read
-  * interaction[+].code = #create
+  * interaction[0]
+    * code = #create
+    * documentation = "Create a Medication resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing Medication resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read a Medication resource by id."
+  * interaction[+]
+    * code = #search-type
+    * documentation = "Search for Medication resources."
   * searchInclude = "*"
   * searchParam[0]
     * name = "code"
@@ -432,39 +639,69 @@ Creating a composition and using the operation $document may be usefull to expor
 * rest.resource[+]
   * type = #Location
   * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-travel-location"
-  * interaction[0].code = #read
-  * interaction[+].code = #create
-  * interaction[+].code = #update
-//  * interaction[+].code = #search-type
+  * interaction[0]
+    * code = #create
+    * documentation = "Create a Location resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing Location resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read a Location resource by id."
 
 
 * rest.resource[+]
   * type = #Binary
-  * interaction[0].code = #read
-  * interaction[+].code = #create
-  * interaction[+].code = #update
-//  * interaction[+].code = #search-type
-//  * searchInclude = "*"
-//  * searchParam
-//    * name = "code"
-//    * type = #string
-//    * extension[0]
-//      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-//      * valueCode = #MAY
+  * interaction[0]
+    * code = #create
+    * documentation = "Create a Binary resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing Binary resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read a Binary resource by id."
 
 * rest.resource[+]
   * type = #Device
-  * interaction[0].code = #read
-  * interaction[+].code = #create
-  * interaction[+].code = #update
-//  * interaction[+].code = #search-type
-//  * searchInclude = "*"
-//  * searchParam
-//    * name = "code"
-//    * type = #string
-//    * extension[0]
-//      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-//      * valueCode = #MAY
+  * interaction[0]
+    * code = #create
+    * documentation = "Create a Device resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #update
+    * documentation = "Update an existing Device resource."
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * interaction[+]
+    * code = #read
+    * documentation = "Read a Device resource by id."
+
+* rest.resource[+]
+  * type = #ImmunizationRecommendation
+  * documentation = """
+Support for ImmunizationRecommendation should not be added.
+Recommendations are based on the information available at a specific point in time. They can become outdated when new information is added or when the rules on which they are based change.
+If support is nevertheless added, workflows and processes must be implemented to update or remove obsolete recommendations.
+"""
+  * extension[0]
+    * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+    * valueCode = #SHOULD-NOT
 
 // ////////////////////////////////////////////////////////////////
 // system resources/interactions
@@ -472,11 +709,16 @@ Creating a composition and using the operation $document may be usefull to expor
 * rest.interaction
   * code = #transaction
   * documentation = "Create/update resources as Batch or Transaction"
+  * extension[0]
+    * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+    * valueCode = #MAY
 
 * rest.resource[+]
   * type = #OperationDefinition
   * profile = "http://hl7.org/fhir/StructureDefinition/OperationDefinition"
-  * interaction.code = #read
+  * interaction
+    * code = #read
+    * documentation = "Read an OperationDefinition resource by id."
   * searchInclude = "*"
 
 * document[0]
@@ -488,8 +730,14 @@ Creating a composition and using the operation $document may be usefull to expor
   * mode = #consumer
   * documentation = "The system consumes"
   * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record"
+  * extension[0]
+    * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+    * valueCode = #MAY
 
 * document[+]
   * mode = #consumer
   * documentation = "The system consumes"
-  * .profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"
+  * profile = "http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-immunization-administration"
+  * extension[0]
+    * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+    * valueCode = #MAY
