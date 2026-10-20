@@ -1,0 +1,117 @@
+@startuml CH-VACD_CH-IPS-Document
+skinparam shadowing false
+skinparam defaultFontName Monospaced
+skinparam defaultTextAlignment center
+skinparam rectangle {
+    roundCorner 10
+}
+
+skinparam linetype polyline
+skinparam defaultFontSize 12
+
+left to right direction
+together {
+    rectangle "[[http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-document-vaccination-record Vaccination Record Document]]" as document #Orange {
+        rectangle "[[http://fhir.ch/ig/ch-vacd/StructureDefinition/ch-vacd-composition-vaccination-record Composition]]" as composition #Lightblue  {
+            together {
+                rectangle "Patient (required subject)          " as patient #70c0f9 {
+                }
+                rectangle "Author (required author)            " as author #70c0f9 {
+                }
+                rectangle "Attester                            " as attester #70c0f9 {
+                }
+                rectangle "Custodian                           " as custodian #70c0f9 {
+                }
+            }
+            together {
+                rectangle "Section: Allergies and Intolerances " as allergies #LightGreen {
+                }
+                rectangle "Section: Immunization Administration" as immunization #LightGreen {
+                    rectangle "Immunization" as immunizationCard {
+                    }
+                    rectangle "Basic Immunization" as basicImmunizationCard {
+                    }
+                }
+                rectangle "Section: Medical Problems           " as medicalProblems #LightGreen {
+                }
+                rectangle "Section: Past Illnesses             " as pastIllnesses #LightGreen {
+                }
+                rectangle "Section: Laboratory Serology        " as laboratorySerology #LightGreen {
+                }
+                rectangle "Section: Annotation                 " as annotation #LightGreen {
+                }
+            }
+        }
+    }
+
+
+    rectangle "[[http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-document-epr CH IPS Document]]" as documentips #Grey {
+        rectangle "[[http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-composition Composition]]" as compositionips #Lightblue   {
+            together {
+                rectangle "Patient (required subject)          " as patientips #70c0f9 {
+                }
+                rectangle "Author (required author)            " as authorips #70c0f9{
+                }
+                rectangle "Attester                            " as attesterips #70c0f9 {
+                }
+                rectangle "Custodian                           " as custordianips #70c0f9 {
+                }
+            }
+            together {
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#problem-list Problems                            ]]" as problemsips #f9573b {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#allergies-and-intolerances Allergies and Intolerances          ]]" as allergiesips #f9573b {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#medication-summary Medication Summary                  ]]" as medicationSummaryips #f9573b {
+                }
+            }
+            together {
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#immunizations Immunizations                       ]]" as immunizationsips #fea333 {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#diagnostic-results Diagnostic Results                  ]]" as diagnosticResultsips #fea333 {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#history-of-procedures History of Procedures               ]]" as historyOfProceduresips #fea333 {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#medical-devices Medical Devices                     ]]" as medicalDevicesips #fea333 {
+                }
+            }
+            together {
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#advance-directives Advance Directives                  ]]" as advanceDirectivesips #fea333 {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#advance-directives Alerts                              ]]" as alertsips #fea333 {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#functional-status Functional Status                   ]]" as functionalStatusips #LightGreen {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#history-of-past-problems History of Past Problems            ]]" as historyOfPastProblemsips #LightGreen {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#history-of-pregnancy History of Pregnancy                ]]" as historyOfPregnancyips #LightGreen {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#patient-story Patient Story                       ]]" as patientStoryips #LightGreen {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#plan-of-care Plan of Care                        ]]" as planOfCareips #LightGreen {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#social-history Social History                      ]]" as socialHistoryips #LightGreen {
+                }
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#vital-signs Vital Signs                         ]]" as vitalSignsips #LightGreen {
+                }
+
+            }
+        }
+    }
+
+    patient <--> patientips
+    author <--> authorips
+    attester <--> attesterips
+    custodian <--> custordianips
+
+    medicalProblems <--> problemsips
+    allergies <--> allergiesips
+    immunizationCard <--> immunizationsips
+
+    basicImmunizationCard <--> problemsips
+    laboratorySerology <--> diagnosticResultsips
+    "annotation" <--> advanceDirectivesips
+
+    pastIllnesses <--> historyOfPastProblemsips
+}
+@enduml
