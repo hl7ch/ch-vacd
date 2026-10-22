@@ -48,5 +48,5 @@ For further details see [Narrative Text Generation](generatenarrativetext.html).
 * [CH VACD Medical Problems](StructureDefinition-ch-vacd-medical-problems.html): Definition of the medical problems part for all documents.
 * [CH VACD Past Illness](StructureDefinition-ch-vacd-pastillnesses.html): Definition of the past illness part for all documents.
 * [CH VACD AllergyIntolerance](StructureDefinition-ch-vacd-allergyintolerances.html): Definition of the AllergyIntolerance part for all documents.
-* [CH VACD Laboratory And Serology](StructureDefinition-ch-vacd-laboratory-serology.html): Definition of the labor and serology part for all documents.
+* [CH VACD Laboratory And Serology](StructureDefinition-ch-vacd-laboratory-serology.html): Definition of the laboratory and serology part for all documents.
 * [CH VACD Medication For Immunization](StructureDefinition-ch-vacd-medication-for-immunization.html) Definition of the medication for immunization.

@@ -4,7 +4,7 @@
 There is a ImmunizationAdministration document for the patient in the ehealth ecosystem the patient is connceted to.
 
 ### Sequence
-The practitioner HCP1, creates a ImmunizationAdministration document with the earlier detected allergy on an vaccination and stores it to the the ehealth ecosystem he is connected to.
+The practitioner HCP1, creates an ImmunizationAdministration document with the earlier detected allergy to a vaccination and stores it in the eHealth ecosystem he is connected to.
 
 <div>{% include TCB01.svg %}</div>
 

@@ -14,4 +14,4 @@ see more about the [Validation and VerificationStatus](verification-status.html)
 ### Duplicate Conflict
 
 By aggregation of different [Immunization Administration](immunization-administration-document.html) documents, duplicates could be detected. If so, the entries in the [Vaccination Record](vaccination-record-document.html) document (as result of the aggregation) should be completed with the extension [CH VACD Extension Merging Conflict Entry Reference](StructureDefinition-ch-vacd-ext-merging-conflict-entry-reference.html).
-The criterias of duplicate detection can be found [here](StructureDefinition-ch-vacd-ext-merging-conflict-entry-reference.html#laboratory-and-serology).
+The criteria of duplicate detection can be found [here](StructureDefinition-ch-vacd-ext-merging-conflict-entry-reference.html#laboratory-and-serology).
