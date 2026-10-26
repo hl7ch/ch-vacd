@@ -38,7 +38,7 @@ chips -[hidden]right- ips
 chvacd -right-> chcore #Silver : <color:Gray>derived
 chcore -right-> chterm #Silver : <color:Gray>uses
 chips -up-> chcore #Silver : <color:Gray>derived
-chvacd -right-> chips #Silver : <color:Gray>?? imposeProfile\n<color:Gray>Extension ??
+chvacd -right-> chips #Silver : <color:Gray>imposeProfile\n<color:Gray>Extension
 chips -right-> ips #Silver : <color:Gray>imposeProfile\n<color:Gray>Extension
 
 
