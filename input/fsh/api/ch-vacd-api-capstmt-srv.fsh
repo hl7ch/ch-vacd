@@ -244,12 +244,12 @@ Creating a composition and using the operation $document may be usefull to expor
   * searchInclude = "*"
 
   * searchParam[0]
-    * name = "code"
-    * type = #string
-    * documentation = "The code identifying the RelatedPerson's relationship to the patient."
+    * name = "patient"
+    * type = #reference
+    * documentation = "The patient this related person is related to"
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-      * valueCode = #MAY
+      * valueCode = #SHALL
 
   * searchParam[+]
     * name = "name"
@@ -258,15 +258,6 @@ Creating a composition and using the operation $document may be usefull to expor
     * extension[0]
       * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
       * valueCode = #MAY
-
-  * searchParam[+]
-    * name = "patient"
-    * type = #reference
-    * documentation = "The patient this related person is related to"
-    * extension[0]
-      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
-      * valueCode = #MAY
-
 
 * rest.resource[+]
   * type = #PractitionerRole
@@ -292,9 +283,19 @@ Creating a composition and using the operation $document may be usefull to expor
     * documentation = "Search for PractitionerRole resources."
   * searchInclude = "*"
   * searchParam[0]
-    * name = "code"
-    * type = #string
-    * documentation = "The code describing the role performed by the practitioner."
+    * name = "practitioner"
+    * type = #reference
+    * documentation = "The practitioner this role is associated with"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
+  * searchParam[+]
+    * name = "organization"
+    * type = #reference
+    * documentation = "The organization this role is associated with"
+    * extension[0]
+      * url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+      * valueCode = #MAY
 
 
 * rest.resource[+]
