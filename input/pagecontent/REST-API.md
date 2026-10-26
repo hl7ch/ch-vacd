@@ -1,5 +1,5 @@
 
-This page illustrates how the profiles of this implementation guide can be used with a [FHIR RESTful API](https://hl7.org/fhir/http.html). It is informative. Conformance to the other parts of this implementation guide (e.g. the document pro les for the Immunization Administration and Vaccination Record documents, or the Immunization Recommendation Request and Response messages) does not require implementing this API, and the API does not impose additional requirements on them.
+This page illustrates how the profiles of this implementation guide can be used with a [FHIR RESTful API](https://hl7.org/fhir/http.html). It is informative. Conformance to the other parts of this implementation guide (e.g. the document profiles for the Immunization Administration and Vaccination Record documents, or the Immunization Recommendation Request and Response messages) does not require implementing this API, and the API does not impose additional requirements on them.
 
 In a fully FHIR-based environment, client applications (e.g., a patient vaccination app or a healthcare provider system) communicate via the FHIR API. The endpoint can be a full FHIR server, including a repository for persistence, or a FHIR facade connected to an EMR application.
 
