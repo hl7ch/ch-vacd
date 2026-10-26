@@ -47,6 +47,7 @@ together {
 
     rectangle "[[http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-document-epr CH IPS Document]]" as documentips #Grey {
         rectangle "[[http://fhir.ch/ig/ch-ips/StructureDefinition/ch-ips-composition Composition]]" as compositionips #Lightblue   {
+
             together {
                 rectangle "Patient (required subject)          " as patientips #70c0f9 {
                 }
@@ -57,6 +58,7 @@ together {
                 rectangle "Custodian                           " as custordianips #70c0f9 {
                 }
             }
+
             together {
                 rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#problem-list Problems                            ]]" as problemsips #f9573b {
                 }
@@ -65,6 +67,7 @@ together {
                 rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#medication-summary Medication Summary                  ]]" as medicationSummaryips #f9573b {
                 }
             }
+
             together {
                 rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#immunizations Immunizations                       ]]" as immunizationsips #fea333 {
                 }
@@ -74,11 +77,13 @@ together {
                 }
                 rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#medical-devices Medical Devices                     ]]" as medicalDevicesips #fea333 {
                 }
+
             }
+
             together {
-                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#advance-directives Advance Directives                  ]]" as advanceDirectivesips #fea333 {
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#advance-directives Advance Directives                  ]]" as advanceDirectivesips #LightGreen {
                 }
-                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#advance-directives Alerts                              ]]" as alertsips #fea333 {
+                rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#advance-directives Alerts                              ]]" as alertsips #LightGreen {
                 }
                 rectangle "[[https://hl7.org/fhir/uv/ips/STU2/Structure-of-the-International-Patient-Summary.html#functional-status Functional Status                   ]]" as functionalStatusips #LightGreen {
                 }
@@ -96,6 +101,8 @@ together {
                 }
 
             }
+
+
         }
     }
 
@@ -104,14 +111,16 @@ together {
     attester <--> attesterips
     custodian <--> custordianips
 
-    medicalProblems <--> problemsips
-    allergies <--> allergiesips
     immunizationCard <--> immunizationsips
 
-    basicImmunizationCard <--> problemsips
-    laboratorySerology <--> diagnosticResultsips
-    "annotation" <--> advanceDirectivesips
+    allergies <--> allergiesips
+    medicalProblems <--> problemsips
 
     pastIllnesses <--> historyOfPastProblemsips
+    laboratorySerology <--> diagnosticResultsips
+
+
+    ' basicImmunizationCard <--> problemsips
+    ' "annotation" <--> advanceDirectivesips
 }
 @enduml
