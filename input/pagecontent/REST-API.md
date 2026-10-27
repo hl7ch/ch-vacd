@@ -3,7 +3,7 @@ This page illustrates how the profiles of this implementation guide can be used 
 
 In a fully FHIR-based environment, client applications (e.g., a patient vaccination app or a healthcare provider system) communicate via the FHIR API. The endpoint can be a full FHIR server, including a repository for persistence, or a FHIR facade connected to an EMR application.
 
-Importing an (immunization administration document](immunization-administration-document.html) or a [vaccination record document](vaccination-record-document.html) into the system can be done by using the [create method on the resource bundle](CapabilityStatement-ch-vacd-api-capstmt-srv.html#Bundle1-1).
+Importing an [immunization administration document](immunization-administration-document.html) or a [vaccination record document](vaccination-record-document.html) into the system can be done by using the [create method on the resource bundle](CapabilityStatement-ch-vacd-api-capstmt-srv.html#Bundle1-1).
 
 In addition to the endpoints for the resources used in a vaccination context, an [export operation $export-document](OperationDefinition-ch-vacd-patient-export-operation.html) can be provided to export the data as a [vaccination record document](vaccination-record-document.html) or an [immunization recommendation request message](immunization-recommendation-request-message.html).
 
