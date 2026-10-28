@@ -33,12 +33,12 @@ During the ballot, 44 issues were reported for CH VACD:
 * [x] [Issue #402](https://github.com/hl7ch/ch-vacd/issues/402): Links in the ConceptMaps diagram do not work
 * [x] [Issue #403](https://github.com/hl7ch/ch-vacd/issues/403): URL for CDA-CH-VACD – Immunisation Content
 * [x] [Issue #405](https://github.com/hl7ch/ch-vacd/issues/405): Use Case 1 – Impfdokumentation sichten
-* [ ] [Issue #406](https://github.com/hl7ch/ch-vacd/issues/406): Clarification on Document bundle ingestion
+* [x] [Issue #406](https://github.com/hl7ch/ch-vacd/issues/406): Clarification on Document bundle ingestion
 * [x] [Issue #407](https://github.com/hl7ch/ch-vacd/issues/407): Expand acronym meaning in diagrams
 * [x] [Issue #413](https://github.com/hl7ch/ch-vacd/issues/413): Removed CH Core extension in example
 * [x] [Issue #418](https://github.com/hl7ch/ch-vacd/issues/418): Relation to CH IPS
 * [x] [Issue #419](https://github.com/hl7ch/ch-vacd/issues/419): Terminology - graphic
-* [ ] [Issue #423](https://github.com/hl7ch/ch-vacd/issues/423): REST API – missing security/authorization/consent/audit section
+* [x] [Issue #423](https://github.com/hl7ch/ch-vacd/issues/423): REST API – missing security/authorization/consent/audit section
 * [x] [Issue #424](https://github.com/hl7ch/ch-vacd/issues/424): Verification Status – impact on query/aggregator logic
 * [x] [Issue #425](https://github.com/hl7ch/ch-vacd/issues/425): Verification Status – handling of unverified patient-reported immunizations
 * [x] [Issue #426](https://github.com/hl7ch/ch-vacd/issues/426): CH VACD Travel Information
@@ -58,16 +58,16 @@ During the ballot, 44 issues were reported for CH VACD:
 
 ## REST API
 * [x] [Issue #410](https://github.com/hl7ch/ch-vacd/issues/410): $export-document operation
-* [ ] [Issue #411](https://github.com/hl7ch/ch-vacd/issues/411): CapabilityStatement
-* [ ] [Issue #420](https://github.com/hl7ch/ch-vacd/issues/420): REST API disclaimer
-* [ ] [Issue #421](https://github.com/hl7ch/ch-vacd/issues/421): CapabilityStatement for server – missing capabilitystatement-expectation extension
-* [ ] [Issue #422](https://github.com/hl7ch/ch-vacd/issues/422): CapabilityStatement for server – two-tier proposal (Query vs. Full Repository server)
-* [ ] [Issue #427](https://github.com/hl7ch/ch-vacd/issues/427): CapabilityStatement for server – mandatory search parameters
+* [x] [Issue #411](https://github.com/hl7ch/ch-vacd/issues/411): CapabilityStatement
+* [x] [Issue #420](https://github.com/hl7ch/ch-vacd/issues/420): REST API disclaimer
+* [x] [Issue #421](https://github.com/hl7ch/ch-vacd/issues/421): CapabilityStatement for server – missing capabilitystatement-expectation extension
+* [x] [Issue #422](https://github.com/hl7ch/ch-vacd/issues/422): CapabilityStatement for server – two-tier proposal (Query vs. Full Repository server)
+* [x] [Issue #427](https://github.com/hl7ch/ch-vacd/issues/427): CapabilityStatement for server – mandatory search parameters
 * [x] [Issue #433](https://github.com/hl7ch/ch-vacd/issues/433): Operation GeneratePatientExportDocument has no patient
 
 ## Typos
 * [x] [Issue #404](https://github.com/hl7ch/ch-vacd/issues/404): Several typos in use case documents
-* [ ] [Issue #415](https://github.com/hl7ch/ch-vacd/issues/415): Editorial corrections
+* [x] [Issue #415](https://github.com/hl7ch/ch-vacd/issues/415): Editorial corrections
 * [x] [Issue #436](https://github.com/hl7ch/ch-vacd/issues/436): CDS Immunization Recommendation – typos in workflow/CDSS paragraphs
 
 ## Publisher

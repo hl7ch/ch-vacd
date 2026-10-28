@@ -1,6 +1,6 @@
 ### Scope and Usage
 
-This composition is defined to be used in the context of an vaccination record. This means to document and/or exchange a comlete record of patient in the context of vaccination and immunization.
+This composition is defined to be used in the context of a vaccination record. This means to document and/or exchange a complete record of patient in the context of vaccination and immunization.
 
 
 This profile is inherited from the ch-core profile [CH Core Composition EPR](https://build.fhir.org/ig/hl7ch/ch-core/StructureDefinition-ch-core-composition-epr.html).
