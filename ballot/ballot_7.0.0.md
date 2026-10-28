@@ -25,7 +25,6 @@ During the ballot, 44 issues were reported for CH VACD:
 ## Issue opened in CH Core
 * [x] [Issue #448](https://github.com/hl7ch/ch-core/issues/448): Indication code extension – wrong slicing context
 * [x] [Issue #449](https://github.com/hl7ch/ch-core/issues/449): CH Core Immunization (Roeland Luykx (RALY GmbH))
-* [ ] [Issue #462](https://github.com/hl7ch/ch-core/issues/462): Mandatory values and code list maintenance
 * [ ] [Issue #463](https://github.com/hl7ch/ch-core/issues/463): Future mandatory status of vaccineCode/NUVA
 * [ ] [Issue #464](https://github.com/hl7ch/ch-core/issues/464): Swissmedic vs. Immunoglobulin ValueSet – Clarification
 
