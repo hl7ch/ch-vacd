@@ -5,8 +5,8 @@ The STU7 ballot was held from August 7 to September 30. From September 22 to 23,
 the annual Projectathon took place, where there was the opportunity to test the 
  eVaccination exchange format and provide feedback.   
 During the ballot, 44 issues were reported for CH VACD:
-* [ ] [Issues CH VACD](https://github.com/hl7ch/ch-vacd/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22ballot%20v7.0.0%20-%20STU%207%22)
-* [ ] [Issue CH Term](https://github.com/hl7ch/ch-term/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22CH%20VACD%22)
+* [x] [Issues CH VACD](https://github.com/hl7ch/ch-vacd/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22ballot%20v7.0.0%20-%20STU%207%22)
+* [x] [Issue CH Term](https://github.com/hl7ch/ch-term/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22CH%20VACD%22)
 * [ ] [Issue CH Core](https://github.com/hl7ch/ch-core/issues?q=is%3Aissue+state%3Aopen+label%3A%22CH+VACD%22)
 
 ## Terminology
@@ -17,7 +17,7 @@ During the ballot, 44 issues were reported for CH VACD:
 #### Issue opened in CH Term
 * [x] [Issue 178](https://github.com/hl7ch/ch-term/issues/178): CH VACD Target disease and illnesses undergone for immunization 
 * [x] [Issue 179](https://github.com/hl7ch/ch-term/issues/179): VaccineCode To TargetDisease Mapping - Missing Code
-* [ ] [Issue 180](https://github.com/hl7ch/ch-term/issues/180): CH VACD All Swiss Vaccine Codes
+* [x] [Issue 180](https://github.com/hl7ch/ch-term/issues/180): CH VACD All Swiss Vaccine Codes
 * [x] [Issue 183](https://github.com/hl7ch/ch-term/issues/183): CH VACD All Swiss Vaccine Codes - Update the vaccine list
 * [x] [Issue #184](https://github.com/hl7ch/ch-term/issues/184): Typo in FR translation of CodeSystem: Swiss Medic Authorized Vaccines Codesystem
 * [x] [Issue #187](https://github.com/hl7ch/ch-term/issues/187): Fix CH VACD build errors
