@@ -5,8 +5,8 @@ The STU7 ballot was held from August 7 to September 30. From September 22 to 23,
 the annual Projectathon took place, where there was the opportunity to test the 
  eVaccination exchange format and provide feedback.   
 During the ballot, 44 issues were reported for CH VACD:
-* [ ] [Issues CH VACD](https://github.com/hl7ch/ch-vacd/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22ballot%20v7.0.0%20-%20STU%207%22)
-* [ ] [Issue CH Term](https://github.com/hl7ch/ch-term/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22CH%20VACD%22)
+* [x] [Issues CH VACD](https://github.com/hl7ch/ch-vacd/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22ballot%20v7.0.0%20-%20STU%207%22)
+* [x] [Issue CH Term](https://github.com/hl7ch/ch-term/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22CH%20VACD%22)
 * [ ] [Issue CH Core](https://github.com/hl7ch/ch-core/issues?q=is%3Aissue+state%3Aopen+label%3A%22CH+VACD%22)
 
 ## Terminology
@@ -15,17 +15,16 @@ During the ballot, 44 issues were reported for CH VACD:
 * [x] [Issue #431](https://github.com/hl7ch/ch-vacd/issues/431): Dubious ValueSet bound to lab result
 
 #### Issue opened in CH Term
-* [ ] [Issue 178](https://github.com/hl7ch/ch-term/issues/178): CH VACD Target disease and illnesses undergone for immunization 
-* [ ] [Issue 179](https://github.com/hl7ch/ch-term/issues/179): VaccineCode To TargetDisease Mapping - Missing Code
-* [ ] [Issue 180](https://github.com/hl7ch/ch-term/issues/180): CH VACD All Swiss Vaccine Codes
-* [ ] [Issue 183](https://github.com/hl7ch/ch-term/issues/183): CH VACD All Swiss Vaccine Codes - Update the vaccine list
-* [ ] [Issue #184](https://github.com/hl7ch/ch-term/issues/184): Typo in FR translation of CodeSystem: Swiss Medic Authorized Vaccines Codesystem
+* [x] [Issue 178](https://github.com/hl7ch/ch-term/issues/178): CH VACD Target disease and illnesses undergone for immunization 
+* [x] [Issue 179](https://github.com/hl7ch/ch-term/issues/179): VaccineCode To TargetDisease Mapping - Missing Code
+* [x] [Issue 180](https://github.com/hl7ch/ch-term/issues/180): CH VACD All Swiss Vaccine Codes
+* [x] [Issue 183](https://github.com/hl7ch/ch-term/issues/183): CH VACD All Swiss Vaccine Codes - Update the vaccine list
+* [x] [Issue #184](https://github.com/hl7ch/ch-term/issues/184): Typo in FR translation of CodeSystem: Swiss Medic Authorized Vaccines Codesystem
 * [x] [Issue #187](https://github.com/hl7ch/ch-term/issues/187): Fix CH VACD build errors
 
 ## Issue opened in CH Core
-* [ ] [Issue #448](https://github.com/hl7ch/ch-core/issues/448): Indication code extension – wrong slicing context
-* [ ] [Issue #449](https://github.com/hl7ch/ch-core/issues/449): CH Core Immunization (Roeland Luykx (RALY GmbH))
-* [ ] [Issue #462](https://github.com/hl7ch/ch-core/issues/462): Mandatory values and code list maintenance
+* [x] [Issue #448](https://github.com/hl7ch/ch-core/issues/448): Indication code extension – wrong slicing context
+* [x] [Issue #449](https://github.com/hl7ch/ch-core/issues/449): CH Core Immunization (Roeland Luykx (RALY GmbH))
 * [ ] [Issue #463](https://github.com/hl7ch/ch-core/issues/463): Future mandatory status of vaccineCode/NUVA
 * [ ] [Issue #464](https://github.com/hl7ch/ch-core/issues/464): Swissmedic vs. Immunoglobulin ValueSet – Clarification
 
