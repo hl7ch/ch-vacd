@@ -1,7 +1,15 @@
 ### Introduction
-The CH VACD implementation guide describes the FHIR representation of the defined **documents for the exchange of vaccination and immunization information** and a **FHIR RESTful API in the context of vaccination and immunization**.
 
+The CH VACD implementation guide describes the FHIR representation of the defined **documents for the exchange of vaccination and immunization information** and a **FHIR RESTful API in the context of vaccination and immunization**.
 This implementation guide depends on the CH Core profiles ([CH Core](http://fhir.ch/ig/ch-core/index.html)), which describe the Swiss-specific resources.
+
+The need to exchange this information across borders influenced the specification. The [International Patient Summary Implementation Guide (IPS)](https://hl7.org/fhir/uv/ips){:target="_blank"} provided guidance (e.g. the [Immunization profile](http://hl7.org/fhir/uv/ips/StructureDefinition-Immunization-uv-ips.html){:target="_blank"}).
+Using international code systems such as SNOMED CT®, LOINC, EDQM and UCUM wherever possible increases cross-border compatibility.
+In the meantime, the [CH IPS Implementation Guide](https://fhir.ch/ig/ch-ips){:target="_blank"} has been published.
+
+The mapping between the CH VACD Document and the CH IPS Document is described on the [IPS mappings](IPS-mappings.html) page.
+
+<div>{% include IG_DEPENDENCIES.svg %}</div>
 
 The need to exchange information across borders has influenced the specification. The [International Patient Summary Implementation Guide (IPS)](http://hl7.org/fhir/uv/ips/) served as a basis in some areas (e.g., the [Immunization profile](http://hl7.org/fhir/uv/ips/StructureDefinition-Immunization-uv-ips.html)).
 Using international code systems such as SNOMED CT®, LOINC, EDQM and UCUM wherever possible increases compatibility across borders.

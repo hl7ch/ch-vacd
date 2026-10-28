@@ -18,6 +18,7 @@ All significant changes to this FHIR implementation guide will be documented on 
 * [#415](https://github.com/hl7ch/ch-vacd/issues/415): Editorial corrections
 * [#416](https://github.com/hl7ch/ch-vacd/issues/416): SimpleQuantity comparator
 * [#417](https://github.com/hl7ch/ch-vacd/issues/417): NUVA binding and FOPH indication code inherited from CH Core 7 are not documented
+* [#418](https://github.com/hl7ch/ch-vacd/issues/418): Relation to CH IPS
 * [#419](https://github.com/hl7ch/ch-vacd/issues/419): Terminology
 * [#420](https://github.com/hl7ch/ch-vacd/issues/420): REST API disclaimer
 * [#421](https://github.com/hl7ch/ch-vacd/issues/421): CapabilityStatement for server – missing capabilitystatement-expectation extension
