@@ -1,9 +1,15 @@
 ### Introduction
-The CH VACD implementation guide describes the FHIR representation of the defined **documents for the exchange of vaccination and immunization information**. 
-This implementation guide is dependent on the CH Core Profiles [CH Core](http://fhir.ch/ig/ch-core/index.html) which describes the Swiss specific resources.
+The CH VACD implementation guide describes the FHIR representation of the defined **documents for the exchange of vaccination and immunization information**.
+This implementation guide depends on the [CH Core](http://fhir.ch/ig/ch-core/index.html) profiles, which define the Swiss-specific resources.
 
-The circumstance to be able to exchange the information across borders had his influence on the specification. The [International Patient Summary Implementation Guide (IPS)](http://hl7.org/fhir/uv/ips/) gave some support (i.e. [Immunization Profile](http://hl7.org/fhir/uv/ips/StructureDefinition-Immunization-uv-ips.html)).
-Using as much as possible international code systems like SNOMED CT®, LOINC, EDQM UCUM will increase the compatibility across borders.
+The need to exchange this information across borders influenced the specification. The [International Patient Summary Implementation Guide (IPS)](https://hl7.org/fhir/uv/ips){:target="_blank"} provided guidance (e.g. the [Immunization profile](http://hl7.org/fhir/uv/ips/StructureDefinition-Immunization-uv-ips.html){:target="_blank"}).
+Using international code systems such as SNOMED CT®, LOINC, EDQM and UCUM wherever possible increases cross-border compatibility.
+In the meantime, the [CH IPS Implementation Guide](https://fhir.ch/ig/ch-ips){:target="_blank"} has been published.
+
+The mapping between the CH VACD Document and the CH IPS Document is described on the [IPS mappings](IPS-mappings.html) page.
+
+<div>{% include IG_DEPENDENCIES.svg %}</div>
+
 
 <div markdown="1" class="stu-note">
 

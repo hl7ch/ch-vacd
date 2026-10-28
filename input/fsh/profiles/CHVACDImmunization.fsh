@@ -8,6 +8,7 @@ Description: "Definition of the immunization part for all documents."
 * ^experimental = false
 * ^publisher = "eHealth Suisse"
 * . ^short = "CH VACD Immunization"
+* ^extension[$imposeProfile].valueCanonical = Canonical(ChIpsImmunization)
 * contained 0..1
 * contained ^short = "Immunization inline resource"
 * extension contains

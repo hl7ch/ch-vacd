@@ -37,6 +37,7 @@ dependencies:
     uri: http://terminology.hl7.org/ImplementationGuide/hl7.terminology
     version: 7.4.0
   ch.fhir.ig.ch-core: 7.0.0-ballot
+  ch.fhir.ig.ch-ips: 2.0.x
 
 resources:
   CapabilityStatement/ch-vacd-api-capstmt-srv:

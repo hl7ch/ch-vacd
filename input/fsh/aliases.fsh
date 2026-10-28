@@ -57,5 +57,7 @@ Alias: $ActivePharmaceuticalIngredient =                                http://f
 
 Alias: $data-absent-reason =                                            http://hl7.org/fhir/StructureDefinition/data-absent-reason|4.0.1
 
+Alias: $imposeProfile =                     http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile
+
 
 
