@@ -7,7 +7,7 @@ the annual Projectathon took place, where there was the opportunity to test the
 During the ballot, 44 issues were reported for CH VACD:
 * [x] [Issues CH VACD](https://github.com/hl7ch/ch-vacd/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22ballot%20v7.0.0%20-%20STU%207%22)
 * [x] [Issue CH Term](https://github.com/hl7ch/ch-term/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22CH%20VACD%22)
-* [ ] [Issue CH Core](https://github.com/hl7ch/ch-core/issues?q=is%3Aissue+state%3Aopen+label%3A%22CH+VACD%22)
+* [x] [Issue CH Core](https://github.com/hl7ch/ch-core/issues?q=is%3Aissue+state%3Aopen+label%3A%22CH+VACD%22)
 
 ## Terminology
 * [x] [Issue #412](https://github.com/hl7ch/ch-vacd/issues/412): Terminology page: travel value set, Romansh designations and Forecast Status link
@@ -25,8 +25,8 @@ During the ballot, 44 issues were reported for CH VACD:
 ## Issue opened in CH Core
 * [x] [Issue #448](https://github.com/hl7ch/ch-core/issues/448): Indication code extension – wrong slicing context
 * [x] [Issue #449](https://github.com/hl7ch/ch-core/issues/449): CH Core Immunization (Roeland Luykx (RALY GmbH))
-* [ ] [Issue #463](https://github.com/hl7ch/ch-core/issues/463): Future mandatory status of vaccineCode/NUVA
-* [ ] [Issue #464](https://github.com/hl7ch/ch-core/issues/464): Swissmedic vs. Immunoglobulin ValueSet – Clarification
+* [x] [Issue #463](https://github.com/hl7ch/ch-core/issues/463): Future mandatory status of vaccineCode/NUVA
+* [x] [Issue #464](https://github.com/hl7ch/ch-core/issues/464): Swissmedic vs. Immunoglobulin ValueSet – Clarification
 
 ## Documentation
 * [x] [Issue #402](https://github.com/hl7ch/ch-vacd/issues/402): Links in the ConceptMaps diagram do not work
