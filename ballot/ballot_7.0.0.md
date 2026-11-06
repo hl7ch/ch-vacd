@@ -73,4 +73,4 @@ During the ballot, 44 issues were reported for CH VACD:
 * [x] [Issue #456](https://github.com/hl7ch/ch-vacd/issues/456): Fix publisher errors
 
 ## Question
-* [ ] [Issue #429](https://github.com/hl7ch/ch-vacd/issues/429): Why isn't CHVACDExtensionVerificationStatus a modifier extension?
+* [x] [Issue #429](https://github.com/hl7ch/ch-vacd/issues/429): Why isn't CHVACDExtensionVerificationStatus a modifier extension?
